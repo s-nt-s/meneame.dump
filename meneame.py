@@ -5,6 +5,7 @@ import time
 import bs4
 import sys
 import glob
+import yaml
 
 MMP = "https://www.meneame.net/?page="
 seen=list(range(-101,-1))
@@ -55,7 +56,7 @@ def get_news(page):
 			new['comments']=int(counter[0].get_text().strip())
 		else:
 			new['comments']=0
-		tgs=get("html"+_story+".html").select("span.news-tags a")
+		tgs=read("html"+_story+".html").select("span.news-tags a")
 		new['tags']= new['tags'] + [t.get_text().strip() for t in tgs]
 		news.append(new)
 	return news
@@ -75,14 +76,18 @@ def jsn(news):
 def readpage(page,first=False):
 	news=get_news(page)
 	if len(news)>0:
+		with open('meneame.yml', 'a') as outfile:
+			yaml.safe_dump_all(news, outfile, default_flow_style=False,allow_unicode=True, default_style=None)
+			outfile.write("---")
 		if not first:
 			write(",","a")
 		write(jsn(news),"a",1)
-		news=[{'date':n['date'],'tags':n['tags']} for n in news]
+		news=[{'date':n['published'],'tags':n['tags']} for n in news]
 		write(jsn(news),"a",2)
 
 if __name__ == "__main__":
 	htmls=glob.glob('html/portada/*.html')
+	open("meneame.yml", 'w').close()
 	write("[","w")
 	readpage(htmls.pop(0), True)
 	for page in htmls:
