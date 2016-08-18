@@ -6,17 +6,42 @@ import bs4
 import sys
 import glob
 import yaml
+import os.path
+import requests
+import re
 
 MMP = "https://www.meneame.net/?page="
+size=20
 seen=list(range(-101,-1))
+# <meta name="keywords" content="apollo,astonautas,alexei leonov,espacio,vosjod 2" />
+rtag=re.compile("<meta +name=\"keywords\" +content=\"([^\"]+)",re.UNICODE | re.MULTILINE)
 
 def read(f):
-	html = open(f).read()
+	#print "1"
+	html = open(f, "r").read()
+	#print "2"
 	soup = bs4.BeautifulSoup(html,"lxml")
+	#print "3"
+	return soup
+	
+def readonline(url):
+	response = requests.get(url)
+	soup = bs4.BeautifulSoup(response.text,"lxml")
 	return soup
 
 def selectone(a,path,index=0):
 	return a.select(path)[index]
+
+def get_tags(story):
+	sp=None
+	if os.path.isfile("html"+story+".html"):
+		html = open("html"+story+".html", "r").read()
+	else:
+		html = requests.get("https://www.meneame.net"+story).text
+	m=rtag.search(html)
+	if m:
+		return m.group(1)
+	return None
 
 def get_news(page):
 	sp=read(page)
@@ -40,7 +65,7 @@ def get_news(page):
 			'url': _h.attrs["href"],
 			'author': a.select("div.news-submitted a")[0].attrs["href"].split("/")[-1],
 			'body': " ".join([t.string.strip() for t in a.find_all(text=True,recursive=False)]).strip(), 
-			'tags': [a.select("div.news-details span.tool a")[0].get_text().strip()],
+			'sub': a.select("div.news-details span.tool a")[0].get_text().strip(),
 			'story': "https://www.meneame.net"+_story,
 			'karma': int(a.select("#a-karma-"+str(_id))[0].get_text().strip()),
 			'sent': dates[0], 
@@ -56,41 +81,40 @@ def get_news(page):
 			new['comments']=int(counter[0].get_text().strip())
 		else:
 			new['comments']=0
-		tgs=read("html"+_story+".html").select("span.news-tags a")
-		new['tags']= new['tags'] + [t.get_text().strip() for t in tgs]
+		new['tags']= get_tags(_story)
 		news.append(new)
-	return news
+	return news[::-1]
 
-def write(s,modo,en=3):
-	if en in (1,3):
-		with open("meneame.json", modo) as f:
-			f.write(s+"\n")
-	if en in (2,3):
-		with open("meneame.mini.json", modo) as f:
-			f.write(s+"\n")
-
-def jsn(news):
-	js=json.dumps(news)[1:-1].strip()
-	return js.replace("}, {","}, \n{")
-
-def readpage(page,first=False):
+def readpage(page):
 	news=get_news(page)
 	if len(news)>0:
 		with open('meneame.yml', 'a') as outfile:
 			yaml.safe_dump_all(news, outfile, default_flow_style=False,allow_unicode=True, default_style=None)
-			outfile.write("---")
-		if not first:
-			write(",","a")
-		write(jsn(news),"a",1)
-		news=[{'date':n['published'],'tags':n['tags']} for n in news]
-		write(jsn(news),"a",2)
+			outfile.write("---\n")
+	else:
+		print "SKIP"
 
 if __name__ == "__main__":
-	htmls=glob.glob('html/portada/*.html')
-	open("meneame.yml", 'w').close()
-	write("[","w")
-	readpage(htmls.pop(0), True)
-	for page in htmls:
-		readpage(page)
-	write("]","a")
-        
+	dirs=sorted(glob.glob('html/portada/*'))
+	if not os.path.isfile("meneame.yml"):
+		open("meneame.yml", 'w').close()
+		pags=0
+	else:
+		f = os.popen("grep \"^id: \" meneame.yml | cut -d' ' -f2")
+		ids=f.read().splitlines()
+		f.close()
+		pags=(len(ids)/(size*100))
+		seen=seen + [int(i) for i in ids]
+		seen=seen[-3000:]
+
+	for dr in dirs:
+		if pags>0:
+			pags=pags-1
+			continue
+		print dr
+
+		htmls=sorted(glob.glob(dr+'/*.html'))
+		for page in htmls:
+			print page
+			readpage(page)
+
