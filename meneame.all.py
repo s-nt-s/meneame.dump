@@ -16,6 +16,7 @@ STR="https://www.meneame.net/story/"
 EXIT=False
 
 def signal_handler(signal, frame):
+	global EXIT
 	EXIT=True
 	print "Se saldra en la proxima iteracion"
 signal.signal(signal.SIGINT, signal_handler)

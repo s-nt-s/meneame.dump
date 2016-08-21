@@ -9,6 +9,14 @@ import yaml
 import os.path
 import requests
 import re
+import signal
+
+EXIT=False
+def signal_handler(signal, frame):
+	global EXIT
+	EXIT=True
+	print "Se saldra en la proxima iteracion"
+signal.signal(signal.SIGINT, signal_handler)
 
 MMP = "https://www.meneame.net/?page="
 size=20
@@ -117,4 +125,5 @@ if __name__ == "__main__":
 		for page in htmls:
 			print page
 			readpage(page)
-
+			if EXIT:
+				sys.exit(0)
