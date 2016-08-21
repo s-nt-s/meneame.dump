@@ -76,7 +76,7 @@ def get_news(page):
 				'negative':int(a.select("#a-neg-"+str(_id))[0].get_text().strip())
 			}
 		}
-		counter=sp.select("span.comments-counter span.counter")
+		counter=a.select("span.comments-counter span.counter")
 		if len(counter)>0:
 			new['comments']=int(counter[0].get_text().strip())
 		else:
