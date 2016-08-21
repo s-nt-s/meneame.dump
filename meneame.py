@@ -21,7 +21,7 @@ signal.signal(signal.SIGINT, signal_handler)
 MMP = "https://www.meneame.net/?page="
 size=20
 seen=list(range(-101,-1))
-# <meta name="keywords" content="apollo,astonautas,alexei leonov,espacio,vosjod 2" />
+
 rtag=re.compile("<meta +name=\"keywords\" +content=\"([^\"]+)",re.UNICODE | re.MULTILINE)
 
 def read(f):
@@ -89,7 +89,9 @@ def get_news(page):
 			new['comments']=int(counter[0].get_text().strip())
 		else:
 			new['comments']=0
-		new['tags']= get_tags(_story)
+		tags=get_tags(_story)
+		if tags:
+			new['tags']=tags
 		news.append(new)
 	return news[::-1]
 
