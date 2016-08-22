@@ -23,7 +23,5 @@ with open("meneame.yml", 'r') as stream:
 			with open('meneame.tags.yml', 'a') as outfile:
 				yaml.safe_dump_all([o], outfile) #, default_flow_style=False,allow_unicode=True, default_style=None)
 				outfile.write("---\n")
-		else:
-			print str(d)
     except yaml.YAMLError as exc:
         print(exc)
