@@ -264,7 +264,10 @@ class Api:
 
     def get_posts(self):
         posts = {}
-        for status in ('published', 'queued', 'all'):
+        # duplicated metapublished
+        # https://github.com/Meneame/meneame.net/blob/master/sql/meneame.sql
+        # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
+        for status in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
             for p in self.get_list(params={"status": status}):
                 posts[p["id"]] = p
         posts = sorted(posts.values(), key=lambda p: p["id"])

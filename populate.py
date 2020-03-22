@@ -8,6 +8,6 @@ db = DBLite("meneame.db")
 
 posts = api.get_posts()
 db.full_table("POSTS", posts)
-comments = api.get_comments(*posts)
-db.full_table("COMMENTS", comments)
+#comments = api.get_comments(*posts)
+#db.full_table("COMMENTS", comments)
 db.close()
