@@ -1,0 +1,22 @@
+create table POSTS (
+  "id" NUMBER,
+  "permalink" TEXT,
+  "go" TEXT,
+  "url" TEXT,
+  "from" TEXT,
+  "sub" TEXT,
+  "status" TEXT,
+  "user" TEXT,
+  "clicks" NUMBER,
+  "votes" NUMBER,
+  "negatives" NUMBER,
+  "karma" NUMBER,
+  "comments" NUMBER,
+  "title" TEXT,
+  "tags" TEXT,
+  "sent_date" NUMBER,
+  "date" NUMBER,
+  "content" TEXT,
+  "thumb" TEXT,
+  PRIMARY KEY (id)
+);
