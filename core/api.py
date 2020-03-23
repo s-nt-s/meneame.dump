@@ -9,6 +9,8 @@ import time
 import bs4
 import requests
 import urllib3
+import sys
+from functools import lru_cache
 
 from .endpoint import EndPoint
 
@@ -24,6 +26,9 @@ dt3 = re.compile(r'(\d\d):(\d\d) UTC')
 
 logger = logging.getLogger()
 
+def chunks(lst, n):
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
 
 def str_to_epoch(s, date):
     mt = dt3.match(s)
@@ -51,7 +56,8 @@ def str_to_epoch(s, date):
 def get_response(url, params=None):
     r = requests.get(url, params=params)
     if r.status_code not in (200, 202) or len(r.text) == 0:
-        msg = "%d %s\n\t%s" % (r.status_code, r.url, r.text)
+        url = r.url.replace("%2C", ",")
+        msg = "%d %s\n\t%s" % (r.status_code, url, r.text)
         logger.error(msg.strip())
         return None
     return r
@@ -169,6 +175,7 @@ class Api:
         self.list = EndPoint("api/list.php")
         self.comment_answers = EndPoint("backend/get_comment_answers.php")
         self.post_answers = EndPoint("backend/get_post_answers.php")
+        self._max_min_id = None
 
     def get_list(self, params=None):
         if params is None:
@@ -194,6 +201,13 @@ class Api:
         if js and params["fields"] in js:
             return js[params["fields"]]
         return js
+
+    def get_safe_info(self, params):
+        try:
+            return self.get_info(params)
+        except requests.exceptions.ConnectionError as e:
+            time.sleep(60)
+            return sefl.get_safe_info(params)
 
     def get_story_url(self, id):
         r = requests.get(self.story, params={
@@ -262,14 +276,20 @@ class Api:
             point = self.post_answers
         return get_comments(point, params={'id': id})
 
-    def get_posts(self):
+    def get_links(self):
         posts = {}
+        max_min_id=-1
         # duplicated metapublished
         # https://github.com/Meneame/meneame.net/blob/master/sql/meneame.sql
         # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
         for status in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
+            min_id=sys.maxsize
             for p in self.get_list(params={"status": status}):
                 posts[p["id"]] = p
+                min_id = min(min_id, p["id"])
+            if min_id<sys.maxsize:
+                max_min_id = max(max_min_id, min_id)
+        self._max_min_id=max_min_id
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
@@ -286,3 +306,39 @@ class Api:
                 comments[c["id"]] = c
         comments = sorted(comments.values(), key=lambda c: c["id"])
         return comments
+
+    @property
+    @lru_cache(maxsize=None)
+    def link_fields(self):
+        ep = EndPoint("libs/link.php")
+        ep.load()
+        re_fields=re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
+        return re_fields.findall(ep.text)
+
+    def get_link_info(self, id):
+        kys = set(self.get_list({"rows":1})[0].keys())
+        fld = set(self.link_fields)
+        eq = kys.intersection(fld)
+        for k in ("username", "sub_name"):
+            if k in fld:
+                eq.add(k)
+        if "id" in eq:
+            eq.remove("id")
+        eq = sorted(eq)
+        _link = {"id": id}
+        for fl in chunks(eq, 10):
+            fl = ",".join(fl)
+            obj = self.get_safe_info({'what': 'link', 'id': id, 'fields': fl})
+            if not obj:
+                return None
+            _link = {**_link, **obj}
+        link = {}
+        for k, v in _link.items():
+            if v in (None, ""):
+                continue
+            if k == "username":
+                k = "user"
+            elif k == "sub_name":
+                k = "sub"
+            link[k]=v
+        return link
