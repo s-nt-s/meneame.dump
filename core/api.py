@@ -56,11 +56,18 @@ def str_to_epoch(s, date):
 
 
 def get_response(url, params=None):
-    r = requests.get(url, params=params)
-    if r.status_code not in (200, 202) or len(r.text) == 0:
+    try:
+        r = requests.get(url, params=params)
+    except requests.exceptions.ConnectionError as e:
+        time.sleep(60)
+        return get_response(url, params=None)
+    if r.status_code not in (200, 202):
+        time.sleep(60)
+        return get_response(url, params=None)
+    if len(r.text) == 0:
         url = r.url.replace("%2C", ",")
         msg = "%d %s\n\t%s" % (r.status_code, url, r.text)
-        logger.error(msg.strip())
+        #logger.error(msg.strip())
         return None
     return r
 
@@ -204,13 +211,6 @@ class Api:
             return js[params["fields"]]
         return js
 
-    def get_safe_info(self, params):
-        try:
-            return self.get_info(params)
-        except requests.exceptions.ConnectionError as e:
-            time.sleep(60)
-            return sefl.get_safe_info(params)
-
     def get_story_url(self, id):
         r = requests.get(self.story, params={
                          'id': id}, allow_redirects=False)
@@ -295,18 +295,26 @@ class Api:
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
-    def search_links(self, word="te"):
-        ini = datetime.fromtimestamp(self.start_epoch)
-        ini = ini.replace(day=1).date()
-        fin = datetime.now().replace(day=2).date()
-        ms1 = relativedelta(months=1)
+    def search_links(self, *words):
+        if not word:
+            word = ("te", "ta", "ca", "co", "de", "el", "que", "una")
         posts = {}
-        while ini<fin:
-            # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
-            for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
-                for p in self.get_list(params={"s": status, "q": word, "w": "links", "yymm": ini.strftime("%Y%m")}):
-                    posts[p["id"]] = p
-            ini = ini + ms1
+        for word in words:
+            _all = self.get_list(params={"s": 'published queued all autodiscard discard abuse duplicated metapublished', "q": word, "w": "links"})
+            for p in _all:
+                posts[p["id"]] = p
+            if len(_all)<50:
+                continue
+            ini = datetime.fromtimestamp(self.start_epoch)
+            ini = ini.replace(day=1).date()
+            fin = datetime.now().replace(day=2).date()
+            ms1 = relativedelta(months=1)
+            while ini<fin:
+                # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
+                for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
+                    for p in self.get_list(params={"s": status, "q": word, "w": "links", "yymm": ini.strftime("%Y%m")}):
+                        posts[p["id"]] = p
+                ini = ini + ms1
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
@@ -353,7 +361,7 @@ class Api:
         _link = {"id":id}
         for fl in chunks(self.link_fields, 10):
             fl = ",".join(fl)
-            obj = self.get_safe_info({'what': 'link', 'id': id, 'fields': fl})
+            obj = self.get_info({'what': 'link', 'id': id, 'fields': fl})
             if not obj:
                 return None
             _link = {**_link, **obj}
