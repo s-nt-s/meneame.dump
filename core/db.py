@@ -230,8 +230,8 @@ class DBLite:
             sql = sql+"\n);\n"
             self.execute(sql, to_file="sql/"+table+".sql")
             self.commit()
-        self.openTransaction()
+        #self.openTransaction()
         for row in rows:
             self.insert(table, insert_or="replace", **row)
-        self.closeTransaction()
+        #self.closeTransaction()
         self.commit()

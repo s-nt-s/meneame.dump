@@ -316,7 +316,10 @@ class Api:
         return re_fields.findall(ep.text)
 
     def get_link_info(self, id):
-        kys = set(self.get_list({"rows":1})[0].keys())
+        kys = self.get_list({"rows":1})
+        if not kys:
+           return None
+        kys = set(kys[0].keys())
         fld = set(self.link_fields)
         eq = kys.intersection(fld)
         for k in ("username", "sub_name"):
