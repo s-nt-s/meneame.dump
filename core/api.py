@@ -313,23 +313,19 @@ class Api:
         ep = EndPoint("libs/link.php")
         ep.load()
         re_fields=re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
-        return re_fields.findall(ep.text)
-
-    def get_link_info(self, id):
+        fld = set(re_fields.findall(ep.text))
         kys = self.get_list({"rows":1})
-        if not kys:
-           return None
         kys = set(kys[0].keys())
-        fld = set(self.link_fields)
         eq = kys.intersection(fld)
         for k in ("username", "sub_name"):
             if k in fld:
                 eq.add(k)
         if "id" in eq:
             eq.remove("id")
-        eq = sorted(eq)
-        _link = {"id": id}
-        for fl in chunks(eq, 10):
+        return sorted(eq)
+
+    def get_link_info(self, id):
+        for fl in chunks(self.link_fields, 10):
             fl = ",".join(fl)
             obj = self.get_safe_info({'what': 'link', 'id': id, 'fields': fl})
             if not obj:
