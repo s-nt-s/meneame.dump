@@ -296,8 +296,8 @@ class Api:
         return posts
 
     def search_links(self, *words):
-        if not word:
-            word = ("te", "ta", "ca", "co", "de", "el", "que", "una")
+        if not words:
+            words = ("te", "ta", "ca", "co", "de", "el", "que", "una")
         posts = {}
         for word in words:
             _all = self.get_list(params={"s": 'published queued all autodiscard discard abuse duplicated metapublished', "q": word, "w": "links"})
