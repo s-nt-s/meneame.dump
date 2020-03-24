@@ -8,6 +8,8 @@ db = DBLite("meneame.db")
 
 posts = api.get_links()
 db.full_table("POSTS", posts)
+db.full_table("POSTS", api.search_links())
+db.commit()
 ids = list(db.select("select id from posts", row_factory=one_factory))
 count = 0
 try:

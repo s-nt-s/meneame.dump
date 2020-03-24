@@ -11,6 +11,8 @@ import requests
 import urllib3
 import sys
 from functools import lru_cache
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 
 from .endpoint import EndPoint
 
@@ -293,6 +295,22 @@ class Api:
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
+    def search_links(self, word="te"):
+        ini = datetime.fromtimestamp(self.start_epoch)
+        ini = ini.replace(day=1).date()
+        fin = datetime.now().replace(day=2).date()
+        ms1 = relativedelta(months=1)
+        posts = {}
+        while ini<fin:
+            # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
+            for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
+                for p in self.get_list(params={"s": status, "q": word, "w": "links", "yymm": ini.strftime("%Y%m")}):
+                    posts[p["id"]] = p
+            ini = ini + ms1
+        posts = sorted(posts.values(), key=lambda p: p["id"])
+        return posts
+
+
     def get_comments(self, *ids):
         if len(ids) == 0:
             ids = [id for id in self.get_posts()]
@@ -323,6 +341,13 @@ class Api:
         if "id" in eq:
             eq.remove("id")
         return sorted(eq)
+
+    @property
+    @lru_cache(maxsize=None)
+    def start_epoch(self):
+        a = self.get_link_info(1)
+        a = int(a["sent_date"])
+        return a
 
     def get_link_info(self, id):
         _link = {"id":id}
