@@ -3,8 +3,24 @@
 from core.api import Api
 from core.db import DBLite, one_factory
 
-api = Api()
+import signal
+import sys
+
+
 db = DBLite("meneame.db")
+
+def close_out(*args, exit=True, **kargv):
+    global db
+    db.commit()
+    ids = db.one("select count(id) from posts")
+    print("\n"+str(ids), "links")
+    db.close()
+    if exit:
+        sys.exit(0)
+
+signal.signal(signal.SIGINT, close_out)
+
+api = Api()
 
 posts = api.get_links()
 db.full_table("POSTS", posts)
@@ -24,10 +40,8 @@ try:
                 if count % 1000 == 0:
                     db.commit()
 except Exception as e:
-    db.commit()
-    db.close()
+    close_out(exit=False)
     raise e from None
 #comments = api.get_comments(*posts)
 #db.full_table("COMMENTS", comments)
-db.commit()
-db.close()
+close_out()
