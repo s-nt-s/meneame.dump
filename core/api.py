@@ -325,7 +325,7 @@ class Api:
         return sorted(eq)
 
     def get_link_info(self, id):
-        _link = {}
+        _link = {"id":id}
         for fl in chunks(self.link_fields, 10):
             fl = ",".join(fl)
             obj = self.get_safe_info({'what': 'link', 'id': id, 'fields': fl})
