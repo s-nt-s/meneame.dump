@@ -13,6 +13,7 @@ import sys
 from functools import lru_cache
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+from bunch import Bunch
 
 from .endpoint import EndPoint
 
@@ -184,7 +185,12 @@ class Api:
         self.list = EndPoint("api/list.php")
         self.comment_answers = EndPoint("backend/get_comment_answers.php")
         self.post_answers = EndPoint("backend/get_post_answers.php")
-        self._max_min_id = None
+        self.max_min=Bunch(
+            id=None,
+            epoch=None,
+            date=None,
+            link=None
+        )
 
     def get_list(self, params=None):
         if params is None:
@@ -291,7 +297,11 @@ class Api:
                 min_id = min(min_id, p["id"])
             if min_id<sys.maxsize:
                 max_min_id = max(max_min_id, min_id)
-        self._max_min_id=max_min_id
+        max_min = posts[max_min_id]
+        self.max_min.id=max_min_id
+        self.max_min.link=max_min
+        self.max_min.epoch=max_min['sent_date']
+        self.max_min.date=datetime.fromtimestamp(max_min['sent_date'])
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
@@ -299,16 +309,17 @@ class Api:
         if not words:
             words = ("te", "ta", "ca", "co", "de", "el", "que", "una")
         posts = {}
+        _ini = datetime.fromtimestamp(self.start_epoch).replace(day=1)
+        _fin = (self.max_min.date or datetime.now()).replace(day=2)
+        ms1 = relativedelta(months=1)
         for word in words:
             _all = self.get_list(params={"s": 'published queued all autodiscard discard abuse duplicated metapublished', "q": word, "w": "links"})
             for p in _all:
                 posts[p["id"]] = p
             if len(_all)<50:
                 continue
-            ini = datetime.fromtimestamp(self.start_epoch)
-            ini = ini.replace(day=1).date()
-            fin = datetime.now().replace(day=2).date()
-            ms1 = relativedelta(months=1)
+            ini = _ini.date()
+            fin = _fin.date()
             while ini<fin:
                 # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
                 for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
