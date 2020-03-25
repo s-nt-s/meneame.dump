@@ -37,7 +37,7 @@ try:
     for id in my_range(api.max_min.id, ids):
         p = api.get_link_info(id)
         if p:
-            print(id, "               ", end="\e")
+            print(id, "               ", end="\r")
             db.insert("posts", **p)
             count = count + 1
             if count % 1000 == 0:
