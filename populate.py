@@ -9,21 +9,19 @@ import sys
 
 db = DBLite("meneame.db")
 
-def close_out(*args, exit=True, **kargv):
+def close_out(*args, **kargv):
     global db
     db.commit()
     ids = db.one("select count(id) from posts")
     print("\n"+str(ids), "links")
     db.close()
-    if exit:
-        sys.exit(0)
 
 def my_range(ini, avoid):
     for i in range(ini-1, 0, -1):
         if i not in avoid:
             yield i
 
-signal.signal(signal.SIGINT, close_out)
+signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
 api = Api()
 
@@ -43,7 +41,7 @@ try:
             if count % 1000 == 0:
                 db.commit()
 except Exception as e:
-    close_out(exit=False)
+    close_out()
     raise e from None
 #comments = api.get_comments(*posts)
 #db.full_table("COMMENTS", comments)
