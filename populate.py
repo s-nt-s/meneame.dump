@@ -26,10 +26,10 @@ signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 api = Api()
 
 posts = api.get_links()
-db.full_table("POSTS", posts)
-db.full_table("POSTS", api.search_links())
+db.full_table("LINKS", posts)
+db.full_table("LINKS", api.search_links())
 db.commit()
-ids = list(db.select("select id from posts", row_factory=one_factory))
+ids = list(db.select("select id from LINKS", row_factory=one_factory))
 count = 0
 try:
     for id in my_range(api.max_min.id, ids):

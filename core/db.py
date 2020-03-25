@@ -176,7 +176,7 @@ class DBLite:
     def commit(self):
         self.con.commit()
 
-    def close(self, vacuum=True):
+    def close(self, vacuum=False):
         if self.readonly:
             self.con.close()
             return

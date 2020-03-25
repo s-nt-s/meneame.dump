@@ -192,27 +192,27 @@ class Api:
             link=None
         )
 
-    def get_list(self, params=None):
-        if params is None:
-            params = {"rows": Api.MAX_ITEMS}
-        elif "rows" not in params:
-            params["rows"] = Api.MAX_ITEMS
-        js = get_json(self.list, params=params)
+    def get_list(self, **kargv):
+        if kargv is None:
+            kargv = {"rows": Api.MAX_ITEMS}
+        elif "rows" not in kargv:
+            kargv["rows"] = Api.MAX_ITEMS
+        js = get_json(self.list, params=kargv)
         if not js:
             return []
         return js["objects"]
 
-    def get_sneaker(self, params={}):
-        if self.sneaker_time and ("time" not in params or params["time"] < self.sneaker_time):
-            params["time"] = self.sneaker_time
-        js = get_json(self.sneaker, params=params)
+    def get_sneaker(self, **kargv):
+        if self.sneaker_time and ("time" not in kargv or kargv["time"] < self.sneaker_time):
+            kargv["time"] = self.sneaker_time
+        js = get_json(self.sneaker, params=kargv)
         if not js:
             return []
         self.sneaker_time = js["ts"]
         return js["events"]
 
-    def get_info(self, params):
-        js = get_json(self.info, params=params)
+    def get_info(self, **kargv):
+        js = get_json(self.info, params=kargv)
         if js and params["fields"] in js:
             return js[params["fields"]]
         return js
@@ -259,14 +259,13 @@ class Api:
 
     def get_story_favorites(self, id, date=None):
         if not date:
-            dt = self.get_info({'what': 'link', 'id': id, 'fields': 'date'})
+            dt = self.get_info(what='link', id=id, fields='date')
             date = int(dt)
         return get_items(self.link_favorites, params={'id': id}, date=date)
 
     def get_votes(self, what, id, date=None, total=-1):
         if not date:
-            js = self.get_info(
-                {'what': what, 'id': id, 'fields': 'date,votes'})
+            js = self.get_info(what=what, id=id, fields='date,votes')
             total = int(js["votes"])
             if total == 0:
                 return []
@@ -292,7 +291,7 @@ class Api:
         # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
         for status in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
             min_id=sys.maxsize
-            for p in self.get_list(params={"status": status}):
+            for p in self.get_list(status=status):
                 posts[p["id"]] = p
                 min_id = min(min_id, p["id"])
             if min_id<sys.maxsize:
@@ -313,7 +312,7 @@ class Api:
         _fin = (self.max_min.date or datetime.now()).replace(day=2)
         ms1 = relativedelta(months=1)
         for word in words:
-            _all = self.get_list(params={"s": 'published queued all autodiscard discard abuse duplicated metapublished', "q": word, "w": "links"})
+            _all = self.get_list(s='published queued all autodiscard discard abuse duplicated metapublished', q=word, w="links")
             for p in _all:
                 posts[p["id"]] = p
             if len(_all)<50:
@@ -323,7 +322,7 @@ class Api:
             while ini<fin:
                 # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
                 for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
-                    for p in self.get_list(params={"s": status, "q": word, "w": "links", "yymm": ini.strftime("%Y%m")}):
+                    for p in self.get_list(s=status, q=word, w="links", yymm=ini.strftime("%Y%m")):
                         posts[p["id"]] = p
                 ini = ini + ms1
         posts = sorted(posts.values(), key=lambda p: p["id"])
@@ -338,7 +337,7 @@ class Api:
         ids = sorted(set(ids))
         comments = {}
         for id in ids:
-            for c in self.get_list(params={"id": id}):
+            for c in self.get_list(id=id):
                 c["post_id"]=id
                 comments[c["id"]] = c
         comments = sorted(comments.values(), key=lambda c: c["id"])
@@ -351,7 +350,7 @@ class Api:
         ep.load()
         re_fields=re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
         fld = set(re_fields.findall(ep.text))
-        kys = self.get_list({"rows":1})
+        kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
         for k in ("username", "sub_name"):
@@ -372,7 +371,7 @@ class Api:
         _link = {"id":id}
         for fl in chunks(self.link_fields, 10):
             fl = ",".join(fl)
-            obj = self.get_info({'what': 'link', 'id': id, 'fields': fl})
+            obj = self.get_info(what='link', id=id, fields=fl)
             if not obj:
                 return None
             _link = {**_link, **obj}
