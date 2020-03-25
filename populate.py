@@ -34,7 +34,7 @@ db.commit()
 ids = list(db.select("select id from posts", row_factory=one_factory))
 count = 0
 try:
-    for id in my_range(api.max_min.id):
+    for id in my_range(api.max_min.id, ids):
         p = api.get_link_info(id)
         if p:
             print(id, "               ", end="\e")
