@@ -36,7 +36,7 @@ try:
         p = api.get_link_info(id)
         if p:
             print(id, "               ", end="\r")
-            db.insert("posts", **p)
+            db.insert("LINKS", **p)
             count = count + 1
             if count % 1000 == 0:
                 db.commit()
