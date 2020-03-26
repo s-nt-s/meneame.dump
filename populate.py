@@ -28,7 +28,7 @@ api = Api()
 db.full_table("LINKS", api.get_links())
 #db.full_table("LINKS", api.search_links())
 db.commit()
-for user in list(db.select("select distinct user from LINKS", row_factory=one_factory)):
+for user in list(db.select("select distinct user from LINKS order by user", row_factory=one_factory)):
     posts = api.get_list(sent_by=user)
     if posts:
         print(len(posts), user)
