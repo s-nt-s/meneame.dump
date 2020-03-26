@@ -283,7 +283,7 @@ class Api:
             point = self.post_answers
         return get_comments(point, params={'id': id})
 
-    def get_links(self):
+    def get_links(self, **kargv):
         posts = {}
         max_min_id=-1
         # duplicated metapublished
@@ -291,22 +291,23 @@ class Api:
         # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
         for status in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
             min_id=sys.maxsize
-            for p in self.get_list(status=status):
+            for p in self.get_list(status=status, **kargv):
                 posts[p["id"]] = p
                 min_id = min(min_id, p["id"])
             if min_id<sys.maxsize:
                 max_min_id = max(max_min_id, min_id)
-        max_min = posts[max_min_id]
-        self.max_min.id=max_min_id
-        self.max_min.link=max_min
-        self.max_min.epoch=max_min['sent_date']
-        self.max_min.date=datetime.fromtimestamp(max_min['sent_date'])
+        if not kargv:
+            max_min = posts[max_min_id]
+            self.max_min.id=max_min_id
+            self.max_min.link=max_min
+            self.max_min.epoch=max_min['sent_date']
+            self.max_min.date=datetime.fromtimestamp(max_min['sent_date'])
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
     def search_links(self, *words):
         if not words:
-            words = ("te", "ta", "ca", "co", "de", "el", "que", "una")
+            words = ("te",)
         posts = {}
         _ini = datetime.fromtimestamp(self.start_epoch).replace(day=1)
         _fin = (self.max_min.date or datetime.now()).replace(day=2)

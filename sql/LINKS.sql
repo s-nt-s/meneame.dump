@@ -1,4 +1,4 @@
-create table POSTS (
+create table LINKS (
   "id" NUMBER,
   "permalink" TEXT,
   "go" TEXT,

@@ -25,10 +25,15 @@ signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
 api = Api()
 
-posts = api.get_links()
-db.full_table("LINKS", posts)
+db.full_table("LINKS", api.get_links())
 #db.full_table("LINKS", api.search_links())
 db.commit()
+for user in list(db.select("select distinct user from LINKS", row_factory=one_factory)):
+    posts = api.get_links(sent_by=user)
+    if posts:
+        print(len(posts), user)
+        db.full_table("LINKS", api.get_links(sent_by=user))
+        db.commit()
 ids = list(db.select("select id from LINKS", row_factory=one_factory))
 count = 0
 try:
