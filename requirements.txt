@@ -1,0 +1,7 @@
+beautifulsoup4==4.8.2
+bunch==1.0.1
+python_dateutil==2.8.1
+PyYAML==5.3.1
+requests==2.18.4
+Unidecode==1.1.1
+urllib3==1.22

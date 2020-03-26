@@ -4,16 +4,16 @@ import json
 import logging
 import logging.config
 import re
+import sys
 import time
+from datetime import datetime
+from functools import lru_cache
 
 import bs4
 import requests
 import urllib3
-import sys
-from functools import lru_cache
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 from bunch import Bunch
+from dateutil.relativedelta import relativedelta
 
 from .endpoint import EndPoint
 
@@ -29,9 +29,11 @@ dt3 = re.compile(r'(\d\d):(\d\d) UTC')
 
 logger = logging.getLogger()
 
+
 def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
+
 
 def str_to_epoch(s, date):
     mt = dt3.match(s)
@@ -68,7 +70,7 @@ def get_response(url, params=None):
     if len(r.text) == 0:
         url = r.url.replace("%2C", ",")
         msg = "%d %s\n\t%s" % (r.status_code, url, r.text)
-        #logger.error(msg.strip())
+        # logger.error(msg.strip())
         return None
     return r
 
@@ -185,7 +187,7 @@ class Api:
         self.list = EndPoint("api/list.php")
         self.comment_answers = EndPoint("backend/get_comment_answers.php")
         self.post_answers = EndPoint("backend/get_post_answers.php")
-        self.max_min=Bunch(
+        self.max_min = Bunch(
             id=None,
             epoch=None,
             date=None,
@@ -285,23 +287,23 @@ class Api:
 
     def get_links(self, **kargv):
         posts = {}
-        max_min_id=-1
+        max_min_id = -1
         # duplicated metapublished
         # https://github.com/Meneame/meneame.net/blob/master/sql/meneame.sql
         # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
         for status in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
-            min_id=sys.maxsize
+            min_id = sys.maxsize
             for p in self.get_list(status=status, **kargv):
                 posts[p["id"]] = p
                 min_id = min(min_id, p["id"])
-            if min_id<sys.maxsize:
+            if min_id < sys.maxsize:
                 max_min_id = max(max_min_id, min_id)
         if not kargv:
             max_min = posts[max_min_id]
-            self.max_min.id=max_min_id
-            self.max_min.link=max_min
-            self.max_min.epoch=max_min['sent_date']
-            self.max_min.date=datetime.fromtimestamp(max_min['sent_date'])
+            self.max_min.id = max_min_id
+            self.max_min.link = max_min
+            self.max_min.epoch = max_min['sent_date']
+            self.max_min.date = datetime.fromtimestamp(max_min['sent_date'])
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
@@ -313,14 +315,15 @@ class Api:
         _fin = (self.max_min.date or datetime.now()).replace(day=2)
         ms1 = relativedelta(months=1)
         for word in words:
-            _all = self.get_list(s='published queued all autodiscard discard abuse duplicated metapublished', q=word, w="links")
+            _all = self.get_list(
+                s='published queued all autodiscard discard abuse duplicated metapublished', q=word, w="links")
             for p in _all:
                 posts[p["id"]] = p
-            if len(_all)<50:
+            if len(_all) < 50:
                 continue
             ini = _ini.date()
             fin = _fin.date()
-            while ini<fin:
+            while ini < fin:
                 # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
                 for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
                     for p in self.get_list(s=status, q=word, w="links", yymm=ini.strftime("%Y%m")):
@@ -329,17 +332,16 @@ class Api:
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
-
     def get_comments(self, *ids):
         if len(ids) == 0:
             ids = [id for id in self.get_posts()]
         if ids and isinstance(ids[0], dict):
-            ids = [i["id"] for i in ids if i["comments"]>0]
+            ids = [i["id"] for i in ids if i["comments"] > 0]
         ids = sorted(set(ids))
         comments = {}
         for id in ids:
             for c in self.get_list(id=id):
-                c["post_id"]=id
+                c["post_id"] = id
                 comments[c["id"]] = c
         comments = sorted(comments.values(), key=lambda c: c["id"])
         return comments
@@ -349,7 +351,7 @@ class Api:
     def link_fields(self):
         ep = EndPoint("libs/link.php")
         ep.load()
-        re_fields=re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
+        re_fields = re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
         fld = set(re_fields.findall(ep.text))
         kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
@@ -369,7 +371,7 @@ class Api:
         return a
 
     def get_link_info(self, id):
-        _link = {"id":id}
+        _link = {"id": id}
         for fl in chunks(self.link_fields, 10):
             fl = ",".join(fl)
             obj = self.get_info(what='link', id=id, fields=fl)
@@ -384,5 +386,5 @@ class Api:
                 k = "user"
             elif k == "sub_name":
                 k = "sub"
-            link[k]=v
+            link[k] = v
         return link

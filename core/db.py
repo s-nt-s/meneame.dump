@@ -2,7 +2,6 @@ import os
 import re
 import sqlite3
 import textwrap
-from datetime import datetime
 
 import unidecode
 import yaml
@@ -79,6 +78,7 @@ class DBLite:
         self.parse_col = parse_col if parse_col is not None else lambda x: x
         self.load_tables()
         self.inTransaction = False
+        self.closed = False
 
     def openTransaction(self):
         if self.inTransaction:
@@ -177,8 +177,11 @@ class DBLite:
         self.con.commit()
 
     def close(self, vacuum=False):
+        if self.closed:
+            return
         if self.readonly:
             self.con.close()
+            self.closed = True
             return
         self.closeTransaction()
         self.con.commit()
@@ -186,6 +189,7 @@ class DBLite:
             self.con.execute("VACUUM")
         self.con.commit()
         self.con.close()
+        self.closed = True
 
     def select(self, sql, *args, row_factory=None, **kargv):
         sql = self._build_select(sql)
@@ -230,8 +234,8 @@ class DBLite:
             sql = sql+"\n);\n"
             self.execute(sql, to_file="sql/"+table+".sql")
             self.commit()
-        #self.openTransaction()
+        # self.openTransaction()
         for row in rows:
             self.insert(table, insert_or="replace", **row)
-        #self.closeTransaction()
+        # self.closeTransaction()
         self.commit()

@@ -17,6 +17,5 @@ create table LINKS (
   "sent_date" NUMBER,
   "date" NUMBER,
   "content" TEXT,
-  "thumb" TEXT,
   PRIMARY KEY (id)
 );
