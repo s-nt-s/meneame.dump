@@ -213,8 +213,8 @@ class Api:
 
     def get_info(self, **kargv):
         js = get_json(self.info, params=kargv)
-        if js and params["fields"] in js:
-            return js[params["fields"]]
+        if js and kargv["fields"] in js:
+            return js[kargv["fields"]]
         return js
 
     def get_story_url(self, id):

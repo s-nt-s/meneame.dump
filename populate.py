@@ -12,7 +12,7 @@ db = DBLite("meneame.db")
 def close_out(*args, **kargv):
     global db
     db.commit()
-    ids = db.one("select count(id) from posts")
+    ids = db.one("select count(id) from LINKS")
     print("\n"+str(ids), "links")
     db.close()
 
@@ -27,7 +27,7 @@ api = Api()
 
 posts = api.get_links()
 db.full_table("LINKS", posts)
-db.full_table("LINKS", api.search_links())
+#db.full_table("LINKS", api.search_links())
 db.commit()
 ids = list(db.select("select id from LINKS", row_factory=one_factory))
 count = 0
