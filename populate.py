@@ -39,7 +39,7 @@ def main():
     for user in list(db.select("select distinct user from LINKS order by user", row_factory=one_factory)):
         posts = api.get_list(sent_by=user)
         if posts:
-            print(len(posts), user)
+            print("%4d" % len(posts), user)
             db.full_table("LINKS", api.get_links(sent_by=user))
             db.commit()
     for i, p in enumerate(my_range(db, api)):
