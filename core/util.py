@@ -1,4 +1,10 @@
 
 def chunks(lst, n):
-    for i in range(0, len(lst), n):
-        yield lst[i:i + n]
+    arr = []
+    for i in lst:
+        arr.append(i)
+        if len(arr)==n:
+            yield arr
+            arr = []
+    if arr:
+        yield arr
