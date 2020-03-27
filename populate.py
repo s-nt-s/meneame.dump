@@ -2,13 +2,17 @@
 
 import signal
 import sys
+from queue import Queue
+from threading import Thread
 
 from core.api import Api
 from core.db import DBLite, one_factory
+from core.util import chunks
 
-db = DBLite("meneame.db")
+db = DBLite("meneame.db", debug_dir="sql/")
 api = Api()
 
+MAX_THREAD=10
 
 def close_out(*args, **kargv):
     global db
@@ -28,20 +32,39 @@ def my_range(db, api):
             if p:
                 yield p
 
+def get_links(q, LKS):
+    while not q.empty():
+        api, user = q.get()
+        posts = api.get_list(sent_by=user)
+        print("%4d" % len(posts), user)
+        if posts:
+            LKS.append(posts)
+        q.task_done()
+    return True
 
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
 
 def main():
-    db.full_table("LINKS", api.get_links())
-    #db.full_table("LINKS", api.search_links())
+    db.create_table("LINKS", api.get_list(rows=1))
+    db.insert("LINKS", *api.get_links(), insert_or="replace")
+    #db.insert("LINKS", *api.search_links(), insert_or="replace")
     db.commit()
-    for user in list(db.select("select distinct user from LINKS order by user", row_factory=one_factory)):
-        posts = api.get_list(sent_by=user)
-        if posts:
-            print("%4d" % len(posts), user)
-            db.full_table("LINKS", api.get_links(sent_by=user))
-            db.commit()
+    users = list(db.select("select distinct user from LINKS order by user", row_factory=one_factory))
+    for usr in chunks(users, MAX_THREAD):
+        q = Queue(maxsize=0)
+        LKS=[]
+        num_theads = len(usr)
+        for user in usr:
+            q.put((api, user))
+        for i in range(num_theads):
+            worker = Thread(target=get_links, args=(q, LKS))
+            worker.setDaemon(True)
+            worker.start()
+        q.join()
+        for posts in LKS:
+            db.insert("LINKS", *posts, insert_or="replace")
+        db.commit()
     for i, p in enumerate(my_range(db, api)):
         print(p["id"], "               ", end="\r")
         db.insert("LINKS", **p)

@@ -16,6 +16,7 @@ from bunch import Bunch
 from dateutil.relativedelta import relativedelta
 
 from .endpoint import EndPoint
+from .util import chunks
 
 fisg1 = re.compile(
     r"^.*\bnew_data\s*=\s*\(\s*(.*)\s*\)\s*;\s*$", re.MULTILINE | re.DOTALL)
@@ -28,12 +29,6 @@ dt2 = re.compile(r'(\d\d)-(\d\d)-(\d\d\d\d) (\d\d):(\d\d) UTC')
 dt3 = re.compile(r'(\d\d):(\d\d) UTC')
 
 logger = logging.getLogger()
-
-
-def chunks(lst, n):
-    for i in range(0, len(lst), n):
-        yield lst[i:i + n]
-
 
 def str_to_epoch(s, date):
     mt = dt3.match(s)
@@ -366,9 +361,19 @@ class Api:
     @property
     @lru_cache(maxsize=None)
     def start_epoch(self):
-        a = self.get_link_info(1)
-        a = int(a["sent_date"])
+        a = int(self.first_link["sent_date"])
         return a
+
+    @property
+    @lru_cache(maxsize=None)
+    def first_link(self):
+        id = 0
+        while True:
+            id = id + 1
+            l = self.get_link_info(id)
+            if l:
+                return l
+
 
     def get_link_info(self, id):
         _link = {"id": id}

@@ -63,7 +63,7 @@ class CaseInsensitiveDict(dict):
 
 
 class DBLite:
-    def __init__(self, file, parse_col=None, readonly=False):
+    def __init__(self, file, parse_col=None, readonly=False, debug_dir=None):
         self.file = file
         self.readonly = readonly
         if self.readonly:
@@ -79,6 +79,11 @@ class DBLite:
         self.load_tables()
         self.inTransaction = False
         self.closed = False
+        self.debug_dir = None
+        if debug_dir and os.path.isdir(debug_dir):
+            if not debug_dir.endswith("/"):
+                debug_dir = debug_dir + "/"
+            self.debug_dir = debug_dir
 
     def openTransaction(self):
         if self.inTransaction:
@@ -116,7 +121,35 @@ class DBLite:
             except:
                 pass
 
-    def insert(self, table, insert_or=None, **kargv):
+    def create_table(self, table, row_example):
+        self.load_tables()
+        if table.lower() in self.tables:
+            return
+            sql = 'create table %s (' % table
+        for k, v in row_example.items():
+            t = "TEXT"
+            if isinstance(v, int):
+                t = "NUMBER"
+            sql = sql + '\n  "%s" %s,' % (k, t)
+        if "id" in row_example.keys():
+            sql = sql + "\n  PRIMARY KEY (id)"
+        else:
+            sql = sql[:-1]
+        sql = sql+"\n);\n"
+        to_file = self.debug_dir + table + ".sql" if self.debug_dir else None
+        self.execute(sql, to_file=to_file)
+        self.commit()
+
+    def insert(self, table, *args, insert_or=None, **kargv):
+        if not args and not kargv:
+            return
+        if args:
+            sobra = set()
+            for a in args:
+                a = {**kargv, **a}
+                s = self.insert(table, insert_or=insert_or, **a)
+                sobra = sobra.union(s.keys())
+            return sorted(sobra)
         sobra = {}
         ok_keys = [k.upper() for k in self.tables[table]]
         keys = []
@@ -215,27 +248,3 @@ class DBLite:
         if len(r) == 1:
             return r[0]
         return r
-
-    def full_table(self, table, rows):
-        if not rows:
-            return
-        self.load_tables()
-        if table.lower() not in self.tables:
-            sql = 'create table %s (' % table
-            for k, v in rows[0].items():
-                t = "TEXT"
-                if isinstance(v, int):
-                    t = "NUMBER"
-                sql = sql + '\n  "%s" %s,' % (k, t)
-            if "id" in rows[0].keys():
-                sql = sql + "\n  PRIMARY KEY (id)"
-            else:
-                sql = sql[:-1]
-            sql = sql+"\n);\n"
-            self.execute(sql, to_file="sql/"+table+".sql")
-            self.commit()
-        # self.openTransaction()
-        for row in rows:
-            self.insert(table, insert_or="replace", **row)
-        # self.closeTransaction()
-        self.commit()
