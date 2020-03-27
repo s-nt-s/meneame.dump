@@ -9,7 +9,10 @@ def _do_work(q, rt):
         fnc = args[0]
         r = fnc(*args[1:])
         if r:
-            rt.append(r)
+            if isinstance(r, list):
+                rt.extend(r)
+            else:
+                rt.append(r)
         q.task_done()
     return True
 
@@ -34,4 +37,5 @@ class ThreadMe:
                 worker.setDaemon(True)
                 worker.start()
             q.join()
-            yield rt
+            for i in rt:
+                yield i

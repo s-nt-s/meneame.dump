@@ -9,7 +9,7 @@ from core.api import Api
 from core.db import DBLite, one_factory
 from core.threadme import ThreadMe
 
-db = DBLite("meneame.db", debug_dir="sql/")
+db = DBLite("meneame.db", debug_dir="sql/", commit_each=1000)
 api = Api()
 
 def close_out(*args, **kargv):
@@ -56,9 +56,8 @@ def main():
         fix_param=api,
         max_thread=30
     )
-    for posts in tm.run():
-        db.insert("LINKS", *posts, insert_or="replace")
-    db.commit()
+    for post in tm.run():
+        db.insert("LINKS", **post, insert_or="replace")
     tm = ThreadMe(
         my_range(db, api),
         get_info,
@@ -66,8 +65,7 @@ def main():
         max_thread=30
     )
     for post in tm.run():
-        db.insert("LINKS", *post, insert_or="replace")
-    db.commit()
+        db.insert("LINKS", **post, insert_or="replace")
     #comments = api.get_comments(*posts)
     #db.full_table("COMMENTS", comments)
     #db.commit()

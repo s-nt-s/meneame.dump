@@ -63,7 +63,7 @@ class CaseInsensitiveDict(dict):
 
 
 class DBLite:
-    def __init__(self, file, parse_col=None, readonly=False, debug_dir=None):
+    def __init__(self, file, parse_col=None, readonly=False, debug_dir=None, commit_each=None):
         self.file = file
         self.readonly = readonly
         if self.readonly:
@@ -79,6 +79,8 @@ class DBLite:
         self.load_tables()
         self.inTransaction = False
         self.closed = False
+        self.commit_each = commit_each
+        self.insert_count = 0
         self.debug_dir = None
         if debug_dir and os.path.isdir(debug_dir):
             if not debug_dir.endswith("/"):
@@ -169,6 +171,9 @@ class DBLite:
         sql = sql+" into %s (%s) values (%s)" % (
             table, ', '.join(keys), ', '.join(prm))
         self.con.execute(sql, vals)
+        self.insert_count = self.insert_count + 1
+        if self.commit_each and (self.insert_count % self.commit_each) == 0:
+            self.commit()
         return sobra
 
     def update(self, table, **kargv):
