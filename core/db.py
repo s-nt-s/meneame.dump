@@ -248,6 +248,8 @@ class DBLite:
         cursor.execute(sql)
         r = cursor.fetchone()
         cursor.close()
+        if not isinstance(r, (list, tuple)):
+            return r
         if not r:
             return None
         if len(r) == 1:
