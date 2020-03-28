@@ -1,3 +1,4 @@
+import yaml
 
 def chunks(lst, n):
     arr = []
@@ -8,3 +9,7 @@ def chunks(lst, n):
             arr = []
     if arr:
         yield arr
+
+def read_yml_all(fl):
+    with open(fl, 'r') as f:
+        return yaml.load_all(f, Loader=yaml.FullLoader)

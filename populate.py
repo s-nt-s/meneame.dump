@@ -8,6 +8,7 @@ from threading import Thread
 from core.api import Api
 from core.db import DBLite, one_factory
 from core.threadme import ThreadMe
+from core.util import read_yml_all
 
 db = DBLite("meneame.db", debug_dir="sql/", commit_each=1000)
 api = Api()
@@ -53,34 +54,36 @@ def get_info(api, id):
 
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
+def get_by_user(users):
+    if isinstance(users, str):
+        users = list(db.select(users, row_factory=one_factory))
+    for post in tm.run(get_links, users):
+        db.insert("LINKS", **post, insert_or="replace")
+
 
 def main():
     global id_cursor
     db.create_table("LINKS", api.get_list(rows=1))
     db.insert("LINKS", *api.get_links(), insert_or="replace")
     #db.insert("LINKS", *api.search_links(), insert_or="replace")
-    users = list(db.select('''
+    get_by_user('''
         select distinct user from LINKS
         where status not in ('discard', 'autodiscard', 'private')
         order by user
-    ''', row_factory=one_factory))
-    for post in tm.run(get_links, users):
-        db.insert("LINKS", **post, insert_or="replace")
+    ''')
     id_cursor = api.max_min.id
     #id_cursor = db.one('select min(id)-1 from links where "go" is null')
     new_users = True
     while id_cursor>1:
         if new_users:
-            users = list(db.select('''
+            get_by_user('''
                 select distinct user from links where
                 status not in ('discard', 'autodiscard', 'private') and
                 "go" is null and user not in (
                 	select user from links where "go" is not null
                 )
                 order by user
-            ''', row_factory=one_factory))
-            for post in tm.run(get_links, users):
-                db.insert("LINKS", **post, insert_or="replace")
+            ''')
         new_users = False
         for post in tm.run(get_info, my_range(db, id_cursor)):
             db.insert("LINKS", **post, insert_or="replace")
