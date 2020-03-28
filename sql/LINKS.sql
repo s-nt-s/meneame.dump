@@ -17,5 +17,6 @@ create table LINKS (
   "sent_date" NUMBER,
   "date" NUMBER,
   "content" TEXT,
+  "user_id" NUMBER,
   PRIMARY KEY (id)
 );

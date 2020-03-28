@@ -6,7 +6,7 @@ import logging.config
 import re
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, date
 from functools import lru_cache
 
 import bs4
@@ -27,6 +27,7 @@ sp = re.compile(r'\s+', re.MULTILINE | re.DOTALL | re.IGNORECASE)
 dt1 = re.compile(r'(\d\d)/(\d\d)-(\d\d):(\d\d):(\d\d)')
 dt2 = re.compile(r'(\d\d)-(\d\d)-(\d\d\d\d) (\d\d):(\d\d) UTC')
 dt3 = re.compile(r'(\d\d):(\d\d) UTC')
+re_user_id = re.compile(r'^--(\d+)--$')
 
 logger = logging.getLogger()
 
@@ -189,6 +190,22 @@ class Api:
             link=None
         )
 
+    def extract_user_id(self, user, search=False):
+        if user is None or isinstance(user, int):
+            return user
+        m = re_user_id.match(user)
+        if m:
+            return int(m.group(1))
+        if search:
+            items = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+user, select="img.avatar", default=[])
+            if items:
+                src = items[0].attrs["src"]
+                src = src.rsplit("/")[-1].rsplit(".")[0]
+                src = src.split("-")
+                if len(src)==3 and src[0].isdigit():
+                    return int(src[0])
+        return None
+
     def get_list(self, **kargv):
         if kargv is None:
             kargv = {"rows": Api.MAX_ITEMS}
@@ -197,7 +214,17 @@ class Api:
         js = get_json(self.list, params=kargv)
         if not js:
             return []
-        return js["objects"]
+        js = js["objects"]
+        if not js or not isinstance(js, list):
+            return js
+        js0 = js[0]
+        if "user" in js0 and "user_id" not in js0:
+            users = set(i["user"] for i in js)
+            if len(users)==1:
+                user_id = self.extract_user_id(kargv.get("sent_by"), search=True)
+                for j in js:
+                    j["user_id"] = user_id or self.extract_user_id(j["user"])
+        return js
 
     def get_sneaker(self, **kargv):
         if self.sneaker_time and ("time" not in kargv or kargv["time"] < self.sneaker_time):
@@ -302,28 +329,41 @@ class Api:
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
-    def search_links(self, *words):
-        if not words:
-            words = ("te",)
+    def search_links(self, word, ini=None, fin=None, year=None):
         posts = {}
-        _ini = datetime.fromtimestamp(self.start_epoch).replace(day=1)
-        _fin = (self.max_min.date or datetime.now()).replace(day=2)
         ms1 = relativedelta(months=1)
-        for word in words:
-            _all = self.get_list(
-                s='published queued all autodiscard discard abuse duplicated metapublished', q=word, w="links")
-            for p in _all:
-                posts[p["id"]] = p
-            if len(_all) < 50:
-                continue
-            ini = _ini.date()
-            fin = _fin.date()
-            while ini < fin:
-                # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
-                for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
-                    for p in self.get_list(s=status, q=word, w="links", yymm=ini.strftime("%Y%m")):
-                        posts[p["id"]] = p
-                ini = ini + ms1
+        _all = self.get_list(
+            s='published queued all autodiscard discard abuse duplicated metapublished', q=word, w="links")
+        for p in _all:
+            posts[p["id"]] = p
+        if len(_all) >= 50:
+            if ini is None:
+                ini = datetime.fromtimestamp(self.start_epoch)
+            if fin is None:
+                epoch = min(int(i['sent_date']) for i in _all)
+                fin = datetime.fromtimestamp(epoch)
+            if isinstance(ini, datetime):
+                ini = ini.date()
+            if isinstance(fin, datetime):
+                fin = fin.date()
+            ini = ini.replace(day=1)
+            if fin.day==1:
+                fin = fin.replace(day=2)
+            if year:
+                if ini.year>year or year>fin.year:
+                    year = False
+                else:
+                    if ini.year<year:
+                        ini = date(year, 1, 1)
+                    if fin.year>year:
+                        fin = date(year+1, 1, 1)
+            if year is not False:
+                while ini < fin:
+                    # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
+                    for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
+                        for p in self.get_list(s=status, q=word, w="links", yymm=ini.strftime("%Y%m")):
+                            posts[p["id"]] = p
+                    ini = ini + ms1
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 

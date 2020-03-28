@@ -51,9 +51,10 @@ def get_user_links(api, user):
     if user in user_ban:
         return None
     posts = api.get_list(sent_by=user)
-    print("%4d" % len(posts), user)
     if len(posts)==0:
         user_ban.add(user)
+    else:
+        print("%4d" % len(posts), user)
     return posts
 
 def get_info(api, id):
@@ -76,17 +77,17 @@ def main():
     global id_cursor
     if "broken_id" not in db.tables:
         db.execute("sql/broken_id.sql")
-    db.create_table("LINKS", api.first_link)
+    example = api.get_list(rows=1)[0]
+    example["user_id"]=1
+    db.create_table("LINKS", example)
+    db.execute("sql/views.sql")
     db.insert("LINKS", *api.get_links(), insert_or="replace")
-    db.insert("LINKS", *api.search_links(), insert_or="replace")
-    get_by_user('''
-        select distinct user from LINKS
-        where status not in ('discard', 'autodiscard', 'private')
-        order by user
-    ''')
-    max_user = db.one("select max(substr(user, 3, length(user)-4)) from links where user like '--%--'")
+    #db.insert("LINKS", *api.search_links("te"), insert_or="replace")
+    max_user = db.one("select max(user_id) from links")
+    avoid = list(db.select("select user_id id from USER_OUT where links>=2000", row_factory=one_factory))
+    gnt = (i for i in range(1, int(max_user)+1) if i not in avoid)
     if max_user not in (None, ''):
-        for post in tm.run(get_user_links, range(int(max_user), 0, -1)):
+        for post in tm.run(get_user_links, gnt):
             db.insert("LINKS", **post, insert_or="replace")
     id_cursor = api.max_min.id
     new_users = True
@@ -97,9 +98,9 @@ def main():
                 status not in ('discard', 'autodiscard', 'private') and
                 "go" is null and user not in (
                 	select user from links where "go" is not null
-                )
+                ) %s
                 order by user
-            ''')
+            ''' % ("and user_id is null or user_id>"+str(max_user) if max_user else ''))
         new_users = False
         for post in tm.run(get_info, my_range(id_cursor)):
             if isinstance(post, int):
