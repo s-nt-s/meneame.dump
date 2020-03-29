@@ -329,43 +329,30 @@ class Api:
         posts = sorted(posts.values(), key=lambda p: p["id"])
         return posts
 
-    def search_links(self, word, ini=None, fin=None, year=None):
+    def search_links(self, word):
         posts = {}
         ms1 = relativedelta(months=1)
         _all = self.get_list(
             s='published queued all autodiscard discard abuse duplicated metapublished', q=word, w="links")
-        for p in _all:
-            posts[p["id"]] = p
+        yield sorted(_all, key=lambda p: p["id"])
         if len(_all) >= 50:
-            if ini is None:
-                ini = datetime.fromtimestamp(self.start_epoch)
-            if fin is None:
-                epoch = min(int(i['sent_date']) for i in _all)
-                fin = datetime.fromtimestamp(epoch)
-            if isinstance(ini, datetime):
-                ini = ini.date()
-            if isinstance(fin, datetime):
-                fin = fin.date()
+            ini = datetime.fromtimestamp(self.start_epoch)
+            epoch = min(int(i['sent_date']) for i in _all)
+            fin = datetime.fromtimestamp(epoch)
+            ini = ini.date()
+            fin = fin.date()
             ini = ini.replace(day=1)
-            if fin.day==1:
-                fin = fin.replace(day=2)
-            if year:
-                if ini.year>year or year>fin.year:
-                    year = False
-                else:
-                    if ini.year<year:
-                        ini = date(year, 1, 1)
-                    if fin.year>year:
-                        fin = date(year+1, 1, 1)
-            if year is not False:
-                while ini < fin:
-                    # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
-                    for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
-                        for p in self.get_list(s=status, q=word, w="links", yymm=ini.strftime("%Y%m")):
-                            posts[p["id"]] = p
-                    ini = ini + ms1
-        posts = sorted(posts.values(), key=lambda p: p["id"])
-        return posts
+            fin = fin.replace(day=2)
+            while ini < fin:
+                # https://github.com/Meneame/meneame.net/blob/master/www/libs/search.php
+                for status in ('published', 'queued', 'all', 'autodiscard discard abuse duplicated metapublished'):
+                    yield dict(Bunch(
+                        s=status,
+                        q=word,
+                        w="links",
+                        yymm=ini.strftime("%Y%m"),
+                    ))
+                ini = ini + ms1
 
     def get_comments(self, *ids):
         if len(ids) == 0:

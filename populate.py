@@ -29,16 +29,9 @@ def close_out(*args, **kargv):
     db.close()
 
 
-def my_range(max_id, size=100):
+def my_range(avoid, max_id, size=100):
     global id_cursor
     if max_id is not None and max_id>0:
-        avoid = list(db.select('''
-        select distinct id from (
-            select id from LINKS
-            union
-            select id from broken_id where what='link'
-        ) t where id<=%s
-        ''' % max_id, row_factory=one_factory))
         for i in range(max_id-1, api.first_link["id"]-1, -1):
             id_cursor = i
             if i not in avoid:
@@ -82,14 +75,24 @@ def main():
     db.create_table("LINKS", example)
     db.execute("sql/views.sql")
     db.insert("LINKS", *api.get_links(), insert_or="replace")
-    #db.insert("LINKS", *api.search_links("te"), insert_or="replace")
+    #for post in tm.run((lambda a, prm: a.get_list(**prm)), api.search_links("te"), return_first=True):
+    #    db.insert("LINKS", **post, insert_or="replace")
     max_user = db.one("select max(user_id) from links")
     avoid = list(db.select("select user_id id from USER_OUT where links>=2000", row_factory=one_factory))
-    gnt = (i for i in range(1, int(max_user)+1) if i not in avoid)
+    gnt = (i for i in range(120555+1, int(max_user)+1) if i not in avoid)
     if max_user not in (None, ''):
         for post in tm.run(get_user_links, gnt):
             db.insert("LINKS", **post, insert_or="replace")
-    id_cursor = api.max_min.id
+    id_cursor = db.one("select min(id)-1 from broken_id where what='link'")
+    if id_cursor is None or id_cursor>api.max_min.id:
+        id_cursor = api.max_min.id
+    avoid = list(db.select('''
+    select distinct id from (
+        select id from LINKS where id<={0}
+        union
+        select id from broken_id where what='link' and id<={0}
+    ) t
+    '''.format(id_cursor), row_factory=one_factory))
     new_users = True
     while id_cursor>1:
         if new_users:
@@ -102,11 +105,11 @@ def main():
                 order by user
             ''' % ("and user_id is null or user_id>"+str(max_user) if max_user else ''))
         new_users = False
-        for post in tm.run(get_info, my_range(id_cursor)):
+        for post in tm.run(get_info, my_range(avoid, id_cursor)):
             if isinstance(post, int):
                 db.insert("broken_id", what='link', id=post, insert_or="replace")
             else:
-                db.insert("LINKS", **post, insert_or="replace")
+                db.insert("LINKS", **post, insert_or="ignore")
                 new_users = True
     #comments = api.get_comments(*posts)
     #db.full_table("COMMENTS", comments)

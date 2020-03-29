@@ -25,7 +25,10 @@ class ThreadMe:
             fix_param = (fix_param, )
         self.fix_param = fix_param
 
-    def run(self, do_work, data):
+    def run(self, do_work, data, return_first=False):
+        if return_first:
+            for i in next(data):
+                yield i
         fix_param = (do_work, ) + self.fix_param
         for dt in chunks(data, self.max_thread):
             q = Queue(maxsize=0)
