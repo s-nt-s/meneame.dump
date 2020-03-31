@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 if(!exists("tags")) {
-    opeds <- fromJSON(file = "../published.json")
+    opeds <- fromJSON(file = "/home/santos/wks/meneame/meneame.dump/out/published.json")
 
     # Create a data.frame with the relevant information
     Sys.setlocale("LC_TIME", "es_ES.UTF-8")
@@ -44,6 +44,7 @@ counts$count_n <- counts$count / counts$n_year * 100
 # Add default 0
 counts <- left_join(def, counts)
 counts[is.na(counts)] <- 0
+save(counts, file="counts.Rda")
 
 plt1 <- ggplot(filter(counts, tags %in% c("Corrupción", "Chavismo", "Venezuela", "Podemos", "ETA"))) +
         geom_line(aes(x = year, y = count_n, color = tags, group = tags)) +
