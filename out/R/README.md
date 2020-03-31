@@ -3,5 +3,5 @@ Esta parte es una adaptación del código de [rinze - el_pais_editoriales](https
 Requerimientos:
 
 ```
-sudo apt install -y r-base r-base-dev r-cran-rjson r-cran-dplyr r-cran-ggplot2
+sudo apt install -y r-base r-base-dev r-cran-rjson r-cran-dplyr r-cran-ggplot2 r-cran-ggvis
 ```
