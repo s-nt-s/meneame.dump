@@ -259,7 +259,7 @@ class DB:
             tags = [parse_tag(t) for t in set(tags)]
             tags = sorted(t for t in tags if t is not None)
             for tag in tags:
-                yield {"link": id, "tag": tag, "status": status})
+                yield {"link": id, "tag": tag, "status": status}
 
     def fix(self):
         self.execute("sql/update_users.sql")
@@ -298,7 +298,7 @@ class DB:
         print(insert)
         print(select)
         return
-        
+
         cursor = lt.cursor()
         cursor.execute(select)
         for rows in chunk(ResultIter(cursor), 1000):
