@@ -283,7 +283,7 @@ class DB:
     def clone(self, file, table):
         file = "file:"+file+"?mode=ro"
         lt = sqlite3.connect(file, detect_types=sqlite3.PARSE_DECLTYPES, uri=True)
-        cols = self.get_cols("select * "+table+" limit 1", lt.cursor())
+        cols = self.get_cols("select * from "+table+" limit 1", lt.cursor())
         cols = set(self.tables[table]).intersection(set(cols))
         cols = sorted(cols)
         _cols = "`" + "`, `".join(cols) + "`"
@@ -294,10 +294,6 @@ class DB:
         select = "select {0} from {1}".format(_cols, table)
         if "id" in cols:
             select = select + " order by id"
-
-        print(insert)
-        print(select)
-        return
 
         cursor = lt.cursor()
         cursor.execute(select)
