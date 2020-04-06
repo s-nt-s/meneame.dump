@@ -190,6 +190,18 @@ class Api:
             link=None
         )
 
+    @lru_cache(maxsize=20000)
+    def _search_user_id(self, user):
+        items = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+user, select="img.avatar", default=[])
+        if items:
+            src = items[0].attrs["src"]
+            src = src.rsplit("/")[-1].rsplit(".")[0]
+            src = src.split("-")
+            if len(src)==3 and src[0].isdigit():
+                id = int(src[0])
+                return id
+        return None
+
     def extract_user_id(self, user, search=False):
         if user is None or isinstance(user, int):
             return user
@@ -197,13 +209,7 @@ class Api:
         if m:
             return int(m.group(1))
         if search:
-            items = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+user, select="img.avatar", default=[])
-            if items:
-                src = items[0].attrs["src"]
-                src = src.rsplit("/")[-1].rsplit(".")[0]
-                src = src.split("-")
-                if len(src)==3 and src[0].isdigit():
-                    return int(src[0])
+            return self._search_user_id(user)
         return None
 
     def get_list(self, **kargv):
@@ -219,11 +225,12 @@ class Api:
             return js
         js0 = js[0]
         if "user" in js0 and "user_id" not in js0:
+            user_id = None
             users = set(i["user"] for i in js)
-            if len(users)==1:
-                user_id = self.extract_user_id(kargv.get("sent_by"), search=True)
-                for j in js:
-                    j["user_id"] = user_id or self.extract_user_id(j["user"])
+            if len(users)==1 and "sent_by" in kargv:
+                user_id = self.extract_user_id(kargv["sent_by"], search=True)
+            for j in js:
+                j["user_id"] = user_id or self.extract_user_id(j["user"], search=True)
         return js
 
     def get_sneaker(self, **kargv):
@@ -354,18 +361,10 @@ class Api:
                     ))
                 ini = ini + ms1
 
-    def get_comments(self, *ids):
-        if len(ids) == 0:
-            ids = [id for id in self.get_posts()]
-        if ids and isinstance(ids[0], dict):
-            ids = [i["id"] for i in ids if i["comments"] > 0]
-        ids = sorted(set(ids))
-        comments = {}
-        for id in ids:
-            for c in self.get_list(id=id):
-                c["post_id"] = id
-                comments[c["id"]] = c
-        comments = sorted(comments.values(), key=lambda c: c["id"])
+    def get_comments(self, id):
+        comments = self.get_list(id=id)
+        for c in comments:
+            c["link"] = id
         return comments
 
     @property
@@ -384,6 +383,23 @@ class Api:
         if "id" in eq:
             eq.remove("id")
         return sorted(eq)
+
+
+    @property
+    @lru_cache(maxsize=None)
+    def mnm_config(self):
+        ep = EndPoint("config.php")
+        ep.load()
+        re_fields = re.compile(r"\$globals\[\s*'([^']+)'\s*\]\s*=\s*'([^']+)'", re.IGNORECASE)
+        cfg = {}
+        for k, v in re_fields.findall(ep.text):
+            cfg[k]=v
+        re_fields = re.compile(r"\$globals\[\s*'([^']+)'\s*\]\s*=\s*([^';]+)", re.IGNORECASE)
+        for k, v in re_fields.findall(ep.text):
+            if v.isdigit():
+                v = int(v)
+            cfg[k]=v
+        return cfg
 
     @property
     @lru_cache(maxsize=None)
@@ -412,11 +428,13 @@ class Api:
             _link = {**_link, **obj}
         link = {}
         for k, v in _link.items():
-            if v in (None, ""):
-                continue
+            if v == "":
+                v = None
             if k == "username":
                 k = "user"
             elif k == "sub_name":
                 k = "sub"
             link[k] = v
+        if "user" in link and "user_id" not in link:
+            link["user_id"] = self.extract_user_id(link["user"], search=True)
         return link

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-from core.db import DBLite, dict_factory
+from core.db import DB
+from MySQLdb.cursors import DictCursor
 import json
 
-db = DBLite("meneame.db", readonly=True)
+db = DB()
 
 links=[]
 for i in db.select('''
     select
-        --title,
+        -- title,
         id,
         datetime(date, 'unixepoch', 'localtime') date,
         tags
@@ -16,7 +17,7 @@ for i in db.select('''
     where
     tags is not null and
     status='published'
-''', row_factory=dict_factory):
+''', cursor=DictCursor):
     tags = i["tags"].strip().split(",")
     tags = [t.strip().lower() for t in tags if t.strip()]
     if tags:

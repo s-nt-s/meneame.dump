@@ -1,42 +1,34 @@
 import os
 import re
-import sqlite3
 import textwrap
 
 import unidecode
 import yaml
 from bunch import Bunch
+import MySQLdb
+from util import chunks
+import sqlite3
+
+import warnings
+warnings.filterwarnings("ignore", category = MySQLdb.Warning)
 
 re_sp = re.compile(r"\s+")
 
-sqlite3.register_converter("BOOLEAN", lambda x: int(x) > 0)
-#sqlite3.register_converter("DATE", lambda x: datetime.strptime(str(x), "%Y-%m-%d").date())
-sqlite3.enable_callback_tracebacks(True)
-
-
-def dict_factory(cursor, row):
-    d = {}
-    for idx, col in enumerate(cursor.description):
-        d[col[0]] = row[idx]
-    return d
-
-
-def bunch_factory(cursor, row):
-    d = dict_factory(cursor, row)
-    return Bunch(**d)
-
-
-def one_factory(cursor, row):
-    return row[0]
-
-
-def plain_parse_col(c):
-    c = re_sp.sub(" ", c).strip()
-    c = c.lower()
-    c = unidecode.unidecode(c)
-    c = c.replace(" ", "_")
-    return c
-
+def parse_tag(_tag):
+    tag = _tag
+    for a, b in (
+        ("á", "a"),
+        ("é", "e"),
+        ("í", "i"),
+        ("ó", "o"),
+        ("ú", "u")
+    ):
+        tag = tag.replace(a, b)
+    if tag == "españa":
+        return "España"
+    if tag == "Europa":
+        return "Europa"
+    return _tag
 
 def ResultIter(cursor, size=1000):
     while True:
@@ -46,161 +38,56 @@ def ResultIter(cursor, size=1000):
         for result in results:
             yield result
 
-
 def save(file, content):
     if file and content:
         content = textwrap.dedent(content).strip()
         with open(file, "w") as f:
             f.write(content)
 
-
-class CaseInsensitiveDict(dict):
-    def __setitem__(self, key, value):
-        dict.__setitem__(self, key.lower(), value)
-
-    def __getitem__(self, key):
-        return dict.__getitem__(self, key.lower())
-
-
-class DBLite:
-    def __init__(self, file, parse_col=None, readonly=False, debug_dir=None, commit_each=None):
-        self.file = file
-        self.readonly = readonly
-        if self.readonly:
-            file = "file:"+file+"?mode=ro"
-            self.con = sqlite3.connect(
-                file, detect_types=sqlite3.PARSE_DECLTYPES, uri=True)
-        else:
-            self.con = sqlite3.connect(
-                file, detect_types=sqlite3.PARSE_DECLTYPES)
+class DB:
+    def __init__(self, debug_dir=None):
         self.tables = None
-        self.srid = None
-        self.parse_col = parse_col if parse_col is not None else lambda x: x
-        self.load_tables()
-        self.inTransaction = False
         self.closed = False
-        self.commit_each = commit_each
         self.insert_count = 0
         self.debug_dir = None
         if debug_dir and os.path.isdir(debug_dir):
             if not debug_dir.endswith("/"):
                 debug_dir = debug_dir + "/"
             self.debug_dir = debug_dir
-
-    def openTransaction(self):
-        if self.inTransaction:
-            self.con.execute("END TRANSACTION")
-        self.con.execute("BEGIN TRANSACTION")
-        self.inTransaction = True
-
-    def closeTransaction(self):
-        if self.inTransaction:
-            self.con.execute("END TRANSACTION")
-            self.inTransaction = False
-
-    def execute(self, sql, to_file=None):
-        if os.path.isfile(sql):
-            with open(sql, 'r') as schema:
-                sql = schema.read()
-        if sql.strip():
-            save(to_file, sql)
-            self.con.executescript(sql)
-            self.con.commit()
-            self.load_tables()
-
-    def get_cols(self, sql):
+        self.name = 'meneame'
+        host = os.environ.get("MARIADB_HOSTS", "localhost")
+        port = os.environ.get("MARIADB_PORT", "3306")
+        self.con = MySQLdb.connect(host=host, port=int(port), user='meneame', password='meneame', database=self.name)
+        self.con.set_character_set('utf8mb4')
         cursor = self.con.cursor()
-        cursor.execute(sql)
-        cols = tuple(col[0] for col in cursor.description)
+        cursor.execute('SET NAMES utf8mb4;')
+        cursor.execute('SET CHARACTER SET utf8mb4;')
+        cursor.execute('SET character_set_connection=utf8mb4;')
         cursor.close()
-        return cols
+        self.load_tables()
 
     def load_tables(self):
-        self.tables = CaseInsensitiveDict()
-        for t, in list(self.select("SELECT name FROM sqlite_master WHERE type in ('table', 'view')")):
+        self.tables = dict()
+        for t in self.table_names:
             try:
                 self.tables[t] = self.get_cols("select * from "+t+" limit 0")
             except:
                 pass
 
-    def create_table(self, table, row_example):
-        self.load_tables()
-        if table.lower() in self.tables:
-            return
-            sql = 'create table %s (' % table
-        for k, v in row_example.items():
-            t = "TEXT"
-            if isinstance(v, int):
-                t = "NUMBER"
-            sql = sql + '\n  "%s" %s,' % (k, t)
-        if "id" in row_example.keys():
-            sql = sql + "\n  PRIMARY KEY (id)"
-        else:
-            sql = sql[:-1]
-        sql = sql+"\n);\n"
-        to_file = self.debug_dir + table + ".sql" if self.debug_dir else None
-        self.execute(sql, to_file=to_file)
-        self.commit()
+    @property
+    def table_names(self):
+        return tuple(i[0] for i in self.select("SELECT table_name FROM information_schema.tables where table_type in ('VIEW', 'BASE TABLE')"))
 
-    def insert(self, table, *args, insert_or=None, **kargv):
-        if not args and not kargv:
-            return
-        if args:
-            sobra = set()
-            for a in args:
-                a = {**kargv, **a}
-                s = self.insert(table, insert_or=insert_or, **a)
-                sobra = sobra.union(s.keys())
-            return sorted(sobra)
-        sobra = {}
-        ok_keys = [k.upper() for k in self.tables[table]]
-        keys = []
-        vals = []
-        for k, v in kargv.items():
-            if v is None or (isinstance(v, str) and len(v) == 0):
-                continue
-            if k.upper() not in ok_keys:
-                k = self.parse_col(k)
-                if k.upper() not in ok_keys:
-                    sobra[k] = v
-                    continue
-            keys.append('"'+k+'"')
-            vals.append(v)
-        prm = ['?']*len(vals)
-        sql = "insert or "+insert_or if insert_or else "insert"
-        sql = sql+" into %s (%s) values (%s)" % (
-            table, ', '.join(keys), ', '.join(prm))
-        self.con.execute(sql, vals)
-        self.insert_count = self.insert_count + 1
-        if self.commit_each and (self.insert_count % self.commit_each) == 0:
-            self.commit()
-        return sobra
+    def commit(self):
+        self.con.commit()
 
-    def update(self, table, **kargv):
-        sobra = {}
-        ok_keys = [k.upper() for k in self.tables[table]]
-        keys = []
-        vals = []
-        sql_set = []
-        id = None
-        for k, v in kargv.items():
-            if v is None or (isinstance(v, str) and len(v) == 0):
-                continue
-            if k.upper() not in ok_keys:
-                k = self.parse_col(k)
-                if k.upper() not in ok_keys:
-                    sobra[k] = v
-                    continue
-            if k == "id":
-                id = v
-                continue
-            sql_set.append(k+' = ?')
-            vals.append(v)
-        vals.append(id)
-        sql = "update %s set %s where id = ?" % (
-            table, ', '.join(sql_set))
-        self.con.execute(sql, vals)
-        return sobra
+    def get_cols(self, sql, cursor=None):
+        if cursor is None:
+            cursor = self.con.cursor()
+        cursor.execute(sql)
+        cols = tuple(col[0] for col in cursor.description)
+        cursor.close()
+        return cols
 
     def _build_select(self, sql):
         sql = sql.strip()
@@ -211,36 +98,13 @@ class DBLite:
             sql = "select "+field+" from "+sql
         return sql
 
-    def commit(self):
-        self.con.commit()
-
-    def close(self, vacuum=False):
-        if self.closed:
-            return
-        if self.readonly:
-            self.con.close()
-            self.closed = True
-            return
-        self.closeTransaction()
-        self.con.commit()
-        if vacuum:
-            self.con.execute("VACUUM")
-        self.con.commit()
-        self.con.close()
-        self.closed = True
-
-    def select(self, sql, *args, row_factory=None, **kargv):
+    def select(self, sql, *args, cursor=None, **kargv):
         sql = self._build_select(sql)
-        self.con.row_factory = row_factory
-        cursor = self.con.cursor()
-        if args:
-            cursor.execute(sql, args)
-        else:
-            cursor.execute(sql)
+        cursor = self.con.cursor(cursor)
+        cursor.execute(sql)
         for r in ResultIter(cursor):
             yield r
         cursor.close()
-        self.con.row_factory = None
 
     def one(self, sql):
         sql = self._build_select(sql)
@@ -255,3 +119,192 @@ class DBLite:
         if len(r) == 1:
             return r[0]
         return r
+
+    def parse_row(self, table, row):
+        if row and not isinstance(row, dict):
+            row = row[0]
+        if not row:
+            return None
+        _cols = self.tables[table]
+        cols=[]
+        for k, v in sorted(row.items()):
+            if k not in _cols:
+                continue
+            cols.append(k)
+        return cols
+
+    def insert(self, table, rows, insert="insert"):
+        cols = self.parse_row(table, rows)
+        if cols is None:
+            return
+        _cols = "`" + "`, `".join(cols) + "`"
+        _vals = "%(" + ")s, %(".join(cols) + ")s"
+        sql = insert+ " into `{0}` ({1}) values ({2})".format(table, _cols, _vals)
+        vals = []
+        cursor = self.con.cursor()
+        cursor.executemany(sql, rows)
+        cursor.close()
+        self.con.commit()
+
+    def replace(self, *args):
+        self.insert(*args, insert="replace")
+
+    def ignore(self, *args):
+        self.insert(*args, insert="insert ignore")
+
+    def update(self, table, rows):
+        cols = self.parse_row(table, rows)
+        if cols is None:
+            return
+        if "id" not in cols:
+            raise Exception("id not found")
+        cols.remove("id")
+        sql_set = []
+        for c in cols:
+            sql_set.append("`{0}` = %({0})s".format(c))
+        sql = "update `{0}` set " + ", ".join(sql_set)+" where id = %(id)s"
+        cursor = self.con.cursor()
+        cursor.executemany(sql, rows)
+        cursor.close()
+        self.con.commit()
+
+    def to_list(self, *args, **kargv):
+        lst = list(self.select(*args, **kargv))
+        if lst and len(lst[0])==1:
+            return [i[0] for i in lst]
+        return lst
+
+    def execute(self, sql):
+        if os.path.isfile(sql):
+            with open(sql, "r") as f:
+                sql = f.read()
+        sql = "\n".join(i for i in sql.split("\n") if i.strip()[:2] not in ("", "--"))
+        cursor = self.con.cursor()
+        for i in sql.split(";"):
+            if i.strip():
+                cursor.execute(i)
+        cursor.close()
+        self.con.commit()
+
+    def close(self):
+        if self.closed:
+            return
+        self.con.commit()
+        self.con.close()
+        self.closed = True
+
+    def link_gaps(self, size=2000):
+        max_id = self.one("select max(id) from LINKS")
+        if max_id is not None:
+            cursor = 1
+            while cursor < max_id:
+                ids = self.to_list('''
+                    select distinct id from (
+                        select id from LINKS
+                        union
+                        select id from broken_id where what='link'
+                    ) T
+                    where id>={0}
+                    order by id
+                    limit {1}
+                '''.format(cursor, size))
+                max_range = min(max_id, cursor+size+1)
+                if len(ids) and max_range<=ids[-1]:
+                    max_range=ids[-1]+1
+                for i in range(cursor, max_range):
+                    if i not in ids:
+                        yield i
+                cursor = max_range
+
+    def comment_gaps(self, time_enabled_comments, size=2000):
+        max_date = self.one("select max(sent_date) from LINKS")
+        if max_date is not None:
+            max_date = max_date - time_enabled_comments
+            max_id = self.one("select max(id) from LINKS where sent_date<"+str(max_date))
+            if max_id is not None:
+                cursor = 1
+                while cursor < max_id:
+                    ids = self.to_list('''
+                        select distinct id from (
+                            select link id from COMMENTS
+                            union
+                            select id from broken_id where what in ('zero_comment', 'link')
+                        ) T
+                        where id>={0}
+                        order by id
+                        limit {1}
+                    '''.format(cursor, size))
+                    max_range = min(max_id, cursor+size+1)
+                    if len(ids) and max_range<=ids[-1]:
+                        max_range=ids[-1]+1
+                    for i in range(cursor, max_range):
+                        if i not in ids:
+                            yield i
+                    cursor = max_range
+
+    def loop_tags(self, where=None):
+        if where is not None:
+            where = " and "+where
+        else:
+            where = ""
+        for id, tags, status in db.select('''
+            select
+                id,
+                LOWER(TRIM(tags)),
+                status
+            from LINKS
+            where tags is not null and TRIM(tags)!='' {0}
+        '''.format(where)):
+            tags=[t.strip() for t in tags.split(",") if t.strip()]
+            tags = [parse_tag(t) for t in set(tags)]
+            tags = sorted(t for t in tags if t is not None)
+            for tag in tags:
+                yield {"link": id, "tag": tag, "status": status})
+
+    def fix(self):
+        self.execute("sql/update_users.sql")
+        self.commit()
+        self.execute("delete from TAGS;")
+        self.commit()
+        for tags_links in chunks(self.loop_tags(), 2000):
+            db.insert("TAGS", tags_links)
+        self.commit()
+        self.execute('''
+            delete from TAGS
+            where tag not in (
+                select tag from TAGS
+                where status='published'
+                group by tag
+                having count(link)>=100
+            )
+        ''')
+        self.commit()
+
+    def clone(self, file, table):
+        file = "file:"+file+"?mode=ro"
+        lt = sqlite3.connect(file, detect_types=sqlite3.PARSE_DECLTYPES, uri=True)
+        cols = self.get_cols("select * "+table+" limit 1", lt.cursor())
+        cols = set(self.tables[table]).intersection(set(cols))
+        cols = sorted(cols)
+        _cols = "`" + "`, `".join(cols) + "`"
+        _vals = ", ".join(["%s"] * len(cols))
+        insert = "replace into `{0}` ({1}) values ({2})".format(table, _cols, _vals)
+
+        _cols = '"' + '", "'.join(cols) + '"'
+        select = "select {0} from {1}".format(_cols, table)
+        if "id" in cols:
+            select = select + " order by id"
+
+        print(insert)
+        print(select)
+        return
+        
+        cursor = lt.cursor()
+        cursor.execute(select)
+        for rows in chunk(ResultIter(cursor), 1000):
+            c = self.con.cursor()
+            c.executemany(insert, rows)
+            c.close()
+            self.con.commit()
+        cursor.close()
+        lt.close()
