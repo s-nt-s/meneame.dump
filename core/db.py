@@ -6,7 +6,7 @@ import unidecode
 import yaml
 from bunch import Bunch
 import MySQLdb
-from util import chunks
+from .util import chunks
 import sqlite3
 
 import warnings
