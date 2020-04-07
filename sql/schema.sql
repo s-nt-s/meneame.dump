@@ -76,7 +76,7 @@ create table TAGS (
   `tag` INT,
   `link` INT,
   `status` TEXT,
-  PRIMARY KEY (id, link)
+  PRIMARY KEY (tag, link)
 );
 
 commit;

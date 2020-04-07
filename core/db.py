@@ -6,29 +6,11 @@ import unidecode
 import yaml
 from bunch import Bunch
 import MySQLdb
-from .util import chunks
+from .util import chunks, parse_tag
 import sqlite3
 
 import warnings
 warnings.filterwarnings("ignore", category = MySQLdb.Warning)
-
-re_sp = re.compile(r"\s+")
-
-def parse_tag(_tag):
-    tag = _tag
-    for a, b in (
-        ("á", "a"),
-        ("é", "e"),
-        ("í", "i"),
-        ("ó", "o"),
-        ("ú", "u")
-    ):
-        tag = tag.replace(a, b)
-    if tag == "españa":
-        return "España"
-    if tag == "Europa":
-        return "Europa"
-    return _tag
 
 def ResultIter(cursor, size=1000):
     while True:
@@ -247,27 +229,29 @@ class DB:
             where = " and "+where
         else:
             where = ""
-        for id, tags, status in db.select('''
+        for id, tags, status in self.select('''
             select
                 id,
-                LOWER(TRIM(tags)),
+                tags,
                 status
             from LINKS
             where tags is not null and TRIM(tags)!='' {0}
+            order by id
         '''.format(where)):
-            tags=[t.strip() for t in tags.split(",") if t.strip()]
-            tags = [parse_tag(t) for t in set(tags)]
+            tags = tags.lower().strip().split(",")
+            tags = set(t.strip() for t in tags if t.strip())
+            tags = set([parse_tag(t) for t in tags])
             tags = sorted(t for t in tags if t is not None)
             for tag in tags:
-                yield {"link": id, "tag": tag, "status": status}
+                yield {"tag": tag, "link": id, "status": status}
 
     def fix(self):
-        self.execute("sql/update_users.sql")
-        self.commit()
+        #self.execute("sql/update_users.sql")
+        #self.commit()
         self.execute("delete from TAGS;")
         self.commit()
         for tags_links in chunks(self.loop_tags(), 2000):
-            db.insert("TAGS", tags_links)
+            self.insert("TAGS", tags_links)
         self.commit()
         self.execute('''
             delete from TAGS
