@@ -35,15 +35,18 @@ def readlines(*fls):
                     if i:
                         yield i
 
-def parse_tag(_tag):
-    _tag = re_sp.sub(" ", _tag).strip()
-    if not _tag:
+def parsetag(tag, main=True):
+    tag = re_sp.sub(" ", tag).strip()
+    while main and len(tag)>2 and tag[0]==tag[-1] and tag[0] in ("'", '"', "`", "´"):
+        tag = tag[1:-1]
+    if len(tag)==0 or (main and len(tag)<2):
         return None
-    tags = _tag.split()
+    tags = tag.split()
     if len(tags)>1:
-        tags=[parse_tag(t) or t for t in tags]
-        return " ".join(tags)
-    tag = _tag
+        tags=[parsetag(t, main=False) or t for t in tags]
+        tag = " ".join(t for t in tags if t is not None)
+        return tag if len(tag) else None
+    original = str(tag)
     for a, b in (
         ("á", "a"),
         ("é", "e"),
@@ -56,4 +59,4 @@ def parse_tag(_tag):
         return "España"
     if tag == "Europa":
         return "Europa"
-    return _tag
+    return original

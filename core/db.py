@@ -243,15 +243,19 @@ class DB:
             tags = set([parse_tag(t) for t in tags])
             tags = sorted(t for t in tags if t is not None)
             for tag in tags:
-                yield {"tag": tag, "link": id, "status": status}
+                yield (tag, id, status)
 
     def fix(self):
         #self.execute("sql/update_users.sql")
         #self.commit()
         self.execute("delete from TAGS;")
         self.commit()
+        insert = "insert into TAGS (tag, link, status) values (%s, %s, %s)"
         for tags_links in chunks(self.loop_tags(), 2000):
-            self.insert("TAGS", tags_links)
+            c = self.con.cursor()
+            c.executemany(insert, tags_links)
+            c.close()
+            self.con.commit()
         self.commit()
         self.execute('''
             delete from TAGS

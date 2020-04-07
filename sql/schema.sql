@@ -9,20 +9,20 @@ SET character_set_connection=utf8mb4;
 
 create table LINKS (
   `id` INT,
-  `url` TEXT,
-  `sub` TEXT,
-  `status` TEXT,
-  `user` TEXT,
+  `url` VARCHAR(250),
+  `sub` VARCHAR(12),
+  `status` VARCHAR(11),
+  `user` VARCHAR(32),
   `clicks` INT,
   `votes` INT,
   `negatives` INT,
   `karma` INT,
   `comments` INT,
-  `title` TEXT,
-  `tags` TEXT,
+  `title` VARCHAR(160),
+  `tags` VARCHAR(80),
   `sent_date` INT,
   `date` INT,
-  `content` TEXT,
+  `content` VARCHAR(65535),
   `user_id` INT,
   PRIMARY KEY (id)
 );
@@ -34,21 +34,7 @@ create table COMMENTS (
   `votes` INT,
   `karma` INT,
   `order` INT,
-  `user` TEXT,
-  `content` TEXT,
-  `user_id` INT,
-  PRIMARY KEY (id),
-  FOREIGN KEY (link) REFERENCES LINKS(id)
-);
-
-create table COMMENTS (
-  `link` INT,
-  `id` INT,
-  `date` INT,
-  `votes` INT,
-  `karma` INT,
-  `order` INT,
-  `user` TEXT,
+  `user` VARCHAR(32),
   `content` TEXT,
   `user_id` INT,
   PRIMARY KEY (id)
@@ -73,9 +59,9 @@ create table USERS (
 );
 
 create table TAGS (
-  `tag` INT,
+  `tag` VARCHAR(80),
   `link` INT,
-  `status` TEXT,
+  `status` VARCHAR(11),
   PRIMARY KEY (tag, link)
 );
 

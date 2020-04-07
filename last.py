@@ -63,7 +63,6 @@ def cron():
     db.execute("DROP TABLE AUX_TABLE;")
     db.commit()
     if seconds is not None:
-        print(seconds, int(seconds / (60*60)))
         seconds = seconds / 2
         h = int(seconds / (60*60))
         h = min(h, 12)
