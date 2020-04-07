@@ -6,7 +6,7 @@ import unidecode
 import yaml
 from bunch import Bunch
 import MySQLdb
-from .util import chunk, parse_tag
+from .util import chunks, parse_tag
 import sqlite3
 
 import warnings
@@ -281,7 +281,7 @@ class DB:
 
         cursor = lt.cursor()
         cursor.execute(select)
-        for rows in chunk(ResultIter(cursor), 1000):
+        for rows in chunks(ResultIter(cursor), 1000):
             c = self.con.cursor()
             c.executemany(insert, rows)
             c.close()
