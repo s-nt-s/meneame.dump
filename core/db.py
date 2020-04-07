@@ -285,7 +285,7 @@ class DB:
 
         cursor = lt.cursor()
         cursor.execute(select)
-        for rows in chunk(ResultIter(cursor), 1000):
+        for rows in chunks(ResultIter(cursor), 1000):
             c = self.con.cursor()
             c.executemany(insert, rows)
             c.close()
