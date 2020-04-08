@@ -24,6 +24,7 @@ create table LINKS (
   `date` INT,
   `content` VARCHAR(65535),
   `user_id` INT,
+  `check` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (id)
 );
 
