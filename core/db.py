@@ -181,8 +181,8 @@ class DB:
     def ignore(self, *args):
         self.insert(*args, insert="insert ignore")
 
-    def update(self, table, rows):
-        cols = self.parse_row(table, rows)
+    def update(self, table, rows, skipNull=False):
+        cols = self.parse_row(table, rows, skipNull=skipNull)
         if cols is None:
             return
         if "id" not in cols:
@@ -286,8 +286,8 @@ class DB:
                 yield (tag, id, status)
 
     def fix(self):
-        #self.execute("sql/update_users.sql")
-        #self.commit()
+        self.execute("sql/update_users.sql")
+        self.commit()
         self.execute("delete from TAGS;")
         self.commit()
         insert = "insert into TAGS (tag, link, status) values (%s, %s, %s)"

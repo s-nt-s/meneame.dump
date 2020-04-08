@@ -7,7 +7,6 @@ from threading import Thread
 
 from core.api import Api
 from core.db import DB
-from core.threadme import ThreadMe
 from core.util import read_yml_all, readlines, mkArg
 import sys
 import os
@@ -25,39 +24,6 @@ if arg.silent:
     print = lambda *args, **kargv: None
 
 db = DB(debug_dir="sql/")
-
-tm = ThreadMe(
-    fix_param=api,
-    max_thread=30,
-    list_size=10
-)
-
-def get_info(a, id):
-    print("%7d" % id, end="\r")
-    r = a.get_link_info(id)
-    return r
-
-def get_user(a, user):
-    r = a.get_list(sent_by=user)
-    print("%4d %s" % (len(r), user), end="\r")
-    return r
-
-def get_user_cerrado(min_date):
-    arr = db.to_list('''
-        select distinct user_id, user
-        from LINKS where
-        sent_date<{0} and UNIX_TIMESTAMP(`check`)<{0}
-    '''.format(min_date))
-    users = set()
-    visto = set()
-    for id, user in arr:
-        if id is not None:
-            users.add(id)
-            visto.add(user)
-    for _, user in arr:
-        if user not in visto:
-            users.add(user)
-    return users
 
 def close_out(*args, **kargv):
     global db
@@ -78,23 +44,6 @@ def main():
     links = api.fill_user_id(links)
     print(len(links), "links obtenidos")
     db.replace("LINKS", links)
-    print("Actualizando enlaces cerrados...", end="\r")
-    min_date = db.one("select max(sent_date) from LINKS")
-    min_date = min_date - api.mnm_config['time_enabled_comments']
-    print("Actualizando enlaces cerrados sent_date < %s" % min_date)
-    print("... a traves de usuarios")
-    for links in tm.list_run(get_user, get_user_cerrado(min_date)):
-        links = api.fill_user_id(links)
-        db.replace("LINKS", links)
-    print("... a traves de info")
-    cerrados = db.to_list('''
-        select id
-        from LINKS where
-        sent_date<{0} and UNIX_TIMESTAMP(`check`)<{0}
-    '''.format(min_date))
-    for links in tm.list_run(get_info, cerrados):
-        links = api.fill_user_id(links)
-        db.update("LINKS", links, skipNull=True)
 
 def cron():
     print("Calculando horario para el cron...")
