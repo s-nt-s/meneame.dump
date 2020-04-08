@@ -77,11 +77,12 @@ def main():
         users = set(i.get("user_id", i["user"]) for i in links)
         users = users.difference(done)
         if users:
-            print("Revisando usuarios de links faltantes")
+            print("\nRevisando usuarios de links faltantes")
             for links in tm.list_run(get_user, users):
                 links = api.fill_user_id(links)
                 db.replace("LINKS", links)
             done = done.union(users)
+            print("")
 
 if __name__ == "__main__":
     try:
