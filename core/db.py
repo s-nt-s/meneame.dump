@@ -153,10 +153,26 @@ class DB:
         _cols = "`" + "`, `".join(cols) + "`"
         _vals = "%(" + ")s, %(".join(cols) + ")s"
         sql = insert+ " into `{0}` ({1}) values ({2})".format(table, _cols, _vals)
-        vals = []
         cursor = self.con.cursor()
         for rws in chunks(rows, 2000):
-            cursor.executemany(sql, rows)
+            cursor.executemany(sql, rws)
+        cursor.close()
+        self.con.commit()
+
+    def upsert(self, *args):
+        cols = self.parse_row(table, rows)
+        if cols is None:
+            return
+        _cols = "`" + "`, `".join(cols) + "`"
+        _vals = "%(" + ")s, %(".join(cols) + ")s"
+        sql = "insert into `{0}` ({1}) values ({2}) on duplicate key update ".format(table, _cols, _vals)
+        sql_set = []
+        for c in cols:
+            sql_set.append("`{0}` = %({0})s".format(c))
+        sql = sql + ", ".join(sql_set)
+        cursor = self.con.cursor()
+        for rws in chunks(rows, 2000):
+            cursor.executemany(sql, rws)
         cursor.close()
         self.con.commit()
 
