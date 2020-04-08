@@ -65,4 +65,16 @@ create table TAGS (
   PRIMARY KEY (tag, link)
 );
 
+create table META_INT (
+  `id` VARCHAR(25),
+  `value` INT,
+  PRIMARY KEY (id)
+);
+
+create table META_STR (
+  `id` VARCHAR(25),
+  `value` VARCHAR(25),
+  PRIMARY KEY (id)
+);
+
 commit;

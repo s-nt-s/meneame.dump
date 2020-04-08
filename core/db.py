@@ -37,6 +37,7 @@ class DB:
                 debug_dir = debug_dir + "/"
             self.debug_dir = debug_dir
         self.name = 'meneame'
+        self.meta = Bunch()
         host = os.environ.get("MARIADB_HOSTS", "localhost")
         port = os.environ.get("MARIADB_PORT", "3306")
         self.con = MySQLdb.connect(host=host, port=int(port), user='meneame', password='meneame', database=self.name)
@@ -48,6 +49,35 @@ class DB:
         cursor.execute("SET time_zone='Europe/Madrid';")
         cursor.close()
         self.load_tables()
+        self.load_meta()
+
+    def load_meta(self):
+        self.meta = {}
+        for k, v in self.select("select id, value from META_INT"):
+            self.meta[k]=v
+        for k, v in self.select("select id, value from META_STR"):
+            self.meta[k]=v
+        self.meta=Bunch(**self.meta)
+
+    def save_meta(self, *keys):
+        meta_int = []
+        meta_str = []
+        for k, v in self.meta.items():
+            if len(keys)>0 and k not in keys:
+                continue
+            if isinstance(v, int):
+                meta_int.append((k, v))
+            else:
+                meta_str.append((k, v))
+        if not meta_int and not meta_str:
+            return
+        cursor = self.con.cursor()
+        if meta_int:
+            cursor.executemany("replace into META_INT (id, value) values (%s, %s)", meta_int)
+        if meta_str:
+            cursor.executemany("replace into META_STR (id, value) values (%s, %s)", meta_str)
+        cursor.close()
+        self.commit()
 
     def load_tables(self):
         self.tables = dict()
@@ -125,7 +155,8 @@ class DB:
         sql = insert+ " into `{0}` ({1}) values ({2})".format(table, _cols, _vals)
         vals = []
         cursor = self.con.cursor()
-        cursor.executemany(sql, rows)
+        for rws in chunks(rows, 2000):
+            cursor.executemany(sql, rows)
         cursor.close()
         self.con.commit()
 
@@ -172,21 +203,18 @@ class DB:
     def close(self):
         if self.closed:
             return
+        self.save_meta()
         self.con.commit()
         self.con.close()
         self.closed = True
 
-    def link_gaps(self, size=2000):
+    def link_gaps(self, cursor, size=2000):
         max_id = self.one("select max(id) from LINKS")
         if max_id is not None:
-            cursor = 1
             while cursor < max_id:
                 ids = self.to_list('''
-                    select distinct id from (
-                        select id from LINKS
-                        union
-                        select id from broken_id where what='link'
-                    ) T
+                    select id from
+                    LINKS
                     where id>={0}
                     order by id
                     limit {1}
@@ -199,20 +227,16 @@ class DB:
                         yield i
                 cursor = max_range
 
-    def comment_gaps(self, time_enabled_comments, size=2000):
+    def comment_gaps(self, cursor, time_enabled_comments, size=2000):
         max_date = self.one("select max(sent_date) from LINKS")
         if max_date is not None:
             max_date = max_date - time_enabled_comments
             max_id = self.one("select max(id) from LINKS where sent_date<"+str(max_date))
             if max_id is not None:
-                cursor = 1
                 while cursor < max_id:
                     ids = self.to_list('''
-                        select distinct id from (
-                            select link id from COMMENTS
-                            union
-                            select id from broken_id where what in ('zero_comment', 'link')
-                        ) T
+                        select id from
+                        COMMENTS
                         where id>={0}
                         order by id
                         limit {1}

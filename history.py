@@ -17,6 +17,7 @@ os.chdir(dname)
 
 arg = mkArg(
     "Intenta recuperar todo el historico de meneame.net",
+    usuarios="Recuperar historico de usuarios",
     silent="No imprime trazas"
 )
 if arg.silent:
@@ -34,7 +35,6 @@ def close_out(*args, **kargv):
     global db
     if db.closed:
         return
-    db.fix()
     ids = db.one("select count(id) from LINKS")
     print("\n"+str(ids), "links")
     db.close()
@@ -53,28 +53,27 @@ def get_user(a, user):
 
 
 def main():
-    print("Obtener usuario máximo...", end=" ")
-    max_user = db.one('''
-        select max(id) from (
-            select id from USERS
-            union
-            select user_id id from LINKS
-            union
-            select user_id id from COMMENTS
-        )
-    ''') or -1
-    print(max_user)
-    for links in tm.list_run(get_user, range(1, max_user+1)):
-        links = api.fill_user_id(links)
-        db.replace("LINKS", links)
+    if arg.usuarios:
+        print("Obtener usuario máximo...", end=" ")
+        max_user = db.one('''
+            select max(id) from (
+              select user_id from LINKS
+              union
+              select user_id from COMMENTS
+            )
+        ''') or -1
+        print(max_user)
+        for links in tm.list_run(get_user, range(1, max_user+1)):
+            links = api.fill_user_id(links)
+            db.replace("LINKS", links)
     print("Obteniendo info de links faltantes")
     tm.rt_null=[]
-    for links in tm.list_run(get_info, db.link_gaps()):
+    min_id  = self.meta.get("min_link_history_id", api.first_link["id"])
+    for links in tm.list_run(get_info, db.link_gaps(min_id)):
         links = api.fill_user_id(links)
         db.ignore("LINKS", links)
-        if tm.rt_null:
-            db.replace("broken_id", [{"what": 'link', 'id': i} for i in tm.rt_null])
-            tm.rt_null = []
+        self.meta.min_link_history_id = max([i["id"] for i in links] + tm.rt_null)
+        self.save_meta("min_link_history_id")
     tm.rt_null=[]
 
 if __name__ == "__main__":

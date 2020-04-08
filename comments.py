@@ -35,7 +35,6 @@ def close_out(*args, **kargv):
     global db
     if db.closed:
         return
-    db.fix()
     ids = db.one("select count(id) from COMMENTS")
     print("\n"+str(ids), "comments")
     db.close()
@@ -49,14 +48,14 @@ def get_comments(a, id):
 
 def main():
     tm.rt_null=[]
-    print("Obteniendo comentarios de link_date < "+str(api.mnm_config['time_enabled_comments']))
-    gnr = db.comment_gaps(api.mnm_config['time_enabled_comments'])
+    min_id  = self.meta.get("min_comment_history_id", api.first_link["id"])
+    print("Obteniendo comentarios de link_id > %s and link_date < %s " % (min_id, api.mnm_config['time_enabled_comments']))
+    gnr = db.comment_gaps(min_id, api.mnm_config['time_enabled_comments'])
     for comments in tm.list_run(get_comments, gnr):
         comments = api.fill_user_id(comments)
         db.replace("COMMENTS", comments)
-        if tm.rt_null:
-            db.replace("broken_id", [{"what": 'zero_comment', 'id': i} for i in tm.rt_null])
-            tm.rt_null = []
+        self.meta.min_comment_history_id = max([i["link"] for i in links] + tm.rt_null)
+        self.save_meta("min_comment_history_id")
 
 if __name__ == "__main__":
     try:

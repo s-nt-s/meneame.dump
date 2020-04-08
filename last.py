@@ -29,7 +29,6 @@ def close_out(*args, **kargv):
     global db
     if db.closed:
         return
-    db.fix()
     ids = db.one("select count(id) from LINKS")
     print("\n"+str(ids), "links")
     db.close()
@@ -48,6 +47,7 @@ def main():
 
 def cron():
     print("Calculando horario para el cron...")
+    print("Creando tabla auxiliar...")
     db.execute('''
         DROP TABLE IF EXISTS AUX_TABLE;
         create table AUX_TABLE (
@@ -56,12 +56,13 @@ def cron():
            DT INT,
            PRIMARY KEY (RN)
         );
-        insert into AUX_TABLE (DT)
-        SELECT sent_date FROM LINKS
+        insert into AUX_TABLE (ID, DT)
+        SELECT id, sent_date FROM LINKS
         where sent_date is not null
         order by sent_date;
     ''')
     db.commit()
+    print("Obteniendo intervalo mínimo...")
     seconds = db.one('''
         select
             min(A.DT-B.DT) seconds
@@ -69,13 +70,14 @@ def cron():
             AUX_TABLE A join AUX_TABLE B on
             A.RN - 1000 = B.RN
     ''')
+    print("Borrando tabla auxiliar...")
     db.execute("DROP TABLE AUX_TABLE;")
     db.commit()
     if seconds is not None:
-        seconds = seconds / 2
+        #seconds = seconds / 2
         h = int(seconds / (60*60))
         h = min(h, 12)
-        print("15 */{0} * * * {1}".format(h, os.path.realpath(__file__)))
+        print("15 */{0} * * * {1} --silent".format(h, os.path.realpath(__file__)))
 
 if __name__ == "__main__":
     if arg.cron:

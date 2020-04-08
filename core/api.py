@@ -219,10 +219,10 @@ class Api:
         for user in users:
             if user not in self.user_id:
                 id = self.extract_user_id(user)
-                if id is not None:
-                    self.user_id[user]=id
-                else:
+                if id is None:
                     search.add(user)
+                else:
+                    self.user_id[user]=id
         if len(search)==0:
             pass
         elif len(search)==1:
@@ -233,6 +233,16 @@ class Api:
             for user, id in tm.run(tm_search_user_id, sorted(search)):
                 self.user_id[user]=id
         return self.user_id.get(users[0])
+
+    def fill_user_id(self, arr):
+        isDict = isinstance(arr, dict)
+        if isDict:
+            arr = [arr]
+        users = set(i["user"] for i in arr if i["user"])
+        self.populate_user_id(*users)
+        for i in arr:
+            i["user_id"] = self.user_id.get(i["user"])
+        return arr[0] if isDict else arr
 
     def get_list(self, **kargv):
         if kargv is None:
@@ -246,16 +256,6 @@ class Api:
         if not js or not isinstance(js, list):
             return js
         return js
-
-    def fill_user_id(self, arr):
-        isDict = isinstance(arr, dict)
-        if isDict:
-            arr = [arr]
-        users = set(i["user"] for i in arr if i["user"])
-        self.populate_user_id(*users)
-        for i in arr:
-            i["user_id"] = self.user_id.get(i["user"])
-        return arr[0] if isDict else arr
 
     def get_sneaker(self, **kargv):
         if self.sneaker_time and ("time" not in kargv or kargv["time"] < self.sneaker_time):
