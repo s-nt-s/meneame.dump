@@ -65,12 +65,12 @@ def main():
             #users = (u["user_id"] for u in links if u["user_id"] and u["user"] == ("--%s--" % u["user_id"]))
     print("Obteniendo info de links faltantes")
     tm.rt_null=[]
-    min_id  = self.meta.get("min_link_history_id", api.first_link["id"])
+    min_id  = db.meta.get("min_link_history_id", api.first_link["id"])
     for links in tm.list_run(get_info, db.link_gaps(min_id)):
         links = api.fill_user_id(links)
         db.ignore("LINKS", links)
-        self.meta.min_link_history_id = max([i["id"] for i in links] + tm.rt_null)
-        self.save_meta("min_link_history_id")
+        db.meta.min_link_history_id = max([i["id"] for i in links] + tm.rt_null)
+        db.save_meta("min_link_history_id")
     tm.rt_null=[]
 
 if __name__ == "__main__":
