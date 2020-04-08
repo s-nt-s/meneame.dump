@@ -161,7 +161,7 @@ class DB:
         cursor.close()
         self.con.commit()
 
-    def upsert(self, table, **row, skipNull=True):
+    def upsert(self, table, skipNull=True, **row):
         cols = self.parse_row(table, row, skipNull=skipNull)
         if cols is None:
             return
