@@ -43,19 +43,19 @@ signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
 def get_comments(a, id):
     r = a.get_comments(id)
+    db.meta.min_comment_history_id = max(db.meta.min_comment_history_id, id)
     print("%4d %s" % (len(r), id), end="\r")
     return r if r else None
 
 def main():
-    tm.rt_null=[]
     min_id  = db.meta.get("min_comment_history_id", api.first_link["id"])
     print("Obteniendo comentarios de link_id > %s and link_date < %s " % (min_id, api.mnm_config['time_enabled_comments']))
     gnr = db.comment_gaps(min_id, api.mnm_config['time_enabled_comments'])
     for comments in tm.list_run(get_comments, gnr):
         comments = api.fill_user_id(comments)
         db.replace("COMMENTS", comments)
-        db.meta.min_comment_history_id = max([i["link"] for i in links] + tm.rt_null)
         db.save_meta("min_comment_history_id")
+    db.save_meta("min_comment_history_id")
 
 if __name__ == "__main__":
     try:

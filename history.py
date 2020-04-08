@@ -44,6 +44,7 @@ signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 def get_info(a, id):
     print("%7d" % id, end="\r")
     r = a.get_link_info(id)
+    db.meta.min_link_history_id = max(db.meta.min_link_history_id, id)
     return r
 
 def get_user(a, user):
@@ -70,7 +71,6 @@ def main():
     for links in tm.list_run(get_info, db.link_gaps(min_id)):
         links = api.fill_user_id(links)
         db.ignore("LINKS", links)
-        db.meta.min_link_history_id = max([i["id"] for i in links] + tm.rt_null)
         db.save_meta("min_link_history_id")
         if arg.usuarios:
             continue
@@ -83,6 +83,7 @@ def main():
                 db.replace("LINKS", links)
             done = done.union(users)
             print("")
+    db.save_meta("min_link_history_id")
 
 if __name__ == "__main__":
     try:
