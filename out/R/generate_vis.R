@@ -8,9 +8,9 @@ s_tags <- s_tags$tags
 
 counts$year <- as.numeric(counts$year)
 
-ggvis1 <- counts %>%  ggvis() %>% 
+ggvis1 <- counts %>%  ggvis() %>%
     filter(tags %in% eval(input_select(s_tags, multiple = TRUE, label = "Temas",
                                        selectize = TRUE,
-                                       selected = c("España", "Europa")))) %>%
+                                       selected = c("irlanda", "europa")))) %>%
     group_by(tags) %>%
     layer_paths(~year, ~count_n, stroke = ~tags, strokeWidth := 4)

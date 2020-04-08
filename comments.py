@@ -16,6 +16,14 @@ abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 
+arg = mkArg(
+    "Intenta recuperar todo el historico de meneame.net",
+    silent="No imprime trazas"
+)
+if arg.silent:
+    print = lambda *args, **kargv: None
+
+
 db = DB(debug_dir="sql/")
 api = Api()
 tm = ThreadMe(
@@ -41,8 +49,10 @@ def get_comments(a, id):
 
 def main():
     tm.rt_null=[]
+    print("Obteniendo comentarios de link_date < "+str(api.mnm_config['time_enabled_comments']))
     gnr = db.comment_gaps(api.mnm_config['time_enabled_comments'])
     for comments in tm.list_run(get_comments, gnr):
+        comments = api.fill_user_id(comments)
         db.replace("COMMENTS", comments)
         if tm.rt_null:
             db.replace("broken_id", [{"what": 'zero_comment', 'id': i} for i in tm.rt_null])

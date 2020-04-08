@@ -17,6 +17,7 @@ from dateutil.relativedelta import relativedelta
 
 from .endpoint import EndPoint
 from .util import chunks
+from .threadme import ThreadMe
 
 fisg1 = re.compile(
     r"^.*\bnew_data\s*=\s*\(\s*(.*)\s*\)\s*;\s*$", re.MULTILINE | re.DOTALL)
@@ -167,6 +168,18 @@ def get_items(url, params, date, total=-1):
     return rs
 
 
+
+def tm_search_user_id(user):
+    items = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+user, select="img.avatar", default=[])
+    if items:
+        src = items[0].attrs["src"]
+        src = src.rsplit("/")[-1].rsplit(".")[0]
+        src = src.split("-")
+        if len(src)==3 and src[0].isdigit():
+            id = int(src[0])
+            return user, id
+    return user, None
+
 class Api:
     MAX_ITEMS = 2000
 
@@ -183,6 +196,7 @@ class Api:
         self.list = EndPoint("api/list.php")
         self.comment_answers = EndPoint("backend/get_comment_answers.php")
         self.post_answers = EndPoint("backend/get_post_answers.php")
+        self.user_id = {}
         self.max_min = Bunch(
             id=None,
             epoch=None,
@@ -190,27 +204,35 @@ class Api:
             link=None
         )
 
-    @lru_cache(maxsize=20000)
-    def _search_user_id(self, user):
-        items = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+user, select="img.avatar", default=[])
-        if items:
-            src = items[0].attrs["src"]
-            src = src.rsplit("/")[-1].rsplit(".")[0]
-            src = src.split("-")
-            if len(src)==3 and src[0].isdigit():
-                id = int(src[0])
-                return id
-        return None
-
-    def extract_user_id(self, user, search=False):
+    def extract_user_id(self, user):
         if user is None or isinstance(user, int):
             return user
         m = re_user_id.match(user)
         if m:
             return int(m.group(1))
-        if search:
-            return self._search_user_id(user)
         return None
+
+    def populate_user_id(self, *users):
+        if not users:
+            return None
+        search = set()
+        for user in users:
+            if user not in self.user_id:
+                id = self.extract_user_id(user)
+                if id is not None:
+                    self.user_id[user]=id
+                else:
+                    search.add(user)
+        if len(search)==0:
+            pass
+        elif len(search)==1:
+            user = search.pop()
+            self.user_id[user] = tm_search_user_id(user)[1]
+        else:
+            tm = ThreadMe(max_thread=50)
+            for user, id in tm.run(tm_search_user_id, sorted(search)):
+                self.user_id[user]=id
+        return self.user_id.get(users[0])
 
     def get_list(self, **kargv):
         if kargv is None:
@@ -223,15 +245,17 @@ class Api:
         js = js["objects"]
         if not js or not isinstance(js, list):
             return js
-        js0 = js[0]
-        if "user" in js0 and "user_id" not in js0:
-            user_id = None
-            users = set(i["user"] for i in js)
-            if len(users)==1 and "sent_by" in kargv:
-                user_id = self.extract_user_id(kargv["sent_by"], search=True)
-            for j in js:
-                j["user_id"] = user_id or self.extract_user_id(j["user"], search=True)
         return js
+
+    def fill_user_id(self, arr):
+        isDict = isinstance(arr, dict)
+        if isDict:
+            arr = [arr]
+        users = set(i["user"] for i in arr if i["user"])
+        self.populate_user_id(*users)
+        for i in arr:
+            i["user_id"] = self.user_id.get(i["user"])
+        return arr[0] if isDict else arr
 
     def get_sneaker(self, **kargv):
         if self.sneaker_time and ("time" not in kargv or kargv["time"] < self.sneaker_time):
@@ -435,6 +459,4 @@ class Api:
             elif k == "sub_name":
                 k = "sub"
             link[k] = v
-        if "user" in link and "user_id" not in link:
-            link["user_id"] = self.extract_user_id(link["user"], search=True)
         return link

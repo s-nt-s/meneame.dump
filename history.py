@@ -15,6 +15,13 @@ abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 
+arg = mkArg(
+    "Intenta recuperar todo el historico de meneame.net",
+    silent="No imprime trazas"
+)
+if arg.silent:
+    print = lambda *args, **kargv: None
+
 db = DB(debug_dir="sql/")
 api = Api()
 tm = ThreadMe(
@@ -46,14 +53,24 @@ def get_user(a, user):
 
 
 def main():
-    db.execute("sql/update_users.sql")
-    print("USERS")
-    max_user = db.one("select max(id) from USERS") or -1
+    print("Obtener usuario máximo...", end=" ")
+    max_user = db.one('''
+        select max(id) from (
+            select id from USERS
+            union
+            select user_id id from LINKS
+            union
+            select user_id id from COMMENTS
+        )
+    ''') or -1
+    print(max_user)
     for links in tm.list_run(get_user, range(1, max_user+1)):
+        links = api.fill_user_id(links)
         db.replace("LINKS", links)
-    print("INFO")
+    print("Obteniendo info de links faltantes")
     tm.rt_null=[]
     for links in tm.list_run(get_info, db.link_gaps()):
+        links = api.fill_user_id(links)
         db.ignore("LINKS", links)
         if tm.rt_null:
             db.replace("broken_id", [{"what": 'link', 'id': i} for i in tm.rt_null])

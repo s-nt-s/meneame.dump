@@ -2,6 +2,7 @@ import yaml
 from glob import glob
 import os
 import re
+import argparse
 
 re_sp = re.compile(r"\s+")
 
@@ -35,7 +36,7 @@ def readlines(*fls):
                     if i:
                         yield i
 
-def parsetag(tag, main=True):
+def parse_tag(tag, main=True):
     tag = re_sp.sub(" ", tag).strip()
     while main and len(tag)>2 and tag[0]==tag[-1] and tag[0] in ("'", '"', "`", "´"):
         tag = tag[1:-1]
@@ -60,3 +61,16 @@ def parsetag(tag, main=True):
     if tag == "Europa":
         return "Europa"
     return original
+
+def mkArg(title, **kargv):
+    parser = argparse.ArgumentParser(description=title)
+    for k, h in kargv.items():
+        if len(k)==1:
+            k = "-" + k
+        else:
+            k = "--" + k
+        parser.add_argument(k, action='store_true', help=h)
+    args = parser.parse_args()
+    if "silent" in kargv:
+        args.trazas = not args.silent
+    return args

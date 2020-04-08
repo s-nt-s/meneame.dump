@@ -7,8 +7,7 @@ from threading import Thread
 
 from core.api import Api
 from core.db import DB
-from core.threadme import ThreadMe
-from core.util import read_yml_all, readlines
+from core.util import read_yml_all, readlines, mkArg
 import sys
 import os
 
@@ -16,12 +15,15 @@ abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 
-db = DB(debug_dir="sql/")
-api = Api()
-tm = ThreadMe(
-    fix_param=api,
-    max_thread=30
+arg = mkArg(
+    "Obtiene las últimos links de meneame.net",
+    cron="Muetra el mejor horario (en función de los datos ya obtenidos) para poner este script en cron",
+    silent="No imprime trazas"
 )
+if arg.silent:
+    print = lambda *args, **kargv: None
+
+db = DB(debug_dir="sql/")
 
 def close_out(*args, **kargv):
     global db
@@ -35,10 +37,17 @@ def close_out(*args, **kargv):
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
 def main():
+    print("Inicializando api...")
+    api = Api()
+    print("Bucando enlaces...")
     links = api.get_links()
+    print("Añadiendo user_id")
+    links = api.fill_user_id(links)
+    print(len(links), "links obtenidos")
     db.replace("LINKS", links)
 
 def cron():
+    print("Calculando horario para el cron...")
     db.execute('''
         DROP TABLE IF EXISTS AUX_TABLE;
         create table AUX_TABLE (
@@ -69,7 +78,7 @@ def cron():
         print("15 */{0} * * * {1}".format(h, os.path.realpath(__file__)))
 
 if __name__ == "__main__":
-    if len(sys.argv)==2 and sys.argv[1]=="cron":
+    if arg.cron:
         cron()
         db.close()
         sys.exit()

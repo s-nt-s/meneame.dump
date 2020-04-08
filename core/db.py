@@ -45,6 +45,7 @@ class DB:
         cursor.execute('SET NAMES utf8mb4;')
         cursor.execute('SET CHARACTER SET utf8mb4;')
         cursor.execute('SET character_set_connection=utf8mb4;')
+        cursor.execute("SET time_zone='Europe/Madrid';")
         cursor.close()
         self.load_tables()
 
