@@ -159,7 +159,7 @@ class DB:
         cursor.close()
         self.con.commit()
 
-    def upsert(self, *args):
+    def upsert(self, table, *rows):
         cols = self.parse_row(table, rows)
         if cols is None:
             return
