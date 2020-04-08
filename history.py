@@ -54,18 +54,15 @@ def get_user(a, user):
 
 def main():
     if arg.usuarios:
+        print("Calculando estadisticas de usuarios")
+        db.execute("sql/update_users.sql")
         print("Obtener usuario máximo...", end=" ")
-        max_user = db.one('''
-            select max(id) from (
-              select user_id from LINKS
-              union
-              select user_id from COMMENTS
-            )
-        ''') or -1
+        max_user = db.one("select max(id) from USERS") or -1
         print(max_user)
         for links in tm.list_run(get_user, range(1, max_user+1)):
             links = api.fill_user_id(links)
             db.replace("LINKS", links)
+            #users = (u["user_id"] for u in links if u["user_id"] and u["user"] == ("--%s--" % u["user_id"]))
     print("Obteniendo info de links faltantes")
     tm.rt_null=[]
     min_id  = self.meta.get("min_link_history_id", api.first_link["id"])

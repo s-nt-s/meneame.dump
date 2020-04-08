@@ -133,7 +133,7 @@ class DB:
             return r[0]
         return r
 
-    def parse_row(self, table, row):
+    def parse_row(self, table, row, skipNull=False):
         if row and not isinstance(row, dict):
             row = row[0]
         if not row:
@@ -142,6 +142,8 @@ class DB:
         cols=[]
         for k, v in sorted(row.items()):
             if k not in _cols:
+                continue
+            if v is None and skipNull:
                 continue
             cols.append(k)
         return cols
@@ -159,20 +161,17 @@ class DB:
         cursor.close()
         self.con.commit()
 
-    def upsert(self, table, rows):
-        cols = self.parse_row(table, rows)
+    def upsert(self, table, **row, skipNull=True):
+        cols = self.parse_row(table, row, skipNull=skipNull)
         if cols is None:
             return
         _cols = "`" + "`, `".join(cols) + "`"
         _vals = "%(" + ")s, %(".join(cols) + ")s"
         sql = "insert into `{0}` ({1}) values ({2}) on duplicate key update ".format(table, _cols, _vals)
-        sql_set = []
-        for c in cols:
-            sql_set.append("`{0}` = %({0})s".format(c))
+        sql_set = ["`{0}` = %({0})s".format(c) for c in cols]
         sql = sql + ", ".join(sql_set)
         cursor = self.con.cursor()
-        for rws in chunks(rows, 2000):
-            cursor.executemany(sql, rws)
+        cursor.execute(sql, row)
         cursor.close()
         self.con.commit()
 
