@@ -26,12 +26,6 @@ if arg.silent:
 
 db = DB(debug_dir="sql/")
 
-tm = ThreadMe(
-    fix_param=api,
-    max_thread=30,
-    list_size=10
-)
-
 def get_info(a, id):
     print("%7d" % id, end="\r")
     r = a.get_link_info(id)
@@ -78,6 +72,11 @@ def main():
     links = api.fill_user_id(links)
     print(len(links), "links obtenidos")
     db.replace("LINKS", links)
+    tm = ThreadMe(
+        fix_param=api,
+        max_thread=30,
+        list_size=10
+    )
     print("Actualizando enlaces cerrados...", end="\r")
     min_date = db.one("select max(sent_date) from LINKS")
     min_date = min_date - api.mnm_config['time_enabled_comments']

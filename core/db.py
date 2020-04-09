@@ -119,9 +119,9 @@ class DB:
             yield r
         cursor.close()
 
-    def one(self, sql):
+    def one(self, sql, cursor=None):
         sql = self._build_select(sql)
-        cursor = self.con.cursor()
+        cursor = self.con.cursor(cursor)
         cursor.execute(sql)
         r = cursor.fetchone()
         cursor.close()

@@ -14,12 +14,16 @@ def toTag(html, *args):
     tag = bs4.BeautifulSoup(html, 'html.parser')
     return tag
 
+def millar(value):
+    value = "{:,.0f}".format(value).replace(",", ".")
+    return value
 
 class Jnj2():
 
     def __init__(self, origen, destino, pre=None, post=None):
         self.j2_env = Environment(
             loader=FileSystemLoader(origen), trim_blocks=True)
+        self.j2_env.filters['millar'] = millar
         self.destino = destino
         self.pre = pre
         self.post = post
