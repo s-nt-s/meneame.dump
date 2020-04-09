@@ -86,8 +86,7 @@ en la resta son enlaces cerrados y por lo tanto ya tenemos toda su información
 definitiva.
 
 ¿Pero que pasa con los enlaces con `sent_date` mayor al valor de corte anteriormente
-definido? Estas serán noticias que aún no están cerradas y por lo tanto pueden cambiar,
-por lo tanto tenemos dos opciones:
+definido? Estas serán noticias que aún no estaban cerradas cuando las consultamos y por lo tanto pueden haber cambiado. En ese caso tenemos dos opciones:
 
 * Descartarlas de nuestro análisis
 * Actualizarlas más tarde
