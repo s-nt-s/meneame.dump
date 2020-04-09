@@ -92,9 +92,16 @@ def main():
         from LINKS where
         sent_date<{0} and UNIX_TIMESTAMP(`check`)<{0}
     '''.format(min_date))
+    update = "update `LINKS` set `check` = CURRENT_TIMESTAMP where id ";
     for links in tm.list_run(get_info, cerrados):
         links = api.fill_user_id(links)
         db.update("LINKS", links, skipNull=True)
+        ids = set(str(i["id"]) for i in links)
+        if len(ids)==1:
+            ids = "= "+ids.pop()
+        else:
+            ids = "in (" + ", ".join(sorted(ids)) + ")"
+        db.execute(update+ids)
 
 def cron():
     print("Calculando horario para el cron...")
