@@ -458,5 +458,18 @@ class Api:
                 k = "user"
             elif k == "sub_name":
                 k = "sub"
+            if k in ('clicks', 'date', 'negatives', 'sent_date', 'votes') and isinstance(v, str) and v.isdigit():
+                v = int(v)
             link[k] = v
+        if link.get("status") in (None, ""):
+            div = get_soup("https://www.meneame.net/story/"+str(id), select="div.news-shakeit", default=[])
+            if div:
+                div = div[0]
+                cls = div.attrs["class"]
+                if isinstance(cls, str):
+                    cls = cls.split()
+                for c in cls:
+                    c = c.split("-")[-1]
+                    if c in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
+                        link["status"] = c
         return link

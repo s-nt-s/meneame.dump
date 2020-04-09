@@ -191,7 +191,7 @@ class DB:
         sql_set = []
         for c in cols:
             sql_set.append("`{0}` = %({0})s".format(c))
-        sql = "update `{0}` set " + ", ".join(sql_set)+" where id = %(id)s"
+        sql = "update `{0}` set " + ", ".join(sql_set) + " where id = %(id)s"
         cursor = self.con.cursor()
         cursor.executemany(sql, rows)
         cursor.close()

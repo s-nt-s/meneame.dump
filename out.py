@@ -18,6 +18,7 @@ max_date, min_date = db.one('''
         from_unixtime(min(sent_date))
     from LINKS where sent_date<'''+s_max_date
 )
+
 max_portada, min_portada = db.one('''
     select
         max(id),
@@ -95,8 +96,8 @@ jHtml.save("informe.md",
         "total": sum(count_cmt.values()),
         "status": count_cmt
     },
-    max_date=max_date,
-    min_date=min_date,
+    max_date=max_date.strftime("%d/%m/%Y %H:%M"),
+    min_date=min_date.strftime("%d/%m/%Y"),
     max_portada=max_portada,
     min_portada=min_portada
 )
