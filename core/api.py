@@ -190,6 +190,8 @@ def tm_search_user_id(user):
 
 class Api:
     MAX_ITEMS = 2000
+    SUBS = ('mnm', 'actualidad', 'cultura', 'ocio', 'tecnología', 'emnm')
+    STATUS = ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished')
 
     def __init__(self):
         self.sneaker = EndPoint("backend/sneaker2.php")
@@ -352,7 +354,7 @@ class Api:
         # duplicated metapublished
         # https://github.com/Meneame/meneame.net/blob/master/sql/meneame.sql
         # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
-        for status in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
+        for status in Api.STATUS:
             min_id = sys.maxsize
             for p in self.get_list(status=status, **kargv):
                 posts[p["id"]] = p
@@ -406,6 +408,8 @@ class Api:
         ep.load()
         re_fields = re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
         fld = set(re_fields.findall(ep.text))
+        fld.add("comments")
+        fld.add('sub_status_id')
         return sorted(fld)
 
 
@@ -416,6 +420,7 @@ class Api:
         kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
+        eq.add('sub_status_id')
         for k in ("username", "sub_name"):
             if k in fld:
                 eq.add(k)
@@ -458,8 +463,9 @@ class Api:
 
 
     def get_link_info(self, id, fields=None):
+        fields = fields or self.link_fields
         _link = {"id": id}
-        for fl in chunks((fields or self.link_fields), 10):
+        for fl in chunks(fields, 10):
             fl = ",".join(fl)
             obj = self.get_info(what='link', id=id, fields=fl)
             if not obj:
@@ -473,20 +479,20 @@ class Api:
                 k = "user"
             elif k == "sub_name":
                 k = "sub"
-            if k in ('clicks', 'date', 'negatives', 'sent_date', 'votes') and isinstance(v, str) and v.isdigit():
+            if k in ('clicks', 'date', 'negatives', 'sent_date', 'votes', 'comments', 'sub_status_id') and isinstance(v, str) and v.isdigit():
                 v = int(v)
             link[k] = v
-        if link.get("status") in (None, ""):
-            div = get_soup("https://www.meneame.net/story/"+str(id), select="div.news-shakeit", default=[], intentos=1)
+        if "status" in fields and link.get("status") in (None, ""):
+            soup = get_soup("https://www.meneame.net/story/"+str(id), intentos=2)
+            div = soup.select_one("div.news-shakeit") if soup else None
             if div:
-                div = div[0]
                 cls = div.attrs["class"]
                 if isinstance(cls, str):
                     cls = cls.split()
                 for c in cls:
                     c = c.split("-")[-1]
-                    if c in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished', 'discarded'):
-                        if c == 'discarded':
-                            c = 'discard'
+                    if c == 'discarded':
+                        c = 'discard'
+                    if c in Api.STATUS:
                         link["status"] = c
         return link

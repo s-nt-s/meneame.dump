@@ -36,6 +36,14 @@ def get_user(a, user):
     print("%4d %-20s" % (len(r), user), end="\r")
     return r
 
+def get_sub_status_id(a, id):
+    s = a.get_info(what='link', id=id, fields="sub_status_id")
+    if s is None or (isinstance(s, str) and not s.isdigit()):
+        return None
+    if isinstance(s, str):
+        s = int(s)
+    return {"id":id, "sub_status_id": s}
+
 def get_user_cerrado(min_date):
     arr = db.to_list('''
         select distinct user_id, user
@@ -101,6 +109,9 @@ def main():
         else:
             ids = "in (" + ", ".join(sorted(ids)) + ")"
         db.execute(update+ids)
+    gnr = db.select("select id from LINKS where sub_status_id is null and status='published'")
+    for id in tm.list_run(get_status_id, gnr):
+        db.update("LINKS", links, skipNull=True)
 
 def cron():
     print("Calculando horario para el cron...")

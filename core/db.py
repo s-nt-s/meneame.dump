@@ -203,10 +203,15 @@ class DB:
             return [i[0] for i in lst]
         return lst
 
-    def execute(self, sql):
+    def execute(self, sql, *args, to_file=None):
         if os.path.isfile(sql):
             with open(sql, "r") as f:
                 sql = f.read()
+        if args:
+            sql=sql.format(*args)
+        if to_file:
+            with opne(to_file, "w") as f:
+                f.write(sql)
         sql = "\n".join(i for i in sql.split("\n") if i.strip()[:2] not in ("", "--"))
         cursor = self.con.cursor()
         for i in sql.split(";"):
@@ -264,18 +269,19 @@ class DB:
                             yield i
                     cursor = max_range
 
-    def loop_tags(self, where=None):
-        if where is not None:
-            where = " and "+where
-        else:
-            where = ""
+    def loop_tags(self, where=""):
+        max_date = self.meta.get("max_date")
+        if max_date is not None:
+            where = ("sent_date < %s and " % max_date)+where
+        if where.strip() and not where.strip().endswith(" and"):
+            where = where + " and "
         for id, tags, status in self.select('''
             select
                 id,
                 tags,
                 status
             from LINKS
-            where tags is not null and TRIM(tags)!='' {0}
+            where {0} tags is not null and TRIM(tags)!=''
             order by id
         '''.format(where)):
             tags = tags.lower().strip().split(",")
@@ -285,7 +291,12 @@ class DB:
             for tag in tags:
                 yield (tag, id, status)
 
-    def fix(self):
+    def fix(self, time_enabled_comments=None):
+        if time_enabled_comments:
+            max_date = self.one("select max(sent_date) from LINKS")
+            if max_date is not None:
+                self.meta.max_date = max_date - time_enabled_comments
+                self.save_meta("max_date")
         self.execute("sql/update_users.sql")
         self.commit()
         self.execute("delete from TAGS;")

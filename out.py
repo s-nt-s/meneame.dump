@@ -8,7 +8,7 @@ from MySQLdb.cursors import DictCursor
 db = DB()
 api = Api()
 
-main_subs = ('mnm', 'actualidad', 'cultura', 'ocio', 'tecnología')
+main_subs = ('mnm', 'actualidad', 'cultura', 'ocio', 'tecnología', 'dmnm', 'emnm')
 max_date = db.one("select max(sent_date) from LINKS")
 max_date = max_date - api.mnm_config['time_enabled_comments']
 s_max_date = str(max_date)
