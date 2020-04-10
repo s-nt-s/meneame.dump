@@ -485,6 +485,8 @@ class Api:
                     cls = cls.split()
                 for c in cls:
                     c = c.split("-")[-1]
-                    if c in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished'):
+                    if c in ('published', 'queued', 'all', 'autodiscard', 'discard', 'abuse', 'duplicated', 'metapublished', 'discarded'):
+                        if c == 'discarded':
+                            c = 'discard'
                         link["status"] = c
         return link

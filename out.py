@@ -108,7 +108,7 @@ jHtml = Jnj2("template/", "docs/")
 jHtml.save("informe.md",
     general=get_count(),
     principal=get_count(" and sub in {0}".format(main_subs)),
-    main_subs=",".join(main_subs[:-1])+" y "+main_subs[-1],
+    main_subs=", ".join(main_subs[:-1])+" y "+main_subs[-1],
     max_date=max_date.strftime("%d/%m/%Y %H:%M"),
     min_date=min_date.strftime("%d/%m/%Y"),
     max_portada=max_portada,
