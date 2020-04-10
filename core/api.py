@@ -206,13 +206,12 @@ class Api:
         self.list = EndPoint("api/list.php")
         self.comment_answers = EndPoint("backend/get_comment_answers.php")
         self.post_answers = EndPoint("backend/get_post_answers.php")
+        self.list_subs = EndPoint("backend/get_subs.php")
         self.user_id = {}
-        self.max_min = Bunch(
-            id=None,
-            epoch=None,
-            date=None,
-            link=None
-        )
+
+    def get_subs(self):
+        r = get_json(self.list_subs)
+        return r
 
     def extract_user_id(self, user):
         if user is None or isinstance(user, int):
@@ -278,7 +277,7 @@ class Api:
 
     def get_info(self, **kargv):
         js = get_json(self.info, params=kargv)
-        if js and kargv["fields"] in js:
+        if js and "fields" in kargv and kargv["fields"] in js:
             return js[kargv["fields"]]
         return js
 
@@ -350,26 +349,16 @@ class Api:
 
     def get_links(self, **kargv):
         posts = {}
-        max_min_id = -1
         # duplicated metapublished
         # https://github.com/Meneame/meneame.net/blob/master/sql/meneame.sql
         # https://github.com/Meneame/meneame.net/blob/master/www/libs/rgdb.php
         for status in Api.STATUS:
-            min_id = sys.maxsize
             for p in self.get_list(status=status, **kargv):
                 posts[p["id"]] = p
-                min_id = min(min_id, p["id"])
-            if min_id < sys.maxsize:
-                max_min_id = max(max_min_id, min_id)
-        if not kargv:
-            max_min = posts[max_min_id]
-            self.max_min.id = max_min_id
-            self.max_min.link = max_min
-            self.max_min.epoch = max_min['sent_date']
-            self.max_min.date = datetime.fromtimestamp(max_min['sent_date'])
         posts = sorted(posts.values(), key=lambda p: p["id"])
-        for p in posts:
-            p["sub_status_id"]=1
+        if "sub" not in kargv:
+            for p in posts:
+                p["sub_status_id"]=1
         return posts
 
     def search_links(self, word):

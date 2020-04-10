@@ -24,25 +24,18 @@ arg = mkArg(
 if arg.silent:
     print = lambda *args, **kargv: None
 
-db = DB(debug_dir="sql/")
+db = DB()
+api = Api()
 
-def get_info(a, id):
+def update_info(id):
     print("%7d" % id, end="\r")
-    r = a.get_link_info(id)
+    r = api.get_link_info(id, fields=('clicks', 'comments', 'date', 'karma', 'negatives', 'sent_date', 'status', 'sub_status_id', 'user', 'votes'))
     return r
 
-def get_user(a, user):
-    r = a.get_list(sent_by=user)
+def get_user(user):
+    r = api.get_list(sent_by=user)
     print("%4d %-20s" % (len(r), user), end="\r")
     return r
-
-def get_sub_status_id(a, id):
-    s = a.get_info(what='link', id=id, fields="sub_status_id")
-    if s is None or (isinstance(s, str) and not s.isdigit()):
-        return None
-    if isinstance(s, str):
-        s = int(s)
-    return {"id":id, "sub_status_id": s}
 
 def get_user_cerrado(min_date):
     arr = db.to_list('''
@@ -72,8 +65,6 @@ def close_out(*args, **kargv):
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
 def main():
-    print("Inicializando api...")
-    api = Api()
     print("Bucando enlaces...")
     links = api.get_links()
     print("Añadiendo user_id")
@@ -81,7 +72,6 @@ def main():
     print(len(links), "links obtenidos")
     db.replace("LINKS", links)
     tm = ThreadMe(
-        fix_param=api,
         max_thread=30,
         list_size=10
     )
@@ -95,7 +85,7 @@ def main():
         sent_date<{0} and UNIX_TIMESTAMP(`check`)<{0}
     '''.format(min_date))
     update = "update `LINKS` set `check` = CURRENT_TIMESTAMP where id ";
-    for links in tm.list_run(get_info, cerrados):
+    for links in tm.list_run(update_info, cerrados):
         links = api.fill_user_id(links)
         db.update("LINKS", links, skipNull=True)
         ids = set(str(i["id"]) for i in links)

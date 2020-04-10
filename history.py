@@ -23,10 +23,9 @@ arg = mkArg(
 if arg.silent:
     print = lambda *args, **kargv: None
 
-db = DB(debug_dir="sql/")
+db = DB()
 api = Api()
 tm = ThreadMe(
-    fix_param=api,
     max_thread=30,
     list_size=10
 )
@@ -41,20 +40,20 @@ def close_out(*args, **kargv):
 
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
-def get_info(a, id):
+def get_info(id):
     print("%7d" % id, end="\r")
-    r = a.get_link_info(id)
+    r = api.get_link_info(id)
     db.meta.min_link_history_id = max(db.meta.min_link_history_id, id)
     return r
 
-def get_user(a, user):
-    r = a.get_list(sent_by=user)
+def get_user(user):
+    r = api.get_list(sent_by=user)
     print("%4d %-20s" % (len(r), user), end="\r")
     return r
 
-def get_sub_status_id(a, id):
+def get_sub_status_id(id):
     print("%7d" % id, end="\r")
-    s = a.get_info(what='link', id=id, fields="sub_status_id")
+    s = api.get_info(what='link', id=id, fields="sub_status_id")
     if s is None or (isinstance(s, str) and not s.isdigit()):
         return None
     if isinstance(s, str):
@@ -70,11 +69,9 @@ def main():
         print(max_user)
         for links in tm.list_run(get_user, range(1, max_user+1)):
             links = api.fill_user_id(links)
-            db.replace("LINKS", links)
-            #users = (u["user_id"] for u in links if u["user_id"] and u["user"] == ("--%s--" % u["user_id"]))
+            db.ignore("LINKS", links)
     print("Obteniendo info de links faltantes")
     done = set({None})
-    tm.rt_null=[]
     min_id  = db.meta.get("min_link_history_id", api.first_link["id"])
     for links in tm.list_run(get_info, db.link_gaps(min_id)):
         links = api.fill_user_id(links)
@@ -94,7 +91,7 @@ def main():
     db.save_meta("min_link_history_id")
     print("Actualizando sub_status_id de published")
     gnr = db.select("select id from LINKS where sub_status_id is null and status='published'")
-    for links in tm.list_run(get_status_id, gnr):
+    for links in tm.list_run(get_sub_status_id, gnr):
         db.update("LINKS", links, skipNull=True)
     db.commit()
 

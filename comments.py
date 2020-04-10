@@ -24,10 +24,9 @@ if arg.silent:
     print = lambda *args, **kargv: None
 
 
-db = DB(debug_dir="sql/")
+db = DB()
 api = Api()
 tm = ThreadMe(
-    fix_param=api,
     max_thread=30
 )
 
@@ -41,8 +40,8 @@ def close_out(*args, **kargv):
 
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
-def get_comments(a, id):
-    r = a.get_comments(id)
+def get_comments(id):
+    r = api.get_comments(id)
     db.meta.min_comment_history_id = max(db.meta.min_comment_history_id, id)
     print("%4d %s" % (len(r), id), end="\r")
     return r if r else None
