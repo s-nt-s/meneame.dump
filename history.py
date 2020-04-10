@@ -49,7 +49,7 @@ def get_info(a, id):
 
 def get_user(a, user):
     r = a.get_list(sent_by=user)
-    print("%4d %s" % (len(r), user), end="\r")
+    print("%4d %-20s" % (len(r), user), end="\r")
     return r
 
 

@@ -55,15 +55,23 @@ def str_to_epoch(s, date):
     return None
 
 
-def get_response(url, params=None):
+def get_response(url, params=None, intentos=None):
     try:
         r = requests.get(url, params=params)
     except requests.exceptions.ConnectionError as e:
+        if intentos is not None:
+            intentos = intentos - 1
+            if intentos == 0:
+                return None
         time.sleep(60)
-        return get_response(url, params=None)
+        return get_response(url, params=params, intentos=intentos)
     if r.status_code not in (200, 202):
+        if intentos is not None:
+            intentos = intentos - 1
+            if intentos == 0:
+                return None
         time.sleep(60)
-        return get_response(url, params=None)
+        return get_response(url, params=params, intentos=intentos)
     if len(r.text) == 0:
         url = r.url.replace("%2C", ",")
         msg = "%d %s\n\t%s" % (r.status_code, url, r.text)
@@ -80,8 +88,8 @@ def get_json(url, params=None, default=None):
     return js
 
 
-def get_soup(url, params=None, select=None, default=None):
-    r = get_response(url, params=params)
+def get_soup(url, params=None, select=None, default=None, intentos=None):
+    r = get_response(url, params=params, intentos=intentos)
     if not r:
         return default
     soup = bs4.BeautifulSoup(r.content, "html.parser")
@@ -393,11 +401,18 @@ class Api:
 
     @property
     @lru_cache(maxsize=None)
-    def link_fields(self):
+    def link_fields_info(self):
         ep = EndPoint("libs/link.php")
         ep.load()
         re_fields = re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
         fld = set(re_fields.findall(ep.text))
+        return sorted(fld)
+
+
+    @property
+    @lru_cache(maxsize=None)
+    def link_fields(self, solo_info=False):
+        fld = set(self.link_fields_info)
         kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
@@ -442,9 +457,9 @@ class Api:
                 return l
 
 
-    def get_link_info(self, id):
+    def get_link_info(self, id, fields=None):
         _link = {"id": id}
-        for fl in chunks(self.link_fields, 10):
+        for fl in chunks((fields or self.link_fields), 10):
             fl = ",".join(fl)
             obj = self.get_info(what='link', id=id, fields=fl)
             if not obj:
@@ -462,7 +477,7 @@ class Api:
                 v = int(v)
             link[k] = v
         if link.get("status") in (None, ""):
-            div = get_soup("https://www.meneame.net/story/"+str(id), select="div.news-shakeit", default=[])
+            div = get_soup("https://www.meneame.net/story/"+str(id), select="div.news-shakeit", default=[], intentos=1)
             if div:
                 div = div[0]
                 cls = div.attrs["class"]
