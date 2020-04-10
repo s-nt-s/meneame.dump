@@ -110,7 +110,7 @@ def main():
             ids = "in (" + ", ".join(sorted(ids)) + ")"
         db.execute(update+ids)
     gnr = db.select("select id from LINKS where sub_status_id is null and status='published'")
-    for id in tm.list_run(get_status_id, gnr):
+    for links in tm.list_run(get_status_id, gnr):
         db.update("LINKS", links, skipNull=True)
 
 def cron():
