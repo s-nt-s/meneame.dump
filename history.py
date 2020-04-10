@@ -52,6 +52,14 @@ def get_user(a, user):
     print("%4d %-20s" % (len(r), user), end="\r")
     return r
 
+def get_sub_status_id(a, id):
+    print("%7d" % id, end="\r")
+    s = a.get_info(what='link', id=id, fields="sub_status_id")
+    if s is None or (isinstance(s, str) and not s.isdigit()):
+        return None
+    if isinstance(s, str):
+        s = int(s)
+    return {"id":id, "sub_status_id": s}
 
 def main():
     if arg.usuarios:
@@ -80,10 +88,15 @@ def main():
             print("\nRevisando usuarios de links faltantes")
             for links in tm.list_run(get_user, users):
                 links = api.fill_user_id(links)
-                db.replace("LINKS", links)
+                db.ignore("LINKS", links)
             done = done.union(users)
             print("")
     db.save_meta("min_link_history_id")
+    print("Actualizando sub_status_id de published")
+    gnr = db.select("select id from LINKS where sub_status_id is null and status='published'")
+    for links in tm.list_run(get_status_id, gnr):
+        db.update("LINKS", links, skipNull=True)
+    db.commit()
 
 if __name__ == "__main__":
     try:

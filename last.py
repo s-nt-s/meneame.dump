@@ -89,11 +89,6 @@ def main():
     min_date = db.one("select max(sent_date) from LINKS")
     min_date = min_date - api.mnm_config['time_enabled_comments']
     print("Actualizando enlaces cerrados sent_date < %s" % min_date)
-    print("... a traves de usuarios")
-    for links in tm.list_run(get_user, get_user_cerrado(min_date)):
-        links = api.fill_user_id(links)
-        db.replace("LINKS", links)
-    print("... a traves de info")
     cerrados = db.to_list('''
         select id
         from LINKS where
@@ -109,9 +104,6 @@ def main():
         else:
             ids = "in (" + ", ".join(sorted(ids)) + ")"
         db.execute(update+ids)
-    gnr = db.select("select id from LINKS where sub_status_id is null and status='published'")
-    for links in tm.list_run(get_status_id, gnr):
-        db.update("LINKS", links, skipNull=True)
 
 def cron():
     print("Calculando horario para el cron...")

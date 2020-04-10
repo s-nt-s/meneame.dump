@@ -181,10 +181,10 @@ class DB:
     def ignore(self, *args):
         self.insert(*args, insert="insert ignore")
 
-    def update(self, table, rows, skipNull=False):
-        cols = self.parse_row(table, rows, skipNull=skipNull)
-        if cols is None:
-            return
+
+    def _update(self, table, cols, rows):
+        if not cols:
+            return None
         if "id" not in cols:
             raise Exception("id not found")
         cols.remove("id")
@@ -196,6 +196,23 @@ class DB:
         cursor.executemany(sql, rows)
         cursor.close()
         self.con.commit()
+
+    def update(self, table, rows, skipNull=False):
+        if not row:
+            return
+        if skipNull:
+            obj={}
+            for r in row:
+                cols = self.parse_row(table, r, skipNull=True)
+                if cols:
+                    if cols not in obj:
+                        obj[cols]=[]
+                    obj[cols].append(o)
+            for c, r in obj.items():
+                self._update(table, c, r)
+            return
+        cols = self.parse_row(table, rows)
+        self._update(table, cols, rows)
 
     def to_list(self, *args, **kargv):
         lst = list(self.select(*args, **kargv))

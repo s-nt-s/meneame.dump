@@ -52,7 +52,7 @@ links = db.to_list("select id from LINKS where comments is null")
 for rows in tm.list_run(get_info, links):
     obj={}
     for o in rows:
-        k = tuple(sorted(k.values()))
+        k = tuple(sorted(o.keys()))
         obj[k] = (obj.get(k, [])) + [o]
     for vls in obj.values():
         db.update("LINKS", vls, skipNull=True)

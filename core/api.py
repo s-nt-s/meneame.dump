@@ -368,6 +368,8 @@ class Api:
             self.max_min.epoch = max_min['sent_date']
             self.max_min.date = datetime.fromtimestamp(max_min['sent_date'])
         posts = sorted(posts.values(), key=lambda p: p["id"])
+        for p in posts:
+            p["sub_status_id"]=1
         return posts
 
     def search_links(self, word):
