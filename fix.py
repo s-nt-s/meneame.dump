@@ -19,11 +19,20 @@ def close_out(*args, **kargv):
 
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
-def get_field(ids, field):
-   for i in ids:
-      v = api.get_info(what='link', id=id, fields=field)
-      if v is not None and v!="":
-         yield {"id": id, field: v}
+def get_info(ids):
+    for i in ids:
+        r = api.get_info(what='link', id=id, fields="comments,sub_status_id")
+        if r is None:
+            continue
+        for k, v in list(r.items()):
+            if v is None or (isinstance(v, str) and not v.isdigit()):
+                del r[k]
+            if isinstance(v, str) and v.isdigit():
+                r[k] = int(v)
+        if not r:
+            continue
+        r["id"] = id
+        yield r
 
 
 def get_user(users, field):
@@ -33,8 +42,8 @@ def get_user(users, field):
          yield user_id, user
 
 links = db.to_list("select id from LINKS where comments is null")
-for rows in chunks(get_field(links, "comments"), 2000):
-   db.update("LINKS", rows)
+for rows in chunks(get_info(links), 2000):
+   db.update("LINKS", rows, skipNull=True)
 
 db.commit()
 
