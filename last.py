@@ -73,7 +73,7 @@ def main():
     db.replace("LINKS", links)
     tm = ThreadMe(
         max_thread=30,
-        list_size=10
+        list_size=2000
     )
     print("Actualizando enlaces cerrados...", end="\r")
     min_date = db.one("select max(sent_date) from LINKS")

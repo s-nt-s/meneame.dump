@@ -51,11 +51,5 @@ class ThreadMe:
                 yield i
 
     def list_run(self, *args, **kargv):
-        arr=[]
-        for i in self.run(*args, **kargv):
-            arr.append(i)
-            if len(arr) == self.list_size:
-                yield arr
-                arr=[]
-        if arr:
+        for arr in chunks(self.run(*args, **kargv), self.list_size):
             yield arr

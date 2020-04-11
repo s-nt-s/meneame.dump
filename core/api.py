@@ -356,9 +356,11 @@ class Api:
             for p in self.get_list(status=status, **kargv):
                 posts[p["id"]] = p
         posts = sorted(posts.values(), key=lambda p: p["id"])
+        '''
         if "sub" not in kargv:
             for p in posts:
                 p["sub_status_id"]=1
+        '''
         return posts
 
     def search_links(self, word):
@@ -412,6 +414,7 @@ class Api:
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
         eq.add('sub_status_id')
+        eq.add('sub_status')
         for k in ("username", "sub_name"):
             if k in fld:
                 eq.add(k)
@@ -473,7 +476,7 @@ class Api:
             if k in ('clicks', 'date', 'negatives', 'sent_date', 'votes', 'comments', 'sub_status_id') and isinstance(v, str) and v.isdigit():
                 v = int(v)
             link[k] = v
-        if "status" in fields and link.get("status") in (None, ""):
+        if "status" in fields and link.get("status") is None:
             soup = get_soup("https://www.meneame.net/story/"+str(id), intentos=2)
             div = soup.select_one("div.news-shakeit") if soup else None
             if div:

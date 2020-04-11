@@ -12,9 +12,8 @@ db = DB()
 api = Api()
 
 tm = ThreadMe(
-    fix_param=api,
-    max_thread=30,
-    list_size=30
+    max_thread=50,
+    list_size=2000
 )
 
 
@@ -26,43 +25,42 @@ def close_out(*args, **kargv):
 
 signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 
-def get_info(a, id):
-    r = a.get_info(what='link', id=id, fields="comments,sub_status_id")
+def to_int(s):
+    if s=="":
+        return None
+    try:
+        return int(s)
+    except:
+        return s
+
+def get_info(id):
+    r = api.get_info(what='link', id=id, fields="sub_status,sub_status_id")
     if r is None:
         return None
-    for k, v in list(r.items()):
-        if v is None or (isinstance(v, str) and not v.isdigit()):
-            del r[k]
-        elif isinstance(v, str) and v.isdigit():
-            r[k] = int(v)
-    if not r:
-        return None
+    r["sub_status_id"]=to_int(r["sub_status_id"])
+    if r["sub_status"] == "":
+        r["sub_status"]=None
     r["id"] = id
     print(r)
     return r
 
 
-def get_user(users, field):
+def get_user(users):
    for user in users:
       user_id = api.extract_user_id(user)
       if user_id is not None:
          yield user_id, user
 
-links = db.to_list("select id from LINKS where comments is null")
+links = db.select("select id from LINKS where sub_status_id is null or sub_status is null")
 for rows in tm.list_run(get_info, links):
-    obj={}
-    for o in rows:
-        k = tuple(sorted(o.keys()))
-        obj[k] = (obj.get(k, [])) + [o]
-    for vls in obj.values():
-        db.update("LINKS", vls, skipNull=True)
+    db.update("LINKS", vls, skipNull=True)
 
 db.commit()
 
 users = db.to_list("select distinct user from LINKS where user_id is null and user like '--%--'")
 for user_id, user in get_user(users):
    cursor = db.con.cursor()
-   db.execute("update `LINKS` set `user_id` = %s where `user` = %s", (user_id, user) )
+   cursor.execute("update `LINKS` set `user_id` = %s where `user` = %s", (user_id, user) )
    cursor.close()
    db.commit()
 

@@ -27,7 +27,7 @@ db = DB()
 api = Api()
 tm = ThreadMe(
     max_thread=30,
-    list_size=10
+    list_size=2000
 )
 
 def close_out(*args, **kargv):
@@ -90,7 +90,7 @@ def main():
             print("")
     db.save_meta("min_link_history_id")
     print("Actualizando sub_status_id de published")
-    gnr = db.select("select id from LINKS where sub_status_id is null and status='published'")
+    gnr = db.select("select id from LINKS where sub_status_id is null")
     for links in tm.list_run(get_sub_status_id, gnr):
         db.update("LINKS", links, skipNull=True)
     db.commit()

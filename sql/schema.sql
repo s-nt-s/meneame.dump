@@ -12,6 +12,7 @@ create table LINKS (
   `url` VARCHAR(250),
   `sub` VARCHAR(12),
   `status` VARCHAR(11),
+  `sub_status` VARCHAR(11),
   `sub_status_id` INT,
   `user` VARCHAR(32),
   `clicks` INT,
