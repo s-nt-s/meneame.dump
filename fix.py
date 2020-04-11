@@ -41,7 +41,7 @@ def get_info(id):
     if r["sub_status"] == "":
         r["sub_status"]=None
     r["id"] = id
-    print(r)
+    print(id, r["sub_status_id"], r["sub_status"])
     return r
 
 
@@ -53,7 +53,7 @@ def get_user(users):
 
 links = db.select("select id from LINKS where sub_status_id is null or sub_status is null")
 for rows in tm.list_run(get_info, links):
-    db.update("LINKS", vls, skipNull=True)
+    db.update("LINKS", rows)
 
 db.commit()
 
