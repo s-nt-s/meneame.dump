@@ -198,7 +198,7 @@ class DB:
         self.con.commit()
 
     def update(self, table, rows, skipNull=False):
-        if not row:
+        if not rows:
             return
         if skipNull:
             obj={}
