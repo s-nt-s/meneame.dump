@@ -45,6 +45,8 @@ por cada estado posible solicitando el máximo de resultados que permite la api.
 A efectos práctios `all` es como buscar `published` y `queued` a la vez, mientras que `duplicated` y `metapublished` nunca
 dan resultados, por lo tanto consultando todos estos `endpoint` obtendremos 10.000 noticias.
 
+Nota: Supuestamente podriamos hacer lo mismo con cada sub, primero recuperando los subs con el endpoint [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php) y despues usando el parametro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
+
 A la vez que hacemos esto resolveremos todos los `ids` de los usuarios que enviaron esas noticias:
 
 * Aquellos usuarios cuyo nick sea `--XXXXXXX--` (siendo `XXXXXXX` un número) son usuarios eliminados que tenian por `id` `XXXXXXX`
@@ -60,9 +62,11 @@ las últimas 2.000 noticias de cada usuario vía [meneame.net/api/list.php?rows=
 Después, consultaremos una a una las noticias que aún no tenemos vía:
 
 * [meneame.net/backend/info.php?&what=link&id=1&fields=clicks,content,date,karma,negatives,sent_date,status,sub_name,tags,title](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=clicks,content,date,karma,negatives,sent_date,status,sub_name,tags,title)
-* [meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes)
+* [meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id)
 
 Siendo `1` el `id` de la noticia en cuestión. (Nota: hay que hacerlo en dos llamadas porque el `endpoint` no acepta más de 10 valores en el parámetro `fields`)
+
+*¿Por qué recupero tambien los campos `sub_status` y `sub_status_id`?* Porque a diferencia de lo que recuperamos con `meneame.net/api/list.php` ahora estaremos obteniendo tambien resultados de los `subs` y el estado que obtenemos en `status` describe al enlace en su `sub` no en la portada general, para saber si el enlace ha sido promocionado de su `sub` a la cola o portada general necesitamos los valores de `sub_status` y `sub_status_id`.
 
 Una vez llegado aquí, para obtener los comentarios basta con usar el `endpoint` [meneame.net/api/list.php?rows=2000&id=1](https://www.meneame.net/api/list.php?rows=2000&id=1) (donde `1` es el `id` de la noticia).
 No he considerado necesario buscar un método para obtener comentarios más allá de
@@ -105,3 +109,22 @@ Todo esto se condensa en:
 cerrado entre ese momento y la anterior actualización
 * [`history.py`](/history.py): recupera el histórico de noticias antiguas
 * [`comments.py`](/comments.py): obtiene los comentarios de las noticias cerradas
+
+# Conclusiones
+
+Aunque la api de meneame ofrece muchas información esta llena de limitaciones para
+evitar el `abuso` que consiguen el efecto contrario, ya que provocan que para
+poder obtener toda la información disponible necesites mínimo 3 llamadas a la
+api por enlace + dos por cada usuario, lo que (si tenemos
+3.000.000 de noticias, 600.000 usuarios) hace 10.200.000 llamadas.
+
+Creo sinceramente que seria mucho más razonable crear una sección `descargas`
+y proporcionar periódicamente (quizá uno al año) unos volcados de la base de datos
+(no entera, claro, si no solo la parte que ya se esta dando vía api)
+de manera que solo haga falta usar la api para el último periodo no cubierto.
+
+Esto reduciría enormemente la presión a la que deben verse sometidos los servidores
+de meneame cada vez que alguien quiere hacer algún estudio de sus datos.
+Recordemos que hablamos de información que ya esta siendo ofrecida (via api) y
+por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando
+esta dificultad provoca freír meneame a llamadas.

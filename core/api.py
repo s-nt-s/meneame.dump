@@ -403,6 +403,7 @@ class Api:
         fld = set(re_fields.findall(ep.text))
         fld.add("comments")
         fld.add('sub_status_id')
+        fld.add('sub_status')
         return sorted(fld)
 
 
