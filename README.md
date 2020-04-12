@@ -30,7 +30,7 @@ Finalmente nos quedamos con:
 ## Operativa
 
 La manera de obtener el mayor número de noticias recientes, en el menor número de llamadas,
-sera invocar el `endpoint` [meneame.net/api/list.php](https://www.meneame.net/api/list.php)
+sera invocar el `endpoint` `meneame.net/api/list.php`
 por cada estado posible solicitando el máximo de resultados que permite la api. Es decir:
 
 * [meneame.net/api/list.php?rows=2000&status=published](https://www.meneame.net/api/list.php?rows=2000&status=published)
@@ -45,7 +45,7 @@ por cada estado posible solicitando el máximo de resultados que permite la api.
 A efectos práctios `all` es como buscar `published` y `queued` a la vez, mientras que `duplicated` y `metapublished` nunca
 dan resultados, por lo tanto consultando todos estos `endpoint` obtendremos 10.000 noticias.
 
-Nota: Supuestamente podriamos hacer lo mismo con cada sub, primero recuperando los subs con el endpoint [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php) y despues usando el parametro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
+Nota: Supuestamente podriamos hacer lo mismo con cada `sub`, primero recuperando los `subs` con el `endpoint` [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php) y despues usando el parametro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
 
 A la vez que hacemos esto resolveremos todos los `ids` de los usuarios que enviaron esas noticias:
 
