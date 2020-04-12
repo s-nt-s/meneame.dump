@@ -125,7 +125,7 @@ de manera que solo haga falta usar la api para el último periodo no cubierto.
 
 Esto reduciría enormemente la presión a la que deben verse sometidos los servidores
 de meneame cada vez que alguien quiere hacer algún estudio de sus datos.
-Recordemos que hablamos de información que ya esta siendo ofrecida (via api) y
+Recordemos que hablamos de información que ya esta siendo ofrecida (vía api) y
 por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando
 esta dificultad no impide su obtención si no que simplemente provoca
-freír meneame a llamadas.
+freír meneame a llamadas `HTTP`.
