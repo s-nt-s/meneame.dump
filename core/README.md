@@ -295,12 +295,6 @@
 ..... charset, key, test, text, user
 
 
-[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/api/url.php) [meneame.net/api/url.php](https://www.meneame.net/api/url.php?all=&json=&jsonp=&url=)
-
-..... all, json, jsonp, url
-..... application/json, text/plain
-
-
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/autocomplete_user.php) [meneame.net/backend/autocomplete_user.php](https://www.meneame.net/backend/autocomplete_user.php?avatar=&friends=&q=)
 
 ..... avatar, friends, q
@@ -326,21 +320,9 @@
 ..... id, key, value
 
 
-[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/link_sneaker.php) [meneame.net/backend/link_sneaker.php](https://www.meneame.net/backend/link_sneaker.php?getv=&items=&link=&v=)
-
-..... getv, items, link, v
-..... text/html, text/plain
-
-
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/set_meta.php) [meneame.net/backend/set_meta.php](https://www.meneame.net/backend/set_meta.php?id=&type=)
 
 ..... id, type
-
-
-[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/sneaker2.php) [meneame.net/backend/sneaker2.php](https://www.meneame.net/backend/sneaker2.php?admin=&chat=&friends=&getv=&items=&k=&nochat=&nocomment=&nodiscard=&noedit=&nogeoedit=&nonew=&nopost=&noproblem=&nopublished=&nopubvotes=&novote=&r=&site_id=&time=)
-
-..... admin, chat, friends, getv, items, k, nochat, nocomment, nodiscard, noedit, nogeoedit, nonew, nopost, noproblem, nopublished, nopubvotes, novote, r, site_id, time
-..... application/json, text/plain
 
 
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/geo/delete.php) [meneame.net/geo/delete.php](https://www.meneame.net/geo/delete.php?id=&type=)

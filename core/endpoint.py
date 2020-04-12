@@ -48,15 +48,18 @@ class EndPoint:
         return ends
 
 
-def ptype(f, ends, t=None):
+def ptype(visto, f, ends, t=None):
     if t:
-        _ends = [e for e in ends if t in e.type]
+        _ends = [e for e in ends if t in e.type and e.net not in visto]
     else:
-        _ends = [e for e in ends if len(e.type) == 0]
+        _ends = [e for e in ends if len(e.type) == 0 and e.net not in visto]
         t = "NO FOUND"
+    if not _ends:
+        return
     f.write("# "+t+"\n")
     f.write("\n")
     for e in _ends:
+        visto.add(e.net)
         net = e.net + "?" + "=&".join(e.arg)+"="
         txt = e.net.replace("https://www.", "")
         f.write("\n")
@@ -71,6 +74,7 @@ def ptype(f, ends, t=None):
 
 if __name__ == "__main__":
     from os.path import realpath, dirname
+    visto = set()
     ends = EndPoint.search()
     types = set()
     for e in ends:
@@ -80,5 +84,5 @@ if __name__ == "__main__":
     out = dirname(out) + "/README.md"
     with open(out, "w") as f:
         for t in sorted(types):
-            ptype(f, ends, t)
-        ptype(f, ends)
+            ptype(visto, f, ends, t)
+        ptype(visto, f, ends)
