@@ -27,8 +27,12 @@ class EndPoint:
         self.text = r.text
         self.arg = tuple(sorted(set(re_arg.findall(r.text))))
         self.type = tuple(sorted(set(re_contenttype.findall(r.text))))
-        if self.type == ('application/json', 'text/plain'):
+        if "echo json_encode" in self.text and 'application/json' not in self.type:
+            self.type = ('application/json',) + self.type
+        if self.type in (('application/json', 'text/plain'), ('application/json', 'text/json')):
             self.type = ('application/json',)
+        if self.type == ('text/html', 'text/plain'):
+            self.type = ('text/html',)
 
     @staticmethod
     def search():
@@ -44,7 +48,7 @@ class EndPoint:
         for php in phps:
             end = EndPoint(php)
             end.load()
-            if len(end.arg) > 0:
+            if len(end.arg) > 0 or "echo json_encode" in end.text:
                 ends.append(end)
 
         return ends
@@ -62,14 +66,19 @@ def ptype(visto, f, ends, t=None):
     f.write("\n")
     for e in _ends:
         visto.add(e.net)
-        net = e.net + "?" + "=&".join(e.arg)+"="
+        if e.arg:
+            net = e.net + "?" + "=&".join(e.arg)+"="
+        else:
+            net = e.net
         txt = e.net.replace("https://www.", "")
         f.write("\n")
         f.write("[GitHub](%s) [%s](%s)\n" % (e.git, txt, net))
-        f.write("\n")
-        arg = (("\\"+a) if a.startswith("_") else a for a in e.arg)
-        f.write("..... " + ", ".join(arg) + "\n")
+        if e.arg:
+            f.write("\n")
+            arg = (("\\"+a) if a.startswith("_") else a for a in e.arg)
+            f.write("..... " + ", ".join(arg) + "\n")
         if len(e.type) > 1:
+            f.write("\n")
             f.write("..... " + ", ".join(e.type) + "\n")
         f.write("\n")
 

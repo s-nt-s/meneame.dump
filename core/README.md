@@ -11,6 +11,9 @@
 ..... all, json, jsonp, url
 
 
+[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/avatar_upload.php) [meneame.net/backend/avatar_upload.php](https://www.meneame.net/backend/avatar_upload.php)
+
+
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/comment_ajax.php) [meneame.net/backend/comment_ajax.php](https://www.meneame.net/backend/comment_ajax.php?id=&reply_to=)
 
 ..... id, reply_to
@@ -24,6 +27,9 @@
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/get_favorite_readed.php) [meneame.net/backend/get_favorite_readed.php](https://www.meneame.net/backend/get_favorite_readed.php?id=&key=&type=&user=)
 
 ..... id, key, type, user
+
+
+[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/get_subs.php) [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php)
 
 
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/get_total_answers.php) [meneame.net/backend/get_total_answers.php](https://www.meneame.net/backend/get_total_answers.php?id=&ids=&offset=&order=&size=&type=)
@@ -86,6 +92,9 @@
 ..... admin, chat, friends, getv, items, k, nochat, nocomment, nodiscard, noedit, nogeoedit, nonew, nopost, noproblem, nopublished, nopubvotes, novote, r, site_id, time
 
 
+[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/sub_follow.php) [meneame.net/backend/sub_follow.php](https://www.meneame.net/backend/sub_follow.php)
+
+
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/trends.php) [meneame.net/backend/trends.php](https://www.meneame.net/backend/trends.php?q=&w=)
 
 ..... q, w
@@ -104,6 +113,9 @@
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/geo/sneaker.php) [meneame.net/geo/sneaker.php](https://www.meneame.net/geo/sneaker.php?items=&time=)
 
 ..... items, time
+
+
+[GitHub](https://github.com/Meneame/meneame.net/blob/master/www/oauth2/resources/user.php) [meneame.net/oauth2/resources/user.php](https://www.meneame.net/oauth2/resources/user.php)
 
 # text/html
 
@@ -236,7 +248,6 @@
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/link_sneaker.php) [meneame.net/backend/link_sneaker.php](https://www.meneame.net/backend/link_sneaker.php?getv=&items=&link=&v=)
 
 ..... getv, items, link, v
-..... text/html, text/plain
 
 
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/meneos.php) [meneame.net/backend/meneos.php](https://www.meneame.net/backend/meneos.php?id=&p=)
