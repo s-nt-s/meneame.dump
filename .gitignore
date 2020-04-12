@@ -4,6 +4,7 @@
 *.json
 *.txt
 !requirements.txt
+borrame.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

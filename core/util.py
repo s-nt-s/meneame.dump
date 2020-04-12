@@ -38,7 +38,7 @@ def readlines(*fls):
 
 def parse_tag(tag, main=True):
     tag = re_sp.sub(" ", tag).strip()
-    while main and len(tag)>2 and tag[0]==tag[-1] and tag[0] in ("'", '"', "`", "´"):
+    while main and len(tag)>2 and (tag[0]+tag[-1]) in ("''", '""', "``", "´´", "`´", "´`", "[]", "()"):
         tag = tag[1:-1]
     if len(tag)==0 or (main and len(tag)<2):
         return None

@@ -12,7 +12,7 @@ db = DB()
 api = Api()
 
 tm = ThreadMe(
-    max_thread=50,
+    max_thread=100,
     list_size=2000
 )
 
@@ -51,17 +51,18 @@ def get_user(users):
       if user_id is not None:
          yield user_id, user
 
-links = db.select("select id from LINKS where sub_status_id is null or sub_status is null")
+min_id = db.one("select max(id)-2001 from LINKS where sub_status is not null and sub_status_id is not null") or 0
+links = db.select("select id from LINKS where sub_status_id is null or sub_status is null and id>"+str(min_id))
 for rows in tm.list_run(get_info, links):
     db.update("LINKS", rows)
 
 db.commit()
 
 users = db.to_list("select distinct user from LINKS where user_id is null and user like '--%--'")
+cursor = db.con.cursor()
 for user_id, user in get_user(users):
-   cursor = db.con.cursor()
    cursor.execute("update `LINKS` set `user_id` = %s where `user` = %s", (user_id, user) )
-   cursor.close()
-   db.commit()
+cursor.close()
+db.commit()
 
 close_out()

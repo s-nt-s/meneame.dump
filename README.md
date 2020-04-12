@@ -45,7 +45,9 @@ por cada estado posible solicitando el máximo de resultados que permite la api.
 A efectos práctios `all` es como buscar `published` y `queued` a la vez, mientras que `duplicated` y `metapublished` nunca
 dan resultados, por lo tanto consultando todos estos `endpoint` obtendremos 10.000 noticias.
 
-Nota: Supuestamente podriamos hacer lo mismo con cada `sub`, primero recuperando los `subs` con el `endpoint` [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php) y despues usando el parametro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
+Nota: Supuestamente podriamos hacer lo mismo con cada `sub`, primero recuperando los `subs` con el `endpoint` [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php)<sup>
+<a href="https://github.com/Meneame/meneame.net/blob/master/www/backend/get_subs.php">c</a>
+</sup> y despues usando el parametro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
 
 A la vez que hacemos esto resolveremos todos los `ids` de los usuarios que enviaron esas noticias:
 
@@ -97,9 +99,7 @@ definido? Estas serán noticias que aún no estaban cerradas cuando las consulta
 
 Para actualizarlas podemos repetir la operativa anterior (aunque esto hará que
 volvamos a capturar noticias no cerradas) o pedir sus datos, una a una, con
-el `endpoint` [meneame.net/backend/info.php](https://www.meneame.net/backend/info.php?what=&fields=&id=)<sup>
-<a href="https://github.com/Meneame/meneame.net/blob/master/www/backend/info.php">c</a>
-</sup>
+el `endpoint` `meneame.net/backend/info.php`
 
 # Scripts
 
