@@ -127,4 +127,5 @@ Esto reduciría enormemente la presión a la que deben verse sometidos los servi
 de meneame cada vez que alguien quiere hacer algún estudio de sus datos.
 Recordemos que hablamos de información que ya esta siendo ofrecida (via api) y
 por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando
-esta dificultad provoca freír meneame a llamadas.
+esta dificultad no impide su obtención si no que simplemente provoca
+freír meneame a llamadas.
