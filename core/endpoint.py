@@ -25,8 +25,10 @@ class EndPoint:
     def load(self):
         r = requests.get(self.raw)
         self.text = r.text
-        self.arg = sorted(set(re_arg.findall(r.text)))
-        self.type = sorted(set(re_contenttype.findall(r.text)))
+        self.arg = tuple(sorted(set(re_arg.findall(r.text))))
+        self.type = tuple(sorted(set(re_contenttype.findall(r.text))))
+        if self.type == ('application/json', 'text/plain'):
+            self.type = ('application/json',)
 
     @staticmethod
     def search():

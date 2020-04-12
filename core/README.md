@@ -9,7 +9,6 @@
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/api/url.php) [meneame.net/api/url.php](https://www.meneame.net/api/url.php?all=&json=&jsonp=&url=)
 
 ..... all, json, jsonp, url
-..... application/json, text/plain
 
 
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/comment_ajax.php) [meneame.net/backend/comment_ajax.php](https://www.meneame.net/backend/comment_ajax.php?id=&reply_to=)
@@ -85,7 +84,6 @@
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/sneaker2.php) [meneame.net/backend/sneaker2.php](https://www.meneame.net/backend/sneaker2.php?admin=&chat=&friends=&getv=&items=&k=&nochat=&nocomment=&nodiscard=&noedit=&nogeoedit=&nonew=&nopost=&noproblem=&nopublished=&nopubvotes=&novote=&r=&site_id=&time=)
 
 ..... admin, chat, friends, getv, items, k, nochat, nocomment, nodiscard, noedit, nogeoedit, nonew, nopost, noproblem, nopublished, nopubvotes, novote, r, site_id, time
-..... application/json, text/plain
 
 
 [GitHub](https://github.com/Meneame/meneame.net/blob/master/www/backend/trends.php) [meneame.net/backend/trends.php](https://www.meneame.net/backend/trends.php?q=&w=)
