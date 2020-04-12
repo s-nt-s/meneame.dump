@@ -115,13 +115,13 @@ cerrado entre ese momento y la anterior actualización
 Aunque la api de meneame ofrece muchas información esta llena de limitaciones para
 evitar el `abuso` que consiguen el efecto contrario, ya que provocan que para
 poder obtener toda la información disponible necesites mínimo 3 llamadas a la
-api por enlace + dos por cada usuario, lo que (si tenemos
+api por enlace + 2 por cada usuario, lo que (si tenemos
 3.000.000 de noticias, 600.000 usuarios) hace 10.200.000 llamadas.
 
 Creo sinceramente que seria mucho más razonable crear una sección `descargas`
-y proporcionar periódicamente (quizá uno al año) unos volcados de la base de datos
-(no entera, claro, si no solo la parte que ya se esta dando vía api)
-de manera que solo haga falta usar la api para el último periodo no cubierto.
+y proporcionar periódicamente (quizá una vez al año) un volcado de la base de datos
+(no entera, claro, si no solo la parte que ya se esta dando vía api y solo de los
+  enlaces ya cerrados) de manera que solo haga falta usar la api para el último periodo no cubierto.
 
 Esto reduciría enormemente la presión a la que deben verse sometidos los servidores
 de meneame cada vez que alguien quiere hacer algún estudio de sus datos.
