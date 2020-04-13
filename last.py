@@ -29,7 +29,7 @@ api = Api()
 
 def update_info(id):
     print("%7d" % id, end="\r")
-    r = api.get_link_info(id, fields=('clicks', 'comments', 'date', 'karma', 'negatives', 'sent_date', 'status', 'sub_status_id', 'user', 'votes'))
+    r = api.get_link_info(id, 'clicks', 'comments', 'date', 'karma', 'negatives', 'sent_date', 'status', 'sub_status_id', 'user', 'votes')
     return r
 
 def get_user(user):

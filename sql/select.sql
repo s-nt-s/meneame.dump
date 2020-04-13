@@ -13,5 +13,9 @@ where
   and
   sent_date < {1} -- solo enlaces cerrados
   and
-  not(status is null or status=='') -- solo con estado
+  not(status is null or status=='' or status='') -- solo con estado
 ;
+
+select id, sub, CASE
+  when sub_status_id == 1 and sub_status is not null then sub_status
+  when

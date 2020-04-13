@@ -401,10 +401,21 @@ class Api:
         ep.load()
         re_fields = re.compile(r"\bpublic\s+\$([^\s;]+)", re.IGNORECASE)
         fld = set(re_fields.findall(ep.text))
-        fld.add("comments")
-        fld.add('sub_status_id')
-        fld.add('sub_status')
-        return sorted(fld)
+        ep = EndPoint("libs/link.php")
+        ep.load()
+        re_fields = re.compile(r"\bAS\s+`?([^\s`,]+)")
+        fld = fld.union(set(re_fields.findall(ep.text)))
+        fld = sorted(fld)
+        id = self.get_list(status='published', rows=1)
+        if id and len(id)>0:
+            id = id[0]["id"]
+            link = {}
+            for fl in chunks(fld, 10):
+                fl = ",".join(fl)
+                obj = self.get_info(what='link', id=id, fields=fl)
+                link = {**link, **obj}
+            fld = sorted(link.keys())
+        return tuple(fld)
 
 
     @property
@@ -414,14 +425,12 @@ class Api:
         kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
-        eq.add('sub_status_id')
-        eq.add('sub_status')
-        for k in ("username", "sub_name"):
+        for k in ("username", "sub_name", 'sub_status_id', 'sub_status'):
             if k in fld:
                 eq.add(k)
         if "id" in eq:
             eq.remove("id")
-        return sorted(eq)
+        return tuple(sorted(eq))
 
 
     @property
@@ -457,8 +466,8 @@ class Api:
                 return l
 
 
-    def get_link_info(self, id, fields=None):
-        fields = fields or self.link_fields
+    def get_link_info(self, id, *fields, full=False):
+        fields = fields or (self.link_fields_info if full else self.link_fields)
         _link = {"id": id}
         for fl in chunks(fields, 10):
             fl = ",".join(fl)
@@ -474,8 +483,13 @@ class Api:
                 k = "user"
             elif k == "sub_name":
                 k = "sub"
-            if k in ('clicks', 'date', 'negatives', 'sent_date', 'votes', 'comments', 'sub_status_id') and isinstance(v, str) and v.isdigit():
-                v = int(v)
+            if isinstance(v, str):
+                if "karma" in k:
+                    v = float(v)
+                    if int(v)==v:
+                        v=int(v)
+                elif v.isdigit():
+                    v = int(v)
             link[k] = v
         if "status" in fields and link.get("status") is None:
             soup = get_soup("https://www.meneame.net/story/"+str(id), intentos=2)
