@@ -20,6 +20,7 @@ fields=tuple(sorted(set(a.link_fields_info) - set(('content', 'content_type', 'e
 
 def get_info(id):
     r = api.get_link_info(id, *fields)
+    print(id, end="\r")
     return r
 
 id = self.get_list(status='published', rows=1)
