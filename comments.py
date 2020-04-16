@@ -48,6 +48,7 @@ def get_comments(id):
 
 def main():
     min_id  = db.meta.get("min_comment_history_id", api.first_link["id"])
+    db.meta.min_comment_history_id = min_id
     print("Obteniendo comentarios de link_id > %s and link_date < %s " % (min_id, api.mnm_config['time_enabled_comments']))
     gnr = db.comment_gaps(min_id, api.mnm_config['time_enabled_comments'])
     for comments in tm.list_run(get_comments, gnr):
