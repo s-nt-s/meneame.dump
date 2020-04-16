@@ -146,7 +146,7 @@ class DB:
             if v is None and skipNull:
                 continue
             cols.append(k)
-        return cols
+        return tuple(cols)
 
     def insert(self, table, rows, insert="insert"):
         cols = self.parse_row(table, rows)
@@ -182,37 +182,37 @@ class DB:
         self.insert(*args, insert="insert ignore")
 
 
-    def _update(self, table, cols, rows):
+    def _update(self, table, cols, rows, fixSet=""):
         if not cols:
             return None
         if "id" not in cols:
             raise Exception("id not found")
-        cols.remove("id")
+        cols = tuple(c for c in cols if c!="id")
         sql_set = []
         for c in cols:
             sql_set.append("`{0}` = %({0})s".format(c))
-        sql = "update `{0}` set ".format(table) + ", ".join(sql_set) + " where id = %(id)s"
+        sql = "update `{0}` set {1} ".format(table, fixSet) + ", ".join(sql_set) + " where id = %(id)s"
         cursor = self.con.cursor()
         cursor.executemany(sql, rows)
         cursor.close()
         self.con.commit()
 
-    def update(self, table, rows, skipNull=False):
+    def update(self, table, rows, skipNull=False, fixSet=""):
         if not rows:
             return
         if skipNull:
             obj={}
-            for r in row:
+            for r in rows:
                 cols = self.parse_row(table, r, skipNull=True)
                 if cols:
                     if cols not in obj:
                         obj[cols]=[]
-                    obj[cols].append(o)
+                    obj[cols].append(r)
             for c, r in obj.items():
-                self._update(table, c, r)
+                self._update(table, c, r, fixSet=fixSet)
             return
         cols = self.parse_row(table, rows)
-        self._update(table, cols, rows)
+        self._update(table, cols, rows, fixSet=fixSet)
 
     def to_list(self, *args, **kargv):
         lst = list(self.select(*args, **kargv))

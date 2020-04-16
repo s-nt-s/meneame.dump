@@ -29,30 +29,14 @@ api = Api()
 
 def update_info(id):
     print("%7d" % id, end="\r")
-    r = api.get_link_info(id, 'clicks', 'comments', 'date', 'karma', 'negatives', 'sent_date', 'status', 'sub_status_id', 'user', 'votes')
-    return r
+    return api.get_link_info(id)
+    # r = api.get_link_info(id, 'clicks', 'comments', 'date', 'karma', 'negatives', 'sent_date', 'status', 'sub_status_id', 'user', 'votes')
+    # return r
 
 def get_user(user):
     r = api.get_list(sent_by=user)
     print("%4d %-20s" % (len(r), user), end="\r")
     return r
-
-def get_user_cerrado(min_date):
-    arr = db.to_list('''
-        select distinct user_id, user
-        from LINKS where
-        sent_date<{0} and UNIX_TIMESTAMP(`check`)<{0}
-    '''.format(min_date))
-    users = set()
-    visto = set()
-    for id, user in arr:
-        if id is not None:
-            users.add(id)
-            visto.add(user)
-    for _, user in arr:
-        if user not in visto:
-            users.add(user)
-    return users
 
 def close_out(*args, **kargv):
     global db
@@ -67,8 +51,6 @@ signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 def main():
     print("Bucando enlaces...")
     links = api.get_links()
-    print("Añadiendo user_id")
-    links = api.fill_user_id(links)
     print(len(links), "links obtenidos")
     db.replace("LINKS", links)
     tm = ThreadMe(
@@ -78,22 +60,18 @@ def main():
     print("Actualizando enlaces cerrados...", end="\r")
     min_date = db.one("select max(sent_date) from LINKS")
     min_date = min_date - api.mnm_config['time_enabled_comments']
-    print("Actualizando enlaces cerrados sent_date < %s" % min_date)
+    print("Actualizando enlaces cerrados sent_date < %s" % min_date, end="\r")
     cerrados = db.to_list('''
         select id
         from LINKS where
-        sent_date<{0} and UNIX_TIMESTAMP(`check`)<{0}
-    '''.format(min_date))
-    update = "update `LINKS` set `check` = CURRENT_TIMESTAMP where id ";
+        sent_date<{0} and (
+            `check` is null or
+            (UNIX_TIMESTAMP(`check`)-sent_date)<={1}
+        )
+    '''.format(min_date, api.mnm_config['time_enabled_comments']))
+    print("Actualizando %s enlaces cerrados sent_date < %s" % (len(cerrados), min_date))
     for links in tm.list_run(update_info, cerrados):
-        links = api.fill_user_id(links)
-        db.update("LINKS", links, skipNull=True)
-        ids = set(str(i["id"]) for i in links)
-        if len(ids)==1:
-            ids = "= "+ids.pop()
-        else:
-            ids = "in (" + ", ".join(sorted(ids)) + ")"
-        db.execute(update+ids)
+        db.update("LINKS", links, skipNull=True, fixSet="`check` = CURRENT_TIMESTAMP, ")
 
 def cron():
     print("Calculando horario para el cron...")

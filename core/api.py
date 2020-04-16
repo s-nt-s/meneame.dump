@@ -247,7 +247,7 @@ class Api:
         isDict = isinstance(arr, dict)
         if isDict:
             arr = [arr]
-        users = set(i["user"] for i in arr if i["user"])
+        users = set(i["user"] for i in arr if i["user"] and ("user_id" not in i or i["user_id"] is None))
         self.populate_user_id(*users)
         for i in arr:
             i["user_id"] = self.user_id.get(i["user"])
@@ -425,7 +425,7 @@ class Api:
         kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
-        for k in ("username", "sub_name", 'sub_status_id', 'sub_status'):
+        for k in ("username", 'author', "sub_name", 'sub_status_id', 'sub_status', 'sub_status_origen'):
             if k in fld:
                 eq.add(k)
         if "id" in eq:
@@ -483,6 +483,8 @@ class Api:
                 k = "user"
             elif k == "sub_name":
                 k = "sub"
+            elif k == "author":
+                k = "user_id"
             if isinstance(v, str):
                 if "karma" in k:
                     v = float(v)
@@ -491,6 +493,7 @@ class Api:
                 elif v.isdigit():
                     v = int(v)
             link[k] = v
+        '''
         if "status" in fields and link.get("status") is None:
             soup = get_soup("https://www.meneame.net/story/"+str(id), intentos=2)
             div = soup.select_one("div.news-shakeit") if soup else None
@@ -504,4 +507,5 @@ class Api:
                         c = 'discard'
                     if c in Api.STATUS:
                         link["status"] = c
+        '''
         return link
