@@ -52,6 +52,10 @@ def get_items(ok_ids=None):
                 if ok_ids is not None and d["id"] not in ok_ids:
                     continue
                 d["user_id"] = d["author"]
+                for k in ("karma", "sub_karma"):
+                    v = d.get(k)
+                    if v is not None and int(v)==v:
+                        d[k]=int(v)
                 yield d
 
 def get_info(*fields, ok_ids=None, removeNull=True):
@@ -78,6 +82,21 @@ def get_groups(*fields, ok_ids=None):
                 r[k][v].append(i["id"])
     return r
 
+print("""
+ALTER TABLE LINKS ADD COLUMN sub_karma DECIMAL(10,2) NULL DEFAULT 0 AFTER sub_status_origen;
+commit;
+""".strip())
+groups = get_groups("sub_karma")
+for v, ids in sorted(groups["sub_karma"].items()):
+    if v == 0:
+        continue
+    if len(ids)==1:
+        ids = "= "+str(ids[0])
+    else:
+        ids = "in %s" % (tuple(ids), )
+    print("UPDATE LINKS set sub_karma = %s\nwhere id %s;" % (v, ids))
+print("commit;")
+sys.exit()
 
 if False:
     ok_ids = db.to_list("select id from LINKS where user_id is null")

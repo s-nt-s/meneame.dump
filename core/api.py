@@ -425,7 +425,7 @@ class Api:
         kys = self.get_list(rows=1)
         kys = set(kys[0].keys())
         eq = kys.intersection(fld)
-        for k in ("username", 'author', "sub_name", 'sub_status_id', 'sub_status', 'sub_status_origen'):
+        for k in ("username", 'author', "sub_name", 'sub_status_id', 'sub_status', 'sub_status_origen', 'sub_karma'):
             if k in fld:
                 eq.add(k)
         if "id" in eq:

@@ -64,11 +64,11 @@ las últimas 2.000 noticias de cada usuario vía [meneame.net/api/list.php?rows=
 Después, consultaremos una a una las noticias que aún no tenemos vía:
 
 * [meneame.net/backend/info.php?&what=link&id=1&fields=clicks,content,date,karma,negatives,sent_date,status,sub_name,tags,title](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=clicks,content,date,karma,negatives,sent_date,status,sub_name,tags,title)
-* [meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id)
+* [meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id,sub_status_origen,sub_karma,author](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id,sub_status_origen,sub_karma,author)
 
 Siendo `1` el `id` de la noticia en cuestión. (Nota: hay que hacerlo en dos llamadas porque el `endpoint` no acepta más de 10 valores en el parámetro `fields`)
 
-*¿Por qué recupero tambien los campos `sub_status` y `sub_status_id`?* Porque a diferencia de lo que recuperamos con `meneame.net/api/list.php` ahora estaremos obteniendo tambien resultados de los `subs` y el estado que obtenemos en `status` describe al enlace en su `sub` no en la portada general, para saber si el enlace ha sido promocionado de su `sub` a la cola o portada general necesitamos los valores de `sub_status` y `sub_status_id`.
+Nota: Más adelante explicaré porque capturo también los campos `sub_*` y `author`
 
 Una vez llegado aquí, para obtener los comentarios basta con usar el `endpoint` [meneame.net/api/list.php?rows=2000&id=1](https://www.meneame.net/api/list.php?rows=2000&id=1) (donde `1` es el `id` de la noticia).
 No he considerado necesario buscar un método para obtener comentarios más allá de
@@ -129,3 +129,27 @@ Recordemos que hablamos de información que ya esta siendo ofrecida (vía api) y
 por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando
 esta dificultad no impide su obtención si no que simplemente provoca
 freír meneame a llamadas `HTTP`.
+
+# El porqué de los campos `sub_*` y `author`
+
+Inicialmente meneame era una sola "lista" de noticias,
+luego aparecieron las categorías, luego
+algunas secciones especiales y finalmente los `subs`.
+
+Ahora todo se considera un `sub` teniendo sus propia lista de noticias y
+pudiendo promocionar a la cola principal si superan cierto karma/votos.
+
+Esto ha generado que si queremos distinguir entre el estado y karma de una noticia
+en la cola principal y en su sub de origen necesitemos los campos `sub_*`
+que solo están disponibles en el `endpoint` `meneame.net/backend/info.php`.
+
+Por lo tanto, si por ejemplo queremos analizar solo las noticias
+que llegaron a la portada o a la cola principal de nada nos servirá intentar
+reducir el número de llamadas a la api usando `meneame.net/api/list.php?rows=2000&sent_by=`
+para obtener varias noticias de golpe, pues vamos a tener que consultar
+una a una con `meneame.net/backend/info.php`, lo que empeora aún más
+lo ya descrito en el apartado `Conclusiones`.
+
+Por "suerte", si finalmente vamos a usar `meneame.net/backend/info.php`
+con todos los enlaces podemos recupera el `user_id` con el campo `author`
+y ahorrarnos el otro método indicado más arriba.

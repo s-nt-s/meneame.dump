@@ -15,6 +15,7 @@ create table LINKS (
   `sub_status_origen` VARCHAR(11),
   `sub_status` VARCHAR(11),
   `sub_status_id` INT,
+  `sub_karma` DECIMAL(10,2),
   `user` VARCHAR(32),
   `clicks` INT,
   `votes` INT,
