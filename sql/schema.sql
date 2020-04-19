@@ -58,8 +58,8 @@ create table USERS (
 
 create table TAGS (
   `tag` VARCHAR(80),
-  `link` INT,
-  PRIMARY KEY (tag, link)
+  `link` INT
+  --,PRIMARY KEY (tag, link)
 );
 
 create table META_INT (

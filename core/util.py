@@ -56,6 +56,8 @@ def parse_tag(tag, main=True):
         ("ú", "u")
     ):
         tag = tag.replace(a, b)
+    if tag == "meneame":
+        return "Menéame"
     if tag == "españa":
         return "España"
     if tag == "Europa":
