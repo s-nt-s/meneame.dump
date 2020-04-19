@@ -29,7 +29,8 @@ from
   LINKS
 where
   sub_status_id = 1 and
-  votes > 1  and -- descartar links que solo 'vio' su propio autor
+  votes != 0  and -- si tiene 0 votos es una notica erronea
+  (votes>1 or negatives>0) and -- si solo esta el voto del autor, la noticia no la 'vio' nadie
 --  IFNULL(sub_status, status) is not null and
 --  IFNULL(sub_status, status) not in ('autodiscard', 'private', 'abuse') and
   sent_date < @cutdate

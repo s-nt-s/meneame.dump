@@ -112,7 +112,6 @@ class Stats:
             select
                 YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes,
                 avg(karma) karma,
-                avg(clicks) clicks,
                 avg(votes) votes,
                 avg(negatives) negatives,
                 avg(comments) comments

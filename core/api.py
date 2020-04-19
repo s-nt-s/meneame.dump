@@ -493,19 +493,4 @@ class Api:
                 elif v.isdigit():
                     v = int(v)
             link[k] = v
-        '''
-        if "status" in fields and link.get("status") is None:
-            soup = get_soup("https://www.meneame.net/story/"+str(id), intentos=2)
-            div = soup.select_one("div.news-shakeit") if soup else None
-            if div:
-                cls = div.attrs["class"]
-                if isinstance(cls, str):
-                    cls = cls.split()
-                for c in cls:
-                    c = c.split("-")[-1]
-                    if c == 'discarded':
-                        c = 'discard'
-                    if c in Api.STATUS:
-                        link["status"] = c
-        '''
         return link
