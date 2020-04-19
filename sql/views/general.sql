@@ -24,16 +24,16 @@ select
   `date`,
   sent_date,
   YEAR(from_unixtime(sent_date+604800))+(WEEKOFYEAR(from_unixtime(sent_date+604800))/100) semana,
-  YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes,
+  YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes
 from
   LINKS
 where
   sub_status_id = 1 and
-  votes != 0  and -- si tiene 0 votos es una notica erronea
-  (votes>1 or negatives>0) and -- si solo esta el voto del autor, la noticia no la 'vio' nadie
+  votes != 0 and -- si tiene 0 votos es una notica erronea
+  sent_date < @cutdate and -- solo noticias cerradas
+  (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie
 --  IFNULL(sub_status, status) is not null and
 --  IFNULL(sub_status, status) not in ('autodiscard', 'private', 'abuse') and
-  sent_date < @cutdate
 ;
 
 ALTER TABLE GENERAL
