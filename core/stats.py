@@ -1,7 +1,7 @@
 from .db import DB
-from .api import Api
 from functools import lru_cache
 from MySQLdb.cursors import DictCursor
+from dateutil.relativedelta import relativedelta
 
 
 def read_file(file, *args, **kargv):
@@ -14,42 +14,30 @@ def read_file(file, *args, **kargv):
 class Stats:
     def __init__(self):
         self.db = DB()
-        self.api = Api()
-        self.cut_date = self.db.one("select max(sent_date) from LINKS")
-        self.cut_date = self.cut_date - self.api.mnm_config['time_enabled_comments']
-        self.max_date, self.min_date = db.one('''
-                select
-                    from_unixtime(max(sent_date)),
-                    from_unixtime(min(sent_date))
-                from LINKS where sent_date<{0}
-            '''.format(self.cut_date)
-        )
-        self.max_portada, self.min_portada = db.one('''
+        self.max_date, self.min_date = self.db.one('''
+            select
+                from_unixtime(max(sent_date)),
+                from_unixtime(min(sent_date))
+            from GENERAL
+        ''')
+        self.max_portada, self.min_portada = self.db.one('''
             select
                 max(id),
                 min(id)
-            from LINKS
+            from GENERAL
             where
-                sub_status='published' and sub_status_id=1 and sent_date<{0}
-            '''.format(self.cut_date)
-        )
+                status='published'
+        ''')
 
     def __del__(self):
         self.db.close()
 
     @property
     @lru_cache(maxsize=None)
-    def base_sql():
-        return read_file("sql/template/base.sql", self.cut_date)
-
-    @property
-    @lru_cache(maxsize=None)
     def counts(self):
         status = self.db.to_list('''
-            select distinct sub_status
-            from LINKS where sub_status_id=1 and sent_date<{0}
-            '''.format(self.cut_date)
-        )
+            select distinct status from GENERAL
+        ''')
         if '' in status:
             status.remove('')
             if None not in status:
@@ -94,13 +82,11 @@ class Stats:
                 select
                     {1}
                 from
-                    LINKS
-                where
-                    sub_status_id=1 and sent_date<{0}
+                    GENERAL
             ) T
-        '''.format(",\n".join(sql_2), ",\n".join(sql_1), self.cut_date).strip()
+        '''.format(",\n".join(sql_2), ",\n".join(sql_1)).strip()
 
-        count=db.one(sql, cursor=DictCursor)
+        count=self.db.one(sql, cursor=DictCursor)
         count={k: int(v) for k,v in count.items()}
         count_cmt={}
         for k,v  in list(count.items()):
@@ -117,3 +103,21 @@ class Stats:
                 "status": count_cmt
             }
         }
+
+    @property
+    @lru_cache(maxsize=None)
+    def karma_mensual(self):
+        data={}
+        for mes, karma in self.db.select('''
+            select
+                YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes,
+                avg(karma) karma
+            from
+                GENERAL
+            where
+                status!='autodiscard'
+            group by
+                YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100)
+        '''):
+            data[float(mes)]=float(karma)
+        return data

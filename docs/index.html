@@ -12,12 +12,12 @@
       Este informe abarca la <a href="https://www.meneame.net/">portada</a> y
       <a href="https://www.meneame.net/queue">cola</a> de la edición general
       de <code>meneame.net</code> desde
-      <a href="https://www.meneame.net/story/{{st.min_portada}}"><code>{{st.min_date.strftime("%d/%m/%Y")}}</code></a>
+      <a href="https://www.meneame.net/story/1"><code>07/12/2005</code></a>
       a
-      <a href="https://www.meneame.net/story/{{st.max_portada}}"><code>{{st.max_date.strftime("%d/%m/%Y %H:%M")}}</code></a>,
+      <a href="https://www.meneame.net/story/3261465"><code>12/04/2020 13:09</code></a>,
       lo que representa
-      <code>{{st.counts.comments.total | millar }}</code> comentarios y
-      <code>{{st.counts.links.total | millar }}</code> noticias repartidas en:
+      <code>28.024.811</code> comentarios y
+      <code>2.564.829</code> noticias repartidas en:
     </p>
     <table>
       <thead>
@@ -28,14 +28,37 @@
         </tr>
       </thead>
       <tbody>
-   {% for s, c in st.counts.links.status %}
-        <tr>
-          <td>{{s}}</td>
-          <td class="rg"><code>{{c | millar}}</code></td>
-          <td class="rg"><code>{{st.counts.comments.status[s] | millar}}</code></td>
+           <tr>
+          <td>queued</td>
+          <td class="rg"><code>1.696.688</code></td>
+          <td class="rg"><code>12.161.134</code></td>
         </tr>
-   {% endfor%}
-     </tbody>
+           <tr>
+          <td>discard</td>
+          <td class="rg"><code>424.957</code></td>
+          <td class="rg"><code>1.625.018</code></td>
+        </tr>
+           <tr>
+          <td>autodiscard</td>
+          <td class="rg"><code>231.650</code></td>
+          <td class="rg"><code>737.085</code></td>
+        </tr>
+           <tr>
+          <td>published</td>
+          <td class="rg"><code>201.813</code></td>
+          <td class="rg"><code>13.442.788</code></td>
+        </tr>
+           <tr>
+          <td>abuse</td>
+          <td class="rg"><code>9.695</code></td>
+          <td class="rg"><code>58.768</code></td>
+        </tr>
+           <tr>
+          <td>sin estado</td>
+          <td class="rg"><code>26</code></td>
+          <td class="rg"><code>18</code></td>
+        </tr>
+        </tbody>
     </table>
   </body>
   <h1>El Karma de menéame</h1>

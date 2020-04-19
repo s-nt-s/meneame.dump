@@ -63,7 +63,7 @@ class Jnj2():
                     f.write(";\n")
                 f.write("var "+k+" = ")
                 json.dump(v, f, indent=indent,
-                          separators=separators, default=myconverter)
+                          separators=separators)
                 f.write(";")
 
     def exists(self, destino):

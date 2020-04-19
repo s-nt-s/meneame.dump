@@ -1,0 +1,32 @@
+table {
+	margin-top: 14px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+thead {
+	background-color: lightblue;
+}
+td, th {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table tbody tr:nth-child(even) {
+	background-color: #ddd;
+}
+td > p, th > p {
+	margin-top:7px;
+	margin-bottom:7px;
+}
+td > p:first-child, th > p:first-child  {
+	margin-top:0;
+}
+td > p:last-child, td > p:last-child {
+	margin-bottom:0;
+}
+tr > td:first-child {
+	white-space: nowrap;
+}
+td.rg {
+  text-align: right;
+}

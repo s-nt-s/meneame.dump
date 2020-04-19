@@ -22,7 +22,9 @@ select
   negatives,
   comments,
   `date`,
-  sent_date
+  sent_date,
+  YEAR(from_unixtime(sent_date+604800))+(WEEKOFYEAR(from_unixtime(sent_date+604800))/100) semana,
+  YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes,
 from
   LINKS
 where
@@ -31,3 +33,8 @@ where
 --  IFNULL(sub_status, status) not in ('autodiscard', 'private', 'abuse') and
   sent_date < @cutdate
 ;
+
+ALTER TABLE GENERAL
+ADD PRIMARY KEY (id),
+ADD INDEX ndx_status (status ASC),
+ADD INDEX ndx_sub (sub ASC);

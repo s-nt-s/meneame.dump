@@ -119,10 +119,13 @@ class DB:
             yield r
         cursor.close()
 
-    def one(self, sql, cursor=None):
+    def one(self, sql, *args, cursor=None):
         sql = self._build_select(sql)
         cursor = self.con.cursor(cursor)
-        cursor.execute(sql)
+        if args:
+            cursor.execute(sql, args)
+        else:
+            cursor.execute(sql)
         r = cursor.fetchone()
         cursor.close()
         if not isinstance(r, (list, tuple)):
