@@ -6,19 +6,14 @@ UPDATE LINKS set
   `sub_status_id` = 1
 where id = 1;
 
-DROP TABLE IF EXISTS links;
-
-CREATE TABLE `links` AS
+CREATE OR REPLACE TABLE GENERAL AS
 select
   id,
   url,
   sub,
+  IFNULL(sub_status, status) status,
   CASE
-    when sub_status is not null then sub_status
-    else status
-  END status,
-  CASE
-    when (sub_status='published' or (sub_status is null and status='published')) and sub_karma>0 then sub_karma
+    when sub_karma>0 and IFNULL(sub_status, status)='published' then sub_karma
     else karma
   END karma,
   user_id,
@@ -32,5 +27,7 @@ from
   LINKS
 where
   sub_status_id = 1 and
+--  IFNULL(sub_status, status) is not null and
+--  IFNULL(sub_status, status) not in ('autodiscard', 'private', 'abuse') and
   sent_date < @cutdate
 ;
