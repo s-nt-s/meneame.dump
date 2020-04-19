@@ -1,14 +1,18 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Informe de datos de meneame.net</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-    <script src="js/chart.js"></script>
-  </head>
-  <body>
-    <p>
+<head>
+<meta charset="utf-8"/>
+<title>Informe de datos de meneame.net</title>
+<link href="css/main.css" rel="stylesheet" type="text/css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script data-autoinsert="1" src="data/mensual.js"></script>
+<script data-autoinsert="1" src="data/zz-parse.js"></script>
+<script data-autoinsert="1" src="js/chart.js"></script>
+</head>
+<body>
+<p>
       Este informe abarca la <a href="https://www.meneame.net/">portada</a> y
       <a href="https://www.meneame.net/queue">cola</a> de la edición general
       de <code>meneame.net</code> desde
@@ -16,60 +20,59 @@
       a
       <a href="https://www.meneame.net/story/3261465"><code>12/04/2020 13:09</code></a>,
       lo que representa
-      <code>28.024.811</code> comentarios y
-      <code>2.564.829</code> noticias repartidas en:
+      <code>27.974.328</code> comentarios y
+      <code>2.474.396</code> noticias repartidas en:
     </p>
-    <table>
-      <thead>
-        <tr>
-          <th>Estado</th>
-          <th>Noticias</th>
-          <th>Comentarios</th>
-        </tr>
-      </thead>
-      <tbody>
-           <tr>
-          <td>queued</td>
-          <td class="rg"><code>1.696.688</code></td>
-          <td class="rg"><code>12.161.134</code></td>
-        </tr>
-           <tr>
-          <td>discard</td>
-          <td class="rg"><code>424.957</code></td>
-          <td class="rg"><code>1.625.018</code></td>
-        </tr>
-           <tr>
-          <td>autodiscard</td>
-          <td class="rg"><code>231.650</code></td>
-          <td class="rg"><code>737.085</code></td>
-        </tr>
-           <tr>
-          <td>published</td>
-          <td class="rg"><code>201.813</code></td>
-          <td class="rg"><code>13.442.788</code></td>
-        </tr>
-           <tr>
-          <td>abuse</td>
-          <td class="rg"><code>9.695</code></td>
-          <td class="rg"><code>58.768</code></td>
-        </tr>
-           <tr>
-          <td>sin estado</td>
-          <td class="rg"><code>26</code></td>
-          <td class="rg"><code>18</code></td>
-        </tr>
-        </tbody>
-    </table>
-  </body>
-  <h1>El Karma de menéame</h1>
-  <p>El sitema de menéame mide la 'calidad' de una noticia o comentario
-    a traves del <a href="https://www.meneame.net/faq-es">karma</a>,
-    lo que nos permita (aunque no sea su proposito general) obtener
-    una medida orientativa de la 'calidad' o 'buen rollo' del
-    portal en su conjunto</b>
-  <p>
-    <b>¿Cómo?</b> Para determinado tiempo obtenemos todos las noticias
-    cerradas en ese intervalo y todos los comentarios en dichas noticas,
-    sumamos sus valores de karma y obtenemos la media.
-  </p>
+<table>
+<thead>
+<tr>
+<th>Estado</th>
+<th>Noticias</th>
+<th>Comentarios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>queued</td>
+<td class="rg"><code>1.685.567</code></td>
+<td class="rg"><code>12.153.395</code></td>
+</tr>
+<tr>
+<td>discard</td>
+<td class="rg"><code>380.610</code></td>
+<td class="rg"><code>1.624.871</code></td>
+</tr>
+<tr>
+<td>published</td>
+<td class="rg"><code>201.813</code></td>
+<td class="rg"><code>13.442.788</code></td>
+</tr>
+<tr>
+<td>autodiscard</td>
+<td class="rg"><code>197.497</code></td>
+<td class="rg"><code>695.481</code></td>
+</tr>
+<tr>
+<td>abuse</td>
+<td class="rg"><code>8.895</code></td>
+<td class="rg"><code>57.775</code></td>
+</tr>
+<tr>
+<td>sin estado</td>
+<td class="rg"><code>14</code></td>
+<td class="rg"><code>18</code></td>
+</tr>
+</tbody>
+</table>
+</body>
+<p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
+    <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
+  </p><h1>Méneame a traves del tiempo</h1>
+<p>Hacer la média sobre <select id="tipoMensual">
+<option value="1">todo (menos autodiscard y abuse)</option>
+<option value="2">solo la portada</option>
+</select>
+</p>
+<canvas id="data_mensual"></canvas>
+<p>(*) Solo se muestran los votos de usuarios registrados, no los anónimos</p>
 </html>

@@ -30,3 +30,7 @@ tr > td:first-child {
 td.rg {
   text-align: right;
 }
+
+canvas {
+	max-width: 800px;
+}

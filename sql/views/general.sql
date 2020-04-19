@@ -23,12 +23,12 @@ select
   comments,
   `date`,
   sent_date,
-  YEAR(from_unixtime(sent_date+604800))+(WEEKOFYEAR(from_unixtime(sent_date+604800))/100) semana,
-  YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes
+  YEAR(from_unixtime(sent_date+604800))+(WEEKOFYEAR(from_unixtime(sent_date+604800))/100) semana, -- semana en la que se cerro la noticia
+  YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes -- mes en la que se cerro la noticia
 from
   LINKS
 where
-  sub_status_id = 1 and
+  sub_status_id = 1 and -- solo noticias de la edicion general
   votes != 0 and -- si tiene 0 votos es una notica erronea
   sent_date < @cutdate and -- solo noticias cerradas
   (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie

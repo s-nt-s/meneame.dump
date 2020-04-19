@@ -1,11 +1,17 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Informe de datos de meneame.net</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    {% for c in css %}
+      <link href="{{c}}" rel="stylesheet" type="text/css" data-autoinsert="1"/>
+    {% endfor %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-    <script src="js/chart.js"></script>
+    {% for js in javascript %}
+      <script src="{{js}}" data-autoinsert="1"></script>
+    {% endfor %}
   </head>
   <body>
     <p>
@@ -38,15 +44,14 @@
      </tbody>
     </table>
   </body>
-  <h1>El Karma de menéame</h1>
-  <p>El sitema de menéame mide la 'calidad' de una noticia o comentario
-    a traves del <a href="https://www.meneame.net/faq-es">karma</a>,
-    lo que nos permita (aunque no sea su proposito general) obtener
-    una medida orientativa de la 'calidad' o 'buen rollo' del
-    portal en su conjunto</b>
-  <p>
-    <b>¿Cómo?</b> Para determinado tiempo obtenemos todos las noticias
-    cerradas en ese intervalo y todos los comentarios en dichas noticas,
-    sumamos sus valores de karma y obtenemos la media.
+  <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
+    <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
+  <h1>Méneame a traves del tiempo</h1>
+  <p>Hacer la média de <select id="tipoMensual">
+    <option value="1">todo (menos autodiscard y abuse)</option>
+    <option value="2">solo la portada (published)</option>
+  </select>
   </p>
+  <canvas id="data_mensual"></canvas>
+  <p>(*) Solo se muestran los votos de usuarios registrados, no los anónimos</p>
 </html>

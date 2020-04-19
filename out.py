@@ -10,6 +10,9 @@ st = Stats()
 jHtml = Jnj2("template/", "docs/")
 
 jHtml.save("index.html", st=st)
-jHtml.create_script("data/karma.js", karma_mensual=st.karma_mensual, replace=True)
+jHtml.create_script("data/mensual.js", replace=True,
+    data_mensual=st.get_data_mensual(),
+    data_mensual_portada=st.get_data_mensual("status='published'"),
+)
 
 st.db.close()

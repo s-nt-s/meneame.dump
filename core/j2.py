@@ -4,6 +4,8 @@ import re
 import bs4
 import json
 from jinja2 import Environment, FileSystemLoader
+from glob import iglob
+from os.path import relpath
 
 re_br = re.compile(r"<br/>(\s*</)")
 
@@ -28,17 +30,36 @@ class Jnj2():
         self.pre = pre
         self.post = post
         self.lastArgs = None
+        self.javascript = sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.js", recursive=True))
+        self.css = sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.css", recursive=True))
 
     def save(self, template, destino=None, parse=None, **kwargs):
         self.lastArgs = kwargs
         if destino is None:
             destino = template
         out = self.j2_env.get_template(template)
-        html = out.render(**kwargs)
+        html = out.render(**kwargs, javascript=self.javascript, css=self.css)
         if self.pre:
             html = self.pre(html, **kwargs)
         if parse:
             html = parse(html, **kwargs)
+
+        if destino.endswith(".html") and (self.javascript or self.css):
+            soup = bs4.BeautifulSoup(html, 'lxml')
+            remo = []
+            for j in self.javascript:
+                items = soup.select("script[src='"+j+"']")
+                if len(items)>1:
+                    remo.extend(items)
+            for c in self.css:
+                items = soup.select("link[href='"+c+"']")
+                if len(items)>1:
+                    remo.extend(items)
+            for r in remo:
+                if r.attrs.get("data-autoinsert"):
+                    r.extract()
+            html = str(soup)
+
         if self.post:
             html = self.post(html, **kwargs)
 

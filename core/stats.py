@@ -104,23 +104,23 @@ class Stats:
             }
         }
 
-    @property
-    @lru_cache(maxsize=None)
-    def karma_mensual(self):
+    def get_data_mensual(self, where=None):
+        if where is None:
+            where = "where status not in ('autodiscard', 'abuse')"
+        else:
+            where = "where " + where
         data={}
-        for mes, karma in self.db.select('''
+        for dt in self.db.select('''
             select
-                YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes,
+                mes,
                 avg(karma) karma,
                 avg(votes) votes,
                 avg(negatives) negatives,
                 avg(comments) comments
             from
-                GENERAL
-            where
-                status!='autodiscard'
+                GENERAL {0}
             group by
-                YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100)
-        '''):
-            data[float(mes)]=float(karma)
+                mes
+        '''.format(where), cursor=DictCursor):
+            data[float(dt["mes"])]={k:float(v) for k,v in dt.items() if k!="mes"}
         return data
