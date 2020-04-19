@@ -304,9 +304,9 @@ class DB:
         max_date = max_date - time_enabled_comments
         #self.execute("delete from TAGS;")
         #self.commit()
-        min_id = self.one("select max(id) from TAGS") or 0
+        min_id = self.one("select max(link) from TAGS") or 0
         if min_id>0:
-            self.exectue("delete from TAGS where id = "+str(min_id))
+            self.exectue("delete from TAGS where link = "+str(min_id))
             min_id = min_id - 1
         insert = "insert into TAGS (tag, link) values (%s, %s)"
         for tags_links in chunks(self.loop_tags(min_id, max_date), 2000):
