@@ -111,7 +111,11 @@ class Stats:
         for mes, karma in self.db.select('''
             select
                 YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes,
-                avg(karma) karma
+                avg(karma) karma,
+                avg(clicks) clicks,
+                avg(votes) votes,
+                avg(negatives) negatives,
+                avg(comments) comments
             from
                 GENERAL
             where

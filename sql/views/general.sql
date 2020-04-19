@@ -29,6 +29,7 @@ from
   LINKS
 where
   sub_status_id = 1 and
+  votes > 1  and -- descartar links que solo 'vio' su propio autor
 --  IFNULL(sub_status, status) is not null and
 --  IFNULL(sub_status, status) not in ('autodiscard', 'private', 'abuse') and
   sent_date < @cutdate

@@ -30,7 +30,7 @@ def get_info(id):
 id = api.get_list(status='published', rows=1)
 id = int(id[0]["id"])
 
-ini = [int(i.split("-")[-1].split(".")[0]) for i in glob("js/*.json")]
+ini = [int(i.split(".")[0]) for i in glob("js/*.json")]
 if len(ini)==0:
     ini = 1
 else:
