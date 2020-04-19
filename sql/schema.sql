@@ -46,13 +46,6 @@ create table COMMENTS (
   -- ,FOREIGN KEY (link) REFERENCES LINKS(id)
 );
 
-create table broken_id (
-  `what` VARCHAR(25),
-  `id` INT,
-  `check` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (what, id)
-);
-
 create table USERS (
   `id` INT,
   `links` INT default 0,
@@ -66,7 +59,6 @@ create table USERS (
 create table TAGS (
   `tag` VARCHAR(80),
   `link` INT,
-  `status` VARCHAR(11),
   PRIMARY KEY (tag, link)
 );
 

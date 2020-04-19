@@ -264,76 +264,56 @@ class DB:
                         yield i
                 cursor = max_range
 
-    def comment_gaps(self, cursor, time_enabled_comments, size=2000):
-        max_date = self.one("select max(sent_date) from LINKS")
-        if max_date is not None:
-            max_date = max_date - time_enabled_comments
-            max_id = self.one("select max(id) from LINKS where sent_date<"+str(max_date))
-            if max_id is not None:
-                while cursor < max_id:
-                    ids = self.to_list('''
-                        select id from
-                        COMMENTS
-                        where id>={0}
-                        order by id
-                        limit {1}
-                    '''.format(cursor, size))
-                    max_range = min(max_id, cursor+size+1)
-                    if len(ids) and max_range<=ids[-1]:
-                        max_range=ids[-1]+1
-                    for i in range(cursor, max_range):
-                        if i not in ids:
-                            yield i
-                    cursor = max_range
+    def comment_gaps(self, cursor, max_date, size=2000):
+        max_id = self.one("select max(id) from LINKS where sent_date<"+str(max_date))
+        if max_id is not None:
+            while cursor < max_id:
+                ids = self.to_list('''
+                    select id from
+                    COMMENTS
+                    where id>={0}
+                    order by id
+                    limit {1}
+                '''.format(cursor, size))
+                max_range = min(max_id, cursor+size+1)
+                if len(ids) and max_range<=ids[-1]:
+                    max_range=ids[-1]+1
+                for i in range(cursor, max_range):
+                    if i not in ids:
+                        yield i
+                cursor = max_range
 
-    def loop_tags(self, where=""):
-        max_date = self.meta.get("max_date")
-        if max_date is not None:
-            where = ("sent_date < %s and " % max_date)+where
-        if where.strip() and not where.strip().endswith(" and"):
-            where = where + " and "
-        for id, tags, status in self.select('''
+    def loop_tags(self, min_id, max_date):
+        for id, tags in self.select('''
             select
                 id,
-                tags,
-                status
+                tags
             from LINKS
-            where {0} tags is not null and TRIM(tags)!=''
+            where id>{0} and sent_date < {1} and tags is not null and TRIM(tags)!=''
             order by id
-        '''.format(where)):
+        '''.format(min_id, max_date)):
             tags = tags.lower().strip().split(",")
             tags = set(t.strip() for t in tags if t.strip())
             tags = set([parse_tag(t) for t in tags])
             tags = sorted(t for t in tags if t is not None)
             for tag in tags:
-                yield (tag, id, status)
+                yield (tag, id)
 
-    def fix(self, time_enabled_comments=None):
-        if time_enabled_comments:
-            max_date = self.one("select max(sent_date) from LINKS")
-            if max_date is not None:
-                self.meta.max_date = max_date - time_enabled_comments
-                self.save_meta("max_date")
-        self.execute("sql/update_users.sql")
-        self.commit()
-        self.execute("delete from TAGS;")
-        self.commit()
-        insert = "insert into TAGS (tag, link, status) values (%s, %s, %s)"
-        for tags_links in chunks(self.loop_tags(), 2000):
+    def insert_tags(self, time_enabled_comments=604800):
+        max_date = self.one("select max(sent_date) from LINKS")
+        max_date = max_date - time_enabled_comments
+        #self.execute("delete from TAGS;")
+        #self.commit()
+        min_id = self.one("select max(id) from TAGS") or 0
+        if min_id>0:
+            self.exectue("delete from TAGS where id = "+str(min_id))
+            min_id = min_id - 1
+        insert = "insert into TAGS (tag, link) values (%s, %s)"
+        for tags_links in chunks(self.loop_tags(min_id, max_date), 2000):
             c = self.con.cursor()
             c.executemany(insert, tags_links)
             c.close()
             self.con.commit()
-        self.commit()
-        self.execute('''
-            delete from TAGS
-            where tag not in (
-                select tag from TAGS
-                where status='published'
-                group by tag
-                having count(link)>=100
-            )
-        ''')
         self.commit()
 
     def clone(self, file, table):

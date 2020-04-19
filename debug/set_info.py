@@ -19,8 +19,6 @@ abspath = abspath(__file__)
 dname = dirname(abspath)
 os.chdir(dname)
 
-db = DB()
-
 def load_json(fl):
     ex = None
     try:
@@ -82,23 +80,24 @@ def get_groups(*fields, ok_ids=None):
                 r[k][v].append(i["id"])
     return r
 
-print("""
-ALTER TABLE LINKS ADD COLUMN sub_karma DECIMAL(10,2) NULL DEFAULT 0 AFTER sub_status_origen;
+print('''
+ALTER TABLE LINKS CHANGE COLUMN `karma` `karma` DECIMAL(10,2) NULL DEFAULT NULL;
 commit;
-""".strip())
-groups = get_groups("sub_karma")
-for v, ids in sorted(groups["sub_karma"].items()):
-    if v == 0:
+'''.strip())
+groups = get_groups("karma")
+for v, ids in sorted(groups["karma"].items()):
+    if v is None or v == int(v):
         continue
     if len(ids)==1:
         ids = "= "+str(ids[0])
     else:
         ids = "in %s" % (tuple(ids), )
-    print("UPDATE LINKS set sub_karma = %s\nwhere id %s;" % (v, ids))
+    print("UPDATE LINKS set karma = %s\nwhere id %s;" % (v, ids))
 print("commit;")
 sys.exit()
 
 if False:
+    db = DB()
     ok_ids = db.to_list("select id from LINKS where user_id is null")
     fields=("user_id",)#("sub_status_id", "sub_status", "status", "sub_status_origen")
     groups = get_groups(*fields, ok_ids=ok_ids, removeNull=False)
