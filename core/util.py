@@ -44,7 +44,7 @@ def parse_tag(tag, main=True):
         return None
     tags = tag.split()
     if len(tags)>1:
-        tags=[parsetag(t, main=False) or t for t in tags]
+        tags=[parse_tag(t, main=False) or t for t in tags]
         tag = " ".join(t for t in tags if t is not None)
         return tag if len(tag) else None
     original = str(tag)

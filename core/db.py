@@ -292,6 +292,7 @@ class DB:
             where id>{0} and sent_date < {1} and tags is not null and TRIM(tags)!=''
             order by id
         '''.format(min_id, max_date)):
+            print(id, end="\r")
             tags = tags.lower().strip().split(",")
             tags = set(t.strip() for t in tags if t.strip())
             tags = set([parse_tag(t) for t in tags])
@@ -340,3 +341,11 @@ class DB:
             self.con.commit()
         cursor.close()
         lt.close()
+
+
+if __name__ == "__main__":
+    db=DB()
+    try:
+        db.insert_tags()
+    finally:
+        db.close()
