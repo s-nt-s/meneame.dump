@@ -41,7 +41,7 @@ def get_items(ok_ids=None):
         data = load_json(fl)
         data = sorted(data, key=lambda x:x["id"])
         for d in data:
-            if d["id"]<=3287083:
+            if d["id"]<=3293660:
                 if ok_ids is not None and d["id"] not in ok_ids:
                     continue
                 for k in ("karma", "sub_karma"):
@@ -79,18 +79,8 @@ def gW(ids, f="id"):
         return f+" = "+str(ids.pop())
     return f+" in %s" % (tuple(sorted(ids)), )
 
-ids = set()
-fl=open("jsid.txt", "w")
-for i in get_items():
-    fl.write(str(i["id"])+"\n")
-    if i["status"] is None:
-        ids.add(i["id"])
-fl.close()
-print("UPDATE LINKS set status = NULL where "+gW(ids)+";")
-sys.exit()
-print("create table TMP_AUX (id INT);")
-for ids in chunks(get_items(),10000):
-    print("insert into TMP_AUX (id) VALUES\n")
-    for id in ids[:-1]:
-        print("(%s)," % id)
-    print("(%s);" % ids[-1])
+_ids = [i["id"] for i in get_items() if i["sub_status_id"]==1 and i["id"]>=414633]
+for ids in chunks(sorted(_ids), 200000):
+    print("--", len(ids))
+    print("UPDATE LINKS set sub_status_id = 1 where {0};".format(gW(ids)))
+print("commit;")

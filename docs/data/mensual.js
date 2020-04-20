@@ -278,8 +278,8 @@ var mensual = {
     },
     "2009.1": {
       "karma": 106.0,
-      "positives": 95.6,
-      "negatives": 4.4,
+      "positives": 95.61,
+      "negatives": 4.39,
       "comments": 9.0
     },
     "2009.11": {
@@ -997,46 +997,46 @@ var mensual = {
       "comments": 22.0
     },
     "2019.1": {
-      "karma": 62.0,
-      "positives": 92.78,
-      "negatives": 7.22,
-      "comments": 23.0
+      "karma": 160.0,
+      "positives": 92.18,
+      "negatives": 7.82,
+      "comments": 24.0
     },
     "2019.11": {
-      "karma": 301.0,
-      "positives": 94.41,
-      "negatives": 5.59,
-      "comments": 21.0
+      "karma": 337.0,
+      "positives": 93.01,
+      "negatives": 6.99,
+      "comments": 22.0
     },
     "2019.12": {
-      "karma": 235.0,
-      "positives": 94.69,
-      "negatives": 5.31,
-      "comments": 16.0
+      "karma": 337.0,
+      "positives": 93.53,
+      "negatives": 6.47,
+      "comments": 23.0
     },
     "2020.01": {
-      "karma": 202.0,
-      "positives": 92.45,
-      "negatives": 7.55,
-      "comments": 17.0
+      "karma": 338.0,
+      "positives": 93.48,
+      "negatives": 6.52,
+      "comments": 24.0
     },
     "2020.02": {
-      "karma": 148.0,
-      "positives": 90.37,
-      "negatives": 9.63,
-      "comments": 12.0
+      "karma": 316.0,
+      "positives": 93.74,
+      "negatives": 6.26,
+      "comments": 21.0
     },
     "2020.03": {
-      "karma": 114.0,
-      "positives": 80.29,
-      "negatives": 19.71,
-      "comments": 14.0
+      "karma": 402.0,
+      "positives": 94.09,
+      "negatives": 5.91,
+      "comments": 24.0
     },
     "2020.04": {
-      "karma": 66.0,
-      "positives": 82.63,
-      "negatives": 17.37,
-      "comments": 14.0
+      "karma": 462.0,
+      "positives": 94.0,
+      "negatives": 6.0,
+      "comments": 25.0
     }
   },
   "portada": {
@@ -1392,7 +1392,7 @@ var mensual = {
       "karma": 519.0,
       "positives": 99.39,
       "negatives": 0.61,
-      "comments": 63.0
+      "comments": 62.0
     },
     "2010.11": {
       "karma": 459.0,
@@ -1725,19 +1725,19 @@ var mensual = {
       "comments": 79.0
     },
     "2015.06": {
-      "karma": 568.0,
+      "karma": 569.0,
       "positives": 99.25,
       "negatives": 0.75,
       "comments": 99.0
     },
     "2015.07": {
-      "karma": 555.0,
+      "karma": 556.0,
       "positives": 99.16,
       "negatives": 0.84,
-      "comments": 108.0
+      "comments": 109.0
     },
     "2015.08": {
-      "karma": 456.0,
+      "karma": 457.0,
       "positives": 99.24,
       "negatives": 0.76,
       "comments": 94.0
@@ -1773,13 +1773,13 @@ var mensual = {
       "comments": 110.0
     },
     "2016.02": {
-      "karma": 470.0,
+      "karma": 471.0,
       "positives": 99.29,
       "negatives": 0.71,
-      "comments": 102.0
+      "comments": 103.0
     },
     "2016.03": {
-      "karma": 468.0,
+      "karma": 469.0,
       "positives": 99.26,
       "negatives": 0.74,
       "comments": 102.0
@@ -1791,7 +1791,7 @@ var mensual = {
       "comments": 101.0
     },
     "2016.05": {
-      "karma": 527.0,
+      "karma": 528.0,
       "positives": 99.04,
       "negatives": 0.96,
       "comments": 111.0
@@ -1863,7 +1863,7 @@ var mensual = {
       "comments": 93.0
     },
     "2017.05": {
-      "karma": 368.0,
+      "karma": 369.0,
       "positives": 99.08,
       "negatives": 0.92,
       "comments": 90.0
@@ -1899,7 +1899,7 @@ var mensual = {
       "comments": 119.0
     },
     "2017.11": {
-      "karma": 350.0,
+      "karma": 351.0,
       "positives": 99.05,
       "negatives": 0.95,
       "comments": 95.0
@@ -1941,7 +1941,7 @@ var mensual = {
       "comments": 87.0
     },
     "2018.06": {
-      "karma": 371.0,
+      "karma": 372.0,
       "positives": 99.14,
       "negatives": 0.86,
       "comments": 91.0
@@ -1953,7 +1953,7 @@ var mensual = {
       "comments": 85.0
     },
     "2018.08": {
-      "karma": 319.0,
+      "karma": 320.0,
       "positives": 99.1,
       "negatives": 0.9,
       "comments": 93.0
@@ -1980,7 +1980,7 @@ var mensual = {
       "karma": 280.0,
       "positives": 99.0,
       "negatives": 1.0,
-      "comments": 101.0
+      "comments": 102.0
     },
     "2019.01": {
       "karma": 304.0,
@@ -2037,40 +2037,46 @@ var mensual = {
       "comments": 92.0
     },
     "2019.1": {
-      "karma": 306.0,
-      "positives": 98.8,
-      "negatives": 1.2,
-      "comments": 92.0
+      "karma": 1177.0,
+      "positives": 98.68,
+      "negatives": 1.32,
+      "comments": 94.0
     },
     "2019.11": {
-      "karma": 2529.0,
-      "positives": 98.01,
-      "negatives": 1.99,
-      "comments": 96.0
+      "karma": 2759.0,
+      "positives": 98.59,
+      "negatives": 1.41,
+      "comments": 93.0
     },
     "2019.12": {
-      "karma": 1347.0,
-      "positives": 98.66,
-      "negatives": 1.34,
-      "comments": 61.0
+      "karma": 2491.0,
+      "positives": 98.83,
+      "negatives": 1.17,
+      "comments": 94.0
     },
     "2020.01": {
-      "karma": 1934.0,
-      "positives": 99.21,
-      "negatives": 0.79,
-      "comments": 86.0
+      "karma": 2642.0,
+      "positives": 98.73,
+      "negatives": 1.27,
+      "comments": 105.0
     },
     "2020.02": {
-      "karma": 1454.0,
-      "positives": 98.6,
-      "negatives": 1.4,
-      "comments": 62.0
+      "karma": 2360.0,
+      "positives": 98.71,
+      "negatives": 1.29,
+      "comments": 90.0
     },
     "2020.03": {
-      "karma": 2485.0,
-      "positives": 96.71,
-      "negatives": 3.29,
-      "comments": 88.0
+      "karma": 2707.0,
+      "positives": 98.76,
+      "negatives": 1.24,
+      "comments": 97.0
+    },
+    "2020.04": {
+      "karma": 3661.0,
+      "positives": 98.69,
+      "negatives": 1.31,
+      "comments": 119.0
     }
   },
   "actualidad": {
@@ -2537,40 +2543,46 @@ var mensual = {
       "comments": 109.0
     },
     "2019.1": {
-      "karma": 316.0,
-      "positives": 98.85,
-      "negatives": 1.15,
-      "comments": 112.0
+      "karma": 1428.0,
+      "positives": 98.74,
+      "negatives": 1.26,
+      "comments": 116.0
     },
     "2019.11": {
-      "karma": 2805.0,
-      "positives": 98.78,
-      "negatives": 1.22,
-      "comments": 109.0
+      "karma": 3367.0,
+      "positives": 98.63,
+      "negatives": 1.37,
+      "comments": 117.0
     },
     "2019.12": {
-      "karma": 1276.0,
-      "positives": 98.59,
-      "negatives": 1.41,
-      "comments": 63.0
+      "karma": 2990.0,
+      "positives": 98.97,
+      "negatives": 1.03,
+      "comments": 112.0
     },
     "2020.01": {
-      "karma": 2231.0,
-      "positives": 99.31,
-      "negatives": 0.69,
-      "comments": 99.0
+      "karma": 3206.0,
+      "positives": 98.86,
+      "negatives": 1.14,
+      "comments": 131.0
     },
     "2020.02": {
-      "karma": 1379.0,
-      "positives": 99.43,
-      "negatives": 0.57,
-      "comments": 59.0
+      "karma": 2760.0,
+      "positives": 98.68,
+      "negatives": 1.32,
+      "comments": 105.0
     },
     "2020.03": {
-      "karma": 2814.0,
-      "positives": 96.87,
-      "negatives": 3.13,
-      "comments": 96.0
+      "karma": 3101.0,
+      "positives": 98.88,
+      "negatives": 1.12,
+      "comments": 112.0
+    },
+    "2020.04": {
+      "karma": 4172.0,
+      "positives": 98.81,
+      "negatives": 1.19,
+      "comments": 138.0
     }
   },
   "estados": {
@@ -2927,9 +2939,9 @@ var mensual = {
       "prc_discard": 10
     },
     "2008.08": {
-      "total": 18785,
+      "total": 18788,
       "published": 1594,
-      "queued": 12781,
+      "queued": 12784,
       "autodiscard": 1889,
       "discard": 2393,
       "prc_published": 8,
@@ -2949,10 +2961,10 @@ var mensual = {
       "prc_discard": 12
     },
     "2008.1": {
-      "total": 23245,
+      "total": 23257,
       "published": 1684,
-      "queued": 16695,
-      "autodiscard": 2117,
+      "queued": 16706,
+      "autodiscard": 2118,
       "discard": 2583,
       "prc_published": 7,
       "prc_queued": 71,
@@ -2960,9 +2972,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2008.11": {
-      "total": 20322,
-      "published": 1523,
-      "queued": 14387,
+      "total": 20325,
+      "published": 1524,
+      "queued": 14389,
       "autodiscard": 1800,
       "discard": 2475,
       "prc_published": 7,
@@ -2982,9 +2994,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2009.01": {
-      "total": 19116,
+      "total": 19117,
       "published": 1717,
-      "queued": 13497,
+      "queued": 13498,
       "autodiscard": 1794,
       "discard": 2028,
       "prc_published": 8,
@@ -3048,10 +3060,10 @@ var mensual = {
       "prc_discard": 10
     },
     "2009.07": {
-      "total": 19730,
+      "total": 19738,
       "published": 1669,
-      "queued": 14400,
-      "autodiscard": 1400,
+      "queued": 14407,
+      "autodiscard": 1401,
       "discard": 2239,
       "prc_published": 8,
       "prc_queued": 72,
@@ -3070,9 +3082,9 @@ var mensual = {
       "prc_discard": 12
     },
     "2009.09": {
-      "total": 19958,
+      "total": 19959,
       "published": 1470,
-      "queued": 14641,
+      "queued": 14642,
       "autodiscard": 1441,
       "discard": 2389,
       "prc_published": 7,
@@ -3081,9 +3093,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2009.1": {
-      "total": 20327,
-      "published": 1584,
-      "queued": 14921,
+      "total": 20329,
+      "published": 1585,
+      "queued": 14922,
       "autodiscard": 1373,
       "discard": 2423,
       "prc_published": 7,
@@ -3092,9 +3104,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2009.11": {
-      "total": 19839,
+      "total": 19845,
       "published": 1598,
-      "queued": 14410,
+      "queued": 14416,
       "autodiscard": 1354,
       "discard": 2452,
       "prc_published": 8,
@@ -3103,20 +3115,20 @@ var mensual = {
       "prc_discard": 12
     },
     "2009.12": {
-      "total": 20375,
-      "published": 1634,
-      "queued": 14689,
+      "total": 20392,
+      "published": 1639,
+      "queued": 14700,
       "autodiscard": 1401,
-      "discard": 2617,
+      "discard": 2618,
       "prc_published": 8,
       "prc_queued": 72,
       "prc_autodiscard": 6,
       "prc_discard": 12
     },
     "2010.01": {
-      "total": 19647,
+      "total": 19648,
       "published": 1548,
-      "queued": 13908,
+      "queued": 13909,
       "autodiscard": 1551,
       "discard": 2621,
       "prc_published": 7,
@@ -3147,9 +3159,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2010.04": {
-      "total": 18966,
-      "published": 1504,
-      "queued": 13997,
+      "total": 18974,
+      "published": 1506,
+      "queued": 14003,
       "autodiscard": 1243,
       "discard": 2204,
       "prc_published": 7,
@@ -3169,10 +3181,10 @@ var mensual = {
       "prc_discard": 12
     },
     "2010.06": {
-      "total": 21858,
-      "published": 1643,
-      "queued": 15888,
-      "autodiscard": 1739,
+      "total": 21863,
+      "published": 1644,
+      "queued": 15891,
+      "autodiscard": 1740,
       "discard": 2560,
       "prc_published": 7,
       "prc_queued": 72,
@@ -3180,9 +3192,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2010.07": {
-      "total": 18987,
-      "published": 1382,
-      "queued": 13492,
+      "total": 18996,
+      "published": 1383,
+      "queued": 13500,
       "autodiscard": 1483,
       "discard": 2592,
       "prc_published": 7,
@@ -3202,9 +3214,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2010.09": {
-      "total": 18575,
+      "total": 18580,
       "published": 1311,
-      "queued": 13364,
+      "queued": 13369,
       "autodiscard": 1586,
       "discard": 2292,
       "prc_published": 7,
@@ -3213,8 +3225,8 @@ var mensual = {
       "prc_discard": 12
     },
     "2010.1": {
-      "total": 17435,
-      "published": 1182,
+      "total": 17436,
+      "published": 1183,
       "queued": 12697,
       "autodiscard": 1132,
       "discard": 2401,
@@ -3224,9 +3236,9 @@ var mensual = {
       "prc_discard": 13
     },
     "2010.11": {
-      "total": 18785,
-      "published": 1292,
-      "queued": 13806,
+      "total": 18791,
+      "published": 1293,
+      "queued": 13811,
       "autodiscard": 1241,
       "discard": 2416,
       "prc_published": 6,
@@ -3257,11 +3269,11 @@ var mensual = {
       "prc_discard": 12
     },
     "2011.02": {
-      "total": 21103,
+      "total": 21111,
       "published": 1472,
-      "queued": 16107,
+      "queued": 16114,
       "autodiscard": 1382,
-      "discard": 2105,
+      "discard": 2106,
       "prc_published": 6,
       "prc_queued": 76,
       "prc_autodiscard": 6,
@@ -3290,9 +3302,9 @@ var mensual = {
       "prc_discard": 11
     },
     "2011.05": {
-      "total": 23103,
+      "total": 23106,
       "published": 1631,
-      "queued": 16065,
+      "queued": 16068,
       "autodiscard": 2184,
       "discard": 3176,
       "prc_published": 7,
@@ -3312,10 +3324,10 @@ var mensual = {
       "prc_discard": 11
     },
     "2011.07": {
-      "total": 20081,
-      "published": 1380,
-      "queued": 14528,
-      "autodiscard": 1582,
+      "total": 20092,
+      "published": 1381,
+      "queued": 14537,
+      "autodiscard": 1583,
       "discard": 2513,
       "prc_published": 6,
       "prc_queued": 72,
@@ -3323,9 +3335,9 @@ var mensual = {
       "prc_discard": 12
     },
     "2011.08": {
-      "total": 19621,
+      "total": 19622,
       "published": 1281,
-      "queued": 13946,
+      "queued": 13947,
       "autodiscard": 1843,
       "discard": 2487,
       "prc_published": 6,
@@ -3356,20 +3368,20 @@ var mensual = {
       "prc_discard": 12
     },
     "2011.11": {
-      "total": 24860,
-      "published": 1651,
-      "queued": 18244,
-      "autodiscard": 1907,
-      "discard": 3008,
+      "total": 24879,
+      "published": 1653,
+      "queued": 18259,
+      "autodiscard": 1908,
+      "discard": 3009,
       "prc_published": 6,
       "prc_queued": 73,
       "prc_autodiscard": 7,
       "prc_discard": 12
     },
     "2011.12": {
-      "total": 23865,
+      "total": 23870,
       "published": 1567,
-      "queued": 17348,
+      "queued": 17353,
       "autodiscard": 2084,
       "discard": 2817,
       "prc_published": 6,
@@ -3422,10 +3434,10 @@ var mensual = {
       "prc_discard": 21
     },
     "2012.05": {
-      "total": 21250,
-      "published": 1438,
-      "queued": 13750,
-      "autodiscard": 2251,
+      "total": 21253,
+      "published": 1439,
+      "queued": 13751,
+      "autodiscard": 2252,
       "discard": 3775,
       "prc_published": 6,
       "prc_queued": 64,
@@ -3433,10 +3445,10 @@ var mensual = {
       "prc_discard": 17
     },
     "2012.06": {
-      "total": 20466,
+      "total": 20469,
       "published": 1420,
-      "queued": 13384,
-      "autodiscard": 2105,
+      "queued": 13385,
+      "autodiscard": 2107,
       "discard": 3518,
       "prc_published": 6,
       "prc_queued": 65,
@@ -3455,9 +3467,9 @@ var mensual = {
       "prc_discard": 15
     },
     "2012.08": {
-      "total": 16784,
+      "total": 16786,
       "published": 1114,
-      "queued": 10835,
+      "queued": 10837,
       "autodiscard": 1788,
       "discard": 3014,
       "prc_published": 6,
@@ -3477,9 +3489,9 @@ var mensual = {
       "prc_discard": 18
     },
     "2012.1": {
-      "total": 20072,
+      "total": 20075,
       "published": 1318,
-      "queued": 13250,
+      "queued": 13253,
       "autodiscard": 2066,
       "discard": 3396,
       "prc_published": 6,
@@ -3488,9 +3500,9 @@ var mensual = {
       "prc_discard": 16
     },
     "2012.11": {
-      "total": 19482,
+      "total": 19483,
       "published": 1208,
-      "queued": 12630,
+      "queued": 12631,
       "autodiscard": 2102,
       "discard": 3510,
       "prc_published": 6,
@@ -3510,9 +3522,9 @@ var mensual = {
       "prc_discard": 16
     },
     "2013.01": {
-      "total": 19641,
+      "total": 19642,
       "published": 1236,
-      "queued": 13387,
+      "queued": 13388,
       "autodiscard": 2063,
       "discard": 2911,
       "prc_published": 6,
@@ -3532,9 +3544,9 @@ var mensual = {
       "prc_discard": 15
     },
     "2013.03": {
-      "total": 19695,
+      "total": 19696,
       "published": 1239,
-      "queued": 13200,
+      "queued": 13201,
       "autodiscard": 2019,
       "discard": 3197,
       "prc_published": 6,
@@ -3554,9 +3566,9 @@ var mensual = {
       "prc_discard": 18
     },
     "2013.05": {
-      "total": 19813,
-      "published": 1202,
-      "queued": 12713,
+      "total": 19816,
+      "published": 1203,
+      "queued": 12715,
       "autodiscard": 2419,
       "discard": 3448,
       "prc_published": 6,
@@ -3587,11 +3599,11 @@ var mensual = {
       "prc_discard": 14
     },
     "2013.08": {
-      "total": 14295,
+      "total": 14308,
       "published": 913,
-      "queued": 9327,
-      "autodiscard": 1572,
-      "discard": 2460,
+      "queued": 9336,
+      "autodiscard": 1575,
+      "discard": 2461,
       "prc_published": 6,
       "prc_queued": 65,
       "prc_autodiscard": 11,
@@ -3620,9 +3632,9 @@ var mensual = {
       "prc_discard": 15
     },
     "2013.11": {
-      "total": 14814,
+      "total": 14815,
       "published": 908,
-      "queued": 10007,
+      "queued": 10008,
       "autodiscard": 1291,
       "discard": 2595,
       "prc_published": 6,
@@ -3631,21 +3643,21 @@ var mensual = {
       "prc_discard": 17
     },
     "2013.12": {
-      "total": 14644,
+      "total": 14649,
       "published": 982,
-      "queued": 9655,
+      "queued": 9659,
       "autodiscard": 1474,
-      "discard": 2515,
+      "discard": 2516,
       "prc_published": 6,
       "prc_queued": 65,
       "prc_autodiscard": 10,
       "prc_discard": 17
     },
     "2014.01": {
-      "total": 14553,
-      "published": 1027,
-      "queued": 9370,
-      "autodiscard": 1542,
+      "total": 14564,
+      "published": 1029,
+      "queued": 9378,
+      "autodiscard": 1543,
       "discard": 2587,
       "prc_published": 7,
       "prc_queued": 64,
@@ -3653,9 +3665,9 @@ var mensual = {
       "prc_discard": 17
     },
     "2014.02": {
-      "total": 15165,
+      "total": 15166,
       "published": 1065,
-      "queued": 9964,
+      "queued": 9965,
       "autodiscard": 1439,
       "discard": 2672,
       "prc_published": 7,
@@ -3664,10 +3676,10 @@ var mensual = {
       "prc_discard": 17
     },
     "2014.03": {
-      "total": 14915,
-      "published": 1085,
-      "queued": 9284,
-      "autodiscard": 1686,
+      "total": 14920,
+      "published": 1086,
+      "queued": 9287,
+      "autodiscard": 1687,
       "discard": 2832,
       "prc_published": 7,
       "prc_queued": 62,
@@ -3710,7 +3722,7 @@ var mensual = {
     "2014.07": {
       "total": 13801,
       "published": 1087,
-      "queued": 8996,
+      "queued": 8995,
       "autodiscard": 1366,
       "discard": 2333,
       "prc_published": 7,
@@ -3753,7 +3765,7 @@ var mensual = {
     },
     "2014.11": {
       "total": 14294,
-      "published": 1230,
+      "published": 1229,
       "queued": 9209,
       "autodiscard": 1385,
       "discard": 2442,
@@ -3797,7 +3809,7 @@ var mensual = {
     },
     "2015.03": {
       "total": 14292,
-      "published": 1146,
+      "published": 1145,
       "queued": 8979,
       "autodiscard": 1532,
       "discard": 2592,
@@ -3809,7 +3821,7 @@ var mensual = {
     "2015.04": {
       "total": 12962,
       "published": 1002,
-      "queued": 8323,
+      "queued": 8322,
       "autodiscard": 1279,
       "discard": 2332,
       "prc_published": 7,
@@ -3830,7 +3842,7 @@ var mensual = {
     },
     "2015.06": {
       "total": 13087,
-      "published": 1067,
+      "published": 1065,
       "queued": 8316,
       "autodiscard": 1294,
       "discard": 2380,
@@ -3841,8 +3853,8 @@ var mensual = {
     },
     "2015.07": {
       "total": 11950,
-      "published": 961,
-      "queued": 7320,
+      "published": 959,
+      "queued": 7319,
       "autodiscard": 1210,
       "discard": 2283,
       "prc_published": 8,
@@ -3852,19 +3864,19 @@ var mensual = {
     },
     "2015.08": {
       "total": 11091,
-      "published": 848,
-      "queued": 7098,
+      "published": 847,
+      "queued": 7097,
       "autodiscard": 1137,
       "discard": 1951,
       "prc_published": 7,
-      "prc_queued": 64,
+      "prc_queued": 63,
       "prc_autodiscard": 10,
       "prc_discard": 17
     },
     "2015.09": {
       "total": 10929,
       "published": 872,
-      "queued": 6607,
+      "queued": 6605,
       "autodiscard": 1073,
       "discard": 2274,
       "prc_published": 7,
@@ -3873,9 +3885,9 @@ var mensual = {
       "prc_discard": 20
     },
     "2015.1": {
-      "total": 12100,
+      "total": 12105,
       "published": 962,
-      "queued": 7914,
+      "queued": 7918,
       "autodiscard": 1097,
       "discard": 1940,
       "prc_published": 7,
@@ -3918,8 +3930,8 @@ var mensual = {
     },
     "2016.02": {
       "total": 13558,
-      "published": 997,
-      "queued": 8618,
+      "published": 995,
+      "queued": 8617,
       "autodiscard": 1575,
       "discard": 2241,
       "prc_published": 7,
@@ -3929,7 +3941,7 @@ var mensual = {
     },
     "2016.03": {
       "total": 12380,
-      "published": 948,
+      "published": 947,
       "queued": 7791,
       "autodiscard": 1362,
       "discard": 2166,
@@ -3951,7 +3963,7 @@ var mensual = {
     },
     "2016.05": {
       "total": 11961,
-      "published": 914,
+      "published": 913,
       "queued": 7409,
       "autodiscard": 1246,
       "discard": 2261,
@@ -3973,7 +3985,7 @@ var mensual = {
     },
     "2016.07": {
       "total": 10552,
-      "published": 872,
+      "published": 871,
       "queued": 6525,
       "autodiscard": 1228,
       "discard": 1883,
@@ -3996,7 +4008,7 @@ var mensual = {
     "2016.09": {
       "total": 10149,
       "published": 782,
-      "queued": 5641,
+      "queued": 5637,
       "autodiscard": 1458,
       "discard": 2234,
       "prc_published": 7,
@@ -4007,7 +4019,7 @@ var mensual = {
     "2016.1": {
       "total": 9607,
       "published": 720,
-      "queued": 5216,
+      "queued": 5215,
       "autodiscard": 1243,
       "discard": 2400,
       "prc_published": 7,
@@ -4029,7 +4041,7 @@ var mensual = {
     "2016.12": {
       "total": 9267,
       "published": 691,
-      "queued": 5325,
+      "queued": 5324,
       "autodiscard": 995,
       "discard": 2225,
       "prc_published": 7,
@@ -4050,8 +4062,8 @@ var mensual = {
     },
     "2017.02": {
       "total": 9104,
-      "published": 684,
-      "queued": 5453,
+      "published": 683,
+      "queued": 5452,
       "autodiscard": 885,
       "discard": 2069,
       "prc_published": 7,
@@ -4062,7 +4074,7 @@ var mensual = {
     "2017.03": {
       "total": 9474,
       "published": 724,
-      "queued": 5803,
+      "queued": 5801,
       "autodiscard": 873,
       "discard": 2057,
       "prc_published": 7,
@@ -4073,7 +4085,7 @@ var mensual = {
     "2017.04": {
       "total": 8646,
       "published": 775,
-      "queued": 5230,
+      "queued": 5229,
       "autodiscard": 848,
       "discard": 1768,
       "prc_published": 8,
@@ -4083,7 +4095,7 @@ var mensual = {
     },
     "2017.05": {
       "total": 10864,
-      "published": 1134,
+      "published": 1132,
       "queued": 6952,
       "autodiscard": 1036,
       "discard": 1714,
@@ -4094,8 +4106,8 @@ var mensual = {
     },
     "2017.06": {
       "total": 10038,
-      "published": 1050,
-      "queued": 6678,
+      "published": 1049,
+      "queued": 6677,
       "autodiscard": 816,
       "discard": 1444,
       "prc_published": 10,
@@ -4117,7 +4129,7 @@ var mensual = {
     "2017.08": {
       "total": 8553,
       "published": 861,
-      "queued": 5350,
+      "queued": 5349,
       "autodiscard": 754,
       "discard": 1528,
       "prc_published": 10,
@@ -4149,8 +4161,8 @@ var mensual = {
     },
     "2017.11": {
       "total": 10931,
-      "published": 1151,
-      "queued": 7100,
+      "published": 1150,
+      "queued": 7099,
       "autodiscard": 931,
       "discard": 1663,
       "prc_published": 10,
@@ -4204,7 +4216,7 @@ var mensual = {
     },
     "2018.04": {
       "total": 11179,
-      "published": 1308,
+      "published": 1307,
       "queued": 7864,
       "autodiscard": 721,
       "discard": 1238,
@@ -4225,9 +4237,9 @@ var mensual = {
       "prc_discard": 12
     },
     "2018.06": {
-      "total": 11067,
-      "published": 1154,
-      "queued": 7817,
+      "total": 11128,
+      "published": 1153,
+      "queued": 7816,
       "autodiscard": 827,
       "discard": 1252,
       "prc_published": 10,
@@ -4236,20 +4248,20 @@ var mensual = {
       "prc_discard": 11
     },
     "2018.07": {
-      "total": 10132,
+      "total": 10195,
       "published": 1206,
-      "queued": 7127,
+      "queued": 7124,
       "autodiscard": 639,
       "discard": 1160,
       "prc_published": 11,
-      "prc_queued": 70,
+      "prc_queued": 69,
       "prc_autodiscard": 6,
       "prc_discard": 11
     },
     "2018.08": {
-      "total": 9998,
-      "published": 1120,
-      "queued": 7061,
+      "total": 10062,
+      "published": 1118,
+      "queued": 7060,
       "autodiscard": 684,
       "discard": 1133,
       "prc_published": 11,
@@ -4258,7 +4270,7 @@ var mensual = {
       "prc_discard": 11
     },
     "2018.09": {
-      "total": 10762,
+      "total": 10803,
       "published": 1139,
       "queued": 7743,
       "autodiscard": 695,
@@ -4266,10 +4278,10 @@ var mensual = {
       "prc_published": 10,
       "prc_queued": 71,
       "prc_autodiscard": 6,
-      "prc_discard": 11
+      "prc_discard": 10
     },
     "2018.1": {
-      "total": 10736,
+      "total": 10766,
       "published": 1188,
       "queued": 7721,
       "autodiscard": 663,
@@ -4280,7 +4292,7 @@ var mensual = {
       "prc_discard": 10
     },
     "2018.11": {
-      "total": 9819,
+      "total": 9865,
       "published": 1030,
       "queued": 7156,
       "autodiscard": 594,
@@ -4291,51 +4303,51 @@ var mensual = {
       "prc_discard": 10
     },
     "2018.12": {
-      "total": 9731,
-      "published": 945,
-      "queued": 7031,
+      "total": 9781,
+      "published": 944,
+      "queued": 7030,
       "autodiscard": 625,
       "discard": 1130,
       "prc_published": 9,
-      "prc_queued": 72,
+      "prc_queued": 71,
       "prc_autodiscard": 6,
       "prc_discard": 11
     },
     "2019.01": {
-      "total": 8964,
+      "total": 9049,
       "published": 948,
       "queued": 6375,
       "autodiscard": 631,
       "discard": 1010,
       "prc_published": 10,
-      "prc_queued": 71,
-      "prc_autodiscard": 7,
+      "prc_queued": 70,
+      "prc_autodiscard": 6,
       "prc_discard": 11
     },
     "2019.02": {
-      "total": 9559,
+      "total": 9617,
       "published": 955,
       "queued": 6887,
       "autodiscard": 597,
       "discard": 1120,
       "prc_published": 9,
-      "prc_queued": 72,
+      "prc_queued": 71,
       "prc_autodiscard": 6,
       "prc_discard": 11
     },
     "2019.03": {
-      "total": 10723,
+      "total": 10860,
       "published": 1151,
       "queued": 7572,
       "autodiscard": 640,
       "discard": 1360,
       "prc_published": 10,
-      "prc_queued": 70,
+      "prc_queued": 69,
       "prc_autodiscard": 5,
       "prc_discard": 12
     },
     "2019.04": {
-      "total": 10470,
+      "total": 10540,
       "published": 1162,
       "queued": 7524,
       "autodiscard": 686,
@@ -4346,7 +4358,7 @@ var mensual = {
       "prc_discard": 10
     },
     "2019.05": {
-      "total": 10085,
+      "total": 10174,
       "published": 981,
       "queued": 7345,
       "autodiscard": 675,
@@ -4357,7 +4369,7 @@ var mensual = {
       "prc_discard": 10
     },
     "2019.06": {
-      "total": 9889,
+      "total": 9944,
       "published": 1041,
       "queued": 7070,
       "autodiscard": 731,
@@ -4368,18 +4380,18 @@ var mensual = {
       "prc_discard": 10
     },
     "2019.07": {
-      "total": 10131,
+      "total": 10217,
       "published": 931,
       "queued": 7404,
       "autodiscard": 690,
       "discard": 1106,
       "prc_published": 9,
-      "prc_queued": 73,
+      "prc_queued": 72,
       "prc_autodiscard": 6,
       "prc_discard": 10
     },
     "2019.08": {
-      "total": 9080,
+      "total": 9136,
       "published": 973,
       "queued": 6424,
       "autodiscard": 647,
@@ -4390,7 +4402,7 @@ var mensual = {
       "prc_discard": 11
     },
     "2019.09": {
-      "total": 9251,
+      "total": 9346,
       "published": 1007,
       "queued": 6644,
       "autodiscard": 633,
@@ -4401,81 +4413,81 @@ var mensual = {
       "prc_discard": 10
     },
     "2019.1": {
-      "total": 6572,
-      "published": 680,
-      "queued": 4855,
-      "autodiscard": 432,
-      "discard": 605,
+      "total": 10480,
+      "published": 1097,
+      "queued": 7555,
+      "autodiscard": 678,
+      "discard": 997,
       "prc_published": 10,
-      "prc_queued": 73,
+      "prc_queued": 72,
       "prc_autodiscard": 6,
       "prc_discard": 9
     },
     "2019.11": {
-      "total": 151,
-      "published": 15,
-      "queued": 131,
-      "autodiscard": 5,
-      "discard": 0,
-      "prc_published": 9,
-      "prc_queued": 86,
-      "prc_autodiscard": 3,
-      "prc_discard": 0
+      "total": 10250,
+      "published": 1072,
+      "queued": 7499,
+      "autodiscard": 602,
+      "discard": 933,
+      "prc_published": 10,
+      "prc_queued": 73,
+      "prc_autodiscard": 5,
+      "prc_discard": 9
     },
     "2019.12": {
-      "total": 109,
-      "published": 15,
-      "queued": 91,
-      "autodiscard": 3,
-      "discard": 0,
-      "prc_published": 13,
-      "prc_queued": 83,
-      "prc_autodiscard": 2,
-      "prc_discard": 0
+      "total": 9339,
+      "published": 1095,
+      "queued": 6784,
+      "autodiscard": 481,
+      "discard": 908,
+      "prc_published": 11,
+      "prc_queued": 72,
+      "prc_autodiscard": 5,
+      "prc_discard": 9
     },
     "2020.01": {
-      "total": 110,
-      "published": 9,
-      "queued": 96,
-      "autodiscard": 1,
-      "discard": 4,
-      "prc_published": 8,
-      "prc_queued": 87,
-      "prc_autodiscard": 0,
-      "prc_discard": 3
+      "total": 9029,
+      "published": 986,
+      "queued": 6639,
+      "autodiscard": 516,
+      "discard": 836,
+      "prc_published": 10,
+      "prc_queued": 73,
+      "prc_autodiscard": 5,
+      "prc_discard": 9
     },
     "2020.02": {
-      "total": 108,
-      "published": 8,
-      "queued": 92,
-      "autodiscard": 0,
-      "discard": 8,
-      "prc_published": 7,
-      "prc_queued": 85,
-      "prc_autodiscard": 0,
-      "prc_discard": 7
+      "total": 10206,
+      "published": 1152,
+      "queued": 7476,
+      "autodiscard": 570,
+      "discard": 855,
+      "prc_published": 11,
+      "prc_queued": 73,
+      "prc_autodiscard": 5,
+      "prc_discard": 8
     },
     "2020.03": {
-      "total": 3847,
-      "published": 114,
-      "queued": 3178,
-      "autodiscard": 0,
-      "discard": 555,
-      "prc_published": 2,
-      "prc_queued": 82,
-      "prc_autodiscard": 0,
-      "prc_discard": 14
+      "total": 12736,
+      "published": 1571,
+      "queued": 9007,
+      "autodiscard": 879,
+      "discard": 1170,
+      "prc_published": 12,
+      "prc_queued": 70,
+      "prc_autodiscard": 6,
+      "prc_discard": 9
     },
     "2020.04": {
-      "total": 6074,
-      "published": 0,
-      "queued": 5922,
-      "autodiscard": 0,
-      "discard": 152,
-      "prc_published": 0,
-      "prc_queued": 97,
-      "prc_autodiscard": 0,
-      "prc_discard": 2
+      "total": 9109,
+      "published": 942,
+      "queued": 6528,
+      "autodiscard": 696,
+      "discard": 859,
+      "prc_published": 10,
+      "prc_queued": 71,
+      "prc_autodiscard": 7,
+      "prc_discard": 9
     }
   }
 };
