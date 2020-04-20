@@ -52,7 +52,7 @@ def main():
     max_date = db.one("select max(sent_date) from LINKS")
     max_date = max_date - api.mnm_config['time_enabled_comments']
     print("Obteniendo comentarios de link_id > %s and link_date < %s " % (min_id, max_date))
-    gnr = db.comment_gaps(min_id, min_date)
+    gnr = db.comment_gaps(min_id, max_date)
     for comments in tm.list_run(get_comments, gnr):
         comments = api.fill_user_id(comments)
         db.replace("COMMENTS", comments)
