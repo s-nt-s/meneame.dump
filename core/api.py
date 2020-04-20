@@ -390,8 +390,30 @@ class Api:
 
     def get_comments(self, id):
         comments = self.get_list(id=id)
+        if len(comments)==2000 and False:
+            url = self.get_story_url(id)
+            if url and "/story/" in url:
+                visto = set(i["id"] for i in comments)
+                pag = 20
+                while True:
+                    pag = pag + 1
+                    url + "/"+str(pag)
+                    soup = get_soup(url)
+                    com = soup.select("ol.comments-list div.comment[data-id]")
+                    if len(com)==0:
+                        break
+                    for c in com:
+                        user = c.select_one("a.username").get_text().strip()
+                        c = int(c.attrs["data-id"].split("-")[-1])
+                        if c not in visto:
+                            visto.add(c)
+                            c = self.get_comment_info(c)
+                            if c:
+                                c["user"] = user
+                                comments.append(c)
         for c in comments:
             c["link"] = id
+        comments = sorted(comments, key=lambda x:x["order"])
         return comments
 
     @property
@@ -484,6 +506,31 @@ class Api:
             elif k == "sub_name":
                 k = "sub"
             elif k == "author":
+                k = "user_id"
+            if isinstance(v, str):
+                if "karma" in k:
+                    v = float(v)
+                    if int(v)==v:
+                        v=int(v)
+                elif v.isdigit():
+                    v = int(v)
+            link[k] = v
+        return link
+
+    def get_comment_info(self, id, *fields, full=False):
+        fields = fields or ('date', 'votes', 'karma', 'order', 'author', 'content')
+        _link = {"id": id}
+        for fl in chunks(fields, 10):
+            fl = ",".join(fl)
+            obj = self.get_info(what='comment', id=id, fields=fl)
+            if not obj:
+                return None
+            _link = {**_link, **obj}
+        link = {}
+        for k, v in _link.items():
+            if v == "":
+                v = None
+            if k == "author":
                 k = "user_id"
             if isinstance(v, str):
                 if "karma" in k:

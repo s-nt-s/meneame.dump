@@ -68,6 +68,12 @@
 <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
     <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
   </p><h1>Méneame a traves del tiempo</h1>
+<p>Mostrar cantidad de noticias en <select id="tipoConteo">
+<option value="prc_">% del total</option>
+<option value="_">números absolutos</option>
+</select>
+</p>
+<canvas id="data_estados"></canvas>
 <p>Mostrar datos de <select id="tipoMensual">
 <option value="general">todo (menos autodiscard y abuse)</option>
 <option value="portada">la portada (published)</option>
@@ -75,5 +81,6 @@
 </select>
 </p>
 <canvas id="data_mensual"></canvas>
-<p>(*) Para las métricas de votos no se tienen en cuenta los anónimos</p>
+<p>(*) Para las métricas de votos no se tienen en cuenta ni los votos anónimos
+    ni el primer voto de cada noticia (pues corresponde al usuario que envió la noticia).</p>
 </html>

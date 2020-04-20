@@ -14,8 +14,9 @@ jHtml.create_script("data/mensual.js", replace=True,
     mensual={
         "general":st.get_data_mensual(),
         "portada": st.get_data_mensual("status='published'"),
-        "actualidad": st.get_data_mensual("status='published' and sub='actualidad'")
-    }
+        "actualidad": st.get_data_mensual("status='published' and sub='actualidad'"),
+        "estados":st.get_count_mensual()
+    },
 )
 
 st.db.close()

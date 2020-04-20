@@ -1,4 +1,5 @@
 from .db import DB
+from .api import Api
 from functools import lru_cache
 from MySQLdb.cursors import DictCursor
 from dateutil.relativedelta import relativedelta
@@ -28,6 +29,21 @@ class Stats:
             where
                 status='published'
         ''')
+        self.status = self.db.to_list('''
+            select distinct status from GENERAL
+        ''')
+        if '' in self.status:
+            self.status.remove('')
+            if None not in self.status:
+                self.status.append(None)
+        self.status = tuple(sorted(self.status, key=lambda x:({
+            "published": 1,
+            "queued": 2,
+            "autodiscard": 3,
+            "discard": 4,
+            "abuse": 5,
+            None: 9
+        }.get(x,8), x)))
 
     def __del__(self):
         self.db.close()
@@ -35,16 +51,9 @@ class Stats:
     @property
     @lru_cache(maxsize=None)
     def counts(self):
-        status = self.db.to_list('''
-            select distinct status from GENERAL
-        ''')
-        if '' in status:
-            status.remove('')
-            if None not in status:
-                status.append(None)
         sql_1=[]
         sql_2=[]
-        for s in status:
+        for s in self.status:
             if s is None:
                 sql_1.append('''
                 case
@@ -113,6 +122,7 @@ class Stats:
         for dt in self.db.select('''
         select
             mes,
+            -- noticias,
             round(karma) karma,
             round((votes*100/(votes+negatives))*100)/100 positives,
             round((negatives*100/(votes+negatives))*100)/100 negatives,
@@ -120,6 +130,7 @@ class Stats:
         from (
             select
                 mes,
+                -- count(id) noticias,
                 avg(karma) karma,
                 sum(votes)-count(id) votes,
                 sum(negatives) negatives,
@@ -131,4 +142,29 @@ class Stats:
         ) T
         '''.format(where), cursor=DictCursor):
             data[float(dt["mes"])]={k:float(v) for k,v in dt.items() if k!="mes"}
+        return data
+
+
+    def get_count_mensual(self):
+        counts = []
+        for s in self.status:
+            if s not in (None, "abuse"):
+                counts.append("sum(status='{0}') {0}".format(s))
+        #counts.append("sum(sub not in {0}) sub".format(Api.SUBS))
+        for c in list(counts):
+            rl, nm = c.rsplit(" ", 1)
+            counts.append("round(({0}*100/count(*))*100)/100 prc_{1}".format(rl, nm))
+        counts = ", ". join(counts)
+        data={}
+        for dt in self.db.select('''
+        select
+            mes,
+            count(*) total,
+            {0}
+        from
+            GENERAL
+        group by
+            mes
+        '''.format(counts, Api.SUBS), cursor=DictCursor):
+            data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
         return data

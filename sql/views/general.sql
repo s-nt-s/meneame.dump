@@ -29,7 +29,7 @@ from
   LINKS
 where
   sub_status_id = 1 and -- solo noticias de la edicion general
-  votes != 0 and -- si tiene 0 votos es una notica erronea
+  votes != 0 and -- si tiene 0 votos es una noticia erronea
   sent_date < @cutdate and -- solo noticias cerradas
   (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie
 --  IFNULL(sub_status, status) is not null and
