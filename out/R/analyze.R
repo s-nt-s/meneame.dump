@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 if(!exists("tags")) {
-    opeds <- fromJSON(file = "/home/santos/wks/meneame/meneame.dump/out/published.json")
+    opeds <- fromJSON(file = "out/published.json")
 
     # Create a data.frame with the relevant information
     Sys.setlocale("LC_TIME", "es_ES.UTF-8")

@@ -1,6 +1,6 @@
 function parseObj(obj) {
   var keys = Object.keys(obj).map(function(x){return Number(x)}).sort();
-  keys = keys.slice(0, keys.length-6);
+  //keys = keys.slice(0, keys.length-6);
   var r = {"keys": keys, "values": []};
   var i, v;
   for (i=0;i<keys.length;i++) {

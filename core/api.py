@@ -521,6 +521,8 @@ class Api:
         fields = fields or ('date', 'votes', 'karma', 'order', 'author', 'content')
         _link = {"id": id}
         for fl in chunks(fields, 10):
+            if len(fl)==1:
+                fl.append("id")
             fl = ",".join(fl)
             obj = self.get_info(what='comment', id=id, fields=fl)
             if not obj:

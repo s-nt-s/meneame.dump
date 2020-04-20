@@ -23,6 +23,7 @@ select
   comments,
   `date`,
   sent_date,
+  round((HOUR(from_unixtime(sent_date))*60)+MINUTE(from_unixtime(sent_date)+(SECOND(from_unixtime(sent_date))/60))) minuto, -- minuto del dia
   YEAR(from_unixtime(sent_date+604800))+(WEEKOFYEAR(from_unixtime(sent_date+604800))/100) semana, -- semana en la que se cerro la noticia
   YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes -- mes en la que se cerro la noticia
 from
@@ -32,8 +33,6 @@ where
   votes != 0 and -- si tiene 0 votos es una noticia erronea
   sent_date < @cutdate and -- solo noticias cerradas
   (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie
---  IFNULL(sub_status, status) is not null and
---  IFNULL(sub_status, status) not in ('autodiscard', 'private', 'abuse') and
 ;
 
 ALTER TABLE GENERAL

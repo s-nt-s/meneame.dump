@@ -168,3 +168,31 @@ class Stats:
         '''.format(counts, Api.SUBS), cursor=DictCursor):
             data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
         return data
+
+    def get_horas_mensual(self, where=None):
+        if where is None:
+            where = "where status not in ('autodiscard', 'abuse')"
+        else:
+            where = "where " + where
+        data={}
+        for dt in self.db.select('''
+            select
+                mes,
+                round(minuto/60) hora,
+                count(id) todas,
+                sum(status='published') published
+            from
+                GENERAL {0}
+            group by
+                mes, round(minuto/60)
+            order by mes, hora
+        '''.format(where), cursor=DictCursor):
+            dt = {k:int(v) for k,v in dt.items()}
+            obj = data.get(dt["mes"], {})
+            v = obj.get("todas")
+            if v is None or v[0]<dt["todas"]:
+                obj["todas"] = (dt["todas"], dt["hora"])
+            v = obj.get("published")
+            if v is None or v[0]<dt["published"]:
+                obj["published"] = (dt["published"], dt["hora"])
+        return data

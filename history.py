@@ -10,6 +10,7 @@ from core.db import DB
 from core.threadme import ThreadMe
 from core.util import read_yml_all, readlines, mkArg
 import os
+import sys
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -69,6 +70,21 @@ def main():
         db.ignore("LINKS", links)
         db.save_meta("min_link_history_id")
     db.save_meta("min_link_history_id")
+
+def set_falta():
+    ids=[]
+    with open("falta.txt") as f:
+        for l in f.readlines():
+            l = l.strip()
+            if l:
+                l = int(l)
+                if l < 3293660:
+                    ids.append(l)
+    print(len(ids))
+    for links in tm.list_run(get_info, ids):
+        db.ignore("LINKS", links)
+    sys.exit()
+
 
 if __name__ == "__main__":
     try:
