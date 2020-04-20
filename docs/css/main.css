@@ -34,3 +34,7 @@ td.rg {
 canvas {
 	max-width: 800px;
 }
+
+body {
+	min-height: 2000px;
+}

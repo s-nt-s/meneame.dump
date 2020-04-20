@@ -11,8 +11,11 @@ jHtml = Jnj2("template/", "docs/")
 
 jHtml.save("index.html", st=st)
 jHtml.create_script("data/mensual.js", replace=True,
-    data_mensual=st.get_data_mensual(),
-    data_mensual_portada=st.get_data_mensual("status='published'"),
+    mensual={
+        "general":st.get_data_mensual(),
+        "portada": st.get_data_mensual("status='published'"),
+        "actualidad": st.get_data_mensual("status='published' and sub='actualidad'")
+    }
 )
 
 st.db.close()

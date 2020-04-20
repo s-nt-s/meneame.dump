@@ -19,6 +19,10 @@ function parseObj(obj) {
   */
   return r;
 }
-
-data_mensual = parseObj(data_mensual);
-data_mensual_portada = parseObj(data_mensual_portada);
+var i, v, k;
+var ks=Object.keys(mensual);
+for (i=0;i<ks.length;i++) {
+  k = ks[i];
+  v = mensual[k];
+  mensual[k]=parseObj(mensual[k]);
+}

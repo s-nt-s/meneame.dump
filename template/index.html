@@ -47,11 +47,12 @@
   <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
     <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
   <h1>Méneame a traves del tiempo</h1>
-  <p>Hacer la média de <select id="tipoMensual">
-    <option value="1">todo (menos autodiscard y abuse)</option>
-    <option value="2">solo la portada (published)</option>
+  <p>Mostrar datos de <select id="tipoMensual">
+    <option value="general">todo (menos autodiscard y abuse)</option>
+    <option value="portada">la portada (published)</option>
+    <option value="actualidad">la portada en la categoría actualidad</option>
   </select>
   </p>
   <canvas id="data_mensual"></canvas>
-  <p>(*) Solo se muestran los votos de usuarios registrados, no los anónimos</p>
+  <p>(*) Para las métricas de votos no se tienen en cuenta los anónimos</p>
 </html>

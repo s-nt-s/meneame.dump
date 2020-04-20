@@ -111,16 +111,24 @@ class Stats:
             where = "where " + where
         data={}
         for dt in self.db.select('''
+        select
+            mes,
+            round(karma) karma,
+            round((votes*100/(votes+negatives))*100)/100 positives,
+            round((negatives*100/(votes+negatives))*100)/100 negatives,
+            round(comments) comments
+        from (
             select
                 mes,
                 avg(karma) karma,
-                avg(votes) votes,
-                avg(negatives) negatives,
+                sum(votes)-count(id) votes,
+                sum(negatives) negatives,
                 avg(comments) comments
             from
                 GENERAL {0}
             group by
                 mes
+        ) T
         '''.format(where), cursor=DictCursor):
             data[float(dt["mes"])]={k:float(v) for k,v in dt.items() if k!="mes"}
         return data

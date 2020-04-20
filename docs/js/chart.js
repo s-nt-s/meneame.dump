@@ -47,8 +47,8 @@ function setGraphChart(obj, dataset) {
       if (dataset[i].label==null) dat.options.legend={display:false};
     }
     var myChart = new Chart(ctx, dat);
-    if (dataset.length>1) {
-      if (obj.max_y==null) obj.max_y = myChart.scales["y-axis-0"].max;
+    if (obj.max_y && dataset.length>1) {
+      if (obj.max_y==true) obj.max_y = myChart.scales["y-axis-0"].max;
       myChart.options.scales.yAxes[0].ticks.max = obj.max_y;
     }
     $(elem).data("chart", myChart);
@@ -56,7 +56,7 @@ function setGraphChart(obj, dataset) {
 }
 
 function gF(obj, key){
-  return obj["values"].map(function(x){return Math.round(x[key])})
+  return obj["values"].map(function(x){return x[key]})
 }
 
 var d_color={
@@ -71,42 +71,51 @@ var d_color={
 }
 
 function chartMensual(value) {
-  var t = Number(value || $("#tipoMensual").val());
-  obj = t==1?data_mensual:data_mensual_portada;
+  var t = value || $("#tipoMensual").val();
+  obj = mensual[t];
   var labels = obj["keys"].map(function(x) {return x.toFixed(2);})
   var dataset = [{
-        label: "Karma",
-        data: gF(obj, "karma"),
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: "orange",
-        borderWidth: 1
+      label: "% votos negativos",
+      data: gF(obj, "negatives"),
+      backgroundColor: d_color.red.backgroundColor,
+      borderColor: d_color.red.borderColor,
+      borderWidth: 1
     },{
-        label: "Votos positivos",
-        data: gF(obj, "votes"),
-        backgroundColor: d_color.blue.backgroundColor,
-        borderColor: d_color.blue.borderColor,
-        borderWidth: 1
-    },{
-        label: "Votos negativos",
-        data: gF(obj, "negatives"),
-        backgroundColor: d_color.red.backgroundColor,
-        borderColor: d_color.red.borderColor,
-        borderWidth: 1
-    },{
-        label: "Comentarios",
-        data: gF(obj, "comments"),
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: "green",
-        borderWidth: 1
+      label: "Karma (media)",
+      data: gF(obj, "karma"),
+      fill: false,
+      //backgroundColor: d_color.blue.backgroundColor,
+      borderColor: "orange",
+      borderWidth: 1,
+      hidden: true
+    },/*{
+      label: "% votos positivos",
+      data: gF(obj, "positives"),
+      backgroundColor: d_color.blue.backgroundColor,
+      borderColor: d_color.blue.borderColor,
+      borderWidth: 1
+    },*/{
+      label: "Comentarios (media)",
+      data: gF(obj, "comments"),
+      fill: false,
+      //backgroundColor: d_color.blue.backgroundColor,
+      borderColor: "green",
+      borderWidth: 1,
+      hidden: true
     }
   ];
   var ch = $("#data_mensual").data("chart");
-  if (ch) ch.destroy();
+  if (ch) {
+    ch.legend.legendItems.map(function(x){
+      return x.hidden;
+    }).forEach(function(h, i){
+      dataset[i].hidden=h;
+    })
+    ch.destroy();
+  }
   setGraphChart({
       id: 'data_mensual',
-      title: "Media mensual",
+      title: null,
       labels: labels,
       type: 'line'
   }, dataset);
