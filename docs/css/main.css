@@ -36,5 +36,9 @@ canvas {
 }
 
 body {
-	min-height: 2000px;
+	margin-bottom: 400px;
+}
+canvas {
+	margin-top: 16px;
+	margin-bottom: 16px;
 }

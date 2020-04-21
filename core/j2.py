@@ -30,8 +30,14 @@ class Jnj2():
         self.pre = pre
         self.post = post
         self.lastArgs = None
-        self.javascript = sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.js", recursive=True))
-        self.css = sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.css", recursive=True))
+
+    @property
+    def javascript(self):
+        return sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.js", recursive=True))
+
+    @property
+    def css(self):
+        return sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.css", recursive=True))
 
     def save(self, template, destino=None, parse=None, **kwargs):
         self.lastArgs = kwargs

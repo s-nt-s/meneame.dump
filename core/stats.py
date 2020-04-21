@@ -122,9 +122,7 @@ class Stats:
 
     def get_data_mensual(self, where=None):
         if where is None:
-            where = "where status not in ('autodiscard', 'abuse')"
-        else:
-            where = "where " + where
+            where = "status not in ('autodiscard', 'abuse')"
         data={}
         for dt in self.db.select('''
         select
@@ -143,7 +141,10 @@ class Stats:
                 sum(negatives) negatives,
                 avg(comments) comments
             from
-                GENERAL {0}
+                GENERAL
+            where
+              (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie
+              and {0}
             group by
                 mes
         ) T
@@ -157,10 +158,6 @@ class Stats:
         for s in self.status:
             if s not in (None, "abuse"):
                 counts.append("sum(status='{0}') {0}".format(s))
-        #counts.append("sum(sub not in {0}) sub".format(Api.SUBS))
-        for c in list(counts):
-            rl, nm = c.rsplit(" ", 1)
-            counts.append("round(({0}*100/count(*))*100)/100 prc_{1}".format(rl, nm))
         counts = ", ". join(counts)
         data={}
         for dt in self.db.select('''
@@ -172,53 +169,58 @@ class Stats:
             GENERAL
         group by
             mes
-        '''.format(counts, Api.SUBS), cursor=DictCursor):
+        '''.format(counts), cursor=DictCursor):
             data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
         return data
 
-    def get_horas_mensual(self, where=None):
+    def get_horas_mensual(self):
         data={}
+        min_year, max_year = self.db.one("select min(YEAR(from_unixtime(sent_date))), max(YEAR(from_unixtime(sent_date))) from GENERAL")
         for dt in self.db.select('''
             select
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
+                YEAR(from_unixtime(sent_date)) yr,
                 floor(minuto/60) hora,
                 count(id) todas,
                 sum(status='published') published
             from
                 GENERAL
+            where
+                YEAR(from_unixtime(sent_date))>{0} and
+                YEAR(from_unixtime(sent_date))<{1}
             group by
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100), floor(minuto/60)
-            order by YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100), floor(minuto/60)
-        ''', cursor=DictCursor):
-            mes = float(dt["mes"])
+                YEAR(from_unixtime(sent_date)), floor(minuto/60)
+            order by YEAR(from_unixtime(sent_date)), floor(minuto/60)
+        '''.format(min_year, max_year), cursor=DictCursor):
+            yr = int(dt["yr"])
             hora = int(dt["hora"])
-            horas = data.get(mes, {})
-            horas[hora] = {k:int(v) for k,v in dt.items() if k not in ("mes", "hora")}
-            data[mes]=horas
+            horas = data.get(yr, {})
+            horas[hora] = {k:int(v) for k,v in dt.items() if k not in ("yr", "hora")}
+            data[yr]=horas
         return data
 
     def get_mes_categorias(self, where=None):
+        if where is None:
+            where = ""
+        else:
+            where = "and " + where
         data={}
         counts=[]
         for sub in self.main_subs:
             counts.append("sum(sub='{0}') `{0}`".format(sub))
-            counts.append("sum(sub='{0}' and status='published') `portada_{0}`".format(sub))
         counts.append("sum(sub not in {0}) `otros`".format(self.main_subs))
-        counts.append("sum(sub not in {0} and status='published') `portada_otros`".format(self.main_subs))
         counts = ", ".join(counts)
         for dt in self.db.select('''
             select
                 YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
                 count(id) total,
-                sum(status='published') portada_total,
                 {0}
             from
                 GENERAL
             where
-                sub is not null and sub!='' and YEAR(from_unixtime(sent_date))>2013
+                sub is not null and sub!='' and YEAR(from_unixtime(sent_date))>2013 {1}
             group by
                 YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
             order by YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
-        '''.format(counts), cursor=DictCursor):
+        '''.format(counts, where), cursor=DictCursor):
             data[float(dt["mes"])]={k:int(v or 0) for k,v in dt.items() if k!="mes"}
         return data

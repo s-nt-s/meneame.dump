@@ -1,4 +1,6 @@
-SET @cutdate := (SELECT max(sent_date)-604800 FROM LINKS);
+SET @cutdate1 := (SELECT max(sent_date)-604800 FROM LINKS);
+SET @cutdate2 := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@cutdate1) ,'%Y-%m-01 00:00:00') as DATETIME)));
+select @cutdate1, @cutdate2, from_unixtime(@cutdate1), from_unixtime(@cutdate2);
 
 UPDATE LINKS set
   `sub` = 'mnm',
@@ -32,8 +34,8 @@ from
 where
   sub_status_id = 1 and -- solo noticias de la edicion general
   votes != 0 and -- si tiene 0 votos es una noticia erronea
-  sent_date < @cutdate and -- solo noticias cerradas
-  (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie
+  sent_date < @cutdate1 and -- solo noticias cerradas
+  sent_date < @cutdate2 -- solo quiero analizar meses completos
 ;
 
 ALTER TABLE GENERAL
