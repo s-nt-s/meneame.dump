@@ -2,6 +2,20 @@ function setGraphChart(obj, dataset) {
     if (obj.id==null) obj.id = "myChart";
     if (obj.type==null) obj.type = "bar";
     var elem = document.getElementById(obj.id)
+    if (obj.destroy) {
+      var ch = $(elem).data("chart");
+      if (ch) {
+        var hd = ch.legend.legendItems.map(function(x){
+          return x.hidden;
+        })
+        if (hd.length>dataset.length) hd = hd.slice(1);
+        else if (hd.length<dataset.length) hd.unshift(false);
+        hd.forEach(function(h, i){
+          dataset[i].hidden=h;
+        })
+        ch.destroy();
+      }
+    }
     var ctx = elem.getContext('2d');
     var dat = {
         type: obj.type,
@@ -42,6 +56,18 @@ function setGraphChart(obj, dataset) {
             }
         }
     };
+    if (obj.x_label) {
+      dat.options.scales["xAxes"][0]. scaleLabel= {
+        display: true,
+        labelString: obj.x_label
+      }
+    }
+    if (obj.y_label) {
+      dat.options.scales["yAxes"][0]. scaleLabel= {
+        display: true,
+        labelString: obj.y_label
+      }
+    }
     var i;
     for (i=0; i<dataset.length && !dat.options.legend;i++) {
       if (dataset[i].label==null) dat.options.legend={display:false};
@@ -56,8 +82,14 @@ function setGraphChart(obj, dataset) {
     return myChart;
 }
 
-function gF(obj, key){
-  return obj["values"].map(function(x){return x[key]})
+function gF(obj, key, porcentaje){
+  values = obj["values"].map(function(x){return x[key]});
+  if (porcentaje!=null) {
+    var total = values.reduce(function(a,b){return a + b}, 0);
+    var dc=Math.pow(10, porcentaje);
+    values = values.map(function(x){return Math.round((x*100/total)*dc)/dc});
+  }
+  return values;
 }
 function dcd() {
   var v = arguments[0];
@@ -123,20 +155,12 @@ function chartMensual(value) {
       hidden: true
     }*/
   ];
-  var ch = $("#data_mensual").data("chart");
-  if (ch) {
-    ch.legend.legendItems.map(function(x){
-      return x.hidden;
-    }).forEach(function(h, i){
-      dataset[i].hidden=h;
-    })
-    ch.destroy();
-  }
   setGraphChart({
       id: 'data_mensual',
       title: null,
       labels: labels,
-      type: 'line'
+      type: 'line',
+      destroy:true
   }, dataset);
 }
 
@@ -170,30 +194,100 @@ function chartConteo(value) {
       hidden: kl=="autodiscard"
     })
   }
-  var ch = $("#data_estados").data("chart");
-  if (ch) {
-    var hd = ch.legend.legendItems.map(function(x){
-      return x.hidden;
-    })
-    if (hd.length>dataset.length) hd = hd.slice(1);
-    else if (hd.length<dataset.length) hd.unshift(false);
-    hd.forEach(function(h, i){
-      dataset[i].hidden=h;
-    })
-    ch.destroy();
-  }
   setGraphChart({
       id: 'data_estados',
       title: null,
       labels: obj["keys"].map(function(x) {return x.toFixed(2);}),
       type: 'line',
       max_y: t=="prc_"?100:null,
+      destroy:true
+  }, dataset);
+}
+function rg(a, b) {
+  if (b==null) {
+    b=a;
+    a=0;
+  }
+  var r=[];
+  var i;
+  for (i=a;i<b;i++) r.push(i);
+  return r;
+}
+
+function chartDiaNormal(value) {
+  var t = value || $("#tipoDiaNormal").val();
+  if (t=="_") t="";
+  var obj = mensual["horas"];
+  var horas = rg(24);
+  var years=$("#yearsDiaNormal").val();//.map(function(x){return Number(x)});
+  years = years?[Number(years)]:[];
+  var i,k,v,c,h;
+  var values=obj["values"];
+  if (years.length>0) {
+    values=[];
+    for (i = 0;i<obj["keys"].length;i++) {
+        k = obj["keys"][i];
+        if (years.indexOf(Math.floor(k))>=-1) {
+          v = obj["values"][i];
+          values.push(v);
+       }
+    }
+  }
+  var keys;
+  var data={};
+  horas.forEach(function(h){
+    values.forEach(function(_v){
+      if (_v[h]) {
+        v = _v[h];
+        if (data[h]==null) data[h]=v;
+        else {
+          Object.keys(v).forEach(function(k){
+            data[h][k] = (data[h][k] || 0) + v[k];
+          })
+        }
+      }
+    })
+  })
+  data = parseObj(data);
+
+  var labels = data["keys"].map(function(x) {
+    if (x==9) return "09-10";
+    if (x>9) return x+"-"+(x+1);
+    return "0"+x+"-0"+(x+1);
+  })
+  var dataset = [{
+      label: (t=="prc_"?"% ":"")+"envios",
+      data: gF(data, "todas", (t=="prc_"?2:null)),
+      fill: false,
+      //backgroundColor: d_color.blue.backgroundColor,
+      borderColor: "black",
+      borderWidth: 1
+    },{
+      label: (t=="prc_"?"% ":"")+"published",
+      data: gF(data, "published", (t=="prc_"?2:null)),
+      fill: false,
+      //backgroundColor: d_color.blue.backgroundColor,
+      borderColor: "green",
+      borderWidth: 1
+    }
+  ];
+  setGraphChart({
+      id: 'dia_normal',
+      title: null,
+      labels: labels,
+      type: 'line',
+      destroy:true,
+      //max_y: t=="prc_"?100:null,
+      x_label: "Horas del día"
   }, dataset);
 }
 
 $(document).ready(function(){
   chartMensual();
   chartConteo();
+  chartDiaNormal();
   $("#tipoMensual").change(function(){chartMensual(this.value)})
   $("#tipoConteo").change(function(){chartConteo(this.value)})
+  $("#tipoDiaNormal").change(function(){chartDiaNormal(this.value)})
+  $("#yearsDiaNormal").change(function(){chartDiaNormal()})
 })

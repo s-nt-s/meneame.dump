@@ -170,29 +170,22 @@ class Stats:
         return data
 
     def get_horas_mensual(self, where=None):
-        if where is None:
-            where = "where status not in ('autodiscard', 'abuse')"
-        else:
-            where = "where " + where
         data={}
         for dt in self.db.select('''
             select
                 mes,
-                round(minuto/60) hora,
+                floor(minuto/60) hora,
                 count(id) todas,
                 sum(status='published') published
             from
-                GENERAL {0}
+                GENERAL
             group by
-                mes, round(minuto/60)
-            order by mes, hora
-        '''.format(where), cursor=DictCursor):
-            dt = {k:int(v) for k,v in dt.items()}
-            obj = data.get(dt["mes"], {})
-            v = obj.get("todas")
-            if v is None or v[0]<dt["todas"]:
-                obj["todas"] = (dt["todas"], dt["hora"])
-            v = obj.get("published")
-            if v is None or v[0]<dt["published"]:
-                obj["published"] = (dt["published"], dt["hora"])
+                mes, floor(minuto/60)
+            order by mes, floor(minuto/60)
+        ''', cursor=DictCursor):
+            mes = float(dt["mes"])
+            hora = int(dt["hora"])
+            horas = data.get(mes, {})
+            horas[hora] = {k:int(v) for k,v in dt.items() if k not in ("mes", "hora")}
+            data[mes]=horas
         return data

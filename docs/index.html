@@ -68,7 +68,30 @@
 <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
     <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
   </p><h1>Méneame a traves del tiempo</h1>
-<p>Mostrar cantidad de noticias en <select id="tipoConteo">
+<p>Calcular 'un día normal' usando datos de <select id="yearsDiaNormal">
+<option>todos los años</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+</select> y mostrando la cantidad de noticias en <select id="tipoDiaNormal">
+<option value="_">números absolutos</option>
+<option value="prc_">% del total diario</option>
+</select>
+<canvas id="dia_normal"></canvas>
+  (*) La linea <code>published</code> señala a que hora fueron enviadas las noticias que, más tarde, terminaron
+  siendo publicadas en portada, no a que hora llegaron a la portada.
+  </p><p>Mostrar cantidad de noticias en <select id="tipoConteo">
 <option value="prc_">% del total</option>
 <option value="_">números absolutos</option>
 </select>

@@ -47,6 +47,18 @@
   <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
     <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
   <h1>Méneame a traves del tiempo</h1>
+  <p>Calcular 'un día normal' usando datos de <select id="yearsDiaNormal">
+    <option>todos los años</option>
+    {% for y in years_completos %}
+      <option value="{{y}}">{{y}}</option>
+    {% endfor %}
+  </select> y mostrando la cantidad de noticias en <select id="tipoDiaNormal">
+    <option value="_">números absolutos</option>
+    <option value="prc_">% del total diario</option>
+  </select>
+  <canvas id="dia_normal"></canvas>
+  (*) La linea <code>published</code> señala a que hora fueron enviadas las noticias que, más tarde, terminaron
+  siendo publicadas en portada, no a que hora llegaron a la portada.
   <p>Mostrar cantidad de noticias en <select id="tipoConteo">
     <option value="prc_">% del total</option>
     <option value="_">números absolutos</option>

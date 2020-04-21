@@ -5,7 +5,8 @@
 *.txt
 !requirements.txt
 borrame.py
-./update.sql
+*update.sql
+*.7z
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

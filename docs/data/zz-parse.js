@@ -1,5 +1,5 @@
 function parseObj(obj) {
-  var keys = Object.keys(obj).map(function(x){return Number(x)}).sort();
+  var keys = Object.keys(obj).map(function(x){return Number(x)}).sort(function(a, b){return a-b});
   //keys = keys.slice(0, keys.length-6);
   var r = {"keys": keys, "values": []};
   var i, v;
