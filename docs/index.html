@@ -97,7 +97,20 @@
 </select>
 </p>
 <canvas id="data_estados"></canvas>
-<p>Mostrar datos de <select id="tipoMensual">
+<p>Mostrar cantidad de noticias en <select id="tipoCategoria">
+<option value="prc_">% del total</option>
+<option value="_">números absolutos</option>
+</select>
+  usando <select id="tipoCategoriaPortada">
+<option value="">todas las noticias</option>
+<option value="portada">solo las noticias que llegaron a portada</option>
+</select>
+</p>
+<canvas id="data_categoria"></canvas>
+<p>
+    (*) Antes de 2014 más del 98% de las noticias estan en la categoría <code>mnm</code>
+</p><p>
+</p><p>Mostrar datos de <select id="tipoMensual">
 <option value="general">todo (menos autodiscard y abuse)</option>
 <option value="portada">la portada (published)</option>
 <option value="actualidad">la portada en la categoría actualidad</option>

@@ -4493,1983 +4493,4531 @@ var mensual = {
   "horas": {
     "2005.12": {
       "0": {
-        "todas": 57,
-        "published": 25
+        "todas": 86,
+        "published": 40
       },
       "1": {
-        "todas": 54,
-        "published": 23
+        "todas": 70,
+        "published": 30
       },
       "2": {
-        "todas": 41,
-        "published": 23
+        "todas": 53,
+        "published": 31
       },
       "3": {
-        "todas": 18,
-        "published": 12
+        "todas": 26,
+        "published": 17
       },
       "4": {
-        "todas": 8,
-        "published": 5
+        "todas": 12,
+        "published": 6
       },
       "5": {
-        "todas": 8,
-        "published": 4
+        "todas": 10,
+        "published": 6
       },
       "6": {
-        "todas": 10,
-        "published": 3
+        "todas": 11,
+        "published": 4
       },
       "7": {
-        "todas": 16,
+        "todas": 19,
         "published": 7
       },
       "8": {
-        "todas": 30,
-        "published": 15
+        "todas": 40,
+        "published": 16
       },
       "9": {
-        "todas": 49,
-        "published": 17
+        "todas": 61,
+        "published": 23
       },
       "10": {
-        "todas": 57,
-        "published": 22
+        "todas": 68,
+        "published": 28
       },
       "11": {
-        "todas": 53,
-        "published": 20
+        "todas": 77,
+        "published": 32
       },
       "12": {
-        "todas": 81,
-        "published": 43
+        "todas": 122,
+        "published": 56
       },
       "13": {
-        "todas": 60,
-        "published": 30
-      },
-      "14": {
-        "todas": 53,
-        "published": 23
-      },
-      "15": {
-        "todas": 43,
-        "published": 19
-      },
-      "16": {
-        "todas": 68,
-        "published": 27
-      },
-      "17": {
-        "todas": 74,
-        "published": 23
-      },
-      "18": {
-        "todas": 47,
-        "published": 25
-      },
-      "19": {
-        "todas": 60,
-        "published": 29
-      },
-      "20": {
-        "todas": 59,
-        "published": 34
-      },
-      "21": {
-        "todas": 70,
+        "todas": 76,
         "published": 39
       },
+      "14": {
+        "todas": 74,
+        "published": 35
+      },
+      "15": {
+        "todas": 66,
+        "published": 24
+      },
+      "16": {
+        "todas": 99,
+        "published": 39
+      },
+      "17": {
+        "todas": 91,
+        "published": 33
+      },
+      "18": {
+        "todas": 70,
+        "published": 37
+      },
+      "19": {
+        "todas": 77,
+        "published": 37
+      },
+      "20": {
+        "todas": 75,
+        "published": 41
+      },
+      "21": {
+        "todas": 92,
+        "published": 49
+      },
       "22": {
-        "todas": 52,
-        "published": 26
+        "todas": 66,
+        "published": 35
       },
       "23": {
-        "todas": 57,
-        "published": 23
+        "todas": 77,
+        "published": 35
       }
     },
     "2006.01": {
       "0": {
         "todas": 140,
-        "published": 53
+        "published": 45
       },
       "1": {
-        "todas": 85,
-        "published": 25
+        "todas": 86,
+        "published": 23
       },
       "2": {
-        "todas": 76,
-        "published": 34
+        "todas": 80,
+        "published": 29
       },
       "3": {
-        "todas": 41,
-        "published": 19
+        "todas": 40,
+        "published": 17
       },
       "4": {
-        "todas": 27,
+        "todas": 30,
         "published": 11
       },
       "5": {
-        "todas": 28,
-        "published": 12
+        "todas": 30,
+        "published": 11
       },
       "6": {
-        "todas": 13,
+        "todas": 20,
         "published": 3
       },
       "7": {
-        "todas": 23,
-        "published": 3
+        "todas": 32,
+        "published": 6
       },
       "8": {
-        "todas": 54,
-        "published": 13
+        "todas": 57,
+        "published": 15
       },
       "9": {
-        "todas": 82,
-        "published": 27
+        "todas": 93,
+        "published": 23
       },
       "10": {
-        "todas": 81,
-        "published": 34
+        "todas": 101,
+        "published": 31
       },
       "11": {
-        "todas": 109,
-        "published": 45
+        "todas": 111,
+        "published": 41
       },
       "12": {
-        "todas": 166,
-        "published": 60
+        "todas": 150,
+        "published": 57
       },
       "13": {
-        "todas": 138,
-        "published": 52
+        "todas": 152,
+        "published": 60
       },
       "14": {
-        "todas": 103,
-        "published": 55
-      },
-      "15": {
-        "todas": 120,
-        "published": 43
-      },
-      "16": {
-        "todas": 142,
-        "published": 45
-      },
-      "17": {
-        "todas": 106,
-        "published": 50
-      },
-      "18": {
-        "todas": 114,
-        "published": 48
-      },
-      "19": {
-        "todas": 117,
-        "published": 44
-      },
-      "20": {
-        "todas": 144,
+        "todas": 101,
         "published": 53
       },
+      "15": {
+        "todas": 116,
+        "published": 44
+      },
+      "16": {
+        "todas": 143,
+        "published": 44
+      },
+      "17": {
+        "todas": 107,
+        "published": 46
+      },
+      "18": {
+        "todas": 119,
+        "published": 46
+      },
+      "19": {
+        "todas": 131,
+        "published": 47
+      },
+      "20": {
+        "todas": 152,
+        "published": 54
+      },
       "21": {
-        "todas": 117,
-        "published": 50
+        "todas": 127,
+        "published": 46
       },
       "22": {
-        "todas": 113,
-        "published": 40
+        "todas": 133,
+        "published": 45
       },
       "23": {
-        "todas": 134,
-        "published": 39
+        "todas": 142,
+        "published": 32
       }
     },
     "2006.02": {
       "0": {
-        "todas": 129,
-        "published": 40
+        "todas": 147,
+        "published": 46
       },
       "1": {
-        "todas": 86,
-        "published": 30
+        "todas": 99,
+        "published": 31
       },
       "2": {
-        "todas": 66,
-        "published": 11
+        "todas": 73,
+        "published": 12
       },
       "3": {
-        "todas": 27,
+        "todas": 33,
         "published": 11
       },
       "4": {
         "todas": 21,
-        "published": 5
+        "published": 4
       },
       "5": {
         "todas": 17,
         "published": 2
       },
       "6": {
-        "todas": 37,
-        "published": 7
+        "todas": 32,
+        "published": 6
+      },
+      "7": {
+        "todas": 25,
+        "published": 5
+      },
+      "8": {
+        "todas": 75,
+        "published": 16
+      },
+      "9": {
+        "todas": 95,
+        "published": 26
+      },
+      "10": {
+        "todas": 122,
+        "published": 34
+      },
+      "11": {
+        "todas": 117,
+        "published": 30
+      },
+      "12": {
+        "todas": 163,
+        "published": 54
+      },
+      "13": {
+        "todas": 157,
+        "published": 54
+      },
+      "14": {
+        "todas": 108,
+        "published": 30
+      },
+      "15": {
+        "todas": 131,
+        "published": 39
+      },
+      "16": {
+        "todas": 133,
+        "published": 39
+      },
+      "17": {
+        "todas": 134,
+        "published": 43
+      },
+      "18": {
+        "todas": 144,
+        "published": 34
+      },
+      "19": {
+        "todas": 128,
+        "published": 44
+      },
+      "20": {
+        "todas": 144,
+        "published": 33
+      },
+      "21": {
+        "todas": 104,
+        "published": 26
+      },
+      "22": {
+        "todas": 124,
+        "published": 32
+      },
+      "23": {
+        "todas": 171,
+        "published": 41
+      }
+    },
+    "2006.03": {
+      "0": {
+        "todas": 192,
+        "published": 42
+      },
+      "1": {
+        "todas": 105,
+        "published": 18
+      },
+      "2": {
+        "todas": 79,
+        "published": 14
+      },
+      "3": {
+        "todas": 66,
+        "published": 10
+      },
+      "4": {
+        "todas": 26,
+        "published": 3
+      },
+      "5": {
+        "todas": 27,
+        "published": 3
+      },
+      "6": {
+        "todas": 32,
+        "published": 8
       },
       "7": {
         "todas": 32,
         "published": 7
       },
       "8": {
-        "todas": 65,
-        "published": 18
+        "todas": 64,
+        "published": 12
       },
       "9": {
-        "todas": 95,
-        "published": 21
-      },
-      "10": {
-        "todas": 121,
-        "published": 29
-      },
-      "11": {
-        "todas": 105,
-        "published": 35
-      },
-      "12": {
-        "todas": 141,
-        "published": 47
-      },
-      "13": {
-        "todas": 149,
-        "published": 60
-      },
-      "14": {
-        "todas": 94,
-        "published": 32
-      },
-      "15": {
-        "todas": 104,
-        "published": 34
-      },
-      "16": {
-        "todas": 128,
-        "published": 39
-      },
-      "17": {
-        "todas": 113,
-        "published": 36
-      },
-      "18": {
-        "todas": 131,
-        "published": 38
-      },
-      "19": {
-        "todas": 121,
-        "published": 46
-      },
-      "20": {
-        "todas": 123,
-        "published": 33
-      },
-      "21": {
-        "todas": 108,
-        "published": 25
-      },
-      "22": {
-        "todas": 120,
-        "published": 40
-      },
-      "23": {
-        "todas": 163,
-        "published": 37
-      }
-    },
-    "2006.03": {
-      "0": {
-        "todas": 182,
-        "published": 45
-      },
-      "1": {
-        "todas": 99,
-        "published": 19
-      },
-      "2": {
-        "todas": 79,
-        "published": 16
-      },
-      "3": {
-        "todas": 60,
-        "published": 10
-      },
-      "4": {
-        "todas": 24,
-        "published": 3
-      },
-      "5": {
-        "todas": 21,
-        "published": 3
-      },
-      "6": {
-        "todas": 25,
-        "published": 7
-      },
-      "7": {
-        "todas": 28,
-        "published": 7
-      },
-      "8": {
-        "todas": 73,
-        "published": 13
-      },
-      "9": {
-        "todas": 120,
-        "published": 29
+        "todas": 127,
+        "published": 28
       },
       "10": {
         "todas": 156,
-        "published": 28
+        "published": 26
       },
       "11": {
-        "todas": 154,
-        "published": 33
-      },
-      "12": {
-        "todas": 196,
-        "published": 56
-      },
-      "13": {
-        "todas": 182,
-        "published": 51
-      },
-      "14": {
-        "todas": 164,
+        "todas": 153,
         "published": 39
       },
-      "15": {
-        "todas": 180,
+      "12": {
+        "todas": 198,
+        "published": 54
+      },
+      "13": {
+        "todas": 184,
+        "published": 53
+      },
+      "14": {
+        "todas": 174,
         "published": 43
       },
+      "15": {
+        "todas": 173,
+        "published": 38
+      },
       "16": {
-        "todas": 178,
-        "published": 34
+        "todas": 191,
+        "published": 31
       },
       "17": {
-        "todas": 191,
-        "published": 47
+        "todas": 193,
+        "published": 43
       },
       "18": {
-        "todas": 177,
-        "published": 36
+        "todas": 190,
+        "published": 40
       },
       "19": {
-        "todas": 177,
-        "published": 41
+        "todas": 190,
+        "published": 40
       },
       "20": {
-        "todas": 186,
-        "published": 42
+        "todas": 190,
+        "published": 44
       },
       "21": {
-        "todas": 152,
-        "published": 37
+        "todas": 161,
+        "published": 40
       },
       "22": {
-        "todas": 154,
-        "published": 28
+        "todas": 151,
+        "published": 29
       },
       "23": {
-        "todas": 146,
-        "published": 37
+        "todas": 161,
+        "published": 34
       }
     },
     "2006.04": {
       "0": {
-        "todas": 182,
+        "todas": 180,
         "published": 44
       },
       "1": {
-        "todas": 134,
+        "todas": 124,
         "published": 33
       },
       "2": {
-        "todas": 91,
-        "published": 14
+        "todas": 95,
+        "published": 15
       },
       "3": {
-        "todas": 68,
-        "published": 12
+        "todas": 66,
+        "published": 13
       },
       "4": {
-        "todas": 39,
-        "published": 8
+        "todas": 46,
+        "published": 10
       },
       "5": {
+        "todas": 42,
+        "published": 12
+      },
+      "6": {
+        "todas": 33,
+        "published": 9
+      },
+      "7": {
         "todas": 41,
         "published": 10
       },
-      "6": {
-        "todas": 40,
-        "published": 10
-      },
-      "7": {
-        "todas": 44,
-        "published": 8
-      },
       "8": {
         "todas": 62,
-        "published": 13
+        "published": 15
       },
       "9": {
-        "todas": 89,
-        "published": 22
+        "todas": 92,
+        "published": 21
       },
       "10": {
-        "todas": 144,
-        "published": 35
+        "todas": 166,
+        "published": 39
       },
       "11": {
-        "todas": 183,
-        "published": 40
+        "todas": 200,
+        "published": 47
       },
       "12": {
-        "todas": 220,
-        "published": 57
+        "todas": 226,
+        "published": 53
       },
       "13": {
-        "todas": 208,
-        "published": 56
+        "todas": 222,
+        "published": 59
       },
       "14": {
-        "todas": 153,
-        "published": 34
+        "todas": 146,
+        "published": 28
       },
       "15": {
         "todas": 171,
-        "published": 49
+        "published": 53
       },
       "16": {
-        "todas": 219,
-        "published": 42
-      },
-      "17": {
-        "todas": 214,
-        "published": 42
-      },
-      "18": {
-        "todas": 214,
+        "todas": 215,
         "published": 45
       },
+      "17": {
+        "todas": 218,
+        "published": 41
+      },
+      "18": {
+        "todas": 206,
+        "published": 49
+      },
       "19": {
-        "todas": 179,
-        "published": 32
+        "todas": 183,
+        "published": 37
       },
       "20": {
-        "todas": 194,
-        "published": 51
+        "todas": 185,
+        "published": 52
       },
       "21": {
-        "todas": 180,
+        "todas": 190,
         "published": 49
       },
       "22": {
-        "todas": 186,
-        "published": 51
+        "todas": 205,
+        "published": 55
       },
       "23": {
-        "todas": 195,
-        "published": 38
+        "todas": 191,
+        "published": 46
       }
     },
     "2006.05": {
       "0": {
-        "todas": 225,
+        "todas": 209,
         "published": 48
       },
       "1": {
-        "todas": 125,
+        "todas": 117,
         "published": 28
       },
       "2": {
-        "todas": 90,
+        "todas": 88,
         "published": 21
       },
       "3": {
-        "todas": 72,
-        "published": 19
+        "todas": 70,
+        "published": 17
       },
       "4": {
-        "todas": 65,
-        "published": 13
+        "todas": 60,
+        "published": 14
       },
       "5": {
-        "todas": 44,
-        "published": 10
+        "todas": 40,
+        "published": 9
       },
       "6": {
-        "todas": 35,
-        "published": 3
+        "todas": 47,
+        "published": 6
       },
       "7": {
-        "todas": 46,
-        "published": 12
+        "todas": 54,
+        "published": 10
       },
       "8": {
-        "todas": 109,
-        "published": 30
+        "todas": 122,
+        "published": 35
       },
       "9": {
-        "todas": 145,
-        "published": 31
+        "todas": 147,
+        "published": 30
       },
       "10": {
-        "todas": 192,
-        "published": 46
+        "todas": 195,
+        "published": 49
       },
       "11": {
-        "todas": 234,
+        "todas": 229,
         "published": 61
       },
       "12": {
-        "todas": 218,
-        "published": 49
+        "todas": 211,
+        "published": 51
       },
       "13": {
-        "todas": 243,
-        "published": 69
+        "todas": 249,
+        "published": 72
       },
       "14": {
-        "todas": 178,
-        "published": 40
+        "todas": 184,
+        "published": 41
       },
       "15": {
-        "todas": 181,
-        "published": 59
+        "todas": 187,
+        "published": 62
       },
       "16": {
-        "todas": 188,
+        "todas": 202,
         "published": 41
       },
       "17": {
-        "todas": 213,
-        "published": 42
+        "todas": 224,
+        "published": 44
       },
       "18": {
-        "todas": 209,
-        "published": 54
+        "todas": 214,
+        "published": 53
       },
       "19": {
-        "todas": 226,
-        "published": 57
+        "todas": 214,
+        "published": 50
       },
       "20": {
-        "todas": 193,
-        "published": 46
+        "todas": 203,
+        "published": 49
       },
       "21": {
-        "todas": 193,
-        "published": 42
+        "todas": 181,
+        "published": 41
       },
       "22": {
-        "todas": 202,
+        "todas": 190,
         "published": 47
       },
       "23": {
-        "todas": 223,
-        "published": 55
+        "todas": 222,
+        "published": 59
       }
     },
     "2006.06": {
       "0": {
-        "todas": 212,
-        "published": 34
+        "todas": 220,
+        "published": 32
       },
       "1": {
-        "todas": 153,
-        "published": 21
+        "todas": 171,
+        "published": 25
       },
       "2": {
-        "todas": 146,
-        "published": 19
+        "todas": 154,
+        "published": 20
       },
       "3": {
-        "todas": 87,
-        "published": 12
+        "todas": 85,
+        "published": 11
       },
       "4": {
-        "todas": 64,
-        "published": 12
+        "todas": 70,
+        "published": 10
       },
       "5": {
-        "todas": 40,
-        "published": 8
+        "todas": 45,
+        "published": 9
       },
       "6": {
-        "todas": 62,
-        "published": 12
+        "todas": 53,
+        "published": 10
       },
       "7": {
-        "todas": 64,
-        "published": 15
+        "todas": 60,
+        "published": 16
       },
       "8": {
-        "todas": 107,
-        "published": 23
+        "todas": 108,
+        "published": 22
       },
       "9": {
-        "todas": 169,
-        "published": 31
+        "todas": 170,
+        "published": 33
       },
       "10": {
-        "todas": 200,
-        "published": 43
+        "todas": 189,
+        "published": 39
       },
       "11": {
-        "todas": 250,
-        "published": 61
+        "todas": 252,
+        "published": 55
       },
       "12": {
-        "todas": 252,
-        "published": 48
+        "todas": 254,
+        "published": 47
       },
       "13": {
-        "todas": 256,
-        "published": 68
+        "todas": 254,
+        "published": 61
       },
       "14": {
-        "todas": 229,
-        "published": 52
+        "todas": 242,
+        "published": 59
       },
       "15": {
-        "todas": 202,
-        "published": 52
+        "todas": 203,
+        "published": 47
       },
       "16": {
-        "todas": 239,
-        "published": 51
+        "todas": 226,
+        "published": 46
       },
       "17": {
-        "todas": 199,
+        "todas": 189,
         "published": 43
       },
       "18": {
-        "todas": 208,
-        "published": 47
+        "todas": 202,
+        "published": 41
       },
       "19": {
-        "todas": 177,
-        "published": 31
+        "todas": 165,
+        "published": 29
       },
       "20": {
-        "todas": 195,
-        "published": 48
+        "todas": 186,
+        "published": 42
       },
       "21": {
-        "todas": 181,
-        "published": 45
+        "todas": 191,
+        "published": 49
       },
       "22": {
-        "todas": 176,
-        "published": 45
+        "todas": 161,
+        "published": 40
       },
       "23": {
-        "todas": 216,
-        "published": 48
+        "todas": 219,
+        "published": 39
       }
     },
     "2006.07": {
       "0": {
-        "todas": 206,
-        "published": 31
+        "todas": 202,
+        "published": 34
       },
       "1": {
-        "todas": 152,
+        "todas": 146,
         "published": 32
       },
       "2": {
-        "todas": 123,
-        "published": 19
+        "todas": 128,
+        "published": 24
       },
       "3": {
-        "todas": 69,
-        "published": 12
+        "todas": 71,
+        "published": 14
       },
       "4": {
-        "todas": 63,
-        "published": 4
+        "todas": 58,
+        "published": 3
       },
       "5": {
-        "todas": 58,
-        "published": 11
+        "todas": 57,
+        "published": 9
       },
       "6": {
-        "todas": 35,
+        "todas": 43,
         "published": 5
       },
       "7": {
-        "todas": 50,
+        "todas": 51,
         "published": 9
       },
       "8": {
         "todas": 124,
-        "published": 18
+        "published": 21
       },
       "9": {
-        "todas": 162,
+        "todas": 152,
         "published": 35
       },
       "10": {
-        "todas": 202,
-        "published": 49
+        "todas": 218,
+        "published": 56
       },
       "11": {
-        "todas": 231,
-        "published": 63
+        "todas": 247,
+        "published": 68
       },
       "12": {
-        "todas": 241,
-        "published": 59
+        "todas": 262,
+        "published": 68
       },
       "13": {
-        "todas": 244,
-        "published": 63
+        "todas": 254,
+        "published": 70
       },
       "14": {
-        "todas": 250,
-        "published": 65
+        "todas": 240,
+        "published": 60
       },
       "15": {
-        "todas": 196,
-        "published": 44
+        "todas": 210,
+        "published": 50
       },
       "16": {
-        "todas": 175,
-        "published": 32
-      },
-      "17": {
-        "todas": 217,
+        "todas": 199,
         "published": 46
       },
+      "17": {
+        "todas": 252,
+        "published": 54
+      },
       "18": {
-        "todas": 196,
-        "published": 42
+        "todas": 203,
+        "published": 50
       },
       "19": {
-        "todas": 165,
-        "published": 31
+        "todas": 190,
+        "published": 37
       },
       "20": {
         "todas": 184,
         "published": 38
       },
       "21": {
-        "todas": 195,
-        "published": 51
+        "todas": 198,
+        "published": 53
       },
       "22": {
-        "todas": 160,
-        "published": 29
+        "todas": 183,
+        "published": 31
       },
       "23": {
-        "todas": 227,
-        "published": 51
+        "todas": 229,
+        "published": 54
       }
     },
     "2006.08": {
       "0": {
-        "todas": 195,
-        "published": 42
+        "todas": 200,
+        "published": 39
       },
       "1": {
-        "todas": 165,
+        "todas": 179,
         "published": 34
       },
       "2": {
         "todas": 126,
-        "published": 19
+        "published": 18
       },
       "3": {
-        "todas": 87,
-        "published": 19
+        "todas": 96,
+        "published": 22
       },
       "4": {
-        "todas": 69,
-        "published": 10
+        "todas": 73,
+        "published": 14
       },
       "5": {
         "todas": 48,
-        "published": 11
+        "published": 12
       },
       "6": {
-        "todas": 39,
-        "published": 5
+        "todas": 34,
+        "published": 4
       },
       "7": {
-        "todas": 61,
-        "published": 7
+        "todas": 67,
+        "published": 8
       },
       "8": {
-        "todas": 145,
-        "published": 28
+        "todas": 163,
+        "published": 22
       },
       "9": {
-        "todas": 217,
-        "published": 43
+        "todas": 256,
+        "published": 52
       },
       "10": {
-        "todas": 250,
-        "published": 46
+        "todas": 258,
+        "published": 45
       },
       "11": {
-        "todas": 271,
-        "published": 57
+        "todas": 270,
+        "published": 59
       },
       "12": {
-        "todas": 312,
-        "published": 70
+        "todas": 322,
+        "published": 63
       },
       "13": {
-        "todas": 290,
-        "published": 75
+        "todas": 292,
+        "published": 73
       },
       "14": {
-        "todas": 233,
-        "published": 45
-      },
-      "15": {
-        "todas": 249,
+        "todas": 241,
         "published": 49
       },
+      "15": {
+        "todas": 242,
+        "published": 47
+      },
       "16": {
-        "todas": 262,
-        "published": 64
+        "todas": 270,
+        "published": 58
       },
       "17": {
-        "todas": 302,
-        "published": 61
+        "todas": 285,
+        "published": 53
       },
       "18": {
-        "todas": 235,
-        "published": 45
+        "todas": 256,
+        "published": 43
       },
       "19": {
-        "todas": 243,
-        "published": 41
+        "todas": 240,
+        "published": 39
       },
       "20": {
-        "todas": 212,
-        "published": 36
+        "todas": 229,
+        "published": 42
       },
       "21": {
-        "todas": 238,
-        "published": 44
+        "todas": 265,
+        "published": 39
       },
       "22": {
-        "todas": 213,
-        "published": 37
+        "todas": 227,
+        "published": 40
       },
       "23": {
-        "todas": 219,
-        "published": 50
+        "todas": 224,
+        "published": 48
       }
     },
     "2006.09": {
       "0": {
-        "todas": 275,
-        "published": 39
+        "todas": 301,
+        "published": 42
       },
       "1": {
-        "todas": 181,
-        "published": 33
+        "todas": 191,
+        "published": 32
       },
       "2": {
-        "todas": 164,
-        "published": 22
+        "todas": 173,
+        "published": 17
       },
       "3": {
-        "todas": 105,
-        "published": 14
+        "todas": 101,
+        "published": 11
       },
       "4": {
-        "todas": 69,
+        "todas": 76,
         "published": 8
       },
       "5": {
-        "todas": 59,
+        "todas": 65,
         "published": 12
       },
       "6": {
-        "todas": 49,
-        "published": 6
+        "todas": 67,
+        "published": 8
       },
       "7": {
-        "todas": 68,
-        "published": 9
+        "todas": 66,
+        "published": 6
       },
       "8": {
-        "todas": 190,
-        "published": 21
+        "todas": 185,
+        "published": 24
       },
       "9": {
-        "todas": 262,
-        "published": 52
+        "todas": 266,
+        "published": 45
       },
       "10": {
-        "todas": 289,
-        "published": 43
+        "todas": 285,
+        "published": 37
       },
       "11": {
-        "todas": 316,
-        "published": 62
+        "todas": 320,
+        "published": 60
       },
       "12": {
-        "todas": 330,
-        "published": 62
+        "todas": 331,
+        "published": 63
       },
       "13": {
-        "todas": 357,
-        "published": 68
+        "todas": 363,
+        "published": 58
       },
       "14": {
-        "todas": 297,
-        "published": 56
+        "todas": 332,
+        "published": 57
       },
       "15": {
-        "todas": 293,
-        "published": 48
+        "todas": 317,
+        "published": 44
       },
       "16": {
-        "todas": 364,
+        "todas": 372,
         "published": 55
       },
       "17": {
-        "todas": 332,
-        "published": 53
+        "todas": 329,
+        "published": 51
       },
       "18": {
-        "todas": 329,
-        "published": 47
+        "todas": 342,
+        "published": 44
       },
       "19": {
-        "todas": 284,
-        "published": 45
-      },
-      "20": {
-        "todas": 283,
-        "published": 56
-      },
-      "21": {
-        "todas": 321,
+        "todas": 307,
         "published": 48
       },
+      "20": {
+        "todas": 287,
+        "published": 58
+      },
+      "21": {
+        "todas": 306,
+        "published": 47
+      },
       "22": {
-        "todas": 262,
-        "published": 44
+        "todas": 263,
+        "published": 50
       },
       "23": {
-        "todas": 281,
-        "published": 44
+        "todas": 276,
+        "published": 40
       }
     },
     "2006.1": {
       "0": {
-        "todas": 386,
-        "published": 47
+        "todas": 402,
+        "published": 49
       },
       "1": {
-        "todas": 278,
-        "published": 34
+        "todas": 272,
+        "published": 32
       },
       "2": {
         "todas": 184,
-        "published": 19
+        "published": 21
       },
       "3": {
-        "todas": 122,
-        "published": 19
+        "todas": 141,
+        "published": 20
       },
       "4": {
-        "todas": 88,
-        "published": 12
+        "todas": 105,
+        "published": 10
       },
       "5": {
-        "todas": 88,
-        "published": 7
-      },
-      "6": {
-        "todas": 87,
-        "published": 5
-      },
-      "7": {
-        "todas": 97,
-        "published": 16
-      },
-      "8": {
-        "todas": 166,
-        "published": 25
-      },
-      "9": {
-        "todas": 327,
-        "published": 46
-      },
-      "10": {
-        "todas": 330,
-        "published": 43
-      },
-      "11": {
-        "todas": 362,
-        "published": 67
-      },
-      "12": {
-        "todas": 424,
-        "published": 72
-      },
-      "13": {
-        "todas": 406,
-        "published": 65
-      },
-      "14": {
-        "todas": 432,
-        "published": 71
-      },
-      "15": {
-        "todas": 397,
-        "published": 62
-      },
-      "16": {
-        "todas": 402,
-        "published": 81
-      },
-      "17": {
-        "todas": 401,
-        "published": 74
-      },
-      "18": {
-        "todas": 364,
-        "published": 55
-      },
-      "19": {
-        "todas": 363,
-        "published": 51
-      },
-      "20": {
-        "todas": 391,
-        "published": 66
-      },
-      "21": {
-        "todas": 384,
-        "published": 72
-      },
-      "22": {
-        "todas": 362,
-        "published": 63
-      },
-      "23": {
-        "todas": 349,
-        "published": 51
-      }
-    },
-    "2006.11": {
-      "0": {
-        "todas": 356,
-        "published": 42
-      },
-      "1": {
-        "todas": 261,
-        "published": 29
-      },
-      "2": {
-        "todas": 186,
-        "published": 13
-      },
-      "3": {
-        "todas": 159,
-        "published": 15
-      },
-      "4": {
-        "todas": 127,
-        "published": 5
-      },
-      "5": {
-        "todas": 97,
+        "todas": 101,
         "published": 8
       },
       "6": {
         "todas": 73,
-        "published": 11
+        "published": 6
       },
       "7": {
-        "todas": 127,
-        "published": 15
+        "todas": 105,
+        "published": 21
       },
       "8": {
-        "todas": 249,
-        "published": 27
+        "todas": 177,
+        "published": 26
       },
       "9": {
-        "todas": 407,
-        "published": 59
-      },
-      "10": {
-        "todas": 454,
-        "published": 57
-      },
-      "11": {
-        "todas": 437,
+        "todas": 361,
         "published": 55
       },
+      "10": {
+        "todas": 374,
+        "published": 45
+      },
+      "11": {
+        "todas": 380,
+        "published": 61
+      },
       "12": {
-        "todas": 563,
-        "published": 68
+        "todas": 459,
+        "published": 73
       },
       "13": {
-        "todas": 570,
+        "todas": 453,
         "published": 76
       },
       "14": {
-        "todas": 509,
-        "published": 72
+        "todas": 462,
+        "published": 77
       },
       "15": {
-        "todas": 514,
-        "published": 63
+        "todas": 427,
+        "published": 69
       },
       "16": {
-        "todas": 574,
-        "published": 70
+        "todas": 443,
+        "published": 86
       },
       "17": {
-        "todas": 476,
-        "published": 59
+        "todas": 441,
+        "published": 82
       },
       "18": {
-        "todas": 519,
-        "published": 62
+        "todas": 384,
+        "published": 59
       },
       "19": {
-        "todas": 522,
-        "published": 71
-      },
-      "20": {
-        "todas": 494,
-        "published": 60
-      },
-      "21": {
-        "todas": 445,
+        "todas": 388,
         "published": 58
       },
+      "20": {
+        "todas": 446,
+        "published": 68
+      },
+      "21": {
+        "todas": 425,
+        "published": 80
+      },
       "22": {
-        "todas": 437,
-        "published": 61
+        "todas": 392,
+        "published": 60
       },
       "23": {
-        "todas": 415,
-        "published": 48
+        "todas": 391,
+        "published": 59
       }
     },
-    "2006.12": {
+    "2006.11": {
       "0": {
-        "todas": 446,
+        "todas": 358,
         "published": 36
       },
       "1": {
-        "todas": 314,
+        "todas": 271,
         "published": 25
       },
       "2": {
-        "todas": 233,
-        "published": 14
+        "todas": 204,
+        "published": 10
       },
       "3": {
-        "todas": 191,
-        "published": 6
+        "todas": 175,
+        "published": 13
       },
       "4": {
-        "todas": 121,
-        "published": 4
+        "todas": 118,
+        "published": 5
       },
       "5": {
-        "todas": 115,
-        "published": 15
+        "todas": 97,
+        "published": 9
       },
       "6": {
-        "todas": 94,
-        "published": 4
+        "todas": 87,
+        "published": 10
       },
       "7": {
-        "todas": 137,
+        "todas": 134,
         "published": 11
       },
       "8": {
         "todas": 259,
-        "published": 19
+        "published": 24
       },
       "9": {
-        "todas": 463,
-        "published": 42
+        "todas": 405,
+        "published": 53
       },
       "10": {
-        "todas": 457,
-        "published": 54
+        "todas": 450,
+        "published": 60
       },
       "11": {
-        "todas": 574,
-        "published": 59
+        "todas": 489,
+        "published": 60
       },
       "12": {
-        "todas": 601,
-        "published": 86
-      },
-      "13": {
-        "todas": 621,
-        "published": 70
-      },
-      "14": {
-        "todas": 564,
-        "published": 65
-      },
-      "15": {
-        "todas": 533,
-        "published": 55
-      },
-      "16": {
-        "todas": 633,
-        "published": 70
-      },
-      "17": {
-        "todas": 571,
-        "published": 70
-      },
-      "18": {
-        "todas": 559,
-        "published": 56
-      },
-      "19": {
-        "todas": 575,
+        "todas": 581,
         "published": 69
       },
+      "13": {
+        "todas": 594,
+        "published": 76
+      },
+      "14": {
+        "todas": 537,
+        "published": 64
+      },
+      "15": {
+        "todas": 531,
+        "published": 58
+      },
+      "16": {
+        "todas": 590,
+        "published": 72
+      },
+      "17": {
+        "todas": 500,
+        "published": 58
+      },
+      "18": {
+        "todas": 530,
+        "published": 58
+      },
+      "19": {
+        "todas": 542,
+        "published": 63
+      },
       "20": {
-        "todas": 559,
-        "published": 74
+        "todas": 493,
+        "published": 57
       },
       "21": {
-        "todas": 511,
-        "published": 74
+        "todas": 471,
+        "published": 59
       },
       "22": {
-        "todas": 430,
-        "published": 62
+        "todas": 440,
+        "published": 59
       },
       "23": {
-        "todas": 451,
-        "published": 50
+        "todas": 419,
+        "published": 44
+      }
+    },
+    "2006.12": {
+      "0": {
+        "todas": 441,
+        "published": 38
+      },
+      "1": {
+        "todas": 317,
+        "published": 31
+      },
+      "2": {
+        "todas": 226,
+        "published": 16
+      },
+      "3": {
+        "todas": 187,
+        "published": 8
+      },
+      "4": {
+        "todas": 127,
+        "published": 6
+      },
+      "5": {
+        "todas": 111,
+        "published": 14
+      },
+      "6": {
+        "todas": 86,
+        "published": 3
+      },
+      "7": {
+        "todas": 131,
+        "published": 11
+      },
+      "8": {
+        "todas": 245,
+        "published": 20
+      },
+      "9": {
+        "todas": 443,
+        "published": 43
+      },
+      "10": {
+        "todas": 437,
+        "published": 51
+      },
+      "11": {
+        "todas": 547,
+        "published": 58
+      },
+      "12": {
+        "todas": 586,
+        "published": 83
+      },
+      "13": {
+        "todas": 599,
+        "published": 69
+      },
+      "14": {
+        "todas": 544,
+        "published": 71
+      },
+      "15": {
+        "todas": 512,
+        "published": 57
+      },
+      "16": {
+        "todas": 600,
+        "published": 63
+      },
+      "17": {
+        "todas": 558,
+        "published": 67
+      },
+      "18": {
+        "todas": 517,
+        "published": 60
+      },
+      "19": {
+        "todas": 562,
+        "published": 72
+      },
+      "20": {
+        "todas": 560,
+        "published": 70
+      },
+      "21": {
+        "todas": 480,
+        "published": 65
+      },
+      "22": {
+        "todas": 414,
+        "published": 58
+      },
+      "23": {
+        "todas": 437,
+        "published": 47
       }
     },
     "2007.01": {
       "0": {
-        "todas": 438,
-        "published": 40
+        "todas": 467,
+        "published": 41
       },
       "1": {
-        "todas": 339,
-        "published": 26
+        "todas": 368,
+        "published": 25
       },
       "2": {
-        "todas": 267,
+        "todas": 275,
         "published": 18
       },
       "3": {
-        "todas": 218,
-        "published": 14
+        "todas": 215,
+        "published": 12
       },
       "4": {
-        "todas": 155,
+        "todas": 162,
         "published": 9
       },
       "5": {
-        "todas": 126,
-        "published": 8
+        "todas": 131,
+        "published": 9
       },
       "6": {
         "todas": 124,
-        "published": 11
+        "published": 13
       },
       "7": {
-        "todas": 163,
-        "published": 15
+        "todas": 173,
+        "published": 18
       },
       "8": {
-        "todas": 348,
-        "published": 44
+        "todas": 392,
+        "published": 50
       },
       "9": {
-        "todas": 518,
-        "published": 67
+        "todas": 578,
+        "published": 74
       },
       "10": {
-        "todas": 618,
-        "published": 78
+        "todas": 702,
+        "published": 86
       },
       "11": {
-        "todas": 689,
-        "published": 98
+        "todas": 746,
+        "published": 109
       },
       "12": {
-        "todas": 727,
-        "published": 102
+        "todas": 801,
+        "published": 124
       },
       "13": {
-        "todas": 791,
-        "published": 105
+        "todas": 904,
+        "published": 116
       },
       "14": {
-        "todas": 675,
-        "published": 85
+        "todas": 729,
+        "published": 94
       },
       "15": {
-        "todas": 639,
-        "published": 78
+        "todas": 711,
+        "published": 84
       },
       "16": {
-        "todas": 748,
-        "published": 84
+        "todas": 833,
+        "published": 99
       },
       "17": {
-        "todas": 766,
-        "published": 67
+        "todas": 836,
+        "published": 75
       },
       "18": {
-        "todas": 696,
-        "published": 85
+        "todas": 799,
+        "published": 93
       },
       "19": {
-        "todas": 707,
-        "published": 76
+        "todas": 781,
+        "published": 89
       },
       "20": {
-        "todas": 674,
-        "published": 84
+        "todas": 730,
+        "published": 95
       },
       "21": {
-        "todas": 560,
-        "published": 71
+        "todas": 619,
+        "published": 86
       },
       "22": {
-        "todas": 535,
-        "published": 63
+        "todas": 571,
+        "published": 70
       },
       "23": {
-        "todas": 577,
-        "published": 69
+        "todas": 644,
+        "published": 78
       }
     },
     "2007.02": {
       "0": {
-        "todas": 474,
-        "published": 41
+        "todas": 470,
+        "published": 37
       },
       "1": {
-        "todas": 365,
-        "published": 19
+        "todas": 348,
+        "published": 16
       },
       "2": {
-        "todas": 260,
+        "todas": 264,
         "published": 13
       },
       "3": {
-        "todas": 185,
-        "published": 10
+        "todas": 183,
+        "published": 9
       },
       "4": {
-        "todas": 161,
-        "published": 9
+        "todas": 158,
+        "published": 8
       },
       "5": {
-        "todas": 139,
-        "published": 9
+        "todas": 134,
+        "published": 6
       },
       "6": {
-        "todas": 128,
-        "published": 9
+        "todas": 140,
+        "published": 10
       },
       "7": {
-        "todas": 147,
+        "todas": 155,
         "published": 11
       },
       "8": {
-        "todas": 416,
-        "published": 51
+        "todas": 424,
+        "published": 50
       },
       "9": {
-        "todas": 622,
+        "todas": 650,
         "published": 70
       },
       "10": {
-        "todas": 653,
-        "published": 79
-      },
-      "11": {
-        "todas": 770,
-        "published": 97
-      },
-      "12": {
-        "todas": 850,
-        "published": 116
-      },
-      "13": {
-        "todas": 914,
-        "published": 107
-      },
-      "14": {
-        "todas": 683,
-        "published": 91
-      },
-      "15": {
-        "todas": 730,
-        "published": 72
-      },
-      "16": {
-        "todas": 811,
-        "published": 104
-      },
-      "17": {
-        "todas": 735,
-        "published": 97
-      },
-      "18": {
-        "todas": 762,
+        "todas": 649,
         "published": 76
       },
+      "11": {
+        "todas": 765,
+        "published": 95
+      },
+      "12": {
+        "todas": 864,
+        "published": 99
+      },
+      "13": {
+        "todas": 870,
+        "published": 103
+      },
+      "14": {
+        "todas": 669,
+        "published": 86
+      },
+      "15": {
+        "todas": 729,
+        "published": 71
+      },
+      "16": {
+        "todas": 824,
+        "published": 91
+      },
+      "17": {
+        "todas": 754,
+        "published": 89
+      },
+      "18": {
+        "todas": 772,
+        "published": 70
+      },
       "19": {
-        "todas": 775,
-        "published": 88
+        "todas": 808,
+        "published": 85
       },
       "20": {
-        "todas": 691,
+        "todas": 695,
         "published": 78
       },
       "21": {
-        "todas": 670,
-        "published": 97
+        "todas": 659,
+        "published": 92
       },
       "22": {
-        "todas": 550,
-        "published": 64
+        "todas": 571,
+        "published": 68
       },
       "23": {
-        "todas": 563,
-        "published": 61
+        "todas": 552,
+        "published": 60
       }
     },
     "2007.03": {
       "0": {
-        "todas": 511,
-        "published": 51
+        "todas": 519,
+        "published": 53
       },
       "1": {
-        "todas": 342,
-        "published": 30
+        "todas": 363,
+        "published": 36
       },
       "2": {
-        "todas": 257,
+        "todas": 238,
         "published": 17
       },
       "3": {
-        "todas": 176,
-        "published": 9
+        "todas": 172,
+        "published": 11
       },
       "4": {
-        "todas": 146,
-        "published": 8
+        "todas": 147,
+        "published": 7
       },
       "5": {
-        "todas": 119,
-        "published": 5
+        "todas": 121,
+        "published": 7
       },
       "6": {
-        "todas": 133,
-        "published": 14
+        "todas": 139,
+        "published": 13
       },
       "7": {
-        "todas": 170,
-        "published": 22
+        "todas": 156,
+        "published": 21
       },
       "8": {
-        "todas": 504,
-        "published": 42
+        "todas": 500,
+        "published": 41
       },
       "9": {
-        "todas": 684,
-        "published": 80
+        "todas": 653,
+        "published": 77
       },
       "10": {
-        "todas": 772,
-        "published": 91
-      },
-      "11": {
-        "todas": 845,
-        "published": 100
-      },
-      "12": {
-        "todas": 947,
+        "todas": 737,
         "published": 92
       },
+      "11": {
+        "todas": 834,
+        "published": 103
+      },
+      "12": {
+        "todas": 948,
+        "published": 108
+      },
       "13": {
-        "todas": 976,
+        "todas": 938,
         "published": 121
       },
       "14": {
-        "todas": 784,
-        "published": 101
+        "todas": 794,
+        "published": 106
       },
       "15": {
-        "todas": 771,
-        "published": 77
+        "todas": 759,
+        "published": 81
       },
       "16": {
-        "todas": 955,
+        "todas": 930,
         "published": 86
       },
       "17": {
-        "todas": 860,
-        "published": 80
+        "todas": 867,
+        "published": 93
       },
       "18": {
-        "todas": 857,
-        "published": 70
+        "todas": 868,
+        "published": 69
       },
       "19": {
-        "todas": 869,
-        "published": 97
+        "todas": 829,
+        "published": 93
       },
       "20": {
-        "todas": 775,
-        "published": 91
+        "todas": 790,
+        "published": 86
       },
       "21": {
-        "todas": 684,
-        "published": 96
+        "todas": 712,
+        "published": 93
       },
       "22": {
         "todas": 607,
-        "published": 80
+        "published": 77
       },
       "23": {
-        "todas": 583,
-        "published": 71
+        "todas": 575,
+        "published": 74
       }
     },
     "2007.04": {
       "0": {
-        "todas": 526,
-        "published": 50
+        "todas": 539,
+        "published": 53
       },
       "1": {
-        "todas": 359,
-        "published": 42
+        "todas": 356,
+        "published": 37
       },
       "2": {
-        "todas": 236,
-        "published": 23
+        "todas": 257,
+        "published": 19
       },
       "3": {
-        "todas": 185,
+        "todas": 195,
         "published": 17
       },
       "4": {
-        "todas": 189,
-        "published": 13
+        "todas": 205,
+        "published": 15
       },
       "5": {
-        "todas": 138,
-        "published": 14
+        "todas": 132,
+        "published": 13
       },
       "6": {
-        "todas": 103,
-        "published": 9
+        "todas": 95,
+        "published": 8
       },
       "7": {
-        "todas": 125,
-        "published": 10
+        "todas": 150,
+        "published": 8
       },
       "8": {
-        "todas": 364,
-        "published": 43
+        "todas": 367,
+        "published": 40
       },
       "9": {
-        "todas": 578,
-        "published": 61
+        "todas": 594,
+        "published": 62
       },
       "10": {
-        "todas": 614,
-        "published": 77
+        "todas": 677,
+        "published": 76
       },
       "11": {
-        "todas": 695,
-        "published": 105
+        "todas": 765,
+        "published": 101
       },
       "12": {
-        "todas": 773,
-        "published": 114
+        "todas": 777,
+        "published": 102
       },
       "13": {
-        "todas": 794,
-        "published": 115
+        "todas": 862,
+        "published": 118
       },
       "14": {
-        "todas": 669,
-        "published": 91
+        "todas": 676,
+        "published": 88
       },
       "15": {
-        "todas": 737,
-        "published": 100
+        "todas": 742,
+        "published": 95
       },
       "16": {
-        "todas": 767,
-        "published": 80
+        "todas": 784,
+        "published": 85
       },
       "17": {
-        "todas": 798,
-        "published": 73
+        "todas": 817,
+        "published": 65
       },
       "18": {
-        "todas": 896,
+        "todas": 894,
         "published": 91
       },
       "19": {
-        "todas": 736,
-        "published": 72
+        "todas": 750,
+        "published": 65
       },
       "20": {
-        "todas": 768,
-        "published": 77
+        "todas": 763,
+        "published": 78
       },
       "21": {
-        "todas": 718,
-        "published": 83
+        "todas": 714,
+        "published": 79
       },
       "22": {
-        "todas": 559,
-        "published": 59
+        "todas": 551,
+        "published": 56
       },
       "23": {
-        "todas": 574,
-        "published": 77
+        "todas": 591,
+        "published": 76
       }
     },
     "2007.05": {
       "0": {
-        "todas": 691,
-        "published": 45
+        "todas": 711,
+        "published": 46
       },
       "1": {
-        "todas": 461,
-        "published": 23
+        "todas": 473,
+        "published": 24
       },
       "2": {
-        "todas": 316,
-        "published": 16
+        "todas": 319,
+        "published": 18
       },
       "3": {
-        "todas": 267,
-        "published": 8
+        "todas": 261,
+        "published": 7
       },
       "4": {
-        "todas": 241,
-        "published": 11
+        "todas": 230,
+        "published": 7
       },
       "5": {
-        "todas": 172,
-        "published": 6
+        "todas": 193,
+        "published": 5
       },
       "6": {
-        "todas": 171,
-        "published": 11
-      },
-      "7": {
-        "todas": 254,
+        "todas": 187,
         "published": 10
       },
+      "7": {
+        "todas": 260,
+        "published": 14
+      },
       "8": {
-        "todas": 494,
-        "published": 38
+        "todas": 503,
+        "published": 43
       },
       "9": {
-        "todas": 854,
-        "published": 77
+        "todas": 893,
+        "published": 85
       },
       "10": {
-        "todas": 952,
-        "published": 78
+        "todas": 953,
+        "published": 84
       },
       "11": {
-        "todas": 1005,
-        "published": 96
+        "todas": 997,
+        "published": 97
       },
       "12": {
-        "todas": 1087,
+        "todas": 1131,
         "published": 109
       },
       "13": {
-        "todas": 1067,
-        "published": 122
+        "todas": 1101,
+        "published": 124
       },
       "14": {
-        "todas": 871,
-        "published": 104
+        "todas": 882,
+        "published": 97
       },
       "15": {
-        "todas": 902,
-        "published": 79
-      },
-      "16": {
-        "todas": 954,
-        "published": 85
-      },
-      "17": {
-        "todas": 1071,
-        "published": 98
-      },
-      "18": {
-        "todas": 1009,
-        "published": 75
-      },
-      "19": {
-        "todas": 927,
-        "published": 67
-      },
-      "20": {
-        "todas": 941,
-        "published": 96
-      },
-      "21": {
-        "todas": 905,
-        "published": 71
-      },
-      "22": {
-        "todas": 780,
+        "todas": 931,
         "published": 88
       },
-      "23": {
-        "todas": 748,
+      "16": {
+        "todas": 966,
+        "published": 82
+      },
+      "17": {
+        "todas": 1100,
+        "published": 105
+      },
+      "18": {
+        "todas": 1051,
         "published": 80
+      },
+      "19": {
+        "todas": 947,
+        "published": 69
+      },
+      "20": {
+        "todas": 989,
+        "published": 100
+      },
+      "21": {
+        "todas": 908,
+        "published": 77
+      },
+      "22": {
+        "todas": 822,
+        "published": 87
+      },
+      "23": {
+        "todas": 763,
+        "published": 74
       }
     },
     "2007.06": {
       "0": {
-        "todas": 655,
-        "published": 36
+        "todas": 649,
+        "published": 39
       },
       "1": {
-        "todas": 479,
+        "todas": 489,
         "published": 27
       },
       "2": {
-        "todas": 325,
-        "published": 17
+        "todas": 310,
+        "published": 24
       },
       "3": {
-        "todas": 207,
+        "todas": 191,
         "published": 11
       },
       "4": {
-        "todas": 175,
-        "published": 5
+        "todas": 179,
+        "published": 6
       },
       "5": {
-        "todas": 177,
+        "todas": 169,
         "published": 4
       },
       "6": {
-        "todas": 170,
+        "todas": 155,
         "published": 8
       },
       "7": {
-        "todas": 226,
+        "todas": 210,
         "published": 11
       },
       "8": {
-        "todas": 445,
-        "published": 40
+        "todas": 436,
+        "published": 33
       },
       "9": {
-        "todas": 787,
-        "published": 81
+        "todas": 768,
+        "published": 71
       },
       "10": {
-        "todas": 814,
-        "published": 80
+        "todas": 832,
+        "published": 77
       },
       "11": {
-        "todas": 918,
-        "published": 95
+        "todas": 906,
+        "published": 93
       },
       "12": {
-        "todas": 1069,
-        "published": 95
+        "todas": 1048,
+        "published": 94
       },
       "13": {
-        "todas": 1041,
-        "published": 102
+        "todas": 991,
+        "published": 99
       },
       "14": {
-        "todas": 873,
-        "published": 78
+        "todas": 881,
+        "published": 80
       },
       "15": {
-        "todas": 832,
-        "published": 76
+        "todas": 792,
+        "published": 64
       },
       "16": {
-        "todas": 966,
-        "published": 80
+        "todas": 958,
+        "published": 78
       },
       "17": {
         "todas": 1030,
-        "published": 82
+        "published": 80
       },
       "18": {
-        "todas": 945,
-        "published": 83
+        "todas": 905,
+        "published": 82
       },
       "19": {
-        "todas": 869,
-        "published": 67
+        "todas": 861,
+        "published": 73
       },
       "20": {
-        "todas": 919,
-        "published": 85
+        "todas": 870,
+        "published": 77
       },
       "21": {
-        "todas": 705,
-        "published": 72
-      },
-      "22": {
-        "todas": 694,
+        "todas": 715,
         "published": 68
       },
+      "22": {
+        "todas": 676,
+        "published": 69
+      },
       "23": {
-        "todas": 711,
-        "published": 66
+        "todas": 709,
+        "published": 68
       }
     },
     "2007.07": {
       "0": {
-        "todas": 577,
-        "published": 45
+        "todas": 541,
+        "published": 42
       },
       "1": {
-        "todas": 435,
-        "published": 24
+        "todas": 408,
+        "published": 29
       },
       "2": {
-        "todas": 296,
-        "published": 20
+        "todas": 290,
+        "published": 13
       },
       "3": {
-        "todas": 212,
-        "published": 9
+        "todas": 226,
+        "published": 12
       },
       "4": {
-        "todas": 205,
+        "todas": 188,
         "published": 12
       },
       "5": {
-        "todas": 151,
+        "todas": 141,
         "published": 7
       },
       "6": {
-        "todas": 136,
-        "published": 9
+        "todas": 146,
+        "published": 8
       },
       "7": {
-        "todas": 177,
+        "todas": 191,
         "published": 18
       },
       "8": {
-        "todas": 440,
-        "published": 25
+        "todas": 450,
+        "published": 29
       },
       "9": {
-        "todas": 653,
-        "published": 61
+        "todas": 643,
+        "published": 63
       },
       "10": {
-        "todas": 821,
-        "published": 76
+        "todas": 810,
+        "published": 77
       },
       "11": {
-        "todas": 835,
-        "published": 87
+        "todas": 815,
+        "published": 90
       },
       "12": {
-        "todas": 970,
-        "published": 87
+        "todas": 942,
+        "published": 85
       },
       "13": {
-        "todas": 943,
-        "published": 98
+        "todas": 950,
+        "published": 95
       },
       "14": {
         "todas": 897,
-        "published": 83
+        "published": 80
       },
       "15": {
-        "todas": 766,
-        "published": 60
-      },
-      "16": {
-        "todas": 956,
-        "published": 67
-      },
-      "17": {
-        "todas": 1000,
-        "published": 70
-      },
-      "18": {
-        "todas": 925,
-        "published": 64
-      },
-      "19": {
-        "todas": 914,
-        "published": 65
-      },
-      "20": {
-        "todas": 789,
-        "published": 76
-      },
-      "21": {
-        "todas": 747,
-        "published": 73
-      },
-      "22": {
-        "todas": 676,
+        "todas": 780,
         "published": 66
       },
-      "23": {
+      "16": {
+        "todas": 922,
+        "published": 71
+      },
+      "17": {
+        "todas": 938,
+        "published": 66
+      },
+      "18": {
+        "todas": 905,
+        "published": 60
+      },
+      "19": {
+        "todas": 888,
+        "published": 60
+      },
+      "20": {
+        "todas": 772,
+        "published": 70
+      },
+      "21": {
+        "todas": 729,
+        "published": 76
+      },
+      "22": {
         "todas": 668,
-        "published": 56
+        "published": 67
+      },
+      "23": {
+        "todas": 643,
+        "published": 61
       }
     },
     "2007.08": {
       "0": {
-        "todas": 492,
-        "published": 49
+        "todas": 478,
+        "published": 48
       },
       "1": {
-        "todas": 389,
+        "todas": 414,
+        "published": 20
+      },
+      "2": {
+        "todas": 287,
+        "published": 19
+      },
+      "3": {
+        "todas": 203,
+        "published": 18
+      },
+      "4": {
+        "todas": 164,
+        "published": 9
+      },
+      "5": {
+        "todas": 145,
+        "published": 7
+      },
+      "6": {
+        "todas": 140,
+        "published": 6
+      },
+      "7": {
+        "todas": 170,
+        "published": 13
+      },
+      "8": {
+        "todas": 463,
+        "published": 33
+      },
+      "9": {
+        "todas": 669,
+        "published": 59
+      },
+      "10": {
+        "todas": 782,
+        "published": 77
+      },
+      "11": {
+        "todas": 852,
+        "published": 77
+      },
+      "12": {
+        "todas": 958,
+        "published": 84
+      },
+      "13": {
+        "todas": 952,
+        "published": 92
+      },
+      "14": {
+        "todas": 837,
+        "published": 79
+      },
+      "15": {
+        "todas": 702,
+        "published": 69
+      },
+      "16": {
+        "todas": 800,
+        "published": 74
+      },
+      "17": {
+        "todas": 840,
+        "published": 69
+      },
+      "18": {
+        "todas": 829,
+        "published": 54
+      },
+      "19": {
+        "todas": 732,
+        "published": 60
+      },
+      "20": {
+        "todas": 752,
+        "published": 79
+      },
+      "21": {
+        "todas": 640,
+        "published": 62
+      },
+      "22": {
+        "todas": 622,
+        "published": 55
+      },
+      "23": {
+        "todas": 591,
+        "published": 47
+      }
+    },
+    "2007.09": {
+      "0": {
+        "todas": 650,
+        "published": 35
+      },
+      "1": {
+        "todas": 452,
         "published": 26
       },
       "2": {
-        "todas": 260,
+        "todas": 324,
+        "published": 14
+      },
+      "3": {
+        "todas": 241,
+        "published": 11
+      },
+      "4": {
+        "todas": 195,
+        "published": 10
+      },
+      "5": {
+        "todas": 152,
+        "published": 5
+      },
+      "6": {
+        "todas": 168,
+        "published": 21
+      },
+      "7": {
+        "todas": 212,
+        "published": 15
+      },
+      "8": {
+        "todas": 509,
+        "published": 38
+      },
+      "9": {
+        "todas": 701,
+        "published": 68
+      },
+      "10": {
+        "todas": 818,
+        "published": 82
+      },
+      "11": {
+        "todas": 940,
+        "published": 93
+      },
+      "12": {
+        "todas": 1002,
+        "published": 116
+      },
+      "13": {
+        "todas": 1005,
+        "published": 117
+      },
+      "14": {
+        "todas": 902,
+        "published": 93
+      },
+      "15": {
+        "todas": 868,
+        "published": 74
+      },
+      "16": {
+        "todas": 951,
+        "published": 85
+      },
+      "17": {
+        "todas": 1009,
+        "published": 82
+      },
+      "18": {
+        "todas": 966,
+        "published": 64
+      },
+      "19": {
+        "todas": 880,
+        "published": 63
+      },
+      "20": {
+        "todas": 856,
+        "published": 59
+      },
+      "21": {
+        "todas": 878,
+        "published": 58
+      },
+      "22": {
+        "todas": 727,
+        "published": 72
+      },
+      "23": {
+        "todas": 729,
+        "published": 65
+      }
+    },
+    "2007.1": {
+      "0": {
+        "todas": 646,
+        "published": 49
+      },
+      "1": {
+        "todas": 434,
+        "published": 34
+      },
+      "2": {
+        "todas": 331,
+        "published": 15
+      },
+      "3": {
+        "todas": 190,
+        "published": 14
+      },
+      "4": {
+        "todas": 166,
+        "published": 8
+      },
+      "5": {
+        "todas": 196,
+        "published": 8
+      },
+      "6": {
+        "todas": 190,
+        "published": 10
+      },
+      "7": {
+        "todas": 273,
+        "published": 19
+      },
+      "8": {
+        "todas": 505,
+        "published": 46
+      },
+      "9": {
+        "todas": 906,
+        "published": 98
+      },
+      "10": {
+        "todas": 945,
+        "published": 91
+      },
+      "11": {
+        "todas": 975,
+        "published": 109
+      },
+      "12": {
+        "todas": 1125,
+        "published": 116
+      },
+      "13": {
+        "todas": 1167,
+        "published": 110
+      },
+      "14": {
+        "todas": 1010,
+        "published": 97
+      },
+      "15": {
+        "todas": 872,
+        "published": 88
+      },
+      "16": {
+        "todas": 1044,
+        "published": 96
+      },
+      "17": {
+        "todas": 1044,
+        "published": 79
+      },
+      "18": {
+        "todas": 1013,
+        "published": 82
+      },
+      "19": {
+        "todas": 882,
+        "published": 67
+      },
+      "20": {
+        "todas": 942,
+        "published": 92
+      },
+      "21": {
+        "todas": 806,
+        "published": 87
+      },
+      "22": {
+        "todas": 715,
+        "published": 75
+      },
+      "23": {
+        "todas": 803,
+        "published": 69
+      }
+    },
+    "2007.11": {
+      "0": {
+        "todas": 671,
+        "published": 55
+      },
+      "1": {
+        "todas": 439,
+        "published": 36
+      },
+      "2": {
+        "todas": 303,
+        "published": 20
+      },
+      "3": {
+        "todas": 217,
+        "published": 14
+      },
+      "4": {
+        "todas": 178,
+        "published": 7
+      },
+      "5": {
+        "todas": 155,
+        "published": 6
+      },
+      "6": {
+        "todas": 170,
+        "published": 6
+      },
+      "7": {
+        "todas": 203,
+        "published": 11
+      },
+      "8": {
+        "todas": 557,
+        "published": 45
+      },
+      "9": {
+        "todas": 874,
+        "published": 70
+      },
+      "10": {
+        "todas": 962,
+        "published": 107
+      },
+      "11": {
+        "todas": 1037,
+        "published": 96
+      },
+      "12": {
+        "todas": 1096,
+        "published": 119
+      },
+      "13": {
+        "todas": 1135,
+        "published": 111
+      },
+      "14": {
+        "todas": 1036,
+        "published": 92
+      },
+      "15": {
+        "todas": 915,
+        "published": 85
+      },
+      "16": {
+        "todas": 1135,
+        "published": 88
+      },
+      "17": {
+        "todas": 1048,
+        "published": 87
+      },
+      "18": {
+        "todas": 976,
+        "published": 94
+      },
+      "19": {
+        "todas": 924,
+        "published": 74
+      },
+      "20": {
+        "todas": 1026,
+        "published": 84
+      },
+      "21": {
+        "todas": 892,
+        "published": 82
+      },
+      "22": {
+        "todas": 746,
+        "published": 75
+      },
+      "23": {
+        "todas": 737,
+        "published": 65
+      }
+    },
+    "2007.12": {
+      "0": {
+        "todas": 572,
+        "published": 48
+      },
+      "1": {
+        "todas": 399,
+        "published": 29
+      },
+      "2": {
+        "todas": 315,
+        "published": 20
+      },
+      "3": {
+        "todas": 186,
+        "published": 7
+      },
+      "4": {
+        "todas": 179,
+        "published": 9
+      },
+      "5": {
+        "todas": 162,
+        "published": 4
+      },
+      "6": {
+        "todas": 153,
+        "published": 6
+      },
+      "7": {
+        "todas": 181,
+        "published": 16
+      },
+      "8": {
+        "todas": 391,
+        "published": 34
+      },
+      "9": {
+        "todas": 625,
+        "published": 45
+      },
+      "10": {
+        "todas": 823,
+        "published": 78
+      },
+      "11": {
+        "todas": 904,
+        "published": 82
+      },
+      "12": {
+        "todas": 1033,
+        "published": 101
+      },
+      "13": {
+        "todas": 1013,
+        "published": 94
+      },
+      "14": {
+        "todas": 959,
+        "published": 101
+      },
+      "15": {
+        "todas": 891,
+        "published": 83
+      },
+      "16": {
+        "todas": 954,
+        "published": 87
+      },
+      "17": {
+        "todas": 935,
+        "published": 77
+      },
+      "18": {
+        "todas": 846,
+        "published": 78
+      },
+      "19": {
+        "todas": 844,
+        "published": 66
+      },
+      "20": {
+        "todas": 831,
+        "published": 77
+      },
+      "21": {
+        "todas": 675,
+        "published": 62
+      },
+      "22": {
+        "todas": 623,
+        "published": 60
+      },
+      "23": {
+        "todas": 597,
+        "published": 68
+      }
+    },
+    "2008.01": {
+      "0": {
+        "todas": 605,
+        "published": 56
+      },
+      "1": {
+        "todas": 398,
+        "published": 24
+      },
+      "2": {
+        "todas": 281,
+        "published": 16
+      },
+      "3": {
+        "todas": 234,
+        "published": 9
+      },
+      "4": {
+        "todas": 183,
+        "published": 10
+      },
+      "5": {
+        "todas": 166,
+        "published": 7
+      },
+      "6": {
+        "todas": 153,
+        "published": 11
+      },
+      "7": {
+        "todas": 234,
+        "published": 18
+      },
+      "8": {
+        "todas": 469,
+        "published": 47
+      },
+      "9": {
+        "todas": 737,
+        "published": 84
+      },
+      "10": {
+        "todas": 900,
+        "published": 86
+      },
+      "11": {
+        "todas": 1003,
+        "published": 117
+      },
+      "12": {
+        "todas": 1127,
+        "published": 114
+      },
+      "13": {
+        "todas": 1093,
+        "published": 104
+      },
+      "14": {
+        "todas": 1083,
+        "published": 119
+      },
+      "15": {
+        "todas": 955,
+        "published": 110
+      },
+      "16": {
+        "todas": 1044,
+        "published": 86
+      },
+      "17": {
+        "todas": 1158,
+        "published": 112
+      },
+      "18": {
+        "todas": 1030,
+        "published": 82
+      },
+      "19": {
+        "todas": 965,
+        "published": 86
+      },
+      "20": {
+        "todas": 986,
+        "published": 75
+      },
+      "21": {
+        "todas": 912,
+        "published": 88
+      },
+      "22": {
+        "todas": 806,
+        "published": 67
+      },
+      "23": {
+        "todas": 707,
+        "published": 71
+      }
+    },
+    "2008.02": {
+      "0": {
+        "todas": 661,
+        "published": 48
+      },
+      "1": {
+        "todas": 466,
+        "published": 27
+      },
+      "2": {
+        "todas": 315,
+        "published": 10
+      },
+      "3": {
+        "todas": 214,
+        "published": 8
+      },
+      "4": {
+        "todas": 166,
+        "published": 10
+      },
+      "5": {
+        "todas": 167,
+        "published": 9
+      },
+      "6": {
+        "todas": 161,
+        "published": 16
+      },
+      "7": {
+        "todas": 218,
+        "published": 16
+      },
+      "8": {
+        "todas": 460,
+        "published": 39
+      },
+      "9": {
+        "todas": 875,
+        "published": 61
+      },
+      "10": {
+        "todas": 991,
+        "published": 68
+      },
+      "11": {
+        "todas": 1003,
+        "published": 99
+      },
+      "12": {
+        "todas": 1165,
+        "published": 105
+      },
+      "13": {
+        "todas": 1170,
+        "published": 127
+      },
+      "14": {
+        "todas": 1053,
+        "published": 88
+      },
+      "15": {
+        "todas": 991,
+        "published": 87
+      },
+      "16": {
+        "todas": 1070,
+        "published": 92
+      },
+      "17": {
+        "todas": 1096,
+        "published": 95
+      },
+      "18": {
+        "todas": 1072,
+        "published": 82
+      },
+      "19": {
+        "todas": 1029,
+        "published": 86
+      },
+      "20": {
+        "todas": 996,
+        "published": 75
+      },
+      "21": {
+        "todas": 858,
+        "published": 83
+      },
+      "22": {
+        "todas": 753,
+        "published": 59
+      },
+      "23": {
+        "todas": 764,
+        "published": 70
+      }
+    },
+    "2008.03": {
+      "0": {
+        "todas": 653,
+        "published": 55
+      },
+      "1": {
+        "todas": 523,
+        "published": 45
+      },
+      "2": {
+        "todas": 316,
+        "published": 14
+      },
+      "3": {
+        "todas": 245,
+        "published": 10
+      },
+      "4": {
+        "todas": 202,
+        "published": 8
+      },
+      "5": {
+        "todas": 174,
+        "published": 8
+      },
+      "6": {
+        "todas": 173,
+        "published": 6
+      },
+      "7": {
+        "todas": 249,
+        "published": 26
+      },
+      "8": {
+        "todas": 376,
+        "published": 22
+      },
+      "9": {
+        "todas": 740,
+        "published": 67
+      },
+      "10": {
+        "todas": 929,
+        "published": 83
+      },
+      "11": {
+        "todas": 1014,
+        "published": 95
+      },
+      "12": {
+        "todas": 1206,
+        "published": 106
+      },
+      "13": {
+        "todas": 1235,
+        "published": 115
+      },
+      "14": {
+        "todas": 1011,
+        "published": 118
+      },
+      "15": {
+        "todas": 949,
+        "published": 88
+      },
+      "16": {
+        "todas": 1134,
+        "published": 96
+      },
+      "17": {
+        "todas": 1198,
+        "published": 87
+      },
+      "18": {
+        "todas": 1119,
+        "published": 89
+      },
+      "19": {
+        "todas": 1106,
+        "published": 80
+      },
+      "20": {
+        "todas": 1028,
+        "published": 72
+      },
+      "21": {
+        "todas": 931,
+        "published": 92
+      },
+      "22": {
+        "todas": 787,
+        "published": 87
+      },
+      "23": {
+        "todas": 740,
+        "published": 74
+      }
+    },
+    "2008.04": {
+      "0": {
+        "todas": 785,
+        "published": 57
+      },
+      "1": {
+        "todas": 516,
+        "published": 36
+      },
+      "2": {
+        "todas": 350,
+        "published": 18
+      },
+      "3": {
+        "todas": 249,
+        "published": 19
+      },
+      "4": {
+        "todas": 222,
+        "published": 13
+      },
+      "5": {
+        "todas": 199,
+        "published": 7
+      },
+      "6": {
+        "todas": 212,
+        "published": 11
+      },
+      "7": {
+        "todas": 305,
         "published": 17
+      },
+      "8": {
+        "todas": 520,
+        "published": 29
+      },
+      "9": {
+        "todas": 954,
+        "published": 58
+      },
+      "10": {
+        "todas": 1128,
+        "published": 96
+      },
+      "11": {
+        "todas": 1258,
+        "published": 108
+      },
+      "12": {
+        "todas": 1321,
+        "published": 114
+      },
+      "13": {
+        "todas": 1331,
+        "published": 145
+      },
+      "14": {
+        "todas": 1121,
+        "published": 106
+      },
+      "15": {
+        "todas": 1037,
+        "published": 106
+      },
+      "16": {
+        "todas": 1245,
+        "published": 101
+      },
+      "17": {
+        "todas": 1323,
+        "published": 109
+      },
+      "18": {
+        "todas": 1352,
+        "published": 87
+      },
+      "19": {
+        "todas": 1185,
+        "published": 89
+      },
+      "20": {
+        "todas": 1132,
+        "published": 88
+      },
+      "21": {
+        "todas": 1003,
+        "published": 83
+      },
+      "22": {
+        "todas": 900,
+        "published": 94
+      },
+      "23": {
+        "todas": 835,
+        "published": 87
+      }
+    },
+    "2008.05": {
+      "0": {
+        "todas": 833,
+        "published": 60
+      },
+      "1": {
+        "todas": 579,
+        "published": 37
+      },
+      "2": {
+        "todas": 399,
+        "published": 15
+      },
+      "3": {
+        "todas": 275,
+        "published": 8
+      },
+      "4": {
+        "todas": 234,
+        "published": 14
+      },
+      "5": {
+        "todas": 193,
+        "published": 6
+      },
+      "6": {
+        "todas": 180,
+        "published": 11
+      },
+      "7": {
+        "todas": 282,
+        "published": 22
+      },
+      "8": {
+        "todas": 512,
+        "published": 35
+      },
+      "9": {
+        "todas": 944,
+        "published": 80
+      },
+      "10": {
+        "todas": 1138,
+        "published": 81
+      },
+      "11": {
+        "todas": 1243,
+        "published": 120
+      },
+      "12": {
+        "todas": 1333,
+        "published": 122
+      },
+      "13": {
+        "todas": 1305,
+        "published": 121
+      },
+      "14": {
+        "todas": 1110,
+        "published": 81
+      },
+      "15": {
+        "todas": 1172,
+        "published": 93
+      },
+      "16": {
+        "todas": 1316,
+        "published": 78
+      },
+      "17": {
+        "todas": 1292,
+        "published": 89
+      },
+      "18": {
+        "todas": 1263,
+        "published": 100
+      },
+      "19": {
+        "todas": 1227,
+        "published": 96
+      },
+      "20": {
+        "todas": 1236,
+        "published": 76
+      },
+      "21": {
+        "todas": 1076,
+        "published": 86
+      },
+      "22": {
+        "todas": 1018,
+        "published": 97
+      },
+      "23": {
+        "todas": 925,
+        "published": 69
+      }
+    },
+    "2008.06": {
+      "0": {
+        "todas": 865,
+        "published": 62
+      },
+      "1": {
+        "todas": 583,
+        "published": 35
+      },
+      "2": {
+        "todas": 404,
+        "published": 25
+      },
+      "3": {
+        "todas": 264,
+        "published": 19
+      },
+      "4": {
+        "todas": 174,
+        "published": 6
+      },
+      "5": {
+        "todas": 173,
+        "published": 8
+      },
+      "6": {
+        "todas": 181,
+        "published": 13
+      },
+      "7": {
+        "todas": 290,
+        "published": 13
+      },
+      "8": {
+        "todas": 590,
+        "published": 49
+      },
+      "9": {
+        "todas": 949,
+        "published": 94
+      },
+      "10": {
+        "todas": 1155,
+        "published": 112
+      },
+      "11": {
+        "todas": 1253,
+        "published": 142
+      },
+      "12": {
+        "todas": 1459,
+        "published": 179
+      },
+      "13": {
+        "todas": 1397,
+        "published": 135
+      },
+      "14": {
+        "todas": 1164,
+        "published": 113
+      },
+      "15": {
+        "todas": 1224,
+        "published": 109
+      },
+      "16": {
+        "todas": 1408,
+        "published": 121
+      },
+      "17": {
+        "todas": 1415,
+        "published": 127
+      },
+      "18": {
+        "todas": 1279,
+        "published": 103
+      },
+      "19": {
+        "todas": 1296,
+        "published": 86
+      },
+      "20": {
+        "todas": 1179,
+        "published": 105
+      },
+      "21": {
+        "todas": 1004,
+        "published": 103
+      },
+      "22": {
+        "todas": 994,
+        "published": 90
+      },
+      "23": {
+        "todas": 978,
+        "published": 99
+      }
+    },
+    "2008.07": {
+      "0": {
+        "todas": 784,
+        "published": 64
+      },
+      "1": {
+        "todas": 536,
+        "published": 26
+      },
+      "2": {
+        "todas": 393,
+        "published": 21
+      },
+      "3": {
+        "todas": 265,
+        "published": 12
+      },
+      "4": {
+        "todas": 163,
+        "published": 6
+      },
+      "5": {
+        "todas": 171,
+        "published": 9
+      },
+      "6": {
+        "todas": 189,
+        "published": 7
+      },
+      "7": {
+        "todas": 231,
+        "published": 16
+      },
+      "8": {
+        "todas": 668,
+        "published": 53
+      },
+      "9": {
+        "todas": 1086,
+        "published": 104
+      },
+      "10": {
+        "todas": 1265,
+        "published": 128
+      },
+      "11": {
+        "todas": 1353,
+        "published": 130
+      },
+      "12": {
+        "todas": 1439,
+        "published": 146
+      },
+      "13": {
+        "todas": 1420,
+        "published": 161
+      },
+      "14": {
+        "todas": 1220,
+        "published": 123
+      },
+      "15": {
+        "todas": 1104,
+        "published": 104
+      },
+      "16": {
+        "todas": 1184,
+        "published": 110
+      },
+      "17": {
+        "todas": 1251,
+        "published": 93
+      },
+      "18": {
+        "todas": 1236,
+        "published": 93
+      },
+      "19": {
+        "todas": 1077,
+        "published": 87
+      },
+      "20": {
+        "todas": 1120,
+        "published": 99
+      },
+      "21": {
+        "todas": 1043,
+        "published": 84
+      },
+      "22": {
+        "todas": 921,
+        "published": 73
+      },
+      "23": {
+        "todas": 939,
+        "published": 81
+      }
+    },
+    "2008.08": {
+      "0": {
+        "todas": 664,
+        "published": 49
+      },
+      "1": {
+        "todas": 466,
+        "published": 28
+      },
+      "2": {
+        "todas": 361,
+        "published": 21
+      },
+      "3": {
+        "todas": 227,
+        "published": 15
+      },
+      "4": {
+        "todas": 162,
+        "published": 9
+      },
+      "5": {
+        "todas": 173,
+        "published": 10
+      },
+      "6": {
+        "todas": 190,
+        "published": 12
+      },
+      "7": {
+        "todas": 265,
+        "published": 21
+      },
+      "8": {
+        "todas": 580,
+        "published": 43
+      },
+      "9": {
+        "todas": 873,
+        "published": 77
+      },
+      "10": {
+        "todas": 1091,
+        "published": 100
+      },
+      "11": {
+        "todas": 1197,
+        "published": 128
+      },
+      "12": {
+        "todas": 1192,
+        "published": 119
+      },
+      "13": {
+        "todas": 1268,
+        "published": 126
+      },
+      "14": {
+        "todas": 1152,
+        "published": 100
+      },
+      "15": {
+        "todas": 1013,
+        "published": 98
+      },
+      "16": {
+        "todas": 1105,
+        "published": 82
+      },
+      "17": {
+        "todas": 1103,
+        "published": 101
+      },
+      "18": {
+        "todas": 1169,
+        "published": 79
+      },
+      "19": {
+        "todas": 1074,
+        "published": 71
+      },
+      "20": {
+        "todas": 1025,
+        "published": 79
+      },
+      "21": {
+        "todas": 877,
+        "published": 65
+      },
+      "22": {
+        "todas": 840,
+        "published": 72
+      },
+      "23": {
+        "todas": 766,
+        "published": 83
+      }
+    },
+    "2008.09": {
+      "0": {
+        "todas": 759,
+        "published": 67
+      },
+      "1": {
+        "todas": 568,
+        "published": 40
+      },
+      "2": {
+        "todas": 400,
+        "published": 18
+      },
+      "3": {
+        "todas": 221,
+        "published": 10
+      },
+      "4": {
+        "todas": 185,
+        "published": 10
+      },
+      "5": {
+        "todas": 176,
+        "published": 4
+      },
+      "6": {
+        "todas": 164,
+        "published": 7
+      },
+      "7": {
+        "todas": 236,
+        "published": 18
+      },
+      "8": {
+        "todas": 597,
+        "published": 37
+      },
+      "9": {
+        "todas": 1041,
+        "published": 77
+      },
+      "10": {
+        "todas": 1201,
+        "published": 97
+      },
+      "11": {
+        "todas": 1224,
+        "published": 123
+      },
+      "12": {
+        "todas": 1425,
+        "published": 107
+      },
+      "13": {
+        "todas": 1368,
+        "published": 124
+      },
+      "14": {
+        "todas": 1271,
+        "published": 107
+      },
+      "15": {
+        "todas": 1212,
+        "published": 106
+      },
+      "16": {
+        "todas": 1347,
+        "published": 99
+      },
+      "17": {
+        "todas": 1388,
+        "published": 106
+      },
+      "18": {
+        "todas": 1361,
+        "published": 91
+      },
+      "19": {
+        "todas": 1225,
+        "published": 80
+      },
+      "20": {
+        "todas": 1209,
+        "published": 80
+      },
+      "21": {
+        "todas": 1088,
+        "published": 83
+      },
+      "22": {
+        "todas": 1036,
+        "published": 74
+      },
+      "23": {
+        "todas": 961,
+        "published": 88
+      }
+    },
+    "2008.1": {
+      "0": {
+        "todas": 814,
+        "published": 52
+      },
+      "1": {
+        "todas": 548,
+        "published": 30
+      },
+      "2": {
+        "todas": 312,
+        "published": 18
+      },
+      "3": {
+        "todas": 210,
+        "published": 9
+      },
+      "4": {
+        "todas": 143,
+        "published": 6
+      },
+      "5": {
+        "todas": 127,
+        "published": 3
+      },
+      "6": {
+        "todas": 192,
+        "published": 9
+      },
+      "7": {
+        "todas": 372,
+        "published": 16
+      },
+      "8": {
+        "todas": 807,
+        "published": 36
+      },
+      "9": {
+        "todas": 1237,
+        "published": 67
+      },
+      "10": {
+        "todas": 1448,
+        "published": 122
+      },
+      "11": {
+        "todas": 1416,
+        "published": 122
+      },
+      "12": {
+        "todas": 1497,
+        "published": 138
+      },
+      "13": {
+        "todas": 1589,
+        "published": 129
+      },
+      "14": {
+        "todas": 1387,
+        "published": 106
+      },
+      "15": {
+        "todas": 1189,
+        "published": 105
+      },
+      "16": {
+        "todas": 1322,
+        "published": 107
+      },
+      "17": {
+        "todas": 1357,
+        "published": 105
+      },
+      "18": {
+        "todas": 1305,
+        "published": 88
+      },
+      "19": {
+        "todas": 1257,
+        "published": 73
+      },
+      "20": {
+        "todas": 1302,
+        "published": 77
+      },
+      "21": {
+        "todas": 1167,
+        "published": 85
+      },
+      "22": {
+        "todas": 1135,
+        "published": 86
+      },
+      "23": {
+        "todas": 958,
+        "published": 77
+      }
+    },
+    "2008.11": {
+      "0": {
+        "todas": 707,
+        "published": 48
+      },
+      "1": {
+        "todas": 491,
+        "published": 31
+      },
+      "2": {
+        "todas": 296,
+        "published": 12
+      },
+      "3": {
+        "todas": 190,
+        "published": 8
+      },
+      "4": {
+        "todas": 158,
+        "published": 10
+      },
+      "5": {
+        "todas": 118,
+        "published": 4
+      },
+      "6": {
+        "todas": 128,
+        "published": 7
+      },
+      "7": {
+        "todas": 288,
+        "published": 16
+      },
+      "8": {
+        "todas": 603,
+        "published": 35
+      },
+      "9": {
+        "todas": 996,
+        "published": 62
+      },
+      "10": {
+        "todas": 1097,
+        "published": 80
+      },
+      "11": {
+        "todas": 1183,
+        "published": 112
+      },
+      "12": {
+        "todas": 1301,
+        "published": 113
+      },
+      "13": {
+        "todas": 1320,
+        "published": 116
+      },
+      "14": {
+        "todas": 1176,
+        "published": 91
+      },
+      "15": {
+        "todas": 1065,
+        "published": 90
+      },
+      "16": {
+        "todas": 1240,
+        "published": 99
+      },
+      "17": {
+        "todas": 1223,
+        "published": 98
+      },
+      "18": {
+        "todas": 1166,
+        "published": 85
+      },
+      "19": {
+        "todas": 1155,
+        "published": 93
+      },
+      "20": {
+        "todas": 1159,
+        "published": 87
+      },
+      "21": {
+        "todas": 986,
+        "published": 63
+      },
+      "22": {
+        "todas": 954,
+        "published": 65
+      },
+      "23": {
+        "todas": 844,
+        "published": 58
+      }
+    },
+    "2008.12": {
+      "0": {
+        "todas": 695,
+        "published": 49
+      },
+      "1": {
+        "todas": 455,
+        "published": 31
+      },
+      "2": {
+        "todas": 300,
+        "published": 25
+      },
+      "3": {
+        "todas": 200,
+        "published": 12
+      },
+      "4": {
+        "todas": 111,
+        "published": 8
+      },
+      "5": {
+        "todas": 110,
+        "published": 6
+      },
+      "6": {
+        "todas": 120,
+        "published": 7
+      },
+      "7": {
+        "todas": 234,
+        "published": 11
+      },
+      "8": {
+        "todas": 464,
+        "published": 20
+      },
+      "9": {
+        "todas": 818,
+        "published": 60
+      },
+      "10": {
+        "todas": 990,
+        "published": 73
+      },
+      "11": {
+        "todas": 1095,
+        "published": 85
+      },
+      "12": {
+        "todas": 1246,
+        "published": 101
+      },
+      "13": {
+        "todas": 1286,
+        "published": 104
+      },
+      "14": {
+        "todas": 1082,
+        "published": 87
+      },
+      "15": {
+        "todas": 939,
+        "published": 82
+      },
+      "16": {
+        "todas": 1098,
+        "published": 92
+      },
+      "17": {
+        "todas": 1047,
+        "published": 95
+      },
+      "18": {
+        "todas": 1053,
+        "published": 92
+      },
+      "19": {
+        "todas": 1135,
+        "published": 77
+      },
+      "20": {
+        "todas": 1001,
+        "published": 74
+      },
+      "21": {
+        "todas": 1011,
+        "published": 84
+      },
+      "22": {
+        "todas": 808,
+        "published": 70
+      },
+      "23": {
+        "todas": 767,
+        "published": 71
+      }
+    },
+    "2009.01": {
+      "0": {
+        "todas": 769,
+        "published": 62
+      },
+      "1": {
+        "todas": 495,
+        "published": 37
+      },
+      "2": {
+        "todas": 315,
+        "published": 26
+      },
+      "3": {
+        "todas": 215,
+        "published": 18
+      },
+      "4": {
+        "todas": 143,
+        "published": 9
+      },
+      "5": {
+        "todas": 122,
+        "published": 8
+      },
+      "6": {
+        "todas": 131,
+        "published": 13
+      },
+      "7": {
+        "todas": 265,
+        "published": 19
+      },
+      "8": {
+        "todas": 510,
+        "published": 34
+      },
+      "9": {
+        "todas": 929,
+        "published": 65
+      },
+      "10": {
+        "todas": 1086,
+        "published": 89
+      },
+      "11": {
+        "todas": 1378,
+        "published": 118
+      },
+      "12": {
+        "todas": 1434,
+        "published": 135
+      },
+      "13": {
+        "todas": 1489,
+        "published": 146
+      },
+      "14": {
+        "todas": 1237,
+        "published": 119
+      },
+      "15": {
+        "todas": 1233,
+        "published": 109
+      },
+      "16": {
+        "todas": 1317,
+        "published": 113
+      },
+      "17": {
+        "todas": 1354,
+        "published": 115
+      },
+      "18": {
+        "todas": 1336,
+        "published": 106
+      },
+      "19": {
+        "todas": 1362,
+        "published": 114
+      },
+      "20": {
+        "todas": 1329,
+        "published": 106
+      },
+      "21": {
+        "todas": 1171,
+        "published": 104
+      },
+      "22": {
+        "todas": 931,
+        "published": 113
+      },
+      "23": {
+        "todas": 848,
+        "published": 100
+      }
+    },
+    "2009.02": {
+      "0": {
+        "todas": 659,
+        "published": 48
+      },
+      "1": {
+        "todas": 449,
+        "published": 31
+      },
+      "2": {
+        "todas": 285,
+        "published": 27
+      },
+      "3": {
+        "todas": 181,
+        "published": 12
+      },
+      "4": {
+        "todas": 127,
+        "published": 12
+      },
+      "5": {
+        "todas": 106,
+        "published": 6
+      },
+      "6": {
+        "todas": 138,
+        "published": 10
+      },
+      "7": {
+        "todas": 309,
+        "published": 14
+      },
+      "8": {
+        "todas": 570,
+        "published": 36
+      },
+      "9": {
+        "todas": 1053,
+        "published": 71
+      },
+      "10": {
+        "todas": 1298,
+        "published": 90
+      },
+      "11": {
+        "todas": 1330,
+        "published": 114
+      },
+      "12": {
+        "todas": 1382,
+        "published": 139
+      },
+      "13": {
+        "todas": 1495,
+        "published": 123
+      },
+      "14": {
+        "todas": 1310,
+        "published": 120
+      },
+      "15": {
+        "todas": 1162,
+        "published": 90
+      },
+      "16": {
+        "todas": 1328,
+        "published": 107
+      },
+      "17": {
+        "todas": 1339,
+        "published": 126
+      },
+      "18": {
+        "todas": 1323,
+        "published": 97
+      },
+      "19": {
+        "todas": 1355,
+        "published": 101
+      },
+      "20": {
+        "todas": 1321,
+        "published": 99
+      },
+      "21": {
+        "todas": 1078,
+        "published": 81
+      },
+      "22": {
+        "todas": 946,
+        "published": 88
+      },
+      "23": {
+        "todas": 882,
+        "published": 89
+      }
+    },
+    "2009.03": {
+      "0": {
+        "todas": 709,
+        "published": 68
+      },
+      "1": {
+        "todas": 427,
+        "published": 41
+      },
+      "2": {
+        "todas": 291,
+        "published": 35
       },
       "3": {
         "todas": 189,
-        "published": 16
+        "published": 10
       },
       "4": {
-        "todas": 156,
+        "todas": 144,
+        "published": 9
+      },
+      "5": {
+        "todas": 99,
+        "published": 2
+      },
+      "6": {
+        "todas": 133,
+        "published": 6
+      },
+      "7": {
+        "todas": 337,
+        "published": 19
+      },
+      "8": {
+        "todas": 652,
+        "published": 33
+      },
+      "9": {
+        "todas": 1126,
+        "published": 77
+      },
+      "10": {
+        "todas": 1304,
+        "published": 107
+      },
+      "11": {
+        "todas": 1347,
+        "published": 136
+      },
+      "12": {
+        "todas": 1625,
+        "published": 155
+      },
+      "13": {
+        "todas": 1548,
+        "published": 157
+      },
+      "14": {
+        "todas": 1297,
+        "published": 112
+      },
+      "15": {
+        "todas": 1251,
+        "published": 99
+      },
+      "16": {
+        "todas": 1469,
+        "published": 116
+      },
+      "17": {
+        "todas": 1356,
+        "published": 126
+      },
+      "18": {
+        "todas": 1333,
+        "published": 84
+      },
+      "19": {
+        "todas": 1313,
+        "published": 111
+      },
+      "20": {
+        "todas": 1335,
+        "published": 99
+      },
+      "21": {
+        "todas": 1187,
+        "published": 101
+      },
+      "22": {
+        "todas": 960,
+        "published": 96
+      },
+      "23": {
+        "todas": 872,
+        "published": 83
+      }
+    },
+    "2009.04": {
+      "0": {
+        "todas": 721,
+        "published": 56
+      },
+      "1": {
+        "todas": 523,
+        "published": 37
+      },
+      "2": {
+        "todas": 319,
+        "published": 32
+      },
+      "3": {
+        "todas": 236,
+        "published": 14
+      },
+      "4": {
+        "todas": 143,
+        "published": 8
+      },
+      "5": {
+        "todas": 135,
+        "published": 6
+      },
+      "6": {
+        "todas": 137,
+        "published": 9
+      },
+      "7": {
+        "todas": 236,
+        "published": 16
+      },
+      "8": {
+        "todas": 599,
+        "published": 43
+      },
+      "9": {
+        "todas": 922,
+        "published": 67
+      },
+      "10": {
+        "todas": 1216,
+        "published": 90
+      },
+      "11": {
+        "todas": 1328,
+        "published": 126
+      },
+      "12": {
+        "todas": 1394,
+        "published": 146
+      },
+      "13": {
+        "todas": 1349,
+        "published": 142
+      },
+      "14": {
+        "todas": 1181,
+        "published": 103
+      },
+      "15": {
+        "todas": 1117,
+        "published": 101
+      },
+      "16": {
+        "todas": 1280,
+        "published": 106
+      },
+      "17": {
+        "todas": 1351,
+        "published": 115
+      },
+      "18": {
+        "todas": 1376,
+        "published": 97
+      },
+      "19": {
+        "todas": 1263,
+        "published": 99
+      },
+      "20": {
+        "todas": 1160,
+        "published": 77
+      },
+      "21": {
+        "todas": 1048,
+        "published": 84
+      },
+      "22": {
+        "todas": 972,
+        "published": 74
+      },
+      "23": {
+        "todas": 916,
+        "published": 88
+      }
+    },
+    "2009.05": {
+      "0": {
+        "todas": 791,
+        "published": 67
+      },
+      "1": {
+        "todas": 514,
+        "published": 30
+      },
+      "2": {
+        "todas": 279,
+        "published": 26
+      },
+      "3": {
+        "todas": 171,
+        "published": 12
+      },
+      "4": {
+        "todas": 146,
+        "published": 14
+      },
+      "5": {
+        "todas": 118,
+        "published": 5
+      },
+      "6": {
+        "todas": 140,
+        "published": 9
+      },
+      "7": {
+        "todas": 245,
+        "published": 14
+      },
+      "8": {
+        "todas": 541,
+        "published": 43
+      },
+      "9": {
+        "todas": 950,
+        "published": 82
+      },
+      "10": {
+        "todas": 1189,
+        "published": 99
+      },
+      "11": {
+        "todas": 1274,
+        "published": 101
+      },
+      "12": {
+        "todas": 1475,
+        "published": 126
+      },
+      "13": {
+        "todas": 1350,
+        "published": 131
+      },
+      "14": {
+        "todas": 1155,
+        "published": 81
+      },
+      "15": {
+        "todas": 1088,
+        "published": 76
+      },
+      "16": {
+        "todas": 1330,
+        "published": 104
+      },
+      "17": {
+        "todas": 1267,
+        "published": 112
+      },
+      "18": {
+        "todas": 1167,
+        "published": 83
+      },
+      "19": {
+        "todas": 1245,
+        "published": 73
+      },
+      "20": {
+        "todas": 1163,
+        "published": 94
+      },
+      "21": {
+        "todas": 1007,
+        "published": 71
+      },
+      "22": {
+        "todas": 926,
+        "published": 80
+      },
+      "23": {
+        "todas": 959,
+        "published": 86
+      }
+    },
+    "2009.06": {
+      "0": {
+        "todas": 731,
+        "published": 64
+      },
+      "1": {
+        "todas": 517,
+        "published": 25
+      },
+      "2": {
+        "todas": 297,
+        "published": 29
+      },
+      "3": {
+        "todas": 201,
+        "published": 13
+      },
+      "4": {
+        "todas": 138,
+        "published": 10
+      },
+      "5": {
+        "todas": 122,
+        "published": 4
+      },
+      "6": {
+        "todas": 142,
+        "published": 4
+      },
+      "7": {
+        "todas": 272,
+        "published": 16
+      },
+      "8": {
+        "todas": 513,
+        "published": 44
+      },
+      "9": {
+        "todas": 934,
+        "published": 64
+      },
+      "10": {
+        "todas": 1107,
+        "published": 79
+      },
+      "11": {
+        "todas": 1323,
+        "published": 91
+      },
+      "12": {
+        "todas": 1352,
+        "published": 107
+      },
+      "13": {
+        "todas": 1337,
+        "published": 119
+      },
+      "14": {
+        "todas": 1247,
+        "published": 93
+      },
+      "15": {
+        "todas": 1054,
+        "published": 84
+      },
+      "16": {
+        "todas": 1230,
+        "published": 102
+      },
+      "17": {
+        "todas": 1278,
+        "published": 97
+      },
+      "18": {
+        "todas": 1212,
+        "published": 89
+      },
+      "19": {
+        "todas": 1172,
+        "published": 89
+      },
+      "20": {
+        "todas": 1095,
+        "published": 100
+      },
+      "21": {
+        "todas": 1031,
+        "published": 88
+      },
+      "22": {
+        "todas": 921,
+        "published": 95
+      },
+      "23": {
+        "todas": 884,
+        "published": 95
+      }
+    },
+    "2009.07": {
+      "0": {
+        "todas": 717,
+        "published": 67
+      },
+      "1": {
+        "todas": 517,
+        "published": 56
+      },
+      "2": {
+        "todas": 290,
+        "published": 26
+      },
+      "3": {
+        "todas": 188,
+        "published": 15
+      },
+      "4": {
+        "todas": 147,
+        "published": 6
+      },
+      "5": {
+        "todas": 120,
+        "published": 4
+      },
+      "6": {
+        "todas": 161,
+        "published": 14
+      },
+      "7": {
+        "todas": 271,
+        "published": 23
+      },
+      "8": {
+        "todas": 569,
+        "published": 47
+      },
+      "9": {
+        "todas": 877,
+        "published": 60
+      },
+      "10": {
+        "todas": 1101,
+        "published": 96
+      },
+      "11": {
+        "todas": 1245,
+        "published": 99
+      },
+      "12": {
+        "todas": 1386,
+        "published": 130
+      },
+      "13": {
+        "todas": 1347,
+        "published": 100
+      },
+      "14": {
+        "todas": 1258,
+        "published": 89
+      },
+      "15": {
+        "todas": 1046,
+        "published": 87
+      },
+      "16": {
+        "todas": 1214,
+        "published": 108
+      },
+      "17": {
+        "todas": 1239,
+        "published": 94
+      },
+      "18": {
+        "todas": 1239,
+        "published": 90
+      },
+      "19": {
+        "todas": 1133,
+        "published": 80
+      },
+      "20": {
+        "todas": 987,
+        "published": 94
+      },
+      "21": {
+        "todas": 893,
+        "published": 71
+      },
+      "22": {
+        "todas": 784,
+        "published": 73
+      },
+      "23": {
+        "todas": 836,
+        "published": 71
+      }
+    },
+    "2009.08": {
+      "0": {
+        "todas": 579,
+        "published": 43
+      },
+      "1": {
+        "todas": 452,
+        "published": 37
+      },
+      "2": {
+        "todas": 334,
+        "published": 24
+      },
+      "3": {
+        "todas": 230,
+        "published": 14
+      },
+      "4": {
+        "todas": 144,
+        "published": 8
+      },
+      "5": {
+        "todas": 137,
+        "published": 9
+      },
+      "6": {
+        "todas": 159,
+        "published": 9
+      },
+      "7": {
+        "todas": 211,
+        "published": 9
+      },
+      "8": {
+        "todas": 465,
+        "published": 28
+      },
+      "9": {
+        "todas": 794,
+        "published": 65
+      },
+      "10": {
+        "todas": 1011,
+        "published": 66
+      },
+      "11": {
+        "todas": 1204,
+        "published": 109
+      },
+      "12": {
+        "todas": 1247,
+        "published": 122
+      },
+      "13": {
+        "todas": 1289,
+        "published": 105
+      },
+      "14": {
+        "todas": 1041,
+        "published": 73
+      },
+      "15": {
+        "todas": 973,
+        "published": 75
+      },
+      "16": {
+        "todas": 1067,
+        "published": 61
+      },
+      "17": {
+        "todas": 1154,
+        "published": 79
+      },
+      "18": {
+        "todas": 1042,
+        "published": 74
+      },
+      "19": {
+        "todas": 1073,
+        "published": 70
+      },
+      "20": {
+        "todas": 998,
+        "published": 78
+      },
+      "21": {
+        "todas": 852,
+        "published": 88
+      },
+      "22": {
+        "todas": 725,
+        "published": 73
+      },
+      "23": {
+        "todas": 726,
+        "published": 63
+      }
+    },
+    "2009.09": {
+      "0": {
+        "todas": 666,
+        "published": 56
+      },
+      "1": {
+        "todas": 465,
+        "published": 16
+      },
+      "2": {
+        "todas": 302,
+        "published": 18
+      },
+      "3": {
+        "todas": 202,
+        "published": 12
+      },
+      "4": {
+        "todas": 159,
+        "published": 6
+      },
+      "5": {
+        "todas": 114,
+        "published": 5
+      },
+      "6": {
+        "todas": 150,
+        "published": 14
+      },
+      "7": {
+        "todas": 244,
+        "published": 21
+      },
+      "8": {
+        "todas": 592,
+        "published": 36
+      },
+      "9": {
+        "todas": 986,
+        "published": 63
+      },
+      "10": {
+        "todas": 1195,
+        "published": 66
+      },
+      "11": {
+        "todas": 1330,
+        "published": 97
+      },
+      "12": {
+        "todas": 1394,
+        "published": 92
+      },
+      "13": {
+        "todas": 1371,
+        "published": 105
+      },
+      "14": {
+        "todas": 1165,
+        "published": 85
+      },
+      "15": {
+        "todas": 986,
+        "published": 87
+      },
+      "16": {
+        "todas": 1208,
+        "published": 84
+      },
+      "17": {
+        "todas": 1241,
+        "published": 89
+      },
+      "18": {
+        "todas": 1183,
+        "published": 76
+      },
+      "19": {
+        "todas": 1086,
+        "published": 90
+      },
+      "20": {
+        "todas": 1103,
+        "published": 80
+      },
+      "21": {
+        "todas": 960,
+        "published": 74
+      },
+      "22": {
+        "todas": 911,
+        "published": 87
+      },
+      "23": {
+        "todas": 832,
+        "published": 80
+      }
+    },
+    "2009.1": {
+      "0": {
+        "todas": 724,
+        "published": 87
+      },
+      "1": {
+        "todas": 439,
+        "published": 35
+      },
+      "2": {
+        "todas": 291,
+        "published": 22
+      },
+      "3": {
+        "todas": 172,
+        "published": 12
+      },
+      "4": {
+        "todas": 157,
         "published": 6
       },
       "5": {
@@ -6477,9897 +9025,7349 @@ var mensual = {
         "published": 5
       },
       "6": {
-        "todas": 162,
-        "published": 5
+        "todas": 176,
+        "published": 17
       },
       "7": {
-        "todas": 183,
-        "published": 16
+        "todas": 289,
+        "published": 21
       },
       "8": {
-        "todas": 453,
-        "published": 29
-      },
-      "9": {
-        "todas": 655,
-        "published": 60
-      },
-      "10": {
-        "todas": 763,
-        "published": 73
-      },
-      "11": {
-        "todas": 840,
-        "published": 82
-      },
-      "12": {
-        "todas": 943,
-        "published": 82
-      },
-      "13": {
-        "todas": 937,
-        "published": 90
-      },
-      "14": {
-        "todas": 825,
-        "published": 67
-      },
-      "15": {
-        "todas": 691,
-        "published": 73
-      },
-      "16": {
-        "todas": 742,
-        "published": 70
-      },
-      "17": {
-        "todas": 818,
-        "published": 69
-      },
-      "18": {
-        "todas": 799,
-        "published": 59
-      },
-      "19": {
-        "todas": 693,
-        "published": 60
-      },
-      "20": {
-        "todas": 730,
-        "published": 67
-      },
-      "21": {
-        "todas": 642,
-        "published": 65
-      },
-      "22": {
-        "todas": 592,
-        "published": 51
-      },
-      "23": {
-        "todas": 552,
-        "published": 56
-      }
-    },
-    "2007.09": {
-      "0": {
-        "todas": 595,
-        "published": 39
-      },
-      "1": {
-        "todas": 464,
-        "published": 28
-      },
-      "2": {
-        "todas": 330,
-        "published": 11
-      },
-      "3": {
-        "todas": 256,
-        "published": 16
-      },
-      "4": {
-        "todas": 188,
-        "published": 13
-      },
-      "5": {
-        "todas": 150,
-        "published": 7
-      },
-      "6": {
-        "todas": 134,
-        "published": 15
-      },
-      "7": {
-        "todas": 201,
-        "published": 13
-      },
-      "8": {
-        "todas": 508,
+        "todas": 634,
         "published": 37
       },
       "9": {
-        "todas": 716,
-        "published": 70
+        "todas": 957,
+        "published": 72
       },
       "10": {
-        "todas": 819,
-        "published": 84
+        "todas": 1229,
+        "published": 91
       },
       "11": {
-        "todas": 907,
-        "published": 95
+        "todas": 1357,
+        "published": 127
       },
       "12": {
-        "todas": 980,
+        "todas": 1418,
         "published": 109
       },
       "13": {
-        "todas": 988,
-        "published": 111
-      },
-      "14": {
-        "todas": 900,
-        "published": 105
-      },
-      "15": {
-        "todas": 832,
-        "published": 71
-      },
-      "16": {
-        "todas": 939,
-        "published": 91
-      },
-      "17": {
-        "todas": 987,
-        "published": 75
-      },
-      "18": {
-        "todas": 942,
-        "published": 61
-      },
-      "19": {
-        "todas": 894,
-        "published": 63
-      },
-      "20": {
-        "todas": 851,
-        "published": 66
-      },
-      "21": {
-        "todas": 811,
-        "published": 65
-      },
-      "22": {
-        "todas": 722,
-        "published": 75
-      },
-      "23": {
-        "todas": 727,
-        "published": 64
-      }
-    },
-    "2007.1": {
-      "0": {
-        "todas": 699,
-        "published": 45
-      },
-      "1": {
-        "todas": 443,
-        "published": 28
-      },
-      "2": {
-        "todas": 335,
-        "published": 18
-      },
-      "3": {
-        "todas": 194,
-        "published": 14
-      },
-      "4": {
-        "todas": 180,
-        "published": 7
-      },
-      "5": {
-        "todas": 169,
-        "published": 8
-      },
-      "6": {
-        "todas": 205,
-        "published": 15
-      },
-      "7": {
-        "todas": 261,
-        "published": 18
-      },
-      "8": {
-        "todas": 496,
-        "published": 48
-      },
-      "9": {
-        "todas": 844,
-        "published": 89
-      },
-      "10": {
-        "todas": 944,
-        "published": 92
-      },
-      "11": {
-        "todas": 977,
-        "published": 98
-      },
-      "12": {
-        "todas": 1132,
-        "published": 112
-      },
-      "13": {
-        "todas": 1156,
-        "published": 111
-      },
-      "14": {
-        "todas": 1026,
-        "published": 93
-      },
-      "15": {
-        "todas": 887,
-        "published": 84
-      },
-      "16": {
-        "todas": 1056,
-        "published": 91
-      },
-      "17": {
-        "todas": 1053,
-        "published": 89
-      },
-      "18": {
-        "todas": 1014,
-        "published": 75
-      },
-      "19": {
-        "todas": 881,
-        "published": 69
-      },
-      "20": {
-        "todas": 914,
-        "published": 79
-      },
-      "21": {
-        "todas": 870,
-        "published": 76
-      },
-      "22": {
-        "todas": 749,
-        "published": 69
-      },
-      "23": {
-        "todas": 804,
-        "published": 61
-      }
-    },
-    "2007.11": {
-      "0": {
-        "todas": 604,
-        "published": 56
-      },
-      "1": {
-        "todas": 424,
-        "published": 39
-      },
-      "2": {
-        "todas": 297,
-        "published": 21
-      },
-      "3": {
-        "todas": 200,
-        "published": 15
-      },
-      "4": {
-        "todas": 164,
-        "published": 6
-      },
-      "5": {
-        "todas": 159,
-        "published": 5
-      },
-      "6": {
-        "todas": 168,
-        "published": 7
-      },
-      "7": {
-        "todas": 228,
-        "published": 11
-      },
-      "8": {
-        "todas": 550,
-        "published": 43
-      },
-      "9": {
-        "todas": 894,
-        "published": 74
-      },
-      "10": {
-        "todas": 963,
-        "published": 107
-      },
-      "11": {
-        "todas": 1018,
-        "published": 98
-      },
-      "12": {
-        "todas": 1112,
-        "published": 123
-      },
-      "13": {
-        "todas": 1132,
-        "published": 118
-      },
-      "14": {
-        "todas": 988,
-        "published": 96
-      },
-      "15": {
-        "todas": 886,
-        "published": 86
-      },
-      "16": {
-        "todas": 1072,
-        "published": 95
-      },
-      "17": {
-        "todas": 1027,
-        "published": 80
-      },
-      "18": {
-        "todas": 987,
-        "published": 95
-      },
-      "19": {
-        "todas": 880,
-        "published": 70
-      },
-      "20": {
-        "todas": 1011,
-        "published": 87
-      },
-      "21": {
-        "todas": 807,
-        "published": 79
-      },
-      "22": {
-        "todas": 723,
-        "published": 76
-      },
-      "23": {
-        "todas": 734,
-        "published": 69
-      }
-    },
-    "2007.12": {
-      "0": {
-        "todas": 623,
-        "published": 48
-      },
-      "1": {
-        "todas": 414,
-        "published": 27
-      },
-      "2": {
-        "todas": 333,
-        "published": 18
-      },
-      "3": {
-        "todas": 193,
-        "published": 6
-      },
-      "4": {
-        "todas": 194,
-        "published": 9
-      },
-      "5": {
-        "todas": 198,
-        "published": 5
-      },
-      "6": {
-        "todas": 172,
-        "published": 7
-      },
-      "7": {
-        "todas": 194,
-        "published": 19
-      },
-      "8": {
-        "todas": 470,
-        "published": 42
-      },
-      "9": {
-        "todas": 737,
-        "published": 54
-      },
-      "10": {
-        "todas": 934,
-        "published": 90
-      },
-      "11": {
-        "todas": 999,
-        "published": 92
-      },
-      "12": {
-        "todas": 1071,
-        "published": 106
-      },
-      "13": {
-        "todas": 1097,
-        "published": 97
-      },
-      "14": {
-        "todas": 1023,
-        "published": 99
-      },
-      "15": {
-        "todas": 978,
-        "published": 89
-      },
-      "16": {
-        "todas": 1028,
-        "published": 81
-      },
-      "17": {
-        "todas": 1015,
-        "published": 88
-      },
-      "18": {
-        "todas": 938,
-        "published": 79
-      },
-      "19": {
-        "todas": 937,
-        "published": 72
-      },
-      "20": {
-        "todas": 917,
-        "published": 89
-      },
-      "21": {
-        "todas": 815,
-        "published": 74
-      },
-      "22": {
-        "todas": 671,
-        "published": 71
-      },
-      "23": {
-        "todas": 680,
-        "published": 71
-      }
-    },
-    "2008.01": {
-      "0": {
-        "todas": 573,
-        "published": 55
-      },
-      "1": {
-        "todas": 387,
-        "published": 25
-      },
-      "2": {
-        "todas": 285,
-        "published": 17
-      },
-      "3": {
-        "todas": 237,
-        "published": 11
-      },
-      "4": {
-        "todas": 178,
-        "published": 10
-      },
-      "5": {
-        "todas": 136,
-        "published": 6
-      },
-      "6": {
-        "todas": 138,
-        "published": 7
-      },
-      "7": {
-        "todas": 213,
-        "published": 17
-      },
-      "8": {
-        "todas": 420,
-        "published": 39
-      },
-      "9": {
-        "todas": 640,
-        "published": 74
-      },
-      "10": {
-        "todas": 771,
-        "published": 75
-      },
-      "11": {
-        "todas": 909,
-        "published": 107
-      },
-      "12": {
-        "todas": 1051,
-        "published": 110
-      },
-      "13": {
-        "todas": 972,
-        "published": 103
-      },
-      "14": {
-        "todas": 1046,
-        "published": 108
-      },
-      "15": {
-        "todas": 860,
-        "published": 94
-      },
-      "16": {
-        "todas": 1027,
-        "published": 86
-      },
-      "17": {
-        "todas": 1062,
-        "published": 99
-      },
-      "18": {
-        "todas": 905,
-        "published": 79
-      },
-      "19": {
-        "todas": 896,
-        "published": 72
-      },
-      "20": {
-        "todas": 915,
-        "published": 68
-      },
-      "21": {
-        "todas": 840,
-        "published": 78
-      },
-      "22": {
-        "todas": 740,
-        "published": 60
-      },
-      "23": {
-        "todas": 674,
-        "published": 66
-      }
-    },
-    "2008.02": {
-      "0": {
-        "todas": 653,
-        "published": 45
-      },
-      "1": {
-        "todas": 458,
-        "published": 25
-      },
-      "2": {
-        "todas": 296,
-        "published": 11
-      },
-      "3": {
-        "todas": 203,
-        "published": 6
-      },
-      "4": {
-        "todas": 168,
-        "published": 12
-      },
-      "5": {
-        "todas": 165,
-        "published": 8
-      },
-      "6": {
-        "todas": 165,
-        "published": 16
-      },
-      "7": {
-        "todas": 202,
-        "published": 17
-      },
-      "8": {
-        "todas": 457,
-        "published": 42
-      },
-      "9": {
-        "todas": 879,
-        "published": 72
-      },
-      "10": {
-        "todas": 1007,
-        "published": 67
-      },
-      "11": {
-        "todas": 1003,
-        "published": 98
-      },
-      "12": {
-        "todas": 1137,
-        "published": 110
-      },
-      "13": {
-        "todas": 1203,
+        "todas": 1426,
         "published": 125
       },
       "14": {
-        "todas": 995,
-        "published": 98
-      },
-      "15": {
-        "todas": 989,
-        "published": 90
-      },
-      "16": {
-        "todas": 1065,
-        "published": 87
-      },
-      "17": {
-        "todas": 1103,
-        "published": 98
-      },
-      "18": {
-        "todas": 1077,
+        "todas": 1273,
         "published": 86
       },
-      "19": {
-        "todas": 996,
-        "published": 88
-      },
-      "20": {
-        "todas": 975,
-        "published": 76
-      },
-      "21": {
-        "todas": 852,
-        "published": 83
-      },
-      "22": {
-        "todas": 765,
-        "published": 63
-      },
-      "23": {
-        "todas": 735,
-        "published": 69
-      }
-    },
-    "2008.03": {
-      "0": {
-        "todas": 635,
-        "published": 50
-      },
-      "1": {
-        "todas": 508,
-        "published": 41
-      },
-      "2": {
-        "todas": 321,
-        "published": 10
-      },
-      "3": {
-        "todas": 246,
-        "published": 9
-      },
-      "4": {
-        "todas": 193,
-        "published": 5
-      },
-      "5": {
-        "todas": 188,
-        "published": 11
-      },
-      "6": {
-        "todas": 161,
-        "published": 8
-      },
-      "7": {
-        "todas": 272,
-        "published": 22
-      },
-      "8": {
-        "todas": 389,
-        "published": 28
-      },
-      "9": {
-        "todas": 720,
-        "published": 58
-      },
-      "10": {
-        "todas": 902,
+      "15": {
+        "todas": 1147,
         "published": 82
       },
-      "11": {
-        "todas": 1012,
-        "published": 100
-      },
-      "12": {
-        "todas": 1184,
-        "published": 106
-      },
-      "13": {
-        "todas": 1195,
-        "published": 102
-      },
-      "14": {
-        "todas": 1036,
-        "published": 108
-      },
-      "15": {
-        "todas": 959,
+      "16": {
+        "todas": 1239,
         "published": 94
       },
-      "16": {
-        "todas": 1078,
-        "published": 102
-      },
       "17": {
-        "todas": 1153,
-        "published": 84
-      },
-      "18": {
-        "todas": 1081,
-        "published": 87
-      },
-      "19": {
-        "todas": 1080,
-        "published": 85
-      },
-      "20": {
-        "todas": 975,
-        "published": 74
-      },
-      "21": {
-        "todas": 895,
-        "published": 89
-      },
-      "22": {
-        "todas": 754,
-        "published": 79
-      },
-      "23": {
-        "todas": 671,
-        "published": 70
-      }
-    },
-    "2008.04": {
-      "0": {
-        "todas": 783,
-        "published": 62
-      },
-      "1": {
-        "todas": 520,
-        "published": 40
-      },
-      "2": {
-        "todas": 336,
-        "published": 22
-      },
-      "3": {
-        "todas": 233,
-        "published": 18
-      },
-      "4": {
-        "todas": 220,
-        "published": 15
-      },
-      "5": {
-        "todas": 186,
-        "published": 6
-      },
-      "6": {
-        "todas": 219,
-        "published": 11
-      },
-      "7": {
-        "todas": 285,
-        "published": 18
-      },
-      "8": {
-        "todas": 493,
-        "published": 25
-      },
-      "9": {
-        "todas": 970,
-        "published": 63
-      },
-      "10": {
-        "todas": 1110,
-        "published": 95
-      },
-      "11": {
-        "todas": 1240,
-        "published": 102
-      },
-      "12": {
-        "todas": 1308,
-        "published": 112
-      },
-      "13": {
-        "todas": 1346,
-        "published": 151
-      },
-      "14": {
-        "todas": 1152,
-        "published": 113
-      },
-      "15": {
-        "todas": 1058,
-        "published": 105
-      },
-      "16": {
-        "todas": 1288,
-        "published": 99
-      },
-      "17": {
-        "todas": 1306,
-        "published": 105
-      },
-      "18": {
-        "todas": 1341,
-        "published": 84
-      },
-      "19": {
-        "todas": 1225,
-        "published": 89
-      },
-      "20": {
-        "todas": 1204,
-        "published": 87
-      },
-      "21": {
-        "todas": 1011,
-        "published": 83
-      },
-      "22": {
-        "todas": 917,
-        "published": 96
-      },
-      "23": {
-        "todas": 864,
-        "published": 88
-      }
-    },
-    "2008.05": {
-      "0": {
-        "todas": 836,
-        "published": 55
-      },
-      "1": {
-        "todas": 576,
-        "published": 38
-      },
-      "2": {
-        "todas": 385,
-        "published": 14
-      },
-      "3": {
-        "todas": 293,
-        "published": 10
-      },
-      "4": {
-        "todas": 242,
-        "published": 14
-      },
-      "5": {
-        "todas": 184,
-        "published": 4
-      },
-      "6": {
-        "todas": 170,
-        "published": 11
-      },
-      "7": {
-        "todas": 272,
-        "published": 21
-      },
-      "8": {
-        "todas": 513,
-        "published": 38
-      },
-      "9": {
-        "todas": 912,
-        "published": 65
-      },
-      "10": {
-        "todas": 1131,
-        "published": 78
-      },
-      "11": {
-        "todas": 1214,
-        "published": 113
-      },
-      "12": {
-        "todas": 1334,
-        "published": 115
-      },
-      "13": {
-        "todas": 1297,
-        "published": 115
-      },
-      "14": {
-        "todas": 1082,
-        "published": 87
-      },
-      "15": {
-        "todas": 1100,
-        "published": 92
-      },
-      "16": {
-        "todas": 1244,
-        "published": 76
-      },
-      "17": {
-        "todas": 1365,
-        "published": 95
+        "todas": 1255,
+        "published": 91
       },
       "18": {
         "todas": 1252,
-        "published": 99
-      },
-      "19": {
-        "todas": 1204,
-        "published": 91
-      },
-      "20": {
-        "todas": 1176,
-        "published": 78
-      },
-      "21": {
-        "todas": 1050,
-        "published": 85
-      },
-      "22": {
-        "todas": 982,
-        "published": 86
-      },
-      "23": {
-        "todas": 932,
-        "published": 74
-      }
-    },
-    "2008.06": {
-      "0": {
-        "todas": 844,
-        "published": 68
-      },
-      "1": {
-        "todas": 551,
-        "published": 35
-      },
-      "2": {
-        "todas": 412,
-        "published": 21
-      },
-      "3": {
-        "todas": 253,
-        "published": 17
-      },
-      "4": {
-        "todas": 174,
-        "published": 5
-      },
-      "5": {
-        "todas": 200,
-        "published": 11
-      },
-      "6": {
-        "todas": 186,
-        "published": 13
-      },
-      "7": {
-        "todas": 297,
-        "published": 17
-      },
-      "8": {
-        "todas": 583,
-        "published": 41
-      },
-      "9": {
-        "todas": 1008,
-        "published": 102
-      },
-      "10": {
-        "todas": 1164,
-        "published": 110
-      },
-      "11": {
-        "todas": 1288,
-        "published": 146
-      },
-      "12": {
-        "todas": 1469,
-        "published": 173
-      },
-      "13": {
-        "todas": 1380,
-        "published": 137
-      },
-      "14": {
-        "todas": 1150,
-        "published": 104
-      },
-      "15": {
-        "todas": 1226,
-        "published": 106
-      },
-      "16": {
-        "todas": 1416,
-        "published": 115
-      },
-      "17": {
-        "todas": 1384,
-        "published": 122
-      },
-      "18": {
-        "todas": 1275,
-        "published": 99
-      },
-      "19": {
-        "todas": 1291,
-        "published": 86
-      },
-      "20": {
-        "todas": 1233,
-        "published": 91
-      },
-      "21": {
-        "todas": 1050,
-        "published": 106
-      },
-      "22": {
-        "todas": 997,
-        "published": 97
-      },
-      "23": {
-        "todas": 953,
-        "published": 94
-      }
-    },
-    "2008.07": {
-      "0": {
-        "todas": 803,
-        "published": 66
-      },
-      "1": {
-        "todas": 587,
-        "published": 30
-      },
-      "2": {
-        "todas": 403,
-        "published": 23
-      },
-      "3": {
-        "todas": 280,
-        "published": 14
-      },
-      "4": {
-        "todas": 155,
-        "published": 9
-      },
-      "5": {
-        "todas": 159,
-        "published": 8
-      },
-      "6": {
-        "todas": 185,
-        "published": 9
-      },
-      "7": {
-        "todas": 248,
-        "published": 16
-      },
-      "8": {
-        "todas": 666,
-        "published": 58
-      },
-      "9": {
-        "todas": 1033,
-        "published": 105
-      },
-      "10": {
-        "todas": 1247,
-        "published": 129
-      },
-      "11": {
-        "todas": 1301,
-        "published": 135
-      },
-      "12": {
-        "todas": 1448,
-        "published": 152
-      },
-      "13": {
-        "todas": 1412,
-        "published": 150
-      },
-      "14": {
-        "todas": 1222,
-        "published": 120
-      },
-      "15": {
-        "todas": 1139,
-        "published": 111
-      },
-      "16": {
-        "todas": 1233,
-        "published": 119
-      },
-      "17": {
-        "todas": 1235,
-        "published": 99
-      },
-      "18": {
-        "todas": 1259,
-        "published": 98
-      },
-      "19": {
-        "todas": 1109,
-        "published": 86
-      },
-      "20": {
-        "todas": 1118,
-        "published": 105
-      },
-      "21": {
-        "todas": 1023,
-        "published": 92
-      },
-      "22": {
-        "todas": 923,
-        "published": 75
-      },
-      "23": {
-        "todas": 977,
-        "published": 83
-      }
-    },
-    "2008.08": {
-      "0": {
-        "todas": 662,
-        "published": 49
-      },
-      "1": {
-        "todas": 466,
-        "published": 24
-      },
-      "2": {
-        "todas": 371,
-        "published": 21
-      },
-      "3": {
-        "todas": 230,
-        "published": 11
-      },
-      "4": {
-        "todas": 184,
-        "published": 8
-      },
-      "5": {
-        "todas": 181,
-        "published": 9
-      },
-      "6": {
-        "todas": 201,
-        "published": 10
-      },
-      "7": {
-        "todas": 259,
-        "published": 16
-      },
-      "8": {
-        "todas": 564,
-        "published": 38
-      },
-      "9": {
-        "todas": 855,
-        "published": 80
-      },
-      "10": {
-        "todas": 1094,
-        "published": 105
-      },
-      "11": {
-        "todas": 1221,
-        "published": 122
-      },
-      "12": {
-        "todas": 1161,
-        "published": 124
-      },
-      "13": {
-        "todas": 1285,
-        "published": 144
-      },
-      "14": {
-        "todas": 1094,
-        "published": 106
-      },
-      "15": {
-        "todas": 1009,
         "published": 90
       },
-      "16": {
-        "todas": 1096,
-        "published": 89
-      },
-      "17": {
-        "todas": 1135,
-        "published": 100
-      },
-      "18": {
-        "todas": 1167,
-        "published": 80
-      },
       "19": {
-        "todas": 1046,
-        "published": 77
+        "todas": 1159,
+        "published": 82
       },
       "20": {
-        "todas": 1021,
+        "todas": 1160,
         "published": 86
-      },
-      "21": {
-        "todas": 873,
-        "published": 59
-      },
-      "22": {
-        "todas": 849,
-        "published": 65
-      },
-      "23": {
-        "todas": 764,
-        "published": 81
-      }
-    },
-    "2008.09": {
-      "0": {
-        "todas": 753,
-        "published": 61
-      },
-      "1": {
-        "todas": 558,
-        "published": 39
-      },
-      "2": {
-        "todas": 383,
-        "published": 23
-      },
-      "3": {
-        "todas": 218,
-        "published": 15
-      },
-      "4": {
-        "todas": 173,
-        "published": 10
-      },
-      "5": {
-        "todas": 165,
-        "published": 5
-      },
-      "6": {
-        "todas": 147,
-        "published": 6
-      },
-      "7": {
-        "todas": 235,
-        "published": 23
-      },
-      "8": {
-        "todas": 587,
-        "published": 42
-      },
-      "9": {
-        "todas": 1013,
-        "published": 80
-      },
-      "10": {
-        "todas": 1187,
-        "published": 97
-      },
-      "11": {
-        "todas": 1237,
-        "published": 125
-      },
-      "12": {
-        "todas": 1442,
-        "published": 109
-      },
-      "13": {
-        "todas": 1380,
-        "published": 122
-      },
-      "14": {
-        "todas": 1295,
-        "published": 109
-      },
-      "15": {
-        "todas": 1142,
-        "published": 107
-      },
-      "16": {
-        "todas": 1288,
-        "published": 85
-      },
-      "17": {
-        "todas": 1292,
-        "published": 98
-      },
-      "18": {
-        "todas": 1326,
-        "published": 91
-      },
-      "19": {
-        "todas": 1214,
-        "published": 74
-      },
-      "20": {
-        "todas": 1147,
-        "published": 75
-      },
-      "21": {
-        "todas": 1064,
-        "published": 86
-      },
-      "22": {
-        "todas": 955,
-        "published": 84
-      },
-      "23": {
-        "todas": 920,
-        "published": 81
-      }
-    },
-    "2008.1": {
-      "0": {
-        "todas": 870,
-        "published": 57
-      },
-      "1": {
-        "todas": 559,
-        "published": 33
-      },
-      "2": {
-        "todas": 340,
-        "published": 16
-      },
-      "3": {
-        "todas": 221,
-        "published": 7
-      },
-      "4": {
-        "todas": 159,
-        "published": 6
-      },
-      "5": {
-        "todas": 153,
-        "published": 3
-      },
-      "6": {
-        "todas": 207,
-        "published": 10
-      },
-      "7": {
-        "todas": 354,
-        "published": 15
-      },
-      "8": {
-        "todas": 765,
-        "published": 31
-      },
-      "9": {
-        "todas": 1202,
-        "published": 60
-      },
-      "10": {
-        "todas": 1423,
-        "published": 115
-      },
-      "11": {
-        "todas": 1378,
-        "published": 126
-      },
-      "12": {
-        "todas": 1466,
-        "published": 137
-      },
-      "13": {
-        "todas": 1462,
-        "published": 126
-      },
-      "14": {
-        "todas": 1393,
-        "published": 104
-      },
-      "15": {
-        "todas": 1258,
-        "published": 108
-      },
-      "16": {
-        "todas": 1369,
-        "published": 114
-      },
-      "17": {
-        "todas": 1427,
-        "published": 107
-      },
-      "18": {
-        "todas": 1352,
-        "published": 89
-      },
-      "19": {
-        "todas": 1247,
-        "published": 84
-      },
-      "20": {
-        "todas": 1321,
-        "published": 83
-      },
-      "21": {
-        "todas": 1157,
-        "published": 77
-      },
-      "22": {
-        "todas": 1196,
-        "published": 88
-      },
-      "23": {
-        "todas": 978,
-        "published": 88
-      }
-    },
-    "2008.11": {
-      "0": {
-        "todas": 679,
-        "published": 45
-      },
-      "1": {
-        "todas": 474,
-        "published": 33
-      },
-      "2": {
-        "todas": 288,
-        "published": 12
-      },
-      "3": {
-        "todas": 189,
-        "published": 10
-      },
-      "4": {
-        "todas": 150,
-        "published": 8
-      },
-      "5": {
-        "todas": 112,
-        "published": 5
-      },
-      "6": {
-        "todas": 139,
-        "published": 6
-      },
-      "7": {
-        "todas": 300,
-        "published": 16
-      },
-      "8": {
-        "todas": 647,
-        "published": 40
-      },
-      "9": {
-        "todas": 1058,
-        "published": 69
-      },
-      "10": {
-        "todas": 1172,
-        "published": 91
-      },
-      "11": {
-        "todas": 1243,
-        "published": 116
-      },
-      "12": {
-        "todas": 1346,
-        "published": 113
-      },
-      "13": {
-        "todas": 1430,
-        "published": 123
-      },
-      "14": {
-        "todas": 1164,
-        "published": 97
-      },
-      "15": {
-        "todas": 1075,
-        "published": 87
-      },
-      "16": {
-        "todas": 1270,
-        "published": 95
-      },
-      "17": {
-        "todas": 1204,
-        "published": 103
-      },
-      "18": {
-        "todas": 1194,
-        "published": 81
-      },
-      "19": {
-        "todas": 1195,
-        "published": 84
-      },
-      "20": {
-        "todas": 1170,
-        "published": 85
-      },
-      "21": {
-        "todas": 986,
-        "published": 75
-      },
-      "22": {
-        "todas": 983,
-        "published": 67
-      },
-      "23": {
-        "todas": 857,
-        "published": 63
-      }
-    },
-    "2008.12": {
-      "0": {
-        "todas": 709,
-        "published": 53
-      },
-      "1": {
-        "todas": 473,
-        "published": 27
-      },
-      "2": {
-        "todas": 299,
-        "published": 22
-      },
-      "3": {
-        "todas": 189,
-        "published": 8
-      },
-      "4": {
-        "todas": 113,
-        "published": 9
-      },
-      "5": {
-        "todas": 120,
-        "published": 5
-      },
-      "6": {
-        "todas": 112,
-        "published": 8
-      },
-      "7": {
-        "todas": 264,
-        "published": 10
-      },
-      "8": {
-        "todas": 586,
-        "published": 26
-      },
-      "9": {
-        "todas": 942,
-        "published": 62
-      },
-      "10": {
-        "todas": 1096,
-        "published": 76
-      },
-      "11": {
-        "todas": 1166,
-        "published": 85
-      },
-      "12": {
-        "todas": 1347,
-        "published": 112
-      },
-      "13": {
-        "todas": 1363,
-        "published": 111
-      },
-      "14": {
-        "todas": 1209,
-        "published": 83
-      },
-      "15": {
-        "todas": 1028,
-        "published": 89
-      },
-      "16": {
-        "todas": 1145,
-        "published": 107
-      },
-      "17": {
-        "todas": 1177,
-        "published": 109
-      },
-      "18": {
-        "todas": 1090,
-        "published": 103
-      },
-      "19": {
-        "todas": 1146,
-        "published": 84
-      },
-      "20": {
-        "todas": 1074,
-        "published": 66
       },
       "21": {
         "todas": 1068,
-        "published": 82
+        "published": 75
       },
       "22": {
-        "todas": 876,
-        "published": 65
-      },
-      "23": {
-        "todas": 826,
-        "published": 64
-      }
-    },
-    "2009.01": {
-      "0": {
-        "todas": 717,
-        "published": 57
-      },
-      "1": {
-        "todas": 494,
-        "published": 38
-      },
-      "2": {
-        "todas": 314,
-        "published": 27
-      },
-      "3": {
-        "todas": 224,
-        "published": 21
-      },
-      "4": {
-        "todas": 127,
-        "published": 8
-      },
-      "5": {
-        "todas": 111,
-        "published": 8
-      },
-      "6": {
-        "todas": 136,
-        "published": 14
-      },
-      "7": {
-        "todas": 216,
-        "published": 19
-      },
-      "8": {
-        "todas": 419,
-        "published": 26
-      },
-      "9": {
-        "todas": 769,
-        "published": 53
-      },
-      "10": {
-        "todas": 941,
-        "published": 79
-      },
-      "11": {
-        "todas": 1229,
-        "published": 111
-      },
-      "12": {
-        "todas": 1281,
-        "published": 119
-      },
-      "13": {
-        "todas": 1364,
-        "published": 136
-      },
-      "14": {
-        "todas": 1092,
-        "published": 122
-      },
-      "15": {
-        "todas": 1040,
-        "published": 95
-      },
-      "16": {
-        "todas": 1188,
-        "published": 95
-      },
-      "17": {
-        "todas": 1187,
-        "published": 95
-      },
-      "18": {
-        "todas": 1194,
-        "published": 97
-      },
-      "19": {
-        "todas": 1267,
-        "published": 100
-      },
-      "20": {
-        "todas": 1189,
-        "published": 104
-      },
-      "21": {
-        "todas": 1051,
-        "published": 99
-      },
-      "22": {
-        "todas": 817,
-        "published": 103
-      },
-      "23": {
-        "todas": 750,
-        "published": 91
-      }
-    },
-    "2009.02": {
-      "0": {
-        "todas": 707,
-        "published": 54
-      },
-      "1": {
-        "todas": 444,
-        "published": 32
-      },
-      "2": {
-        "todas": 273,
-        "published": 26
-      },
-      "3": {
-        "todas": 175,
-        "published": 11
-      },
-      "4": {
-        "todas": 144,
-        "published": 12
-      },
-      "5": {
-        "todas": 108,
-        "published": 6
-      },
-      "6": {
-        "todas": 135,
-        "published": 9
-      },
-      "7": {
-        "todas": 306,
-        "published": 14
-      },
-      "8": {
-        "todas": 550,
-        "published": 38
-      },
-      "9": {
-        "todas": 1049,
-        "published": 79
-      },
-      "10": {
-        "todas": 1230,
-        "published": 93
-      },
-      "11": {
-        "todas": 1317,
-        "published": 114
-      },
-      "12": {
-        "todas": 1404,
-        "published": 133
-      },
-      "13": {
-        "todas": 1493,
-        "published": 123
-      },
-      "14": {
-        "todas": 1320,
-        "published": 114
-      },
-      "15": {
-        "todas": 1203,
-        "published": 104
-      },
-      "16": {
-        "todas": 1357,
-        "published": 111
-      },
-      "17": {
-        "todas": 1385,
-        "published": 125
-      },
-      "18": {
-        "todas": 1350,
-        "published": 97
-      },
-      "19": {
-        "todas": 1379,
-        "published": 102
-      },
-      "20": {
-        "todas": 1354,
-        "published": 103
-      },
-      "21": {
-        "todas": 1161,
-        "published": 78
-      },
-      "22": {
-        "todas": 1000,
-        "published": 101
-      },
-      "23": {
-        "todas": 884,
-        "published": 93
-      }
-    },
-    "2009.03": {
-      "0": {
-        "todas": 669,
-        "published": 66
-      },
-      "1": {
-        "todas": 428,
-        "published": 41
-      },
-      "2": {
-        "todas": 301,
-        "published": 34
-      },
-      "3": {
-        "todas": 185,
-        "published": 8
-      },
-      "4": {
-        "todas": 141,
-        "published": 9
-      },
-      "5": {
-        "todas": 95,
-        "published": 3
-      },
-      "6": {
-        "todas": 138,
-        "published": 7
-      },
-      "7": {
-        "todas": 351,
-        "published": 20
-      },
-      "8": {
-        "todas": 651,
-        "published": 30
-      },
-      "9": {
-        "todas": 1125,
-        "published": 77
-      },
-      "10": {
-        "todas": 1341,
-        "published": 109
-      },
-      "11": {
-        "todas": 1375,
-        "published": 125
-      },
-      "12": {
-        "todas": 1587,
-        "published": 153
-      },
-      "13": {
-        "todas": 1571,
-        "published": 151
-      },
-      "14": {
-        "todas": 1315,
-        "published": 116
-      },
-      "15": {
-        "todas": 1289,
-        "published": 97
-      },
-      "16": {
-        "todas": 1415,
-        "published": 115
-      },
-      "17": {
-        "todas": 1369,
-        "published": 128
-      },
-      "18": {
-        "todas": 1353,
-        "published": 89
-      },
-      "19": {
-        "todas": 1318,
-        "published": 111
-      },
-      "20": {
-        "todas": 1311,
-        "published": 93
-      },
-      "21": {
-        "todas": 1147,
-        "published": 108
-      },
-      "22": {
-        "todas": 940,
-        "published": 93
-      },
-      "23": {
-        "todas": 870,
-        "published": 86
-      }
-    },
-    "2009.04": {
-      "0": {
-        "todas": 724,
-        "published": 57
-      },
-      "1": {
-        "todas": 511,
-        "published": 35
-      },
-      "2": {
-        "todas": 319,
-        "published": 30
-      },
-      "3": {
-        "todas": 221,
-        "published": 15
-      },
-      "4": {
-        "todas": 140,
-        "published": 9
-      },
-      "5": {
-        "todas": 138,
-        "published": 5
-      },
-      "6": {
-        "todas": 116,
-        "published": 9
-      },
-      "7": {
-        "todas": 229,
-        "published": 14
-      },
-      "8": {
-        "todas": 575,
-        "published": 40
-      },
-      "9": {
-        "todas": 950,
-        "published": 67
-      },
-      "10": {
-        "todas": 1205,
-        "published": 89
-      },
-      "11": {
-        "todas": 1337,
-        "published": 132
-      },
-      "12": {
-        "todas": 1436,
-        "published": 146
-      },
-      "13": {
-        "todas": 1392,
-        "published": 143
-      },
-      "14": {
-        "todas": 1183,
-        "published": 105
-      },
-      "15": {
-        "todas": 1089,
-        "published": 97
-      },
-      "16": {
-        "todas": 1336,
-        "published": 111
-      },
-      "17": {
-        "todas": 1274,
-        "published": 119
-      },
-      "18": {
-        "todas": 1280,
-        "published": 91
-      },
-      "19": {
-        "todas": 1228,
-        "published": 106
-      },
-      "20": {
-        "todas": 1144,
+        "todas": 869,
         "published": 88
       },
-      "21": {
-        "todas": 1034,
-        "published": 77
-      },
-      "22": {
-        "todas": 944,
-        "published": 75
-      },
       "23": {
-        "todas": 889,
-        "published": 85
-      }
-    },
-    "2009.05": {
-      "0": {
-        "todas": 820,
-        "published": 61
-      },
-      "1": {
-        "todas": 525,
-        "published": 35
-      },
-      "2": {
-        "todas": 289,
-        "published": 28
-      },
-      "3": {
-        "todas": 207,
-        "published": 13
-      },
-      "4": {
-        "todas": 146,
-        "published": 13
-      },
-      "5": {
-        "todas": 115,
-        "published": 4
-      },
-      "6": {
-        "todas": 156,
-        "published": 8
-      },
-      "7": {
-        "todas": 253,
-        "published": 15
-      },
-      "8": {
-        "todas": 582,
-        "published": 49
-      },
-      "9": {
-        "todas": 997,
-        "published": 72
-      },
-      "10": {
-        "todas": 1235,
-        "published": 93
-      },
-      "11": {
-        "todas": 1276,
-        "published": 111
-      },
-      "12": {
-        "todas": 1455,
-        "published": 137
-      },
-      "13": {
-        "todas": 1330,
-        "published": 134
-      },
-      "14": {
-        "todas": 1181,
-        "published": 81
-      },
-      "15": {
-        "todas": 1122,
-        "published": 81
-      },
-      "16": {
-        "todas": 1322,
-        "published": 105
-      },
-      "17": {
-        "todas": 1362,
-        "published": 110
-      },
-      "18": {
-        "todas": 1297,
-        "published": 87
-      },
-      "19": {
-        "todas": 1309,
-        "published": 75
-      },
-      "20": {
-        "todas": 1247,
-        "published": 91
-      },
-      "21": {
-        "todas": 1039,
-        "published": 78
-      },
-      "22": {
-        "todas": 949,
-        "published": 76
-      },
-      "23": {
-        "todas": 1016,
-        "published": 91
-      }
-    },
-    "2009.06": {
-      "0": {
-        "todas": 708,
-        "published": 61
-      },
-      "1": {
-        "todas": 493,
-        "published": 26
-      },
-      "2": {
-        "todas": 290,
-        "published": 28
-      },
-      "3": {
-        "todas": 185,
-        "published": 15
-      },
-      "4": {
-        "todas": 149,
-        "published": 12
-      },
-      "5": {
-        "todas": 123,
-        "published": 6
-      },
-      "6": {
-        "todas": 140,
-        "published": 6
-      },
-      "7": {
-        "todas": 273,
-        "published": 17
-      },
-      "8": {
-        "todas": 524,
-        "published": 38
-      },
-      "9": {
-        "todas": 938,
-        "published": 76
-      },
-      "10": {
-        "todas": 1123,
-        "published": 84
-      },
-      "11": {
-        "todas": 1320,
-        "published": 87
-      },
-      "12": {
-        "todas": 1406,
-        "published": 107
-      },
-      "13": {
-        "todas": 1334,
-        "published": 120
-      },
-      "14": {
-        "todas": 1261,
-        "published": 90
-      },
-      "15": {
-        "todas": 1089,
-        "published": 90
-      },
-      "16": {
-        "todas": 1263,
-        "published": 92
-      },
-      "17": {
-        "todas": 1233,
-        "published": 100
-      },
-      "18": {
-        "todas": 1244,
-        "published": 83
-      },
-      "19": {
-        "todas": 1169,
-        "published": 78
-      },
-      "20": {
-        "todas": 1122,
-        "published": 95
-      },
-      "21": {
-        "todas": 1052,
-        "published": 81
-      },
-      "22": {
-        "todas": 952,
-        "published": 91
-      },
-      "23": {
-        "todas": 876,
-        "published": 92
-      }
-    },
-    "2009.07": {
-      "0": {
-        "todas": 740,
-        "published": 75
-      },
-      "1": {
-        "todas": 543,
-        "published": 49
-      },
-      "2": {
-        "todas": 296,
-        "published": 31
-      },
-      "3": {
-        "todas": 190,
-        "published": 13
-      },
-      "4": {
-        "todas": 134,
-        "published": 5
-      },
-      "5": {
-        "todas": 123,
-        "published": 2
-      },
-      "6": {
-        "todas": 161,
-        "published": 12
-      },
-      "7": {
-        "todas": 276,
-        "published": 19
-      },
-      "8": {
-        "todas": 587,
-        "published": 59
-      },
-      "9": {
-        "todas": 880,
-        "published": 63
-      },
-      "10": {
-        "todas": 1120,
-        "published": 95
-      },
-      "11": {
-        "todas": 1265,
-        "published": 107
-      },
-      "12": {
-        "todas": 1368,
-        "published": 131
-      },
-      "13": {
-        "todas": 1349,
-        "published": 109
-      },
-      "14": {
-        "todas": 1218,
-        "published": 93
-      },
-      "15": {
-        "todas": 1051,
-        "published": 85
-      },
-      "16": {
-        "todas": 1250,
-        "published": 112
-      },
-      "17": {
-        "todas": 1234,
-        "published": 95
-      },
-      "18": {
-        "todas": 1202,
-        "published": 87
-      },
-      "19": {
-        "todas": 1132,
+        "todas": 844,
         "published": 96
-      },
-      "20": {
-        "todas": 1015,
-        "published": 102
-      },
-      "21": {
-        "todas": 911,
-        "published": 73
-      },
-      "22": {
-        "todas": 830,
-        "published": 80
-      },
-      "23": {
-        "todas": 863,
-        "published": 76
-      }
-    },
-    "2009.08": {
-      "0": {
-        "todas": 583,
-        "published": 40
-      },
-      "1": {
-        "todas": 439,
-        "published": 33
-      },
-      "2": {
-        "todas": 296,
-        "published": 23
-      },
-      "3": {
-        "todas": 216,
-        "published": 11
-      },
-      "4": {
-        "todas": 144,
-        "published": 8
-      },
-      "5": {
-        "todas": 138,
-        "published": 8
-      },
-      "6": {
-        "todas": 165,
-        "published": 10
-      },
-      "7": {
-        "todas": 218,
-        "published": 12
-      },
-      "8": {
-        "todas": 435,
-        "published": 23
-      },
-      "9": {
-        "todas": 788,
-        "published": 60
-      },
-      "10": {
-        "todas": 1001,
-        "published": 68
-      },
-      "11": {
-        "todas": 1166,
-        "published": 99
-      },
-      "12": {
-        "todas": 1232,
-        "published": 123
-      },
-      "13": {
-        "todas": 1263,
-        "published": 93
-      },
-      "14": {
-        "todas": 1078,
-        "published": 69
-      },
-      "15": {
-        "todas": 942,
-        "published": 72
-      },
-      "16": {
-        "todas": 1030,
-        "published": 70
-      },
-      "17": {
-        "todas": 1185,
-        "published": 80
-      },
-      "18": {
-        "todas": 1057,
-        "published": 78
-      },
-      "19": {
-        "todas": 1062,
-        "published": 71
-      },
-      "20": {
-        "todas": 956,
-        "published": 73
-      },
-      "21": {
-        "todas": 845,
-        "published": 89
-      },
-      "22": {
-        "todas": 683,
-        "published": 72
-      },
-      "23": {
-        "todas": 725,
-        "published": 65
-      }
-    },
-    "2009.09": {
-      "0": {
-        "todas": 632,
-        "published": 59
-      },
-      "1": {
-        "todas": 491,
-        "published": 25
-      },
-      "2": {
-        "todas": 340,
-        "published": 15
-      },
-      "3": {
-        "todas": 213,
-        "published": 17
-      },
-      "4": {
-        "todas": 162,
-        "published": 7
-      },
-      "5": {
-        "todas": 105,
-        "published": 8
-      },
-      "6": {
-        "todas": 144,
-        "published": 12
-      },
-      "7": {
-        "todas": 252,
-        "published": 22
-      },
-      "8": {
-        "todas": 583,
-        "published": 28
-      },
-      "9": {
-        "todas": 956,
-        "published": 61
-      },
-      "10": {
-        "todas": 1176,
-        "published": 73
-      },
-      "11": {
-        "todas": 1353,
-        "published": 105
-      },
-      "12": {
-        "todas": 1411,
-        "published": 97
-      },
-      "13": {
-        "todas": 1383,
-        "published": 113
-      },
-      "14": {
-        "todas": 1185,
-        "published": 87
-      },
-      "15": {
-        "todas": 1012,
-        "published": 85
-      },
-      "16": {
-        "todas": 1201,
-        "published": 84
-      },
-      "17": {
-        "todas": 1251,
-        "published": 90
-      },
-      "18": {
-        "todas": 1179,
-        "published": 78
-      },
-      "19": {
-        "todas": 1122,
-        "published": 83
-      },
-      "20": {
-        "todas": 1086,
-        "published": 82
-      },
-      "21": {
-        "todas": 977,
-        "published": 72
-      },
-      "22": {
-        "todas": 899,
-        "published": 88
-      },
-      "23": {
-        "todas": 846,
-        "published": 79
-      }
-    },
-    "2009.1": {
-      "0": {
-        "todas": 767,
-        "published": 87
-      },
-      "1": {
-        "todas": 437,
-        "published": 31
-      },
-      "2": {
-        "todas": 297,
-        "published": 21
-      },
-      "3": {
-        "todas": 184,
-        "published": 10
-      },
-      "4": {
-        "todas": 162,
-        "published": 7
-      },
-      "5": {
-        "todas": 151,
-        "published": 4
-      },
-      "6": {
-        "todas": 167,
-        "published": 13
-      },
-      "7": {
-        "todas": 264,
-        "published": 19
-      },
-      "8": {
-        "todas": 632,
-        "published": 42
-      },
-      "9": {
-        "todas": 951,
-        "published": 74
-      },
-      "10": {
-        "todas": 1188,
-        "published": 79
-      },
-      "11": {
-        "todas": 1342,
-        "published": 121
-      },
-      "12": {
-        "todas": 1392,
-        "published": 98
-      },
-      "13": {
-        "todas": 1435,
-        "published": 127
-      },
-      "14": {
-        "todas": 1216,
-        "published": 83
-      },
-      "15": {
-        "todas": 1100,
-        "published": 86
-      },
-      "16": {
-        "todas": 1247,
-        "published": 86
-      },
-      "17": {
-        "todas": 1240,
-        "published": 91
-      },
-      "18": {
-        "todas": 1207,
-        "published": 90
-      },
-      "19": {
-        "todas": 1128,
-        "published": 85
-      },
-      "20": {
-        "todas": 1149,
-        "published": 88
-      },
-      "21": {
-        "todas": 992,
-        "published": 73
-      },
-      "22": {
-        "todas": 865,
-        "published": 86
-      },
-      "23": {
-        "todas": 816,
-        "published": 84
       }
     },
     "2009.11": {
       "0": {
-        "todas": 662,
-        "published": 64
+        "todas": 693,
+        "published": 72
       },
       "1": {
-        "todas": 380,
+        "todas": 399,
         "published": 36
       },
       "2": {
-        "todas": 270,
-        "published": 28
+        "todas": 278,
+        "published": 25
       },
       "3": {
-        "todas": 157,
+        "todas": 153,
         "published": 7
       },
       "4": {
-        "todas": 123,
-        "published": 5
+        "todas": 125,
+        "published": 7
       },
       "5": {
-        "todas": 99,
-        "published": 4
+        "todas": 108,
+        "published": 8
       },
       "6": {
-        "todas": 139,
-        "published": 14
+        "todas": 129,
+        "published": 7
       },
       "7": {
-        "todas": 288,
-        "published": 14
+        "todas": 284,
+        "published": 11
       },
       "8": {
-        "todas": 536,
-        "published": 30
+        "todas": 550,
+        "published": 32
       },
       "9": {
-        "todas": 958,
-        "published": 55
+        "todas": 933,
+        "published": 58
       },
       "10": {
-        "todas": 1171,
-        "published": 101
-      },
-      "11": {
-        "todas": 1349,
-        "published": 111
-      },
-      "12": {
-        "todas": 1427,
-        "published": 114
-      },
-      "13": {
-        "todas": 1397,
-        "published": 106
-      },
-      "14": {
-        "todas": 1237,
+        "todas": 1143,
         "published": 91
       },
-      "15": {
-        "todas": 1030,
-        "published": 73
-      },
-      "16": {
-        "todas": 1170,
-        "published": 89
-      },
-      "17": {
-        "todas": 1184,
-        "published": 96
-      },
-      "18": {
-        "todas": 1169,
+      "11": {
+        "todas": 1321,
         "published": 97
       },
+      "12": {
+        "todas": 1393,
+        "published": 110
+      },
+      "13": {
+        "todas": 1410,
+        "published": 109
+      },
+      "14": {
+        "todas": 1245,
+        "published": 101
+      },
+      "15": {
+        "todas": 1002,
+        "published": 66
+      },
+      "16": {
+        "todas": 1172,
+        "published": 85
+      },
+      "17": {
+        "todas": 1174,
+        "published": 93
+      },
+      "18": {
+        "todas": 1159,
+        "published": 92
+      },
       "19": {
-        "todas": 1182,
-        "published": 94
+        "todas": 1185,
+        "published": 96
       },
       "20": {
-        "todas": 1125,
-        "published": 83
+        "todas": 1109,
+        "published": 84
       },
       "21": {
-        "todas": 1047,
-        "published": 95
+        "todas": 980,
+        "published": 93
       },
       "22": {
-        "todas": 886,
-        "published": 88
+        "todas": 896,
+        "published": 90
       },
       "23": {
-        "todas": 859,
-        "published": 103
+        "todas": 874,
+        "published": 96
       }
     },
     "2009.12": {
       "0": {
-        "todas": 753,
-        "published": 79
+        "todas": 750,
+        "published": 75
       },
       "1": {
-        "todas": 482,
-        "published": 47
+        "todas": 497,
+        "published": 55
       },
       "2": {
-        "todas": 286,
-        "published": 27
+        "todas": 281,
+        "published": 26
       },
       "3": {
-        "todas": 184,
+        "todas": 189,
         "published": 13
       },
       "4": {
-        "todas": 126,
+        "todas": 138,
         "published": 5
       },
       "5": {
-        "todas": 105,
-        "published": 9
+        "todas": 101,
+        "published": 7
       },
       "6": {
-        "todas": 125,
-        "published": 3
+        "todas": 121,
+        "published": 4
       },
       "7": {
-        "todas": 264,
-        "published": 22
+        "todas": 243,
+        "published": 25
       },
       "8": {
-        "todas": 608,
-        "published": 35
+        "todas": 525,
+        "published": 30
       },
       "9": {
-        "todas": 907,
-        "published": 68
+        "todas": 842,
+        "published": 58
       },
       "10": {
-        "todas": 1164,
-        "published": 77
+        "todas": 1054,
+        "published": 72
       },
       "11": {
-        "todas": 1333,
-        "published": 87
+        "todas": 1265,
+        "published": 88
       },
       "12": {
-        "todas": 1437,
-        "published": 113
+        "todas": 1429,
+        "published": 97
       },
       "13": {
-        "todas": 1416,
-        "published": 105
+        "todas": 1319,
+        "published": 99
       },
       "14": {
-        "todas": 1264,
-        "published": 112
+        "todas": 1171,
+        "published": 97
       },
       "15": {
-        "todas": 1152,
+        "todas": 1125,
         "published": 84
       },
       "16": {
-        "todas": 1214,
-        "published": 105
+        "todas": 1167,
+        "published": 99
       },
       "17": {
-        "todas": 1232,
-        "published": 98
+        "todas": 1140,
+        "published": 99
       },
       "18": {
-        "todas": 1236,
-        "published": 101
+        "todas": 1157,
+        "published": 106
       },
       "19": {
-        "todas": 1157,
-        "published": 92
+        "todas": 1089,
+        "published": 87
       },
       "20": {
-        "todas": 1126,
-        "published": 109
+        "todas": 1063,
+        "published": 105
       },
       "21": {
-        "todas": 960,
-        "published": 82
+        "todas": 918,
+        "published": 80
       },
       "22": {
-        "todas": 921,
-        "published": 85
+        "todas": 854,
+        "published": 70
       },
       "23": {
-        "todas": 940,
-        "published": 81
+        "todas": 850,
+        "published": 71
       }
     },
     "2010.01": {
       "0": {
-        "todas": 730,
-        "published": 75
+        "todas": 752,
+        "published": 73
       },
       "1": {
-        "todas": 566,
-        "published": 49
+        "todas": 555,
+        "published": 41
       },
       "2": {
         "todas": 345,
-        "published": 23
+        "published": 26
       },
       "3": {
-        "todas": 209,
-        "published": 21
+        "todas": 207,
+        "published": 22
       },
       "4": {
-        "todas": 178,
-        "published": 10
+        "todas": 180,
+        "published": 11
       },
       "5": {
-        "todas": 121,
-        "published": 9
+        "todas": 123,
+        "published": 7
       },
       "6": {
-        "todas": 141,
+        "todas": 139,
         "published": 4
       },
       "7": {
-        "todas": 199,
-        "published": 20
+        "todas": 202,
+        "published": 21
       },
       "8": {
-        "todas": 460,
-        "published": 40
+        "todas": 536,
+        "published": 43
       },
       "9": {
-        "todas": 826,
-        "published": 52
+        "todas": 909,
+        "published": 61
       },
       "10": {
-        "todas": 1031,
-        "published": 77
+        "todas": 1134,
+        "published": 76
       },
       "11": {
-        "todas": 1177,
-        "published": 78
-      },
-      "12": {
-        "todas": 1350,
-        "published": 96
-      },
-      "13": {
-        "todas": 1342,
-        "published": 113
-      },
-      "14": {
-        "todas": 1158,
-        "published": 84
-      },
-      "15": {
-        "todas": 1135,
-        "published": 79
-      },
-      "16": {
-        "todas": 1255,
-        "published": 93
-      },
-      "17": {
-        "todas": 1179,
-        "published": 84
-      },
-      "18": {
-        "todas": 1223,
-        "published": 99
-      },
-      "19": {
-        "todas": 1155,
-        "published": 94
-      },
-      "20": {
-        "todas": 1083,
-        "published": 89
-      },
-      "21": {
-        "todas": 974,
-        "published": 77
-      },
-      "22": {
-        "todas": 929,
+        "todas": 1306,
         "published": 83
       },
+      "12": {
+        "todas": 1434,
+        "published": 114
+      },
+      "13": {
+        "todas": 1467,
+        "published": 116
+      },
+      "14": {
+        "todas": 1250,
+        "published": 98
+      },
+      "15": {
+        "todas": 1199,
+        "published": 93
+      },
+      "16": {
+        "todas": 1310,
+        "published": 101
+      },
+      "17": {
+        "todas": 1329,
+        "published": 90
+      },
+      "18": {
+        "todas": 1299,
+        "published": 93
+      },
+      "19": {
+        "todas": 1228,
+        "published": 98
+      },
+      "20": {
+        "todas": 1140,
+        "published": 93
+      },
+      "21": {
+        "todas": 1056,
+        "published": 81
+      },
+      "22": {
+        "todas": 1004,
+        "published": 94
+      },
       "23": {
-        "todas": 882,
-        "published": 99
+        "todas": 985,
+        "published": 103
       }
     },
     "2010.02": {
       "0": {
-        "todas": 684,
-        "published": 58
+        "todas": 666,
+        "published": 59
       },
       "1": {
-        "todas": 422,
-        "published": 35
+        "todas": 409,
+        "published": 40
       },
       "2": {
-        "todas": 249,
-        "published": 28
+        "todas": 259,
+        "published": 27
       },
       "3": {
-        "todas": 166,
-        "published": 13
+        "todas": 171,
+        "published": 14
       },
       "4": {
-        "todas": 115,
-        "published": 11
+        "todas": 102,
+        "published": 12
       },
       "5": {
-        "todas": 106,
+        "todas": 110,
         "published": 6
       },
       "6": {
-        "todas": 115,
-        "published": 4
+        "todas": 112,
+        "published": 6
       },
       "7": {
-        "todas": 254,
+        "todas": 267,
         "published": 17
       },
       "8": {
-        "todas": 548,
+        "todas": 527,
         "published": 34
       },
       "9": {
-        "todas": 930,
-        "published": 69
+        "todas": 938,
+        "published": 66
       },
       "10": {
-        "todas": 1136,
-        "published": 78
+        "todas": 1166,
+        "published": 87
       },
       "11": {
-        "todas": 1262,
-        "published": 98
+        "todas": 1229,
+        "published": 100
       },
       "12": {
-        "todas": 1393,
+        "todas": 1370,
         "published": 102
       },
       "13": {
-        "todas": 1376,
-        "published": 97
+        "todas": 1323,
+        "published": 107
       },
       "14": {
-        "todas": 1135,
-        "published": 88
+        "todas": 1109,
+        "published": 80
       },
       "15": {
-        "todas": 1085,
-        "published": 79
+        "todas": 1086,
+        "published": 77
       },
       "16": {
-        "todas": 1175,
+        "todas": 1152,
         "published": 90
       },
       "17": {
-        "todas": 1205,
-        "published": 93
+        "todas": 1134,
+        "published": 94
       },
       "18": {
-        "todas": 1117,
-        "published": 71
-      },
-      "19": {
-        "todas": 1138,
+        "todas": 1068,
         "published": 75
       },
+      "19": {
+        "todas": 1109,
+        "published": 82
+      },
       "20": {
-        "todas": 1037,
-        "published": 70
+        "todas": 1051,
+        "published": 69
       },
       "21": {
-        "todas": 899,
+        "todas": 895,
         "published": 78
       },
       "22": {
-        "todas": 884,
+        "todas": 878,
         "published": 74
       },
       "23": {
-        "todas": 840,
-        "published": 62
+        "todas": 814,
+        "published": 76
       }
     },
     "2010.03": {
       "0": {
         "todas": 781,
-        "published": 73
+        "published": 69
       },
       "1": {
-        "todas": 428,
-        "published": 47
+        "todas": 414,
+        "published": 43
       },
       "2": {
-        "todas": 263,
-        "published": 26
+        "todas": 253,
+        "published": 27
       },
       "3": {
-        "todas": 183,
-        "published": 14
+        "todas": 182,
+        "published": 13
       },
       "4": {
         "todas": 139,
-        "published": 14
+        "published": 11
       },
       "5": {
-        "todas": 125,
+        "todas": 112,
         "published": 4
       },
       "6": {
-        "todas": 134,
-        "published": 12
+        "todas": 142,
+        "published": 11
       },
       "7": {
         "todas": 243,
-        "published": 22
+        "published": 24
       },
       "8": {
-        "todas": 595,
-        "published": 45
+        "todas": 555,
+        "published": 44
       },
       "9": {
-        "todas": 1094,
+        "todas": 1044,
         "published": 76
       },
       "10": {
-        "todas": 1273,
-        "published": 81
+        "todas": 1206,
+        "published": 80
       },
       "11": {
-        "todas": 1415,
-        "published": 109
+        "todas": 1373,
+        "published": 114
       },
       "12": {
-        "todas": 1441,
-        "published": 117
+        "todas": 1394,
+        "published": 106
       },
       "13": {
-        "todas": 1515,
-        "published": 138
+        "todas": 1535,
+        "published": 126
       },
       "14": {
-        "todas": 1236,
-        "published": 93
+        "todas": 1244,
+        "published": 95
       },
       "15": {
-        "todas": 1279,
-        "published": 90
+        "todas": 1244,
+        "published": 85
       },
       "16": {
-        "todas": 1295,
-        "published": 121
+        "todas": 1277,
+        "published": 115
       },
       "17": {
-        "todas": 1198,
-        "published": 109
+        "todas": 1196,
+        "published": 108
       },
       "18": {
-        "todas": 1207,
-        "published": 98
+        "todas": 1183,
+        "published": 92
       },
       "19": {
-        "todas": 1280,
-        "published": 87
+        "todas": 1267,
+        "published": 89
       },
       "20": {
-        "todas": 1225,
+        "todas": 1163,
         "published": 96
       },
       "21": {
-        "todas": 1059,
-        "published": 89
+        "todas": 983,
+        "published": 84
       },
       "22": {
-        "todas": 1056,
-        "published": 80
+        "todas": 1045,
+        "published": 76
       },
       "23": {
-        "todas": 915,
-        "published": 95
+        "todas": 954,
+        "published": 85
       }
     },
     "2010.04": {
       "0": {
-        "todas": 743,
-        "published": 67
+        "todas": 730,
+        "published": 72
       },
       "1": {
-        "todas": 440,
+        "todas": 478,
         "published": 35
       },
       "2": {
-        "todas": 265,
-        "published": 26
+        "todas": 262,
+        "published": 24
       },
       "3": {
-        "todas": 185,
-        "published": 17
+        "todas": 189,
+        "published": 15
       },
       "4": {
-        "todas": 139,
-        "published": 9
+        "todas": 135,
+        "published": 11
       },
       "5": {
-        "todas": 131,
-        "published": 7
+        "todas": 140,
+        "published": 6
       },
       "6": {
-        "todas": 153,
-        "published": 8
+        "todas": 172,
+        "published": 11
       },
       "7": {
-        "todas": 251,
-        "published": 26
+        "todas": 249,
+        "published": 24
       },
       "8": {
-        "todas": 453,
-        "published": 30
+        "todas": 507,
+        "published": 36
       },
       "9": {
-        "todas": 826,
-        "published": 65
+        "todas": 872,
+        "published": 64
       },
       "10": {
-        "todas": 1054,
-        "published": 70
+        "todas": 1132,
+        "published": 76
       },
       "11": {
-        "todas": 1265,
+        "todas": 1329,
         "published": 97
       },
       "12": {
-        "todas": 1398,
-        "published": 105
+        "todas": 1471,
+        "published": 115
       },
       "13": {
-        "todas": 1318,
-        "published": 103
+        "todas": 1322,
+        "published": 105
       },
       "14": {
-        "todas": 1154,
-        "published": 96
+        "todas": 1133,
+        "published": 93
       },
       "15": {
-        "todas": 1050,
+        "todas": 1076,
         "published": 83
       },
       "16": {
-        "todas": 1121,
-        "published": 83
-      },
-      "17": {
-        "todas": 1179,
-        "published": 91
-      },
-      "18": {
-        "todas": 1098,
+        "todas": 1141,
         "published": 87
       },
+      "17": {
+        "todas": 1193,
+        "published": 85
+      },
+      "18": {
+        "todas": 1174,
+        "published": 97
+      },
       "19": {
-        "todas": 1131,
-        "published": 92
+        "todas": 1166,
+        "published": 86
       },
       "20": {
-        "todas": 1004,
-        "published": 70
+        "todas": 1064,
+        "published": 64
       },
       "21": {
-        "todas": 896,
+        "todas": 966,
         "published": 75
       },
       "22": {
-        "todas": 838,
-        "published": 77
+        "todas": 914,
+        "published": 83
       },
       "23": {
-        "todas": 882,
-        "published": 87
+        "todas": 878,
+        "published": 90
       }
     },
     "2010.05": {
       "0": {
-        "todas": 776,
+        "todas": 797,
         "published": 71
       },
       "1": {
-        "todas": 498,
-        "published": 37
-      },
-      "2": {
-        "todas": 269,
-        "published": 23
-      },
-      "3": {
-        "todas": 195,
-        "published": 12
-      },
-      "4": {
-        "todas": 136,
-        "published": 11
-      },
-      "5": {
-        "todas": 129,
-        "published": 6
-      },
-      "6": {
-        "todas": 170,
-        "published": 13
-      },
-      "7": {
-        "todas": 296,
-        "published": 22
-      },
-      "8": {
-        "todas": 624,
-        "published": 53
-      },
-      "9": {
-        "todas": 1028,
-        "published": 66
-      },
-      "10": {
-        "todas": 1256,
-        "published": 91
-      },
-      "11": {
-        "todas": 1392,
-        "published": 112
-      },
-      "12": {
-        "todas": 1599,
-        "published": 127
-      },
-      "13": {
-        "todas": 1468,
-        "published": 110
-      },
-      "14": {
-        "todas": 1154,
-        "published": 96
-      },
-      "15": {
-        "todas": 1171,
-        "published": 82
-      },
-      "16": {
-        "todas": 1221,
-        "published": 91
-      },
-      "17": {
-        "todas": 1303,
-        "published": 89
-      },
-      "18": {
-        "todas": 1248,
-        "published": 99
-      },
-      "19": {
-        "todas": 1232,
-        "published": 96
-      },
-      "20": {
-        "todas": 1127,
-        "published": 101
-      },
-      "21": {
-        "todas": 1078,
-        "published": 95
-      },
-      "22": {
-        "todas": 1094,
-        "published": 80
-      },
-      "23": {
-        "todas": 1022,
-        "published": 101
-      }
-    },
-    "2010.06": {
-      "0": {
-        "todas": 837,
-        "published": 65
-      },
-      "1": {
-        "todas": 496,
-        "published": 32
-      },
-      "2": {
-        "todas": 313,
-        "published": 20
-      },
-      "3": {
-        "todas": 201,
-        "published": 14
-      },
-      "4": {
-        "todas": 169,
-        "published": 11
-      },
-      "5": {
-        "todas": 164,
-        "published": 10
-      },
-      "6": {
-        "todas": 208,
-        "published": 14
-      },
-      "7": {
-        "todas": 360,
-        "published": 23
-      },
-      "8": {
-        "todas": 694,
-        "published": 45
-      },
-      "9": {
-        "todas": 1195,
-        "published": 78
-      },
-      "10": {
-        "todas": 1274,
-        "published": 90
-      },
-      "11": {
-        "todas": 1405,
-        "published": 97
-      },
-      "12": {
-        "todas": 1411,
-        "published": 129
-      },
-      "13": {
-        "todas": 1420,
-        "published": 120
-      },
-      "14": {
-        "todas": 1274,
-        "published": 97
-      },
-      "15": {
-        "todas": 1115,
-        "published": 86
-      },
-      "16": {
-        "todas": 1244,
-        "published": 106
-      },
-      "17": {
-        "todas": 1269,
-        "published": 108
-      },
-      "18": {
-        "todas": 1258,
-        "published": 86
-      },
-      "19": {
-        "todas": 1186,
-        "published": 95
-      },
-      "20": {
-        "todas": 1149,
-        "published": 95
-      },
-      "21": {
-        "todas": 1080,
-        "published": 72
-      },
-      "22": {
-        "todas": 1074,
-        "published": 72
-      },
-      "23": {
-        "todas": 1067,
-        "published": 79
-      }
-    },
-    "2010.07": {
-      "0": {
-        "todas": 734,
-        "published": 54
-      },
-      "1": {
-        "todas": 442,
-        "published": 35
-      },
-      "2": {
-        "todas": 300,
-        "published": 13
-      },
-      "3": {
-        "todas": 207,
-        "published": 15
-      },
-      "4": {
-        "todas": 171,
-        "published": 5
-      },
-      "5": {
-        "todas": 157,
-        "published": 9
-      },
-      "6": {
-        "todas": 204,
-        "published": 14
-      },
-      "7": {
-        "todas": 297,
-        "published": 20
-      },
-      "8": {
-        "todas": 567,
-        "published": 29
-      },
-      "9": {
-        "todas": 956,
-        "published": 70
-      },
-      "10": {
-        "todas": 1159,
-        "published": 75
-      },
-      "11": {
-        "todas": 1329,
-        "published": 95
-      },
-      "12": {
-        "todas": 1332,
-        "published": 105
-      },
-      "13": {
-        "todas": 1369,
-        "published": 104
-      },
-      "14": {
-        "todas": 1118,
-        "published": 96
-      },
-      "15": {
-        "todas": 1003,
-        "published": 66
-      },
-      "16": {
-        "todas": 1006,
-        "published": 67
-      },
-      "17": {
-        "todas": 1098,
-        "published": 95
-      },
-      "18": {
-        "todas": 1083,
-        "published": 74
-      },
-      "19": {
-        "todas": 1106,
-        "published": 75
-      },
-      "20": {
-        "todas": 948,
-        "published": 72
-      },
-      "21": {
-        "todas": 756,
-        "published": 62
-      },
-      "22": {
-        "todas": 821,
-        "published": 64
-      },
-      "23": {
-        "todas": 833,
-        "published": 69
-      }
-    },
-    "2010.08": {
-      "0": {
-        "todas": 596,
-        "published": 42
-      },
-      "1": {
-        "todas": 417,
-        "published": 26
-      },
-      "2": {
-        "todas": 285,
-        "published": 17
-      },
-      "3": {
-        "todas": 191,
-        "published": 15
-      },
-      "4": {
-        "todas": 166,
-        "published": 6
-      },
-      "5": {
-        "todas": 144,
-        "published": 8
-      },
-      "6": {
-        "todas": 167,
-        "published": 9
-      },
-      "7": {
-        "todas": 270,
-        "published": 16
-      },
-      "8": {
-        "todas": 535,
-        "published": 39
-      },
-      "9": {
-        "todas": 910,
-        "published": 70
-      },
-      "10": {
-        "todas": 1073,
-        "published": 80
-      },
-      "11": {
-        "todas": 1161,
-        "published": 88
-      },
-      "12": {
-        "todas": 1242,
-        "published": 115
-      },
-      "13": {
-        "todas": 1280,
-        "published": 100
-      },
-      "14": {
-        "todas": 997,
-        "published": 95
-      },
-      "15": {
-        "todas": 866,
-        "published": 69
-      },
-      "16": {
-        "todas": 903,
-        "published": 78
-      },
-      "17": {
-        "todas": 1023,
-        "published": 73
-      },
-      "18": {
-        "todas": 985,
-        "published": 60
-      },
-      "19": {
-        "todas": 986,
-        "published": 58
-      },
-      "20": {
-        "todas": 930,
-        "published": 64
-      },
-      "21": {
-        "todas": 882,
-        "published": 63
-      },
-      "22": {
-        "todas": 742,
-        "published": 58
-      },
-      "23": {
-        "todas": 707,
-        "published": 68
-      }
-    },
-    "2010.09": {
-      "0": {
-        "todas": 647,
-        "published": 41
-      },
-      "1": {
-        "todas": 400,
-        "published": 28
-      },
-      "2": {
-        "todas": 254,
-        "published": 18
-      },
-      "3": {
-        "todas": 198,
-        "published": 8
-      },
-      "4": {
-        "todas": 177,
-        "published": 10
-      },
-      "5": {
-        "todas": 145,
-        "published": 10
-      },
-      "6": {
-        "todas": 162,
-        "published": 4
-      },
-      "7": {
-        "todas": 300,
-        "published": 19
-      },
-      "8": {
-        "todas": 544,
-        "published": 43
-      },
-      "9": {
-        "todas": 983,
-        "published": 72
-      },
-      "10": {
-        "todas": 1093,
-        "published": 86
-      },
-      "11": {
-        "todas": 1166,
-        "published": 92
-      },
-      "12": {
-        "todas": 1313,
-        "published": 112
-      },
-      "13": {
-        "todas": 1336,
-        "published": 99
-      },
-      "14": {
-        "todas": 1124,
-        "published": 72
-      },
-      "15": {
-        "todas": 1002,
-        "published": 69
-      },
-      "16": {
-        "todas": 1068,
-        "published": 72
-      },
-      "17": {
-        "todas": 1070,
-        "published": 56
-      },
-      "18": {
-        "todas": 1065,
-        "published": 66
-      },
-      "19": {
-        "todas": 1027,
-        "published": 70
-      },
-      "20": {
-        "todas": 932,
-        "published": 65
-      },
-      "21": {
-        "todas": 909,
-        "published": 63
-      },
-      "22": {
-        "todas": 853,
-        "published": 67
-      },
-      "23": {
-        "todas": 812,
-        "published": 69
-      }
-    },
-    "2010.1": {
-      "0": {
-        "todas": 662,
-        "published": 50
-      },
-      "1": {
-        "todas": 373,
-        "published": 32
-      },
-      "2": {
-        "todas": 244,
-        "published": 21
-      },
-      "3": {
-        "todas": 163,
-        "published": 8
-      },
-      "4": {
-        "todas": 135,
-        "published": 5
-      },
-      "5": {
-        "todas": 143,
-        "published": 4
-      },
-      "6": {
-        "todas": 156,
-        "published": 10
-      },
-      "7": {
-        "todas": 277,
-        "published": 17
-      },
-      "8": {
-        "todas": 476,
-        "published": 36
-      },
-      "9": {
-        "todas": 825,
-        "published": 51
-      },
-      "10": {
-        "todas": 1085,
-        "published": 66
-      },
-      "11": {
-        "todas": 1164,
-        "published": 79
-      },
-      "12": {
-        "todas": 1216,
-        "published": 89
-      },
-      "13": {
-        "todas": 1182,
-        "published": 80
-      },
-      "14": {
-        "todas": 993,
-        "published": 69
-      },
-      "15": {
-        "todas": 910,
-        "published": 68
-      },
-      "16": {
-        "todas": 1011,
-        "published": 55
-      },
-      "17": {
-        "todas": 1090,
-        "published": 67
-      },
-      "18": {
-        "todas": 1052,
-        "published": 58
-      },
-      "19": {
-        "todas": 899,
-        "published": 59
-      },
-      "20": {
-        "todas": 979,
-        "published": 65
-      },
-      "21": {
-        "todas": 838,
-        "published": 55
-      },
-      "22": {
-        "todas": 796,
-        "published": 68
-      },
-      "23": {
-        "todas": 767,
-        "published": 71
-      }
-    },
-    "2010.11": {
-      "0": {
-        "todas": 596,
-        "published": 36
-      },
-      "1": {
-        "todas": 320,
-        "published": 30
-      },
-      "2": {
-        "todas": 224,
-        "published": 21
-      },
-      "3": {
-        "todas": 179,
-        "published": 13
-      },
-      "4": {
-        "todas": 158,
-        "published": 10
-      },
-      "5": {
-        "todas": 137,
-        "published": 6
-      },
-      "6": {
-        "todas": 153,
-        "published": 14
-      },
-      "7": {
-        "todas": 263,
-        "published": 18
-      },
-      "8": {
-        "todas": 505,
-        "published": 40
-      },
-      "9": {
-        "todas": 1016,
-        "published": 64
-      },
-      "10": {
-        "todas": 1149,
-        "published": 90
-      },
-      "11": {
-        "todas": 1242,
-        "published": 92
-      },
-      "12": {
-        "todas": 1427,
-        "published": 84
-      },
-      "13": {
-        "todas": 1412,
-        "published": 83
-      },
-      "14": {
-        "todas": 1136,
-        "published": 71
-      },
-      "15": {
-        "todas": 983,
-        "published": 69
-      },
-      "16": {
-        "todas": 1106,
-        "published": 84
-      },
-      "17": {
-        "todas": 1135,
-        "published": 75
-      },
-      "18": {
-        "todas": 1049,
-        "published": 65
-      },
-      "19": {
-        "todas": 1056,
-        "published": 51
-      },
-      "20": {
-        "todas": 1067,
-        "published": 85
-      },
-      "21": {
-        "todas": 850,
-        "published": 60
-      },
-      "22": {
-        "todas": 812,
-        "published": 62
-      },
-      "23": {
-        "todas": 816,
-        "published": 70
-      }
-    },
-    "2010.12": {
-      "0": {
-        "todas": 672,
-        "published": 71
-      },
-      "1": {
-        "todas": 433,
-        "published": 29
-      },
-      "2": {
-        "todas": 235,
-        "published": 19
-      },
-      "3": {
-        "todas": 202,
-        "published": 9
-      },
-      "4": {
-        "todas": 181,
-        "published": 14
-      },
-      "5": {
-        "todas": 141,
-        "published": 10
-      },
-      "6": {
-        "todas": 186,
-        "published": 12
-      },
-      "7": {
-        "todas": 253,
-        "published": 20
-      },
-      "8": {
-        "todas": 551,
-        "published": 43
-      },
-      "9": {
-        "todas": 928,
-        "published": 52
-      },
-      "10": {
-        "todas": 1128,
-        "published": 84
-      },
-      "11": {
-        "todas": 1198,
-        "published": 78
-      },
-      "12": {
-        "todas": 1346,
-        "published": 100
-      },
-      "13": {
-        "todas": 1337,
-        "published": 88
-      },
-      "14": {
-        "todas": 1133,
-        "published": 88
-      },
-      "15": {
-        "todas": 1031,
-        "published": 92
-      },
-      "16": {
-        "todas": 1090,
-        "published": 77
-      },
-      "17": {
-        "todas": 1160,
-        "published": 78
-      },
-      "18": {
-        "todas": 1105,
-        "published": 61
-      },
-      "19": {
-        "todas": 1133,
-        "published": 89
-      },
-      "20": {
-        "todas": 1128,
-        "published": 77
-      },
-      "21": {
-        "todas": 909,
-        "published": 62
-      },
-      "22": {
-        "todas": 891,
-        "published": 69
-      },
-      "23": {
-        "todas": 868,
-        "published": 84
-      }
-    },
-    "2011.01": {
-      "0": {
-        "todas": 627,
-        "published": 52
-      },
-      "1": {
-        "todas": 423,
-        "published": 36
-      },
-      "2": {
-        "todas": 260,
-        "published": 19
-      },
-      "3": {
-        "todas": 166,
-        "published": 7
-      },
-      "4": {
-        "todas": 135,
-        "published": 5
-      },
-      "5": {
-        "todas": 150,
-        "published": 9
-      },
-      "6": {
-        "todas": 174,
-        "published": 2
-      },
-      "7": {
-        "todas": 259,
-        "published": 14
-      },
-      "8": {
-        "todas": 487,
-        "published": 36
-      },
-      "9": {
-        "todas": 913,
-        "published": 73
-      },
-      "10": {
-        "todas": 1092,
-        "published": 66
-      },
-      "11": {
-        "todas": 1244,
-        "published": 82
-      },
-      "12": {
-        "todas": 1409,
-        "published": 94
-      },
-      "13": {
-        "todas": 1360,
-        "published": 83
-      },
-      "14": {
-        "todas": 1084,
-        "published": 70
-      },
-      "15": {
-        "todas": 1070,
-        "published": 72
-      },
-      "16": {
-        "todas": 1113,
-        "published": 78
-      },
-      "17": {
-        "todas": 1172,
-        "published": 84
-      },
-      "18": {
-        "todas": 1104,
-        "published": 72
-      },
-      "19": {
-        "todas": 1018,
-        "published": 76
-      },
-      "20": {
-        "todas": 1013,
-        "published": 64
-      },
-      "21": {
-        "todas": 958,
-        "published": 73
-      },
-      "22": {
-        "todas": 828,
-        "published": 72
-      },
-      "23": {
-        "todas": 801,
-        "published": 61
-      }
-    },
-    "2011.02": {
-      "0": {
-        "todas": 671,
-        "published": 46
-      },
-      "1": {
-        "todas": 427,
-        "published": 33
-      },
-      "2": {
-        "todas": 278,
-        "published": 24
-      },
-      "3": {
-        "todas": 182,
-        "published": 14
-      },
-      "4": {
-        "todas": 165,
-        "published": 7
-      },
-      "5": {
-        "todas": 114,
-        "published": 8
-      },
-      "6": {
-        "todas": 146,
-        "published": 8
-      },
-      "7": {
-        "todas": 334,
-        "published": 25
-      },
-      "8": {
-        "todas": 625,
-        "published": 49
-      },
-      "9": {
-        "todas": 1081,
-        "published": 90
-      },
-      "10": {
-        "todas": 1323,
-        "published": 72
-      },
-      "11": {
-        "todas": 1397,
-        "published": 91
-      },
-      "12": {
-        "todas": 1547,
-        "published": 101
-      },
-      "13": {
-        "todas": 1457,
-        "published": 92
-      },
-      "14": {
-        "todas": 1353,
-        "published": 79
-      },
-      "15": {
-        "todas": 1188,
-        "published": 72
-      },
-      "16": {
-        "todas": 1257,
-        "published": 90
-      },
-      "17": {
-        "todas": 1253,
-        "published": 92
-      },
-      "18": {
-        "todas": 1229,
-        "published": 64
-      },
-      "19": {
-        "todas": 1136,
-        "published": 93
-      },
-      "20": {
-        "todas": 1131,
-        "published": 80
-      },
-      "21": {
-        "todas": 1003,
-        "published": 76
-      },
-      "22": {
-        "todas": 986,
-        "published": 90
-      },
-      "23": {
-        "todas": 828,
-        "published": 76
-      }
-    },
-    "2011.03": {
-      "0": {
-        "todas": 825,
-        "published": 51
-      },
-      "1": {
-        "todas": 425,
-        "published": 29
-      },
-      "2": {
-        "todas": 301,
-        "published": 23
-      },
-      "3": {
-        "todas": 260,
-        "published": 21
-      },
-      "4": {
-        "todas": 175,
-        "published": 16
-      },
-      "5": {
-        "todas": 183,
-        "published": 9
-      },
-      "6": {
-        "todas": 225,
-        "published": 19
-      },
-      "7": {
-        "todas": 371,
-        "published": 25
-      },
-      "8": {
-        "todas": 718,
-        "published": 48
-      },
-      "9": {
-        "todas": 1181,
-        "published": 71
-      },
-      "10": {
-        "todas": 1479,
-        "published": 88
-      },
-      "11": {
-        "todas": 1558,
-        "published": 90
-      },
-      "12": {
-        "todas": 1776,
-        "published": 97
-      },
-      "13": {
-        "todas": 1723,
-        "published": 113
-      },
-      "14": {
-        "todas": 1436,
-        "published": 103
-      },
-      "15": {
-        "todas": 1284,
-        "published": 94
-      },
-      "16": {
-        "todas": 1422,
-        "published": 88
-      },
-      "17": {
-        "todas": 1504,
-        "published": 81
-      },
-      "18": {
-        "todas": 1412,
-        "published": 85
-      },
-      "19": {
-        "todas": 1437,
-        "published": 80
-      },
-      "20": {
-        "todas": 1320,
-        "published": 77
-      },
-      "21": {
-        "todas": 1188,
-        "published": 79
-      },
-      "22": {
-        "todas": 1097,
-        "published": 79
-      },
-      "23": {
-        "todas": 1026,
-        "published": 84
-      }
-    },
-    "2011.04": {
-      "0": {
-        "todas": 695,
-        "published": 63
-      },
-      "1": {
-        "todas": 489,
-        "published": 32
+        "todas": 497,
+        "published": 38
       },
       "2": {
         "todas": 282,
         "published": 25
       },
       "3": {
-        "todas": 196,
+        "todas": 187,
         "published": 12
       },
       "4": {
-        "todas": 184,
-        "published": 11
+        "todas": 149,
+        "published": 9
       },
       "5": {
-        "todas": 161,
-        "published": 11
+        "todas": 136,
+        "published": 8
       },
       "6": {
-        "todas": 210,
-        "published": 14
+        "todas": 170,
+        "published": 8
       },
       "7": {
-        "todas": 285,
-        "published": 29
-      },
-      "8": {
-        "todas": 538,
-        "published": 30
-      },
-      "9": {
-        "todas": 999,
-        "published": 68
-      },
-      "10": {
-        "todas": 1214,
-        "published": 80
-      },
-      "11": {
-        "todas": 1426,
-        "published": 104
-      },
-      "12": {
-        "todas": 1456,
-        "published": 106
-      },
-      "13": {
-        "todas": 1396,
-        "published": 84
-      },
-      "14": {
-        "todas": 1267,
-        "published": 95
-      },
-      "15": {
-        "todas": 1097,
-        "published": 91
-      },
-      "16": {
-        "todas": 1184,
-        "published": 94
-      },
-      "17": {
-        "todas": 1268,
-        "published": 70
-      },
-      "18": {
-        "todas": 1159,
-        "published": 68
-      },
-      "19": {
-        "todas": 1186,
-        "published": 68
-      },
-      "20": {
-        "todas": 1113,
-        "published": 56
-      },
-      "21": {
-        "todas": 1014,
-        "published": 67
-      },
-      "22": {
-        "todas": 955,
-        "published": 77
-      },
-      "23": {
-        "todas": 900,
-        "published": 65
-      }
-    },
-    "2011.05": {
-      "0": {
-        "todas": 833,
-        "published": 79
-      },
-      "1": {
-        "todas": 566,
-        "published": 47
-      },
-      "2": {
-        "todas": 350,
-        "published": 33
-      },
-      "3": {
-        "todas": 214,
-        "published": 18
-      },
-      "4": {
-        "todas": 171,
-        "published": 14
-      },
-      "5": {
-        "todas": 164,
-        "published": 11
-      },
-      "6": {
-        "todas": 222,
-        "published": 21
-      },
-      "7": {
-        "todas": 320,
+        "todas": 327,
         "published": 22
       },
       "8": {
-        "todas": 712,
-        "published": 47
+        "todas": 649,
+        "published": 46
       },
       "9": {
-        "todas": 1045,
-        "published": 68
+        "todas": 1052,
+        "published": 71
       },
       "10": {
-        "todas": 1340,
-        "published": 82
-      },
-      "11": {
-        "todas": 1531,
-        "published": 100
-      },
-      "12": {
-        "todas": 1672,
-        "published": 120
-      },
-      "13": {
-        "todas": 1666,
-        "published": 114
-      },
-      "14": {
-        "todas": 1332,
-        "published": 97
-      },
-      "15": {
-        "todas": 1212,
-        "published": 103
-      },
-      "16": {
-        "todas": 1299,
-        "published": 87
-      },
-      "17": {
-        "todas": 1358,
-        "published": 76
-      },
-      "18": {
-        "todas": 1420,
-        "published": 88
-      },
-      "19": {
-        "todas": 1287,
-        "published": 75
-      },
-      "20": {
-        "todas": 1169,
-        "published": 74
-      },
-      "21": {
-        "todas": 1084,
-        "published": 82
-      },
-      "22": {
-        "todas": 1080,
-        "published": 73
-      },
-      "23": {
-        "todas": 1059,
-        "published": 100
-      }
-    },
-    "2011.06": {
-      "0": {
-        "todas": 768,
-        "published": 65
-      },
-      "1": {
-        "todas": 526,
-        "published": 48
-      },
-      "2": {
-        "todas": 340,
-        "published": 28
-      },
-      "3": {
-        "todas": 221,
-        "published": 11
-      },
-      "4": {
-        "todas": 215,
-        "published": 8
-      },
-      "5": {
-        "todas": 149,
-        "published": 4
-      },
-      "6": {
-        "todas": 225,
-        "published": 21
-      },
-      "7": {
-        "todas": 393,
-        "published": 24
-      },
-      "8": {
-        "todas": 739,
-        "published": 43
-      },
-      "9": {
-        "todas": 1099,
-        "published": 59
-      },
-      "10": {
-        "todas": 1425,
-        "published": 72
-      },
-      "11": {
-        "todas": 1513,
-        "published": 107
-      },
-      "12": {
-        "todas": 1714,
-        "published": 109
-      },
-      "13": {
-        "todas": 1645,
-        "published": 110
-      },
-      "14": {
-        "todas": 1266,
-        "published": 107
-      },
-      "15": {
-        "todas": 1148,
-        "published": 86
-      },
-      "16": {
-        "todas": 1322,
+        "todas": 1243,
         "published": 90
       },
-      "17": {
-        "todas": 1396,
+      "11": {
+        "todas": 1367,
+        "published": 111
+      },
+      "12": {
+        "todas": 1518,
+        "published": 133
+      },
+      "13": {
+        "todas": 1461,
+        "published": 118
+      },
+      "14": {
+        "todas": 1151,
         "published": 94
       },
-      "18": {
-        "todas": 1324,
+      "15": {
+        "todas": 1165,
         "published": 89
       },
-      "19": {
-        "todas": 1300,
-        "published": 73
-      },
-      "20": {
-        "todas": 1209,
-        "published": 72
-      },
-      "21": {
-        "todas": 1062,
-        "published": 74
-      },
-      "22": {
-        "todas": 983,
-        "published": 86
-      },
-      "23": {
-        "todas": 944,
-        "published": 74
-      }
-    },
-    "2011.07": {
-      "0": {
-        "todas": 698,
-        "published": 53
-      },
-      "1": {
-        "todas": 461,
-        "published": 29
-      },
-      "2": {
-        "todas": 325,
-        "published": 21
-      },
-      "3": {
-        "todas": 188,
-        "published": 14
-      },
-      "4": {
-        "todas": 160,
-        "published": 8
-      },
-      "5": {
-        "todas": 183,
-        "published": 9
-      },
-      "6": {
-        "todas": 197,
-        "published": 13
-      },
-      "7": {
-        "todas": 346,
-        "published": 25
-      },
-      "8": {
-        "todas": 661,
-        "published": 41
-      },
-      "9": {
-        "todas": 1012,
-        "published": 62
-      },
-      "10": {
-        "todas": 1183,
-        "published": 88
-      },
-      "11": {
-        "todas": 1368,
-        "published": 83
-      },
-      "12": {
-        "todas": 1385,
-        "published": 106
-      },
-      "13": {
-        "todas": 1470,
-        "published": 92
-      },
-      "14": {
-        "todas": 1117,
-        "published": 77
-      },
-      "15": {
-        "todas": 1001,
-        "published": 72
-      },
       "16": {
-        "todas": 1142,
-        "published": 69
-      },
-      "17": {
-        "todas": 1258,
-        "published": 83
-      },
-      "18": {
-        "todas": 1092,
-        "published": 78
-      },
-      "19": {
-        "todas": 1160,
-        "published": 65
-      },
-      "20": {
-        "todas": 1043,
-        "published": 80
-      },
-      "21": {
-        "todas": 912,
-        "published": 77
-      },
-      "22": {
-        "todas": 873,
-        "published": 67
-      },
-      "23": {
-        "todas": 857,
-        "published": 69
-      }
-    },
-    "2011.08": {
-      "0": {
-        "todas": 641,
-        "published": 53
-      },
-      "1": {
-        "todas": 459,
-        "published": 32
-      },
-      "2": {
-        "todas": 277,
-        "published": 26
-      },
-      "3": {
-        "todas": 262,
-        "published": 18
-      },
-      "4": {
-        "todas": 206,
-        "published": 11
-      },
-      "5": {
-        "todas": 150,
-        "published": 9
-      },
-      "6": {
-        "todas": 193,
-        "published": 7
-      },
-      "7": {
-        "todas": 324,
-        "published": 17
-      },
-      "8": {
-        "todas": 751,
-        "published": 42
-      },
-      "9": {
-        "todas": 1018,
-        "published": 50
-      },
-      "10": {
-        "todas": 1194,
-        "published": 64
-      },
-      "11": {
-        "todas": 1342,
-        "published": 77
-      },
-      "12": {
-        "todas": 1429,
-        "published": 74
-      },
-      "13": {
-        "todas": 1491,
-        "published": 102
-      },
-      "14": {
-        "todas": 1106,
-        "published": 85
-      },
-      "15": {
-        "todas": 1037,
-        "published": 69
-      },
-      "16": {
-        "todas": 1074,
-        "published": 70
-      },
-      "17": {
-        "todas": 1166,
-        "published": 59
-      },
-      "18": {
-        "todas": 1152,
-        "published": 63
-      },
-      "19": {
-        "todas": 1041,
-        "published": 72
-      },
-      "20": {
-        "todas": 935,
-        "published": 64
-      },
-      "21": {
-        "todas": 880,
-        "published": 69
-      },
-      "22": {
-        "todas": 804,
-        "published": 76
-      },
-      "23": {
-        "todas": 690,
-        "published": 72
-      }
-    },
-    "2011.09": {
-      "0": {
-        "todas": 682,
-        "published": 47
-      },
-      "1": {
-        "todas": 459,
-        "published": 44
-      },
-      "2": {
-        "todas": 296,
-        "published": 20
-      },
-      "3": {
-        "todas": 216,
-        "published": 8
-      },
-      "4": {
-        "todas": 193,
-        "published": 15
-      },
-      "5": {
-        "todas": 163,
-        "published": 5
-      },
-      "6": {
-        "todas": 192,
-        "published": 14
-      },
-      "7": {
-        "todas": 393,
-        "published": 25
-      },
-      "8": {
-        "todas": 794,
-        "published": 53
-      },
-      "9": {
-        "todas": 1275,
-        "published": 66
-      },
-      "10": {
-        "todas": 1541,
-        "published": 81
-      },
-      "11": {
-        "todas": 1545,
-        "published": 97
-      },
-      "12": {
-        "todas": 1628,
-        "published": 121
-      },
-      "13": {
-        "todas": 1559,
-        "published": 83
-      },
-      "14": {
-        "todas": 1417,
-        "published": 89
-      },
-      "15": {
-        "todas": 1223,
-        "published": 76
-      },
-      "16": {
-        "todas": 1231,
-        "published": 69
+        "todas": 1266,
+        "published": 94
       },
       "17": {
         "todas": 1376,
-        "published": 82
+        "published": 100
       },
       "18": {
-        "todas": 1220,
-        "published": 80
+        "todas": 1234,
+        "published": 102
       },
       "19": {
-        "todas": 1254,
-        "published": 93
+        "todas": 1223,
+        "published": 97
       },
       "20": {
-        "todas": 1209,
-        "published": 82
+        "todas": 1132,
+        "published": 111
       },
       "21": {
-        "todas": 960,
-        "published": 79
+        "todas": 1077,
+        "published": 94
       },
       "22": {
-        "todas": 1017,
-        "published": 81
+        "todas": 1050,
+        "published": 75
       },
       "23": {
-        "todas": 924,
-        "published": 65
+        "todas": 1038,
+        "published": 101
       }
     },
-    "2011.1": {
+    "2010.06": {
       "0": {
-        "todas": 750,
+        "todas": 853,
         "published": 61
       },
       "1": {
-        "todas": 477,
-        "published": 36
+        "todas": 478,
+        "published": 31
       },
       "2": {
-        "todas": 287,
+        "todas": 311,
+        "published": 15
+      },
+      "3": {
+        "todas": 216,
+        "published": 16
+      },
+      "4": {
+        "todas": 166,
+        "published": 11
+      },
+      "5": {
+        "todas": 163,
+        "published": 9
+      },
+      "6": {
+        "todas": 206,
+        "published": 19
+      },
+      "7": {
+        "todas": 325,
+        "published": 21
+      },
+      "8": {
+        "todas": 653,
+        "published": 42
+      },
+      "9": {
+        "todas": 1171,
+        "published": 74
+      },
+      "10": {
+        "todas": 1238,
+        "published": 89
+      },
+      "11": {
+        "todas": 1438,
+        "published": 92
+      },
+      "12": {
+        "todas": 1419,
+        "published": 117
+      },
+      "13": {
+        "todas": 1404,
+        "published": 114
+      },
+      "14": {
+        "todas": 1270,
+        "published": 106
+      },
+      "15": {
+        "todas": 1070,
+        "published": 81
+      },
+      "16": {
+        "todas": 1161,
+        "published": 101
+      },
+      "17": {
+        "todas": 1208,
+        "published": 105
+      },
+      "18": {
+        "todas": 1216,
+        "published": 76
+      },
+      "19": {
+        "todas": 1185,
+        "published": 92
+      },
+      "20": {
+        "todas": 1117,
+        "published": 87
+      },
+      "21": {
+        "todas": 1015,
+        "published": 69
+      },
+      "22": {
+        "todas": 1014,
+        "published": 76
+      },
+      "23": {
+        "todas": 1030,
+        "published": 71
+      }
+    },
+    "2010.07": {
+      "0": {
+        "todas": 685,
+        "published": 49
+      },
+      "1": {
+        "todas": 422,
+        "published": 35
+      },
+      "2": {
+        "todas": 320,
+        "published": 16
+      },
+      "3": {
+        "todas": 209,
+        "published": 14
+      },
+      "4": {
+        "todas": 168,
+        "published": 6
+      },
+      "5": {
+        "todas": 155,
+        "published": 9
+      },
+      "6": {
+        "todas": 204,
+        "published": 11
+      },
+      "7": {
+        "todas": 317,
+        "published": 23
+      },
+      "8": {
+        "todas": 570,
+        "published": 33
+      },
+      "9": {
+        "todas": 959,
+        "published": 75
+      },
+      "10": {
+        "todas": 1134,
+        "published": 76
+      },
+      "11": {
+        "todas": 1252,
+        "published": 99
+      },
+      "12": {
+        "todas": 1303,
+        "published": 109
+      },
+      "13": {
+        "todas": 1329,
+        "published": 104
+      },
+      "14": {
+        "todas": 1092,
+        "published": 92
+      },
+      "15": {
+        "todas": 982,
+        "published": 67
+      },
+      "16": {
+        "todas": 994,
+        "published": 68
+      },
+      "17": {
+        "todas": 1068,
+        "published": 83
+      },
+      "18": {
+        "todas": 1074,
+        "published": 73
+      },
+      "19": {
+        "todas": 1069,
+        "published": 72
+      },
+      "20": {
+        "todas": 920,
+        "published": 74
+      },
+      "21": {
+        "todas": 791,
+        "published": 72
+      },
+      "22": {
+        "todas": 802,
+        "published": 61
+      },
+      "23": {
+        "todas": 794,
+        "published": 72
+      }
+    },
+    "2010.08": {
+      "0": {
+        "todas": 611,
+        "published": 49
+      },
+      "1": {
+        "todas": 434,
+        "published": 24
+      },
+      "2": {
+        "todas": 274,
+        "published": 18
+      },
+      "3": {
+        "todas": 190,
+        "published": 16
+      },
+      "4": {
+        "todas": 178,
+        "published": 7
+      },
+      "5": {
+        "todas": 145,
+        "published": 9
+      },
+      "6": {
+        "todas": 155,
+        "published": 8
+      },
+      "7": {
+        "todas": 259,
+        "published": 17
+      },
+      "8": {
+        "todas": 530,
+        "published": 46
+      },
+      "9": {
+        "todas": 877,
+        "published": 64
+      },
+      "10": {
+        "todas": 1080,
+        "published": 79
+      },
+      "11": {
+        "todas": 1166,
+        "published": 80
+      },
+      "12": {
+        "todas": 1249,
+        "published": 117
+      },
+      "13": {
+        "todas": 1318,
+        "published": 99
+      },
+      "14": {
+        "todas": 1023,
+        "published": 86
+      },
+      "15": {
+        "todas": 911,
+        "published": 64
+      },
+      "16": {
+        "todas": 914,
+        "published": 70
+      },
+      "17": {
+        "todas": 992,
+        "published": 72
+      },
+      "18": {
+        "todas": 986,
+        "published": 59
+      },
+      "19": {
+        "todas": 988,
+        "published": 64
+      },
+      "20": {
+        "todas": 933,
+        "published": 67
+      },
+      "21": {
+        "todas": 873,
+        "published": 54
+      },
+      "22": {
+        "todas": 776,
+        "published": 67
+      },
+      "23": {
+        "todas": 688,
+        "published": 71
+      }
+    },
+    "2010.09": {
+      "0": {
+        "todas": 640,
+        "published": 32
+      },
+      "1": {
+        "todas": 403,
+        "published": 29
+      },
+      "2": {
+        "todas": 240,
         "published": 17
       },
       "3": {
-        "todas": 214,
+        "todas": 183,
+        "published": 4
+      },
+      "4": {
+        "todas": 165,
+        "published": 8
+      },
+      "5": {
+        "todas": 142,
+        "published": 8
+      },
+      "6": {
+        "todas": 170,
+        "published": 6
+      },
+      "7": {
+        "todas": 306,
+        "published": 11
+      },
+      "8": {
+        "todas": 530,
+        "published": 35
+      },
+      "9": {
+        "todas": 957,
+        "published": 70
+      },
+      "10": {
+        "todas": 1098,
+        "published": 77
+      },
+      "11": {
+        "todas": 1155,
+        "published": 90
+      },
+      "12": {
+        "todas": 1278,
+        "published": 100
+      },
+      "13": {
+        "todas": 1292,
+        "published": 95
+      },
+      "14": {
+        "todas": 1115,
+        "published": 75
+      },
+      "15": {
+        "todas": 951,
+        "published": 69
+      },
+      "16": {
+        "todas": 1067,
+        "published": 74
+      },
+      "17": {
+        "todas": 1100,
+        "published": 59
+      },
+      "18": {
+        "todas": 1077,
+        "published": 62
+      },
+      "19": {
+        "todas": 1001,
+        "published": 55
+      },
+      "20": {
+        "todas": 944,
+        "published": 58
+      },
+      "21": {
+        "todas": 896,
+        "published": 64
+      },
+      "22": {
+        "todas": 846,
+        "published": 58
+      },
+      "23": {
+        "todas": 834,
+        "published": 68
+      }
+    },
+    "2010.1": {
+      "0": {
+        "todas": 658,
+        "published": 57
+      },
+      "1": {
+        "todas": 340,
+        "published": 32
+      },
+      "2": {
+        "todas": 239,
+        "published": 22
+      },
+      "3": {
+        "todas": 161,
+        "published": 9
+      },
+      "4": {
+        "todas": 137,
+        "published": 8
+      },
+      "5": {
+        "todas": 151,
+        "published": 7
+      },
+      "6": {
+        "todas": 146,
+        "published": 9
+      },
+      "7": {
+        "todas": 271,
+        "published": 20
+      },
+      "8": {
+        "todas": 472,
+        "published": 33
+      },
+      "9": {
+        "todas": 895,
+        "published": 50
+      },
+      "10": {
+        "todas": 1073,
+        "published": 68
+      },
+      "11": {
+        "todas": 1185,
+        "published": 85
+      },
+      "12": {
+        "todas": 1285,
+        "published": 93
+      },
+      "13": {
+        "todas": 1210,
+        "published": 80
+      },
+      "14": {
+        "todas": 1009,
+        "published": 65
+      },
+      "15": {
+        "todas": 932,
+        "published": 70
+      },
+      "16": {
+        "todas": 1013,
+        "published": 61
+      },
+      "17": {
+        "todas": 1076,
+        "published": 63
+      },
+      "18": {
+        "todas": 1055,
+        "published": 62
+      },
+      "19": {
+        "todas": 913,
+        "published": 62
+      },
+      "20": {
+        "todas": 1001,
+        "published": 68
+      },
+      "21": {
+        "todas": 843,
+        "published": 53
+      },
+      "22": {
+        "todas": 813,
+        "published": 70
+      },
+      "23": {
+        "todas": 767,
+        "published": 65
+      }
+    },
+    "2010.11": {
+      "0": {
+        "todas": 615,
+        "published": 38
+      },
+      "1": {
+        "todas": 341,
+        "published": 30
+      },
+      "2": {
+        "todas": 206,
+        "published": 20
+      },
+      "3": {
+        "todas": 173,
+        "published": 14
+      },
+      "4": {
+        "todas": 165,
+        "published": 10
+      },
+      "5": {
+        "todas": 121,
+        "published": 5
+      },
+      "6": {
+        "todas": 155,
         "published": 16
+      },
+      "7": {
+        "todas": 238,
+        "published": 18
+      },
+      "8": {
+        "todas": 524,
+        "published": 48
+      },
+      "9": {
+        "todas": 986,
+        "published": 67
+      },
+      "10": {
+        "todas": 1156,
+        "published": 99
+      },
+      "11": {
+        "todas": 1254,
+        "published": 87
+      },
+      "12": {
+        "todas": 1411,
+        "published": 90
+      },
+      "13": {
+        "todas": 1425,
+        "published": 84
+      },
+      "14": {
+        "todas": 1141,
+        "published": 79
+      },
+      "15": {
+        "todas": 1006,
+        "published": 75
+      },
+      "16": {
+        "todas": 1123,
+        "published": 81
+      },
+      "17": {
+        "todas": 1166,
+        "published": 87
+      },
+      "18": {
+        "todas": 1055,
+        "published": 62
+      },
+      "19": {
+        "todas": 1077,
+        "published": 62
+      },
+      "20": {
+        "todas": 1074,
+        "published": 92
+      },
+      "21": {
+        "todas": 835,
+        "published": 55
+      },
+      "22": {
+        "todas": 813,
+        "published": 59
+      },
+      "23": {
+        "todas": 845,
+        "published": 74
+      }
+    },
+    "2010.12": {
+      "0": {
+        "todas": 640,
+        "published": 72
+      },
+      "1": {
+        "todas": 427,
+        "published": 32
+      },
+      "2": {
+        "todas": 244,
+        "published": 18
+      },
+      "3": {
+        "todas": 215,
+        "published": 9
+      },
+      "4": {
+        "todas": 167,
+        "published": 11
+      },
+      "5": {
+        "todas": 140,
+        "published": 9
+      },
+      "6": {
+        "todas": 172,
+        "published": 9
+      },
+      "7": {
+        "todas": 252,
+        "published": 19
+      },
+      "8": {
+        "todas": 512,
+        "published": 38
+      },
+      "9": {
+        "todas": 857,
+        "published": 54
+      },
+      "10": {
+        "todas": 1079,
+        "published": 70
+      },
+      "11": {
+        "todas": 1139,
+        "published": 77
+      },
+      "12": {
+        "todas": 1339,
+        "published": 93
+      },
+      "13": {
+        "todas": 1292,
+        "published": 81
+      },
+      "14": {
+        "todas": 1080,
+        "published": 81
+      },
+      "15": {
+        "todas": 985,
+        "published": 89
+      },
+      "16": {
+        "todas": 1064,
+        "published": 71
+      },
+      "17": {
+        "todas": 1123,
+        "published": 72
+      },
+      "18": {
+        "todas": 1061,
+        "published": 64
+      },
+      "19": {
+        "todas": 1095,
+        "published": 83
+      },
+      "20": {
+        "todas": 1060,
+        "published": 71
+      },
+      "21": {
+        "todas": 876,
+        "published": 65
+      },
+      "22": {
+        "todas": 847,
+        "published": 64
+      },
+      "23": {
+        "todas": 814,
+        "published": 78
+      }
+    },
+    "2011.01": {
+      "0": {
+        "todas": 676,
+        "published": 52
+      },
+      "1": {
+        "todas": 448,
+        "published": 36
+      },
+      "2": {
+        "todas": 309,
+        "published": 22
+      },
+      "3": {
+        "todas": 185,
+        "published": 8
+      },
+      "4": {
+        "todas": 149,
+        "published": 5
+      },
+      "5": {
+        "todas": 154,
+        "published": 10
+      },
+      "6": {
+        "todas": 198,
+        "published": 3
+      },
+      "7": {
+        "todas": 315,
+        "published": 17
+      },
+      "8": {
+        "todas": 559,
+        "published": 42
+      },
+      "9": {
+        "todas": 1017,
+        "published": 81
+      },
+      "10": {
+        "todas": 1229,
+        "published": 73
+      },
+      "11": {
+        "todas": 1359,
+        "published": 91
+      },
+      "12": {
+        "todas": 1495,
+        "published": 101
+      },
+      "13": {
+        "todas": 1479,
+        "published": 93
+      },
+      "14": {
+        "todas": 1196,
+        "published": 70
+      },
+      "15": {
+        "todas": 1163,
+        "published": 68
+      },
+      "16": {
+        "todas": 1213,
+        "published": 95
+      },
+      "17": {
+        "todas": 1257,
+        "published": 91
+      },
+      "18": {
+        "todas": 1202,
+        "published": 73
+      },
+      "19": {
+        "todas": 1120,
+        "published": 80
+      },
+      "20": {
+        "todas": 1100,
+        "published": 73
+      },
+      "21": {
+        "todas": 1056,
+        "published": 80
+      },
+      "22": {
+        "todas": 902,
+        "published": 86
+      },
+      "23": {
+        "todas": 894,
+        "published": 64
+      }
+    },
+    "2011.02": {
+      "0": {
+        "todas": 655,
+        "published": 44
+      },
+      "1": {
+        "todas": 410,
+        "published": 28
+      },
+      "2": {
+        "todas": 250,
+        "published": 23
+      },
+      "3": {
+        "todas": 171,
+        "published": 19
       },
       "4": {
         "todas": 172,
         "published": 7
       },
       "5": {
-        "todas": 151,
+        "todas": 134,
         "published": 9
       },
       "6": {
-        "todas": 223,
-        "published": 11
+        "todas": 148,
+        "published": 12
       },
       "7": {
-        "todas": 391,
-        "published": 30
+        "todas": 294,
+        "published": 27
       },
       "8": {
-        "todas": 788,
-        "published": 51
+        "todas": 634,
+        "published": 46
       },
       "9": {
-        "todas": 1208,
-        "published": 70
-      },
-      "10": {
-        "todas": 1453,
-        "published": 95
-      },
-      "11": {
-        "todas": 1497,
-        "published": 94
-      },
-      "12": {
-        "todas": 1624,
-        "published": 103
-      },
-      "13": {
-        "todas": 1667,
-        "published": 110
-      },
-      "14": {
-        "todas": 1327,
-        "published": 91
-      },
-      "15": {
-        "todas": 1209,
-        "published": 86
-      },
-      "16": {
-        "todas": 1451,
-        "published": 79
-      },
-      "17": {
-        "todas": 1479,
-        "published": 83
-      },
-      "18": {
-        "todas": 1311,
-        "published": 73
-      },
-      "19": {
-        "todas": 1177,
-        "published": 85
-      },
-      "20": {
-        "todas": 1240,
+        "todas": 1115,
         "published": 84
       },
+      "10": {
+        "todas": 1292,
+        "published": 74
+      },
+      "11": {
+        "todas": 1389,
+        "published": 90
+      },
+      "12": {
+        "todas": 1563,
+        "published": 96
+      },
+      "13": {
+        "todas": 1456,
+        "published": 96
+      },
+      "14": {
+        "todas": 1395,
+        "published": 86
+      },
+      "15": {
+        "todas": 1171,
+        "published": 78
+      },
+      "16": {
+        "todas": 1244,
+        "published": 82
+      },
+      "17": {
+        "todas": 1255,
+        "published": 85
+      },
+      "18": {
+        "todas": 1254,
+        "published": 67
+      },
+      "19": {
+        "todas": 1141,
+        "published": 95
+      },
+      "20": {
+        "todas": 1130,
+        "published": 71
+      },
       "21": {
-        "todas": 1054,
-        "published": 97
+        "todas": 1040,
+        "published": 74
       },
       "22": {
-        "todas": 1055,
-        "published": 89
+        "todas": 989,
+        "published": 82
       },
       "23": {
-        "todas": 1042,
-        "published": 99
+        "todas": 810,
+        "published": 82
       }
     },
-    "2011.11": {
+    "2011.03": {
       "0": {
-        "todas": 871,
-        "published": 58
+        "todas": 817,
+        "published": 57
       },
       "1": {
-        "todas": 555,
-        "published": 41
+        "todas": 437,
+        "published": 32
       },
       "2": {
-        "todas": 342,
-        "published": 26
+        "todas": 301,
+        "published": 20
       },
       "3": {
-        "todas": 227,
-        "published": 11
+        "todas": 266,
+        "published": 18
       },
       "4": {
-        "todas": 201,
-        "published": 11
+        "todas": 174,
+        "published": 17
       },
       "5": {
-        "todas": 178,
+        "todas": 175,
         "published": 7
       },
       "6": {
         "todas": 231,
-        "published": 14
+        "published": 16
       },
       "7": {
-        "todas": 434,
-        "published": 35
+        "todas": 382,
+        "published": 22
       },
       "8": {
-        "todas": 814,
-        "published": 45
+        "todas": 693,
+        "published": 50
       },
       "9": {
-        "todas": 1246,
-        "published": 71
+        "todas": 1189,
+        "published": 75
       },
       "10": {
-        "todas": 1528,
-        "published": 98
+        "todas": 1460,
+        "published": 90
       },
       "11": {
-        "todas": 1602,
-        "published": 103
+        "todas": 1562,
+        "published": 90
       },
       "12": {
-        "todas": 1698,
+        "todas": 1722,
         "published": 103
       },
       "13": {
-        "todas": 1760,
-        "published": 106
+        "todas": 1705,
+        "published": 104
       },
       "14": {
-        "todas": 1373,
-        "published": 72
+        "todas": 1370,
+        "published": 106
       },
       "15": {
-        "todas": 1351,
-        "published": 94
+        "todas": 1311,
+        "published": 98
       },
       "16": {
-        "todas": 1492,
-        "published": 101
+        "todas": 1421,
+        "published": 86
       },
       "17": {
-        "todas": 1474,
-        "published": 101
+        "todas": 1514,
+        "published": 83
       },
       "18": {
-        "todas": 1379,
-        "published": 94
+        "todas": 1366,
+        "published": 82
       },
       "19": {
-        "todas": 1388,
-        "published": 107
+        "todas": 1417,
+        "published": 73
       },
       "20": {
-        "todas": 1399,
-        "published": 96
+        "todas": 1313,
+        "published": 75
       },
       "21": {
-        "todas": 1174,
+        "todas": 1163,
+        "published": 81
+      },
+      "22": {
+        "todas": 1115,
+        "published": 85
+      },
+      "23": {
+        "todas": 1055,
+        "published": 85
+      }
+    },
+    "2011.04": {
+      "0": {
+        "todas": 705,
+        "published": 59
+      },
+      "1": {
+        "todas": 496,
+        "published": 27
+      },
+      "2": {
+        "todas": 280,
+        "published": 26
+      },
+      "3": {
+        "todas": 183,
+        "published": 10
+      },
+      "4": {
+        "todas": 180,
+        "published": 13
+      },
+      "5": {
+        "todas": 153,
+        "published": 12
+      },
+      "6": {
+        "todas": 202,
+        "published": 16
+      },
+      "7": {
+        "todas": 278,
+        "published": 28
+      },
+      "8": {
+        "todas": 535,
+        "published": 29
+      },
+      "9": {
+        "todas": 925,
+        "published": 64
+      },
+      "10": {
+        "todas": 1198,
+        "published": 71
+      },
+      "11": {
+        "todas": 1378,
+        "published": 112
+      },
+      "12": {
+        "todas": 1452,
+        "published": 98
+      },
+      "13": {
+        "todas": 1370,
+        "published": 80
+      },
+      "14": {
+        "todas": 1261,
+        "published": 98
+      },
+      "15": {
+        "todas": 1058,
+        "published": 85
+      },
+      "16": {
+        "todas": 1141,
+        "published": 91
+      },
+      "17": {
+        "todas": 1201,
+        "published": 62
+      },
+      "18": {
+        "todas": 1155,
+        "published": 76
+      },
+      "19": {
+        "todas": 1146,
+        "published": 71
+      },
+      "20": {
+        "todas": 1088,
+        "published": 51
+      },
+      "21": {
+        "todas": 985,
+        "published": 67
+      },
+      "22": {
+        "todas": 937,
+        "published": 69
+      },
+      "23": {
+        "todas": 889,
+        "published": 60
+      }
+    },
+    "2011.05": {
+      "0": {
+        "todas": 847,
+        "published": 79
+      },
+      "1": {
+        "todas": 579,
+        "published": 52
+      },
+      "2": {
+        "todas": 354,
+        "published": 37
+      },
+      "3": {
+        "todas": 227,
+        "published": 17
+      },
+      "4": {
+        "todas": 183,
+        "published": 15
+      },
+      "5": {
+        "todas": 171,
+        "published": 9
+      },
+      "6": {
+        "todas": 231,
+        "published": 22
+      },
+      "7": {
+        "todas": 343,
+        "published": 23
+      },
+      "8": {
+        "todas": 742,
+        "published": 45
+      },
+      "9": {
+        "todas": 1041,
+        "published": 64
+      },
+      "10": {
+        "todas": 1400,
+        "published": 83
+      },
+      "11": {
+        "todas": 1566,
+        "published": 95
+      },
+      "12": {
+        "todas": 1690,
+        "published": 130
+      },
+      "13": {
+        "todas": 1704,
+        "published": 129
+      },
+      "14": {
+        "todas": 1327,
+        "published": 96
+      },
+      "15": {
+        "todas": 1229,
+        "published": 102
+      },
+      "16": {
+        "todas": 1325,
+        "published": 93
+      },
+      "17": {
+        "todas": 1417,
+        "published": 94
+      },
+      "18": {
+        "todas": 1444,
+        "published": 87
+      },
+      "19": {
+        "todas": 1331,
+        "published": 80
+      },
+      "20": {
+        "todas": 1209,
+        "published": 76
+      },
+      "21": {
+        "todas": 1103,
         "published": 85
       },
       "22": {
-        "todas": 1145,
-        "published": 91
+        "todas": 1085,
+        "published": 85
       },
       "23": {
-        "todas": 1017,
+        "todas": 1042,
+        "published": 105
+      }
+    },
+    "2011.06": {
+      "0": {
+        "todas": 762,
+        "published": 63
+      },
+      "1": {
+        "todas": 510,
+        "published": 46
+      },
+      "2": {
+        "todas": 347,
+        "published": 25
+      },
+      "3": {
+        "todas": 209,
+        "published": 14
+      },
+      "4": {
+        "todas": 196,
+        "published": 6
+      },
+      "5": {
+        "todas": 153,
+        "published": 6
+      },
+      "6": {
+        "todas": 209,
+        "published": 17
+      },
+      "7": {
+        "todas": 402,
+        "published": 29
+      },
+      "8": {
+        "todas": 714,
+        "published": 43
+      },
+      "9": {
+        "todas": 1140,
+        "published": 53
+      },
+      "10": {
+        "todas": 1338,
+        "published": 80
+      },
+      "11": {
+        "todas": 1530,
+        "published": 102
+      },
+      "12": {
+        "todas": 1670,
+        "published": 101
+      },
+      "13": {
+        "todas": 1613,
+        "published": 98
+      },
+      "14": {
+        "todas": 1265,
+        "published": 97
+      },
+      "15": {
+        "todas": 1119,
+        "published": 82
+      },
+      "16": {
+        "todas": 1312,
+        "published": 85
+      },
+      "17": {
+        "todas": 1366,
+        "published": 87
+      },
+      "18": {
+        "todas": 1274,
         "published": 83
+      },
+      "19": {
+        "todas": 1273,
+        "published": 67
+      },
+      "20": {
+        "todas": 1205,
+        "published": 81
+      },
+      "21": {
+        "todas": 1032,
+        "published": 79
+      },
+      "22": {
+        "todas": 939,
+        "published": 71
+      },
+      "23": {
+        "todas": 938,
+        "published": 65
+      }
+    },
+    "2011.07": {
+      "0": {
+        "todas": 692,
+        "published": 57
+      },
+      "1": {
+        "todas": 441,
+        "published": 27
+      },
+      "2": {
+        "todas": 311,
+        "published": 19
+      },
+      "3": {
+        "todas": 200,
+        "published": 12
+      },
+      "4": {
+        "todas": 164,
+        "published": 5
+      },
+      "5": {
+        "todas": 174,
+        "published": 11
+      },
+      "6": {
+        "todas": 197,
+        "published": 15
+      },
+      "7": {
+        "todas": 327,
+        "published": 21
+      },
+      "8": {
+        "todas": 673,
+        "published": 39
+      },
+      "9": {
+        "todas": 953,
+        "published": 71
+      },
+      "10": {
+        "todas": 1179,
+        "published": 80
+      },
+      "11": {
+        "todas": 1326,
+        "published": 80
+      },
+      "12": {
+        "todas": 1377,
+        "published": 96
+      },
+      "13": {
+        "todas": 1472,
+        "published": 98
+      },
+      "14": {
+        "todas": 1062,
+        "published": 75
+      },
+      "15": {
+        "todas": 983,
+        "published": 71
+      },
+      "16": {
+        "todas": 1079,
+        "published": 66
+      },
+      "17": {
+        "todas": 1229,
+        "published": 76
+      },
+      "18": {
+        "todas": 1093,
+        "published": 77
+      },
+      "19": {
+        "todas": 1120,
+        "published": 67
+      },
+      "20": {
+        "todas": 994,
+        "published": 78
+      },
+      "21": {
+        "todas": 910,
+        "published": 63
+      },
+      "22": {
+        "todas": 904,
+        "published": 74
+      },
+      "23": {
+        "todas": 801,
+        "published": 73
+      }
+    },
+    "2011.08": {
+      "0": {
+        "todas": 643,
+        "published": 46
+      },
+      "1": {
+        "todas": 486,
+        "published": 40
+      },
+      "2": {
+        "todas": 268,
+        "published": 25
+      },
+      "3": {
+        "todas": 270,
+        "published": 19
+      },
+      "4": {
+        "todas": 216,
+        "published": 14
+      },
+      "5": {
+        "todas": 157,
+        "published": 6
+      },
+      "6": {
+        "todas": 193,
+        "published": 6
+      },
+      "7": {
+        "todas": 346,
+        "published": 17
+      },
+      "8": {
+        "todas": 774,
+        "published": 41
+      },
+      "9": {
+        "todas": 1133,
+        "published": 52
+      },
+      "10": {
+        "todas": 1311,
+        "published": 65
+      },
+      "11": {
+        "todas": 1376,
+        "published": 85
+      },
+      "12": {
+        "todas": 1483,
+        "published": 91
+      },
+      "13": {
+        "todas": 1494,
+        "published": 99
+      },
+      "14": {
+        "todas": 1194,
+        "published": 87
+      },
+      "15": {
+        "todas": 1045,
+        "published": 67
+      },
+      "16": {
+        "todas": 1096,
+        "published": 72
+      },
+      "17": {
+        "todas": 1179,
+        "published": 59
+      },
+      "18": {
+        "todas": 1148,
+        "published": 59
+      },
+      "19": {
+        "todas": 1073,
+        "published": 73
+      },
+      "20": {
+        "todas": 958,
+        "published": 71
+      },
+      "21": {
+        "todas": 871,
+        "published": 74
+      },
+      "22": {
+        "todas": 808,
+        "published": 80
+      },
+      "23": {
+        "todas": 728,
+        "published": 71
+      }
+    },
+    "2011.09": {
+      "0": {
+        "todas": 654,
+        "published": 45
+      },
+      "1": {
+        "todas": 440,
+        "published": 34
+      },
+      "2": {
+        "todas": 312,
+        "published": 24
+      },
+      "3": {
+        "todas": 203,
+        "published": 7
+      },
+      "4": {
+        "todas": 176,
+        "published": 14
+      },
+      "5": {
+        "todas": 156,
+        "published": 7
+      },
+      "6": {
+        "todas": 205,
+        "published": 16
+      },
+      "7": {
+        "todas": 381,
+        "published": 26
+      },
+      "8": {
+        "todas": 802,
+        "published": 56
+      },
+      "9": {
+        "todas": 1244,
+        "published": 68
+      },
+      "10": {
+        "todas": 1529,
+        "published": 98
+      },
+      "11": {
+        "todas": 1524,
+        "published": 88
+      },
+      "12": {
+        "todas": 1641,
+        "published": 121
+      },
+      "13": {
+        "todas": 1571,
+        "published": 90
+      },
+      "14": {
+        "todas": 1365,
+        "published": 93
+      },
+      "15": {
+        "todas": 1280,
+        "published": 83
+      },
+      "16": {
+        "todas": 1317,
+        "published": 68
+      },
+      "17": {
+        "todas": 1464,
+        "published": 76
+      },
+      "18": {
+        "todas": 1272,
+        "published": 81
+      },
+      "19": {
+        "todas": 1265,
+        "published": 99
+      },
+      "20": {
+        "todas": 1242,
+        "published": 76
+      },
+      "21": {
+        "todas": 1016,
+        "published": 83
+      },
+      "22": {
+        "todas": 1025,
+        "published": 80
+      },
+      "23": {
+        "todas": 950,
+        "published": 75
+      }
+    },
+    "2011.1": {
+      "0": {
+        "todas": 750,
+        "published": 63
+      },
+      "1": {
+        "todas": 482,
+        "published": 38
+      },
+      "2": {
+        "todas": 304,
+        "published": 20
+      },
+      "3": {
+        "todas": 215,
+        "published": 16
+      },
+      "4": {
+        "todas": 183,
+        "published": 8
+      },
+      "5": {
+        "todas": 149,
+        "published": 8
+      },
+      "6": {
+        "todas": 221,
+        "published": 8
+      },
+      "7": {
+        "todas": 398,
+        "published": 31
+      },
+      "8": {
+        "todas": 796,
+        "published": 50
+      },
+      "9": {
+        "todas": 1216,
+        "published": 64
+      },
+      "10": {
+        "todas": 1426,
+        "published": 85
+      },
+      "11": {
+        "todas": 1536,
+        "published": 95
+      },
+      "12": {
+        "todas": 1602,
+        "published": 96
+      },
+      "13": {
+        "todas": 1689,
+        "published": 108
+      },
+      "14": {
+        "todas": 1357,
+        "published": 84
+      },
+      "15": {
+        "todas": 1211,
+        "published": 80
+      },
+      "16": {
+        "todas": 1461,
+        "published": 84
+      },
+      "17": {
+        "todas": 1422,
+        "published": 94
+      },
+      "18": {
+        "todas": 1312,
+        "published": 82
+      },
+      "19": {
+        "todas": 1178,
+        "published": 83
+      },
+      "20": {
+        "todas": 1265,
+        "published": 86
+      },
+      "21": {
+        "todas": 1026,
+        "published": 85
+      },
+      "22": {
+        "todas": 1050,
+        "published": 84
+      },
+      "23": {
+        "todas": 1035,
+        "published": 95
+      }
+    },
+    "2011.11": {
+      "0": {
+        "todas": 904,
+        "published": 65
+      },
+      "1": {
+        "todas": 588,
+        "published": 44
+      },
+      "2": {
+        "todas": 338,
+        "published": 20
+      },
+      "3": {
+        "todas": 243,
+        "published": 11
+      },
+      "4": {
+        "todas": 187,
+        "published": 11
+      },
+      "5": {
+        "todas": 194,
+        "published": 6
+      },
+      "6": {
+        "todas": 228,
+        "published": 17
+      },
+      "7": {
+        "todas": 436,
+        "published": 35
+      },
+      "8": {
+        "todas": 784,
+        "published": 49
+      },
+      "9": {
+        "todas": 1240,
+        "published": 72
+      },
+      "10": {
+        "todas": 1586,
+        "published": 99
+      },
+      "11": {
+        "todas": 1656,
+        "published": 110
+      },
+      "12": {
+        "todas": 1767,
+        "published": 102
+      },
+      "13": {
+        "todas": 1796,
+        "published": 113
+      },
+      "14": {
+        "todas": 1407,
+        "published": 75
+      },
+      "15": {
+        "todas": 1339,
+        "published": 97
+      },
+      "16": {
+        "todas": 1502,
+        "published": 102
+      },
+      "17": {
+        "todas": 1464,
+        "published": 92
+      },
+      "18": {
+        "todas": 1385,
+        "published": 91
+      },
+      "19": {
+        "todas": 1430,
+        "published": 99
+      },
+      "20": {
+        "todas": 1380,
+        "published": 94
+      },
+      "21": {
+        "todas": 1230,
+        "published": 93
+      },
+      "22": {
+        "todas": 1148,
+        "published": 96
+      },
+      "23": {
+        "todas": 1030,
+        "published": 81
       }
     },
     "2011.12": {
       "0": {
-        "todas": 843,
-        "published": 77
+        "todas": 806,
+        "published": 70
       },
       "1": {
-        "todas": 565,
-        "published": 41
+        "todas": 538,
+        "published": 40
       },
       "2": {
-        "todas": 318,
-        "published": 23
+        "todas": 312,
+        "published": 26
       },
       "3": {
-        "todas": 241,
-        "published": 16
+        "todas": 222,
+        "published": 19
       },
       "4": {
-        "todas": 166,
-        "published": 17
+        "todas": 171,
+        "published": 15
       },
       "5": {
-        "todas": 168,
-        "published": 6
+        "todas": 146,
+        "published": 5
       },
       "6": {
-        "todas": 184,
-        "published": 18
+        "todas": 181,
+        "published": 16
       },
       "7": {
-        "todas": 373,
-        "published": 21
+        "todas": 346,
+        "published": 17
       },
       "8": {
-        "todas": 734,
-        "published": 48
+        "todas": 691,
+        "published": 47
       },
       "9": {
-        "todas": 1216,
-        "published": 73
+        "todas": 1125,
+        "published": 70
       },
       "10": {
-        "todas": 1554,
-        "published": 108
+        "todas": 1461,
+        "published": 104
       },
       "11": {
-        "todas": 1653,
-        "published": 100
+        "todas": 1542,
+        "published": 92
       },
       "12": {
-        "todas": 1655,
-        "published": 91
+        "todas": 1594,
+        "published": 87
       },
       "13": {
-        "todas": 1729,
-        "published": 124
+        "todas": 1636,
+        "published": 115
       },
       "14": {
-        "todas": 1351,
-        "published": 82
+        "todas": 1280,
+        "published": 84
       },
       "15": {
-        "todas": 1319,
+        "todas": 1305,
         "published": 70
       },
       "16": {
-        "todas": 1354,
-        "published": 68
+        "todas": 1289,
+        "published": 63
       },
       "17": {
-        "todas": 1299,
-        "published": 75
+        "todas": 1245,
+        "published": 87
       },
       "18": {
-        "todas": 1329,
-        "published": 106
+        "todas": 1252,
+        "published": 109
       },
       "19": {
-        "todas": 1344,
+        "todas": 1284,
         "published": 76
       },
       "20": {
-        "todas": 1294,
-        "published": 90
+        "todas": 1254,
+        "published": 94
       },
       "21": {
-        "todas": 1164,
+        "todas": 1092,
         "published": 72
       },
       "22": {
-        "todas": 1006,
-        "published": 77
+        "todas": 938,
+        "published": 67
       },
       "23": {
-        "todas": 1011,
-        "published": 88
+        "todas": 975,
+        "published": 92
       }
     },
     "2012.01": {
       "0": {
-        "todas": 777,
+        "todas": 835,
         "published": 63
       },
       "1": {
-        "todas": 531,
-        "published": 51
+        "todas": 524,
+        "published": 53
       },
       "2": {
-        "todas": 343,
-        "published": 31
+        "todas": 333,
+        "published": 27
       },
       "3": {
-        "todas": 216,
-        "published": 25
+        "todas": 211,
+        "published": 21
       },
       "4": {
-        "todas": 174,
-        "published": 13
+        "todas": 168,
+        "published": 14
       },
       "5": {
-        "todas": 137,
-        "published": 5
+        "todas": 155,
+        "published": 7
       },
       "6": {
-        "todas": 213,
-        "published": 13
+        "todas": 222,
+        "published": 12
       },
       "7": {
-        "todas": 354,
-        "published": 23
+        "todas": 353,
+        "published": 28
       },
       "8": {
-        "todas": 598,
-        "published": 44
+        "todas": 618,
+        "published": 41
       },
       "9": {
-        "todas": 1034,
-        "published": 67
+        "todas": 1138,
+        "published": 77
       },
       "10": {
-        "todas": 1345,
-        "published": 80
+        "todas": 1396,
+        "published": 81
       },
       "11": {
-        "todas": 1534,
-        "published": 93
+        "todas": 1596,
+        "published": 96
       },
       "12": {
-        "todas": 1718,
-        "published": 101
+        "todas": 1804,
+        "published": 109
       },
       "13": {
-        "todas": 1622,
-        "published": 110
+        "todas": 1697,
+        "published": 118
       },
       "14": {
-        "todas": 1303,
+        "todas": 1364,
         "published": 86
       },
       "15": {
-        "todas": 1341,
-        "published": 93
+        "todas": 1363,
+        "published": 98
       },
       "16": {
-        "todas": 1442,
-        "published": 90
-      },
-      "17": {
-        "todas": 1334,
-        "published": 108
-      },
-      "18": {
-        "todas": 1269,
-        "published": 89
-      },
-      "19": {
-        "todas": 1345,
+        "todas": 1501,
         "published": 96
       },
+      "17": {
+        "todas": 1425,
+        "published": 105
+      },
+      "18": {
+        "todas": 1315,
+        "published": 82
+      },
+      "19": {
+        "todas": 1401,
+        "published": 99
+      },
       "20": {
-        "todas": 1288,
-        "published": 94
+        "todas": 1343,
+        "published": 89
       },
       "21": {
-        "todas": 1146,
-        "published": 97
+        "todas": 1159,
+        "published": 103
       },
       "22": {
-        "todas": 985,
-        "published": 68
+        "todas": 1054,
+        "published": 79
       },
       "23": {
-        "todas": 1006,
-        "published": 94
+        "todas": 1023,
+        "published": 89
       }
     },
     "2012.02": {
       "0": {
-        "todas": 784,
-        "published": 61
+        "todas": 745,
+        "published": 63
       },
       "1": {
-        "todas": 418,
-        "published": 26
+        "todas": 412,
+        "published": 25
       },
       "2": {
-        "todas": 310,
-        "published": 21
+        "todas": 304,
+        "published": 23
       },
       "3": {
-        "todas": 190,
-        "published": 11
+        "todas": 202,
+        "published": 13
       },
       "4": {
-        "todas": 145,
-        "published": 7
+        "todas": 160,
+        "published": 6
       },
       "5": {
-        "todas": 126,
-        "published": 8
+        "todas": 112,
+        "published": 7
       },
       "6": {
-        "todas": 200,
-        "published": 15
+        "todas": 194,
+        "published": 18
       },
       "7": {
-        "todas": 311,
-        "published": 22
+        "todas": 315,
+        "published": 19
       },
       "8": {
-        "todas": 621,
-        "published": 48
+        "todas": 649,
+        "published": 44
       },
       "9": {
-        "todas": 1102,
-        "published": 66
+        "todas": 1074,
+        "published": 53
       },
       "10": {
-        "todas": 1325,
-        "published": 87
+        "todas": 1311,
+        "published": 80
       },
       "11": {
-        "todas": 1494,
-        "published": 96
+        "todas": 1511,
+        "published": 86
       },
       "12": {
-        "todas": 1665,
-        "published": 102
+        "todas": 1615,
+        "published": 97
       },
       "13": {
-        "todas": 1594,
-        "published": 98
+        "todas": 1571,
+        "published": 81
       },
       "14": {
-        "todas": 1335,
-        "published": 91
-      },
-      "15": {
-        "todas": 1206,
+        "todas": 1298,
         "published": 90
       },
+      "15": {
+        "todas": 1164,
+        "published": 78
+      },
       "16": {
-        "todas": 1337,
-        "published": 87
+        "todas": 1276,
+        "published": 74
       },
       "17": {
-        "todas": 1387,
-        "published": 83
+        "todas": 1328,
+        "published": 76
       },
       "18": {
-        "todas": 1227,
-        "published": 72
+        "todas": 1203,
+        "published": 74
       },
       "19": {
-        "todas": 1303,
-        "published": 77
+        "todas": 1261,
+        "published": 74
       },
       "20": {
-        "todas": 1213,
-        "published": 83
+        "todas": 1152,
+        "published": 78
       },
       "21": {
-        "todas": 1028,
-        "published": 85
+        "todas": 1049,
+        "published": 78
       },
       "22": {
-        "todas": 936,
-        "published": 85
+        "todas": 904,
+        "published": 79
       },
       "23": {
-        "todas": 952,
-        "published": 78
+        "todas": 956,
+        "published": 79
       }
     },
     "2012.03": {
       "0": {
         "todas": 684,
-        "published": 53
+        "published": 56
       },
       "1": {
-        "todas": 395,
-        "published": 31
+        "todas": 405,
+        "published": 33
       },
       "2": {
-        "todas": 254,
-        "published": 18
+        "todas": 258,
+        "published": 17
       },
       "3": {
-        "todas": 196,
-        "published": 13
+        "todas": 202,
+        "published": 12
       },
       "4": {
-        "todas": 152,
+        "todas": 139,
         "published": 3
       },
       "5": {
-        "todas": 115,
+        "todas": 118,
         "published": 8
       },
       "6": {
-        "todas": 174,
-        "published": 18
+        "todas": 164,
+        "published": 14
       },
       "7": {
-        "todas": 290,
-        "published": 18
+        "todas": 274,
+        "published": 16
       },
       "8": {
-        "todas": 679,
+        "todas": 629,
         "published": 30
       },
       "9": {
-        "todas": 1124,
-        "published": 49
+        "todas": 1069,
+        "published": 52
       },
       "10": {
-        "todas": 1339,
+        "todas": 1291,
         "published": 66
       },
       "11": {
-        "todas": 1519,
-        "published": 79
+        "todas": 1460,
+        "published": 84
       },
       "12": {
-        "todas": 1635,
-        "published": 83
+        "todas": 1555,
+        "published": 81
       },
       "13": {
-        "todas": 1550,
-        "published": 88
+        "todas": 1547,
+        "published": 96
       },
       "14": {
-        "todas": 1197,
-        "published": 75
+        "todas": 1160,
+        "published": 80
       },
       "15": {
-        "todas": 1093,
-        "published": 59
-      },
-      "16": {
-        "todas": 1271,
-        "published": 60
-      },
-      "17": {
-        "todas": 1198,
-        "published": 75
-      },
-      "18": {
-        "todas": 1182,
-        "published": 74
-      },
-      "19": {
-        "todas": 1155,
+        "todas": 1118,
         "published": 65
       },
-      "20": {
-        "todas": 1098,
-        "published": 62
+      "16": {
+        "todas": 1264,
+        "published": 68
       },
-      "21": {
-        "todas": 993,
+      "17": {
+        "todas": 1180,
         "published": 74
       },
+      "18": {
+        "todas": 1204,
+        "published": 76
+      },
+      "19": {
+        "todas": 1165,
+        "published": 69
+      },
+      "20": {
+        "todas": 1078,
+        "published": 68
+      },
+      "21": {
+        "todas": 953,
+        "published": 77
+      },
       "22": {
-        "todas": 868,
+        "todas": 861,
         "published": 64
       },
       "23": {
-        "todas": 839,
-        "published": 59
+        "todas": 872,
+        "published": 68
       }
     },
     "2012.04": {
       "0": {
-        "todas": 651,
-        "published": 44
+        "todas": 624,
+        "published": 46
       },
       "1": {
-        "todas": 429,
-        "published": 41
+        "todas": 409,
+        "published": 38
       },
       "2": {
-        "todas": 265,
+        "todas": 248,
         "published": 24
       },
       "3": {
-        "todas": 186,
-        "published": 10
+        "todas": 158,
+        "published": 8
       },
       "4": {
-        "todas": 122,
+        "todas": 120,
         "published": 4
       },
       "5": {
-        "todas": 104,
+        "todas": 106,
         "published": 5
       },
       "6": {
-        "todas": 111,
-        "published": 10
+        "todas": 108,
+        "published": 12
       },
       "7": {
-        "todas": 241,
-        "published": 16
+        "todas": 255,
+        "published": 17
       },
       "8": {
-        "todas": 555,
-        "published": 29
+        "todas": 581,
+        "published": 33
       },
       "9": {
-        "todas": 908,
-        "published": 53
+        "todas": 962,
+        "published": 56
       },
       "10": {
-        "todas": 1155,
-        "published": 64
+        "todas": 1158,
+        "published": 72
       },
       "11": {
-        "todas": 1235,
-        "published": 75
+        "todas": 1261,
+        "published": 84
       },
       "12": {
-        "todas": 1348,
-        "published": 86
-      },
-      "13": {
-        "todas": 1406,
+        "todas": 1370,
         "published": 92
       },
+      "13": {
+        "todas": 1369,
+        "published": 87
+      },
       "14": {
-        "todas": 1177,
-        "published": 82
+        "todas": 1171,
+        "published": 77
       },
       "15": {
-        "todas": 1067,
+        "todas": 1046,
         "published": 64
       },
       "16": {
-        "todas": 1085,
-        "published": 63
+        "todas": 1087,
+        "published": 58
       },
       "17": {
-        "todas": 1126,
-        "published": 81
-      },
-      "18": {
-        "todas": 1057,
-        "published": 64
-      },
-      "19": {
-        "todas": 1035,
+        "todas": 1152,
         "published": 83
       },
+      "18": {
+        "todas": 1054,
+        "published": 61
+      },
+      "19": {
+        "todas": 1001,
+        "published": 85
+      },
       "20": {
-        "todas": 950,
-        "published": 68
+        "todas": 992,
+        "published": 64
       },
       "21": {
-        "todas": 830,
-        "published": 67
+        "todas": 838,
+        "published": 65
       },
       "22": {
-        "todas": 767,
-        "published": 67
+        "todas": 721,
+        "published": 70
       },
       "23": {
-        "todas": 886,
-        "published": 82
+        "todas": 841,
+        "published": 80
       }
     },
     "2012.05": {
       "0": {
-        "todas": 720,
-        "published": 57
+        "todas": 730,
+        "published": 47
       },
       "1": {
-        "todas": 434,
-        "published": 39
+        "todas": 454,
+        "published": 36
       },
       "2": {
-        "todas": 285,
-        "published": 21
+        "todas": 288,
+        "published": 22
       },
       "3": {
-        "todas": 180,
-        "published": 11
+        "todas": 198,
+        "published": 14
       },
       "4": {
-        "todas": 145,
+        "todas": 148,
         "published": 5
       },
       "5": {
-        "todas": 151,
-        "published": 10
+        "todas": 163,
+        "published": 11
       },
       "6": {
-        "todas": 158,
+        "todas": 156,
         "published": 9
       },
       "7": {
-        "todas": 358,
-        "published": 23
+        "todas": 364,
+        "published": 27
       },
       "8": {
-        "todas": 696,
-        "published": 49
+        "todas": 725,
+        "published": 56
       },
       "9": {
-        "todas": 1068,
-        "published": 76
+        "todas": 1067,
+        "published": 86
       },
       "10": {
-        "todas": 1340,
-        "published": 77
+        "todas": 1373,
+        "published": 79
       },
       "11": {
         "todas": 1431,
         "published": 89
       },
       "12": {
-        "todas": 1524,
-        "published": 107
+        "todas": 1556,
+        "published": 106
       },
       "13": {
-        "todas": 1482,
-        "published": 98
+        "todas": 1496,
+        "published": 103
       },
       "14": {
-        "todas": 1260,
-        "published": 81
+        "todas": 1335,
+        "published": 83
       },
       "15": {
-        "todas": 1184,
+        "todas": 1201,
         "published": 75
       },
       "16": {
-        "todas": 1234,
-        "published": 63
+        "todas": 1233,
+        "published": 66
       },
       "17": {
-        "todas": 1324,
-        "published": 82
+        "todas": 1338,
+        "published": 87
       },
       "18": {
-        "todas": 1236,
-        "published": 71
-      },
-      "19": {
-        "todas": 1126,
+        "todas": 1223,
         "published": 76
       },
-      "20": {
-        "todas": 1164,
+      "19": {
+        "todas": 1136,
         "published": 75
       },
-      "21": {
-        "todas": 986,
+      "20": {
+        "todas": 1146,
         "published": 80
       },
-      "22": {
-        "todas": 858,
+      "21": {
+        "todas": 966,
         "published": 82
       },
+      "22": {
+        "todas": 904,
+        "published": 74
+      },
       "23": {
-        "todas": 909,
-        "published": 83
+        "todas": 915,
+        "published": 72
       }
     },
     "2012.06": {
       "0": {
-        "todas": 640,
-        "published": 44
+        "todas": 616,
+        "published": 47
       },
       "1": {
-        "todas": 439,
-        "published": 31
+        "todas": 397,
+        "published": 29
       },
       "2": {
-        "todas": 265,
-        "published": 21
+        "todas": 258,
+        "published": 19
       },
       "3": {
-        "todas": 201,
-        "published": 11
+        "todas": 185,
+        "published": 9
       },
       "4": {
-        "todas": 141,
-        "published": 3
+        "todas": 132,
+        "published": 5
       },
       "5": {
-        "todas": 149,
-        "published": 4
+        "todas": 120,
+        "published": 3
       },
       "6": {
-        "todas": 178,
-        "published": 16
+        "todas": 181,
+        "published": 15
       },
       "7": {
         "todas": 333,
-        "published": 32
+        "published": 30
       },
       "8": {
-        "todas": 704,
+        "todas": 676,
         "published": 58
       },
       "9": {
-        "todas": 1098,
-        "published": 90
+        "todas": 1029,
+        "published": 82
       },
       "10": {
-        "todas": 1299,
+        "todas": 1298,
         "published": 80
       },
       "11": {
-        "todas": 1425,
-        "published": 95
+        "todas": 1385,
+        "published": 88
       },
       "12": {
-        "todas": 1516,
-        "published": 105
+        "todas": 1499,
+        "published": 104
       },
       "13": {
-        "todas": 1478,
-        "published": 102
+        "todas": 1440,
+        "published": 104
       },
       "14": {
-        "todas": 1241,
-        "published": 85
+        "todas": 1185,
+        "published": 78
       },
       "15": {
-        "todas": 1136,
-        "published": 63
-      },
-      "16": {
-        "todas": 1247,
-        "published": 68
-      },
-      "17": {
-        "todas": 1233,
-        "published": 78
-      },
-      "18": {
-        "todas": 1143,
-        "published": 70
-      },
-      "19": {
-        "todas": 1036,
-        "published": 81
-      },
-      "20": {
-        "todas": 1039,
+        "todas": 1110,
         "published": 71
       },
+      "16": {
+        "todas": 1226,
+        "published": 66
+      },
+      "17": {
+        "todas": 1194,
+        "published": 71
+      },
+      "18": {
+        "todas": 1114,
+        "published": 64
+      },
+      "19": {
+        "todas": 1005,
+        "published": 70
+      },
+      "20": {
+        "todas": 1000,
+        "published": 68
+      },
       "21": {
-        "todas": 819,
-        "published": 78
+        "todas": 778,
+        "published": 73
       },
       "22": {
-        "todas": 859,
-        "published": 62
+        "todas": 820,
+        "published": 63
       },
       "23": {
-        "todas": 850,
-        "published": 72
+        "todas": 808,
+        "published": 76
       }
     },
     "2012.07": {
       "0": {
-        "todas": 616,
-        "published": 49
+        "todas": 620,
+        "published": 44
       },
       "1": {
-        "todas": 392,
-        "published": 34
+        "todas": 427,
+        "published": 37
       },
       "2": {
-        "todas": 231,
-        "published": 17
+        "todas": 255,
+        "published": 19
       },
       "3": {
-        "todas": 179,
-        "published": 8
+        "todas": 178,
+        "published": 11
       },
       "4": {
-        "todas": 123,
+        "todas": 127,
         "published": 6
       },
       "5": {
-        "todas": 103,
+        "todas": 104,
         "published": 5
       },
       "6": {
-        "todas": 167,
-        "published": 6
+        "todas": 161,
+        "published": 5
       },
       "7": {
-        "todas": 351,
-        "published": 24
+        "todas": 341,
+        "published": 20
       },
       "8": {
-        "todas": 736,
-        "published": 47
+        "todas": 740,
+        "published": 43
       },
       "9": {
-        "todas": 1035,
-        "published": 73
+        "todas": 1052,
+        "published": 77
       },
       "10": {
-        "todas": 1310,
+        "todas": 1245,
         "published": 87
       },
       "11": {
-        "todas": 1455,
-        "published": 105
+        "todas": 1433,
+        "published": 112
       },
       "12": {
-        "todas": 1507,
-        "published": 110
+        "todas": 1484,
+        "published": 106
       },
       "13": {
-        "todas": 1444,
-        "published": 85
+        "todas": 1458,
+        "published": 83
       },
       "14": {
-        "todas": 1241,
-        "published": 81
+        "todas": 1269,
+        "published": 85
       },
       "15": {
-        "todas": 1054,
-        "published": 69
+        "todas": 1047,
+        "published": 60
       },
       "16": {
-        "todas": 1133,
-        "published": 71
+        "todas": 1098,
+        "published": 69
       },
       "17": {
-        "todas": 1191,
-        "published": 81
+        "todas": 1155,
+        "published": 83
       },
       "18": {
-        "todas": 1116,
-        "published": 74
+        "todas": 1104,
+        "published": 76
       },
       "19": {
-        "todas": 1033,
-        "published": 62
+        "todas": 1053,
+        "published": 66
       },
       "20": {
-        "todas": 1001,
-        "published": 75
+        "todas": 1014,
+        "published": 70
       },
       "21": {
-        "todas": 844,
-        "published": 75
+        "todas": 853,
+        "published": 74
       },
       "22": {
-        "todas": 760,
-        "published": 72
+        "todas": 774,
+        "published": 68
       },
       "23": {
-        "todas": 763,
-        "published": 69
+        "todas": 762,
+        "published": 62
       }
     },
     "2012.08": {
       "0": {
-        "todas": 517,
-        "published": 36
+        "todas": 510,
+        "published": 38
       },
       "1": {
-        "todas": 373,
-        "published": 25
+        "todas": 354,
+        "published": 26
       },
       "2": {
-        "todas": 242,
-        "published": 22
+        "todas": 237,
+        "published": 24
       },
       "3": {
-        "todas": 149,
-        "published": 13
+        "todas": 159,
+        "published": 11
       },
       "4": {
-        "todas": 122,
-        "published": 9
+        "todas": 124,
+        "published": 7
       },
       "5": {
-        "todas": 117,
-        "published": 9
+        "todas": 120,
+        "published": 10
       },
       "6": {
         "todas": 158,
-        "published": 9
+        "published": 8
       },
       "7": {
-        "todas": 253,
-        "published": 9
+        "todas": 237,
+        "published": 11
       },
       "8": {
-        "todas": 581,
-        "published": 39
+        "todas": 578,
+        "published": 38
       },
       "9": {
-        "todas": 890,
-        "published": 60
+        "todas": 911,
+        "published": 49
       },
       "10": {
-        "todas": 1034,
-        "published": 71
+        "todas": 1068,
+        "published": 65
       },
       "11": {
-        "todas": 1200,
-        "published": 79
+        "todas": 1244,
+        "published": 81
       },
       "12": {
-        "todas": 1353,
+        "todas": 1324,
         "published": 85
       },
       "13": {
-        "todas": 1304,
-        "published": 79
+        "todas": 1267,
+        "published": 82
       },
       "14": {
-        "todas": 1043,
-        "published": 76
+        "todas": 1005,
+        "published": 82
       },
       "15": {
-        "todas": 870,
-        "published": 50
+        "todas": 840,
+        "published": 48
       },
       "16": {
-        "todas": 967,
-        "published": 51
+        "todas": 992,
+        "published": 60
       },
       "17": {
-        "todas": 941,
-        "published": 58
+        "todas": 964,
+        "published": 53
       },
       "18": {
-        "todas": 982,
-        "published": 66
+        "todas": 1010,
+        "published": 63
       },
       "19": {
-        "todas": 829,
-        "published": 55
+        "todas": 800,
+        "published": 58
       },
       "20": {
-        "todas": 822,
-        "published": 55
+        "todas": 792,
+        "published": 53
       },
       "21": {
-        "todas": 726,
-        "published": 54
+        "todas": 740,
+        "published": 56
       },
       "22": {
-        "todas": 663,
-        "published": 45
+        "todas": 630,
+        "published": 50
       },
       "23": {
-        "todas": 650,
-        "published": 59
+        "todas": 620,
+        "published": 55
       }
     },
     "2012.09": {
       "0": {
-        "todas": 577,
-        "published": 41
+        "todas": 604,
+        "published": 49
       },
       "1": {
-        "todas": 382,
+        "todas": 389,
         "published": 29
       },
       "2": {
-        "todas": 256,
-        "published": 19
-      },
-      "3": {
-        "todas": 164,
-        "published": 10
-      },
-      "4": {
-        "todas": 110,
-        "published": 4
-      },
-      "5": {
-        "todas": 81,
-        "published": 6
-      },
-      "6": {
-        "todas": 146,
-        "published": 6
-      },
-      "7": {
-        "todas": 267,
+        "todas": 273,
         "published": 23
       },
+      "3": {
+        "todas": 172,
+        "published": 14
+      },
+      "4": {
+        "todas": 109,
+        "published": 5
+      },
+      "5": {
+        "todas": 95,
+        "published": 8
+      },
+      "6": {
+        "todas": 149,
+        "published": 8
+      },
+      "7": {
+        "todas": 290,
+        "published": 21
+      },
       "8": {
-        "todas": 589,
-        "published": 33
+        "todas": 585,
+        "published": 34
       },
       "9": {
-        "todas": 883,
-        "published": 47
+        "todas": 860,
+        "published": 50
       },
       "10": {
-        "todas": 1183,
-        "published": 64
-      },
-      "11": {
-        "todas": 1326,
-        "published": 81
-      },
-      "12": {
-        "todas": 1393,
-        "published": 82
-      },
-      "13": {
-        "todas": 1332,
-        "published": 101
-      },
-      "14": {
-        "todas": 1077,
-        "published": 82
-      },
-      "15": {
-        "todas": 861,
+        "todas": 1187,
         "published": 67
       },
-      "16": {
-        "todas": 1093,
+      "11": {
+        "todas": 1309,
         "published": 75
       },
+      "12": {
+        "todas": 1429,
+        "published": 94
+      },
+      "13": {
+        "todas": 1366,
+        "published": 108
+      },
+      "14": {
+        "todas": 1119,
+        "published": 79
+      },
+      "15": {
+        "todas": 911,
+        "published": 69
+      },
+      "16": {
+        "todas": 1137,
+        "published": 74
+      },
       "17": {
-        "todas": 1155,
-        "published": 60
+        "todas": 1197,
+        "published": 70
       },
       "18": {
-        "todas": 1048,
-        "published": 66
+        "todas": 1060,
+        "published": 73
       },
       "19": {
-        "todas": 948,
-        "published": 63
+        "todas": 1014,
+        "published": 67
       },
       "20": {
-        "todas": 904,
-        "published": 63
+        "todas": 950,
+        "published": 76
       },
       "21": {
-        "todas": 764,
-        "published": 58
+        "todas": 771,
+        "published": 62
       },
       "22": {
-        "todas": 737,
-        "published": 63
+        "todas": 808,
+        "published": 70
       },
       "23": {
-        "todas": 719,
-        "published": 51
+        "todas": 796,
+        "published": 61
       }
     },
     "2012.1": {
       "0": {
-        "todas": 646,
-        "published": 55
+        "todas": 615,
+        "published": 49
       },
       "1": {
-        "todas": 407,
-        "published": 31
+        "todas": 391,
+        "published": 27
       },
       "2": {
-        "todas": 297,
-        "published": 24
+        "todas": 268,
+        "published": 17
       },
       "3": {
-        "todas": 185,
-        "published": 16
+        "todas": 158,
+        "published": 11
       },
       "4": {
-        "todas": 127,
-        "published": 8
+        "todas": 129,
+        "published": 11
       },
       "5": {
-        "todas": 110,
-        "published": 7
+        "todas": 99,
+        "published": 8
       },
       "6": {
-        "todas": 146,
+        "todas": 153,
         "published": 6
       },
       "7": {
-        "todas": 332,
-        "published": 24
+        "todas": 333,
+        "published": 26
       },
       "8": {
-        "todas": 610,
-        "published": 40
+        "todas": 633,
+        "published": 41
       },
       "9": {
-        "todas": 1016,
-        "published": 53
-      },
-      "10": {
-        "todas": 1300,
-        "published": 68
-      },
-      "11": {
-        "todas": 1439,
-        "published": 75
-      },
-      "12": {
-        "todas": 1481,
-        "published": 102
-      },
-      "13": {
-        "todas": 1408,
-        "published": 91
-      },
-      "14": {
-        "todas": 1168,
-        "published": 76
-      },
-      "15": {
-        "todas": 1101,
-        "published": 67
-      },
-      "16": {
-        "todas": 1189,
-        "published": 70
-      },
-      "17": {
-        "todas": 1210,
-        "published": 73
-      },
-      "18": {
-        "todas": 1155,
-        "published": 79
-      },
-      "19": {
-        "todas": 1095,
-        "published": 81
-      },
-      "20": {
-        "todas": 1030,
-        "published": 71
-      },
-      "21": {
-        "todas": 903,
+        "todas": 1073,
         "published": 61
       },
-      "22": {
-        "todas": 879,
+      "10": {
+        "todas": 1367,
+        "published": 65
+      },
+      "11": {
+        "todas": 1500,
         "published": 73
       },
+      "12": {
+        "todas": 1482,
+        "published": 88
+      },
+      "13": {
+        "todas": 1446,
+        "published": 69
+      },
+      "14": {
+        "todas": 1164,
+        "published": 68
+      },
+      "15": {
+        "todas": 1096,
+        "published": 65
+      },
+      "16": {
+        "todas": 1190,
+        "published": 67
+      },
+      "17": {
+        "todas": 1197,
+        "published": 68
+      },
+      "18": {
+        "todas": 1154,
+        "published": 76
+      },
+      "19": {
+        "todas": 1040,
+        "published": 82
+      },
+      "20": {
+        "todas": 1021,
+        "published": 69
+      },
+      "21": {
+        "todas": 900,
+        "published": 57
+      },
+      "22": {
+        "todas": 858,
+        "published": 66
+      },
       "23": {
-        "todas": 841,
+        "todas": 782,
         "published": 67
       }
     },
     "2012.11": {
       "0": {
-        "todas": 557,
-        "published": 36
+        "todas": 581,
+        "published": 30
       },
       "1": {
-        "todas": 373,
-        "published": 25
+        "todas": 398,
+        "published": 34
       },
       "2": {
-        "todas": 225,
+        "todas": 234,
         "published": 15
       },
       "3": {
-        "todas": 144,
-        "published": 11
-      },
-      "4": {
-        "todas": 105,
-        "published": 6
-      },
-      "5": {
-        "todas": 110,
+        "todas": 152,
         "published": 9
       },
+      "4": {
+        "todas": 95,
+        "published": 2
+      },
+      "5": {
+        "todas": 120,
+        "published": 6
+      },
       "6": {
-        "todas": 179,
-        "published": 12
+        "todas": 183,
+        "published": 13
       },
       "7": {
-        "todas": 303,
-        "published": 28
+        "todas": 290,
+        "published": 27
       },
       "8": {
-        "todas": 607,
-        "published": 50
+        "todas": 611,
+        "published": 46
       },
       "9": {
-        "todas": 1052,
-        "published": 70
+        "todas": 1033,
+        "published": 63
       },
       "10": {
-        "todas": 1284,
-        "published": 72
-      },
-      "11": {
-        "todas": 1424,
-        "published": 73
-      },
-      "12": {
-        "todas": 1426,
+        "todas": 1220,
         "published": 81
       },
-      "13": {
-        "todas": 1529,
-        "published": 82
-      },
-      "14": {
-        "todas": 1138,
-        "published": 60
-      },
-      "15": {
-        "todas": 954,
-        "published": 57
-      },
-      "16": {
-        "todas": 1218,
-        "published": 62
-      },
-      "17": {
-        "todas": 1168,
-        "published": 65
-      },
-      "18": {
-        "todas": 1179,
-        "published": 52
-      },
-      "19": {
-        "todas": 1109,
+      "11": {
+        "todas": 1377,
         "published": 69
       },
+      "12": {
+        "todas": 1431,
+        "published": 88
+      },
+      "13": {
+        "todas": 1511,
+        "published": 86
+      },
+      "14": {
+        "todas": 1111,
+        "published": 67
+      },
+      "15": {
+        "todas": 925,
+        "published": 62
+      },
+      "16": {
+        "todas": 1208,
+        "published": 60
+      },
+      "17": {
+        "todas": 1131,
+        "published": 67
+      },
+      "18": {
+        "todas": 1168,
+        "published": 51
+      },
+      "19": {
+        "todas": 1134,
+        "published": 67
+      },
       "20": {
-        "todas": 992,
+        "todas": 1022,
         "published": 67
       },
       "21": {
-        "todas": 892,
-        "published": 70
+        "todas": 915,
+        "published": 72
       },
       "22": {
-        "todas": 792,
-        "published": 73
+        "todas": 786,
+        "published": 72
       },
       "23": {
-        "todas": 723,
-        "published": 63
+        "todas": 756,
+        "published": 57
       }
     },
     "2012.12": {
       "0": {
-        "todas": 567,
-        "published": 35
+        "todas": 555,
+        "published": 41
       },
       "1": {
-        "todas": 376,
-        "published": 31
+        "todas": 370,
+        "published": 26
       },
       "2": {
-        "todas": 237,
+        "todas": 239,
         "published": 14
       },
       "3": {
-        "todas": 156,
-        "published": 9
+        "todas": 155,
+        "published": 11
       },
       "4": {
-        "todas": 120,
-        "published": 6
-      },
-      "5": {
-        "todas": 132,
+        "todas": 116,
         "published": 5
       },
+      "5": {
+        "todas": 120,
+        "published": 3
+      },
       "6": {
-        "todas": 198,
-        "published": 14
+        "todas": 201,
+        "published": 11
       },
       "7": {
-        "todas": 323,
+        "todas": 312,
         "published": 25
       },
       "8": {
-        "todas": 578,
-        "published": 53
+        "todas": 503,
+        "published": 49
       },
       "9": {
-        "todas": 888,
-        "published": 64
+        "todas": 796,
+        "published": 60
       },
       "10": {
-        "todas": 1141,
-        "published": 77
+        "todas": 1040,
+        "published": 65
       },
       "11": {
-        "todas": 1370,
+        "todas": 1257,
         "published": 65
       },
       "12": {
-        "todas": 1391,
-        "published": 77
+        "todas": 1310,
+        "published": 68
       },
       "13": {
-        "todas": 1399,
-        "published": 79
+        "todas": 1312,
+        "published": 81
       },
       "14": {
-        "todas": 1055,
-        "published": 69
+        "todas": 967,
+        "published": 61
       },
       "15": {
-        "todas": 962,
-        "published": 68
+        "todas": 934,
+        "published": 62
       },
       "16": {
-        "todas": 1098,
-        "published": 65
+        "todas": 1019,
+        "published": 66
       },
       "17": {
-        "todas": 1049,
-        "published": 68
+        "todas": 989,
+        "published": 65
       },
       "18": {
-        "todas": 1046,
-        "published": 69
+        "todas": 997,
+        "published": 67
       },
       "19": {
-        "todas": 1051,
-        "published": 64
+        "todas": 985,
+        "published": 54
       },
       "20": {
-        "todas": 1021,
-        "published": 84
+        "todas": 939,
+        "published": 79
       },
       "21": {
-        "todas": 831,
-        "published": 70
+        "todas": 763,
+        "published": 61
       },
       "22": {
-        "todas": 805,
-        "published": 50
+        "todas": 757,
+        "published": 48
       },
       "23": {
-        "todas": 736,
-        "published": 58
+        "todas": 684,
+        "published": 54
       }
     },
     "2013.01": {
       "0": {
-        "todas": 678,
-        "published": 53
+        "todas": 734,
+        "published": 54
       },
       "1": {
-        "todas": 451,
-        "published": 29
+        "todas": 467,
+        "published": 26
       },
       "2": {
-        "todas": 289,
-        "published": 14
+        "todas": 300,
+        "published": 13
       },
       "3": {
-        "todas": 200,
+        "todas": 207,
         "published": 15
       },
       "4": {
-        "todas": 113,
-        "published": 8
+        "todas": 129,
+        "published": 9
       },
       "5": {
         "todas": 108,
-        "published": 2
-      },
-      "6": {
-        "todas": 189,
         "published": 7
       },
+      "6": {
+        "todas": 169,
+        "published": 9
+      },
       "7": {
-        "todas": 293,
-        "published": 28
+        "todas": 333,
+        "published": 39
       },
       "8": {
-        "todas": 551,
-        "published": 46
+        "todas": 588,
+        "published": 53
       },
       "9": {
-        "todas": 880,
-        "published": 54
+        "todas": 972,
+        "published": 63
       },
       "10": {
-        "todas": 1145,
-        "published": 71
+        "todas": 1292,
+        "published": 73
       },
       "11": {
-        "todas": 1352,
-        "published": 77
+        "todas": 1514,
+        "published": 95
       },
       "12": {
-        "todas": 1430,
-        "published": 82
-      },
-      "13": {
-        "todas": 1416,
+        "todas": 1552,
         "published": 97
       },
+      "13": {
+        "todas": 1504,
+        "published": 102
+      },
       "14": {
-        "todas": 1123,
-        "published": 67
-      },
-      "15": {
-        "todas": 1113,
-        "published": 77
-      },
-      "16": {
-        "todas": 1143,
-        "published": 54
-      },
-      "17": {
-        "todas": 1160,
-        "published": 66
-      },
-      "18": {
-        "todas": 1192,
-        "published": 69
-      },
-      "19": {
-        "todas": 1068,
-        "published": 64
-      },
-      "20": {
-        "todas": 1149,
+        "todas": 1236,
         "published": 72
       },
+      "15": {
+        "todas": 1202,
+        "published": 85
+      },
+      "16": {
+        "todas": 1301,
+        "published": 55
+      },
+      "17": {
+        "todas": 1286,
+        "published": 69
+      },
+      "18": {
+        "todas": 1293,
+        "published": 73
+      },
+      "19": {
+        "todas": 1143,
+        "published": 69
+      },
+      "20": {
+        "todas": 1272,
+        "published": 71
+      },
       "21": {
-        "todas": 950,
-        "published": 64
+        "todas": 1010,
+        "published": 74
       },
       "22": {
-        "todas": 851,
-        "published": 66
+        "todas": 947,
+        "published": 72
       },
       "23": {
-        "todas": 798,
-        "published": 54
+        "todas": 877,
+        "published": 62
       }
     },
     "2013.02": {
       "0": {
-        "todas": 626,
-        "published": 46
+        "todas": 556,
+        "published": 40
       },
       "1": {
-        "todas": 388,
-        "published": 24
+        "todas": 364,
+        "published": 26
       },
       "2": {
-        "todas": 251,
-        "published": 12
+        "todas": 257,
+        "published": 19
       },
       "3": {
-        "todas": 164,
-        "published": 9
+        "todas": 160,
+        "published": 7
       },
       "4": {
-        "todas": 133,
-        "published": 4
+        "todas": 132,
+        "published": 5
       },
       "5": {
-        "todas": 96,
-        "published": 8
+        "todas": 99,
+        "published": 3
       },
       "6": {
-        "todas": 143,
+        "todas": 161,
         "published": 8
       },
       "7": {
-        "todas": 325,
-        "published": 38
+        "todas": 327,
+        "published": 29
       },
       "8": {
-        "todas": 597,
-        "published": 60
-      },
-      "9": {
-        "todas": 1013,
-        "published": 57
-      },
-      "10": {
-        "todas": 1280,
-        "published": 73
-      },
-      "11": {
-        "todas": 1498,
-        "published": 87
-      },
-      "12": {
-        "todas": 1514,
-        "published": 83
-      },
-      "13": {
-        "todas": 1453,
-        "published": 84
-      },
-      "14": {
-        "todas": 1188,
-        "published": 81
-      },
-      "15": {
-        "todas": 1080,
-        "published": 67
-      },
-      "16": {
-        "todas": 1320,
+        "todas": 600,
         "published": 58
       },
+      "9": {
+        "todas": 997,
+        "published": 50
+      },
+      "10": {
+        "todas": 1227,
+        "published": 77
+      },
+      "11": {
+        "todas": 1475,
+        "published": 75
+      },
+      "12": {
+        "todas": 1459,
+        "published": 71
+      },
+      "13": {
+        "todas": 1492,
+        "published": 89
+      },
+      "14": {
+        "todas": 1204,
+        "published": 83
+      },
+      "15": {
+        "todas": 1046,
+        "published": 59
+      },
+      "16": {
+        "todas": 1228,
+        "published": 63
+      },
       "17": {
-        "todas": 1132,
-        "published": 64
+        "todas": 1059,
+        "published": 57
       },
       "18": {
-        "todas": 1076,
-        "published": 78
+        "todas": 1026,
+        "published": 80
       },
       "19": {
         "todas": 1007,
-        "published": 69
+        "published": 79
       },
       "20": {
-        "todas": 1069,
-        "published": 63
+        "todas": 1016,
+        "published": 68
       },
       "21": {
-        "todas": 919,
-        "published": 71
+        "todas": 907,
+        "published": 69
       },
       "22": {
-        "todas": 824,
-        "published": 60
+        "todas": 781,
+        "published": 57
       },
       "23": {
-        "todas": 785,
-        "published": 54
+        "todas": 776,
+        "published": 52
       }
     },
     "2013.03": {
       "0": {
-        "todas": 550,
-        "published": 44
+        "todas": 555,
+        "published": 50
       },
       "1": {
-        "todas": 358,
-        "published": 25
+        "todas": 347,
+        "published": 26
       },
       "2": {
-        "todas": 235,
-        "published": 21
+        "todas": 200,
+        "published": 13
       },
       "3": {
         "todas": 147,
         "published": 7
       },
       "4": {
-        "todas": 112,
+        "todas": 107,
         "published": 6
       },
       "5": {
-        "todas": 97,
-        "published": 4
+        "todas": 91,
+        "published": 5
       },
       "6": {
-        "todas": 145,
-        "published": 7
+        "todas": 120,
+        "published": 5
       },
       "7": {
-        "todas": 354,
-        "published": 28
+        "todas": 320,
+        "published": 27
       },
       "8": {
-        "todas": 569,
-        "published": 44
+        "todas": 535,
+        "published": 39
       },
       "9": {
-        "todas": 1010,
-        "published": 61
+        "todas": 983,
+        "published": 60
       },
       "10": {
-        "todas": 1294,
-        "published": 54
+        "todas": 1303,
+        "published": 47
       },
       "11": {
-        "todas": 1456,
-        "published": 80
+        "todas": 1378,
+        "published": 85
       },
       "12": {
-        "todas": 1540,
+        "todas": 1531,
         "published": 93
       },
       "13": {
-        "todas": 1490,
-        "published": 86
-      },
-      "14": {
-        "todas": 1193,
-        "published": 81
-      },
-      "15": {
-        "todas": 1052,
-        "published": 58
-      },
-      "16": {
-        "todas": 1246,
-        "published": 71
-      },
-      "17": {
-        "todas": 1114,
-        "published": 59
-      },
-      "18": {
-        "todas": 1074,
+        "todas": 1417,
         "published": 77
       },
-      "19": {
-        "todas": 1107,
+      "14": {
+        "todas": 1118,
+        "published": 77
+      },
+      "15": {
+        "todas": 1006,
+        "published": 61
+      },
+      "16": {
+        "todas": 1239,
+        "published": 63
+      },
+      "17": {
+        "todas": 1133,
+        "published": 63
+      },
+      "18": {
+        "todas": 1038,
         "published": 69
+      },
+      "19": {
+        "todas": 1035,
+        "published": 63
       },
       "20": {
-        "todas": 1071,
-        "published": 67
+        "todas": 1013,
+        "published": 58
       },
       "21": {
-        "todas": 867,
-        "published": 69
+        "todas": 869,
+        "published": 65
       },
       "22": {
-        "todas": 841,
-        "published": 64
+        "todas": 825,
+        "published": 71
       },
       "23": {
-        "todas": 774,
-        "published": 64
+        "todas": 755,
+        "published": 68
       }
     },
     "2013.04": {
       "0": {
-        "todas": 646,
-        "published": 46
+        "todas": 676,
+        "published": 45
       },
       "1": {
-        "todas": 384,
-        "published": 26
+        "todas": 397,
+        "published": 28
+      },
+      "2": {
+        "todas": 272,
+        "published": 15
+      },
+      "3": {
+        "todas": 159,
+        "published": 8
+      },
+      "4": {
+        "todas": 143,
+        "published": 5
+      },
+      "5": {
+        "todas": 108,
+        "published": 7
+      },
+      "6": {
+        "todas": 164,
+        "published": 11
+      },
+      "7": {
+        "todas": 296,
+        "published": 34
+      },
+      "8": {
+        "todas": 635,
+        "published": 56
+      },
+      "9": {
+        "todas": 1020,
+        "published": 54
+      },
+      "10": {
+        "todas": 1343,
+        "published": 69
+      },
+      "11": {
+        "todas": 1454,
+        "published": 75
+      },
+      "12": {
+        "todas": 1493,
+        "published": 85
+      },
+      "13": {
+        "todas": 1387,
+        "published": 83
+      },
+      "14": {
+        "todas": 1225,
+        "published": 67
+      },
+      "15": {
+        "todas": 1109,
+        "published": 63
+      },
+      "16": {
+        "todas": 1276,
+        "published": 60
+      },
+      "17": {
+        "todas": 1229,
+        "published": 54
+      },
+      "18": {
+        "todas": 1075,
+        "published": 46
+      },
+      "19": {
+        "todas": 1044,
+        "published": 59
+      },
+      "20": {
+        "todas": 1024,
+        "published": 54
+      },
+      "21": {
+        "todas": 919,
+        "published": 53
+      },
+      "22": {
+        "todas": 815,
+        "published": 64
+      },
+      "23": {
+        "todas": 860,
+        "published": 56
+      }
+    },
+    "2013.05": {
+      "0": {
+        "todas": 589,
+        "published": 57
+      },
+      "1": {
+        "todas": 365,
+        "published": 25
       },
       "2": {
         "todas": 253,
-        "published": 15
+        "published": 12
       },
       "3": {
         "todas": 159,
         "published": 7
       },
       "4": {
-        "todas": 142,
-        "published": 5
+        "todas": 103,
+        "published": 4
       },
       "5": {
-        "todas": 104,
+        "todas": 119,
+        "published": 6
+      },
+      "6": {
+        "todas": 183,
         "published": 7
       },
-      "6": {
-        "todas": 133,
-        "published": 10
-      },
       "7": {
-        "todas": 284,
-        "published": 32
+        "todas": 357,
+        "published": 39
       },
       "8": {
-        "todas": 574,
-        "published": 49
+        "todas": 711,
+        "published": 50
       },
       "9": {
-        "todas": 962,
-        "published": 51
+        "todas": 1082,
+        "published": 55
       },
       "10": {
-        "todas": 1285,
-        "published": 64
-      },
-      "11": {
-        "todas": 1386,
-        "published": 89
-      },
-      "12": {
-        "todas": 1446,
-        "published": 80
-      },
-      "13": {
-        "todas": 1354,
-        "published": 83
-      },
-      "14": {
-        "todas": 1186,
-        "published": 67
-      },
-      "15": {
-        "todas": 1067,
-        "published": 64
-      },
-      "16": {
-        "todas": 1224,
-        "published": 60
-      },
-      "17": {
-        "todas": 1168,
-        "published": 49
-      },
-      "18": {
-        "todas": 1019,
-        "published": 43
-      },
-      "19": {
-        "todas": 992,
-        "published": 68
-      },
-      "20": {
-        "todas": 969,
-        "published": 52
-      },
-      "21": {
-        "todas": 926,
-        "published": 56
-      },
-      "22": {
-        "todas": 798,
-        "published": 73
-      },
-      "23": {
-        "todas": 865,
-        "published": 63
-      }
-    },
-    "2013.05": {
-      "0": {
-        "todas": 605,
-        "published": 57
-      },
-      "1": {
-        "todas": 369,
-        "published": 26
-      },
-      "2": {
-        "todas": 246,
-        "published": 11
-      },
-      "3": {
-        "todas": 165,
-        "published": 6
-      },
-      "4": {
-        "todas": 115,
-        "published": 5
-      },
-      "5": {
-        "todas": 112,
-        "published": 6
-      },
-      "6": {
-        "todas": 177,
-        "published": 8
-      },
-      "7": {
-        "todas": 335,
-        "published": 36
-      },
-      "8": {
-        "todas": 713,
-        "published": 51
-      },
-      "9": {
-        "todas": 1100,
-        "published": 56
-      },
-      "10": {
-        "todas": 1348,
-        "published": 73
-      },
-      "11": {
-        "todas": 1329,
-        "published": 64
-      },
-      "12": {
-        "todas": 1515,
-        "published": 99
-      },
-      "13": {
-        "todas": 1440,
-        "published": 81
-      },
-      "14": {
-        "todas": 1091,
-        "published": 62
-      },
-      "15": {
-        "todas": 1095,
-        "published": 56
-      },
-      "16": {
-        "todas": 1323,
-        "published": 64
-      },
-      "17": {
-        "todas": 1235,
-        "published": 65
-      },
-      "18": {
-        "todas": 1193,
-        "published": 71
-      },
-      "19": {
-        "todas": 1029,
+        "todas": 1310,
         "published": 69
       },
+      "11": {
+        "todas": 1293,
+        "published": 77
+      },
+      "12": {
+        "todas": 1472,
+        "published": 94
+      },
+      "13": {
+        "todas": 1426,
+        "published": 80
+      },
+      "14": {
+        "todas": 1106,
+        "published": 69
+      },
+      "15": {
+        "todas": 1079,
+        "published": 58
+      },
+      "16": {
+        "todas": 1241,
+        "published": 66
+      },
+      "17": {
+        "todas": 1144,
+        "published": 55
+      },
+      "18": {
+        "todas": 1189,
+        "published": 65
+      },
+      "19": {
+        "todas": 993,
+        "published": 70
+      },
       "20": {
-        "todas": 1014,
-        "published": 61
+        "todas": 1000,
+        "published": 72
       },
       "21": {
-        "todas": 808,
-        "published": 61
+        "todas": 834,
+        "published": 67
       },
       "22": {
-        "todas": 739,
-        "published": 56
+        "todas": 699,
+        "published": 58
       },
       "23": {
-        "todas": 720,
-        "published": 59
+        "todas": 707,
+        "published": 63
       }
     },
     "2013.06": {
       "0": {
-        "todas": 532,
-        "published": 47
+        "todas": 518,
+        "published": 53
       },
       "1": {
-        "todas": 395,
+        "todas": 401,
         "published": 38
       },
       "2": {
-        "todas": 238,
+        "todas": 230,
         "published": 15
       },
       "3": {
-        "todas": 170,
+        "todas": 183,
         "published": 14
       },
       "4": {
-        "todas": 135,
+        "todas": 147,
         "published": 7
       },
       "5": {
-        "todas": 91,
+        "todas": 93,
         "published": 2
       },
       "6": {
-        "todas": 158,
-        "published": 5
+        "todas": 143,
+        "published": 7
       },
       "7": {
-        "todas": 348,
-        "published": 38
+        "todas": 340,
+        "published": 35
       },
       "8": {
-        "todas": 647,
-        "published": 43
+        "todas": 605,
+        "published": 38
       },
       "9": {
-        "todas": 992,
-        "published": 64
+        "todas": 933,
+        "published": 63
       },
       "10": {
-        "todas": 1262,
-        "published": 65
+        "todas": 1227,
+        "published": 66
       },
       "11": {
-        "todas": 1274,
-        "published": 77
+        "todas": 1248,
+        "published": 74
       },
       "12": {
-        "todas": 1367,
-        "published": 65
+        "todas": 1329,
+        "published": 73
       },
       "13": {
-        "todas": 1322,
-        "published": 78
+        "todas": 1277,
+        "published": 79
       },
       "14": {
-        "todas": 1124,
-        "published": 72
+        "todas": 1077,
+        "published": 66
       },
       "15": {
-        "todas": 947,
-        "published": 68
+        "todas": 903,
+        "published": 69
       },
       "16": {
-        "todas": 1116,
-        "published": 56
-      },
-      "17": {
-        "todas": 1034,
-        "published": 54
-      },
-      "18": {
-        "todas": 1077,
-        "published": 53
-      },
-      "19": {
-        "todas": 924,
-        "published": 48
-      },
-      "20": {
-        "todas": 942,
-        "published": 71
-      },
-      "21": {
-        "todas": 755,
+        "todas": 1129,
         "published": 58
       },
+      "17": {
+        "todas": 1012,
+        "published": 60
+      },
+      "18": {
+        "todas": 1003,
+        "published": 54
+      },
+      "19": {
+        "todas": 897,
+        "published": 45
+      },
+      "20": {
+        "todas": 935,
+        "published": 61
+      },
+      "21": {
+        "todas": 737,
+        "published": 56
+      },
       "22": {
-        "todas": 673,
+        "todas": 653,
         "published": 61
       },
       "23": {
-        "todas": 653,
-        "published": 50
+        "todas": 631,
+        "published": 52
       }
     },
     "2013.07": {
       "0": {
-        "todas": 620,
-        "published": 51
+        "todas": 630,
+        "published": 45
       },
       "1": {
-        "todas": 417,
-        "published": 25
+        "todas": 392,
+        "published": 22
       },
       "2": {
-        "todas": 243,
-        "published": 16
+        "todas": 230,
+        "published": 15
       },
       "3": {
-        "todas": 172,
+        "todas": 162,
         "published": 6
       },
       "4": {
-        "todas": 140,
-        "published": 4
-      },
-      "5": {
-        "todas": 131,
+        "todas": 139,
         "published": 5
       },
+      "5": {
+        "todas": 116,
+        "published": 4
+      },
       "6": {
-        "todas": 177,
-        "published": 13
+        "todas": 155,
+        "published": 11
       },
       "7": {
-        "todas": 333,
-        "published": 30
+        "todas": 293,
+        "published": 28
       },
       "8": {
-        "todas": 587,
-        "published": 33
+        "todas": 606,
+        "published": 38
       },
       "9": {
-        "todas": 891,
-        "published": 52
+        "todas": 905,
+        "published": 49
       },
       "10": {
-        "todas": 1193,
-        "published": 63
-      },
-      "11": {
-        "todas": 1199,
-        "published": 73
-      },
-      "12": {
-        "todas": 1281,
-        "published": 76
-      },
-      "13": {
-        "todas": 1257,
-        "published": 84
-      },
-      "14": {
-        "todas": 1031,
-        "published": 77
-      },
-      "15": {
-        "todas": 823,
-        "published": 60
-      },
-      "16": {
-        "todas": 1011,
-        "published": 62
-      },
-      "17": {
-        "todas": 1030,
+        "todas": 1140,
         "published": 61
       },
-      "18": {
-        "todas": 1024,
-        "published": 52
+      "11": {
+        "todas": 1163,
+        "published": 62
       },
-      "19": {
-        "todas": 925,
-        "published": 41
+      "12": {
+        "todas": 1246,
+        "published": 67
       },
-      "20": {
-        "todas": 992,
-        "published": 73
+      "13": {
+        "todas": 1233,
+        "published": 80
       },
-      "21": {
-        "todas": 769,
+      "14": {
+        "todas": 1034,
+        "published": 78
+      },
+      "15": {
+        "todas": 806,
         "published": 55
       },
+      "16": {
+        "todas": 972,
+        "published": 54
+      },
+      "17": {
+        "todas": 1039,
+        "published": 58
+      },
+      "18": {
+        "todas": 1015,
+        "published": 48
+      },
+      "19": {
+        "todas": 909,
+        "published": 44
+      },
+      "20": {
+        "todas": 924,
+        "published": 72
+      },
+      "21": {
+        "todas": 704,
+        "published": 51
+      },
       "22": {
-        "todas": 643,
-        "published": 56
+        "todas": 644,
+        "published": 58
       },
       "23": {
-        "todas": 675,
-        "published": 62
+        "todas": 669,
+        "published": 56
       }
     },
     "2013.08": {
       "0": {
-        "todas": 481,
-        "published": 44
+        "todas": 469,
+        "published": 41
       },
       "1": {
-        "todas": 294,
-        "published": 18
+        "todas": 310,
+        "published": 21
       },
       "2": {
-        "todas": 201,
-        "published": 8
+        "todas": 209,
+        "published": 9
       },
       "3": {
-        "todas": 136,
-        "published": 11
+        "todas": 139,
+        "published": 12
       },
       "4": {
-        "todas": 100,
+        "todas": 97,
         "published": 6
       },
       "5": {
-        "todas": 84,
-        "published": 0
+        "todas": 83,
+        "published": 1
       },
       "6": {
-        "todas": 87,
-        "published": 4
+        "todas": 93,
+        "published": 5
       },
       "7": {
-        "todas": 199,
-        "published": 18
+        "todas": 198,
+        "published": 17
       },
       "8": {
-        "todas": 488,
-        "published": 32
+        "todas": 453,
+        "published": 26
       },
       "9": {
-        "todas": 760,
-        "published": 50
+        "todas": 747,
+        "published": 49
       },
       "10": {
-        "todas": 953,
-        "published": 68
+        "todas": 979,
+        "published": 67
       },
       "11": {
-        "todas": 1067,
-        "published": 51
+        "todas": 1077,
+        "published": 58
       },
       "12": {
-        "todas": 1098,
-        "published": 65
+        "todas": 1138,
+        "published": 66
       },
       "13": {
         "todas": 1083,
-        "published": 61
+        "published": 67
       },
       "14": {
-        "todas": 904,
-        "published": 56
+        "todas": 882,
+        "published": 53
       },
       "15": {
-        "todas": 712,
-        "published": 42
+        "todas": 724,
+        "published": 40
       },
       "16": {
-        "todas": 836,
+        "todas": 814,
         "published": 44
       },
       "17": {
-        "todas": 867,
-        "published": 56
+        "todas": 880,
+        "published": 57
       },
       "18": {
-        "todas": 818,
-        "published": 43
+        "todas": 828,
+        "published": 51
       },
       "19": {
-        "todas": 752,
-        "published": 45
-      },
-      "20": {
-        "todas": 685,
+        "todas": 764,
         "published": 44
       },
+      "20": {
+        "todas": 719,
+        "published": 40
+      },
       "21": {
-        "todas": 614,
-        "published": 48
+        "todas": 651,
+        "published": 46
       },
       "22": {
-        "todas": 531,
-        "published": 48
+        "todas": 544,
+        "published": 43
       },
       "23": {
-        "todas": 558,
-        "published": 51
+        "todas": 562,
+        "published": 48
       }
     },
     "2013.09": {
       "0": {
-        "todas": 532,
-        "published": 32
+        "todas": 530,
+        "published": 33
       },
       "1": {
-        "todas": 312,
-        "published": 26
+        "todas": 301,
+        "published": 23
       },
       "2": {
-        "todas": 218,
-        "published": 11
+        "todas": 197,
+        "published": 10
       },
       "3": {
-        "todas": 160,
+        "todas": 155,
         "published": 13
       },
       "4": {
-        "todas": 119,
+        "todas": 117,
         "published": 4
       },
       "5": {
-        "todas": 92,
-        "published": 6
+        "todas": 96,
+        "published": 5
       },
       "6": {
-        "todas": 110,
-        "published": 9
+        "todas": 115,
+        "published": 10
       },
       "7": {
-        "todas": 217,
-        "published": 14
+        "todas": 247,
+        "published": 19
       },
       "8": {
-        "todas": 509,
-        "published": 33
-      },
-      "9": {
-        "todas": 911,
-        "published": 53
-      },
-      "10": {
-        "todas": 1124,
-        "published": 59
-      },
-      "11": {
-        "todas": 1089,
-        "published": 73
-      },
-      "12": {
-        "todas": 1182,
-        "published": 56
-      },
-      "13": {
-        "todas": 1113,
-        "published": 70
-      },
-      "14": {
-        "todas": 938,
-        "published": 58
-      },
-      "15": {
-        "todas": 813,
+        "todas": 537,
         "published": 41
       },
-      "16": {
-        "todas": 917,
-        "published": 49
+      "9": {
+        "todas": 963,
+        "published": 61
       },
-      "17": {
-        "todas": 996,
-        "published": 54
+      "10": {
+        "todas": 1126,
+        "published": 70
       },
-      "18": {
-        "todas": 894,
-        "published": 54
+      "11": {
+        "todas": 1118,
+        "published": 77
       },
-      "19": {
-        "todas": 798,
-        "published": 46
+      "12": {
+        "todas": 1149,
+        "published": 52
       },
-      "20": {
-        "todas": 808,
-        "published": 67
+      "13": {
+        "todas": 1137,
+        "published": 73
       },
-      "21": {
-        "todas": 724,
+      "14": {
+        "todas": 933,
         "published": 56
       },
+      "15": {
+        "todas": 858,
+        "published": 42
+      },
+      "16": {
+        "todas": 952,
+        "published": 50
+      },
+      "17": {
+        "todas": 982,
+        "published": 49
+      },
+      "18": {
+        "todas": 907,
+        "published": 51
+      },
+      "19": {
+        "todas": 825,
+        "published": 49
+      },
+      "20": {
+        "todas": 826,
+        "published": 71
+      },
+      "21": {
+        "todas": 752,
+        "published": 60
+      },
       "22": {
-        "todas": 707,
+        "todas": 730,
         "published": 47
       },
       "23": {
-        "todas": 637,
-        "published": 44
+        "todas": 649,
+        "published": 46
       }
     },
     "2013.1": {
       "0": {
-        "todas": 561,
+        "todas": 528,
         "published": 39
       },
       "1": {
-        "todas": 361,
+        "todas": 352,
         "published": 16
       },
       "2": {
-        "todas": 182,
-        "published": 11
+        "todas": 186,
+        "published": 13
       },
       "3": {
-        "todas": 122,
-        "published": 9
+        "todas": 123,
+        "published": 7
       },
       "4": {
-        "todas": 97,
+        "todas": 96,
         "published": 7
       },
       "5": {
-        "todas": 85,
+        "todas": 99,
         "published": 1
       },
       "6": {
-        "todas": 138,
-        "published": 7
+        "todas": 142,
+        "published": 6
       },
       "7": {
-        "todas": 350,
-        "published": 28
+        "todas": 366,
+        "published": 23
       },
       "8": {
-        "todas": 560,
-        "published": 40
+        "todas": 555,
+        "published": 38
       },
       "9": {
-        "todas": 1044,
-        "published": 58
+        "todas": 1005,
+        "published": 49
       },
       "10": {
-        "todas": 1147,
-        "published": 75
+        "todas": 1190,
+        "published": 70
       },
       "11": {
-        "todas": 1286,
-        "published": 72
+        "todas": 1253,
+        "published": 67
       },
       "12": {
         "todas": 1247,
-        "published": 76
+        "published": 78
       },
       "13": {
-        "todas": 1226,
-        "published": 74
+        "todas": 1201,
+        "published": 69
       },
       "14": {
-        "todas": 1017,
-        "published": 62
+        "todas": 1024,
+        "published": 65
       },
       "15": {
-        "todas": 936,
-        "published": 48
+        "todas": 902,
+        "published": 49
       },
       "16": {
-        "todas": 977,
-        "published": 50
+        "todas": 973,
+        "published": 53
       },
       "17": {
-        "todas": 999,
-        "published": 52
+        "todas": 968,
+        "published": 54
       },
       "18": {
-        "todas": 929,
-        "published": 42
+        "todas": 893,
+        "published": 47
       },
       "19": {
-        "todas": 829,
-        "published": 64
+        "todas": 778,
+        "published": 63
       },
       "20": {
-        "todas": 836,
-        "published": 38
+        "todas": 801,
+        "published": 36
       },
       "21": {
-        "todas": 755,
-        "published": 51
+        "todas": 712,
+        "published": 54
       },
       "22": {
-        "todas": 700,
-        "published": 58
+        "todas": 659,
+        "published": 56
       },
       "23": {
-        "todas": 659,
-        "published": 54
+        "todas": 630,
+        "published": 57
       }
     },
     "2013.11": {
       "0": {
-        "todas": 444,
+        "todas": 476,
         "published": 35
       },
       "1": {
-        "todas": 258,
-        "published": 22
-      },
-      "2": {
-        "todas": 156,
-        "published": 8
-      },
-      "3": {
-        "todas": 128,
-        "published": 5
-      },
-      "4": {
-        "todas": 93,
-        "published": 7
-      },
-      "5": {
-        "todas": 92,
-        "published": 3
-      },
-      "6": {
-        "todas": 105,
-        "published": 5
-      },
-      "7": {
         "todas": 265,
-        "published": 15
-      },
-      "8": {
-        "todas": 521,
-        "published": 40
-      },
-      "9": {
-        "todas": 783,
-        "published": 39
-      },
-      "10": {
-        "todas": 1038,
-        "published": 64
-      },
-      "11": {
-        "todas": 994,
-        "published": 72
-      },
-      "12": {
-        "todas": 1089,
-        "published": 52
-      },
-      "13": {
-        "todas": 1068,
-        "published": 60
-      },
-      "14": {
-        "todas": 922,
-        "published": 45
-      },
-      "15": {
-        "todas": 840,
-        "published": 41
-      },
-      "16": {
-        "todas": 952,
-        "published": 42
-      },
-      "17": {
-        "todas": 878,
-        "published": 54
-      },
-      "18": {
-        "todas": 822,
-        "published": 57
-      },
-      "19": {
-        "todas": 763,
-        "published": 44
-      },
-      "20": {
-        "todas": 807,
-        "published": 54
-      },
-      "21": {
-        "todas": 648,
-        "published": 57
-      },
-      "22": {
-        "todas": 594,
-        "published": 47
-      },
-      "23": {
-        "todas": 555,
-        "published": 40
-      }
-    },
-    "2013.12": {
-      "0": {
-        "todas": 468,
-        "published": 38
-      },
-      "1": {
-        "todas": 259,
-        "published": 18
-      },
-      "2": {
-        "todas": 163,
-        "published": 13
-      },
-      "3": {
-        "todas": 130,
-        "published": 12
-      },
-      "4": {
-        "todas": 86,
-        "published": 7
-      },
-      "5": {
-        "todas": 69,
-        "published": 4
-      },
-      "6": {
-        "todas": 96,
-        "published": 7
-      },
-      "7": {
-        "todas": 240,
-        "published": 28
-      },
-      "8": {
-        "todas": 440,
-        "published": 25
-      },
-      "9": {
-        "todas": 761,
-        "published": 46
-      },
-      "10": {
-        "todas": 996,
-        "published": 59
-      },
-      "11": {
-        "todas": 1056,
-        "published": 54
-      },
-      "12": {
-        "todas": 1180,
-        "published": 59
-      },
-      "13": {
-        "todas": 1014,
-        "published": 63
-      },
-      "14": {
-        "todas": 931,
-        "published": 56
-      },
-      "15": {
-        "todas": 846,
-        "published": 59
-      },
-      "16": {
-        "todas": 816,
-        "published": 45
-      },
-      "17": {
-        "todas": 837,
-        "published": 53
-      },
-      "18": {
-        "todas": 835,
-        "published": 62
-      },
-      "19": {
-        "todas": 810,
-        "published": 51
-      },
-      "20": {
-        "todas": 806,
-        "published": 56
-      },
-      "21": {
-        "todas": 679,
-        "published": 53
-      },
-      "22": {
-        "todas": 569,
-        "published": 59
-      },
-      "23": {
-        "todas": 562,
-        "published": 55
-      }
-    },
-    "2014.01": {
-      "0": {
-        "todas": 491,
-        "published": 47
-      },
-      "1": {
-        "todas": 305,
-        "published": 25
-      },
-      "2": {
-        "todas": 191,
-        "published": 19
-      },
-      "3": {
-        "todas": 127,
-        "published": 12
-      },
-      "4": {
-        "todas": 100,
-        "published": 5
-      },
-      "5": {
-        "todas": 99,
-        "published": 4
-      },
-      "6": {
-        "todas": 95,
-        "published": 4
-      },
-      "7": {
-        "todas": 239,
-        "published": 20
-      },
-      "8": {
-        "todas": 407,
-        "published": 36
-      },
-      "9": {
-        "todas": 744,
-        "published": 58
-      },
-      "10": {
-        "todas": 1020,
-        "published": 65
-      },
-      "11": {
-        "todas": 1025,
-        "published": 51
-      },
-      "12": {
-        "todas": 1091,
-        "published": 74
-      },
-      "13": {
-        "todas": 1052,
-        "published": 69
-      },
-      "14": {
-        "todas": 887,
-        "published": 59
-      },
-      "15": {
-        "todas": 763,
-        "published": 46
-      },
-      "16": {
-        "todas": 923,
-        "published": 60
-      },
-      "17": {
-        "todas": 791,
-        "published": 59
-      },
-      "18": {
-        "todas": 794,
-        "published": 54
-      },
-      "19": {
-        "todas": 796,
-        "published": 58
-      },
-      "20": {
-        "todas": 760,
-        "published": 59
-      },
-      "21": {
-        "todas": 642,
-        "published": 65
-      },
-      "22": {
-        "todas": 594,
-        "published": 39
-      },
-      "23": {
-        "todas": 628,
-        "published": 41
-      }
-    },
-    "2014.02": {
-      "0": {
-        "todas": 445,
-        "published": 50
-      },
-      "1": {
-        "todas": 270,
-        "published": 30
-      },
-      "2": {
-        "todas": 177,
-        "published": 11
-      },
-      "3": {
-        "todas": 109,
-        "published": 4
-      },
-      "4": {
-        "todas": 95,
-        "published": 5
-      },
-      "5": {
-        "todas": 99,
-        "published": 3
-      },
-      "6": {
-        "todas": 103,
-        "published": 5
-      },
-      "7": {
-        "todas": 274,
-        "published": 28
-      },
-      "8": {
-        "todas": 502,
-        "published": 45
-      },
-      "9": {
-        "todas": 826,
-        "published": 48
-      },
-      "10": {
-        "todas": 1137,
-        "published": 57
-      },
-      "11": {
-        "todas": 1102,
-        "published": 68
-      },
-      "12": {
-        "todas": 1166,
-        "published": 56
-      },
-      "13": {
-        "todas": 1067,
-        "published": 68
-      },
-      "14": {
-        "todas": 894,
-        "published": 67
-      },
-      "15": {
-        "todas": 830,
-        "published": 55
-      },
-      "16": {
-        "todas": 966,
-        "published": 68
-      },
-      "17": {
-        "todas": 870,
-        "published": 56
-      },
-      "18": {
-        "todas": 799,
-        "published": 49
-      },
-      "19": {
-        "todas": 785,
-        "published": 50
-      },
-      "20": {
-        "todas": 815,
-        "published": 68
-      },
-      "21": {
-        "todas": 690,
-        "published": 61
-      },
-      "22": {
-        "todas": 589,
-        "published": 57
-      },
-      "23": {
-        "todas": 556,
-        "published": 56
-      }
-    },
-    "2014.03": {
-      "0": {
-        "todas": 391,
-        "published": 36
-      },
-      "1": {
-        "todas": 219,
-        "published": 20
+        "published": 22
       },
       "2": {
         "todas": 155,
-        "published": 15
-      },
-      "3": {
-        "todas": 110,
-        "published": 4
-      },
-      "4": {
-        "todas": 104,
-        "published": 6
-      },
-      "5": {
-        "todas": 80,
-        "published": 4
-      },
-      "6": {
-        "todas": 108,
-        "published": 11
-      },
-      "7": {
-        "todas": 298,
-        "published": 36
-      },
-      "8": {
-        "todas": 475,
-        "published": 38
-      },
-      "9": {
-        "todas": 859,
-        "published": 52
-      },
-      "10": {
-        "todas": 1077,
-        "published": 59
-      },
-      "11": {
-        "todas": 1081,
-        "published": 71
-      },
-      "12": {
-        "todas": 1083,
-        "published": 62
-      },
-      "13": {
-        "todas": 1017,
-        "published": 79
-      },
-      "14": {
-        "todas": 904,
-        "published": 70
-      },
-      "15": {
-        "todas": 832,
-        "published": 53
-      },
-      "16": {
-        "todas": 866,
-        "published": 55
-      },
-      "17": {
-        "todas": 903,
-        "published": 58
-      },
-      "18": {
-        "todas": 809,
-        "published": 46
-      },
-      "19": {
-        "todas": 843,
-        "published": 57
-      },
-      "20": {
-        "todas": 784,
-        "published": 68
-      },
-      "21": {
-        "todas": 765,
-        "published": 72
-      },
-      "22": {
-        "todas": 613,
-        "published": 66
-      },
-      "23": {
-        "todas": 544,
-        "published": 48
-      }
-    },
-    "2014.04": {
-      "0": {
-        "todas": 387,
-        "published": 37
-      },
-      "1": {
-        "todas": 256,
-        "published": 21
-      },
-      "2": {
-        "todas": 184,
-        "published": 13
-      },
-      "3": {
-        "todas": 121,
-        "published": 5
-      },
-      "4": {
-        "todas": 101,
         "published": 7
       },
-      "5": {
-        "todas": 80,
-        "published": 1
-      },
-      "6": {
-        "todas": 102,
-        "published": 4
-      },
-      "7": {
-        "todas": 234,
-        "published": 29
-      },
-      "8": {
-        "todas": 450,
-        "published": 41
-      },
-      "9": {
-        "todas": 819,
-        "published": 45
-      },
-      "10": {
-        "todas": 1039,
-        "published": 73
-      },
-      "11": {
-        "todas": 1001,
-        "published": 58
-      },
-      "12": {
-        "todas": 1058,
-        "published": 66
-      },
-      "13": {
-        "todas": 1018,
-        "published": 63
-      },
-      "14": {
-        "todas": 780,
-        "published": 50
-      },
-      "15": {
-        "todas": 763,
-        "published": 44
-      },
-      "16": {
-        "todas": 920,
-        "published": 53
-      },
-      "17": {
-        "todas": 794,
-        "published": 53
-      },
-      "18": {
-        "todas": 785,
-        "published": 39
-      },
-      "19": {
-        "todas": 676,
-        "published": 46
-      },
-      "20": {
-        "todas": 708,
-        "published": 66
-      },
-      "21": {
-        "todas": 529,
-        "published": 50
-      },
-      "22": {
-        "todas": 446,
-        "published": 53
-      },
-      "23": {
-        "todas": 537,
-        "published": 58
-      }
-    },
-    "2014.05": {
-      "0": {
-        "todas": 377,
-        "published": 41
-      },
-      "1": {
-        "todas": 294,
-        "published": 28
-      },
-      "2": {
-        "todas": 170,
-        "published": 11
-      },
       "3": {
-        "todas": 102,
-        "published": 8
-      },
-      "4": {
-        "todas": 87,
+        "todas": 123,
         "published": 7
       },
-      "5": {
-        "todas": 86,
-        "published": 6
-      },
-      "6": {
+      "4": {
         "todas": 91,
-        "published": 5
-      },
-      "7": {
-        "todas": 299,
-        "published": 31
-      },
-      "8": {
-        "todas": 447,
-        "published": 45
-      },
-      "9": {
-        "todas": 779,
-        "published": 52
-      },
-      "10": {
-        "todas": 1068,
-        "published": 59
-      },
-      "11": {
-        "todas": 1082,
-        "published": 72
-      },
-      "12": {
-        "todas": 1049,
-        "published": 77
-      },
-      "13": {
-        "todas": 992,
-        "published": 69
-      },
-      "14": {
-        "todas": 782,
-        "published": 63
-      },
-      "15": {
-        "todas": 747,
-        "published": 61
-      },
-      "16": {
-        "todas": 913,
-        "published": 62
-      },
-      "17": {
-        "todas": 809,
-        "published": 40
-      },
-      "18": {
-        "todas": 799,
-        "published": 60
-      },
-      "19": {
-        "todas": 717,
-        "published": 45
-      },
-      "20": {
-        "todas": 723,
-        "published": 69
-      },
-      "21": {
-        "todas": 611,
-        "published": 62
-      },
-      "22": {
-        "todas": 543,
-        "published": 54
-      },
-      "23": {
-        "todas": 525,
-        "published": 54
-      }
-    },
-    "2014.06": {
-      "0": {
-        "todas": 493,
-        "published": 40
-      },
-      "1": {
-        "todas": 335,
-        "published": 29
-      },
-      "2": {
-        "todas": 179,
-        "published": 18
-      },
-      "3": {
-        "todas": 110,
-        "published": 6
-      },
-      "4": {
-        "todas": 112,
-        "published": 6
-      },
-      "5": {
-        "todas": 96,
-        "published": 4
-      },
-      "6": {
-        "todas": 108,
-        "published": 7
-      },
-      "7": {
-        "todas": 312,
-        "published": 30
-      },
-      "8": {
-        "todas": 426,
-        "published": 39
-      },
-      "9": {
-        "todas": 780,
-        "published": 54
-      },
-      "10": {
-        "todas": 959,
-        "published": 74
-      },
-      "11": {
-        "todas": 1026,
-        "published": 69
-      },
-      "12": {
-        "todas": 1064,
-        "published": 70
-      },
-      "13": {
-        "todas": 1017,
-        "published": 77
-      },
-      "14": {
-        "todas": 817,
-        "published": 59
-      },
-      "15": {
-        "todas": 828,
-        "published": 47
-      },
-      "16": {
-        "todas": 983,
-        "published": 70
-      },
-      "17": {
-        "todas": 882,
-        "published": 58
-      },
-      "18": {
-        "todas": 792,
-        "published": 42
-      },
-      "19": {
-        "todas": 769,
-        "published": 50
-      },
-      "20": {
-        "todas": 759,
-        "published": 52
-      },
-      "21": {
-        "todas": 666,
-        "published": 49
-      },
-      "22": {
-        "todas": 605,
-        "published": 52
-      },
-      "23": {
-        "todas": 616,
-        "published": 69
-      }
-    },
-    "2014.07": {
-      "0": {
-        "todas": 482,
-        "published": 50
-      },
-      "1": {
-        "todas": 296,
-        "published": 23
-      },
-      "2": {
-        "todas": 174,
-        "published": 6
-      },
-      "3": {
-        "todas": 107,
-        "published": 5
-      },
-      "4": {
-        "todas": 97,
-        "published": 7
-      },
-      "5": {
-        "todas": 84,
-        "published": 5
-      },
-      "6": {
-        "todas": 111,
-        "published": 4
-      },
-      "7": {
-        "todas": 369,
-        "published": 29
-      },
-      "8": {
-        "todas": 548,
-        "published": 53
-      },
-      "9": {
-        "todas": 749,
-        "published": 69
-      },
-      "10": {
-        "todas": 957,
-        "published": 63
-      },
-      "11": {
-        "todas": 970,
-        "published": 79
-      },
-      "12": {
-        "todas": 1070,
-        "published": 75
-      },
-      "13": {
-        "todas": 915,
-        "published": 75
-      },
-      "14": {
-        "todas": 771,
-        "published": 78
-      },
-      "15": {
-        "todas": 756,
-        "published": 58
-      },
-      "16": {
-        "todas": 799,
-        "published": 59
-      },
-      "17": {
-        "todas": 791,
-        "published": 66
-      },
-      "18": {
-        "todas": 780,
-        "published": 48
-      },
-      "19": {
-        "todas": 691,
-        "published": 36
-      },
-      "20": {
-        "todas": 702,
-        "published": 58
-      },
-      "21": {
-        "todas": 527,
-        "published": 59
-      },
-      "22": {
-        "todas": 511,
-        "published": 48
-      },
-      "23": {
-        "todas": 544,
-        "published": 34
-      }
-    },
-    "2014.08": {
-      "0": {
-        "todas": 454,
-        "published": 46
-      },
-      "1": {
-        "todas": 338,
-        "published": 30
-      },
-      "2": {
-        "todas": 204,
-        "published": 10
-      },
-      "3": {
-        "todas": 138,
         "published": 8
-      },
-      "4": {
-        "todas": 116,
-        "published": 8
-      },
-      "5": {
-        "todas": 73,
-        "published": 3
-      },
-      "6": {
-        "todas": 83,
-        "published": 2
-      },
-      "7": {
-        "todas": 218,
-        "published": 20
-      },
-      "8": {
-        "todas": 503,
-        "published": 44
-      },
-      "9": {
-        "todas": 695,
-        "published": 54
-      },
-      "10": {
-        "todas": 879,
-        "published": 65
-      },
-      "11": {
-        "todas": 924,
-        "published": 75
-      },
-      "12": {
-        "todas": 977,
-        "published": 88
-      },
-      "13": {
-        "todas": 812,
-        "published": 47
-      },
-      "14": {
-        "todas": 750,
-        "published": 67
-      },
-      "15": {
-        "todas": 703,
-        "published": 44
-      },
-      "16": {
-        "todas": 704,
-        "published": 54
-      },
-      "17": {
-        "todas": 750,
-        "published": 72
-      },
-      "18": {
-        "todas": 706,
-        "published": 43
-      },
-      "19": {
-        "todas": 614,
-        "published": 45
-      },
-      "20": {
-        "todas": 575,
-        "published": 44
-      },
-      "21": {
-        "todas": 589,
-        "published": 59
-      },
-      "22": {
-        "todas": 491,
-        "published": 37
-      },
-      "23": {
-        "todas": 538,
-        "published": 46
-      }
-    },
-    "2014.09": {
-      "0": {
-        "todas": 468,
-        "published": 32
-      },
-      "1": {
-        "todas": 325,
-        "published": 28
-      },
-      "2": {
-        "todas": 184,
-        "published": 14
-      },
-      "3": {
-        "todas": 121,
-        "published": 3
-      },
-      "4": {
-        "todas": 106,
-        "published": 5
-      },
-      "5": {
-        "todas": 82,
-        "published": 5
-      },
-      "6": {
-        "todas": 94,
-        "published": 4
-      },
-      "7": {
-        "todas": 276,
-        "published": 35
-      },
-      "8": {
-        "todas": 462,
-        "published": 36
-      },
-      "9": {
-        "todas": 768,
-        "published": 56
-      },
-      "10": {
-        "todas": 891,
-        "published": 66
-      },
-      "11": {
-        "todas": 956,
-        "published": 65
-      },
-      "12": {
-        "todas": 980,
-        "published": 61
-      },
-      "13": {
-        "todas": 838,
-        "published": 78
-      },
-      "14": {
-        "todas": 716,
-        "published": 51
-      },
-      "15": {
-        "todas": 701,
-        "published": 47
-      },
-      "16": {
-        "todas": 742,
-        "published": 51
-      },
-      "17": {
-        "todas": 749,
-        "published": 66
-      },
-      "18": {
-        "todas": 670,
-        "published": 51
-      },
-      "19": {
-        "todas": 672,
-        "published": 48
-      },
-      "20": {
-        "todas": 600,
-        "published": 51
-      },
-      "21": {
-        "todas": 526,
-        "published": 46
-      },
-      "22": {
-        "todas": 502,
-        "published": 40
-      },
-      "23": {
-        "todas": 540,
-        "published": 42
-      }
-    },
-    "2014.1": {
-      "0": {
-        "todas": 490,
-        "published": 44
-      },
-      "1": {
-        "todas": 302,
-        "published": 22
-      },
-      "2": {
-        "todas": 165,
-        "published": 7
-      },
-      "3": {
-        "todas": 120,
-        "published": 8
-      },
-      "4": {
-        "todas": 113,
-        "published": 4
-      },
-      "5": {
-        "todas": 86,
-        "published": 5
-      },
-      "6": {
-        "todas": 124,
-        "published": 9
-      },
-      "7": {
-        "todas": 359,
-        "published": 45
-      },
-      "8": {
-        "todas": 535,
-        "published": 49
-      },
-      "9": {
-        "todas": 814,
-        "published": 64
-      },
-      "10": {
-        "todas": 1092,
-        "published": 72
-      },
-      "11": {
-        "todas": 1170,
-        "published": 76
-      },
-      "12": {
-        "todas": 1103,
-        "published": 62
-      },
-      "13": {
-        "todas": 1039,
-        "published": 84
-      },
-      "14": {
-        "todas": 900,
-        "published": 66
-      },
-      "15": {
-        "todas": 832,
-        "published": 82
-      },
-      "16": {
-        "todas": 960,
-        "published": 70
-      },
-      "17": {
-        "todas": 884,
-        "published": 62
-      },
-      "18": {
-        "todas": 859,
-        "published": 60
-      },
-      "19": {
-        "todas": 783,
-        "published": 62
-      },
-      "20": {
-        "todas": 748,
-        "published": 59
-      },
-      "21": {
-        "todas": 675,
-        "published": 64
-      },
-      "22": {
-        "todas": 632,
-        "published": 57
-      },
-      "23": {
-        "todas": 654,
-        "published": 74
-      }
-    },
-    "2014.11": {
-      "0": {
-        "todas": 408,
-        "published": 39
-      },
-      "1": {
-        "todas": 269,
-        "published": 32
-      },
-      "2": {
-        "todas": 164,
-        "published": 10
-      },
-      "3": {
-        "todas": 87,
-        "published": 3
-      },
-      "4": {
-        "todas": 89,
-        "published": 6
-      },
-      "5": {
-        "todas": 90,
-        "published": 8
-      },
-      "6": {
-        "todas": 125,
-        "published": 12
-      },
-      "7": {
-        "todas": 326,
-        "published": 38
-      },
-      "8": {
-        "todas": 476,
-        "published": 57
-      },
-      "9": {
-        "todas": 815,
-        "published": 50
-      },
-      "10": {
-        "todas": 1082,
-        "published": 60
-      },
-      "11": {
-        "todas": 1031,
-        "published": 72
-      },
-      "12": {
-        "todas": 1143,
-        "published": 77
-      },
-      "13": {
-        "todas": 963,
-        "published": 82
-      },
-      "14": {
-        "todas": 866,
-        "published": 83
-      },
-      "15": {
-        "todas": 755,
-        "published": 73
-      },
-      "16": {
-        "todas": 849,
-        "published": 67
-      },
-      "17": {
-        "todas": 813,
-        "published": 67
-      },
-      "18": {
-        "todas": 728,
-        "published": 65
-      },
-      "19": {
-        "todas": 737,
-        "published": 52
-      },
-      "20": {
-        "todas": 699,
-        "published": 56
-      },
-      "21": {
-        "todas": 626,
-        "published": 68
-      },
-      "22": {
-        "todas": 613,
-        "published": 78
-      },
-      "23": {
-        "todas": 540,
-        "published": 74
-      }
-    },
-    "2014.12": {
-      "0": {
-        "todas": 407,
-        "published": 48
-      },
-      "1": {
-        "todas": 250,
-        "published": 26
-      },
-      "2": {
-        "todas": 176,
-        "published": 15
-      },
-      "3": {
-        "todas": 98,
-        "published": 8
-      },
-      "4": {
-        "todas": 86,
-        "published": 9
       },
       "5": {
         "todas": 74,
         "published": 5
       },
       "6": {
-        "todas": 99,
-        "published": 11
+        "todas": 97,
+        "published": 6
       },
       "7": {
-        "todas": 317,
-        "published": 34
+        "todas": 232,
+        "published": 18
       },
       "8": {
-        "todas": 451,
-        "published": 52
+        "todas": 505,
+        "published": 33
       },
       "9": {
-        "todas": 710,
-        "published": 59
+        "todas": 769,
+        "published": 44
       },
       "10": {
-        "todas": 1058,
-        "published": 79
+        "todas": 979,
+        "published": 61
       },
       "11": {
-        "todas": 1082,
-        "published": 77
+        "todas": 980,
+        "published": 68
       },
       "12": {
-        "todas": 1123,
-        "published": 80
+        "todas": 1152,
+        "published": 51
       },
       "13": {
-        "todas": 1060,
-        "published": 63
+        "todas": 1069,
+        "published": 55
       },
       "14": {
-        "todas": 857,
-        "published": 62
+        "todas": 939,
+        "published": 47
       },
       "15": {
-        "todas": 806,
-        "published": 78
+        "todas": 852,
+        "published": 44
       },
       "16": {
-        "todas": 859,
-        "published": 50
+        "todas": 919,
+        "published": 43
       },
       "17": {
-        "todas": 831,
-        "published": 61
+        "todas": 897,
+        "published": 57
       },
       "18": {
-        "todas": 781,
-        "published": 58
+        "todas": 858,
+        "published": 55
       },
       "19": {
-        "todas": 735,
-        "published": 61
+        "todas": 784,
+        "published": 46
       },
       "20": {
-        "todas": 685,
-        "published": 70
+        "todas": 812,
+        "published": 57
       },
       "21": {
-        "todas": 610,
-        "published": 64
+        "todas": 649,
+        "published": 56
       },
       "22": {
-        "todas": 556,
-        "published": 73
+        "todas": 626,
+        "published": 54
       },
       "23": {
-        "todas": 531,
-        "published": 64
+        "todas": 543,
+        "published": 39
       }
     },
-    "2015.01": {
+    "2013.12": {
       "0": {
-        "todas": 401,
-        "published": 42
+        "todas": 440,
+        "published": 38
       },
       "1": {
-        "todas": 274,
-        "published": 31
+        "todas": 241,
+        "published": 15
       },
       "2": {
-        "todas": 177,
-        "published": 11
+        "todas": 167,
+        "published": 18
       },
       "3": {
-        "todas": 107,
-        "published": 8
+        "todas": 133,
+        "published": 12
       },
       "4": {
-        "todas": 75,
-        "published": 6
+        "todas": 84,
+        "published": 4
       },
       "5": {
         "todas": 67,
         "published": 3
       },
       "6": {
-        "todas": 113,
-        "published": 9
-      },
-      "7": {
-        "todas": 237,
-        "published": 28
-      },
-      "8": {
-        "todas": 332,
-        "published": 36
-      },
-      "9": {
-        "todas": 684,
-        "published": 44
-      },
-      "10": {
-        "todas": 882,
-        "published": 63
-      },
-      "11": {
-        "todas": 989,
-        "published": 77
-      },
-      "12": {
-        "todas": 997,
-        "published": 88
-      },
-      "13": {
-        "todas": 939,
-        "published": 86
-      },
-      "14": {
-        "todas": 823,
-        "published": 64
-      },
-      "15": {
-        "todas": 789,
-        "published": 63
-      },
-      "16": {
-        "todas": 828,
-        "published": 54
-      },
-      "17": {
-        "todas": 724,
-        "published": 74
-      },
-      "18": {
-        "todas": 718,
-        "published": 56
-      },
-      "19": {
-        "todas": 761,
-        "published": 56
-      },
-      "20": {
-        "todas": 701,
-        "published": 62
-      },
-      "21": {
-        "todas": 639,
-        "published": 63
-      },
-      "22": {
-        "todas": 535,
-        "published": 62
-      },
-      "23": {
-        "todas": 461,
-        "published": 48
-      }
-    },
-    "2015.02": {
-      "0": {
-        "todas": 427,
-        "published": 42
-      },
-      "1": {
-        "todas": 244,
-        "published": 25
-      },
-      "2": {
-        "todas": 143,
-        "published": 11
-      },
-      "3": {
-        "todas": 105,
-        "published": 5
-      },
-      "4": {
-        "todas": 76,
-        "published": 4
-      },
-      "5": {
-        "todas": 73,
-        "published": 7
-      },
-      "6": {
-        "todas": 108,
-        "published": 7
-      },
-      "7": {
-        "todas": 298,
-        "published": 31
-      },
-      "8": {
-        "todas": 376,
-        "published": 45
-      },
-      "9": {
-        "todas": 682,
-        "published": 72
-      },
-      "10": {
-        "todas": 824,
-        "published": 61
-      },
-      "11": {
-        "todas": 858,
-        "published": 59
-      },
-      "12": {
-        "todas": 1028,
-        "published": 85
-      },
-      "13": {
-        "todas": 971,
-        "published": 74
-      },
-      "14": {
-        "todas": 821,
-        "published": 63
-      },
-      "15": {
-        "todas": 783,
-        "published": 66
-      },
-      "16": {
-        "todas": 858,
-        "published": 63
-      },
-      "17": {
-        "todas": 793,
-        "published": 58
-      },
-      "18": {
-        "todas": 747,
-        "published": 55
-      },
-      "19": {
-        "todas": 690,
-        "published": 57
-      },
-      "20": {
-        "todas": 685,
-        "published": 71
-      },
-      "21": {
-        "todas": 570,
-        "published": 50
-      },
-      "22": {
-        "todas": 612,
-        "published": 47
-      },
-      "23": {
-        "todas": 542,
-        "published": 42
-      }
-    },
-    "2015.03": {
-      "0": {
-        "todas": 384,
-        "published": 41
-      },
-      "1": {
-        "todas": 262,
-        "published": 16
-      },
-      "2": {
-        "todas": 127,
-        "published": 15
-      },
-      "3": {
-        "todas": 91,
-        "published": 4
-      },
-      "4": {
         "todas": 79,
         "published": 6
       },
-      "5": {
-        "todas": 95,
-        "published": 7
-      },
-      "6": {
-        "todas": 172,
-        "published": 13
-      },
       "7": {
-        "todas": 311,
-        "published": 27
+        "todas": 219,
+        "published": 23
       },
       "8": {
-        "todas": 414,
-        "published": 40
-      },
-      "9": {
-        "todas": 734,
-        "published": 61
-      },
-      "10": {
-        "todas": 936,
-        "published": 63
-      },
-      "11": {
-        "todas": 1000,
-        "published": 86
-      },
-      "12": {
-        "todas": 1062,
-        "published": 71
-      },
-      "13": {
-        "todas": 1034,
-        "published": 78
-      },
-      "14": {
-        "todas": 854,
-        "published": 65
-      },
-      "15": {
-        "todas": 798,
-        "published": 73
-      },
-      "16": {
-        "todas": 863,
-        "published": 58
-      },
-      "17": {
-        "todas": 810,
-        "published": 66
-      },
-      "18": {
-        "todas": 788,
-        "published": 57
-      },
-      "19": {
-        "todas": 781,
-        "published": 73
-      },
-      "20": {
-        "todas": 768,
-        "published": 63
-      },
-      "21": {
-        "todas": 720,
-        "published": 54
-      },
-      "22": {
-        "todas": 636,
-        "published": 58
-      },
-      "23": {
-        "todas": 573,
-        "published": 50
-      }
-    },
-    "2015.04": {
-      "0": {
-        "todas": 360,
-        "published": 38
-      },
-      "1": {
-        "todas": 227,
-        "published": 15
-      },
-      "2": {
-        "todas": 140,
-        "published": 13
-      },
-      "3": {
-        "todas": 132,
-        "published": 4
-      },
-      "4": {
-        "todas": 76,
-        "published": 2
-      },
-      "5": {
-        "todas": 85,
-        "published": 8
-      },
-      "6": {
-        "todas": 166,
-        "published": 16
-      },
-      "7": {
-        "todas": 270,
-        "published": 40
-      },
-      "8": {
-        "todas": 427,
-        "published": 36
-      },
-      "9": {
-        "todas": 695,
-        "published": 55
-      },
-      "10": {
-        "todas": 937,
-        "published": 57
-      },
-      "11": {
-        "todas": 934,
-        "published": 56
-      },
-      "12": {
-        "todas": 965,
-        "published": 76
-      },
-      "13": {
-        "todas": 898,
-        "published": 83
-      },
-      "14": {
-        "todas": 761,
-        "published": 51
-      },
-      "15": {
-        "todas": 759,
-        "published": 61
-      },
-      "16": {
-        "todas": 810,
-        "published": 50
-      },
-      "17": {
-        "todas": 752,
-        "published": 51
-      },
-      "18": {
-        "todas": 695,
-        "published": 45
-      },
-      "19": {
-        "todas": 645,
-        "published": 40
-      },
-      "20": {
-        "todas": 611,
-        "published": 49
-      },
-      "21": {
-        "todas": 568,
-        "published": 57
-      },
-      "22": {
-        "todas": 512,
-        "published": 46
-      },
-      "23": {
-        "todas": 537,
-        "published": 53
-      }
-    },
-    "2015.05": {
-      "0": {
-        "todas": 402,
-        "published": 51
-      },
-      "1": {
-        "todas": 235,
-        "published": 22
-      },
-      "2": {
-        "todas": 122,
-        "published": 11
-      },
-      "3": {
-        "todas": 104,
-        "published": 10
-      },
-      "4": {
-        "todas": 82,
-        "published": 11
-      },
-      "5": {
-        "todas": 86,
-        "published": 4
-      },
-      "6": {
-        "todas": 129,
-        "published": 8
-      },
-      "7": {
-        "todas": 280,
-        "published": 41
-      },
-      "8": {
-        "todas": 494,
-        "published": 40
-      },
-      "9": {
-        "todas": 734,
-        "published": 62
-      },
-      "10": {
-        "todas": 969,
-        "published": 80
-      },
-      "11": {
-        "todas": 1031,
-        "published": 77
-      },
-      "12": {
-        "todas": 1023,
-        "published": 77
-      },
-      "13": {
-        "todas": 1040,
-        "published": 96
-      },
-      "14": {
-        "todas": 871,
-        "published": 57
-      },
-      "15": {
-        "todas": 878,
-        "published": 72
-      },
-      "16": {
-        "todas": 908,
-        "published": 75
-      },
-      "17": {
-        "todas": 838,
-        "published": 80
-      },
-      "18": {
-        "todas": 768,
-        "published": 53
-      },
-      "19": {
-        "todas": 677,
-        "published": 60
-      },
-      "20": {
-        "todas": 636,
-        "published": 51
-      },
-      "21": {
-        "todas": 646,
-        "published": 53
-      },
-      "22": {
-        "todas": 588,
-        "published": 66
-      },
-      "23": {
-        "todas": 577,
-        "published": 77
-      }
-    },
-    "2015.06": {
-      "0": {
-        "todas": 412,
-        "published": 39
-      },
-      "1": {
-        "todas": 245,
-        "published": 27
-      },
-      "2": {
-        "todas": 152,
-        "published": 13
-      },
-      "3": {
-        "todas": 105,
-        "published": 5
-      },
-      "4": {
-        "todas": 85,
-        "published": 1
-      },
-      "5": {
-        "todas": 87,
-        "published": 6
-      },
-      "6": {
-        "todas": 145,
-        "published": 6
-      },
-      "7": {
-        "todas": 280,
+        "todas": 411,
         "published": 26
       },
-      "8": {
-        "todas": 444,
-        "published": 40
-      },
       "9": {
-        "todas": 769,
-        "published": 58
-      },
-      "10": {
-        "todas": 887,
-        "published": 82
-      },
-      "11": {
-        "todas": 907,
-        "published": 61
-      },
-      "12": {
-        "todas": 1007,
-        "published": 63
-      },
-      "13": {
-        "todas": 944,
-        "published": 81
-      },
-      "14": {
-        "todas": 786,
-        "published": 65
-      },
-      "15": {
-        "todas": 749,
-        "published": 65
-      },
-      "16": {
-        "todas": 800,
-        "published": 64
-      },
-      "17": {
-        "todas": 734,
-        "published": 47
-      },
-      "18": {
-        "todas": 723,
-        "published": 49
-      },
-      "19": {
-        "todas": 641,
-        "published": 55
-      },
-      "20": {
-        "todas": 598,
-        "published": 55
-      },
-      "21": {
-        "todas": 543,
-        "published": 41
-      },
-      "22": {
-        "todas": 555,
-        "published": 62
-      },
-      "23": {
-        "todas": 489,
-        "published": 54
-      }
-    },
-    "2015.07": {
-      "0": {
-        "todas": 385,
-        "published": 37
-      },
-      "1": {
-        "todas": 252,
-        "published": 14
-      },
-      "2": {
-        "todas": 161,
-        "published": 15
-      },
-      "3": {
-        "todas": 117,
-        "published": 4
-      },
-      "4": {
-        "todas": 107,
-        "published": 7
-      },
-      "5": {
-        "todas": 95,
-        "published": 2
-      },
-      "6": {
-        "todas": 156,
-        "published": 13
-      },
-      "7": {
-        "todas": 275,
-        "published": 20
-      },
-      "8": {
-        "todas": 447,
-        "published": 32
-      },
-      "9": {
-        "todas": 675,
-        "published": 49
-      },
-      "10": {
-        "todas": 859,
-        "published": 71
-      },
-      "11": {
-        "todas": 803,
-        "published": 60
-      },
-      "12": {
-        "todas": 882,
-        "published": 69
-      },
-      "13": {
-        "todas": 815,
-        "published": 69
-      },
-      "14": {
-        "todas": 702,
-        "published": 55
-      },
-      "15": {
-        "todas": 634,
-        "published": 53
-      },
-      "16": {
-        "todas": 693,
-        "published": 56
-      },
-      "17": {
-        "todas": 679,
-        "published": 46
-      },
-      "18": {
-        "todas": 655,
-        "published": 47
-      },
-      "19": {
-        "todas": 578,
-        "published": 49
-      },
-      "20": {
-        "todas": 514,
+        "todas": 703,
         "published": 42
       },
-      "21": {
-        "todas": 488,
-        "published": 40
-      },
-      "22": {
-        "todas": 485,
-        "published": 51
-      },
-      "23": {
-        "todas": 493,
-        "published": 58
-      }
-    },
-    "2015.08": {
-      "0": {
-        "todas": 355,
-        "published": 36
-      },
-      "1": {
-        "todas": 241,
-        "published": 24
-      },
-      "2": {
-        "todas": 166,
-        "published": 13
-      },
-      "3": {
-        "todas": 100,
-        "published": 9
-      },
-      "4": {
-        "todas": 86,
-        "published": 6
-      },
-      "5": {
-        "todas": 95,
-        "published": 11
-      },
-      "6": {
-        "todas": 120,
-        "published": 5
-      },
-      "7": {
-        "todas": 211,
-        "published": 27
-      },
-      "8": {
-        "todas": 431,
-        "published": 27
-      },
-      "9": {
-        "todas": 657,
-        "published": 46
-      },
       "10": {
-        "todas": 756,
-        "published": 42
-      },
-      "11": {
-        "todas": 752,
-        "published": 59
-      },
-      "12": {
-        "todas": 865,
-        "published": 62
-      },
-      "13": {
-        "todas": 798,
-        "published": 53
-      },
-      "14": {
-        "todas": 697,
-        "published": 38
-      },
-      "15": {
-        "todas": 595,
-        "published": 48
-      },
-      "16": {
-        "todas": 588,
-        "published": 35
-      },
-      "17": {
-        "todas": 645,
-        "published": 44
-      },
-      "18": {
-        "todas": 600,
-        "published": 54
-      },
-      "19": {
-        "todas": 506,
-        "published": 43
-      },
-      "20": {
-        "todas": 514,
-        "published": 44
-      },
-      "21": {
-        "todas": 456,
-        "published": 40
-      },
-      "22": {
-        "todas": 452,
-        "published": 38
-      },
-      "23": {
-        "todas": 405,
-        "published": 43
-      }
-    },
-    "2015.09": {
-      "0": {
-        "todas": 303,
-        "published": 34
-      },
-      "1": {
-        "todas": 175,
-        "published": 19
-      },
-      "2": {
-        "todas": 127,
-        "published": 5
-      },
-      "3": {
-        "todas": 90,
-        "published": 4
-      },
-      "4": {
-        "todas": 100,
-        "published": 7
-      },
-      "5": {
-        "todas": 82,
-        "published": 3
-      },
-      "6": {
-        "todas": 120,
-        "published": 8
-      },
-      "7": {
-        "todas": 240,
-        "published": 22
-      },
-      "8": {
-        "todas": 380,
-        "published": 36
-      },
-      "9": {
-        "todas": 553,
-        "published": 39
-      },
-      "10": {
-        "todas": 847,
-        "published": 73
-      },
-      "11": {
-        "todas": 772,
+        "todas": 943,
         "published": 60
       },
-      "12": {
-        "todas": 837,
-        "published": 71
-      },
-      "13": {
-        "todas": 819,
-        "published": 61
-      },
-      "14": {
-        "todas": 693,
-        "published": 42
-      },
-      "15": {
-        "todas": 659,
-        "published": 43
-      },
-      "16": {
-        "todas": 594,
-        "published": 37
-      },
-      "17": {
-        "todas": 600,
-        "published": 40
-      },
-      "18": {
-        "todas": 554,
-        "published": 51
-      },
-      "19": {
-        "todas": 520,
-        "published": 49
-      },
-      "20": {
-        "todas": 483,
-        "published": 45
-      },
-      "21": {
-        "todas": 515,
-        "published": 48
-      },
-      "22": {
-        "todas": 474,
-        "published": 45
-      },
-      "23": {
-        "todas": 392,
-        "published": 30
-      }
-    },
-    "2015.1": {
-      "0": {
-        "todas": 345,
-        "published": 34
-      },
-      "1": {
-        "todas": 178,
-        "published": 17
-      },
-      "2": {
-        "todas": 102,
-        "published": 8
-      },
-      "3": {
-        "todas": 66,
-        "published": 2
-      },
-      "4": {
-        "todas": 87,
-        "published": 4
-      },
-      "5": {
-        "todas": 83,
-        "published": 10
-      },
-      "6": {
-        "todas": 191,
-        "published": 4
-      },
-      "7": {
-        "todas": 282,
-        "published": 37
-      },
-      "8": {
-        "todas": 387,
-        "published": 35
-      },
-      "9": {
-        "todas": 635,
-        "published": 51
-      },
-      "10": {
-        "todas": 894,
-        "published": 64
-      },
       "11": {
-        "todas": 902,
-        "published": 53
-      },
-      "12": {
-        "todas": 857,
-        "published": 63
-      },
-      "13": {
-        "todas": 870,
-        "published": 57
-      },
-      "14": {
-        "todas": 799,
-        "published": 60
-      },
-      "15": {
-        "todas": 711,
-        "published": 53
-      },
-      "16": {
-        "todas": 769,
-        "published": 58
-      },
-      "17": {
-        "todas": 719,
+        "todas": 1022,
         "published": 50
       },
-      "18": {
-        "todas": 605,
-        "published": 40
-      },
-      "19": {
-        "todas": 673,
-        "published": 64
-      },
-      "20": {
-        "todas": 535,
-        "published": 48
-      },
-      "21": {
-        "todas": 521,
-        "published": 49
-      },
-      "22": {
-        "todas": 450,
-        "published": 53
-      },
-      "23": {
-        "todas": 444,
-        "published": 48
-      }
-    },
-    "2015.11": {
-      "0": {
-        "todas": 299,
-        "published": 28
-      },
-      "1": {
-        "todas": 202,
-        "published": 12
-      },
-      "2": {
-        "todas": 116,
-        "published": 7
-      },
-      "3": {
-        "todas": 72,
-        "published": 2
-      },
-      "4": {
-        "todas": 89,
-        "published": 2
-      },
-      "5": {
-        "todas": 133,
-        "published": 6
-      },
-      "6": {
-        "todas": 171,
-        "published": 7
-      },
-      "7": {
-        "todas": 360,
-        "published": 41
-      },
-      "8": {
-        "todas": 558,
-        "published": 47
-      },
-      "9": {
-        "todas": 773,
-        "published": 49
-      },
-      "10": {
-        "todas": 876,
+      "12": {
+        "todas": 1040,
         "published": 62
       },
-      "11": {
-        "todas": 888,
-        "published": 70
-      },
-      "12": {
-        "todas": 861,
-        "published": 69
-      },
       "13": {
-        "todas": 954,
-        "published": 78
-      },
-      "14": {
-        "todas": 727,
-        "published": 52
-      },
-      "15": {
-        "todas": 663,
-        "published": 29
-      },
-      "16": {
-        "todas": 861,
-        "published": 56
-      },
-      "17": {
-        "todas": 724,
-        "published": 49
-      },
-      "18": {
-        "todas": 697,
-        "published": 45
-      },
-      "19": {
-        "todas": 665,
-        "published": 52
-      },
-      "20": {
-        "todas": 666,
-        "published": 43
-      },
-      "21": {
-        "todas": 608,
-        "published": 53
-      },
-      "22": {
-        "todas": 551,
-        "published": 59
-      },
-      "23": {
-        "todas": 446,
-        "published": 49
-      }
-    },
-    "2015.12": {
-      "0": {
-        "todas": 392,
-        "published": 40
-      },
-      "1": {
-        "todas": 230,
-        "published": 22
-      },
-      "2": {
-        "todas": 119,
-        "published": 10
-      },
-      "3": {
-        "todas": 116,
-        "published": 9
-      },
-      "4": {
-        "todas": 77,
-        "published": 8
-      },
-      "5": {
-        "todas": 102,
-        "published": 4
-      },
-      "6": {
-        "todas": 154,
-        "published": 10
-      },
-      "7": {
-        "todas": 303,
-        "published": 19
-      },
-      "8": {
-        "todas": 520,
-        "published": 46
-      },
-      "9": {
-        "todas": 788,
-        "published": 62
-      },
-      "10": {
-        "todas": 881,
+        "todas": 931,
         "published": 64
       },
-      "11": {
-        "todas": 906,
-        "published": 53
-      },
-      "12": {
-        "todas": 923,
-        "published": 61
-      },
-      "13": {
-        "todas": 958,
-        "published": 63
-      },
       "14": {
-        "todas": 813,
-        "published": 54
+        "todas": 863,
+        "published": 50
       },
       "15": {
-        "todas": 735,
-        "published": 56
+        "todas": 760,
+        "published": 58
       },
       "16": {
         "todas": 814,
         "published": 40
       },
       "17": {
-        "todas": 828,
-        "published": 63
+        "todas": 786,
+        "published": 49
       },
       "18": {
-        "todas": 774,
-        "published": 47
-      },
-      "19": {
-        "todas": 759,
-        "published": 57
-      },
-      "20": {
-        "todas": 713,
+        "todas": 766,
         "published": 53
       },
+      "19": {
+        "todas": 781,
+        "published": 47
+      },
+      "20": {
+        "todas": 766,
+        "published": 49
+      },
       "21": {
+        "todas": 646,
+        "published": 52
+      },
+      "22": {
+        "todas": 517,
+        "published": 54
+      },
+      "23": {
+        "todas": 520,
+        "published": 49
+      }
+    },
+    "2014.01": {
+      "0": {
+        "todas": 507,
+        "published": 48
+      },
+      "1": {
+        "todas": 317,
+        "published": 30
+      },
+      "2": {
+        "todas": 209,
+        "published": 15
+      },
+      "3": {
+        "todas": 135,
+        "published": 10
+      },
+      "4": {
+        "todas": 103,
+        "published": 6
+      },
+      "5": {
+        "todas": 120,
+        "published": 3
+      },
+      "6": {
+        "todas": 116,
+        "published": 6
+      },
+      "7": {
+        "todas": 270,
+        "published": 27
+      },
+      "8": {
+        "todas": 458,
+        "published": 41
+      },
+      "9": {
+        "todas": 805,
+        "published": 57
+      },
+      "10": {
+        "todas": 1125,
+        "published": 66
+      },
+      "11": {
+        "todas": 1112,
+        "published": 59
+      },
+      "12": {
+        "todas": 1230,
+        "published": 66
+      },
+      "13": {
+        "todas": 1162,
+        "published": 73
+      },
+      "14": {
+        "todas": 931,
+        "published": 62
+      },
+      "15": {
+        "todas": 860,
+        "published": 45
+      },
+      "16": {
+        "todas": 972,
+        "published": 65
+      },
+      "17": {
+        "todas": 881,
+        "published": 67
+      },
+      "18": {
+        "todas": 845,
+        "published": 57
+      },
+      "19": {
+        "todas": 847,
+        "published": 64
+      },
+      "20": {
+        "todas": 816,
+        "published": 67
+      },
+      "21": {
+        "todas": 680,
+        "published": 68
+      },
+      "22": {
         "todas": 616,
+        "published": 39
+      },
+      "23": {
+        "todas": 662,
+        "published": 47
+      }
+    },
+    "2014.02": {
+      "0": {
+        "todas": 438,
+        "published": 50
+      },
+      "1": {
+        "todas": 252,
+        "published": 26
+      },
+      "2": {
+        "todas": 156,
+        "published": 9
+      },
+      "3": {
+        "todas": 99,
+        "published": 6
+      },
+      "4": {
+        "todas": 103,
+        "published": 6
+      },
+      "5": {
+        "todas": 91,
+        "published": 3
+      },
+      "6": {
+        "todas": 102,
+        "published": 4
+      },
+      "7": {
+        "todas": 285,
+        "published": 31
+      },
+      "8": {
+        "todas": 494,
+        "published": 45
+      },
+      "9": {
+        "todas": 839,
+        "published": 51
+      },
+      "10": {
+        "todas": 1126,
+        "published": 58
+      },
+      "11": {
+        "todas": 1056,
+        "published": 70
+      },
+      "12": {
+        "todas": 1116,
+        "published": 60
+      },
+      "13": {
+        "todas": 1015,
+        "published": 72
+      },
+      "14": {
+        "todas": 899,
+        "published": 67
+      },
+      "15": {
+        "todas": 820,
+        "published": 52
+      },
+      "16": {
+        "todas": 979,
+        "published": 63
+      },
+      "17": {
+        "todas": 842,
+        "published": 50
+      },
+      "18": {
+        "todas": 810,
+        "published": 50
+      },
+      "19": {
+        "todas": 803,
+        "published": 49
+      },
+      "20": {
+        "todas": 823,
+        "published": 60
+      },
+      "21": {
+        "todas": 720,
+        "published": 57
+      },
+      "22": {
+        "todas": 610,
+        "published": 66
+      },
+      "23": {
+        "todas": 604,
+        "published": 56
+      }
+    },
+    "2014.03": {
+      "0": {
+        "todas": 388,
+        "published": 35
+      },
+      "1": {
+        "todas": 232,
+        "published": 22
+      },
+      "2": {
+        "todas": 147,
+        "published": 17
+      },
+      "3": {
+        "todas": 116,
+        "published": 2
+      },
+      "4": {
+        "todas": 94,
+        "published": 4
+      },
+      "5": {
+        "todas": 71,
+        "published": 4
+      },
+      "6": {
+        "todas": 103,
+        "published": 10
+      },
+      "7": {
+        "todas": 280,
+        "published": 32
+      },
+      "8": {
+        "todas": 461,
+        "published": 32
+      },
+      "9": {
+        "todas": 897,
+        "published": 50
+      },
+      "10": {
+        "todas": 1034,
+        "published": 53
+      },
+      "11": {
+        "todas": 1086,
+        "published": 70
+      },
+      "12": {
+        "todas": 1104,
+        "published": 65
+      },
+      "13": {
+        "todas": 1057,
+        "published": 70
+      },
+      "14": {
+        "todas": 872,
+        "published": 74
+      },
+      "15": {
+        "todas": 823,
+        "published": 55
+      },
+      "16": {
+        "todas": 862,
+        "published": 58
+      },
+      "17": {
+        "todas": 929,
+        "published": 57
+      },
+      "18": {
+        "todas": 830,
+        "published": 46
+      },
+      "19": {
+        "todas": 786,
+        "published": 56
+      },
+      "20": {
+        "todas": 777,
+        "published": 68
+      },
+      "21": {
+        "todas": 746,
+        "published": 77
+      },
+      "22": {
+        "todas": 585,
+        "published": 62
+      },
+      "23": {
+        "todas": 546,
+        "published": 51
+      }
+    },
+    "2014.04": {
+      "0": {
+        "todas": 385,
+        "published": 36
+      },
+      "1": {
+        "todas": 252,
+        "published": 22
+      },
+      "2": {
+        "todas": 201,
+        "published": 12
+      },
+      "3": {
+        "todas": 104,
+        "published": 8
+      },
+      "4": {
+        "todas": 97,
+        "published": 8
+      },
+      "5": {
+        "todas": 76,
+        "published": 2
+      },
+      "6": {
+        "todas": 90,
+        "published": 5
+      },
+      "7": {
+        "todas": 229,
+        "published": 26
+      },
+      "8": {
+        "todas": 452,
+        "published": 45
+      },
+      "9": {
+        "todas": 746,
+        "published": 51
+      },
+      "10": {
+        "todas": 1071,
+        "published": 72
+      },
+      "11": {
+        "todas": 1002,
+        "published": 61
+      },
+      "12": {
+        "todas": 1006,
+        "published": 71
+      },
+      "13": {
+        "todas": 990,
+        "published": 64
+      },
+      "14": {
+        "todas": 789,
+        "published": 47
+      },
+      "15": {
+        "todas": 742,
+        "published": 47
+      },
+      "16": {
+        "todas": 885,
+        "published": 55
+      },
+      "17": {
+        "todas": 763,
+        "published": 51
+      },
+      "18": {
+        "todas": 706,
+        "published": 40
+      },
+      "19": {
+        "todas": 679,
+        "published": 39
+      },
+      "20": {
+        "todas": 685,
+        "published": 76
+      },
+      "21": {
+        "todas": 502,
         "published": 45
       },
       "22": {
-        "todas": 579,
-        "published": 54
+        "todas": 453,
+        "published": 46
+      },
+      "23": {
+        "todas": 495,
+        "published": 57
+      }
+    },
+    "2014.05": {
+      "0": {
+        "todas": 412,
+        "published": 46
+      },
+      "1": {
+        "todas": 324,
+        "published": 31
+      },
+      "2": {
+        "todas": 179,
+        "published": 13
+      },
+      "3": {
+        "todas": 115,
+        "published": 7
+      },
+      "4": {
+        "todas": 107,
+        "published": 9
+      },
+      "5": {
+        "todas": 101,
+        "published": 5
+      },
+      "6": {
+        "todas": 110,
+        "published": 5
+      },
+      "7": {
+        "todas": 319,
+        "published": 31
+      },
+      "8": {
+        "todas": 410,
+        "published": 45
+      },
+      "9": {
+        "todas": 789,
+        "published": 52
+      },
+      "10": {
+        "todas": 1040,
+        "published": 74
+      },
+      "11": {
+        "todas": 1064,
+        "published": 68
+      },
+      "12": {
+        "todas": 1055,
+        "published": 70
+      },
+      "13": {
+        "todas": 997,
+        "published": 72
+      },
+      "14": {
+        "todas": 801,
+        "published": 65
+      },
+      "15": {
+        "todas": 762,
+        "published": 53
+      },
+      "16": {
+        "todas": 967,
+        "published": 69
+      },
+      "17": {
+        "todas": 819,
+        "published": 47
+      },
+      "18": {
+        "todas": 878,
+        "published": 60
+      },
+      "19": {
+        "todas": 756,
+        "published": 53
+      },
+      "20": {
+        "todas": 738,
+        "published": 64
+      },
+      "21": {
+        "todas": 652,
+        "published": 63
+      },
+      "22": {
+        "todas": 549,
+        "published": 59
       },
       "23": {
         "todas": 562,
         "published": 63
       }
     },
-    "2016.01": {
+    "2014.06": {
       "0": {
-        "todas": 323,
-        "published": 37
+        "todas": 473,
+        "published": 45
+      },
+      "1": {
+        "todas": 311,
+        "published": 26
+      },
+      "2": {
+        "todas": 161,
+        "published": 14
+      },
+      "3": {
+        "todas": 100,
+        "published": 3
+      },
+      "4": {
+        "todas": 101,
+        "published": 4
+      },
+      "5": {
+        "todas": 97,
+        "published": 5
+      },
+      "6": {
+        "todas": 109,
+        "published": 5
+      },
+      "7": {
+        "todas": 320,
+        "published": 33
+      },
+      "8": {
+        "todas": 457,
+        "published": 39
+      },
+      "9": {
+        "todas": 770,
+        "published": 57
+      },
+      "10": {
+        "todas": 930,
+        "published": 67
+      },
+      "11": {
+        "todas": 1011,
+        "published": 71
+      },
+      "12": {
+        "todas": 1059,
+        "published": 71
+      },
+      "13": {
+        "todas": 977,
+        "published": 81
+      },
+      "14": {
+        "todas": 787,
+        "published": 59
+      },
+      "15": {
+        "todas": 816,
+        "published": 53
+      },
+      "16": {
+        "todas": 899,
+        "published": 69
+      },
+      "17": {
+        "todas": 855,
+        "published": 66
+      },
+      "18": {
+        "todas": 740,
+        "published": 49
+      },
+      "19": {
+        "todas": 728,
+        "published": 45
+      },
+      "20": {
+        "todas": 727,
+        "published": 54
+      },
+      "21": {
+        "todas": 606,
+        "published": 55
+      },
+      "22": {
+        "todas": 585,
+        "published": 53
+      },
+      "23": {
+        "todas": 596,
+        "published": 52
+      }
+    },
+    "2014.07": {
+      "0": {
+        "todas": 474,
+        "published": 43
+      },
+      "1": {
+        "todas": 319,
+        "published": 23
+      },
+      "2": {
+        "todas": 186,
+        "published": 8
+      },
+      "3": {
+        "todas": 118,
+        "published": 7
+      },
+      "4": {
+        "todas": 106,
+        "published": 7
+      },
+      "5": {
+        "todas": 79,
+        "published": 5
+      },
+      "6": {
+        "todas": 100,
+        "published": 4
+      },
+      "7": {
+        "todas": 347,
+        "published": 25
+      },
+      "8": {
+        "todas": 584,
+        "published": 57
+      },
+      "9": {
+        "todas": 746,
+        "published": 68
+      },
+      "10": {
+        "todas": 933,
+        "published": 61
+      },
+      "11": {
+        "todas": 959,
+        "published": 78
+      },
+      "12": {
+        "todas": 1058,
+        "published": 76
+      },
+      "13": {
+        "todas": 888,
+        "published": 64
+      },
+      "14": {
+        "todas": 792,
+        "published": 79
+      },
+      "15": {
+        "todas": 761,
+        "published": 58
+      },
+      "16": {
+        "todas": 785,
+        "published": 49
+      },
+      "17": {
+        "todas": 773,
+        "published": 54
+      },
+      "18": {
+        "todas": 788,
+        "published": 42
+      },
+      "19": {
+        "todas": 658,
+        "published": 40
+      },
+      "20": {
+        "todas": 697,
+        "published": 55
+      },
+      "21": {
+        "todas": 555,
+        "published": 55
+      },
+      "22": {
+        "todas": 510,
+        "published": 41
+      },
+      "23": {
+        "todas": 528,
+        "published": 38
+      }
+    },
+    "2014.08": {
+      "0": {
+        "todas": 463,
+        "published": 42
+      },
+      "1": {
+        "todas": 335,
+        "published": 33
+      },
+      "2": {
+        "todas": 200,
+        "published": 10
+      },
+      "3": {
+        "todas": 144,
+        "published": 6
+      },
+      "4": {
+        "todas": 102,
+        "published": 10
+      },
+      "5": {
+        "todas": 63,
+        "published": 4
+      },
+      "6": {
+        "todas": 86,
+        "published": 3
+      },
+      "7": {
+        "todas": 234,
+        "published": 24
+      },
+      "8": {
+        "todas": 468,
+        "published": 41
+      },
+      "9": {
+        "todas": 722,
+        "published": 51
+      },
+      "10": {
+        "todas": 917,
+        "published": 70
+      },
+      "11": {
+        "todas": 956,
+        "published": 68
+      },
+      "12": {
+        "todas": 996,
+        "published": 85
+      },
+      "13": {
+        "todas": 811,
+        "published": 52
+      },
+      "14": {
+        "todas": 734,
+        "published": 65
+      },
+      "15": {
+        "todas": 701,
+        "published": 41
+      },
+      "16": {
+        "todas": 692,
+        "published": 52
+      },
+      "17": {
+        "todas": 734,
+        "published": 81
+      },
+      "18": {
+        "todas": 667,
+        "published": 44
+      },
+      "19": {
+        "todas": 643,
+        "published": 44
+      },
+      "20": {
+        "todas": 570,
+        "published": 54
+      },
+      "21": {
+        "todas": 564,
+        "published": 56
+      },
+      "22": {
+        "todas": 495,
+        "published": 42
+      },
+      "23": {
+        "todas": 552,
+        "published": 53
+      }
+    },
+    "2014.09": {
+      "0": {
+        "todas": 446,
+        "published": 32
+      },
+      "1": {
+        "todas": 304,
+        "published": 23
+      },
+      "2": {
+        "todas": 169,
+        "published": 13
+      },
+      "3": {
+        "todas": 120,
+        "published": 3
+      },
+      "4": {
+        "todas": 106,
+        "published": 2
+      },
+      "5": {
+        "todas": 92,
+        "published": 5
+      },
+      "6": {
+        "todas": 93,
+        "published": 3
+      },
+      "7": {
+        "todas": 271,
+        "published": 35
+      },
+      "8": {
+        "todas": 482,
+        "published": 33
+      },
+      "9": {
+        "todas": 761,
+        "published": 58
+      },
+      "10": {
+        "todas": 904,
+        "published": 59
+      },
+      "11": {
+        "todas": 932,
+        "published": 73
+      },
+      "12": {
+        "todas": 946,
+        "published": 57
+      },
+      "13": {
+        "todas": 886,
+        "published": 82
+      },
+      "14": {
+        "todas": 699,
+        "published": 51
+      },
+      "15": {
+        "todas": 668,
+        "published": 51
+      },
+      "16": {
+        "todas": 809,
+        "published": 59
+      },
+      "17": {
+        "todas": 755,
+        "published": 58
+      },
+      "18": {
+        "todas": 709,
+        "published": 49
+      },
+      "19": {
+        "todas": 671,
+        "published": 49
+      },
+      "20": {
+        "todas": 611,
+        "published": 39
+      },
+      "21": {
+        "todas": 519,
+        "published": 51
+      },
+      "22": {
+        "todas": 509,
+        "published": 35
+      },
+      "23": {
+        "todas": 555,
+        "published": 39
+      }
+    },
+    "2014.1": {
+      "0": {
+        "todas": 494,
+        "published": 48
+      },
+      "1": {
+        "todas": 307,
+        "published": 23
+      },
+      "2": {
+        "todas": 162,
+        "published": 9
+      },
+      "3": {
+        "todas": 101,
+        "published": 9
+      },
+      "4": {
+        "todas": 116,
+        "published": 5
+      },
+      "5": {
+        "todas": 75,
+        "published": 6
+      },
+      "6": {
+        "todas": 128,
+        "published": 15
+      },
+      "7": {
+        "todas": 369,
+        "published": 49
+      },
+      "8": {
+        "todas": 537,
+        "published": 61
+      },
+      "9": {
+        "todas": 804,
+        "published": 57
+      },
+      "10": {
+        "todas": 1123,
+        "published": 75
+      },
+      "11": {
+        "todas": 1189,
+        "published": 80
+      },
+      "12": {
+        "todas": 1161,
+        "published": 73
+      },
+      "13": {
+        "todas": 1069,
+        "published": 86
+      },
+      "14": {
+        "todas": 952,
+        "published": 77
+      },
+      "15": {
+        "todas": 877,
+        "published": 87
+      },
+      "16": {
+        "todas": 961,
+        "published": 68
+      },
+      "17": {
+        "todas": 947,
+        "published": 68
+      },
+      "18": {
+        "todas": 844,
+        "published": 66
+      },
+      "19": {
+        "todas": 799,
+        "published": 61
+      },
+      "20": {
+        "todas": 754,
+        "published": 61
+      },
+      "21": {
+        "todas": 697,
+        "published": 67
+      },
+      "22": {
+        "todas": 661,
+        "published": 66
+      },
+      "23": {
+        "todas": 635,
+        "published": 81
+      }
+    },
+    "2014.11": {
+      "0": {
+        "todas": 420,
+        "published": 42
+      },
+      "1": {
+        "todas": 269,
+        "published": 34
+      },
+      "2": {
+        "todas": 179,
+        "published": 10
+      },
+      "3": {
+        "todas": 100,
+        "published": 3
+      },
+      "4": {
+        "todas": 86,
+        "published": 7
+      },
+      "5": {
+        "todas": 94,
+        "published": 5
+      },
+      "6": {
+        "todas": 115,
+        "published": 7
+      },
+      "7": {
+        "todas": 338,
+        "published": 39
+      },
+      "8": {
+        "todas": 463,
+        "published": 53
+      },
+      "9": {
+        "todas": 817,
+        "published": 58
+      },
+      "10": {
+        "todas": 1072,
+        "published": 57
+      },
+      "11": {
+        "todas": 1025,
+        "published": 80
+      },
+      "12": {
+        "todas": 1149,
+        "published": 66
+      },
+      "13": {
+        "todas": 987,
+        "published": 80
+      },
+      "14": {
+        "todas": 853,
+        "published": 70
+      },
+      "15": {
+        "todas": 735,
+        "published": 76
+      },
+      "16": {
+        "todas": 826,
+        "published": 64
+      },
+      "17": {
+        "todas": 784,
+        "published": 64
+      },
+      "18": {
+        "todas": 732,
+        "published": 61
+      },
+      "19": {
+        "todas": 746,
+        "published": 53
+      },
+      "20": {
+        "todas": 715,
+        "published": 64
+      },
+      "21": {
+        "todas": 622,
+        "published": 63
+      },
+      "22": {
+        "todas": 587,
+        "published": 77
+      },
+      "23": {
+        "todas": 550,
+        "published": 71
+      }
+    },
+    "2014.12": {
+      "0": {
+        "todas": 383,
+        "published": 45
+      },
+      "1": {
+        "todas": 236,
+        "published": 28
+      },
+      "2": {
+        "todas": 166,
+        "published": 12
+      },
+      "3": {
+        "todas": 88,
+        "published": 7
+      },
+      "4": {
+        "todas": 87,
+        "published": 10
+      },
+      "5": {
+        "todas": 68,
+        "published": 5
+      },
+      "6": {
+        "todas": 102,
+        "published": 11
+      },
+      "7": {
+        "todas": 258,
+        "published": 28
+      },
+      "8": {
+        "todas": 400,
+        "published": 44
+      },
+      "9": {
+        "todas": 667,
+        "published": 54
+      },
+      "10": {
+        "todas": 981,
+        "published": 78
+      },
+      "11": {
+        "todas": 1037,
+        "published": 59
+      },
+      "12": {
+        "todas": 1054,
+        "published": 84
+      },
+      "13": {
+        "todas": 955,
+        "published": 61
+      },
+      "14": {
+        "todas": 810,
+        "published": 56
+      },
+      "15": {
+        "todas": 762,
+        "published": 63
+      },
+      "16": {
+        "todas": 828,
+        "published": 46
+      },
+      "17": {
+        "todas": 785,
+        "published": 59
+      },
+      "18": {
+        "todas": 737,
+        "published": 53
+      },
+      "19": {
+        "todas": 669,
+        "published": 57
+      },
+      "20": {
+        "todas": 632,
+        "published": 59
+      },
+      "21": {
+        "todas": 608,
+        "published": 66
+      },
+      "22": {
+        "todas": 521,
+        "published": 73
+      },
+      "23": {
+        "todas": 473,
+        "published": 57
+      }
+    },
+    "2015.01": {
+      "0": {
+        "todas": 436,
+        "published": 45
+      },
+      "1": {
+        "todas": 294,
+        "published": 31
+      },
+      "2": {
+        "todas": 169,
+        "published": 15
+      },
+      "3": {
+        "todas": 111,
+        "published": 10
+      },
+      "4": {
+        "todas": 72,
+        "published": 5
+      },
+      "5": {
+        "todas": 68,
+        "published": 4
+      },
+      "6": {
+        "todas": 122,
+        "published": 11
+      },
+      "7": {
+        "todas": 297,
+        "published": 31
+      },
+      "8": {
+        "todas": 347,
+        "published": 41
+      },
+      "9": {
+        "todas": 701,
+        "published": 49
+      },
+      "10": {
+        "todas": 924,
+        "published": 61
+      },
+      "11": {
+        "todas": 1013,
+        "published": 77
+      },
+      "12": {
+        "todas": 1044,
+        "published": 96
+      },
+      "13": {
+        "todas": 1015,
+        "published": 90
+      },
+      "14": {
+        "todas": 861,
+        "published": 77
+      },
+      "15": {
+        "todas": 853,
+        "published": 75
+      },
+      "16": {
+        "todas": 879,
+        "published": 66
+      },
+      "17": {
+        "todas": 740,
+        "published": 70
+      },
+      "18": {
+        "todas": 783,
+        "published": 62
+      },
+      "19": {
+        "todas": 829,
+        "published": 59
+      },
+      "20": {
+        "todas": 754,
+        "published": 73
+      },
+      "21": {
+        "todas": 660,
+        "published": 60
+      },
+      "22": {
+        "todas": 590,
+        "published": 62
+      },
+      "23": {
+        "todas": 519,
+        "published": 46
+      }
+    },
+    "2015.02": {
+      "0": {
+        "todas": 413,
+        "published": 39
+      },
+      "1": {
+        "todas": 236,
+        "published": 24
+      },
+      "2": {
+        "todas": 148,
+        "published": 10
+      },
+      "3": {
+        "todas": 103,
+        "published": 5
+      },
+      "4": {
+        "todas": 77,
+        "published": 2
+      },
+      "5": {
+        "todas": 84,
+        "published": 8
+      },
+      "6": {
+        "todas": 125,
+        "published": 8
+      },
+      "7": {
+        "todas": 284,
+        "published": 24
+      },
+      "8": {
+        "todas": 400,
+        "published": 40
+      },
+      "9": {
+        "todas": 741,
+        "published": 69
+      },
+      "10": {
+        "todas": 840,
+        "published": 69
+      },
+      "11": {
+        "todas": 889,
+        "published": 68
+      },
+      "12": {
+        "todas": 1045,
+        "published": 88
+      },
+      "13": {
+        "todas": 970,
+        "published": 69
+      },
+      "14": {
+        "todas": 810,
+        "published": 57
+      },
+      "15": {
+        "todas": 779,
+        "published": 58
+      },
+      "16": {
+        "todas": 848,
+        "published": 60
+      },
+      "17": {
+        "todas": 806,
+        "published": 68
+      },
+      "18": {
+        "todas": 729,
+        "published": 54
+      },
+      "19": {
+        "todas": 706,
+        "published": 60
+      },
+      "20": {
+        "todas": 698,
+        "published": 70
+      },
+      "21": {
+        "todas": 579,
+        "published": 48
+      },
+      "22": {
+        "todas": 610,
+        "published": 42
+      },
+      "23": {
+        "todas": 556,
+        "published": 47
+      }
+    },
+    "2015.03": {
+      "0": {
+        "todas": 360,
+        "published": 38
+      },
+      "1": {
+        "todas": 248,
+        "published": 15
+      },
+      "2": {
+        "todas": 115,
+        "published": 13
+      },
+      "3": {
+        "todas": 104,
+        "published": 4
+      },
+      "4": {
+        "todas": 83,
+        "published": 7
+      },
+      "5": {
+        "todas": 91,
+        "published": 5
+      },
+      "6": {
+        "todas": 159,
+        "published": 9
+      },
+      "7": {
+        "todas": 299,
+        "published": 34
+      },
+      "8": {
+        "todas": 396,
+        "published": 43
+      },
+      "9": {
+        "todas": 700,
+        "published": 56
+      },
+      "10": {
+        "todas": 922,
+        "published": 54
+      },
+      "11": {
+        "todas": 1007,
+        "published": 84
+      },
+      "12": {
+        "todas": 1005,
+        "published": 66
+      },
+      "13": {
+        "todas": 995,
+        "published": 82
+      },
+      "14": {
+        "todas": 845,
+        "published": 60
+      },
+      "15": {
+        "todas": 768,
+        "published": 75
+      },
+      "16": {
+        "todas": 836,
+        "published": 57
+      },
+      "17": {
+        "todas": 793,
+        "published": 56
+      },
+      "18": {
+        "todas": 772,
+        "published": 54
+      },
+      "19": {
+        "todas": 727,
+        "published": 65
+      },
+      "20": {
+        "todas": 714,
+        "published": 57
+      },
+      "21": {
+        "todas": 675,
+        "published": 58
+      },
+      "22": {
+        "todas": 610,
+        "published": 60
+      },
+      "23": {
+        "todas": 554,
+        "published": 47
+      }
+    },
+    "2015.04": {
+      "0": {
+        "todas": 389,
+        "published": 42
+      },
+      "1": {
+        "todas": 229,
+        "published": 13
+      },
+      "2": {
+        "todas": 150,
+        "published": 14
+      },
+      "3": {
+        "todas": 120,
+        "published": 3
+      },
+      "4": {
+        "todas": 70,
+        "published": 4
+      },
+      "5": {
+        "todas": 80,
+        "published": 8
+      },
+      "6": {
+        "todas": 174,
+        "published": 17
+      },
+      "7": {
+        "todas": 274,
+        "published": 40
+      },
+      "8": {
+        "todas": 450,
+        "published": 34
+      },
+      "9": {
+        "todas": 705,
+        "published": 69
+      },
+      "10": {
+        "todas": 951,
+        "published": 68
+      },
+      "11": {
+        "todas": 928,
+        "published": 52
+      },
+      "12": {
+        "todas": 1007,
+        "published": 77
+      },
+      "13": {
+        "todas": 938,
+        "published": 81
+      },
+      "14": {
+        "todas": 788,
+        "published": 56
+      },
+      "15": {
+        "todas": 834,
+        "published": 71
+      },
+      "16": {
+        "todas": 872,
+        "published": 57
+      },
+      "17": {
+        "todas": 793,
+        "published": 63
+      },
+      "18": {
+        "todas": 723,
+        "published": 47
+      },
+      "19": {
+        "todas": 682,
+        "published": 46
+      },
+      "20": {
+        "todas": 646,
+        "published": 50
+      },
+      "21": {
+        "todas": 595,
+        "published": 52
+      },
+      "22": {
+        "todas": 539,
+        "published": 54
+      },
+      "23": {
+        "todas": 545,
+        "published": 57
+      }
+    },
+    "2015.05": {
+      "0": {
+        "todas": 391,
+        "published": 50
+      },
+      "1": {
+        "todas": 269,
+        "published": 28
+      },
+      "2": {
+        "todas": 132,
+        "published": 13
+      },
+      "3": {
+        "todas": 112,
+        "published": 10
+      },
+      "4": {
+        "todas": 88,
+        "published": 8
+      },
+      "5": {
+        "todas": 96,
+        "published": 7
+      },
+      "6": {
+        "todas": 111,
+        "published": 10
+      },
+      "7": {
+        "todas": 297,
+        "published": 39
+      },
+      "8": {
+        "todas": 482,
+        "published": 43
+      },
+      "9": {
+        "todas": 735,
+        "published": 55
+      },
+      "10": {
+        "todas": 958,
+        "published": 84
+      },
+      "11": {
+        "todas": 1013,
+        "published": 85
+      },
+      "12": {
+        "todas": 1004,
+        "published": 75
+      },
+      "13": {
+        "todas": 1015,
+        "published": 105
+      },
+      "14": {
+        "todas": 847,
+        "published": 67
+      },
+      "15": {
+        "todas": 841,
+        "published": 71
+      },
+      "16": {
+        "todas": 853,
+        "published": 65
+      },
+      "17": {
+        "todas": 812,
+        "published": 68
+      },
+      "18": {
+        "todas": 762,
+        "published": 49
+      },
+      "19": {
+        "todas": 679,
+        "published": 65
+      },
+      "20": {
+        "todas": 625,
+        "published": 54
+      },
+      "21": {
+        "todas": 611,
+        "published": 54
+      },
+      "22": {
+        "todas": 579,
+        "published": 70
+      },
+      "23": {
+        "todas": 564,
+        "published": 82
+      }
+    },
+    "2015.06": {
+      "0": {
+        "todas": 416,
+        "published": 38
       },
       "1": {
         "todas": 223,
         "published": 21
       },
       "2": {
-        "todas": 134,
+        "todas": 160,
+        "published": 14
+      },
+      "3": {
+        "todas": 107,
+        "published": 5
+      },
+      "4": {
+        "todas": 91,
+        "published": 4
+      },
+      "5": {
+        "todas": 84,
+        "published": 3
+      },
+      "6": {
+        "todas": 155,
+        "published": 5
+      },
+      "7": {
+        "todas": 260,
+        "published": 25
+      },
+      "8": {
+        "todas": 442,
+        "published": 37
+      },
+      "9": {
+        "todas": 748,
+        "published": 47
+      },
+      "10": {
+        "todas": 853,
+        "published": 75
+      },
+      "11": {
+        "todas": 859,
+        "published": 53
+      },
+      "12": {
+        "todas": 950,
+        "published": 60
+      },
+      "13": {
+        "todas": 937,
+        "published": 77
+      },
+      "14": {
+        "todas": 762,
+        "published": 54
+      },
+      "15": {
+        "todas": 709,
+        "published": 56
+      },
+      "16": {
+        "todas": 787,
+        "published": 68
+      },
+      "17": {
+        "todas": 728,
+        "published": 47
+      },
+      "18": {
+        "todas": 694,
+        "published": 51
+      },
+      "19": {
+        "todas": 600,
+        "published": 47
+      },
+      "20": {
+        "todas": 549,
+        "published": 48
+      },
+      "21": {
+        "todas": 544,
+        "published": 41
+      },
+      "22": {
+        "todas": 522,
+        "published": 48
+      },
+      "23": {
+        "todas": 455,
+        "published": 46
+      }
+    },
+    "2015.07": {
+      "0": {
+        "todas": 390,
+        "published": 34
+      },
+      "1": {
+        "todas": 244,
+        "published": 20
+      },
+      "2": {
+        "todas": 151,
+        "published": 10
+      },
+      "3": {
+        "todas": 102,
+        "published": 3
+      },
+      "4": {
+        "todas": 98,
+        "published": 5
+      },
+      "5": {
+        "todas": 85,
+        "published": 3
+      },
+      "6": {
+        "todas": 160,
+        "published": 11
+      },
+      "7": {
+        "todas": 270,
+        "published": 20
+      },
+      "8": {
+        "todas": 465,
+        "published": 30
+      },
+      "9": {
+        "todas": 675,
+        "published": 55
+      },
+      "10": {
+        "todas": 847,
+        "published": 63
+      },
+      "11": {
+        "todas": 832,
+        "published": 63
+      },
+      "12": {
+        "todas": 925,
+        "published": 72
+      },
+      "13": {
+        "todas": 777,
+        "published": 55
+      },
+      "14": {
+        "todas": 710,
+        "published": 51
+      },
+      "15": {
+        "todas": 626,
+        "published": 54
+      },
+      "16": {
+        "todas": 664,
+        "published": 51
+      },
+      "17": {
+        "todas": 655,
+        "published": 42
+      },
+      "18": {
+        "todas": 637,
+        "published": 47
+      },
+      "19": {
+        "todas": 575,
+        "published": 49
+      },
+      "20": {
+        "todas": 517,
+        "published": 41
+      },
+      "21": {
+        "todas": 485,
+        "published": 38
+      },
+      "22": {
+        "todas": 485,
+        "published": 51
+      },
+      "23": {
+        "todas": 518,
+        "published": 56
+      }
+    },
+    "2015.08": {
+      "0": {
+        "todas": 328,
+        "published": 41
+      },
+      "1": {
+        "todas": 234,
+        "published": 22
+      },
+      "2": {
+        "todas": 148,
+        "published": 16
+      },
+      "3": {
+        "todas": 101,
+        "published": 10
+      },
+      "4": {
+        "todas": 94,
+        "published": 6
+      },
+      "5": {
+        "todas": 104,
+        "published": 10
+      },
+      "6": {
+        "todas": 113,
+        "published": 7
+      },
+      "7": {
+        "todas": 203,
+        "published": 23
+      },
+      "8": {
+        "todas": 399,
+        "published": 30
+      },
+      "9": {
+        "todas": 640,
+        "published": 50
+      },
+      "10": {
+        "todas": 761,
+        "published": 52
+      },
+      "11": {
+        "todas": 721,
+        "published": 52
+      },
+      "12": {
+        "todas": 824,
+        "published": 57
+      },
+      "13": {
+        "todas": 802,
+        "published": 59
+      },
+      "14": {
+        "todas": 697,
+        "published": 38
+      },
+      "15": {
+        "todas": 588,
+        "published": 44
+      },
+      "16": {
+        "todas": 585,
+        "published": 36
+      },
+      "17": {
+        "todas": 623,
+        "published": 45
+      },
+      "18": {
+        "todas": 595,
+        "published": 57
+      },
+      "19": {
+        "todas": 486,
+        "published": 46
+      },
+      "20": {
+        "todas": 511,
+        "published": 46
+      },
+      "21": {
+        "todas": 468,
+        "published": 45
+      },
+      "22": {
+        "todas": 449,
+        "published": 37
+      },
+      "23": {
+        "todas": 387,
+        "published": 41
+      }
+    },
+    "2015.09": {
+      "0": {
+        "todas": 294,
+        "published": 29
+      },
+      "1": {
+        "todas": 165,
+        "published": 17
+      },
+      "2": {
+        "todas": 145,
+        "published": 4
+      },
+      "3": {
+        "todas": 81,
+        "published": 3
+      },
+      "4": {
+        "todas": 93,
+        "published": 8
+      },
+      "5": {
+        "todas": 81,
+        "published": 3
+      },
+      "6": {
+        "todas": 138,
+        "published": 6
+      },
+      "7": {
+        "todas": 238,
+        "published": 25
+      },
+      "8": {
+        "todas": 383,
+        "published": 34
+      },
+      "9": {
+        "todas": 514,
+        "published": 34
+      },
+      "10": {
+        "todas": 845,
+        "published": 68
+      },
+      "11": {
+        "todas": 777,
+        "published": 60
+      },
+      "12": {
+        "todas": 839,
+        "published": 71
+      },
+      "13": {
+        "todas": 829,
+        "published": 60
+      },
+      "14": {
+        "todas": 700,
+        "published": 47
+      },
+      "15": {
+        "todas": 670,
+        "published": 46
+      },
+      "16": {
+        "todas": 610,
+        "published": 39
+      },
+      "17": {
+        "todas": 607,
+        "published": 44
+      },
+      "18": {
+        "todas": 552,
+        "published": 42
+      },
+      "19": {
+        "todas": 537,
+        "published": 43
+      },
+      "20": {
+        "todas": 476,
+        "published": 41
+      },
+      "21": {
+        "todas": 503,
+        "published": 43
+      },
+      "22": {
+        "todas": 461,
+        "published": 48
+      },
+      "23": {
+        "todas": 398,
+        "published": 32
+      }
+    },
+    "2015.1": {
+      "0": {
+        "todas": 343,
+        "published": 37
+      },
+      "1": {
+        "todas": 178,
+        "published": 12
+      },
+      "2": {
+        "todas": 95,
         "published": 7
       },
       "3": {
-        "todas": 94,
+        "todas": 83,
+        "published": 2
+      },
+      "4": {
+        "todas": 92,
+        "published": 2
+      },
+      "5": {
+        "todas": 89,
+        "published": 10
+      },
+      "6": {
+        "todas": 175,
+        "published": 6
+      },
+      "7": {
+        "todas": 311,
+        "published": 40
+      },
+      "8": {
+        "todas": 447,
+        "published": 47
+      },
+      "9": {
+        "todas": 722,
+        "published": 55
+      },
+      "10": {
+        "todas": 910,
+        "published": 74
+      },
+      "11": {
+        "todas": 933,
+        "published": 61
+      },
+      "12": {
+        "todas": 863,
+        "published": 73
+      },
+      "13": {
+        "todas": 862,
+        "published": 64
+      },
+      "14": {
+        "todas": 799,
+        "published": 63
+      },
+      "15": {
+        "todas": 727,
+        "published": 50
+      },
+      "16": {
+        "todas": 805,
+        "published": 60
+      },
+      "17": {
+        "todas": 767,
+        "published": 48
+      },
+      "18": {
+        "todas": 654,
+        "published": 42
+      },
+      "19": {
+        "todas": 688,
+        "published": 70
+      },
+      "20": {
+        "todas": 583,
+        "published": 50
+      },
+      "21": {
+        "todas": 551,
+        "published": 54
+      },
+      "22": {
+        "todas": 487,
+        "published": 53
+      },
+      "23": {
+        "todas": 437,
+        "published": 51
+      }
+    },
+    "2015.11": {
+      "0": {
+        "todas": 324,
+        "published": 24
+      },
+      "1": {
+        "todas": 216,
+        "published": 15
+      },
+      "2": {
+        "todas": 102,
+        "published": 6
+      },
+      "3": {
+        "todas": 84,
+        "published": 3
+      },
+      "4": {
+        "todas": 79,
+        "published": 5
+      },
+      "5": {
+        "todas": 145,
+        "published": 6
+      },
+      "6": {
+        "todas": 182,
+        "published": 5
+      },
+      "7": {
+        "todas": 369,
+        "published": 38
+      },
+      "8": {
+        "todas": 556,
+        "published": 41
+      },
+      "9": {
+        "todas": 762,
+        "published": 46
+      },
+      "10": {
+        "todas": 903,
+        "published": 46
+      },
+      "11": {
+        "todas": 884,
+        "published": 62
+      },
+      "12": {
+        "todas": 892,
+        "published": 63
+      },
+      "13": {
+        "todas": 975,
+        "published": 67
+      },
+      "14": {
+        "todas": 741,
+        "published": 49
+      },
+      "15": {
+        "todas": 676,
+        "published": 31
+      },
+      "16": {
+        "todas": 858,
+        "published": 45
+      },
+      "17": {
+        "todas": 724,
+        "published": 55
+      },
+      "18": {
+        "todas": 682,
+        "published": 46
+      },
+      "19": {
+        "todas": 698,
+        "published": 49
+      },
+      "20": {
+        "todas": 686,
+        "published": 46
+      },
+      "21": {
+        "todas": 591,
+        "published": 47
+      },
+      "22": {
+        "todas": 548,
+        "published": 58
+      },
+      "23": {
+        "todas": 468,
+        "published": 46
+      }
+    },
+    "2015.12": {
+      "0": {
+        "todas": 374,
+        "published": 44
+      },
+      "1": {
+        "todas": 232,
+        "published": 27
+      },
+      "2": {
+        "todas": 128,
+        "published": 11
+      },
+      "3": {
+        "todas": 109,
+        "published": 8
+      },
+      "4": {
+        "todas": 74,
+        "published": 5
+      },
+      "5": {
+        "todas": 90,
+        "published": 4
+      },
+      "6": {
+        "todas": 143,
+        "published": 11
+      },
+      "7": {
+        "todas": 262,
+        "published": 18
+      },
+      "8": {
+        "todas": 468,
+        "published": 41
+      },
+      "9": {
+        "todas": 720,
+        "published": 63
+      },
+      "10": {
+        "todas": 827,
+        "published": 70
+      },
+      "11": {
+        "todas": 885,
+        "published": 63
+      },
+      "12": {
+        "todas": 866,
+        "published": 56
+      },
+      "13": {
+        "todas": 920,
+        "published": 71
+      },
+      "14": {
+        "todas": 780,
+        "published": 49
+      },
+      "15": {
+        "todas": 722,
+        "published": 53
+      },
+      "16": {
+        "todas": 795,
+        "published": 46
+      },
+      "17": {
+        "todas": 805,
+        "published": 59
+      },
+      "18": {
+        "todas": 758,
+        "published": 51
+      },
+      "19": {
+        "todas": 716,
+        "published": 63
+      },
+      "20": {
+        "todas": 679,
+        "published": 58
+      },
+      "21": {
+        "todas": 623,
+        "published": 50
+      },
+      "22": {
+        "todas": 543,
+        "published": 51
+      },
+      "23": {
+        "todas": 532,
+        "published": 71
+      }
+    },
+    "2016.01": {
+      "0": {
+        "todas": 347,
+        "published": 36
+      },
+      "1": {
+        "todas": 223,
+        "published": 18
+      },
+      "2": {
+        "todas": 135,
+        "published": 9
+      },
+      "3": {
+        "todas": 81,
         "published": 4
       },
       "4": {
-        "todas": 71,
+        "todas": 80,
         "published": 4
       },
       "5": {
@@ -16375,1563 +16375,1563 @@ var mensual = {
         "published": 3
       },
       "6": {
-        "todas": 157,
-        "published": 5
+        "todas": 167,
+        "published": 4
       },
       "7": {
-        "todas": 278,
-        "published": 20
+        "todas": 321,
+        "published": 25
       },
       "8": {
-        "todas": 448,
-        "published": 33
-      },
-      "9": {
-        "todas": 636,
-        "published": 51
-      },
-      "10": {
-        "todas": 795,
-        "published": 53
-      },
-      "11": {
-        "todas": 823,
-        "published": 62
-      },
-      "12": {
-        "todas": 844,
-        "published": 53
-      },
-      "13": {
-        "todas": 861,
-        "published": 63
-      },
-      "14": {
-        "todas": 735,
-        "published": 52
-      },
-      "15": {
-        "todas": 736,
-        "published": 41
-      },
-      "16": {
-        "todas": 801,
-        "published": 43
-      },
-      "17": {
-        "todas": 692,
-        "published": 54
-      },
-      "18": {
-        "todas": 697,
-        "published": 54
-      },
-      "19": {
-        "todas": 655,
-        "published": 46
-      },
-      "20": {
-        "todas": 689,
-        "published": 53
-      },
-      "21": {
-        "todas": 613,
-        "published": 46
-      },
-      "22": {
-        "todas": 575,
+        "todas": 482,
         "published": 36
       },
+      "9": {
+        "todas": 719,
+        "published": 55
+      },
+      "10": {
+        "todas": 848,
+        "published": 52
+      },
+      "11": {
+        "todas": 876,
+        "published": 57
+      },
+      "12": {
+        "todas": 908,
+        "published": 59
+      },
+      "13": {
+        "todas": 936,
+        "published": 58
+      },
+      "14": {
+        "todas": 791,
+        "published": 61
+      },
+      "15": {
+        "todas": 769,
+        "published": 40
+      },
+      "16": {
+        "todas": 833,
+        "published": 46
+      },
+      "17": {
+        "todas": 752,
+        "published": 56
+      },
+      "18": {
+        "todas": 717,
+        "published": 56
+      },
+      "19": {
+        "todas": 703,
+        "published": 39
+      },
+      "20": {
+        "todas": 731,
+        "published": 49
+      },
+      "21": {
+        "todas": 641,
+        "published": 49
+      },
+      "22": {
+        "todas": 631,
+        "published": 43
+      },
       "23": {
-        "todas": 494,
-        "published": 63
+        "todas": 513,
+        "published": 55
       }
     },
     "2016.02": {
       "0": {
-        "todas": 358,
-        "published": 33
+        "todas": 330,
+        "published": 29
       },
       "1": {
-        "todas": 194,
-        "published": 13
-      },
-      "2": {
-        "todas": 114,
+        "todas": 176,
         "published": 12
       },
+      "2": {
+        "todas": 103,
+        "published": 10
+      },
       "3": {
-        "todas": 84,
-        "published": 6
+        "todas": 86,
+        "published": 7
       },
       "4": {
-        "todas": 69,
-        "published": 1
+        "todas": 62,
+        "published": 2
       },
       "5": {
-        "todas": 95,
+        "todas": 92,
         "published": 3
       },
       "6": {
-        "todas": 157,
-        "published": 6
+        "todas": 167,
+        "published": 9
       },
       "7": {
-        "todas": 356,
-        "published": 25
+        "todas": 330,
+        "published": 17
       },
       "8": {
-        "todas": 580,
-        "published": 46
+        "todas": 604,
+        "published": 48
       },
       "9": {
-        "todas": 825,
-        "published": 62
+        "todas": 808,
+        "published": 54
       },
       "10": {
-        "todas": 896,
-        "published": 65
+        "todas": 891,
+        "published": 62
       },
       "11": {
-        "todas": 921,
-        "published": 64
+        "todas": 888,
+        "published": 69
       },
       "12": {
-        "todas": 979,
-        "published": 76
+        "todas": 932,
+        "published": 72
       },
       "13": {
-        "todas": 976,
-        "published": 77
+        "todas": 911,
+        "published": 76
       },
       "14": {
-        "todas": 855,
-        "published": 77
+        "todas": 825,
+        "published": 68
       },
       "15": {
-        "todas": 796,
-        "published": 47
+        "todas": 770,
+        "published": 51
       },
       "16": {
-        "todas": 773,
+        "todas": 775,
         "published": 50
       },
       "17": {
-        "todas": 777,
-        "published": 40
+        "todas": 733,
+        "published": 38
       },
       "18": {
-        "todas": 722,
-        "published": 58
+        "todas": 693,
+        "published": 52
       },
       "19": {
-        "todas": 703,
-        "published": 42
+        "todas": 680,
+        "published": 44
       },
       "20": {
-        "todas": 661,
-        "published": 47
+        "todas": 628,
+        "published": 44
       },
       "21": {
-        "todas": 610,
-        "published": 43
+        "todas": 576,
+        "published": 37
       },
       "22": {
-        "todas": 575,
+        "todas": 560,
         "published": 58
       },
       "23": {
-        "todas": 482,
-        "published": 44
+        "todas": 485,
+        "published": 42
       }
     },
     "2016.03": {
       "0": {
-        "todas": 296,
-        "published": 21
+        "todas": 308,
+        "published": 26
       },
       "1": {
-        "todas": 166,
-        "published": 23
+        "todas": 175,
+        "published": 22
       },
       "2": {
-        "todas": 115,
-        "published": 11
+        "todas": 118,
+        "published": 13
       },
       "3": {
-        "todas": 81,
-        "published": 4
+        "todas": 85,
+        "published": 3
       },
       "4": {
-        "todas": 70,
+        "todas": 86,
         "published": 7
       },
       "5": {
-        "todas": 93,
-        "published": 2
+        "todas": 91,
+        "published": 3
       },
       "6": {
-        "todas": 222,
-        "published": 20
+        "todas": 207,
+        "published": 19
       },
       "7": {
-        "todas": 287,
-        "published": 30
+        "todas": 264,
+        "published": 29
       },
       "8": {
-        "todas": 518,
+        "todas": 458,
         "published": 47
       },
       "9": {
-        "todas": 719,
-        "published": 53
+        "todas": 644,
+        "published": 56
       },
       "10": {
-        "todas": 805,
-        "published": 58
+        "todas": 732,
+        "published": 63
       },
       "11": {
-        "todas": 853,
-        "published": 78
+        "todas": 770,
+        "published": 68
       },
       "12": {
-        "todas": 840,
-        "published": 59
+        "todas": 820,
+        "published": 66
       },
       "13": {
-        "todas": 837,
-        "published": 59
+        "todas": 815,
+        "published": 63
       },
       "14": {
-        "todas": 748,
-        "published": 47
-      },
-      "15": {
-        "todas": 724,
-        "published": 52
-      },
-      "16": {
-        "todas": 831,
-        "published": 44
-      },
-      "17": {
-        "todas": 731,
-        "published": 44
-      },
-      "18": {
-        "todas": 697,
-        "published": 48
-      },
-      "19": {
-        "todas": 653,
-        "published": 52
-      },
-      "20": {
-        "todas": 593,
-        "published": 40
-      },
-      "21": {
-        "todas": 567,
-        "published": 51
-      },
-      "22": {
-        "todas": 497,
+        "todas": 682,
         "published": 50
       },
-      "23": {
-        "todas": 437,
+      "15": {
+        "todas": 675,
+        "published": 53
+      },
+      "16": {
+        "todas": 772,
+        "published": 38
+      },
+      "17": {
+        "todas": 710,
+        "published": 45
+      },
+      "18": {
+        "todas": 706,
+        "published": 52
+      },
+      "19": {
+        "todas": 617,
+        "published": 51
+      },
+      "20": {
+        "todas": 586,
+        "published": 42
+      },
+      "21": {
+        "todas": 566,
         "published": 47
+      },
+      "22": {
+        "todas": 479,
+        "published": 45
+      },
+      "23": {
+        "todas": 425,
+        "published": 51
       }
     },
     "2016.04": {
       "0": {
-        "todas": 312,
-        "published": 28
+        "todas": 295,
+        "published": 27
       },
       "1": {
-        "todas": 176,
+        "todas": 158,
         "published": 19
       },
       "2": {
-        "todas": 95,
-        "published": 10
+        "todas": 92,
+        "published": 8
       },
       "3": {
-        "todas": 75,
+        "todas": 69,
         "published": 3
       },
       "4": {
-        "todas": 95,
-        "published": 3
+        "todas": 81,
+        "published": 2
       },
       "5": {
-        "todas": 81,
+        "todas": 67,
         "published": 6
       },
       "6": {
-        "todas": 197,
-        "published": 15
+        "todas": 211,
+        "published": 19
       },
       "7": {
-        "todas": 247,
-        "published": 20
+        "todas": 281,
+        "published": 26
       },
       "8": {
-        "todas": 513,
-        "published": 43
+        "todas": 545,
+        "published": 46
       },
       "9": {
-        "todas": 637,
-        "published": 54
+        "todas": 701,
+        "published": 53
       },
       "10": {
-        "todas": 760,
-        "published": 57
+        "todas": 786,
+        "published": 55
       },
       "11": {
-        "todas": 774,
-        "published": 63
-      },
-      "12": {
-        "todas": 879,
+        "todas": 860,
         "published": 66
       },
+      "12": {
+        "todas": 918,
+        "published": 55
+      },
       "13": {
-        "todas": 811,
+        "todas": 851,
         "published": 55
       },
       "14": {
-        "todas": 636,
+        "todas": 693,
         "published": 63
       },
       "15": {
-        "todas": 663,
-        "published": 53
+        "todas": 668,
+        "published": 55
       },
       "16": {
-        "todas": 733,
-        "published": 40
+        "todas": 775,
+        "published": 44
       },
       "17": {
-        "todas": 709,
-        "published": 37
+        "todas": 725,
+        "published": 36
       },
       "18": {
-        "todas": 670,
-        "published": 45
+        "todas": 681,
+        "published": 41
       },
       "19": {
-        "todas": 580,
-        "published": 40
+        "todas": 604,
+        "published": 37
       },
       "20": {
-        "todas": 602,
-        "published": 53
+        "todas": 597,
+        "published": 51
       },
       "21": {
-        "todas": 484,
-        "published": 35
+        "todas": 474,
+        "published": 41
       },
       "22": {
-        "todas": 459,
-        "published": 60
+        "todas": 453,
+        "published": 64
       },
       "23": {
-        "todas": 438,
-        "published": 43
+        "todas": 417,
+        "published": 41
       }
     },
     "2016.05": {
       "0": {
-        "todas": 295,
-        "published": 31
+        "todas": 299,
+        "published": 33
       },
       "1": {
-        "todas": 173,
-        "published": 20
+        "todas": 187,
+        "published": 19
       },
       "2": {
-        "todas": 98,
+        "todas": 111,
         "published": 7
       },
       "3": {
-        "todas": 74,
-        "published": 3
+        "todas": 73,
+        "published": 4
       },
       "4": {
-        "todas": 67,
-        "published": 3
+        "todas": 60,
+        "published": 6
       },
       "5": {
-        "todas": 61,
-        "published": 3
+        "todas": 70,
+        "published": 2
       },
       "6": {
-        "todas": 264,
-        "published": 29
+        "todas": 272,
+        "published": 25
       },
       "7": {
-        "todas": 350,
-        "published": 27
+        "todas": 340,
+        "published": 26
       },
       "8": {
-        "todas": 545,
-        "published": 50
+        "todas": 555,
+        "published": 46
       },
       "9": {
-        "todas": 710,
-        "published": 49
+        "todas": 723,
+        "published": 55
       },
       "10": {
-        "todas": 725,
-        "published": 55
+        "todas": 734,
+        "published": 53
       },
       "11": {
-        "todas": 817,
-        "published": 67
+        "todas": 867,
+        "published": 68
       },
       "12": {
-        "todas": 846,
-        "published": 55
+        "todas": 832,
+        "published": 62
       },
       "13": {
         "todas": 814,
-        "published": 65
+        "published": 64
       },
       "14": {
-        "todas": 716,
-        "published": 53
+        "todas": 698,
+        "published": 50
       },
       "15": {
-        "todas": 641,
-        "published": 44
-      },
-      "16": {
-        "todas": 747,
-        "published": 34
-      },
-      "17": {
-        "todas": 759,
-        "published": 44
-      },
-      "18": {
-        "todas": 713,
+        "todas": 680,
         "published": 46
       },
+      "16": {
+        "todas": 753,
+        "published": 31
+      },
+      "17": {
+        "todas": 774,
+        "published": 46
+      },
+      "18": {
+        "todas": 704,
+        "published": 45
+      },
       "19": {
-        "todas": 650,
-        "published": 37
+        "todas": 658,
+        "published": 40
       },
       "20": {
-        "todas": 558,
-        "published": 41
+        "todas": 548,
+        "published": 38
       },
       "21": {
-        "todas": 512,
-        "published": 57
+        "todas": 531,
+        "published": 58
       },
       "22": {
-        "todas": 431,
-        "published": 55
+        "todas": 424,
+        "published": 48
       },
       "23": {
         "todas": 395,
-        "published": 38
+        "published": 42
       }
     },
     "2016.06": {
       "0": {
-        "todas": 308,
+        "todas": 337,
         "published": 36
       },
       "1": {
-        "todas": 169,
-        "published": 11
+        "todas": 172,
+        "published": 10
       },
       "2": {
-        "todas": 119,
+        "todas": 122,
         "published": 9
       },
       "3": {
-        "todas": 66,
-        "published": 5
+        "todas": 79,
+        "published": 10
       },
       "4": {
-        "todas": 89,
-        "published": 8
+        "todas": 98,
+        "published": 7
       },
       "5": {
-        "todas": 95,
-        "published": 3
+        "todas": 99,
+        "published": 7
       },
       "6": {
-        "todas": 263,
-        "published": 19
+        "todas": 242,
+        "published": 21
       },
       "7": {
-        "todas": 272,
-        "published": 23
+        "todas": 267,
+        "published": 24
       },
       "8": {
-        "todas": 506,
-        "published": 42
+        "todas": 472,
+        "published": 41
       },
       "9": {
-        "todas": 715,
-        "published": 57
+        "todas": 636,
+        "published": 52
       },
       "10": {
-        "todas": 798,
-        "published": 56
-      },
-      "11": {
-        "todas": 840,
-        "published": 45
-      },
-      "12": {
-        "todas": 807,
-        "published": 63
-      },
-      "13": {
-        "todas": 793,
-        "published": 51
-      },
-      "14": {
-        "todas": 672,
-        "published": 51
-      },
-      "15": {
-        "todas": 678,
-        "published": 60
-      },
-      "16": {
-        "todas": 771,
+        "todas": 795,
         "published": 55
       },
+      "11": {
+        "todas": 773,
+        "published": 48
+      },
+      "12": {
+        "todas": 802,
+        "published": 67
+      },
+      "13": {
+        "todas": 789,
+        "published": 60
+      },
+      "14": {
+        "todas": 655,
+        "published": 57
+      },
+      "15": {
+        "todas": 651,
+        "published": 57
+      },
+      "16": {
+        "todas": 732,
+        "published": 62
+      },
       "17": {
-        "todas": 724,
-        "published": 51
+        "todas": 704,
+        "published": 48
       },
       "18": {
-        "todas": 671,
-        "published": 43
+        "todas": 680,
+        "published": 48
       },
       "19": {
-        "todas": 584,
+        "todas": 577,
         "published": 38
       },
       "20": {
-        "todas": 539,
-        "published": 37
+        "todas": 522,
+        "published": 40
       },
       "21": {
-        "todas": 459,
-        "published": 41
+        "todas": 441,
+        "published": 37
       },
       "22": {
-        "todas": 407,
-        "published": 39
+        "todas": 397,
+        "published": 38
       },
       "23": {
-        "todas": 419,
-        "published": 39
+        "todas": 433,
+        "published": 40
       }
     },
     "2016.07": {
       "0": {
-        "todas": 332,
-        "published": 28
+        "todas": 308,
+        "published": 26
       },
       "1": {
-        "todas": 200,
-        "published": 11
-      },
-      "2": {
-        "todas": 112,
-        "published": 5
-      },
-      "3": {
-        "todas": 93,
-        "published": 9
-      },
-      "4": {
-        "todas": 63,
-        "published": 4
-      },
-      "5": {
-        "todas": 94,
-        "published": 10
-      },
-      "6": {
-        "todas": 159,
-        "published": 18
-      },
-      "7": {
-        "todas": 278,
-        "published": 29
-      },
-      "8": {
-        "todas": 352,
-        "published": 39
-      },
-      "9": {
-        "todas": 540,
-        "published": 35
-      },
-      "10": {
-        "todas": 695,
-        "published": 46
-      },
-      "11": {
-        "todas": 718,
-        "published": 51
-      },
-      "12": {
-        "todas": 778,
-        "published": 71
-      },
-      "13": {
-        "todas": 747,
-        "published": 65
-      },
-      "14": {
-        "todas": 648,
-        "published": 47
-      },
-      "15": {
-        "todas": 547,
-        "published": 41
-      },
-      "16": {
-        "todas": 687,
-        "published": 42
-      },
-      "17": {
-        "todas": 671,
-        "published": 56
-      },
-      "18": {
-        "todas": 619,
-        "published": 53
-      },
-      "19": {
-        "todas": 566,
-        "published": 36
-      },
-      "20": {
-        "todas": 497,
-        "published": 53
-      },
-      "21": {
-        "todas": 429,
-        "published": 37
-      },
-      "22": {
-        "todas": 370,
-        "published": 42
-      },
-      "23": {
-        "todas": 357,
-        "published": 43
-      }
-    },
-    "2016.08": {
-      "0": {
-        "todas": 281,
-        "published": 37
-      },
-      "1": {
-        "todas": 189,
-        "published": 14
-      },
-      "2": {
-        "todas": 99,
-        "published": 10
-      },
-      "3": {
-        "todas": 102,
-        "published": 5
-      },
-      "4": {
-        "todas": 68,
-        "published": 6
-      },
-      "5": {
-        "todas": 74,
-        "published": 2
-      },
-      "6": {
-        "todas": 123,
-        "published": 2
-      },
-      "7": {
-        "todas": 240,
-        "published": 19
-      },
-      "8": {
-        "todas": 391,
-        "published": 40
-      },
-      "9": {
-        "todas": 489,
-        "published": 34
-      },
-      "10": {
-        "todas": 583,
-        "published": 42
-      },
-      "11": {
-        "todas": 733,
-        "published": 55
-      },
-      "12": {
-        "todas": 681,
-        "published": 48
-      },
-      "13": {
-        "todas": 627,
-        "published": 52
-      },
-      "14": {
-        "todas": 558,
-        "published": 42
-      },
-      "15": {
-        "todas": 512,
-        "published": 46
-      },
-      "16": {
-        "todas": 548,
-        "published": 36
-      },
-      "17": {
-        "todas": 577,
-        "published": 42
-      },
-      "18": {
-        "todas": 500,
-        "published": 39
-      },
-      "19": {
-        "todas": 514,
-        "published": 45
-      },
-      "20": {
-        "todas": 442,
-        "published": 38
-      },
-      "21": {
-        "todas": 391,
-        "published": 42
-      },
-      "22": {
-        "todas": 354,
-        "published": 36
-      },
-      "23": {
-        "todas": 368,
-        "published": 45
-      }
-    },
-    "2016.09": {
-      "0": {
-        "todas": 239,
-        "published": 18
-      },
-      "1": {
-        "todas": 169,
-        "published": 16
-      },
-      "2": {
-        "todas": 109,
-        "published": 9
-      },
-      "3": {
-        "todas": 72,
-        "published": 4
-      },
-      "4": {
-        "todas": 56,
-        "published": 5
-      },
-      "5": {
-        "todas": 51,
-        "published": 3
-      },
-      "6": {
-        "todas": 147,
-        "published": 20
-      },
-      "7": {
-        "todas": 224,
-        "published": 19
-      },
-      "8": {
-        "todas": 443,
-        "published": 42
-      },
-      "9": {
-        "todas": 633,
-        "published": 36
-      },
-      "10": {
-        "todas": 677,
-        "published": 44
-      },
-      "11": {
-        "todas": 719,
-        "published": 44
-      },
-      "12": {
-        "todas": 708,
-        "published": 68
-      },
-      "13": {
-        "todas": 686,
-        "published": 63
-      },
-      "14": {
-        "todas": 578,
-        "published": 46
-      },
-      "15": {
-        "todas": 554,
-        "published": 30
-      },
-      "16": {
-        "todas": 604,
-        "published": 30
-      },
-      "17": {
-        "todas": 696,
-        "published": 49
-      },
-      "18": {
-        "todas": 584,
-        "published": 40
-      },
-      "19": {
-        "todas": 561,
-        "published": 38
-      },
-      "20": {
-        "todas": 411,
-        "published": 35
-      },
-      "21": {
-        "todas": 437,
-        "published": 34
-      },
-      "22": {
-        "todas": 399,
-        "published": 48
-      },
-      "23": {
-        "todas": 392,
-        "published": 41
-      }
-    },
-    "2016.1": {
-      "0": {
-        "todas": 254,
-        "published": 19
-      },
-      "1": {
-        "todas": 143,
-        "published": 14
+        "todas": 207,
+        "published": 13
       },
       "2": {
         "todas": 103,
         "published": 7
       },
       "3": {
-        "todas": 72,
+        "todas": 94,
         "published": 6
       },
       "4": {
-        "todas": 60,
+        "todas": 59,
         "published": 4
       },
       "5": {
-        "todas": 56,
-        "published": 2
+        "todas": 95,
+        "published": 6
       },
       "6": {
-        "todas": 175,
-        "published": 22
+        "todas": 148,
+        "published": 15
       },
       "7": {
-        "todas": 199,
-        "published": 20
-      },
-      "8": {
-        "todas": 361,
-        "published": 28
-      },
-      "9": {
-        "todas": 608,
-        "published": 40
-      },
-      "10": {
-        "todas": 644,
-        "published": 51
-      },
-      "11": {
-        "todas": 679,
-        "published": 50
-      },
-      "12": {
-        "todas": 731,
-        "published": 47
-      },
-      "13": {
-        "todas": 628,
-        "published": 60
-      },
-      "14": {
-        "todas": 535,
-        "published": 38
-      },
-      "15": {
-        "todas": 517,
-        "published": 37
-      },
-      "16": {
-        "todas": 582,
-        "published": 28
-      },
-      "17": {
-        "todas": 611,
-        "published": 37
-      },
-      "18": {
-        "todas": 534,
+        "todas": 286,
         "published": 26
       },
-      "19": {
-        "todas": 470,
+      "8": {
+        "todas": 341,
+        "published": 38
+      },
+      "9": {
+        "todas": 553,
         "published": 32
       },
-      "20": {
-        "todas": 479,
+      "10": {
+        "todas": 657,
+        "published": 45
+      },
+      "11": {
+        "todas": 691,
+        "published": 47
+      },
+      "12": {
+        "todas": 744,
+        "published": 59
+      },
+      "13": {
+        "todas": 693,
+        "published": 54
+      },
+      "14": {
+        "todas": 630,
+        "published": 42
+      },
+      "15": {
+        "todas": 511,
+        "published": 38
+      },
+      "16": {
+        "todas": 656,
+        "published": 32
+      },
+      "17": {
+        "todas": 646,
+        "published": 58
+      },
+      "18": {
+        "todas": 584,
+        "published": 51
+      },
+      "19": {
+        "todas": 535,
         "published": 36
       },
+      "20": {
+        "todas": 501,
+        "published": 54
+      },
       "21": {
-        "todas": 418,
+        "todas": 410,
         "published": 38
       },
       "22": {
-        "todas": 370,
-        "published": 30
+        "todas": 355,
+        "published": 46
       },
       "23": {
-        "todas": 378,
+        "todas": 346,
+        "published": 41
+      }
+    },
+    "2016.08": {
+      "0": {
+        "todas": 262,
+        "published": 37
+      },
+      "1": {
+        "todas": 182,
+        "published": 13
+      },
+      "2": {
+        "todas": 93,
+        "published": 8
+      },
+      "3": {
+        "todas": 84,
+        "published": 2
+      },
+      "4": {
+        "todas": 69,
+        "published": 7
+      },
+      "5": {
+        "todas": 64,
+        "published": 3
+      },
+      "6": {
+        "todas": 123,
+        "published": 6
+      },
+      "7": {
+        "todas": 212,
+        "published": 19
+      },
+      "8": {
+        "todas": 405,
+        "published": 41
+      },
+      "9": {
+        "todas": 495,
+        "published": 39
+      },
+      "10": {
+        "todas": 588,
+        "published": 40
+      },
+      "11": {
+        "todas": 726,
+        "published": 52
+      },
+      "12": {
+        "todas": 705,
+        "published": 57
+      },
+      "13": {
+        "todas": 634,
+        "published": 50
+      },
+      "14": {
+        "todas": 593,
+        "published": 43
+      },
+      "15": {
+        "todas": 535,
+        "published": 41
+      },
+      "16": {
+        "todas": 576,
+        "published": 39
+      },
+      "17": {
+        "todas": 591,
+        "published": 42
+      },
+      "18": {
+        "todas": 512,
+        "published": 40
+      },
+      "19": {
+        "todas": 532,
+        "published": 44
+      },
+      "20": {
+        "todas": 426,
+        "published": 38
+      },
+      "21": {
+        "todas": 385,
+        "published": 40
+      },
+      "22": {
+        "todas": 372,
+        "published": 38
+      },
+      "23": {
+        "todas": 366,
+        "published": 47
+      }
+    },
+    "2016.09": {
+      "0": {
+        "todas": 243,
+        "published": 16
+      },
+      "1": {
+        "todas": 166,
+        "published": 19
+      },
+      "2": {
+        "todas": 117,
+        "published": 12
+      },
+      "3": {
+        "todas": 68,
+        "published": 5
+      },
+      "4": {
+        "todas": 55,
+        "published": 2
+      },
+      "5": {
+        "todas": 58,
+        "published": 2
+      },
+      "6": {
+        "todas": 164,
+        "published": 20
+      },
+      "7": {
+        "todas": 232,
+        "published": 19
+      },
+      "8": {
+        "todas": 431,
+        "published": 41
+      },
+      "9": {
+        "todas": 650,
+        "published": 31
+      },
+      "10": {
+        "todas": 674,
+        "published": 56
+      },
+      "11": {
+        "todas": 730,
+        "published": 47
+      },
+      "12": {
+        "todas": 705,
+        "published": 61
+      },
+      "13": {
+        "todas": 679,
+        "published": 68
+      },
+      "14": {
+        "todas": 552,
+        "published": 42
+      },
+      "15": {
+        "todas": 542,
+        "published": 31
+      },
+      "16": {
+        "todas": 598,
+        "published": 29
+      },
+      "17": {
+        "todas": 694,
+        "published": 47
+      },
+      "18": {
+        "todas": 562,
+        "published": 35
+      },
+      "19": {
+        "todas": 526,
+        "published": 36
+      },
+      "20": {
+        "todas": 420,
+        "published": 32
+      },
+      "21": {
+        "todas": 445,
+        "published": 36
+      },
+      "22": {
+        "todas": 395,
         "published": 48
+      },
+      "23": {
+        "todas": 387,
+        "published": 35
+      }
+    },
+    "2016.1": {
+      "0": {
+        "todas": 245,
+        "published": 19
+      },
+      "1": {
+        "todas": 130,
+        "published": 10
+      },
+      "2": {
+        "todas": 95,
+        "published": 4
+      },
+      "3": {
+        "todas": 74,
+        "published": 6
+      },
+      "4": {
+        "todas": 61,
+        "published": 4
+      },
+      "5": {
+        "todas": 50,
+        "published": 3
+      },
+      "6": {
+        "todas": 166,
+        "published": 17
+      },
+      "7": {
+        "todas": 186,
+        "published": 19
+      },
+      "8": {
+        "todas": 365,
+        "published": 31
+      },
+      "9": {
+        "todas": 610,
+        "published": 41
+      },
+      "10": {
+        "todas": 656,
+        "published": 41
+      },
+      "11": {
+        "todas": 651,
+        "published": 39
+      },
+      "12": {
+        "todas": 697,
+        "published": 52
+      },
+      "13": {
+        "todas": 620,
+        "published": 58
+      },
+      "14": {
+        "todas": 539,
+        "published": 38
+      },
+      "15": {
+        "todas": 514,
+        "published": 42
+      },
+      "16": {
+        "todas": 576,
+        "published": 28
+      },
+      "17": {
+        "todas": 587,
+        "published": 38
+      },
+      "18": {
+        "todas": 504,
+        "published": 26
+      },
+      "19": {
+        "todas": 485,
+        "published": 32
+      },
+      "20": {
+        "todas": 483,
+        "published": 35
+      },
+      "21": {
+        "todas": 410,
+        "published": 39
+      },
+      "22": {
+        "todas": 352,
+        "published": 22
+      },
+      "23": {
+        "todas": 384,
+        "published": 49
       }
     },
     "2016.11": {
       "0": {
-        "todas": 224,
-        "published": 14
+        "todas": 221,
+        "published": 12
       },
       "1": {
-        "todas": 145,
-        "published": 9
+        "todas": 153,
+        "published": 11
       },
       "2": {
-        "todas": 96,
-        "published": 8
+        "todas": 94,
+        "published": 7
       },
       "3": {
-        "todas": 66,
+        "todas": 67,
         "published": 5
       },
       "4": {
-        "todas": 44,
+        "todas": 43,
         "published": 1
       },
       "5": {
-        "todas": 54,
+        "todas": 64,
         "published": 4
       },
       "6": {
-        "todas": 104,
-        "published": 11
+        "todas": 91,
+        "published": 14
       },
       "7": {
-        "todas": 168,
-        "published": 13
+        "todas": 181,
+        "published": 15
       },
       "8": {
-        "todas": 365,
-        "published": 30
+        "todas": 363,
+        "published": 23
       },
       "9": {
-        "todas": 560,
-        "published": 31
+        "todas": 543,
+        "published": 34
       },
       "10": {
-        "todas": 685,
+        "todas": 709,
         "published": 43
       },
       "11": {
-        "todas": 625,
-        "published": 31
+        "todas": 652,
+        "published": 38
       },
       "12": {
-        "todas": 658,
-        "published": 52
+        "todas": 709,
+        "published": 43
       },
       "13": {
-        "todas": 593,
-        "published": 35
+        "todas": 626,
+        "published": 28
       },
       "14": {
-        "todas": 545,
-        "published": 40
+        "todas": 535,
+        "published": 39
       },
       "15": {
-        "todas": 473,
-        "published": 32
-      },
-      "16": {
-        "todas": 581,
+        "todas": 489,
         "published": 26
       },
+      "16": {
+        "todas": 603,
+        "published": 23
+      },
       "17": {
-        "todas": 575,
+        "todas": 576,
         "published": 32
       },
       "18": {
-        "todas": 436,
-        "published": 29
+        "todas": 490,
+        "published": 30
       },
       "19": {
-        "todas": 549,
-        "published": 44
+        "todas": 534,
+        "published": 42
       },
       "20": {
-        "todas": 493,
-        "published": 34
+        "todas": 507,
+        "published": 33
       },
       "21": {
-        "todas": 393,
-        "published": 39
+        "todas": 386,
+        "published": 34
       },
       "22": {
-        "todas": 354,
+        "todas": 374,
         "published": 26
       },
       "23": {
-        "todas": 313,
-        "published": 25
+        "todas": 294,
+        "published": 22
       }
     },
     "2016.12": {
       "0": {
-        "todas": 233,
-        "published": 30
+        "todas": 241,
+        "published": 33
       },
       "1": {
-        "todas": 158,
-        "published": 17
+        "todas": 155,
+        "published": 15
       },
       "2": {
-        "todas": 71,
-        "published": 2
+        "todas": 82,
+        "published": 4
       },
       "3": {
-        "todas": 64,
-        "published": 4
+        "todas": 71,
+        "published": 6
       },
       "4": {
-        "todas": 56,
-        "published": 2
+        "todas": 51,
+        "published": 3
       },
       "5": {
-        "todas": 63,
-        "published": 4
+        "todas": 46,
+        "published": 3
       },
       "6": {
-        "todas": 97,
-        "published": 7
+        "todas": 92,
+        "published": 6
       },
       "7": {
-        "todas": 187,
-        "published": 13
+        "todas": 165,
+        "published": 12
       },
       "8": {
-        "todas": 370,
-        "published": 32
+        "todas": 341,
+        "published": 28
       },
       "9": {
-        "todas": 548,
-        "published": 46
+        "todas": 538,
+        "published": 42
       },
       "10": {
-        "todas": 681,
-        "published": 47
+        "todas": 624,
+        "published": 42
       },
       "11": {
-        "todas": 687,
-        "published": 47
+        "todas": 665,
+        "published": 42
       },
       "12": {
-        "todas": 737,
-        "published": 45
+        "todas": 703,
+        "published": 44
       },
       "13": {
-        "todas": 663,
-        "published": 41
+        "todas": 639,
+        "published": 42
       },
       "14": {
-        "todas": 523,
+        "todas": 499,
         "published": 33
       },
       "15": {
-        "todas": 535,
-        "published": 31
+        "todas": 484,
+        "published": 35
       },
       "16": {
-        "todas": 555,
-        "published": 26
+        "todas": 467,
+        "published": 24
       },
       "17": {
-        "todas": 518,
-        "published": 49
+        "todas": 496,
+        "published": 47
       },
       "18": {
-        "todas": 511,
-        "published": 34
+        "todas": 462,
+        "published": 35
       },
       "19": {
-        "todas": 463,
+        "todas": 465,
         "published": 38
       },
       "20": {
-        "todas": 474,
-        "published": 35
+        "todas": 439,
+        "published": 34
       },
       "21": {
-        "todas": 394,
-        "published": 33
+        "todas": 361,
+        "published": 35
       },
       "22": {
-        "todas": 341,
-        "published": 38
+        "todas": 304,
+        "published": 36
       },
       "23": {
-        "todas": 338,
+        "todas": 332,
         "published": 37
       }
     },
     "2017.01": {
       "0": {
-        "todas": 229,
+        "todas": 239,
         "published": 22
       },
       "1": {
-        "todas": 127,
-        "published": 11
+        "todas": 112,
+        "published": 10
       },
       "2": {
-        "todas": 98,
-        "published": 4
+        "todas": 96,
+        "published": 5
       },
       "3": {
-        "todas": 57,
+        "todas": 58,
         "published": 4
       },
       "4": {
-        "todas": 49,
-        "published": 3
+        "todas": 51,
+        "published": 2
       },
       "5": {
-        "todas": 35,
+        "todas": 43,
         "published": 3
       },
       "6": {
-        "todas": 77,
+        "todas": 85,
         "published": 8
       },
       "7": {
-        "todas": 150,
-        "published": 14
+        "todas": 178,
+        "published": 12
       },
       "8": {
-        "todas": 402,
-        "published": 31
+        "todas": 466,
+        "published": 35
       },
       "9": {
-        "todas": 541,
-        "published": 41
+        "todas": 584,
+        "published": 46
       },
       "10": {
-        "todas": 658,
-        "published": 49
+        "todas": 709,
+        "published": 52
       },
       "11": {
-        "todas": 684,
-        "published": 45
+        "todas": 724,
+        "published": 52
       },
       "12": {
-        "todas": 663,
-        "published": 43
+        "todas": 701,
+        "published": 46
       },
       "13": {
-        "todas": 624,
-        "published": 39
+        "todas": 656,
+        "published": 49
       },
       "14": {
-        "todas": 541,
-        "published": 28
+        "todas": 582,
+        "published": 31
       },
       "15": {
-        "todas": 500,
-        "published": 34
+        "todas": 540,
+        "published": 29
       },
       "16": {
-        "todas": 509,
-        "published": 31
+        "todas": 573,
+        "published": 35
       },
       "17": {
-        "todas": 487,
-        "published": 31
+        "todas": 530,
+        "published": 30
       },
       "18": {
-        "todas": 524,
-        "published": 39
+        "todas": 578,
+        "published": 43
       },
       "19": {
-        "todas": 484,
-        "published": 37
+        "todas": 521,
+        "published": 41
       },
       "20": {
-        "todas": 472,
-        "published": 32
+        "todas": 504,
+        "published": 38
       },
       "21": {
-        "todas": 389,
-        "published": 36
+        "todas": 447,
+        "published": 40
       },
       "22": {
-        "todas": 339,
-        "published": 31
+        "todas": 370,
+        "published": 37
       },
       "23": {
-        "todas": 326,
-        "published": 32
+        "todas": 350,
+        "published": 30
       }
     },
     "2017.02": {
       "0": {
-        "todas": 227,
-        "published": 21
+        "todas": 210,
+        "published": 18
       },
       "1": {
-        "todas": 115,
-        "published": 13
+        "todas": 125,
+        "published": 15
       },
       "2": {
-        "todas": 78,
-        "published": 8
+        "todas": 62,
+        "published": 6
       },
       "3": {
-        "todas": 54,
-        "published": 5
+        "todas": 39,
+        "published": 3
       },
       "4": {
-        "todas": 37,
-        "published": 1
-      },
-      "5": {
         "todas": 44,
         "published": 2
       },
+      "5": {
+        "todas": 46,
+        "published": 2
+      },
       "6": {
-        "todas": 111,
-        "published": 16
+        "todas": 115,
+        "published": 15
       },
       "7": {
-        "todas": 195,
-        "published": 14
+        "todas": 190,
+        "published": 17
       },
       "8": {
-        "todas": 467,
-        "published": 29
+        "todas": 480,
+        "published": 44
       },
       "9": {
-        "todas": 574,
-        "published": 54
+        "todas": 548,
+        "published": 53
       },
       "10": {
-        "todas": 691,
+        "todas": 672,
         "published": 44
       },
       "11": {
-        "todas": 680,
-        "published": 45
+        "todas": 670,
+        "published": 43
       },
       "12": {
-        "todas": 679,
-        "published": 49
+        "todas": 632,
+        "published": 47
       },
       "13": {
-        "todas": 634,
-        "published": 49
+        "todas": 596,
+        "published": 46
       },
       "14": {
-        "todas": 549,
-        "published": 39
+        "todas": 517,
+        "published": 35
       },
       "15": {
-        "todas": 439,
-        "published": 19
+        "todas": 451,
+        "published": 25
       },
       "16": {
-        "todas": 489,
-        "published": 26
+        "todas": 470,
+        "published": 25
       },
       "17": {
-        "todas": 545,
-        "published": 34
+        "todas": 518,
+        "published": 31
       },
       "18": {
-        "todas": 519,
-        "published": 36
+        "todas": 480,
+        "published": 32
       },
       "19": {
-        "todas": 484,
-        "published": 42
+        "todas": 444,
+        "published": 40
       },
       "20": {
-        "todas": 435,
-        "published": 34
+        "todas": 406,
+        "published": 32
       },
       "21": {
-        "todas": 389,
-        "published": 36
+        "todas": 384,
+        "published": 40
       },
       "22": {
-        "todas": 319,
-        "published": 34
+        "todas": 332,
+        "published": 37
       },
       "23": {
-        "todas": 350,
-        "published": 33
+        "todas": 329,
+        "published": 37
       }
     },
     "2017.03": {
       "0": {
-        "todas": 218,
+        "todas": 235,
         "published": 14
       },
       "1": {
-        "todas": 126,
-        "published": 14
+        "todas": 124,
+        "published": 15
       },
       "2": {
-        "todas": 67,
-        "published": 3
+        "todas": 81,
+        "published": 6
       },
       "3": {
-        "todas": 51,
-        "published": 5
+        "todas": 59,
+        "published": 6
       },
       "4": {
-        "todas": 53,
+        "todas": 42,
         "published": 5
       },
       "5": {
-        "todas": 57,
-        "published": 2
+        "todas": 54,
+        "published": 3
       },
       "6": {
-        "todas": 144,
-        "published": 16
+        "todas": 140,
+        "published": 15
       },
       "7": {
-        "todas": 227,
-        "published": 29
-      },
-      "8": {
-        "todas": 599,
-        "published": 60
-      },
-      "9": {
-        "todas": 594,
-        "published": 50
-      },
-      "10": {
-        "todas": 666,
+        "todas": 232,
         "published": 38
       },
+      "8": {
+        "todas": 581,
+        "published": 51
+      },
+      "9": {
+        "todas": 577,
+        "published": 46
+      },
+      "10": {
+        "todas": 641,
+        "published": 40
+      },
       "11": {
-        "todas": 667,
+        "todas": 666,
         "published": 45
       },
       "12": {
-        "todas": 721,
-        "published": 43
+        "todas": 727,
+        "published": 49
       },
       "13": {
-        "todas": 672,
-        "published": 45
+        "todas": 674,
+        "published": 36
       },
       "14": {
-        "todas": 548,
-        "published": 35
+        "todas": 584,
+        "published": 41
       },
       "15": {
-        "todas": 538,
-        "published": 44
+        "todas": 537,
+        "published": 42
       },
       "16": {
-        "todas": 542,
-        "published": 23
+        "todas": 546,
+        "published": 27
       },
       "17": {
-        "todas": 509,
-        "published": 35
+        "todas": 542,
+        "published": 42
       },
       "18": {
-        "todas": 499,
-        "published": 28
+        "todas": 490,
+        "published": 31
       },
       "19": {
-        "todas": 442,
-        "published": 29
+        "todas": 424,
+        "published": 31
       },
       "20": {
-        "todas": 433,
-        "published": 28
+        "todas": 451,
+        "published": 27
       },
       "21": {
-        "todas": 420,
-        "published": 51
+        "todas": 433,
+        "published": 48
       },
       "22": {
-        "todas": 377,
-        "published": 45
+        "todas": 371,
+        "published": 47
       },
       "23": {
-        "todas": 304,
-        "published": 37
+        "todas": 332,
+        "published": 35
       }
     },
     "2017.04": {
       "0": {
-        "todas": 244,
+        "todas": 246,
         "published": 19
       },
       "1": {
-        "todas": 123,
-        "published": 11
+        "todas": 121,
+        "published": 12
       },
       "2": {
-        "todas": 87,
-        "published": 9
+        "todas": 80,
+        "published": 7
       },
       "3": {
-        "todas": 51,
-        "published": 8
+        "todas": 49,
+        "published": 7
       },
       "4": {
-        "todas": 54,
+        "todas": 58,
         "published": 8
       },
       "5": {
-        "todas": 37,
+        "todas": 33,
         "published": 3
       },
       "6": {
-        "todas": 104,
-        "published": 13
+        "todas": 114,
+        "published": 16
       },
       "7": {
-        "todas": 225,
-        "published": 43
-      },
-      "8": {
-        "todas": 492,
-        "published": 57
-      },
-      "9": {
-        "todas": 516,
-        "published": 44
-      },
-      "10": {
-        "todas": 620,
+        "todas": 234,
         "published": 42
       },
-      "11": {
-        "todas": 599,
+      "8": {
+        "todas": 509,
+        "published": 64
+      },
+      "9": {
+        "todas": 545,
+        "published": 54
+      },
+      "10": {
+        "todas": 642,
         "published": 49
       },
+      "11": {
+        "todas": 595,
+        "published": 63
+      },
       "12": {
-        "todas": 603,
-        "published": 48
+        "todas": 625,
+        "published": 53
       },
       "13": {
-        "todas": 541,
-        "published": 33
+        "todas": 560,
+        "published": 46
       },
       "14": {
-        "todas": 531,
-        "published": 45
+        "todas": 503,
+        "published": 51
       },
       "15": {
-        "todas": 475,
-        "published": 40
-      },
-      "16": {
-        "todas": 469,
-        "published": 37
-      },
-      "17": {
-        "todas": 556,
-        "published": 39
-      },
-      "18": {
-        "todas": 448,
-        "published": 37
-      },
-      "19": {
-        "todas": 407,
+        "todas": 472,
         "published": 43
       },
+      "16": {
+        "todas": 497,
+        "published": 39
+      },
+      "17": {
+        "todas": 527,
+        "published": 43
+      },
+      "18": {
+        "todas": 499,
+        "published": 42
+      },
+      "19": {
+        "todas": 460,
+        "published": 46
+      },
       "20": {
-        "todas": 410,
-        "published": 32
+        "todas": 406,
+        "published": 41
       },
       "21": {
-        "todas": 383,
-        "published": 47
+        "todas": 369,
+        "published": 50
       },
       "22": {
-        "todas": 341,
-        "published": 40
+        "todas": 350,
+        "published": 38
       },
       "23": {
-        "todas": 330,
-        "published": 28
+        "todas": 321,
+        "published": 36
       }
     },
     "2017.05": {
       "0": {
-        "todas": 261,
-        "published": 30
+        "todas": 260,
+        "published": 35
       },
       "1": {
-        "todas": 157,
-        "published": 20
+        "todas": 158,
+        "published": 15
       },
       "2": {
-        "todas": 90,
+        "todas": 94,
         "published": 11
       },
       "3": {
-        "todas": 45,
+        "todas": 47,
         "published": 4
       },
       "4": {
@@ -17939,1269 +17939,975 @@ var mensual = {
         "published": 2
       },
       "5": {
-        "todas": 66,
-        "published": 6
+        "todas": 67,
+        "published": 7
       },
       "6": {
-        "todas": 146,
-        "published": 17
+        "todas": 156,
+        "published": 19
       },
       "7": {
-        "todas": 315,
-        "published": 48
-      },
-      "8": {
-        "todas": 573,
-        "published": 75
-      },
-      "9": {
-        "todas": 713,
-        "published": 64
-      },
-      "10": {
-        "todas": 699,
-        "published": 61
-      },
-      "11": {
-        "todas": 747,
-        "published": 66
-      },
-      "12": {
-        "todas": 814,
-        "published": 83
-      },
-      "13": {
-        "todas": 746,
-        "published": 73
-      },
-      "14": {
-        "todas": 593,
-        "published": 65
-      },
-      "15": {
-        "todas": 596,
-        "published": 62
-      },
-      "16": {
-        "todas": 653,
-        "published": 64
-      },
-      "17": {
-        "todas": 597,
-        "published": 56
-      },
-      "18": {
-        "todas": 604,
-        "published": 50
-      },
-      "19": {
-        "todas": 576,
-        "published": 50
-      },
-      "20": {
-        "todas": 513,
+        "todas": 317,
         "published": 45
       },
-      "21": {
-        "todas": 465,
-        "published": 65
+      "8": {
+        "todas": 570,
+        "published": 70
       },
-      "22": {
-        "todas": 430,
+      "9": {
+        "todas": 716,
+        "published": 63
+      },
+      "10": {
+        "todas": 702,
         "published": 58
       },
+      "11": {
+        "todas": 777,
+        "published": 56
+      },
+      "12": {
+        "todas": 826,
+        "published": 84
+      },
+      "13": {
+        "todas": 736,
+        "published": 70
+      },
+      "14": {
+        "todas": 618,
+        "published": 59
+      },
+      "15": {
+        "todas": 599,
+        "published": 65
+      },
+      "16": {
+        "todas": 645,
+        "published": 66
+      },
+      "17": {
+        "todas": 603,
+        "published": 51
+      },
+      "18": {
+        "todas": 562,
+        "published": 45
+      },
+      "19": {
+        "todas": 556,
+        "published": 51
+      },
+      "20": {
+        "todas": 519,
+        "published": 44
+      },
+      "21": {
+        "todas": 461,
+        "published": 58
+      },
+      "22": {
+        "todas": 444,
+        "published": 61
+      },
       "23": {
-        "todas": 425,
-        "published": 57
+        "todas": 433,
+        "published": 56
       }
     },
     "2017.06": {
       "0": {
-        "todas": 269,
+        "todas": 260,
         "published": 30
       },
       "1": {
-        "todas": 146,
-        "published": 14
+        "todas": 156,
+        "published": 20
       },
       "2": {
-        "todas": 91,
-        "published": 15
+        "todas": 99,
+        "published": 17
       },
       "3": {
-        "todas": 43,
-        "published": 4
+        "todas": 41,
+        "published": 5
       },
       "4": {
-        "todas": 35,
-        "published": 3
+        "todas": 34,
+        "published": 2
       },
       "5": {
-        "todas": 53,
-        "published": 10
+        "todas": 54,
+        "published": 8
       },
       "6": {
-        "todas": 186,
+        "todas": 166,
         "published": 31
       },
       "7": {
-        "todas": 255,
-        "published": 35
+        "todas": 238,
+        "published": 29
       },
       "8": {
-        "todas": 561,
-        "published": 63
+        "todas": 530,
+        "published": 56
       },
       "9": {
-        "todas": 647,
-        "published": 64
+        "todas": 663,
+        "published": 61
       },
       "10": {
-        "todas": 725,
-        "published": 66
+        "todas": 749,
+        "published": 63
       },
       "11": {
-        "todas": 744,
-        "published": 68
+        "todas": 698,
+        "published": 67
       },
       "12": {
-        "todas": 700,
-        "published": 56
+        "todas": 651,
+        "published": 50
       },
       "13": {
         "todas": 659,
-        "published": 62
+        "published": 58
       },
       "14": {
         "todas": 591,
-        "published": 59
+        "published": 64
       },
       "15": {
-        "todas": 498,
-        "published": 51
+        "todas": 492,
+        "published": 45
       },
       "16": {
-        "todas": 578,
-        "published": 53
+        "todas": 552,
+        "published": 56
       },
       "17": {
-        "todas": 600,
-        "published": 57
+        "todas": 579,
+        "published": 54
       },
       "18": {
-        "todas": 544,
+        "todas": 541,
         "published": 52
       },
       "19": {
-        "todas": 456,
-        "published": 46
+        "todas": 437,
+        "published": 39
       },
       "20": {
-        "todas": 456,
-        "published": 48
+        "todas": 440,
+        "published": 41
       },
       "21": {
-        "todas": 465,
-        "published": 63
+        "todas": 452,
+        "published": 62
       },
       "22": {
-        "todas": 367,
+        "todas": 337,
         "published": 50
       },
       "23": {
-        "todas": 369,
-        "published": 49
+        "todas": 352,
+        "published": 47
       }
     },
     "2017.07": {
       "0": {
-        "todas": 200,
-        "published": 24
+        "todas": 194,
+        "published": 19
       },
       "1": {
         "todas": 147,
-        "published": 16
-      },
-      "2": {
-        "todas": 96,
         "published": 15
       },
+      "2": {
+        "todas": 85,
+        "published": 12
+      },
       "3": {
-        "todas": 58,
-        "published": 7
+        "todas": 61,
+        "published": 5
       },
       "4": {
-        "todas": 57,
+        "todas": 62,
         "published": 2
       },
       "5": {
-        "todas": 65,
-        "published": 8
+        "todas": 67,
+        "published": 10
       },
       "6": {
-        "todas": 141,
-        "published": 27
+        "todas": 158,
+        "published": 28
       },
       "7": {
         "todas": 250,
         "published": 44
       },
       "8": {
-        "todas": 446,
-        "published": 45
-      },
-      "9": {
-        "todas": 637,
-        "published": 55
-      },
-      "10": {
-        "todas": 659,
-        "published": 51
-      },
-      "11": {
-        "todas": 626,
+        "todas": 443,
         "published": 50
       },
+      "9": {
+        "todas": 640,
+        "published": 58
+      },
+      "10": {
+        "todas": 635,
+        "published": 58
+      },
+      "11": {
+        "todas": 627,
+        "published": 53
+      },
       "12": {
-        "todas": 672,
-        "published": 52
+        "todas": 690,
+        "published": 53
       },
       "13": {
-        "todas": 655,
-        "published": 65
+        "todas": 619,
+        "published": 60
       },
       "14": {
-        "todas": 559,
-        "published": 51
+        "todas": 534,
+        "published": 42
       },
       "15": {
-        "todas": 459,
+        "todas": 423,
         "published": 30
       },
       "16": {
-        "todas": 505,
-        "published": 50
+        "todas": 507,
+        "published": 42
       },
       "17": {
-        "todas": 500,
-        "published": 50
+        "todas": 496,
+        "published": 56
       },
       "18": {
-        "todas": 458,
+        "todas": 464,
         "published": 48
       },
       "19": {
-        "todas": 424,
-        "published": 39
+        "todas": 437,
+        "published": 44
       },
       "20": {
-        "todas": 439,
+        "todas": 425,
         "published": 50
       },
       "21": {
-        "todas": 342,
-        "published": 49
+        "todas": 339,
+        "published": 51
       },
       "22": {
-        "todas": 360,
-        "published": 49
+        "todas": 351,
+        "published": 51
       },
       "23": {
-        "todas": 302,
-        "published": 52
+        "todas": 292,
+        "published": 49
       }
     },
     "2017.08": {
       "0": {
-        "todas": 209,
+        "todas": 220,
         "published": 23
       },
       "1": {
-        "todas": 134,
-        "published": 16
+        "todas": 123,
+        "published": 14
       },
       "2": {
-        "todas": 82,
-        "published": 7
+        "todas": 89,
+        "published": 8
       },
       "3": {
-        "todas": 60,
+        "todas": 61,
         "published": 3
       },
       "4": {
-        "todas": 61,
-        "published": 2
+        "todas": 64,
+        "published": 3
       },
       "5": {
-        "todas": 90,
-        "published": 9
+        "todas": 116,
+        "published": 14
       },
       "6": {
-        "todas": 209,
-        "published": 35
+        "todas": 202,
+        "published": 31
       },
       "7": {
-        "todas": 196,
-        "published": 19
+        "todas": 185,
+        "published": 18
       },
       "8": {
-        "todas": 363,
-        "published": 41
+        "todas": 359,
+        "published": 42
       },
       "9": {
-        "todas": 548,
-        "published": 57
+        "todas": 489,
+        "published": 55
       },
       "10": {
-        "todas": 642,
-        "published": 71
+        "todas": 640,
+        "published": 62
       },
       "11": {
-        "todas": 594,
-        "published": 68
+        "todas": 599,
+        "published": 69
       },
       "12": {
-        "todas": 622,
-        "published": 48
-      },
-      "13": {
-        "todas": 572,
-        "published": 54
-      },
-      "14": {
-        "todas": 497,
-        "published": 43
-      },
-      "15": {
-        "todas": 437,
-        "published": 38
-      },
-      "16": {
-        "todas": 488,
-        "published": 38
-      },
-      "17": {
-        "todas": 524,
-        "published": 45
-      },
-      "18": {
-        "todas": 460,
+        "todas": 606,
         "published": 46
       },
+      "13": {
+        "todas": 612,
+        "published": 63
+      },
+      "14": {
+        "todas": 500,
+        "published": 47
+      },
+      "15": {
+        "todas": 455,
+        "published": 36
+      },
+      "16": {
+        "todas": 497,
+        "published": 32
+      },
+      "17": {
+        "todas": 529,
+        "published": 40
+      },
+      "18": {
+        "todas": 475,
+        "published": 39
+      },
       "19": {
-        "todas": 462,
-        "published": 45
+        "todas": 452,
+        "published": 41
       },
       "20": {
-        "todas": 389,
-        "published": 52
+        "todas": 403,
+        "published": 53
       },
       "21": {
-        "todas": 341,
-        "published": 37
+        "todas": 360,
+        "published": 33
       },
       "22": {
-        "todas": 278,
-        "published": 37
+        "todas": 279,
+        "published": 29
       },
       "23": {
-        "todas": 295,
-        "published": 27
+        "todas": 312,
+        "published": 28
       }
     },
     "2017.09": {
       "0": {
-        "todas": 227,
-        "published": 18
+        "todas": 236,
+        "published": 25
       },
       "1": {
-        "todas": 148,
-        "published": 17
+        "todas": 164,
+        "published": 19
       },
       "2": {
-        "todas": 119,
-        "published": 14
+        "todas": 116,
+        "published": 13
       },
       "3": {
-        "todas": 67,
-        "published": 5
+        "todas": 62,
+        "published": 6
       },
       "4": {
-        "todas": 78,
-        "published": 10
+        "todas": 74,
+        "published": 12
       },
       "5": {
-        "todas": 108,
-        "published": 22
+        "todas": 83,
+        "published": 18
       },
       "6": {
-        "todas": 183,
-        "published": 40
+        "todas": 179,
+        "published": 39
       },
       "7": {
-        "todas": 191,
-        "published": 23
+        "todas": 211,
+        "published": 27
       },
       "8": {
-        "todas": 377,
-        "published": 57
+        "todas": 389,
+        "published": 55
       },
       "9": {
-        "todas": 546,
+        "todas": 599,
         "published": 47
       },
       "10": {
-        "todas": 639,
-        "published": 47
-      },
-      "11": {
-        "todas": 667,
-        "published": 61
-      },
-      "12": {
-        "todas": 758,
-        "published": 59
-      },
-      "13": {
-        "todas": 640,
-        "published": 57
-      },
-      "14": {
-        "todas": 532,
-        "published": 50
-      },
-      "15": {
-        "todas": 508,
-        "published": 34
-      },
-      "16": {
-        "todas": 561,
-        "published": 31
-      },
-      "17": {
-        "todas": 540,
-        "published": 50
-      },
-      "18": {
-        "todas": 489,
-        "published": 31
-      },
-      "19": {
-        "todas": 482,
-        "published": 33
-      },
-      "20": {
-        "todas": 440,
-        "published": 45
-      },
-      "21": {
-        "todas": 387,
+        "todas": 633,
         "published": 44
       },
+      "11": {
+        "todas": 679,
+        "published": 57
+      },
+      "12": {
+        "todas": 794,
+        "published": 60
+      },
+      "13": {
+        "todas": 667,
+        "published": 56
+      },
+      "14": {
+        "todas": 581,
+        "published": 53
+      },
+      "15": {
+        "todas": 518,
+        "published": 35
+      },
+      "16": {
+        "todas": 578,
+        "published": 37
+      },
+      "17": {
+        "todas": 584,
+        "published": 48
+      },
+      "18": {
+        "todas": 509,
+        "published": 32
+      },
+      "19": {
+        "todas": 529,
+        "published": 35
+      },
+      "20": {
+        "todas": 485,
+        "published": 43
+      },
+      "21": {
+        "todas": 379,
+        "published": 48
+      },
       "22": {
-        "todas": 360,
-        "published": 41
+        "todas": 375,
+        "published": 38
       },
       "23": {
-        "todas": 321,
-        "published": 38
+        "todas": 343,
+        "published": 44
       }
     },
     "2017.1": {
       "0": {
-        "todas": 297,
-        "published": 41
+        "todas": 293,
+        "published": 37
       },
       "1": {
-        "todas": 170,
-        "published": 23
+        "todas": 190,
+        "published": 25
       },
       "2": {
-        "todas": 125,
+        "todas": 143,
+        "published": 18
+      },
+      "3": {
+        "todas": 87,
+        "published": 10
+      },
+      "4": {
+        "todas": 69,
+        "published": 7
+      },
+      "5": {
+        "todas": 58,
+        "published": 6
+      },
+      "6": {
+        "todas": 184,
+        "published": 34
+      },
+      "7": {
+        "todas": 220,
+        "published": 35
+      },
+      "8": {
+        "todas": 423,
+        "published": 42
+      },
+      "9": {
+        "todas": 670,
+        "published": 80
+      },
+      "10": {
+        "todas": 770,
+        "published": 73
+      },
+      "11": {
+        "todas": 849,
+        "published": 70
+      },
+      "12": {
+        "todas": 842,
+        "published": 78
+      },
+      "13": {
+        "todas": 761,
+        "published": 75
+      },
+      "14": {
+        "todas": 666,
+        "published": 72
+      },
+      "15": {
+        "todas": 618,
+        "published": 74
+      },
+      "16": {
+        "todas": 716,
+        "published": 66
+      },
+      "17": {
+        "todas": 717,
+        "published": 70
+      },
+      "18": {
+        "todas": 650,
+        "published": 42
+      },
+      "19": {
+        "todas": 592,
+        "published": 68
+      },
+      "20": {
+        "todas": 563,
+        "published": 49
+      },
+      "21": {
+        "todas": 572,
+        "published": 62
+      },
+      "22": {
+        "todas": 487,
+        "published": 71
+      },
+      "23": {
+        "todas": 421,
+        "published": 37
+      }
+    },
+    "2017.11": {
+      "0": {
+        "todas": 262,
+        "published": 38
+      },
+      "1": {
+        "todas": 156,
+        "published": 18
+      },
+      "2": {
+        "todas": 99,
+        "published": 7
+      },
+      "3": {
+        "todas": 81,
+        "published": 8
+      },
+      "4": {
+        "todas": 78,
+        "published": 1
+      },
+      "5": {
+        "todas": 65,
+        "published": 10
+      },
+      "6": {
+        "todas": 204,
+        "published": 29
+      },
+      "7": {
+        "todas": 273,
+        "published": 33
+      },
+      "8": {
+        "todas": 481,
+        "published": 50
+      },
+      "9": {
+        "todas": 572,
+        "published": 62
+      },
+      "10": {
+        "todas": 688,
+        "published": 60
+      },
+      "11": {
+        "todas": 743,
+        "published": 78
+      },
+      "12": {
+        "todas": 768,
+        "published": 82
+      },
+      "13": {
+        "todas": 746,
+        "published": 80
+      },
+      "14": {
+        "todas": 564,
+        "published": 68
+      },
+      "15": {
+        "todas": 586,
+        "published": 60
+      },
+      "16": {
+        "todas": 652,
+        "published": 49
+      },
+      "17": {
+        "todas": 604,
+        "published": 63
+      },
+      "18": {
+        "todas": 567,
+        "published": 54
+      },
+      "19": {
+        "todas": 518,
+        "published": 61
+      },
+      "20": {
+        "todas": 550,
+        "published": 56
+      },
+      "21": {
+        "todas": 460,
+        "published": 62
+      },
+      "22": {
+        "todas": 419,
+        "published": 49
+      },
+      "23": {
+        "todas": 393,
+        "published": 49
+      }
+    },
+    "2017.12": {
+      "0": {
+        "todas": 225,
+        "published": 28
+      },
+      "1": {
+        "todas": 150,
+        "published": 18
+      },
+      "2": {
+        "todas": 101,
+        "published": 16
+      },
+      "3": {
+        "todas": 76,
+        "published": 5
+      },
+      "4": {
+        "todas": 66,
+        "published": 8
+      },
+      "5": {
+        "todas": 60,
+        "published": 5
+      },
+      "6": {
+        "todas": 173,
+        "published": 29
+      },
+      "7": {
+        "todas": 231,
+        "published": 20
+      },
+      "8": {
+        "todas": 319,
+        "published": 42
+      },
+      "9": {
+        "todas": 517,
+        "published": 72
+      },
+      "10": {
+        "todas": 616,
+        "published": 54
+      },
+      "11": {
+        "todas": 596,
+        "published": 69
+      },
+      "12": {
+        "todas": 616,
+        "published": 65
+      },
+      "13": {
+        "todas": 619,
+        "published": 59
+      },
+      "14": {
+        "todas": 465,
+        "published": 46
+      },
+      "15": {
+        "todas": 473,
+        "published": 39
+      },
+      "16": {
+        "todas": 501,
+        "published": 48
+      },
+      "17": {
+        "todas": 504,
+        "published": 52
+      },
+      "18": {
+        "todas": 455,
+        "published": 51
+      },
+      "19": {
+        "todas": 438,
+        "published": 46
+      },
+      "20": {
+        "todas": 458,
+        "published": 52
+      },
+      "21": {
+        "todas": 374,
+        "published": 40
+      },
+      "22": {
+        "todas": 358,
+        "published": 56
+      },
+      "23": {
+        "todas": 275,
+        "published": 38
+      }
+    },
+    "2018.01": {
+      "0": {
+        "todas": 239,
+        "published": 33
+      },
+      "1": {
+        "todas": 184,
+        "published": 20
+      },
+      "2": {
+        "todas": 120,
         "published": 13
       },
       "3": {
-        "todas": 73,
+        "todas": 81,
         "published": 7
       },
       "4": {
         "todas": 66,
-        "published": 10
+        "published": 1
       },
       "5": {
-        "todas": 59,
-        "published": 8
+        "todas": 99,
+        "published": 7
       },
       "6": {
-        "todas": 168,
-        "published": 26
+        "todas": 249,
+        "published": 34
       },
       "7": {
-        "todas": 217,
-        "published": 30
+        "todas": 298,
+        "published": 32
       },
       "8": {
         "todas": 417,
         "published": 47
       },
       "9": {
-        "todas": 699,
-        "published": 73
+        "todas": 632,
+        "published": 77
       },
       "10": {
-        "todas": 723,
-        "published": 59
+        "todas": 767,
+        "published": 78
       },
       "11": {
-        "todas": 810,
-        "published": 71
+        "todas": 759,
+        "published": 72
       },
       "12": {
-        "todas": 793,
-        "published": 71
+        "todas": 725,
+        "published": 79
       },
       "13": {
-        "todas": 770,
-        "published": 70
+        "todas": 693,
+        "published": 80
       },
       "14": {
-        "todas": 690,
-        "published": 74
+        "todas": 486,
+        "published": 65
       },
       "15": {
-        "todas": 593,
-        "published": 66
+        "todas": 502,
+        "published": 53
       },
       "16": {
-        "todas": 654,
-        "published": 49
+        "todas": 628,
+        "published": 59
       },
       "17": {
-        "todas": 726,
-        "published": 55
+        "todas": 585,
+        "published": 57
       },
       "18": {
-        "todas": 624,
-        "published": 32
+        "todas": 564,
+        "published": 57
       },
       "19": {
-        "todas": 602,
-        "published": 58
+        "todas": 499,
+        "published": 60
       },
       "20": {
-        "todas": 576,
-        "published": 44
+        "todas": 450,
+        "published": 53
       },
       "21": {
-        "todas": 538,
-        "published": 58
+        "todas": 392,
+        "published": 47
       },
       "22": {
-        "todas": 476,
-        "published": 66
+        "todas": 331,
+        "published": 45
       },
       "23": {
-        "todas": 440,
-        "published": 45
+        "todas": 326,
+        "published": 36
       }
     },
-    "2017.11": {
+    "2018.02": {
       "0": {
-        "todas": 266,
-        "published": 37
+        "todas": 185,
+        "published": 27
       },
       "1": {
-        "todas": 178,
-        "published": 21
+        "todas": 135,
+        "published": 16
       },
       "2": {
-        "todas": 108,
-        "published": 9
+        "todas": 85,
+        "published": 2
       },
       "3": {
         "todas": 69,
         "published": 7
       },
       "4": {
-        "todas": 71,
-        "published": 1
-      },
-      "5": {
-        "todas": 64,
-        "published": 11
-      },
-      "6": {
-        "todas": 199,
-        "published": 33
-      },
-      "7": {
-        "todas": 277,
-        "published": 36
-      },
-      "8": {
-        "todas": 485,
-        "published": 49
-      },
-      "9": {
-        "todas": 569,
-        "published": 71
-      },
-      "10": {
-        "todas": 694,
-        "published": 68
-      },
-      "11": {
-        "todas": 776,
-        "published": 69
-      },
-      "12": {
-        "todas": 818,
-        "published": 81
-      },
-      "13": {
-        "todas": 756,
-        "published": 78
-      },
-      "14": {
-        "todas": 595,
-        "published": 64
-      },
-      "15": {
-        "todas": 612,
-        "published": 63
-      },
-      "16": {
-        "todas": 730,
-        "published": 62
-      },
-      "17": {
-        "todas": 624,
-        "published": 64
-      },
-      "18": {
-        "todas": 620,
-        "published": 50
-      },
-      "19": {
-        "todas": 537,
-        "published": 66
-      },
-      "20": {
-        "todas": 562,
-        "published": 56
-      },
-      "21": {
-        "todas": 495,
-        "published": 63
-      },
-      "22": {
-        "todas": 432,
-        "published": 47
-      },
-      "23": {
-        "todas": 394,
-        "published": 44
-      }
-    },
-    "2017.12": {
-      "0": {
-        "todas": 246,
-        "published": 31
-      },
-      "1": {
-        "todas": 164,
-        "published": 19
-      },
-      "2": {
-        "todas": 112,
-        "published": 15
-      },
-      "3": {
-        "todas": 95,
-        "published": 7
-      },
-      "4": {
-        "todas": 82,
-        "published": 7
-      },
-      "5": {
-        "todas": 65,
-        "published": 4
-      },
-      "6": {
-        "todas": 205,
-        "published": 27
-      },
-      "7": {
-        "todas": 227,
-        "published": 21
-      },
-      "8": {
-        "todas": 368,
-        "published": 40
-      },
-      "9": {
-        "todas": 539,
-        "published": 64
-      },
-      "10": {
-        "todas": 680,
-        "published": 54
-      },
-      "11": {
-        "todas": 649,
-        "published": 76
-      },
-      "12": {
-        "todas": 666,
-        "published": 75
-      },
-      "13": {
-        "todas": 659,
-        "published": 61
-      },
-      "14": {
-        "todas": 477,
-        "published": 54
-      },
-      "15": {
-        "todas": 509,
-        "published": 42
-      },
-      "16": {
-        "todas": 541,
-        "published": 49
-      },
-      "17": {
-        "todas": 541,
-        "published": 53
-      },
-      "18": {
-        "todas": 479,
-        "published": 58
-      },
-      "19": {
-        "todas": 468,
-        "published": 50
-      },
-      "20": {
-        "todas": 471,
-        "published": 47
-      },
-      "21": {
-        "todas": 397,
-        "published": 39
-      },
-      "22": {
-        "todas": 381,
-        "published": 56
-      },
-      "23": {
-        "todas": 307,
-        "published": 42
-      }
-    },
-    "2018.01": {
-      "0": {
-        "todas": 224,
-        "published": 26
-      },
-      "1": {
-        "todas": 164,
-        "published": 17
-      },
-      "2": {
-        "todas": 109,
-        "published": 14
-      },
-      "3": {
-        "todas": 83,
-        "published": 10
-      },
-      "4": {
-        "todas": 59,
+        "todas": 39,
         "published": 2
       },
       "5": {
-        "todas": 77,
+        "todas": 44,
         "published": 4
       },
       "6": {
-        "todas": 215,
-        "published": 36
+        "todas": 180,
+        "published": 33
       },
       "7": {
-        "todas": 281,
-        "published": 29
+        "todas": 244,
+        "published": 47
       },
       "8": {
-        "todas": 390,
-        "published": 45
-      },
-      "9": {
-        "todas": 607,
-        "published": 74
-      },
-      "10": {
-        "todas": 712,
-        "published": 75
-      },
-      "11": {
-        "todas": 712,
-        "published": 69
-      },
-      "12": {
-        "todas": 681,
-        "published": 67
-      },
-      "13": {
-        "todas": 636,
-        "published": 79
-      },
-      "14": {
-        "todas": 466,
-        "published": 57
-      },
-      "15": {
-        "todas": 469,
+        "todas": 500,
         "published": 53
       },
-      "16": {
-        "todas": 562,
-        "published": 57
-      },
-      "17": {
-        "todas": 518,
-        "published": 61
-      },
-      "18": {
-        "todas": 510,
-        "published": 56
-      },
-      "19": {
-        "todas": 475,
-        "published": 56
-      },
-      "20": {
-        "todas": 436,
-        "published": 56
-      },
-      "21": {
-        "todas": 364,
-        "published": 47
-      },
-      "22": {
-        "todas": 316,
-        "published": 42
-      },
-      "23": {
-        "todas": 296,
-        "published": 37
-      }
-    },
-    "2018.02": {
-      "0": {
-        "todas": 200,
-        "published": 34
-      },
-      "1": {
-        "todas": 148,
-        "published": 19
-      },
-      "2": {
-        "todas": 102,
-        "published": 6
-      },
-      "3": {
-        "todas": 60,
-        "published": 5
-      },
-      "4": {
-        "todas": 40,
-        "published": 1
-      },
-      "5": {
-        "todas": 64,
-        "published": 6
-      },
-      "6": {
-        "todas": 190,
-        "published": 26
-      },
-      "7": {
-        "todas": 273,
-        "published": 43
-      },
-      "8": {
-        "todas": 469,
-        "published": 47
-      },
       "9": {
-        "todas": 615,
-        "published": 81
+        "todas": 664,
+        "published": 77
       },
       "10": {
-        "todas": 694,
-        "published": 66
-      },
-      "11": {
-        "todas": 716,
+        "todas": 713,
         "published": 67
       },
+      "11": {
+        "todas": 713,
+        "published": 64
+      },
       "12": {
-        "todas": 732,
+        "todas": 748,
         "published": 76
       },
       "13": {
-        "todas": 676,
-        "published": 72
+        "todas": 672,
+        "published": 81
       },
       "14": {
-        "todas": 546,
+        "todas": 562,
         "published": 62
       },
       "15": {
-        "todas": 494,
-        "published": 42
+        "todas": 503,
+        "published": 51
       },
       "16": {
-        "todas": 606,
+        "todas": 589,
         "published": 51
       },
       "17": {
-        "todas": 566,
-        "published": 46
+        "todas": 559,
+        "published": 41
       },
       "18": {
-        "todas": 497,
-        "published": 44
+        "todas": 480,
+        "published": 40
       },
       "19": {
-        "todas": 449,
-        "published": 49
+        "todas": 472,
+        "published": 57
       },
       "20": {
-        "todas": 502,
-        "published": 58
+        "todas": 521,
+        "published": 61
       },
       "21": {
-        "todas": 386,
+        "todas": 397,
         "published": 61
       },
       "22": {
-        "todas": 339,
-        "published": 51
+        "todas": 366,
+        "published": 49
       },
       "23": {
-        "todas": 341,
-        "published": 37
+        "todas": 340,
+        "published": 46
       }
     },
     "2018.03": {
       "0": {
-        "todas": 209,
-        "published": 22
-      },
-      "1": {
-        "todas": 153,
-        "published": 16
-      },
-      "2": {
-        "todas": 89,
-        "published": 8
-      },
-      "3": {
-        "todas": 70,
-        "published": 7
-      },
-      "4": {
-        "todas": 56,
-        "published": 11
-      },
-      "5": {
-        "todas": 60,
-        "published": 11
-      },
-      "6": {
-        "todas": 199,
-        "published": 48
-      },
-      "7": {
-        "todas": 245,
-        "published": 44
-      },
-      "8": {
-        "todas": 507,
-        "published": 68
-      },
-      "9": {
-        "todas": 755,
-        "published": 79
-      },
-      "10": {
-        "todas": 811,
-        "published": 89
-      },
-      "11": {
-        "todas": 791,
-        "published": 75
-      },
-      "12": {
-        "todas": 816,
-        "published": 78
-      },
-      "13": {
-        "todas": 802,
-        "published": 89
-      },
-      "14": {
-        "todas": 649,
-        "published": 68
-      },
-      "15": {
-        "todas": 602,
-        "published": 64
-      },
-      "16": {
-        "todas": 655,
-        "published": 63
-      },
-      "17": {
-        "todas": 614,
-        "published": 43
-      },
-      "18": {
-        "todas": 589,
-        "published": 55
-      },
-      "19": {
-        "todas": 581,
-        "published": 75
-      },
-      "20": {
-        "todas": 540,
-        "published": 63
-      },
-      "21": {
-        "todas": 491,
-        "published": 58
-      },
-      "22": {
-        "todas": 402,
-        "published": 44
-      },
-      "23": {
-        "todas": 324,
-        "published": 55
-      }
-    },
-    "2018.04": {
-      "0": {
-        "todas": 278,
-        "published": 33
-      },
-      "1": {
-        "todas": 155,
-        "published": 25
-      },
-      "2": {
-        "todas": 123,
-        "published": 14
-      },
-      "3": {
-        "todas": 86,
-        "published": 9
-      },
-      "4": {
-        "todas": 66,
-        "published": 5
-      },
-      "5": {
-        "todas": 81,
-        "published": 19
-      },
-      "6": {
-        "todas": 248,
-        "published": 54
-      },
-      "7": {
-        "todas": 246,
-        "published": 39
-      },
-      "8": {
-        "todas": 496,
-        "published": 69
-      },
-      "9": {
-        "todas": 719,
-        "published": 70
-      },
-      "10": {
-        "todas": 812,
-        "published": 78
-      },
-      "11": {
-        "todas": 772,
-        "published": 84
-      },
-      "12": {
-        "todas": 751,
-        "published": 79
-      },
-      "13": {
-        "todas": 761,
-        "published": 85
-      },
-      "14": {
-        "todas": 630,
-        "published": 70
-      },
-      "15": {
-        "todas": 575,
-        "published": 59
-      },
-      "16": {
-        "todas": 667,
-        "published": 77
-      },
-      "17": {
-        "todas": 659,
-        "published": 57
-      },
-      "18": {
-        "todas": 575,
-        "published": 69
-      },
-      "19": {
-        "todas": 597,
-        "published": 59
-      },
-      "20": {
-        "todas": 576,
-        "published": 73
-      },
-      "21": {
-        "todas": 500,
-        "published": 80
-      },
-      "22": {
-        "todas": 428,
-        "published": 50
-      },
-      "23": {
-        "todas": 378,
-        "published": 50
-      }
-    },
-    "2018.05": {
-      "0": {
         "todas": 244,
-        "published": 31
+        "published": 27
       },
       "1": {
-        "todas": 148,
-        "published": 17
+        "todas": 161,
+        "published": 20
       },
       "2": {
-        "todas": 95,
-        "published": 13
-      },
-      "3": {
-        "todas": 83,
-        "published": 9
-      },
-      "4": {
-        "todas": 67,
-        "published": 9
-      },
-      "5": {
-        "todas": 81,
-        "published": 10
-      },
-      "6": {
-        "todas": 212,
-        "published": 41
-      },
-      "7": {
-        "todas": 306,
-        "published": 42
-      },
-      "8": {
-        "todas": 543,
-        "published": 47
-      },
-      "9": {
-        "todas": 875,
-        "published": 77
-      },
-      "10": {
-        "todas": 896,
-        "published": 70
-      },
-      "11": {
-        "todas": 836,
-        "published": 66
-      },
-      "12": {
-        "todas": 827,
-        "published": 78
-      },
-      "13": {
-        "todas": 783,
-        "published": 66
-      },
-      "14": {
-        "todas": 656,
-        "published": 74
-      },
-      "15": {
-        "todas": 614,
-        "published": 77
-      },
-      "16": {
-        "todas": 690,
-        "published": 48
-      },
-      "17": {
-        "todas": 675,
-        "published": 84
-      },
-      "18": {
-        "todas": 614,
-        "published": 65
-      },
-      "19": {
-        "todas": 579,
-        "published": 53
-      },
-      "20": {
-        "todas": 546,
-        "published": 65
-      },
-      "21": {
-        "todas": 493,
-        "published": 63
-      },
-      "22": {
-        "todas": 483,
-        "published": 65
-      },
-      "23": {
-        "todas": 384,
-        "published": 41
-      }
-    },
-    "2018.06": {
-      "0": {
-        "todas": 230,
-        "published": 28
-      },
-      "1": {
-        "todas": 125,
-        "published": 11
-      },
-      "2": {
-        "todas": 97,
+        "todas": 102,
         "published": 10
       },
       "3": {
@@ -19209,979 +18915,195 @@ var mensual = {
         "published": 9
       },
       "4": {
-        "todas": 70,
-        "published": 12
+        "todas": 55,
+        "published": 11
       },
       "5": {
-        "todas": 90,
-        "published": 15
+        "todas": 66,
+        "published": 12
       },
       "6": {
-        "todas": 228,
-        "published": 37
+        "todas": 213,
+        "published": 47
       },
       "7": {
-        "todas": 292,
-        "published": 44
+        "todas": 244,
+        "published": 34
       },
       "8": {
-        "todas": 543,
-        "published": 52
+        "todas": 466,
+        "published": 64
       },
       "9": {
         "todas": 700,
-        "published": 69
+        "published": 72
       },
       "10": {
-        "todas": 822,
-        "published": 58
+        "todas": 782,
+        "published": 88
       },
       "11": {
-        "todas": 766,
-        "published": 62
+        "todas": 773,
+        "published": 82
       },
       "12": {
-        "todas": 780,
-        "published": 77
-      },
-      "13": {
-        "todas": 764,
-        "published": 60
-      },
-      "14": {
-        "todas": 725,
-        "published": 73
-      },
-      "15": {
-        "todas": 613,
-        "published": 55
-      },
-      "16": {
-        "todas": 701,
-        "published": 64
-      },
-      "17": {
-        "todas": 669,
-        "published": 63
-      },
-      "18": {
-        "todas": 618,
-        "published": 68
-      },
-      "19": {
-        "todas": 505,
-        "published": 55
-      },
-      "20": {
-        "todas": 532,
+        "todas": 768,
         "published": 69
       },
-      "21": {
-        "todas": 471,
-        "published": 64
-      },
-      "22": {
-        "todas": 379,
-        "published": 58
-      },
-      "23": {
-        "todas": 351,
-        "published": 40
-      }
-    },
-    "2018.07": {
-      "0": {
-        "todas": 214,
-        "published": 23
-      },
-      "1": {
-        "todas": 125,
-        "published": 18
-      },
-      "2": {
-        "todas": 114,
-        "published": 12
-      },
-      "3": {
-        "todas": 69,
-        "published": 6
-      },
-      "4": {
-        "todas": 49,
-        "published": 5
-      },
-      "5": {
-        "todas": 117,
-        "published": 19
-      },
-      "6": {
-        "todas": 194,
-        "published": 40
-      },
-      "7": {
-        "todas": 303,
-        "published": 35
-      },
-      "8": {
-        "todas": 578,
-        "published": 65
-      },
-      "9": {
-        "todas": 732,
-        "published": 84
-      },
-      "10": {
-        "todas": 718,
-        "published": 60
-      },
-      "11": {
-        "todas": 703,
-        "published": 67
-      },
-      "12": {
-        "todas": 717,
-        "published": 86
-      },
       "13": {
-        "todas": 707,
-        "published": 70
-      },
-      "14": {
-        "todas": 566,
-        "published": 77
-      },
-      "15": {
-        "todas": 559,
-        "published": 60
-      },
-      "16": {
-        "todas": 543,
-        "published": 61
-      },
-      "17": {
-        "todas": 537,
-        "published": 56
-      },
-      "18": {
-        "todas": 551,
-        "published": 57
-      },
-      "19": {
-        "todas": 496,
-        "published": 43
-      },
-      "20": {
-        "todas": 473,
-        "published": 71
-      },
-      "21": {
-        "todas": 426,
-        "published": 65
-      },
-      "22": {
-        "todas": 362,
-        "published": 65
-      },
-      "23": {
-        "todas": 342,
-        "published": 61
-      }
-    },
-    "2018.08": {
-      "0": {
-        "todas": 258,
-        "published": 26
-      },
-      "1": {
-        "todas": 127,
-        "published": 23
-      },
-      "2": {
-        "todas": 65,
-        "published": 6
-      },
-      "3": {
-        "todas": 78,
-        "published": 12
-      },
-      "4": {
-        "todas": 58,
-        "published": 3
-      },
-      "5": {
-        "todas": 104,
-        "published": 14
-      },
-      "6": {
-        "todas": 224,
-        "published": 50
-      },
-      "7": {
-        "todas": 335,
-        "published": 36
-      },
-      "8": {
-        "todas": 505,
-        "published": 48
-      },
-      "9": {
-        "todas": 607,
-        "published": 57
-      },
-      "10": {
-        "todas": 675,
-        "published": 67
-      },
-      "11": {
-        "todas": 672,
-        "published": 70
-      },
-      "12": {
-        "todas": 712,
-        "published": 55
-      },
-      "13": {
-        "todas": 687,
-        "published": 69
-      },
-      "14": {
-        "todas": 570,
-        "published": 59
-      },
-      "15": {
-        "todas": 527,
-        "published": 60
-      },
-      "16": {
-        "todas": 577,
-        "published": 49
-      },
-      "17": {
-        "todas": 565,
-        "published": 55
-      },
-      "18": {
-        "todas": 622,
-        "published": 64
-      },
-      "19": {
-        "todas": 526,
-        "published": 55
-      },
-      "20": {
-        "todas": 464,
-        "published": 51
-      },
-      "21": {
-        "todas": 421,
-        "published": 71
-      },
-      "22": {
-        "todas": 341,
-        "published": 50
-      },
-      "23": {
-        "todas": 342,
-        "published": 68
-      }
-    },
-    "2018.09": {
-      "0": {
-        "todas": 214,
-        "published": 33
-      },
-      "1": {
-        "todas": 140,
-        "published": 21
-      },
-      "2": {
-        "todas": 101,
-        "published": 8
-      },
-      "3": {
-        "todas": 69,
-        "published": 10
-      },
-      "4": {
-        "todas": 69,
-        "published": 5
-      },
-      "5": {
-        "todas": 113,
-        "published": 19
-      },
-      "6": {
-        "todas": 246,
-        "published": 44
-      },
-      "7": {
-        "todas": 371,
-        "published": 36
-      },
-      "8": {
-        "todas": 512,
-        "published": 52
-      },
-      "9": {
-        "todas": 747,
+        "todas": 800,
         "published": 74
       },
-      "10": {
-        "todas": 803,
-        "published": 70
-      },
-      "11": {
-        "todas": 800,
-        "published": 69
-      },
-      "12": {
-        "todas": 698,
-        "published": 84
-      },
-      "13": {
-        "todas": 684,
-        "published": 73
-      },
       "14": {
-        "todas": 608,
-        "published": 68
-      },
-      "15": {
-        "todas": 546,
-        "published": 54
-      },
-      "16": {
-        "todas": 648,
-        "published": 59
-      },
-      "17": {
-        "todas": 627,
+        "todas": 633,
         "published": 60
       },
-      "18": {
-        "todas": 592,
-        "published": 47
-      },
-      "19": {
-        "todas": 536,
-        "published": 47
-      },
-      "20": {
-        "todas": 534,
-        "published": 51
-      },
-      "21": {
-        "todas": 406,
+      "15": {
+        "todas": 598,
         "published": 56
       },
-      "22": {
-        "todas": 384,
-        "published": 49
+      "16": {
+        "todas": 663,
+        "published": 59
       },
-      "23": {
-        "todas": 355,
-        "published": 50
-      }
-    },
-    "2018.1": {
-      "0": {
-        "todas": 205,
-        "published": 30
-      },
-      "1": {
-        "todas": 133,
-        "published": 22
-      },
-      "2": {
-        "todas": 43,
-        "published": 8
-      },
-      "3": {
-        "todas": 55,
-        "published": 11
-      },
-      "4": {
-        "todas": 46,
-        "published": 5
-      },
-      "5": {
-        "todas": 98,
-        "published": 10
-      },
-      "6": {
-        "todas": 290,
-        "published": 41
-      },
-      "7": {
-        "todas": 416,
+      "17": {
+        "todas": 600,
         "published": 42
       },
-      "8": {
-        "todas": 543,
-        "published": 51
+      "18": {
+        "todas": 578,
+        "published": 62
       },
-      "9": {
-        "todas": 727,
-        "published": 81
-      },
-      "10": {
-        "todas": 759,
-        "published": 83
-      },
-      "11": {
-        "todas": 750,
-        "published": 70
-      },
-      "12": {
-        "todas": 741,
-        "published": 77
-      },
-      "13": {
-        "todas": 756,
-        "published": 73
-      },
-      "14": {
-        "todas": 620,
+      "19": {
+        "todas": 560,
         "published": 67
       },
-      "15": {
-        "todas": 612,
-        "published": 63
-      },
-      "16": {
-        "todas": 624,
-        "published": 56
-      },
-      "17": {
-        "todas": 573,
-        "published": 59
-      },
-      "18": {
-        "todas": 546,
-        "published": 56
-      },
-      "19": {
-        "todas": 523,
-        "published": 62
-      },
       "20": {
-        "todas": 515,
-        "published": 67
-      },
-      "21": {
-        "todas": 523,
-        "published": 68
-      },
-      "22": {
-        "todas": 371,
-        "published": 46
-      },
-      "23": {
-        "todas": 297,
-        "published": 40
-      }
-    },
-    "2018.11": {
-      "0": {
-        "todas": 184,
-        "published": 22
-      },
-      "1": {
-        "todas": 117,
-        "published": 13
-      },
-      "2": {
-        "todas": 69,
-        "published": 8
-      },
-      "3": {
-        "todas": 62,
-        "published": 6
-      },
-      "4": {
-        "todas": 74,
-        "published": 6
-      },
-      "5": {
-        "todas": 117,
-        "published": 16
-      },
-      "6": {
-        "todas": 309,
-        "published": 31
-      },
-      "7": {
-        "todas": 395,
-        "published": 45
-      },
-      "8": {
-        "todas": 414,
-        "published": 47
-      },
-      "9": {
-        "todas": 645,
-        "published": 70
-      },
-      "10": {
-        "todas": 715,
-        "published": 58
-      },
-      "11": {
-        "todas": 646,
-        "published": 55
-      },
-      "12": {
-        "todas": 639,
-        "published": 55
-      },
-      "13": {
-        "todas": 686,
-        "published": 75
-      },
-      "14": {
-        "todas": 599,
-        "published": 54
-      },
-      "15": {
-        "todas": 533,
-        "published": 38
-      },
-      "16": {
-        "todas": 581,
-        "published": 46
-      },
-      "17": {
-        "todas": 520,
-        "published": 49
-      },
-      "18": {
-        "todas": 532,
-        "published": 60
-      },
-      "19": {
-        "todas": 483,
-        "published": 64
-      },
-      "20": {
-        "todas": 469,
-        "published": 58
-      },
-      "21": {
-        "todas": 440,
-        "published": 59
-      },
-      "22": {
-        "todas": 367,
-        "published": 62
-      },
-      "23": {
-        "todas": 269,
-        "published": 33
-      }
-    },
-    "2018.12": {
-      "0": {
-        "todas": 233,
-        "published": 18
-      },
-      "1": {
-        "todas": 150,
-        "published": 10
-      },
-      "2": {
-        "todas": 100,
-        "published": 8
-      },
-      "3": {
-        "todas": 85,
-        "published": 7
-      },
-      "4": {
-        "todas": 81,
-        "published": 5
-      },
-      "5": {
-        "todas": 99,
-        "published": 11
-      },
-      "6": {
-        "todas": 242,
-        "published": 40
-      },
-      "7": {
-        "todas": 299,
-        "published": 43
-      },
-      "8": {
-        "todas": 416,
-        "published": 40
-      },
-      "9": {
-        "todas": 646,
-        "published": 50
-      },
-      "10": {
-        "todas": 667,
-        "published": 50
-      },
-      "11": {
-        "todas": 637,
-        "published": 56
-      },
-      "12": {
-        "todas": 696,
-        "published": 59
-      },
-      "13": {
-        "todas": 599,
-        "published": 58
-      },
-      "14": {
-        "todas": 528,
-        "published": 55
-      },
-      "15": {
-        "todas": 528,
-        "published": 58
-      },
-      "16": {
-        "todas": 590,
-        "published": 31
-      },
-      "17": {
-        "todas": 521,
-        "published": 45
-      },
-      "18": {
-        "todas": 550,
-        "published": 49
-      },
-      "19": {
-        "todas": 499,
-        "published": 48
-      },
-      "20": {
-        "todas": 529,
-        "published": 62
-      },
-      "21": {
-        "todas": 414,
-        "published": 42
-      },
-      "22": {
-        "todas": 347,
-        "published": 47
-      },
-      "23": {
-        "todas": 325,
-        "published": 52
-      }
-    },
-    "2019.01": {
-      "0": {
-        "todas": 172,
-        "published": 23
-      },
-      "1": {
-        "todas": 105,
-        "published": 13
-      },
-      "2": {
-        "todas": 100,
-        "published": 13
-      },
-      "3": {
-        "todas": 63,
-        "published": 3
-      },
-      "4": {
-        "todas": 55,
-        "published": 3
-      },
-      "5": {
-        "todas": 87,
-        "published": 8
-      },
-      "6": {
-        "todas": 166,
-        "published": 25
-      },
-      "7": {
-        "todas": 245,
-        "published": 25
-      },
-      "8": {
-        "todas": 414,
-        "published": 52
-      },
-      "9": {
-        "todas": 527,
-        "published": 52
-      },
-      "10": {
-        "todas": 650,
-        "published": 79
-      },
-      "11": {
-        "todas": 636,
+        "todas": 535,
         "published": 57
       },
-      "12": {
-        "todas": 619,
-        "published": 76
-      },
-      "13": {
-        "todas": 605,
-        "published": 52
-      },
-      "14": {
-        "todas": 520,
-        "published": 44
-      },
-      "15": {
-        "todas": 510,
-        "published": 41
-      },
-      "16": {
-        "todas": 568,
-        "published": 48
-      },
-      "17": {
-        "todas": 448,
-        "published": 36
-      },
-      "18": {
-        "todas": 468,
-        "published": 43
-      },
-      "19": {
-        "todas": 478,
-        "published": 59
-      },
-      "20": {
-        "todas": 523,
-        "published": 58
-      },
       "21": {
-        "todas": 444,
-        "published": 47
-      },
-      "22": {
-        "todas": 389,
-        "published": 52
-      },
-      "23": {
-        "todas": 257,
-        "published": 39
-      }
-    },
-    "2019.02": {
-      "0": {
-        "todas": 177,
-        "published": 20
-      },
-      "1": {
-        "todas": 130,
-        "published": 12
-      },
-      "2": {
-        "todas": 87,
-        "published": 11
-      },
-      "3": {
-        "todas": 66,
-        "published": 5
-      },
-      "4": {
-        "todas": 62,
-        "published": 3
-      },
-      "5": {
-        "todas": 59,
-        "published": 7
-      },
-      "6": {
-        "todas": 164,
-        "published": 34
-      },
-      "7": {
-        "todas": 249,
-        "published": 36
-      },
-      "8": {
-        "todas": 425,
-        "published": 49
-      },
-      "9": {
-        "todas": 593,
-        "published": 64
-      },
-      "10": {
-        "todas": 637,
-        "published": 54
-      },
-      "11": {
-        "todas": 678,
-        "published": 58
-      },
-      "12": {
-        "todas": 615,
-        "published": 52
-      },
-      "13": {
-        "todas": 635,
-        "published": 68
-      },
-      "14": {
-        "todas": 581,
-        "published": 56
-      },
-      "15": {
-        "todas": 591,
-        "published": 44
-      },
-      "16": {
-        "todas": 589,
-        "published": 39
-      },
-      "17": {
-        "todas": 487,
-        "published": 39
-      },
-      "18": {
-        "todas": 521,
-        "published": 51
-      },
-      "19": {
-        "todas": 552,
+        "todas": 477,
         "published": 61
-      },
-      "20": {
-        "todas": 579,
-        "published": 42
-      },
-      "21": {
-        "todas": 481,
-        "published": 61
-      },
-      "22": {
-        "todas": 366,
-        "published": 53
-      },
-      "23": {
-        "todas": 293,
-        "published": 36
-      }
-    },
-    "2019.03": {
-      "0": {
-        "todas": 271,
-        "published": 33
-      },
-      "1": {
-        "todas": 147,
-        "published": 13
-      },
-      "2": {
-        "todas": 104,
-        "published": 9
-      },
-      "3": {
-        "todas": 68,
-        "published": 9
-      },
-      "4": {
-        "todas": 58,
-        "published": 4
-      },
-      "5": {
-        "todas": 68,
-        "published": 11
-      },
-      "6": {
-        "todas": 186,
-        "published": 26
-      },
-      "7": {
-        "todas": 311,
-        "published": 37
-      },
-      "8": {
-        "todas": 424,
-        "published": 46
-      },
-      "9": {
-        "todas": 640,
-        "published": 64
-      },
-      "10": {
-        "todas": 718,
-        "published": 86
-      },
-      "11": {
-        "todas": 780,
-        "published": 65
-      },
-      "12": {
-        "todas": 780,
-        "published": 60
-      },
-      "13": {
-        "todas": 772,
-        "published": 79
-      },
-      "14": {
-        "todas": 591,
-        "published": 69
-      },
-      "15": {
-        "todas": 594,
-        "published": 70
-      },
-      "16": {
-        "todas": 676,
-        "published": 55
-      },
-      "17": {
-        "todas": 588,
-        "published": 61
-      },
-      "18": {
-        "todas": 592,
-        "published": 68
-      },
-      "19": {
-        "todas": 627,
-        "published": 67
-      },
-      "20": {
-        "todas": 621,
-        "published": 65
-      },
-      "21": {
-        "todas": 467,
-        "published": 57
       },
       "22": {
         "todas": 404,
-        "published": 53
+        "published": 41
       },
       "23": {
-        "todas": 373,
-        "published": 44
+        "todas": 331,
+        "published": 46
       }
     },
-    "2019.04": {
+    "2018.04": {
       "0": {
-        "todas": 220,
-        "published": 24
+        "todas": 266,
+        "published": 34
       },
       "1": {
-        "todas": 168,
-        "published": 18
+        "todas": 153,
+        "published": 21
       },
       "2": {
-        "todas": 90,
+        "todas": 125,
+        "published": 17
+      },
+      "3": {
+        "todas": 96,
+        "published": 8
+      },
+      "4": {
+        "todas": 67,
+        "published": 5
+      },
+      "5": {
+        "todas": 79,
+        "published": 16
+      },
+      "6": {
+        "todas": 235,
+        "published": 52
+      },
+      "7": {
+        "todas": 264,
+        "published": 45
+      },
+      "8": {
+        "todas": 559,
+        "published": 69
+      },
+      "9": {
+        "todas": 807,
+        "published": 79
+      },
+      "10": {
+        "todas": 857,
+        "published": 79
+      },
+      "11": {
+        "todas": 831,
+        "published": 87
+      },
+      "12": {
+        "todas": 788,
+        "published": 78
+      },
+      "13": {
+        "todas": 762,
+        "published": 92
+      },
+      "14": {
+        "todas": 672,
+        "published": 87
+      },
+      "15": {
+        "todas": 591,
+        "published": 67
+      },
+      "16": {
+        "todas": 666,
+        "published": 84
+      },
+      "17": {
+        "todas": 661,
+        "published": 66
+      },
+      "18": {
+        "todas": 610,
+        "published": 65
+      },
+      "19": {
+        "todas": 625,
+        "published": 55
+      },
+      "20": {
+        "todas": 582,
+        "published": 76
+      },
+      "21": {
+        "todas": 509,
+        "published": 75
+      },
+      "22": {
+        "todas": 441,
+        "published": 52
+      },
+      "23": {
+        "todas": 388,
+        "published": 52
+      }
+    },
+    "2018.05": {
+      "0": {
+        "todas": 247,
+        "published": 31
+      },
+      "1": {
+        "todas": 141,
+        "published": 17
+      },
+      "2": {
+        "todas": 89,
         "published": 11
       },
       "3": {
@@ -20189,1261 +19111,3557 @@ var mensual = {
         "published": 8
       },
       "4": {
-        "todas": 59,
-        "published": 6
-      },
-      "5": {
-        "todas": 81,
-        "published": 8
-      },
-      "6": {
-        "todas": 198,
-        "published": 30
-      },
-      "7": {
-        "todas": 266,
-        "published": 29
-      },
-      "8": {
-        "todas": 446,
-        "published": 56
-      },
-      "9": {
-        "todas": 624,
-        "published": 53
-      },
-      "10": {
-        "todas": 745,
-        "published": 80
-      },
-      "11": {
-        "todas": 711,
-        "published": 65
-      },
-      "12": {
-        "todas": 783,
-        "published": 71
-      },
-      "13": {
-        "todas": 707,
-        "published": 80
-      },
-      "14": {
-        "todas": 595,
-        "published": 57
-      },
-      "15": {
-        "todas": 595,
-        "published": 64
-      },
-      "16": {
-        "todas": 603,
-        "published": 57
-      },
-      "17": {
-        "todas": 631,
-        "published": 57
-      },
-      "18": {
-        "todas": 565,
-        "published": 56
-      },
-      "19": {
-        "todas": 539,
-        "published": 62
-      },
-      "20": {
-        "todas": 574,
-        "published": 82
-      },
-      "21": {
-        "todas": 495,
-        "published": 66
-      },
-      "22": {
-        "todas": 393,
-        "published": 69
-      },
-      "23": {
-        "todas": 376,
-        "published": 53
-      }
-    },
-    "2019.05": {
-      "0": {
-        "todas": 269,
-        "published": 35
-      },
-      "1": {
-        "todas": 164,
-        "published": 15
-      },
-      "2": {
-        "todas": 90,
-        "published": 10
-      },
-      "3": {
-        "todas": 75,
+        "todas": 69,
         "published": 12
       },
-      "4": {
-        "todas": 60,
-        "published": 5
-      },
       "5": {
-        "todas": 56,
-        "published": 9
+        "todas": 87,
+        "published": 12
       },
       "6": {
-        "todas": 171,
-        "published": 17
+        "todas": 218,
+        "published": 41
       },
       "7": {
-        "todas": 246,
-        "published": 24
+        "todas": 306,
+        "published": 47
       },
       "8": {
-        "todas": 467,
-        "published": 49
+        "todas": 530,
+        "published": 51
       },
       "9": {
-        "todas": 620,
-        "published": 66
+        "todas": 816,
+        "published": 78
       },
       "10": {
-        "todas": 690,
-        "published": 71
+        "todas": 884,
+        "published": 73
       },
       "11": {
-        "todas": 727,
-        "published": 64
+        "todas": 812,
+        "published": 61
       },
       "12": {
-        "todas": 686,
-        "published": 51
+        "todas": 810,
+        "published": 90
       },
       "13": {
-        "todas": 707,
-        "published": 53
+        "todas": 803,
+        "published": 59
       },
       "14": {
-        "todas": 587,
-        "published": 65
+        "todas": 667,
+        "published": 68
       },
       "15": {
-        "todas": 551,
-        "published": 43
+        "todas": 637,
+        "published": 71
       },
       "16": {
-        "todas": 586,
-        "published": 52
-      },
-      "17": {
-        "todas": 557,
-        "published": 49
-      },
-      "18": {
-        "todas": 563,
-        "published": 64
-      },
-      "19": {
-        "todas": 525,
-        "published": 51
-      },
-      "20": {
-        "todas": 484,
-        "published": 33
-      },
-      "21": {
-        "todas": 470,
+        "todas": 730,
         "published": 54
       },
+      "17": {
+        "todas": 702,
+        "published": 85
+      },
+      "18": {
+        "todas": 623,
+        "published": 72
+      },
+      "19": {
+        "todas": 550,
+        "published": 59
+      },
+      "20": {
+        "todas": 529,
+        "published": 67
+      },
+      "21": {
+        "todas": 508,
+        "published": 77
+      },
       "22": {
-        "todas": 401,
-        "published": 52
+        "todas": 459,
+        "published": 72
       },
       "23": {
-        "todas": 422,
-        "published": 37
+        "todas": 386,
+        "published": 45
       }
     },
-    "2019.06": {
+    "2018.06": {
       "0": {
-        "todas": 236,
-        "published": 29
+        "todas": 218,
+        "published": 23
       },
       "1": {
         "todas": 118,
-        "published": 16
+        "published": 13
       },
       "2": {
-        "todas": 83,
+        "todas": 106,
         "published": 9
       },
       "3": {
-        "todas": 71,
-        "published": 11
-      },
-      "4": {
-        "todas": 52,
-        "published": 7
-      },
-      "5": {
-        "todas": 64,
+        "todas": 65,
         "published": 10
       },
+      "4": {
+        "todas": 70,
+        "published": 11
+      },
+      "5": {
+        "todas": 96,
+        "published": 15
+      },
       "6": {
-        "todas": 192,
-        "published": 23
+        "todas": 218,
+        "published": 37
       },
       "7": {
-        "todas": 214,
-        "published": 24
+        "todas": 293,
+        "published": 38
       },
       "8": {
-        "todas": 491,
-        "published": 56
+        "todas": 539,
+        "published": 50
       },
       "9": {
-        "todas": 636,
-        "published": 66
+        "todas": 695,
+        "published": 60
       },
       "10": {
-        "todas": 715,
-        "published": 74
+        "todas": 802,
+        "published": 50
       },
       "11": {
-        "todas": 716,
+        "todas": 769,
         "published": 56
       },
       "12": {
-        "todas": 719,
-        "published": 68
-      },
-      "13": {
-        "todas": 640,
-        "published": 65
-      },
-      "14": {
-        "todas": 594,
-        "published": 49
-      },
-      "15": {
-        "todas": 572,
-        "published": 50
-      },
-      "16": {
-        "todas": 548,
-        "published": 47
-      },
-      "17": {
-        "todas": 563,
+        "todas": 793,
         "published": 67
       },
+      "13": {
+        "todas": 743,
+        "published": 60
+      },
+      "14": {
+        "todas": 710,
+        "published": 73
+      },
+      "15": {
+        "todas": 585,
+        "published": 52
+      },
+      "16": {
+        "todas": 649,
+        "published": 53
+      },
+      "17": {
+        "todas": 636,
+        "published": 54
+      },
       "18": {
-        "todas": 530,
-        "published": 44
+        "todas": 568,
+        "published": 59
+      },
+      "19": {
+        "todas": 518,
+        "published": 51
+      },
+      "20": {
+        "todas": 518,
+        "published": 65
+      },
+      "21": {
+        "todas": 450,
+        "published": 51
+      },
+      "22": {
+        "todas": 354,
+        "published": 50
+      },
+      "23": {
+        "todas": 332,
+        "published": 43
+      }
+    },
+    "2018.07": {
+      "0": {
+        "todas": 209,
+        "published": 22
+      },
+      "1": {
+        "todas": 131,
+        "published": 19
+      },
+      "2": {
+        "todas": 100,
+        "published": 10
+      },
+      "3": {
+        "todas": 70,
+        "published": 8
+      },
+      "4": {
+        "todas": 41,
+        "published": 2
+      },
+      "5": {
+        "todas": 115,
+        "published": 22
+      },
+      "6": {
+        "todas": 204,
+        "published": 47
+      },
+      "7": {
+        "todas": 316,
+        "published": 36
+      },
+      "8": {
+        "todas": 561,
+        "published": 70
+      },
+      "9": {
+        "todas": 703,
+        "published": 79
+      },
+      "10": {
+        "todas": 689,
+        "published": 68
+      },
+      "11": {
+        "todas": 654,
+        "published": 67
+      },
+      "12": {
+        "todas": 707,
+        "published": 83
+      },
+      "13": {
+        "todas": 704,
+        "published": 74
+      },
+      "14": {
+        "todas": 545,
+        "published": 74
+      },
+      "15": {
+        "todas": 548,
+        "published": 70
+      },
+      "16": {
+        "todas": 529,
+        "published": 62
+      },
+      "17": {
+        "todas": 533,
+        "published": 63
+      },
+      "18": {
+        "todas": 590,
+        "published": 68
       },
       "19": {
         "todas": 501,
         "published": 50
       },
       "20": {
-        "todas": 538,
-        "published": 66
+        "todas": 474,
+        "published": 68
       },
       "21": {
-        "todas": 446,
-        "published": 61
+        "todas": 412,
+        "published": 66
       },
       "22": {
-        "todas": 403,
-        "published": 63
+        "todas": 349,
+        "published": 64
       },
       "23": {
-        "todas": 302,
+        "todas": 345,
+        "published": 62
+      }
+    },
+    "2018.08": {
+      "0": {
+        "todas": 263,
+        "published": 27
+      },
+      "1": {
+        "todas": 139,
+        "published": 24
+      },
+      "2": {
+        "todas": 76,
+        "published": 8
+      },
+      "3": {
+        "todas": 72,
+        "published": 7
+      },
+      "4": {
+        "todas": 67,
+        "published": 3
+      },
+      "5": {
+        "todas": 106,
+        "published": 12
+      },
+      "6": {
+        "todas": 229,
+        "published": 42
+      },
+      "7": {
+        "todas": 321,
         "published": 30
+      },
+      "8": {
+        "todas": 535,
+        "published": 37
+      },
+      "9": {
+        "todas": 653,
+        "published": 62
+      },
+      "10": {
+        "todas": 687,
+        "published": 59
+      },
+      "11": {
+        "todas": 738,
+        "published": 75
+      },
+      "12": {
+        "todas": 712,
+        "published": 62
+      },
+      "13": {
+        "todas": 664,
+        "published": 69
+      },
+      "14": {
+        "todas": 569,
+        "published": 57
+      },
+      "15": {
+        "todas": 536,
+        "published": 52
+      },
+      "16": {
+        "todas": 597,
+        "published": 43
+      },
+      "17": {
+        "todas": 572,
+        "published": 45
+      },
+      "18": {
+        "todas": 618,
+        "published": 53
+      },
+      "19": {
+        "todas": 532,
+        "published": 48
+      },
+      "20": {
+        "todas": 480,
+        "published": 54
+      },
+      "21": {
+        "todas": 425,
+        "published": 70
+      },
+      "22": {
+        "todas": 364,
+        "published": 49
+      },
+      "23": {
+        "todas": 347,
+        "published": 57
+      }
+    },
+    "2018.09": {
+      "0": {
+        "todas": 222,
+        "published": 36
+      },
+      "1": {
+        "todas": 131,
+        "published": 21
+      },
+      "2": {
+        "todas": 86,
+        "published": 9
+      },
+      "3": {
+        "todas": 72,
+        "published": 18
+      },
+      "4": {
+        "todas": 62,
+        "published": 8
+      },
+      "5": {
+        "todas": 111,
+        "published": 19
+      },
+      "6": {
+        "todas": 263,
+        "published": 50
+      },
+      "7": {
+        "todas": 411,
+        "published": 46
+      },
+      "8": {
+        "todas": 516,
+        "published": 56
+      },
+      "9": {
+        "todas": 722,
+        "published": 86
+      },
+      "10": {
+        "todas": 800,
+        "published": 82
+      },
+      "11": {
+        "todas": 752,
+        "published": 69
+      },
+      "12": {
+        "todas": 714,
+        "published": 87
+      },
+      "13": {
+        "todas": 724,
+        "published": 74
+      },
+      "14": {
+        "todas": 623,
+        "published": 70
+      },
+      "15": {
+        "todas": 565,
+        "published": 56
+      },
+      "16": {
+        "todas": 663,
+        "published": 66
+      },
+      "17": {
+        "todas": 626,
+        "published": 73
+      },
+      "18": {
+        "todas": 558,
+        "published": 51
+      },
+      "19": {
+        "todas": 511,
+        "published": 53
+      },
+      "20": {
+        "todas": 514,
+        "published": 53
+      },
+      "21": {
+        "todas": 433,
+        "published": 59
+      },
+      "22": {
+        "todas": 380,
+        "published": 53
+      },
+      "23": {
+        "todas": 336,
+        "published": 51
+      }
+    },
+    "2018.1": {
+      "0": {
+        "todas": 188,
+        "published": 29
+      },
+      "1": {
+        "todas": 138,
+        "published": 18
+      },
+      "2": {
+        "todas": 45,
+        "published": 9
+      },
+      "3": {
+        "todas": 42,
+        "published": 3
+      },
+      "4": {
+        "todas": 50,
+        "published": 3
+      },
+      "5": {
+        "todas": 104,
+        "published": 10
+      },
+      "6": {
+        "todas": 302,
+        "published": 36
+      },
+      "7": {
+        "todas": 392,
+        "published": 41
+      },
+      "8": {
+        "todas": 502,
+        "published": 48
+      },
+      "9": {
+        "todas": 763,
+        "published": 76
+      },
+      "10": {
+        "todas": 786,
+        "published": 70
+      },
+      "11": {
+        "todas": 751,
+        "published": 70
+      },
+      "12": {
+        "todas": 726,
+        "published": 72
+      },
+      "13": {
+        "todas": 706,
+        "published": 75
+      },
+      "14": {
+        "todas": 598,
+        "published": 64
+      },
+      "15": {
+        "todas": 600,
+        "published": 61
+      },
+      "16": {
+        "todas": 617,
+        "published": 47
+      },
+      "17": {
+        "todas": 563,
+        "published": 50
+      },
+      "18": {
+        "todas": 564,
+        "published": 59
+      },
+      "19": {
+        "todas": 519,
+        "published": 63
+      },
+      "20": {
+        "todas": 510,
+        "published": 69
+      },
+      "21": {
+        "todas": 515,
+        "published": 64
+      },
+      "22": {
+        "todas": 380,
+        "published": 51
+      },
+      "23": {
+        "todas": 279,
+        "published": 41
+      }
+    },
+    "2018.11": {
+      "0": {
+        "todas": 186,
+        "published": 19
+      },
+      "1": {
+        "todas": 101,
+        "published": 11
+      },
+      "2": {
+        "todas": 71,
+        "published": 4
+      },
+      "3": {
+        "todas": 70,
+        "published": 10
+      },
+      "4": {
+        "todas": 78,
+        "published": 5
+      },
+      "5": {
+        "todas": 107,
+        "published": 17
+      },
+      "6": {
+        "todas": 276,
+        "published": 30
+      },
+      "7": {
+        "todas": 398,
+        "published": 44
+      },
+      "8": {
+        "todas": 418,
+        "published": 49
+      },
+      "9": {
+        "todas": 623,
+        "published": 63
+      },
+      "10": {
+        "todas": 694,
+        "published": 58
+      },
+      "11": {
+        "todas": 655,
+        "published": 50
+      },
+      "12": {
+        "todas": 674,
+        "published": 53
+      },
+      "13": {
+        "todas": 683,
+        "published": 68
+      },
+      "14": {
+        "todas": 602,
+        "published": 63
+      },
+      "15": {
+        "todas": 504,
+        "published": 39
+      },
+      "16": {
+        "todas": 576,
+        "published": 52
+      },
+      "17": {
+        "todas": 516,
+        "published": 48
+      },
+      "18": {
+        "todas": 540,
+        "published": 59
+      },
+      "19": {
+        "todas": 489,
+        "published": 55
+      },
+      "20": {
+        "todas": 491,
+        "published": 57
+      },
+      "21": {
+        "todas": 435,
+        "published": 59
+      },
+      "22": {
+        "todas": 369,
+        "published": 55
+      },
+      "23": {
+        "todas": 294,
+        "published": 40
+      }
+    },
+    "2018.12": {
+      "0": {
+        "todas": 221,
+        "published": 16
+      },
+      "1": {
+        "todas": 157,
+        "published": 11
+      },
+      "2": {
+        "todas": 113,
+        "published": 12
+      },
+      "3": {
+        "todas": 84,
+        "published": 3
+      },
+      "4": {
+        "todas": 84,
+        "published": 7
+      },
+      "5": {
+        "todas": 105,
+        "published": 10
+      },
+      "6": {
+        "todas": 226,
+        "published": 41
+      },
+      "7": {
+        "todas": 254,
+        "published": 36
+      },
+      "8": {
+        "todas": 383,
+        "published": 39
+      },
+      "9": {
+        "todas": 573,
+        "published": 49
+      },
+      "10": {
+        "todas": 627,
+        "published": 55
+      },
+      "11": {
+        "todas": 583,
+        "published": 56
+      },
+      "12": {
+        "todas": 607,
+        "published": 58
+      },
+      "13": {
+        "todas": 571,
+        "published": 52
+      },
+      "14": {
+        "todas": 490,
+        "published": 45
+      },
+      "15": {
+        "todas": 500,
+        "published": 52
+      },
+      "16": {
+        "todas": 538,
+        "published": 29
+      },
+      "17": {
+        "todas": 472,
+        "published": 39
+      },
+      "18": {
+        "todas": 497,
+        "published": 38
+      },
+      "19": {
+        "todas": 471,
+        "published": 57
+      },
+      "20": {
+        "todas": 510,
+        "published": 62
+      },
+      "21": {
+        "todas": 376,
+        "published": 37
+      },
+      "22": {
+        "todas": 318,
+        "published": 41
+      },
+      "23": {
+        "todas": 293,
+        "published": 50
+      }
+    },
+    "2019.01": {
+      "0": {
+        "todas": 192,
+        "published": 26
+      },
+      "1": {
+        "todas": 107,
+        "published": 11
+      },
+      "2": {
+        "todas": 97,
+        "published": 14
+      },
+      "3": {
+        "todas": 65,
+        "published": 3
+      },
+      "4": {
+        "todas": 55,
+        "published": 2
+      },
+      "5": {
+        "todas": 78,
+        "published": 6
+      },
+      "6": {
+        "todas": 175,
+        "published": 25
+      },
+      "7": {
+        "todas": 264,
+        "published": 27
+      },
+      "8": {
+        "todas": 456,
+        "published": 54
+      },
+      "9": {
+        "todas": 584,
+        "published": 60
+      },
+      "10": {
+        "todas": 686,
+        "published": 75
+      },
+      "11": {
+        "todas": 699,
+        "published": 63
+      },
+      "12": {
+        "todas": 667,
+        "published": 70
+      },
+      "13": {
+        "todas": 645,
+        "published": 54
+      },
+      "14": {
+        "todas": 579,
+        "published": 44
+      },
+      "15": {
+        "todas": 582,
+        "published": 42
+      },
+      "16": {
+        "todas": 641,
+        "published": 46
+      },
+      "17": {
+        "todas": 502,
+        "published": 41
+      },
+      "18": {
+        "todas": 507,
+        "published": 50
+      },
+      "19": {
+        "todas": 514,
+        "published": 48
+      },
+      "20": {
+        "todas": 558,
+        "published": 53
+      },
+      "21": {
+        "todas": 482,
+        "published": 51
+      },
+      "22": {
+        "todas": 420,
+        "published": 57
+      },
+      "23": {
+        "todas": 293,
+        "published": 31
+      }
+    },
+    "2019.02": {
+      "0": {
+        "todas": 177,
+        "published": 19
+      },
+      "1": {
+        "todas": 131,
+        "published": 15
+      },
+      "2": {
+        "todas": 88,
+        "published": 9
+      },
+      "3": {
+        "todas": 72,
+        "published": 6
+      },
+      "4": {
+        "todas": 52,
+        "published": 2
+      },
+      "5": {
+        "todas": 64,
+        "published": 9
+      },
+      "6": {
+        "todas": 162,
+        "published": 31
+      },
+      "7": {
+        "todas": 267,
+        "published": 38
+      },
+      "8": {
+        "todas": 406,
+        "published": 47
+      },
+      "9": {
+        "todas": 598,
+        "published": 60
+      },
+      "10": {
+        "todas": 641,
+        "published": 61
+      },
+      "11": {
+        "todas": 677,
+        "published": 52
+      },
+      "12": {
+        "todas": 629,
+        "published": 54
+      },
+      "13": {
+        "todas": 660,
+        "published": 65
+      },
+      "14": {
+        "todas": 585,
+        "published": 56
+      },
+      "15": {
+        "todas": 574,
+        "published": 51
+      },
+      "16": {
+        "todas": 606,
+        "published": 44
+      },
+      "17": {
+        "todas": 493,
+        "published": 44
+      },
+      "18": {
+        "todas": 536,
+        "published": 53
+      },
+      "19": {
+        "todas": 578,
+        "published": 73
+      },
+      "20": {
+        "todas": 594,
+        "published": 47
+      },
+      "21": {
+        "todas": 479,
+        "published": 62
+      },
+      "22": {
+        "todas": 377,
+        "published": 55
+      },
+      "23": {
+        "todas": 289,
+        "published": 42
+      }
+    },
+    "2019.03": {
+      "0": {
+        "todas": 262,
+        "published": 31
+      },
+      "1": {
+        "todas": 160,
+        "published": 18
+      },
+      "2": {
+        "todas": 94,
+        "published": 7
+      },
+      "3": {
+        "todas": 71,
+        "published": 11
+      },
+      "4": {
+        "todas": 58,
+        "published": 7
+      },
+      "5": {
+        "todas": 68,
+        "published": 8
+      },
+      "6": {
+        "todas": 205,
+        "published": 32
+      },
+      "7": {
+        "todas": 309,
+        "published": 38
+      },
+      "8": {
+        "todas": 436,
+        "published": 55
+      },
+      "9": {
+        "todas": 641,
+        "published": 63
+      },
+      "10": {
+        "todas": 741,
+        "published": 83
+      },
+      "11": {
+        "todas": 796,
+        "published": 69
+      },
+      "12": {
+        "todas": 838,
+        "published": 64
+      },
+      "13": {
+        "todas": 767,
+        "published": 89
+      },
+      "14": {
+        "todas": 579,
+        "published": 66
+      },
+      "15": {
+        "todas": 615,
+        "published": 71
+      },
+      "16": {
+        "todas": 660,
+        "published": 60
+      },
+      "17": {
+        "todas": 604,
+        "published": 61
+      },
+      "18": {
+        "todas": 585,
+        "published": 69
+      },
+      "19": {
+        "todas": 597,
+        "published": 62
+      },
+      "20": {
+        "todas": 616,
+        "published": 64
+      },
+      "21": {
+        "todas": 511,
+        "published": 60
+      },
+      "22": {
+        "todas": 426,
+        "published": 59
+      },
+      "23": {
+        "todas": 412,
+        "published": 48
+      }
+    },
+    "2019.04": {
+      "0": {
+        "todas": 246,
+        "published": 34
+      },
+      "1": {
+        "todas": 169,
+        "published": 15
+      },
+      "2": {
+        "todas": 93,
+        "published": 13
+      },
+      "3": {
+        "todas": 68,
+        "published": 8
+      },
+      "4": {
+        "todas": 59,
+        "published": 4
+      },
+      "5": {
+        "todas": 77,
+        "published": 12
+      },
+      "6": {
+        "todas": 168,
+        "published": 21
+      },
+      "7": {
+        "todas": 242,
+        "published": 24
+      },
+      "8": {
+        "todas": 434,
+        "published": 44
+      },
+      "9": {
+        "todas": 584,
+        "published": 53
+      },
+      "10": {
+        "todas": 711,
+        "published": 84
+      },
+      "11": {
+        "todas": 683,
+        "published": 67
+      },
+      "12": {
+        "todas": 710,
+        "published": 69
+      },
+      "13": {
+        "todas": 703,
+        "published": 75
+      },
+      "14": {
+        "todas": 590,
+        "published": 72
+      },
+      "15": {
+        "todas": 549,
+        "published": 60
+      },
+      "16": {
+        "todas": 569,
+        "published": 58
+      },
+      "17": {
+        "todas": 629,
+        "published": 57
+      },
+      "18": {
+        "todas": 579,
+        "published": 58
+      },
+      "19": {
+        "todas": 541,
+        "published": 65
+      },
+      "20": {
+        "todas": 531,
+        "published": 72
+      },
+      "21": {
+        "todas": 473,
+        "published": 64
+      },
+      "22": {
+        "todas": 370,
+        "published": 64
+      },
+      "23": {
+        "todas": 356,
+        "published": 47
+      }
+    },
+    "2019.05": {
+      "0": {
+        "todas": 255,
+        "published": 28
+      },
+      "1": {
+        "todas": 144,
+        "published": 15
+      },
+      "2": {
+        "todas": 95,
+        "published": 8
+      },
+      "3": {
+        "todas": 84,
+        "published": 12
+      },
+      "4": {
+        "todas": 67,
+        "published": 8
+      },
+      "5": {
+        "todas": 50,
+        "published": 7
+      },
+      "6": {
+        "todas": 183,
+        "published": 17
+      },
+      "7": {
+        "todas": 254,
+        "published": 24
+      },
+      "8": {
+        "todas": 497,
+        "published": 54
+      },
+      "9": {
+        "todas": 651,
+        "published": 60
+      },
+      "10": {
+        "todas": 709,
+        "published": 66
+      },
+      "11": {
+        "todas": 746,
+        "published": 57
+      },
+      "12": {
+        "todas": 720,
+        "published": 51
+      },
+      "13": {
+        "todas": 695,
+        "published": 54
+      },
+      "14": {
+        "todas": 569,
+        "published": 50
+      },
+      "15": {
+        "todas": 570,
+        "published": 39
+      },
+      "16": {
+        "todas": 589,
+        "published": 46
+      },
+      "17": {
+        "todas": 548,
+        "published": 53
+      },
+      "18": {
+        "todas": 525,
+        "published": 55
+      },
+      "19": {
+        "todas": 518,
+        "published": 46
+      },
+      "20": {
+        "todas": 497,
+        "published": 40
+      },
+      "21": {
+        "todas": 468,
+        "published": 52
+      },
+      "22": {
+        "todas": 387,
+        "published": 55
+      },
+      "23": {
+        "todas": 408,
+        "published": 32
+      }
+    },
+    "2019.06": {
+      "0": {
+        "todas": 238,
+        "published": 29
+      },
+      "1": {
+        "todas": 122,
+        "published": 15
+      },
+      "2": {
+        "todas": 77,
+        "published": 8
+      },
+      "3": {
+        "todas": 70,
+        "published": 11
+      },
+      "4": {
+        "todas": 44,
+        "published": 4
+      },
+      "5": {
+        "todas": 68,
+        "published": 10
+      },
+      "6": {
+        "todas": 189,
+        "published": 24
+      },
+      "7": {
+        "todas": 216,
+        "published": 30
+      },
+      "8": {
+        "todas": 489,
+        "published": 52
+      },
+      "9": {
+        "todas": 655,
+        "published": 75
+      },
+      "10": {
+        "todas": 721,
+        "published": 80
+      },
+      "11": {
+        "todas": 713,
+        "published": 64
+      },
+      "12": {
+        "todas": 698,
+        "published": 65
+      },
+      "13": {
+        "todas": 652,
+        "published": 76
+      },
+      "14": {
+        "todas": 627,
+        "published": 47
+      },
+      "15": {
+        "todas": 581,
+        "published": 50
+      },
+      "16": {
+        "todas": 543,
+        "published": 43
+      },
+      "17": {
+        "todas": 553,
+        "published": 54
+      },
+      "18": {
+        "todas": 567,
+        "published": 57
+      },
+      "19": {
+        "todas": 507,
+        "published": 46
+      },
+      "20": {
+        "todas": 547,
+        "published": 61
+      },
+      "21": {
+        "todas": 440,
+        "published": 63
+      },
+      "22": {
+        "todas": 395,
+        "published": 59
+      },
+      "23": {
+        "todas": 312,
+        "published": 40
       }
     },
     "2019.07": {
       "0": {
-        "todas": 201,
-        "published": 19
+        "todas": 179,
+        "published": 18
       },
       "1": {
-        "todas": 120,
+        "todas": 117,
         "published": 11
       },
       "2": {
-        "todas": 82,
-        "published": 4
+        "todas": 79,
+        "published": 7
       },
       "3": {
-        "todas": 74,
-        "published": 6
+        "todas": 58,
+        "published": 4
       },
       "4": {
-        "todas": 40,
+        "todas": 48,
         "published": 3
       },
       "5": {
-        "todas": 84,
-        "published": 14
+        "todas": 93,
+        "published": 15
       },
       "6": {
         "todas": 226,
-        "published": 27
-      },
-      "7": {
-        "todas": 244,
         "published": 33
       },
+      "7": {
+        "todas": 249,
+        "published": 32
+      },
       "8": {
-        "todas": 465,
+        "todas": 445,
         "published": 35
       },
       "9": {
-        "todas": 703,
-        "published": 68
+        "todas": 666,
+        "published": 66
       },
       "10": {
-        "todas": 736,
-        "published": 70
+        "todas": 715,
+        "published": 60
       },
       "11": {
-        "todas": 774,
-        "published": 59
+        "todas": 759,
+        "published": 50
       },
       "12": {
-        "todas": 698,
-        "published": 47
+        "todas": 708,
+        "published": 50
       },
       "13": {
-        "todas": 720,
-        "published": 62
+        "todas": 725,
+        "published": 51
       },
       "14": {
-        "todas": 586,
-        "published": 42
+        "todas": 571,
+        "published": 45
       },
       "15": {
-        "todas": 526,
-        "published": 44
+        "todas": 505,
+        "published": 45
       },
       "16": {
-        "todas": 592,
-        "published": 41
+        "todas": 606,
+        "published": 46
       },
       "17": {
-        "todas": 592,
-        "published": 39
+        "todas": 573,
+        "published": 37
       },
       "18": {
-        "todas": 569,
-        "published": 54
+        "todas": 547,
+        "published": 47
       },
       "19": {
         "todas": 514,
-        "published": 44
+        "published": 48
       },
       "20": {
-        "todas": 519,
-        "published": 42
+        "todas": 486,
+        "published": 41
       },
       "21": {
-        "todas": 444,
+        "todas": 452,
         "published": 63
       },
       "22": {
-        "todas": 362,
-        "published": 53
+        "todas": 353,
+        "published": 50
       },
       "23": {
-        "todas": 346,
+        "todas": 341,
         "published": 51
       }
     },
     "2019.08": {
       "0": {
-        "todas": 168,
-        "published": 23
+        "todas": 197,
+        "published": 28
       },
       "1": {
-        "todas": 105,
-        "published": 13
+        "todas": 98,
+        "published": 15
       },
       "2": {
-        "todas": 78,
-        "published": 7
+        "todas": 80,
+        "published": 6
       },
       "3": {
-        "todas": 44,
+        "todas": 42,
         "published": 6
       },
       "4": {
-        "todas": 57,
-        "published": 7
+        "todas": 58,
+        "published": 8
       },
       "5": {
-        "todas": 118,
-        "published": 15
+        "todas": 125,
+        "published": 17
       },
       "6": {
-        "todas": 179,
-        "published": 28
+        "todas": 182,
+        "published": 26
       },
       "7": {
-        "todas": 194,
-        "published": 39
+        "todas": 180,
+        "published": 36
       },
       "8": {
-        "todas": 410,
-        "published": 51
+        "todas": 414,
+        "published": 54
       },
       "9": {
-        "todas": 582,
-        "published": 76
+        "todas": 616,
+        "published": 74
       },
       "10": {
-        "todas": 679,
-        "published": 61
+        "todas": 691,
+        "published": 73
       },
       "11": {
-        "todas": 729,
-        "published": 59
+        "todas": 735,
+        "published": 61
       },
       "12": {
-        "todas": 679,
-        "published": 64
+        "todas": 646,
+        "published": 66
       },
       "13": {
-        "todas": 637,
-        "published": 63
+        "todas": 623,
+        "published": 71
       },
       "14": {
-        "todas": 537,
-        "published": 48
-      },
-      "15": {
-        "todas": 518,
-        "published": 48
-      },
-      "16": {
-        "todas": 492,
+        "todas": 515,
         "published": 49
       },
-      "17": {
-        "todas": 488,
-        "published": 38
+      "15": {
+        "todas": 513,
+        "published": 45
       },
-      "18": {
-        "todas": 508,
+      "16": {
+        "todas": 485,
         "published": 52
       },
+      "17": {
+        "todas": 501,
+        "published": 45
+      },
+      "18": {
+        "todas": 514,
+        "published": 51
+      },
       "19": {
-        "todas": 479,
+        "todas": 490,
         "published": 56
       },
       "20": {
-        "todas": 422,
-        "published": 36
+        "todas": 431,
+        "published": 43
       },
       "21": {
-        "todas": 407,
-        "published": 42
+        "todas": 363,
+        "published": 45
       },
       "22": {
-        "todas": 298,
-        "published": 44
+        "todas": 306,
+        "published": 47
       },
       "23": {
-        "todas": 328,
-        "published": 48
+        "todas": 305,
+        "published": 42
       }
     },
     "2019.09": {
       "0": {
-        "todas": 212,
-        "published": 37
+        "todas": 197,
+        "published": 31
       },
       "1": {
-        "todas": 115,
-        "published": 12
+        "todas": 113,
+        "published": 7
       },
       "2": {
-        "todas": 89,
+        "todas": 94,
         "published": 4
       },
       "3": {
-        "todas": 63,
-        "published": 4
+        "todas": 67,
+        "published": 3
       },
       "4": {
-        "todas": 58,
-        "published": 4
+        "todas": 44,
+        "published": 3
       },
       "5": {
-        "todas": 106,
+        "todas": 109,
         "published": 17
       },
       "6": {
-        "todas": 173,
-        "published": 32
+        "todas": 196,
+        "published": 33
       },
       "7": {
-        "todas": 274,
-        "published": 36
+        "todas": 282,
+        "published": 34
       },
       "8": {
         "todas": 447,
-        "published": 39
+        "published": 38
       },
       "9": {
-        "todas": 625,
-        "published": 67
+        "todas": 635,
+        "published": 70
       },
       "10": {
-        "todas": 671,
-        "published": 64
+        "todas": 691,
+        "published": 52
       },
       "11": {
-        "todas": 699,
-        "published": 51
+        "todas": 715,
+        "published": 57
       },
       "12": {
-        "todas": 675,
-        "published": 59
+        "todas": 718,
+        "published": 61
       },
       "13": {
-        "todas": 614,
-        "published": 65
+        "todas": 592,
+        "published": 52
       },
       "14": {
-        "todas": 543,
+        "todas": 536,
         "published": 54
       },
       "15": {
-        "todas": 526,
-        "published": 53
+        "todas": 548,
+        "published": 54
       },
       "16": {
-        "todas": 496,
-        "published": 53
+        "todas": 495,
+        "published": 56
       },
       "17": {
-        "todas": 518,
-        "published": 46
+        "todas": 547,
+        "published": 49
       },
       "18": {
-        "todas": 522,
-        "published": 45
+        "todas": 509,
+        "published": 41
       },
       "19": {
-        "todas": 474,
-        "published": 64
+        "todas": 475,
+        "published": 58
       },
       "20": {
-        "todas": 431,
-        "published": 59
+        "todas": 456,
+        "published": 60
       },
       "21": {
-        "todas": 398,
-        "published": 55
+        "todas": 423,
+        "published": 57
       },
       "22": {
-        "todas": 326,
-        "published": 48
+        "todas": 335,
+        "published": 45
       },
       "23": {
-        "todas": 291,
-        "published": 39
+        "todas": 311,
+        "published": 42
       }
     },
     "2019.1": {
       "0": {
-        "todas": 228,
-        "published": 21
+        "todas": 229,
+        "published": 25
       },
       "1": {
-        "todas": 125,
-        "published": 13
+        "todas": 140,
+        "published": 17
       },
       "2": {
-        "todas": 90,
-        "published": 7
+        "todas": 79,
+        "published": 5
       },
       "3": {
-        "todas": 53,
-        "published": 4
+        "todas": 50,
+        "published": 5
       },
       "4": {
-        "todas": 32,
+        "todas": 35,
         "published": 3
       },
       "5": {
-        "todas": 114,
-        "published": 10
+        "todas": 106,
+        "published": 8
       },
       "6": {
-        "todas": 228,
-        "published": 30
+        "todas": 210,
+        "published": 34
       },
       "7": {
-        "todas": 318,
-        "published": 47
+        "todas": 344,
+        "published": 61
       },
       "8": {
-        "todas": 493,
-        "published": 75
+        "todas": 505,
+        "published": 92
       },
       "9": {
-        "todas": 705,
-        "published": 70
+        "todas": 673,
+        "published": 65
       },
       "10": {
-        "todas": 801,
-        "published": 72
+        "todas": 778,
+        "published": 85
       },
       "11": {
-        "todas": 737,
-        "published": 66
+        "todas": 715,
+        "published": 65
       },
       "12": {
-        "todas": 819,
-        "published": 60
-      },
-      "13": {
-        "todas": 665,
-        "published": 60
-      },
-      "14": {
-        "todas": 590,
-        "published": 52
-      },
-      "15": {
-        "todas": 592,
-        "published": 48
-      },
-      "16": {
-        "todas": 579,
-        "published": 64
-      },
-      "17": {
-        "todas": 617,
-        "published": 66
-      },
-      "18": {
-        "todas": 519,
-        "published": 52
-      },
-      "19": {
-        "todas": 478,
-        "published": 40
-      },
-      "20": {
-        "todas": 502,
-        "published": 60
-      },
-      "21": {
-        "todas": 434,
-        "published": 68
-      },
-      "22": {
-        "todas": 392,
+        "todas": 768,
         "published": 53
       },
+      "13": {
+        "todas": 693,
+        "published": 65
+      },
+      "14": {
+        "todas": 623,
+        "published": 56
+      },
+      "15": {
+        "todas": 596,
+        "published": 53
+      },
+      "16": {
+        "todas": 594,
+        "published": 60
+      },
+      "17": {
+        "todas": 597,
+        "published": 68
+      },
+      "18": {
+        "todas": 510,
+        "published": 57
+      },
+      "19": {
+        "todas": 443,
+        "published": 42
+      },
+      "20": {
+        "todas": 480,
+        "published": 58
+      },
+      "21": {
+        "todas": 431,
+        "published": 60
+      },
+      "22": {
+        "todas": 399,
+        "published": 56
+      },
       "23": {
-        "todas": 369,
+        "todas": 368,
         "published": 56
       }
     },
     "2019.11": {
       "0": {
-        "todas": 216,
-        "published": 23
+        "todas": 223,
+        "published": 21
       },
       "1": {
-        "todas": 140,
-        "published": 16
+        "todas": 132,
+        "published": 14
       },
       "2": {
-        "todas": 70,
-        "published": 12
+        "todas": 71,
+        "published": 15
       },
       "3": {
-        "todas": 48,
+        "todas": 51,
         "published": 3
       },
       "4": {
-        "todas": 56,
-        "published": 11
+        "todas": 62,
+        "published": 13
       },
       "5": {
-        "todas": 117,
-        "published": 19
+        "todas": 109,
+        "published": 18
       },
       "6": {
-        "todas": 220,
-        "published": 37
+        "todas": 222,
+        "published": 35
       },
       "7": {
-        "todas": 312,
-        "published": 45
+        "todas": 309,
+        "published": 38
       },
       "8": {
-        "todas": 461,
-        "published": 67
+        "todas": 471,
+        "published": 60
       },
       "9": {
-        "todas": 634,
-        "published": 53
-      },
-      "10": {
-        "todas": 706,
-        "published": 77
-      },
-      "11": {
-        "todas": 776,
-        "published": 80
-      },
-      "12": {
-        "todas": 713,
-        "published": 57
-      },
-      "13": {
-        "todas": 717,
-        "published": 69
-      },
-      "14": {
-        "todas": 590,
+        "todas": 627,
         "published": 62
       },
+      "10": {
+        "todas": 710,
+        "published": 67
+      },
+      "11": {
+        "todas": 761,
+        "published": 83
+      },
+      "12": {
+        "todas": 746,
+        "published": 67
+      },
+      "13": {
+        "todas": 699,
+        "published": 66
+      },
+      "14": {
+        "todas": 593,
+        "published": 63
+      },
       "15": {
-        "todas": 536,
-        "published": 51
-      },
-      "16": {
-        "todas": 629,
-        "published": 50
-      },
-      "17": {
-        "todas": 599,
+        "todas": 522,
         "published": 59
       },
+      "16": {
+        "todas": 607,
+        "published": 48
+      },
+      "17": {
+        "todas": 590,
+        "published": 52
+      },
       "18": {
-        "todas": 463,
-        "published": 42
+        "todas": 465,
+        "published": 44
       },
       "19": {
-        "todas": 458,
+        "todas": 471,
         "published": 41
       },
       "20": {
-        "todas": 511,
-        "published": 55
+        "todas": 528,
+        "published": 60
       },
       "21": {
-        "todas": 502,
-        "published": 43
+        "todas": 491,
+        "published": 40
       },
       "22": {
         "todas": 414,
         "published": 53
       },
       "23": {
-        "todas": 362,
-        "published": 47
+        "todas": 344,
+        "published": 45
       }
     },
     "2019.12": {
       "0": {
-        "todas": 234,
-        "published": 29
+        "todas": 213,
+        "published": 31
       },
       "1": {
-        "todas": 112,
-        "published": 13
+        "todas": 116,
+        "published": 12
       },
       "2": {
-        "todas": 62,
-        "published": 11
+        "todas": 58,
+        "published": 10
       },
       "3": {
-        "todas": 52,
+        "todas": 60,
         "published": 3
       },
       "4": {
-        "todas": 79,
-        "published": 12
+        "todas": 85,
+        "published": 11
       },
       "5": {
-        "todas": 92,
+        "todas": 89,
         "published": 7
       },
       "6": {
-        "todas": 220,
-        "published": 35
+        "todas": 184,
+        "published": 26
       },
       "7": {
-        "todas": 312,
-        "published": 34
+        "todas": 266,
+        "published": 28
       },
       "8": {
-        "todas": 509,
-        "published": 61
+        "todas": 465,
+        "published": 46
       },
       "9": {
-        "todas": 607,
-        "published": 82
+        "todas": 597,
+        "published": 72
       },
       "10": {
-        "todas": 640,
-        "published": 60
+        "todas": 576,
+        "published": 65
       },
       "11": {
-        "todas": 685,
-        "published": 82
+        "todas": 661,
+        "published": 74
       },
       "12": {
-        "todas": 649,
-        "published": 72
-      },
-      "13": {
-        "todas": 580,
-        "published": 72
-      },
-      "14": {
-        "todas": 566,
-        "published": 61
-      },
-      "15": {
-        "todas": 458,
-        "published": 51
-      },
-      "16": {
-        "todas": 522,
-        "published": 43
-      },
-      "17": {
-        "todas": 490,
-        "published": 51
-      },
-      "18": {
-        "todas": 475,
-        "published": 61
-      },
-      "19": {
-        "todas": 473,
-        "published": 41
-      },
-      "20": {
-        "todas": 460,
+        "todas": 594,
         "published": 69
       },
-      "21": {
-        "todas": 395,
-        "published": 45
+      "13": {
+        "todas": 531,
+        "published": 74
       },
-      "22": {
-        "todas": 359,
+      "14": {
+        "todas": 493,
+        "published": 54
+      },
+      "15": {
+        "todas": 411,
+        "published": 41
+      },
+      "16": {
+        "todas": 470,
+        "published": 37
+      },
+      "17": {
+        "todas": 451,
         "published": 52
       },
+      "18": {
+        "todas": 452,
+        "published": 58
+      },
+      "19": {
+        "todas": 448,
+        "published": 46
+      },
+      "20": {
+        "todas": 439,
+        "published": 68
+      },
+      "21": {
+        "todas": 394,
+        "published": 47
+      },
+      "22": {
+        "todas": 322,
+        "published": 47
+      },
       "23": {
-        "todas": 308,
-        "published": 48
+        "todas": 309,
+        "published": 45
       }
     },
     "2020.01": {
       "0": {
-        "todas": 219,
-        "published": 29
-      },
-      "1": {
-        "todas": 130,
-        "published": 18
-      },
-      "2": {
-        "todas": 76,
-        "published": 9
-      },
-      "3": {
-        "todas": 75,
-        "published": 4
-      },
-      "4": {
-        "todas": 115,
-        "published": 12
-      },
-      "5": {
-        "todas": 92,
-        "published": 10
-      },
-      "6": {
-        "todas": 145,
-        "published": 22
-      },
-      "7": {
-        "todas": 242,
-        "published": 34
-      },
-      "8": {
-        "todas": 433,
-        "published": 42
-      },
-      "9": {
-        "todas": 550,
-        "published": 50
-      },
-      "10": {
-        "todas": 624,
-        "published": 66
-      },
-      "11": {
-        "todas": 720,
-        "published": 66
-      },
-      "12": {
-        "todas": 626,
-        "published": 60
-      },
-      "13": {
-        "todas": 540,
-        "published": 58
-      },
-      "14": {
-        "todas": 500,
-        "published": 48
-      },
-      "15": {
-        "todas": 410,
-        "published": 58
-      },
-      "16": {
-        "todas": 459,
-        "published": 51
-      },
-      "17": {
-        "todas": 526,
-        "published": 52
-      },
-      "18": {
-        "todas": 484,
-        "published": 58
-      },
-      "19": {
-        "todas": 461,
-        "published": 55
-      },
-      "20": {
-        "todas": 455,
-        "published": 52
-      },
-      "21": {
-        "todas": 405,
-        "published": 49
-      },
-      "22": {
-        "todas": 399,
-        "published": 42
-      },
-      "23": {
-        "todas": 343,
-        "published": 41
-      }
-    },
-    "2020.02": {
-      "0": {
-        "todas": 253,
+        "todas": 248,
         "published": 31
       },
       "1": {
-        "todas": 123,
-        "published": 10
+        "todas": 126,
+        "published": 18
       },
       "2": {
-        "todas": 111,
-        "published": 10
+        "todas": 98,
+        "published": 12
       },
       "3": {
-        "todas": 114,
-        "published": 8
+        "todas": 83,
+        "published": 6
       },
       "4": {
         "todas": 138,
-        "published": 11
+        "published": 14
       },
       "5": {
-        "todas": 153,
-        "published": 15
+        "todas": 101,
+        "published": 13
       },
       "6": {
-        "todas": 197,
-        "published": 36
+        "todas": 178,
+        "published": 28
       },
       "7": {
-        "todas": 318,
+        "todas": 266,
         "published": 39
       },
       "8": {
-        "todas": 470,
-        "published": 60
+        "todas": 466,
+        "published": 59
       },
       "9": {
-        "todas": 657,
-        "published": 79
+        "todas": 593,
+        "published": 60
       },
       "10": {
-        "todas": 666,
-        "published": 66
+        "todas": 685,
+        "published": 68
       },
       "11": {
         "todas": 784,
-        "published": 75
+        "published": 66
       },
       "12": {
-        "todas": 647,
-        "published": 81
+        "todas": 682,
+        "published": 67
       },
       "13": {
-        "todas": 643,
-        "published": 65
+        "todas": 586,
+        "published": 63
       },
       "14": {
-        "todas": 527,
-        "published": 61
+        "todas": 547,
+        "published": 52
       },
       "15": {
-        "todas": 518,
-        "published": 73
+        "todas": 464,
+        "published": 71
       },
       "16": {
-        "todas": 543,
-        "published": 46
+        "todas": 526,
+        "published": 60
       },
       "17": {
-        "todas": 590,
+        "todas": 586,
         "published": 55
       },
       "18": {
-        "todas": 523,
-        "published": 58
+        "todas": 518,
+        "published": 61
       },
       "19": {
-        "todas": 486,
-        "published": 53
+        "todas": 489,
+        "published": 51
       },
       "20": {
-        "todas": 457,
-        "published": 55
+        "todas": 476,
+        "published": 53
       },
       "21": {
-        "todas": 491,
-        "published": 49
+        "todas": 440,
+        "published": 52
       },
       "22": {
-        "todas": 426,
+        "todas": 446,
         "published": 56
       },
       "23": {
         "todas": 371,
+        "published": 46
+      }
+    },
+    "2020.02": {
+      "0": {
+        "todas": 244,
+        "published": 26
+      },
+      "1": {
+        "todas": 131,
+        "published": 11
+      },
+      "2": {
+        "todas": 99,
+        "published": 5
+      },
+      "3": {
+        "todas": 122,
+        "published": 7
+      },
+      "4": {
+        "todas": 129,
+        "published": 10
+      },
+      "5": {
+        "todas": 165,
+        "published": 14
+      },
+      "6": {
+        "todas": 193,
+        "published": 36
+      },
+      "7": {
+        "todas": 335,
+        "published": 39
+      },
+      "8": {
+        "todas": 454,
+        "published": 55
+      },
+      "9": {
+        "todas": 637,
+        "published": 75
+      },
+      "10": {
+        "todas": 647,
+        "published": 65
+      },
+      "11": {
+        "todas": 792,
+        "published": 80
+      },
+      "12": {
+        "todas": 652,
+        "published": 70
+      },
+      "13": {
+        "todas": 687,
+        "published": 69
+      },
+      "14": {
+        "todas": 535,
+        "published": 63
+      },
+      "15": {
+        "todas": 543,
+        "published": 67
+      },
+      "16": {
+        "todas": 533,
+        "published": 46
+      },
+      "17": {
+        "todas": 584,
+        "published": 63
+      },
+      "18": {
+        "todas": 530,
+        "published": 62
+      },
+      "19": {
+        "todas": 509,
+        "published": 54
+      },
+      "20": {
+        "todas": 454,
+        "published": 55
+      },
+      "21": {
+        "todas": 509,
+        "published": 44
+      },
+      "22": {
+        "todas": 448,
+        "published": 51
+      },
+      "23": {
+        "todas": 390,
         "published": 60
       }
     },
     "2020.03": {
       "0": {
-        "todas": 331,
-        "published": 39
+        "todas": 395,
+        "published": 48
       },
       "1": {
-        "todas": 213,
-        "published": 30
+        "todas": 252,
+        "published": 34
       },
       "2": {
-        "todas": 152,
-        "published": 17
+        "todas": 174,
+        "published": 21
       },
       "3": {
-        "todas": 128,
-        "published": 10
+        "todas": 120,
+        "published": 8
       },
       "4": {
-        "todas": 102,
-        "published": 9
+        "todas": 95,
+        "published": 8
       },
       "5": {
-        "todas": 159,
+        "todas": 155,
         "published": 20
       },
       "6": {
-        "todas": 241,
-        "published": 46
+        "todas": 236,
+        "published": 39
       },
       "7": {
-        "todas": 358,
-        "published": 40
+        "todas": 369,
+        "published": 30
       },
       "8": {
-        "todas": 568,
-        "published": 71
+        "todas": 645,
+        "published": 72
       },
       "9": {
-        "todas": 671,
+        "todas": 714,
         "published": 88
       },
       "10": {
-        "todas": 715,
-        "published": 68
+        "todas": 772,
+        "published": 65
       },
       "11": {
-        "todas": 882,
-        "published": 100
+        "todas": 919,
+        "published": 109
       },
       "12": {
-        "todas": 839,
-        "published": 110
+        "todas": 899,
+        "published": 116
       },
       "13": {
-        "todas": 836,
-        "published": 100
+        "todas": 931,
+        "published": 96
       },
       "14": {
-        "todas": 705,
-        "published": 59
+        "todas": 775,
+        "published": 62
       },
       "15": {
-        "todas": 704,
-        "published": 83
+        "todas": 734,
+        "published": 86
       },
       "16": {
-        "todas": 715,
-        "published": 90
+        "todas": 800,
+        "published": 96
       },
       "17": {
-        "todas": 695,
-        "published": 79
+        "todas": 793,
+        "published": 81
       },
       "18": {
-        "todas": 681,
-        "published": 88
+        "todas": 724,
+        "published": 87
       },
       "19": {
-        "todas": 687,
-        "published": 73
+        "todas": 742,
+        "published": 83
       },
       "20": {
-        "todas": 664,
-        "published": 99
-      },
-      "21": {
-        "todas": 666,
+        "todas": 733,
         "published": 101
       },
+      "21": {
+        "todas": 706,
+        "published": 108
+      },
       "22": {
-        "todas": 532,
-        "published": 89
+        "todas": 587,
+        "published": 103
       },
       "23": {
-        "todas": 492,
-        "published": 62
+        "todas": 550,
+        "published": 71
       }
     },
     "2020.04": {
       "0": {
-        "todas": 327,
-        "published": 35
+        "todas": 208,
+        "published": 22
       },
       "1": {
-        "todas": 204,
-        "published": 23
+        "todas": 133,
+        "published": 16
       },
       "2": {
-        "todas": 122,
-        "published": 15
+        "todas": 81,
+        "published": 11
       },
       "3": {
-        "todas": 81,
+        "todas": 54,
         "published": 6
       },
       "4": {
-        "todas": 54,
-        "published": 5
+        "todas": 28,
+        "published": 3
       },
       "5": {
-        "todas": 76,
-        "published": 9
+        "todas": 43,
+        "published": 5
       },
       "6": {
-        "todas": 109,
-        "published": 7
+        "todas": 70,
+        "published": 6
       },
       "7": {
-        "todas": 227,
-        "published": 13
+        "todas": 138,
+        "published": 12
       },
       "8": {
-        "todas": 403,
-        "published": 51
+        "todas": 228,
+        "published": 33
       },
       "9": {
-        "todas": 479,
-        "published": 51
+        "todas": 291,
+        "published": 34
       },
       "10": {
-        "todas": 566,
-        "published": 44
+        "todas": 360,
+        "published": 28
       },
       "11": {
-        "todas": 656,
-        "published": 67
+        "todas": 421,
+        "published": 41
       },
       "12": {
-        "todas": 640,
-        "published": 57
+        "todas": 408,
+        "published": 39
       },
       "13": {
-        "todas": 619,
-        "published": 57
+        "todas": 342,
+        "published": 40
       },
       "14": {
-        "todas": 506,
-        "published": 42
+        "todas": 307,
+        "published": 24
       },
       "15": {
-        "todas": 457,
-        "published": 63
+        "todas": 274,
+        "published": 43
       },
       "16": {
-        "todas": 460,
-        "published": 42
+        "todas": 247,
+        "published": 21
       },
       "17": {
-        "todas": 519,
-        "published": 51
+        "todas": 286,
+        "published": 29
       },
       "18": {
-        "todas": 453,
-        "published": 45
+        "todas": 282,
+        "published": 27
       },
       "19": {
-        "todas": 457,
-        "published": 50
+        "todas": 265,
+        "published": 29
       },
       "20": {
-        "todas": 457,
-        "published": 50
+        "todas": 272,
+        "published": 32
       },
       "21": {
-        "todas": 463,
-        "published": 42
+        "todas": 285,
+        "published": 28
       },
       "22": {
-        "todas": 441,
-        "published": 69
+        "todas": 259,
+        "published": 39
       },
       "23": {
-        "todas": 333,
-        "published": 48
+        "todas": 166,
+        "published": 28
       }
+    }
+  },
+  "categorias": {
+    "2014.01": {
+      "total": 15778,
+      "portada_total": 1087,
+      "mnm": 15659,
+      "portada_mnm": 1082,
+      "actualidad": 0,
+      "portada_actualidad": 0,
+      "cultura": 0,
+      "portada_cultura": 0,
+      "tecnolog\u00eda": 0,
+      "portada_tecnolog\u00eda": 0,
+      "ocio": 2,
+      "portada_ocio": 2,
+      "otros": 117,
+      "portada_otros": 3
+    },
+    "2014.02": {
+      "total": 15080,
+      "portada_total": 1061,
+      "mnm": 14962,
+      "portada_mnm": 1058,
+      "actualidad": 1,
+      "portada_actualidad": 0,
+      "cultura": 0,
+      "portada_cultura": 0,
+      "tecnolog\u00eda": 0,
+      "portada_tecnolog\u00eda": 0,
+      "ocio": 5,
+      "portada_ocio": 2,
+      "otros": 112,
+      "portada_otros": 1
+    },
+    "2014.03": {
+      "total": 14823,
+      "portada_total": 1070,
+      "mnm": 12643,
+      "portada_mnm": 946,
+      "actualidad": 1224,
+      "portada_actualidad": 62,
+      "cultura": 378,
+      "portada_cultura": 31,
+      "tecnolog\u00eda": 208,
+      "portada_tecnolog\u00eda": 9,
+      "ocio": 247,
+      "portada_ocio": 18,
+      "otros": 123,
+      "portada_otros": 4
+    },
+    "2014.04": {
+      "total": 13400,
+      "portada_total": 986,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7422,
+      "portada_actualidad": 498,
+      "cultura": 2709,
+      "portada_cultura": 262,
+      "tecnolog\u00eda": 1542,
+      "portada_tecnolog\u00eda": 117,
+      "ocio": 1699,
+      "portada_ocio": 107,
+      "otros": 28,
+      "portada_otros": 2
+    },
+    "2014.05": {
+      "total": 14506,
+      "portada_total": 1124,
+      "mnm": 2,
+      "portada_mnm": 0,
+      "actualidad": 8410,
+      "portada_actualidad": 639,
+      "cultura": 2649,
+      "portada_cultura": 231,
+      "tecnolog\u00eda": 1533,
+      "portada_tecnolog\u00eda": 114,
+      "ocio": 1795,
+      "portada_ocio": 122,
+      "otros": 117,
+      "portada_otros": 18
+    },
+    "2014.06": {
+      "total": 14215,
+      "portada_total": 1076,
+      "mnm": 1,
+      "portada_mnm": 0,
+      "actualidad": 8567,
+      "portada_actualidad": 623,
+      "cultura": 2398,
+      "portada_cultura": 208,
+      "tecnolog\u00eda": 1419,
+      "portada_tecnolog\u00eda": 109,
+      "ocio": 1729,
+      "portada_ocio": 124,
+      "otros": 101,
+      "portada_otros": 12
+    },
+    "2014.07": {
+      "total": 13744,
+      "portada_total": 1037,
+      "mnm": 1,
+      "portada_mnm": 0,
+      "actualidad": 8135,
+      "portada_actualidad": 581,
+      "cultura": 2448,
+      "portada_cultura": 218,
+      "tecnolog\u00eda": 1463,
+      "portada_tecnolog\u00eda": 115,
+      "ocio": 1590,
+      "portada_ocio": 101,
+      "otros": 107,
+      "portada_otros": 22
+    },
+    "2014.08": {
+      "total": 12849,
+      "portada_total": 1031,
+      "mnm": 1,
+      "portada_mnm": 0,
+      "actualidad": 7542,
+      "portada_actualidad": 562,
+      "cultura": 2413,
+      "portada_cultura": 248,
+      "tecnolog\u00eda": 1311,
+      "portada_tecnolog\u00eda": 106,
+      "ocio": 1473,
+      "portada_ocio": 93,
+      "otros": 109,
+      "portada_otros": 22
+    },
+    "2014.09": {
+      "total": 13017,
+      "portada_total": 959,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7798,
+      "portada_actualidad": 566,
+      "cultura": 2419,
+      "portada_cultura": 221,
+      "tecnolog\u00eda": 1312,
+      "portada_tecnolog\u00eda": 83,
+      "ocio": 1436,
+      "portada_ocio": 80,
+      "otros": 52,
+      "portada_otros": 9
+    },
+    "2014.1": {
+      "total": 15762,
+      "portada_total": 1298,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 9764,
+      "portada_actualidad": 787,
+      "cultura": 2743,
+      "portada_cultura": 258,
+      "tecnolog\u00eda": 1485,
+      "portada_tecnolog\u00eda": 113,
+      "ocio": 1713,
+      "portada_ocio": 130,
+      "otros": 57,
+      "portada_otros": 10
+    },
+    "2014.11": {
+      "total": 14264,
+      "portada_total": 1204,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 8687,
+      "portada_actualidad": 706,
+      "cultura": 2609,
+      "portada_cultura": 254,
+      "tecnolog\u00eda": 1266,
+      "portada_tecnolog\u00eda": 110,
+      "ocio": 1642,
+      "portada_ocio": 125,
+      "otros": 60,
+      "portada_otros": 9
+    },
+    "2014.12": {
+      "total": 13307,
+      "portada_total": 1115,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7704,
+      "portada_actualidad": 616,
+      "cultura": 2522,
+      "portada_cultura": 232,
+      "tecnolog\u00eda": 1424,
+      "portada_tecnolog\u00eda": 150,
+      "ocio": 1605,
+      "portada_ocio": 105,
+      "otros": 52,
+      "portada_otros": 12
+    },
+    "2015.01": {
+      "total": 14081,
+      "portada_total": 1216,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 8330,
+      "portada_actualidad": 676,
+      "cultura": 2630,
+      "portada_cultura": 259,
+      "tecnolog\u00eda": 1464,
+      "portada_tecnolog\u00eda": 140,
+      "ocio": 1586,
+      "portada_ocio": 123,
+      "otros": 71,
+      "portada_otros": 18
+    },
+    "2015.02": {
+      "total": 13476,
+      "portada_total": 1087,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7673,
+      "portada_actualidad": 588,
+      "cultura": 2668,
+      "portada_cultura": 239,
+      "tecnolog\u00eda": 1483,
+      "portada_tecnolog\u00eda": 128,
+      "ocio": 1560,
+      "portada_ocio": 115,
+      "otros": 92,
+      "portada_otros": 17
+    },
+    "2015.03": {
+      "total": 13778,
+      "portada_total": 1099,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7824,
+      "portada_actualidad": 557,
+      "cultura": 2822,
+      "portada_cultura": 266,
+      "tecnolog\u00eda": 1452,
+      "portada_tecnolog\u00eda": 138,
+      "ocio": 1603,
+      "portada_ocio": 127,
+      "otros": 77,
+      "portada_otros": 11
+    },
+    "2015.04": {
+      "total": 13482,
+      "portada_total": 1075,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7887,
+      "portada_actualidad": 568,
+      "cultura": 2615,
+      "portada_cultura": 251,
+      "tecnolog\u00eda": 1330,
+      "portada_tecnolog\u00eda": 132,
+      "ocio": 1577,
+      "portada_ocio": 110,
+      "otros": 73,
+      "portada_otros": 14
+    },
+    "2015.05": {
+      "total": 13876,
+      "portada_total": 1257,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 8562,
+      "portada_actualidad": 769,
+      "cultura": 2353,
+      "portada_cultura": 206,
+      "tecnolog\u00eda": 1313,
+      "portada_tecnolog\u00eda": 136,
+      "ocio": 1538,
+      "portada_ocio": 125,
+      "otros": 110,
+      "portada_otros": 21
+    },
+    "2015.06": {
+      "total": 12635,
+      "portada_total": 970,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7588,
+      "portada_actualidad": 548,
+      "cultura": 2221,
+      "portada_cultura": 182,
+      "tecnolog\u00eda": 1233,
+      "portada_tecnolog\u00eda": 111,
+      "ocio": 1454,
+      "portada_ocio": 103,
+      "otros": 139,
+      "portada_otros": 26
+    },
+    "2015.07": {
+      "total": 11893,
+      "portada_total": 924,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 6879,
+      "portada_actualidad": 529,
+      "cultura": 2218,
+      "portada_cultura": 198,
+      "tecnolog\u00eda": 1198,
+      "portada_tecnolog\u00eda": 102,
+      "ocio": 1467,
+      "portada_ocio": 81,
+      "otros": 131,
+      "portada_otros": 14
+    },
+    "2015.08": {
+      "total": 10861,
+      "portada_total": 870,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 6096,
+      "portada_actualidad": 471,
+      "cultura": 2271,
+      "portada_cultura": 228,
+      "tecnolog\u00eda": 1136,
+      "portada_tecnolog\u00eda": 94,
+      "ocio": 1245,
+      "portada_ocio": 67,
+      "otros": 113,
+      "portada_otros": 10
+    },
+    "2015.09": {
+      "total": 10936,
+      "portada_total": 847,
+      "mnm": 1,
+      "portada_mnm": 0,
+      "actualidad": 6248,
+      "portada_actualidad": 447,
+      "cultura": 2237,
+      "portada_cultura": 214,
+      "tecnolog\u00eda": 1020,
+      "portada_tecnolog\u00eda": 100,
+      "ocio": 1358,
+      "portada_ocio": 73,
+      "otros": 72,
+      "portada_otros": 13
+    },
+    "2015.1": {
+      "total": 12601,
+      "portada_total": 1031,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7380,
+      "portada_actualidad": 579,
+      "cultura": 2495,
+      "portada_cultura": 253,
+      "tecnolog\u00eda": 1162,
+      "portada_tecnolog\u00eda": 98,
+      "ocio": 1490,
+      "portada_ocio": 93,
+      "otros": 74,
+      "portada_otros": 8
+    },
+    "2015.11": {
+      "total": 13145,
+      "portada_total": 899,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7902,
+      "portada_actualidad": 517,
+      "cultura": 2442,
+      "portada_cultura": 207,
+      "tecnolog\u00eda": 1188,
+      "portada_tecnolog\u00eda": 109,
+      "ocio": 1539,
+      "portada_ocio": 56,
+      "otros": 74,
+      "portada_otros": 10
+    },
+    "2015.12": {
+      "total": 13051,
+      "portada_total": 1043,
+      "mnm": 1,
+      "portada_mnm": 0,
+      "actualidad": 7961,
+      "portada_actualidad": 596,
+      "cultura": 2319,
+      "portada_cultura": 240,
+      "tecnolog\u00eda": 1114,
+      "portada_tecnolog\u00eda": 111,
+      "ocio": 1552,
+      "portada_ocio": 77,
+      "otros": 104,
+      "portada_otros": 19
+    },
+    "2016.01": {
+      "total": 13306,
+      "portada_total": 914,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7791,
+      "portada_actualidad": 505,
+      "cultura": 2660,
+      "portada_cultura": 222,
+      "tecnolog\u00eda": 1203,
+      "portada_tecnolog\u00eda": 89,
+      "ocio": 1555,
+      "portada_ocio": 80,
+      "otros": 97,
+      "portada_otros": 18
+    },
+    "2016.02": {
+      "total": 13105,
+      "portada_total": 954,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7828,
+      "portada_actualidad": 548,
+      "cultura": 2404,
+      "portada_cultura": 206,
+      "tecnolog\u00eda": 1240,
+      "portada_tecnolog\u00eda": 110,
+      "ocio": 1532,
+      "portada_ocio": 76,
+      "otros": 101,
+      "portada_otros": 14
+    },
+    "2016.03": {
+      "total": 11791,
+      "portada_total": 959,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7037,
+      "portada_actualidad": 538,
+      "cultura": 2278,
+      "portada_cultura": 238,
+      "tecnolog\u00eda": 1121,
+      "portada_tecnolog\u00eda": 99,
+      "ocio": 1292,
+      "portada_ocio": 72,
+      "otros": 63,
+      "portada_otros": 12
+    },
+    "2016.04": {
+      "total": 12002,
+      "portada_total": 913,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7257,
+      "portada_actualidad": 524,
+      "cultura": 2207,
+      "portada_cultura": 198,
+      "tecnolog\u00eda": 1194,
+      "portada_tecnolog\u00eda": 105,
+      "ocio": 1258,
+      "portada_ocio": 72,
+      "otros": 86,
+      "portada_otros": 14
+    },
+    "2016.05": {
+      "total": 12102,
+      "portada_total": 914,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 7233,
+      "portada_actualidad": 513,
+      "cultura": 2259,
+      "portada_cultura": 215,
+      "tecnolog\u00eda": 1130,
+      "portada_tecnolog\u00eda": 97,
+      "ocio": 1402,
+      "portada_ocio": 71,
+      "otros": 78,
+      "portada_otros": 18
+    },
+    "2016.06": {
+      "total": 11475,
+      "portada_total": 912,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 6972,
+      "portada_actualidad": 532,
+      "cultura": 2010,
+      "portada_cultura": 197,
+      "tecnolog\u00eda": 1059,
+      "portada_tecnolog\u00eda": 95,
+      "ocio": 1347,
+      "portada_ocio": 73,
+      "otros": 87,
+      "portada_otros": 15
+    },
+    "2016.07": {
+      "total": 10153,
+      "portada_total": 814,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 5994,
+      "portada_actualidad": 463,
+      "cultura": 2065,
+      "portada_cultura": 204,
+      "tecnolog\u00eda": 956,
+      "portada_tecnolog\u00eda": 69,
+      "ocio": 1078,
+      "portada_ocio": 71,
+      "otros": 60,
+      "portada_otros": 7
+    },
+    "2016.08": {
+      "total": 9530,
+      "portada_total": 786,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 5555,
+      "portada_actualidad": 414,
+      "cultura": 1972,
+      "portada_cultura": 218,
+      "tecnolog\u00eda": 891,
+      "portada_tecnolog\u00eda": 88,
+      "ocio": 1059,
+      "portada_ocio": 56,
+      "otros": 53,
+      "portada_otros": 10
+    },
+    "2016.09": {
+      "total": 10093,
+      "portada_total": 770,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 5973,
+      "portada_actualidad": 429,
+      "cultura": 2053,
+      "portada_cultura": 204,
+      "tecnolog\u00eda": 1068,
+      "portada_tecnolog\u00eda": 90,
+      "ocio": 969,
+      "portada_ocio": 41,
+      "otros": 30,
+      "portada_otros": 6
+    },
+    "2016.1": {
+      "total": 9440,
+      "portada_total": 693,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 5535,
+      "portada_actualidad": 386,
+      "cultura": 1915,
+      "portada_cultura": 169,
+      "tecnolog\u00eda": 975,
+      "portada_tecnolog\u00eda": 75,
+      "ocio": 954,
+      "portada_ocio": 51,
+      "otros": 61,
+      "portada_otros": 12
+    },
+    "2016.11": {
+      "total": 9304,
+      "portada_total": 585,
+      "mnm": 0,
+      "portada_mnm": 0,
+      "actualidad": 5601,
+      "portada_actualidad": 315,
+      "cultura": 1842,
+      "portada_cultura": 147,
+      "tecnolog\u00eda": 902,
+      "portada_tecnolog\u00eda": 71,
+      "ocio": 898,
+      "portada_ocio": 40,
+      "otros": 61,
+      "portada_otros": 12
+    },
+    "2016.12": {
+      "total": 8722,
+      "portada_total": 676,
+      "mnm": 1,
+      "portada_mnm": 0,
+      "actualidad": 5219,
+      "portada_actualidad": 378,
+      "cultura": 1679,
+      "portada_cultura": 153,
+      "tecnolog\u00eda": 822,
+      "portada_tecnolog\u00eda": 81,
+      "ocio": 903,
+      "portada_ocio": 50,
+      "otros": 98,
+      "portada_otros": 14
+    },
+    "2017.01": {
+      "total": 9697,
+      "portada_total": 700,
+      "mnm": 81,
+      "portada_mnm": 2,
+      "actualidad": 5609,
+      "portada_actualidad": 382,
+      "cultura": 1974,
+      "portada_cultura": 171,
+      "tecnolog\u00eda": 990,
+      "portada_tecnolog\u00eda": 79,
+      "ocio": 921,
+      "portada_ocio": 47,
+      "otros": 122,
+      "portada_otros": 19
+    },
+    "2017.02": {
+      "total": 8760,
+      "portada_total": 689,
+      "mnm": 122,
+      "portada_mnm": 8,
+      "actualidad": 5014,
+      "portada_actualidad": 371,
+      "cultura": 1739,
+      "portada_cultura": 157,
+      "tecnolog\u00eda": 975,
+      "portada_tecnolog\u00eda": 70,
+      "ocio": 759,
+      "portada_ocio": 41,
+      "otros": 151,
+      "portada_otros": 42
+    },
+    "2017.03": {
+      "total": 9543,
+      "portada_total": 740,
+      "mnm": 111,
+      "portada_mnm": 5,
+      "actualidad": 5512,
+      "portada_actualidad": 418,
+      "cultura": 1901,
+      "portada_cultura": 173,
+      "tecnolog\u00eda": 951,
+      "portada_tecnolog\u00eda": 68,
+      "ocio": 915,
+      "portada_ocio": 44,
+      "otros": 153,
+      "portada_otros": 32
+    },
+    "2017.04": {
+      "total": 8815,
+      "portada_total": 872,
+      "mnm": 83,
+      "portada_mnm": 5,
+      "actualidad": 5326,
+      "portada_actualidad": 561,
+      "cultura": 1613,
+      "portada_cultura": 175,
+      "tecnolog\u00eda": 794,
+      "portada_tecnolog\u00eda": 63,
+      "ocio": 854,
+      "portada_ocio": 45,
+      "otros": 145,
+      "portada_otros": 23
+    },
+    "2017.05": {
+      "total": 10906,
+      "portada_total": 1095,
+      "mnm": 117,
+      "portada_mnm": 10,
+      "actualidad": 6640,
+      "portada_actualidad": 660,
+      "cultura": 1967,
+      "portada_cultura": 226,
+      "tecnolog\u00eda": 1032,
+      "portada_tecnolog\u00eda": 98,
+      "ocio": 982,
+      "portada_ocio": 62,
+      "otros": 168,
+      "portada_otros": 39
+    },
+    "2017.06": {
+      "total": 9771,
+      "portada_total": 1007,
+      "mnm": 104,
+      "portada_mnm": 12,
+      "actualidad": 5988,
+      "portada_actualidad": 603,
+      "cultura": 1742,
+      "portada_cultura": 207,
+      "tecnolog\u00eda": 895,
+      "portada_tecnolog\u00eda": 104,
+      "ocio": 885,
+      "portada_ocio": 41,
+      "otros": 157,
+      "portada_otros": 40
+    },
+    "2017.07": {
+      "total": 8946,
+      "portada_total": 930,
+      "mnm": 109,
+      "portada_mnm": 9,
+      "actualidad": 5183,
+      "portada_actualidad": 520,
+      "cultura": 1768,
+      "portada_cultura": 221,
+      "tecnolog\u00eda": 881,
+      "portada_tecnolog\u00eda": 88,
+      "ocio": 850,
+      "portada_ocio": 41,
+      "otros": 155,
+      "portada_otros": 51
+    },
+    "2017.08": {
+      "total": 8627,
+      "portada_total": 829,
+      "mnm": 107,
+      "portada_mnm": 6,
+      "actualidad": 4987,
+      "portada_actualidad": 470,
+      "cultura": 1803,
+      "portada_cultura": 205,
+      "tecnolog\u00eda": 710,
+      "portada_tecnolog\u00eda": 68,
+      "ocio": 826,
+      "portada_ocio": 39,
+      "otros": 194,
+      "portada_otros": 41
+    },
+    "2017.09": {
+      "total": 9767,
+      "portada_total": 891,
+      "mnm": 71,
+      "portada_mnm": 8,
+      "actualidad": 5965,
+      "portada_actualidad": 495,
+      "cultura": 1814,
+      "portada_cultura": 213,
+      "tecnolog\u00eda": 827,
+      "portada_tecnolog\u00eda": 84,
+      "ocio": 866,
+      "portada_ocio": 35,
+      "otros": 224,
+      "portada_otros": 56
+    },
+    "2017.1": {
+      "total": 11561,
+      "portada_total": 1201,
+      "mnm": 75,
+      "portada_mnm": 10,
+      "actualidad": 7432,
+      "portada_actualidad": 741,
+      "cultura": 1923,
+      "portada_cultura": 237,
+      "tecnolog\u00eda": 842,
+      "portada_tecnolog\u00eda": 93,
+      "ocio": 1050,
+      "portada_ocio": 65,
+      "otros": 239,
+      "portada_otros": 55
+    },
+    "2017.11": {
+      "total": 10529,
+      "portada_total": 1127,
+      "mnm": 97,
+      "portada_mnm": 3,
+      "actualidad": 6426,
+      "portada_actualidad": 654,
+      "cultura": 2012,
+      "portada_cultura": 263,
+      "tecnolog\u00eda": 808,
+      "portada_tecnolog\u00eda": 101,
+      "ocio": 1007,
+      "portada_ocio": 65,
+      "otros": 179,
+      "portada_otros": 41
+    },
+    "2017.12": {
+      "total": 8666,
+      "portada_total": 958,
+      "mnm": 124,
+      "portada_mnm": 12,
+      "actualidad": 5096,
+      "portada_actualidad": 531,
+      "cultura": 1773,
+      "portada_cultura": 242,
+      "tecnolog\u00eda": 748,
+      "portada_tecnolog\u00eda": 88,
+      "ocio": 795,
+      "portada_ocio": 49,
+      "otros": 130,
+      "portada_otros": 36
+    },
+    "2018.01": {
+      "total": 10092,
+      "portada_total": 1112,
+      "mnm": 116,
+      "portada_mnm": 13,
+      "actualidad": 5984,
+      "portada_actualidad": 632,
+      "cultura": 2044,
+      "portada_cultura": 272,
+      "tecnolog\u00eda": 873,
+      "portada_tecnolog\u00eda": 112,
+      "ocio": 937,
+      "portada_ocio": 55,
+      "otros": 138,
+      "portada_otros": 28
+    },
+    "2018.02": {
+      "total": 9780,
+      "portada_total": 1075,
+      "mnm": 116,
+      "portada_mnm": 21,
+      "actualidad": 5850,
+      "portada_actualidad": 623,
+      "cultura": 2008,
+      "portada_cultura": 253,
+      "tecnolog\u00eda": 802,
+      "portada_tecnolog\u00eda": 85,
+      "ocio": 886,
+      "portada_ocio": 54,
+      "otros": 118,
+      "portada_otros": 39
+    },
+    "2018.03": {
+      "total": 10810,
+      "portada_total": 1170,
+      "mnm": 115,
+      "portada_mnm": 11,
+      "actualidad": 6672,
+      "portada_actualidad": 698,
+      "cultura": 2144,
+      "portada_cultura": 273,
+      "tecnolog\u00eda": 883,
+      "portada_tecnolog\u00eda": 104,
+      "ocio": 868,
+      "portada_ocio": 48,
+      "otros": 128,
+      "portada_otros": 36
+    },
+    "2018.04": {
+      "total": 11634,
+      "portada_total": 1361,
+      "mnm": 90,
+      "portada_mnm": 12,
+      "actualidad": 7490,
+      "portada_actualidad": 837,
+      "cultura": 2069,
+      "portada_cultura": 285,
+      "tecnolog\u00eda": 815,
+      "portada_tecnolog\u00eda": 94,
+      "ocio": 1024,
+      "portada_ocio": 81,
+      "otros": 146,
+      "portada_otros": 52
+    },
+    "2018.05": {
+      "total": 11679,
+      "portada_total": 1261,
+      "mnm": 74,
+      "portada_mnm": 12,
+      "actualidad": 7360,
+      "portada_actualidad": 778,
+      "cultura": 2248,
+      "portada_cultura": 265,
+      "tecnolog\u00eda": 760,
+      "portada_tecnolog\u00eda": 89,
+      "ocio": 1080,
+      "portada_ocio": 80,
+      "otros": 157,
+      "portada_otros": 37
+    },
+    "2018.06": {
+      "total": 10845,
+      "portada_total": 1050,
+      "mnm": 98,
+      "portada_mnm": 13,
+      "actualidad": 6724,
+      "portada_actualidad": 644,
+      "cultura": 2167,
+      "portada_cultura": 237,
+      "tecnolog\u00eda": 798,
+      "portada_tecnolog\u00eda": 76,
+      "ocio": 883,
+      "portada_ocio": 39,
+      "otros": 175,
+      "portada_otros": 41
+    },
+    "2018.07": {
+      "total": 10030,
+      "portada_total": 1254,
+      "mnm": 87,
+      "portada_mnm": 15,
+      "actualidad": 6190,
+      "portada_actualidad": 768,
+      "cultura": 2051,
+      "portada_cultura": 283,
+      "tecnolog\u00eda": 712,
+      "portada_tecnolog\u00eda": 84,
+      "ocio": 854,
+      "portada_ocio": 69,
+      "otros": 136,
+      "portada_otros": 35
+    },
+    "2018.08": {
+      "total": 10302,
+      "portada_total": 1045,
+      "mnm": 84,
+      "portada_mnm": 11,
+      "actualidad": 6513,
+      "portada_actualidad": 628,
+      "cultura": 2001,
+      "portada_cultura": 257,
+      "tecnolog\u00eda": 748,
+      "portada_tecnolog\u00eda": 87,
+      "ocio": 832,
+      "portada_ocio": 46,
+      "otros": 124,
+      "portada_otros": 16
+    },
+    "2018.09": {
+      "total": 10795,
+      "portada_total": 1246,
+      "mnm": 105,
+      "portada_mnm": 14,
+      "actualidad": 6843,
+      "portada_actualidad": 770,
+      "cultura": 2051,
+      "portada_cultura": 287,
+      "tecnolog\u00eda": 842,
+      "portada_tecnolog\u00eda": 98,
+      "ocio": 839,
+      "portada_ocio": 49,
+      "otros": 115,
+      "portada_otros": 28
+    },
+    "2018.1": {
+      "total": 10640,
+      "portada_total": 1129,
+      "mnm": 100,
+      "portada_mnm": 9,
+      "actualidad": 6753,
+      "portada_actualidad": 693,
+      "cultura": 2088,
+      "portada_cultura": 265,
+      "tecnolog\u00eda": 746,
+      "portada_tecnolog\u00eda": 82,
+      "ocio": 833,
+      "portada_ocio": 47,
+      "otros": 120,
+      "portada_otros": 33
+    },
+    "2018.11": {
+      "total": 9850,
+      "portada_total": 1008,
+      "mnm": 100,
+      "portada_mnm": 8,
+      "actualidad": 6192,
+      "portada_actualidad": 601,
+      "cultura": 2008,
+      "portada_cultura": 262,
+      "tecnolog\u00eda": 670,
+      "portada_tecnolog\u00eda": 69,
+      "ocio": 780,
+      "portada_ocio": 46,
+      "otros": 100,
+      "portada_otros": 22
+    },
+    "2018.12": {
+      "total": 9053,
+      "portada_total": 895,
+      "mnm": 94,
+      "portada_mnm": 5,
+      "actualidad": 5608,
+      "portada_actualidad": 523,
+      "cultura": 1839,
+      "portada_cultura": 232,
+      "tecnolog\u00eda": 612,
+      "portada_tecnolog\u00eda": 81,
+      "ocio": 793,
+      "portada_ocio": 30,
+      "otros": 107,
+      "portada_otros": 24
+    },
+    "2019.01": {
+      "total": 9848,
+      "portada_total": 953,
+      "mnm": 106,
+      "portada_mnm": 13,
+      "actualidad": 6048,
+      "portada_actualidad": 531,
+      "cultura": 1958,
+      "portada_cultura": 247,
+      "tecnolog\u00eda": 738,
+      "portada_tecnolog\u00eda": 83,
+      "ocio": 876,
+      "portada_ocio": 47,
+      "otros": 122,
+      "portada_otros": 32
+    },
+    "2019.02": {
+      "total": 9735,
+      "portada_total": 995,
+      "mnm": 124,
+      "portada_mnm": 14,
+      "actualidad": 6064,
+      "portada_actualidad": 552,
+      "cultura": 1909,
+      "portada_cultura": 261,
+      "tecnolog\u00eda": 696,
+      "portada_tecnolog\u00eda": 88,
+      "ocio": 829,
+      "portada_ocio": 44,
+      "otros": 113,
+      "portada_otros": 36
+    },
+    "2019.03": {
+      "total": 11051,
+      "portada_total": 1195,
+      "mnm": 99,
+      "portada_mnm": 11,
+      "actualidad": 6583,
+      "portada_actualidad": 621,
+      "cultura": 2393,
+      "portada_cultura": 333,
+      "tecnolog\u00eda": 819,
+      "portada_tecnolog\u00eda": 104,
+      "ocio": 1005,
+      "portada_ocio": 79,
+      "otros": 152,
+      "portada_otros": 47
+    },
+    "2019.04": {
+      "total": 10134,
+      "portada_total": 1140,
+      "mnm": 119,
+      "portada_mnm": 15,
+      "actualidad": 6139,
+      "portada_actualidad": 609,
+      "cultura": 2051,
+      "portada_cultura": 288,
+      "tecnolog\u00eda": 745,
+      "portada_tecnolog\u00eda": 100,
+      "ocio": 923,
+      "portada_ocio": 82,
+      "otros": 157,
+      "portada_otros": 46
+    },
+    "2019.05": {
+      "total": 10229,
+      "portada_total": 929,
+      "mnm": 100,
+      "portada_mnm": 5,
+      "actualidad": 6244,
+      "portada_actualidad": 540,
+      "cultura": 1987,
+      "portada_cultura": 210,
+      "tecnolog\u00eda": 794,
+      "portada_tecnolog\u00eda": 87,
+      "ocio": 979,
+      "portada_ocio": 60,
+      "otros": 125,
+      "portada_otros": 27
+    },
+    "2019.06": {
+      "total": 10024,
+      "portada_total": 1063,
+      "mnm": 111,
+      "portada_mnm": 11,
+      "actualidad": 6193,
+      "portada_actualidad": 625,
+      "cultura": 1979,
+      "portada_cultura": 245,
+      "tecnolog\u00eda": 739,
+      "portada_tecnolog\u00eda": 91,
+      "ocio": 856,
+      "portada_ocio": 53,
+      "otros": 146,
+      "portada_otros": 38
+    },
+    "2019.07": {
+      "total": 10015,
+      "portada_total": 908,
+      "mnm": 157,
+      "portada_mnm": 14,
+      "actualidad": 6238,
+      "portada_actualidad": 534,
+      "cultura": 1918,
+      "portada_cultura": 227,
+      "tecnolog\u00eda": 735,
+      "portada_tecnolog\u00eda": 72,
+      "ocio": 852,
+      "portada_ocio": 41,
+      "otros": 115,
+      "portada_otros": 20
+    },
+    "2019.08": {
+      "total": 9110,
+      "portada_total": 1016,
+      "mnm": 119,
+      "portada_mnm": 15,
+      "actualidad": 5752,
+      "portada_actualidad": 605,
+      "cultura": 1866,
+      "portada_cultura": 261,
+      "tecnolog\u00eda": 556,
+      "portada_tecnolog\u00eda": 66,
+      "ocio": 719,
+      "portada_ocio": 47,
+      "otros": 98,
+      "portada_otros": 22
+    },
+    "2019.09": {
+      "total": 9535,
+      "portada_total": 978,
+      "mnm": 141,
+      "portada_mnm": 14,
+      "actualidad": 6105,
+      "portada_actualidad": 614,
+      "cultura": 1773,
+      "portada_cultura": 218,
+      "tecnolog\u00eda": 667,
+      "portada_tecnolog\u00eda": 75,
+      "ocio": 731,
+      "portada_ocio": 36,
+      "otros": 118,
+      "portada_otros": 21
+    },
+    "2019.1": {
+      "total": 10366,
+      "portada_total": 1149,
+      "mnm": 116,
+      "portada_mnm": 16,
+      "actualidad": 6758,
+      "portada_actualidad": 707,
+      "cultura": 1948,
+      "portada_cultura": 255,
+      "tecnolog\u00eda": 639,
+      "portada_tecnolog\u00eda": 88,
+      "ocio": 770,
+      "portada_ocio": 55,
+      "otros": 135,
+      "portada_otros": 28
+    },
+    "2019.11": {
+      "total": 10218,
+      "portada_total": 1067,
+      "mnm": 80,
+      "portada_mnm": 4,
+      "actualidad": 6628,
+      "portada_actualidad": 645,
+      "cultura": 1973,
+      "portada_cultura": 232,
+      "tecnolog\u00eda": 641,
+      "portada_tecnolog\u00eda": 90,
+      "ocio": 781,
+      "portada_ocio": 62,
+      "otros": 115,
+      "portada_otros": 34
+    },
+    "2019.12": {
+      "total": 8684,
+      "portada_total": 1023,
+      "mnm": 71,
+      "portada_mnm": 9,
+      "actualidad": 5557,
+      "portada_actualidad": 640,
+      "cultura": 1714,
+      "portada_cultura": 227,
+      "tecnolog\u00eda": 669,
+      "portada_tecnolog\u00eda": 91,
+      "ocio": 589,
+      "portada_ocio": 39,
+      "otros": 84,
+      "portada_otros": 17
+    },
+    "2020.01": {
+      "total": 9897,
+      "portada_total": 1101,
+      "mnm": 72,
+      "portada_mnm": 9,
+      "actualidad": 6352,
+      "portada_actualidad": 689,
+      "cultura": 2053,
+      "portada_cultura": 244,
+      "tecnolog\u00eda": 739,
+      "portada_tecnolog\u00eda": 93,
+      "ocio": 581,
+      "portada_ocio": 43,
+      "otros": 100,
+      "portada_otros": 23
+    },
+    "2020.02": {
+      "total": 10322,
+      "portada_total": 1127,
+      "mnm": 66,
+      "portada_mnm": 6,
+      "actualidad": 6513,
+      "portada_actualidad": 690,
+      "cultura": 2123,
+      "portada_cultura": 279,
+      "tecnolog\u00eda": 815,
+      "portada_tecnolog\u00eda": 86,
+      "ocio": 697,
+      "portada_ocio": 49,
+      "otros": 108,
+      "portada_otros": 17
+    },
+    "2020.03": {
+      "total": 13820,
+      "portada_total": 1632,
+      "mnm": 107,
+      "portada_mnm": 18,
+      "actualidad": 10355,
+      "portada_actualidad": 1219,
+      "cultura": 1780,
+      "portada_cultura": 207,
+      "tecnolog\u00eda": 600,
+      "portada_tecnolog\u00eda": 66,
+      "ocio": 829,
+      "portada_ocio": 84,
+      "otros": 149,
+      "portada_otros": 38
+    },
+    "2020.04": {
+      "total": 5448,
+      "portada_total": 596,
+      "mnm": 57,
+      "portada_mnm": 8,
+      "actualidad": 4127,
+      "portada_actualidad": 427,
+      "cultura": 681,
+      "portada_cultura": 86,
+      "tecnolog\u00eda": 215,
+      "portada_tecnolog\u00eda": 30,
+      "ocio": 307,
+      "portada_ocio": 33,
+      "otros": 61,
+      "portada_otros": 12
     }
   }
 };

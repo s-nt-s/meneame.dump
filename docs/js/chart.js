@@ -1,3 +1,14 @@
+function rg(a, b) {
+  if (b==null) {
+    b=a;
+    a=0;
+  }
+  var r=[];
+  var i;
+  for (i=a;i<b;i++) r.push(i);
+  return r;
+}
+
 function setGraphChart(obj, dataset) {
     if (obj.id==null) obj.id = "myChart";
     if (obj.type==null) obj.type = "bar";
@@ -203,16 +214,6 @@ function chartConteo(value) {
       destroy:true
   }, dataset);
 }
-function rg(a, b) {
-  if (b==null) {
-    b=a;
-    a=0;
-  }
-  var r=[];
-  var i;
-  for (i=a;i<b;i++) r.push(i);
-  return r;
-}
 
 function chartDiaNormal(value) {
   var t = value || $("#tipoDiaNormal").val();
@@ -282,12 +283,61 @@ function chartDiaNormal(value) {
   }, dataset);
 }
 
+
+function chartCategoria(value) {
+  var prc = $("#tipoCategoria").val()=="prc_";
+  var portada = $("#tipoCategoriaPortada").val()=="portada";
+  var obj = mensual["categorias"];
+  var dataset = [];
+  var i, k, kl;
+  var ks = Object.keys(obj["values"][0]).filter(function(k){
+    return k.startsWith("portada_")?portada:!portada;
+  });
+  var data_values;
+  var dataset=[];
+  var totales=gF(obj, portada?"portada_total":"total");
+  for (i=0; i<ks.length; i++) {
+    k = ks[i];
+    kl = k;
+    if (kl.startsWith("portada_")) kl = kl.substr(8);
+    data_values=gF(obj, k);
+    if (prc) {
+      if (kl=="total") continue;
+      data_values = data_values.map(function (cv, inx) {
+          cv = cv*100/totales[inx];
+          return Math.round(cv*100)/100;
+      })
+    }
+
+    dataset.push({
+      label: kl,
+      data: data_values,
+      fill: false,
+      //backgroundColor: d_color.blue.backgroundColor,
+      borderColor: ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"][i] || "grey",
+      borderWidth: 1,
+      hidden: kl=="mnm" || kl=="otros"
+    })
+  }
+  setGraphChart({
+      id: 'data_categoria',
+      title: null,
+      labels: obj["keys"].map(function(x) {return x.toFixed(2);}),
+      type: 'line',
+      //max_y: t=="prc_"?100:null,
+      destroy:true
+  }, dataset);
+}
+
+
 $(document).ready(function(){
   chartMensual();
   chartConteo();
   chartDiaNormal();
+  chartCategoria();
   $("#tipoMensual").change(function(){chartMensual(this.value)})
   $("#tipoConteo").change(function(){chartConteo(this.value)})
   $("#tipoDiaNormal").change(function(){chartDiaNormal(this.value)})
   $("#yearsDiaNormal").change(function(){chartDiaNormal()})
+  $("#tipoCategoria,#tipoCategoriaPortada").change(function(){chartCategoria()})
 })

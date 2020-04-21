@@ -50,6 +50,13 @@ class Stats:
 
     @property
     @lru_cache(maxsize=None)
+    def main_subs(self):
+        return tuple(self.db.to_list("""
+            select sub from GENERAL where status='published' group by sub having count(*)>1000 order by count(*) desc limit 10
+        """))
+
+    @property
+    @lru_cache(maxsize=None)
     def counts(self):
         sql_1=[]
         sql_2=[]
@@ -173,19 +180,45 @@ class Stats:
         data={}
         for dt in self.db.select('''
             select
-                mes,
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
                 floor(minuto/60) hora,
                 count(id) todas,
                 sum(status='published') published
             from
                 GENERAL
             group by
-                mes, floor(minuto/60)
-            order by mes, floor(minuto/60)
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100), floor(minuto/60)
+            order by YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100), floor(minuto/60)
         ''', cursor=DictCursor):
             mes = float(dt["mes"])
             hora = int(dt["hora"])
             horas = data.get(mes, {})
             horas[hora] = {k:int(v) for k,v in dt.items() if k not in ("mes", "hora")}
             data[mes]=horas
+        return data
+
+    def get_mes_categorias(self, where=None):
+        data={}
+        counts=[]
+        for sub in self.main_subs:
+            counts.append("sum(sub='{0}') `{0}`".format(sub))
+            counts.append("sum(sub='{0}' and status='published') `portada_{0}`".format(sub))
+        counts.append("sum(sub not in {0}) `otros`".format(self.main_subs))
+        counts.append("sum(sub not in {0} and status='published') `portada_otros`".format(self.main_subs))
+        counts = ", ".join(counts)
+        for dt in self.db.select('''
+            select
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
+                count(id) total,
+                sum(status='published') portada_total,
+                {0}
+            from
+                GENERAL
+            where
+                sub is not null and sub!='' and YEAR(from_unixtime(sent_date))>2013
+            group by
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
+            order by YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
+        '''.format(counts), cursor=DictCursor):
+            data[float(dt["mes"])]={k:int(v or 0) for k,v in dt.items() if k!="mes"}
         return data

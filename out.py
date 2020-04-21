@@ -17,6 +17,7 @@ jHtml.create_script("data/mensual.js", replace=True,
         "actualidad": st.get_data_mensual("status='published' and sub='actualidad'"),
         "estados":st.get_count_mensual(),
         "horas": st.get_horas_mensual(),
+        "categorias": st.get_mes_categorias(),
     },
 )
 
