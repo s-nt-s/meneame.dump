@@ -1,6 +1,5 @@
 SET @cutdate1 := (SELECT max(sent_date)-604800 FROM LINKS);
 SET @cutdate2 := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@cutdate1) ,'%Y-%m-01 00:00:00') as DATETIME)));
-select @cutdate1, @cutdate2, from_unixtime(@cutdate1), from_unixtime(@cutdate2);
 
 UPDATE LINKS set
   `sub` = 'mnm',
