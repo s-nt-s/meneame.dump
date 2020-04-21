@@ -27,7 +27,8 @@ if arg.silent:
 db = DB()
 api = Api()
 tm = ThreadMe(
-    max_thread=30
+    max_thread=30,
+    list_size=2000
 )
 
 def close_out(*args, **kargv):
