@@ -74,6 +74,8 @@ def get_groups(*fields, ok_ids=None):
                 if v not in r[k]:
                     r[k][v]=[]
                 r[k][v].append(i["id"])
+    if len(fields)==1:
+        return r[fields[0]]
     return r
 
 def gW(ids, f="id"):
@@ -81,11 +83,16 @@ def gW(ids, f="id"):
         return f+" = "+str(ids.pop())
     return f+" in %s" % (tuple(sorted(ids)), )
 
-flds=("karma", "sub_karma")
-grp = get_groups(*flds)
-for f in flds:
-    for v, ids in sorted(grp[f].items()):
+
+db=DB()
+grp = get_groups("votes", "negatives")
+for f, gr in sorted(grp.items()):
+    for v, ids in sorted(gr.items()):
+        ids = db.to_list("select id from LINKS where {0} and {1}!={2}".format(gW(ids),f, v))
+        if len(ids)==0:
+            continue
         if len(ids)>1:
             print("--", len(ids))
         print("UPDATE LINKS set {0} = {1} where {2};".format(f, v, gW(ids)))
     print("commit;")
+db.close()

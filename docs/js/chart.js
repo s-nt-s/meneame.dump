@@ -67,6 +67,21 @@ function setGraphChart(obj, dataset) {
             }
         }
     };
+    dat.data.datasets.forEach(function(i){
+      if (!i.pointBackgroundColor) i.pointBackgroundColor=i.borderColor;
+      if (!i.pointBorderColor) i.pointBorderColor=i.borderColor;
+    });
+    if (!obj.show_points) {
+        if (!dat.options.hover) dat.options.hover={};
+        dat.options.hover= {
+          intersect: false,
+          animationDuration: 0
+        };
+        dat.data.datasets.forEach(function(i){
+          i.pointHoverRadius=3;//i.pointRadius;
+          i.pointRadius = 0;
+        });
+    }
     if (obj.x_label) {
       dat.options.scales["xAxes"][0]. scaleLabel= {
         display: true,
@@ -112,6 +127,48 @@ function render_chart() {
     return;
   }
   var prc = t.find("*[name=porcentaje]").val()=="1";
+  if (t.find("*[name=agrupar]").val()=="trimestre") {
+    var _mdl = {
+      "keys": [],
+      "values": []
+    }
+    var re_index={}
+    var last_tri=null;
+    mdl["keys"].forEach(function(item, i) {
+      var lst = _mdl["keys"].length-1;
+      var y=Math.floor(item);
+      var m=(item*100)-(y*100);
+      if (lst==-1 && !(m==1 || m==4 || m==7 || m==10)) return;
+      var t=y + (dcd(m,
+        1,1,2,1,3,1,
+        4,2,5,2,6,2,
+        7,3,8,3,9,3,
+        4
+      )/100);
+      if (lst>=0 && _mdl["keys"][lst]==t) {
+        re_index[i]=lst;
+      } else {
+        _mdl["keys"].push(t);
+        re_index[i]=lst+1;
+      }
+      if (m==3 || m==6 || m==9 || m==12) last_tri=_mdl["keys"].length;
+    })
+    _mdl["keys"]=_mdl["keys"].slice(0, last_tri);
+    mdl["values"].forEach(function(v, i){
+      var new_index = re_index[i];
+      if (new_index==null || new_index>=_mdl["keys"].length) return;
+      var new_value = _mdl["values"][new_index];
+      if (new_value==null) {
+        _mdl["values"].push(v);
+      } else {
+        Object.entries(v).forEach(([key, value]) => {
+            new_value[key]=new_value[key]+value;
+        });
+        _mdl["values"][new_index]=new_value;
+      }
+    });
+    mdl=_mdl;
+  }
   if (prc && t.data("porcentaje")!="0") {
     var _mdl = {
       "keys": mdl["keys"].slice(),
@@ -217,7 +274,7 @@ render_builder={
           borderColor: "green",
           borderWidth: 1
         },{
-          label: "probabilidad de llegar a portada en %",
+          label: "% probabilidad de llegar a portada",
           data: prov,
           fill: false,
           //backgroundColor: d_color.blue.backgroundColor,
@@ -256,7 +313,9 @@ render_builder={
         //backgroundColor: d_color.blue.backgroundColor,
         borderColor: color,
         borderWidth: 1,
-        hidden: k=="autodiscard"
+        hidden: k=="autodiscard",
+        fill: k=="autodiscard",
+        backgroundColor:k=="autodiscard"?color:null
       })
     }
     setGraphChart({
@@ -270,19 +329,22 @@ render_builder={
   },
   "count_categorias_todas": function(obj, prc) {
     var dataset = [];
-    var i, k, kl;
+    var i, k, kl, color;
     var ks = Object.keys(obj["values"][0]);
     var colors = ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
     for (i=0; i<ks.length; i++) {
       k = ks[i];
+      color = colors.slice(prc?1:0)[i] || "grey";
       dataset.push({
         label: k,
         data: gF(obj, k),
         fill: false,
         //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: colors.slice(prc?1:0)[i] || "grey",
+        borderColor: color,
         borderWidth: 1,
-        hidden: k=="mnm" || k=="otros"
+        hidden: k=="mnm" || k=="otros",
+        fill: k=="otros",
+        backgroundColor:k=="otros"?color:null
       })
     }
     setGraphChart({

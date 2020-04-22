@@ -65,10 +65,11 @@ Después, consultaremos una a una las noticias que aún no tenemos vía:
 
 * [meneame.net/backend/info.php?&what=link&id=1&fields=clicks,content,date,karma,negatives,sent_date,status,sub_name,tags,title](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=clicks,content,date,karma,negatives,sent_date,status,sub_name,tags,title)
 * [meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id,sub_status_origen,sub_karma,author](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=url,username,votes,comments,sub_status,sub_status_id,sub_status_origen,sub_karma,author)
+* [meneame.net/backend/info.php?&what=link&id=1&fields=anonymous](https://www.meneame.net/backend/info.php?&what=link&id=1&fields=anonymous)
 
-Siendo `1` el `id` de la noticia en cuestión. (Nota: hay que hacerlo en dos llamadas porque el `endpoint` no acepta más de 10 valores en el parámetro `fields`)
+Siendo `1` el `id` de la noticia en cuestión. (Nota: hay que hacerlo en varias llamadas porque el `endpoint` no acepta más de 10 valores en el parámetro `fields`)
 
-Nota: Más adelante explicaré porque capturo también los campos `sub_*` y `author`
+Nota: Más adelante explicaré porque capturo también los campos `sub_*`, `author` y `anonymous`
 
 Una vez llegado aquí, para obtener los comentarios basta con usar el `endpoint` [meneame.net/api/list.php?rows=2000&id=1](https://www.meneame.net/api/list.php?rows=2000&id=1) (donde `1` es el `id` de la noticia).
 No he considerado necesario buscar un método para obtener comentarios más allá de
@@ -153,3 +154,11 @@ lo ya descrito en el apartado `Conclusiones`.
 Por "suerte", si finalmente vamos a usar `meneame.net/backend/info.php`
 con todos los enlaces podemos recupera el `user_id` con el campo `author`
 y ahorrarnos el otro método indicado más arriba.
+
+En cuanto al campo `anonymous`, este corresponde a los votos de usuarios
+no registrados (y que cuentan siempre como votos positivos) y la necesidad
+de recuperarlo viene de que `meneame.net/api/list.php` devuelve en el
+campo `votes` todos los votos positivos (tanto los de usuarios registrados
+como de los no registrados) mientras que `meneame.net/backend/info.php` lo
+devuelve desglosado (en `votes` los positivos de usuarios registrados
+y en `anonymous` los otros).

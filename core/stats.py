@@ -214,7 +214,7 @@ class Stats:
         counts = ", ".join(counts)
         for dt in self.db.select('''
             select
-                sent_mes,
+                mes,
                 count(id) total,
                 {0}
             from
@@ -222,8 +222,8 @@ class Stats:
             where
                 sub is not null and sub!='' and YEAR(from_unixtime(sent_date))>2013 {1}
             group by
-                sent_mes
-            order by sent_mes
+                mes
+            order by mes
         '''.format(counts, where), cursor=DictCursor):
-            data[float(dt["sent_mes"])]={k:int(v or 0) for k,v in dt.items() if k!="sent_mes"}
+            data[float(dt["mes"])]={k:int(v or 0) for k,v in dt.items() if k!="mes"}
         return data
