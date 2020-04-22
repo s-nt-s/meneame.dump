@@ -54,7 +54,7 @@
       {% for y in years_completos %}
         <option value="{{y}}">{{y}}</option>
       {% endfor %}
-    </select> y mostrando la cantidades como <select name="porcentaje">
+    </select> y mostrando <code>envios</code> y <code>published</code> como <select name="porcentaje">
       <option value="0">promedio de noticias enviadas a la hora</option>
       <option value="1">% de noticias enviadas con respecto al día completo</option>
     </select>
@@ -87,16 +87,19 @@
       (*) Antes de 2014 más del 98% de las noticias estan en la categoría <code>mnm</code>
     <p>
   </div>
-  <h2>¿Qué más me puedes decir?</h2>
+  <h2>¿Hay buen rollo en Menéame?</h2>
   <div class="data">
     <p>Mostrar datos de <select name="modelo">
-      <option value="misce_general">todo (menos autodiscard y abuse)</option>
-      <option value="misce_portada">la portada (published)</option>
-      <option value="misce_actualidad">la portada en la categoría actualidad</option>
+      <option value="karma_general">todos los envios</option>
+      <option value="karma_portada">solo la portada (published)</option>
     </select>
     </p>
     <canvas></canvas>
-    <p>(*) Para las métricas de votos no se tienen en cuenta ni los votos anónimos
-      ni el primer voto de cada noticia (pues corresponde al usuario que envió la noticia).</p>
+    <p>(*) Se han descartado las noticias con un solo voto (pues es el del autor) o <code>autodiscard</code>
+      sin votos negativos (pues probablemente se trate de un envio erroreno).
+      Tampoco se contabilizan los votos anonimos, es decir, solo se tienen en cuenta los votos
+      de usuarios registrados. Tras esto se resta un voto positivo a todas las noticias para
+      no tener en cuenta el voto del propio autor.
+    </p>
   </div>
 </html>

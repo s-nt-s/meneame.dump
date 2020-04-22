@@ -24,7 +24,7 @@ select
   comments,
   `date`,
   sent_date,
-  round((HOUR(from_unixtime(sent_date))*60)+MINUTE(from_unixtime(sent_date)+(SECOND(from_unixtime(sent_date))/60))) minuto, -- minuto del dia
+  round((HOUR(from_unixtime(sent_date))*60)+MINUTE(from_unixtime(sent_date)+(SECOND(from_unixtime(sent_date))/60))) minuto, -- minuto del dia en que se envio
   YEAR(from_unixtime(sent_date+604800))+(WEEKOFYEAR(from_unixtime(sent_date+604800))/100) semana, -- semana en la que se cerro la noticia
   YEAR(from_unixtime(sent_date+604800))+(MONTH(from_unixtime(sent_date+604800))/100) mes, -- mes en el que se cerro la noticia
   YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) sent_mes -- mes en el que se envio la noticia

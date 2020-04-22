@@ -48,6 +48,8 @@ def get_items(ok_ids=None):
                     v = d.get(k)
                     if v is not None and int(v)==v:
                         d[k]=int(v)
+                if d.get("sub_karma") == 0:
+                    d["sub_karma"] = None
                 yield d
 
 def get_info(*fields, ok_ids=None, removeNull=True):
@@ -75,12 +77,15 @@ def get_groups(*fields, ok_ids=None):
     return r
 
 def gW(ids, f="id"):
-    if len(ids)==0:
+    if len(ids)==1:
         return f+" = "+str(ids.pop())
     return f+" in %s" % (tuple(sorted(ids)), )
 
-_ids = [i["id"] for i in get_items() if i["sub_status_id"]==1 and i["id"]>=414633]
-for ids in chunks(sorted(_ids), 200000):
-    print("--", len(ids))
-    print("UPDATE LINKS set sub_status_id = 1 where {0};".format(gW(ids)))
-print("commit;")
+flds=("karma", "sub_karma")
+grp = get_groups(*flds)
+for f in flds:
+    for v, ids in sorted(grp[f].items()):
+        if len(ids)>1:
+            print("--", len(ids))
+        print("UPDATE LINKS set {0} = {1} where {2};".format(f, v, gW(ids)))
+    print("commit;")

@@ -146,18 +146,6 @@ $(document).ready(function(){
     $(this).closest("div.data").trigger("render");
   });
   $("div.data").trigger("render");
-  /*
-  return;
-  chartMensual();
-  chartConteo();
-  chartDiaNormal();
-  chartCategoria();
-  $("#tipoMensual").change(function(){chartMensual(this.value)})
-  $("#tipoConteo").change(function(){chartConteo(this.value)})
-  $("#tipoDiaNormal").change(function(){chartDiaNormal(this.value)})
-  $("#yearsDiaNormal").change(function(){chartDiaNormal()})
-  $("#tipoCategoria,#tipoCategoriaPortada").change(function(){chartCategoria()})
-  */
 })
 
 render_builder={
@@ -202,6 +190,9 @@ render_builder={
       })
       var td = gF(data, "todas", (prc?2:null));
       var pb = gF(data, "published", (prc?2:null));
+      var prov = zip_arr(prc?gF(data, "todas"):td, prc?gF(data, "published"):pb, function (tot, pub) {
+        return Math.round((pub/tot)*10000)/100;
+      })
       if (!prc) {
         var rnd=function(x) {
           var a=x/divisor;
@@ -224,6 +215,13 @@ render_builder={
           fill: false,
           //backgroundColor: d_color.blue.backgroundColor,
           borderColor: "green",
+          borderWidth: 1
+        },{
+          label: "probabilidad de llegar a portada en %",
+          data: prov,
+          fill: false,
+          //backgroundColor: d_color.blue.backgroundColor,
+          borderColor: "orange",
           borderWidth: 1
         }
       ];
@@ -296,7 +294,7 @@ render_builder={
         destroy:true
     }, dataset);
   },
-  "misce_general": function (obj, prc) {
+  "karma_general": function (obj, prc) {
     var labels = obj["keys"].map(function(x) {return x.toFixed(2);})
     var dataset = [{
         label: "% votos negativos",
@@ -318,7 +316,7 @@ render_builder={
         backgroundColor: d_color.blue.backgroundColor,
         borderColor: d_color.blue.borderColor,
         borderWidth: 1
-      },*/{
+      },{
         label: "Comentarios (media)",
         data: gF(obj, "comments"),
         fill: false,
@@ -326,7 +324,7 @@ render_builder={
         borderColor: "green",
         borderWidth: 1,
         hidden: true
-      }/*,{
+      },{
         label: "Noticias",
         data: gF(obj, "noticias"),
         fill: false,
@@ -346,6 +344,4 @@ render_builder={
   }
 }
 render_builder["count_categorias_published"] = render_builder["count_categorias_todas"];
-render_builder["misce_general"] = render_builder["misce_general"];
-render_builder["misce_portada"] = render_builder["misce_general"];
-render_builder["misce_actualidad"] = render_builder["misce_general"];
+render_builder["karma_portada"] = render_builder["karma_general"];

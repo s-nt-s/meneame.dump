@@ -120,9 +120,11 @@ class Stats:
             }
         }
 
-    def get_data_mensual(self, where=None):
+    def get_karma(self, where=None):
         if where is None:
-            where = "status not in ('autodiscard', 'abuse')"
+            where = ""
+        else:
+            where = " and "+where
         data={}
         for dt in self.db.select('''
         select
@@ -143,12 +145,13 @@ class Stats:
             from
                 GENERAL
             where
-              (votes>1 or negatives>0) -- si solo esta el voto del autor, la noticia no la 'vio' nadie
-              and {0}
+              (votes>1 or negatives>0) and -- si solo esta el voto del autor, la noticia no la 'vio' nadie
+              not(status='autodiscard' and negatives=0) -- si se autodescarto sin negativos seria un error
+              {0}
             group by
                 mes
         ) T
-        '''.format(where), cursor=DictCursor):
+        '''.format(where or ""), cursor=DictCursor):
             data[float(dt["mes"])]={k:float(v) for k,v in dt.items() if k!="mes"}
         return data
 
@@ -211,7 +214,7 @@ class Stats:
         counts = ", ".join(counts)
         for dt in self.db.select('''
             select
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
+                sent_mes,
                 count(id) total,
                 {0}
             from
@@ -219,8 +222,8 @@ class Stats:
             where
                 sub is not null and sub!='' and YEAR(from_unixtime(sent_date))>2013 {1}
             group by
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
-            order by YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
+                sent_mes
+            order by sent_mes
         '''.format(counts, where), cursor=DictCursor):
-            data[float(dt["mes"])]={k:int(v or 0) for k,v in dt.items() if k!="mes"}
+            data[float(dt["sent_mes"])]={k:int(v or 0) for k,v in dt.items() if k!="sent_mes"}
         return data
