@@ -70,6 +70,16 @@
     </select>
     </p>
     <canvas></canvas>
+    <p>
+      <label>Unidad temporal:</label>
+      <select name="agrupar">
+        <option value="">mes</option>
+        <option value="trimestre" selected="selected">trimestre</option>
+        <!--option value="cuatrimestre">cuatrimestre</option-->
+        <option value="semestre">semestre</option>
+        <option value="year">anual</option>
+      </select>
+    </p>
   </div>
   <h2>¿Cuántas noticias hay por categoría/sub?</h2>
   <div class="data">
@@ -84,17 +94,37 @@
     </p>
     <canvas></canvas>
     <p>
+      <label>Unidad temporal:</label>
+      <select name="agrupar">
+        <option value="">mes</option>
+        <option value="trimestre" selected="selected">trimestre</option>
+        <!--option value="cuatrimestre">cuatrimestre</option-->
+        <option value="semestre">semestre</option>
+        <option value="year">anual</option>
+      </select>
+    </p>
+    <p>
       (*) Antes de 2014 más del 98% de las noticias estan en la categoría <code>mnm</code>
     <p>
   </div>
   <h2>¿Hay buen rollo en Menéame?</h2>
   <div class="data">
     <p>Mostrar datos de <select name="modelo">
-      <option value="karma_general">todos los envios</option>
       <option value="karma_portada">solo la portada (published)</option>
+      <option value="karma_general">todos los envios</option>
     </select>
     </p>
     <canvas></canvas>
+    <p>
+      <label>Unidad temporal:</label>
+      <select name="agrupar">
+        <option value="">mes</option>
+        <option value="trimestre" selected="selected">trimestre</option>
+        <!--option value="cuatrimestre">cuatrimestre</option-->
+        <option value="semestre">semestre</option>
+        <option value="year">anual</option>
+      </select>
+    </p>
     <p>(*) Se han descartado las noticias con un solo voto (pues es el del autor) o <code>autodiscard</code>
       sin votos negativos (pues probablemente se trate de un envio erroreno).
       Tampoco se contabilizan los votos anonimos, es decir, solo se tienen en cuenta los votos

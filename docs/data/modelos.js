@@ -2,2069 +2,1725 @@ var modelos = {
   "karma_general": {
     "2005.12": {
       "karma": 63.0,
-      "positives": 95.83,
-      "negatives": 4.17,
-      "comments": 1.0
+      "positives": 35384.0,
+      "negatives": 1541.0
     },
     "2006.01": {
       "karma": 79.0,
-      "positives": 93.98,
-      "negatives": 6.02,
-      "comments": 2.0
+      "positives": 71910.0,
+      "negatives": 4609.0
     },
     "2006.02": {
       "karma": 91.0,
-      "positives": 93.2,
-      "negatives": 6.8,
-      "comments": 3.0
+      "positives": 81382.0,
+      "negatives": 5938.0
     },
     "2006.03": {
       "karma": 77.0,
-      "positives": 93.46,
-      "negatives": 6.54,
-      "comments": 4.0
+      "positives": 91977.0,
+      "negatives": 6438.0
     },
     "2006.04": {
       "karma": 96.0,
-      "positives": 93.48,
-      "negatives": 6.52,
-      "comments": 4.0
+      "positives": 114841.0,
+      "negatives": 8008.0
     },
     "2006.05": {
       "karma": 129.0,
-      "positives": 92.81,
-      "negatives": 7.19,
-      "comments": 5.0
+      "positives": 152305.0,
+      "negatives": 11801.0
     },
     "2006.06": {
       "karma": 170.0,
-      "positives": 91.18,
-      "negatives": 8.82,
-      "comments": 6.0
+      "positives": 172635.0,
+      "negatives": 16708.0
     },
     "2006.07": {
       "karma": 193.0,
-      "positives": 90.93,
-      "negatives": 9.07,
-      "comments": 5.0
+      "positives": 175493.0,
+      "negatives": 17498.0
     },
     "2006.08": {
       "karma": 194.0,
-      "positives": 90.85,
-      "negatives": 9.15,
-      "comments": 6.0
+      "positives": 210793.0,
+      "negatives": 21242.0
     },
     "2006.09": {
       "karma": 186.0,
-      "positives": 90.17,
-      "negatives": 9.83,
-      "comments": 6.0
+      "positives": 256878.0,
+      "negatives": 28017.0
     },
     "2006.1": {
       "karma": 188.0,
-      "positives": 90.84,
-      "negatives": 9.16,
-      "comments": 5.0
+      "positives": 313450.0,
+      "negatives": 31608.0
     },
     "2006.11": {
       "karma": 191.0,
-      "positives": 91.5,
-      "negatives": 8.5,
-      "comments": 5.0
+      "positives": 371091.0,
+      "negatives": 34464.0
     },
     "2006.12": {
       "karma": 168.0,
-      "positives": 91.34,
-      "negatives": 8.66,
-      "comments": 5.0
+      "positives": 380035.0,
+      "negatives": 36035.0
     },
     "2007.01": {
       "karma": 170.0,
-      "positives": 92.3,
-      "negatives": 7.7,
-      "comments": 5.0
+      "positives": 568408.0,
+      "negatives": 47426.0
     },
     "2007.02": {
       "karma": 163.0,
-      "positives": 92.44,
-      "negatives": 7.56,
-      "comments": 5.0
+      "positives": 544374.0,
+      "negatives": 44501.0
     },
     "2007.03": {
       "karma": 166.0,
-      "positives": 92.38,
-      "negatives": 7.62,
-      "comments": 5.0
+      "positives": 631152.0,
+      "negatives": 52072.0
     },
     "2007.04": {
       "karma": 167.0,
-      "positives": 91.89,
-      "negatives": 8.11,
-      "comments": 5.0
+      "positives": 600354.0,
+      "negatives": 52985.0
     },
     "2007.05": {
       "karma": 147.0,
-      "positives": 92.5,
-      "negatives": 7.5,
-      "comments": 5.0
+      "positives": 732825.0,
+      "negatives": 59416.0
     },
     "2007.06": {
       "karma": 158.0,
-      "positives": 91.75,
-      "negatives": 8.25,
-      "comments": 6.0
+      "positives": 660403.0,
+      "negatives": 59397.0
     },
     "2007.07": {
       "karma": 168.0,
-      "positives": 89.1,
-      "negatives": 10.9,
-      "comments": 6.0
+      "positives": 451052.0,
+      "negatives": 55153.0
     },
     "2007.08": {
       "karma": 163.0,
-      "positives": 87.17,
-      "negatives": 12.83,
-      "comments": 6.0
+      "positives": 419051.0,
+      "negatives": 61678.0
     },
     "2007.09": {
       "karma": 152.0,
-      "positives": 87.78,
-      "negatives": 12.22,
-      "comments": 6.0
+      "positives": 489799.0,
+      "negatives": 68210.0
     },
     "2007.1": {
       "karma": 160.0,
-      "positives": 88.82,
-      "negatives": 11.18,
-      "comments": 6.0
+      "positives": 534719.0,
+      "negatives": 67298.0
     },
     "2007.11": {
       "karma": 148.0,
-      "positives": 89.33,
-      "negatives": 10.67,
-      "comments": 6.0
+      "positives": 524361.0,
+      "negatives": 62608.0
     },
     "2007.12": {
       "karma": 139.0,
-      "positives": 90.24,
-      "negatives": 9.76,
-      "comments": 7.0
+      "positives": 463018.0,
+      "negatives": 50106.0
     },
     "2008.01": {
       "karma": 146.0,
-      "positives": 91.01,
-      "negatives": 8.99,
-      "comments": 8.0
+      "positives": 553603.0,
+      "negatives": 54696.0
     },
     "2008.02": {
       "karma": 145.0,
-      "positives": 91.72,
-      "negatives": 8.28,
-      "comments": 8.0
+      "positives": 585760.0,
+      "negatives": 52861.0
     },
     "2008.03": {
       "karma": 131.0,
-      "positives": 91.55,
-      "negatives": 8.45,
-      "comments": 8.0
+      "positives": 557186.0,
+      "negatives": 51439.0
     },
     "2008.04": {
       "karma": 113.0,
-      "positives": 91.25,
-      "negatives": 8.75,
-      "comments": 7.0
+      "positives": 515737.0,
+      "negatives": 49462.0
     },
     "2008.05": {
       "karma": 103.0,
-      "positives": 89.46,
-      "negatives": 10.54,
-      "comments": 8.0
+      "positives": 516700.0,
+      "negatives": 60867.0
     },
     "2008.06": {
       "karma": 118.0,
-      "positives": 90.43,
-      "negatives": 9.57,
-      "comments": 9.0
+      "positives": 591647.0,
+      "negatives": 62586.0
     },
     "2008.07": {
       "karma": 125.0,
-      "positives": 91.58,
-      "negatives": 8.42,
-      "comments": 9.0
+      "positives": 556873.0,
+      "negatives": 51224.0
     },
     "2008.08": {
       "karma": 137.0,
-      "positives": 91.21,
-      "negatives": 8.79,
-      "comments": 10.0
+      "positives": 540244.0,
+      "negatives": 52080.0
     },
     "2008.09": {
       "karma": 121.0,
-      "positives": 91.65,
-      "negatives": 8.35,
-      "comments": 10.0
+      "positives": 602708.0,
+      "negatives": 54890.0
     },
     "2008.1": {
       "karma": 106.0,
-      "positives": 91.82,
-      "negatives": 8.18,
-      "comments": 8.0
+      "positives": 578310.0,
+      "negatives": 51507.0
     },
     "2008.11": {
       "karma": 111.0,
-      "positives": 92.37,
-      "negatives": 7.63,
-      "comments": 9.0
+      "positives": 526885.0,
+      "negatives": 43531.0
     },
     "2008.12": {
       "karma": 113.0,
-      "positives": 92.78,
-      "negatives": 7.22,
-      "comments": 9.0
+      "positives": 508902.0,
+      "negatives": 39619.0
     },
     "2009.01": {
       "karma": 131.0,
-      "positives": 93.12,
-      "negatives": 6.88,
-      "comments": 9.0
+      "positives": 617326.0,
+      "negatives": 45635.0
     },
     "2009.02": {
       "karma": 125.0,
-      "positives": 93.62,
-      "negatives": 6.38,
-      "comments": 9.0
+      "positives": 604913.0,
+      "negatives": 41211.0
     },
     "2009.03": {
       "karma": 123.0,
-      "positives": 93.8,
-      "negatives": 6.2,
-      "comments": 9.0
+      "positives": 610316.0,
+      "negatives": 40355.0
     },
     "2009.04": {
       "karma": 122.0,
-      "positives": 92.98,
-      "negatives": 7.02,
-      "comments": 9.0
+      "positives": 622848.0,
+      "negatives": 46992.0
     },
     "2009.05": {
       "karma": 123.0,
-      "positives": 93.34,
-      "negatives": 6.66,
-      "comments": 9.0
+      "positives": 614414.0,
+      "negatives": 43837.0
     },
     "2009.06": {
       "karma": 119.0,
-      "positives": 93.11,
-      "negatives": 6.89,
-      "comments": 9.0
+      "positives": 595170.0,
+      "negatives": 44019.0
     },
     "2009.07": {
       "karma": 119.0,
-      "positives": 92.77,
-      "negatives": 7.23,
-      "comments": 9.0
+      "positives": 539037.0,
+      "negatives": 42038.0
     },
     "2009.08": {
       "karma": 116.0,
-      "positives": 92.01,
-      "negatives": 7.99,
-      "comments": 10.0
+      "positives": 496187.0,
+      "negatives": 43096.0
     },
     "2009.09": {
       "karma": 102.0,
-      "positives": 91.65,
-      "negatives": 8.35,
-      "comments": 9.0
+      "positives": 527744.0,
+      "negatives": 48054.0
     },
     "2009.1": {
       "karma": 100.0,
-      "positives": 91.94,
-      "negatives": 8.06,
-      "comments": 9.0
+      "positives": 555031.0,
+      "negatives": 48660.0
     },
     "2009.11": {
       "karma": 100.0,
-      "positives": 91.49,
-      "negatives": 8.51,
-      "comments": 9.0
+      "positives": 538591.0,
+      "negatives": 50070.0
     },
     "2009.12": {
       "karma": 96.0,
-      "positives": 91.37,
-      "negatives": 8.63,
-      "comments": 9.0
+      "positives": 539346.0,
+      "negatives": 50955.0
     },
     "2010.01": {
       "karma": 102.0,
-      "positives": 91.37,
-      "negatives": 8.63,
-      "comments": 9.0
+      "positives": 602780.0,
+      "negatives": 56963.0
     },
     "2010.02": {
       "karma": 92.0,
-      "positives": 91.57,
-      "negatives": 8.43,
-      "comments": 8.0
+      "positives": 514474.0,
+      "negatives": 47393.0
     },
     "2010.03": {
       "karma": 97.0,
-      "positives": 92.26,
-      "negatives": 7.74,
-      "comments": 8.0
+      "positives": 599237.0,
+      "negatives": 50245.0
     },
     "2010.04": {
       "karma": 94.0,
-      "positives": 91.49,
-      "negatives": 8.51,
-      "comments": 8.0
+      "positives": 533618.0,
+      "negatives": 49618.0
     },
     "2010.05": {
       "karma": 99.0,
-      "positives": 91.64,
-      "negatives": 8.36,
-      "comments": 9.0
+      "positives": 630452.0,
+      "negatives": 57499.0
     },
     "2010.06": {
       "karma": 99.0,
-      "positives": 91.79,
-      "negatives": 8.21,
-      "comments": 9.0
+      "positives": 622258.0,
+      "negatives": 55681.0
     },
     "2010.07": {
       "karma": 108.0,
-      "positives": 91.06,
-      "negatives": 8.94,
-      "comments": 10.0
+      "positives": 569354.0,
+      "negatives": 55880.0
     },
     "2010.08": {
       "karma": 106.0,
-      "positives": 91.32,
-      "negatives": 8.68,
-      "comments": 9.0
+      "positives": 486425.0,
+      "negatives": 46224.0
     },
     "2010.09": {
       "karma": 95.0,
-      "positives": 90.73,
-      "negatives": 9.27,
-      "comments": 9.0
+      "positives": 497152.0,
+      "negatives": 50823.0
     },
     "2010.1": {
       "karma": 76.0,
-      "positives": 90.44,
-      "negatives": 9.56,
-      "comments": 9.0
+      "positives": 434836.0,
+      "negatives": 45980.0
     },
     "2010.11": {
       "karma": 70.0,
-      "positives": 90.53,
-      "negatives": 9.47,
-      "comments": 8.0
+      "positives": 441749.0,
+      "negatives": 46183.0
     },
     "2010.12": {
       "karma": 77.0,
-      "positives": 91.44,
-      "negatives": 8.56,
-      "comments": 9.0
+      "positives": 552503.0,
+      "negatives": 51741.0
     },
     "2011.01": {
       "karma": 75.0,
-      "positives": 91.46,
-      "negatives": 8.54,
-      "comments": 8.0
+      "positives": 540964.0,
+      "negatives": 50539.0
     },
     "2011.02": {
       "karma": 74.0,
-      "positives": 92.25,
-      "negatives": 7.75,
-      "comments": 8.0
+      "positives": 548557.0,
+      "negatives": 46097.0
     },
     "2011.03": {
       "karma": 72.0,
-      "positives": 91.42,
-      "negatives": 8.58,
-      "comments": 8.0
+      "positives": 604366.0,
+      "negatives": 56728.0
     },
     "2011.04": {
       "karma": 71.0,
-      "positives": 91.0,
-      "negatives": 9.0,
-      "comments": 9.0
+      "positives": 504202.0,
+      "negatives": 49851.0
     },
     "2011.05": {
       "karma": 80.0,
-      "positives": 91.92,
-      "negatives": 8.08,
-      "comments": 9.0
+      "positives": 771254.0,
+      "negatives": 67828.0
     },
     "2011.06": {
       "karma": 80.0,
-      "positives": 92.06,
-      "negatives": 7.94,
-      "comments": 9.0
+      "positives": 683094.0,
+      "negatives": 58889.0
     },
     "2011.07": {
       "karma": 80.0,
-      "positives": 91.68,
-      "negatives": 8.32,
-      "comments": 9.0
+      "positives": 539359.0,
+      "negatives": 48930.0
     },
     "2011.08": {
       "karma": 71.0,
-      "positives": 90.33,
-      "negatives": 9.67,
-      "comments": 9.0
+      "positives": 511764.0,
+      "negatives": 54777.0
     },
     "2011.09": {
       "karma": 65.0,
-      "positives": 90.14,
-      "negatives": 9.86,
-      "comments": 9.0
+      "positives": 536866.0,
+      "negatives": 58747.0
     },
     "2011.1": {
       "karma": 68.0,
-      "positives": 90.6,
-      "negatives": 9.4,
-      "comments": 9.0
+      "positives": 577518.0,
+      "negatives": 59896.0
     },
     "2011.11": {
       "karma": 68.0,
-      "positives": 90.57,
-      "negatives": 9.43,
-      "comments": 9.0
+      "positives": 613805.0,
+      "negatives": 63882.0
     },
     "2011.12": {
       "karma": 66.0,
-      "positives": 90.6,
-      "negatives": 9.4,
-      "comments": 8.0
+      "positives": 532589.0,
+      "negatives": 55235.0
     },
     "2012.01": {
       "karma": 68.0,
-      "positives": 89.23,
-      "negatives": 10.77,
-      "comments": 9.0
+      "positives": 631331.0,
+      "negatives": 76191.0
     },
     "2012.02": {
       "karma": 74.0,
-      "positives": 88.75,
-      "negatives": 11.25,
-      "comments": 9.0
+      "positives": 636636.0,
+      "negatives": 80672.0
     },
     "2012.03": {
       "karma": 59.0,
-      "positives": 88.36,
-      "negatives": 11.64,
-      "comments": 9.0
+      "positives": 562302.0,
+      "negatives": 74080.0
     },
     "2012.04": {
       "karma": 69.0,
-      "positives": 90.03,
-      "negatives": 9.97,
-      "comments": 9.0
+      "positives": 622290.0,
+      "negatives": 68878.0
     },
     "2012.05": {
       "karma": 75.0,
-      "positives": 90.9,
-      "negatives": 9.1,
-      "comments": 9.0
+      "positives": 707964.0,
+      "negatives": 70879.0
     },
     "2012.06": {
       "karma": 72.0,
-      "positives": 90.71,
-      "negatives": 9.29,
-      "comments": 10.0
+      "positives": 646968.0,
+      "negatives": 66276.0
     },
     "2012.07": {
       "karma": 84.0,
-      "positives": 91.83,
-      "negatives": 8.17,
-      "comments": 10.0
+      "positives": 721258.0,
+      "negatives": 64128.0
     },
     "2012.08": {
       "karma": 78.0,
-      "positives": 89.65,
-      "negatives": 10.35,
-      "comments": 11.0
+      "positives": 536589.0,
+      "negatives": 61957.0
     },
     "2012.09": {
       "karma": 81.0,
-      "positives": 90.8,
-      "negatives": 9.2,
-      "comments": 11.0
+      "positives": 648229.0,
+      "negatives": 65714.0
     },
     "2012.1": {
       "karma": 74.0,
-      "positives": 89.46,
-      "negatives": 10.54,
-      "comments": 10.0
+      "positives": 614395.0,
+      "negatives": 72398.0
     },
     "2012.11": {
       "karma": 65.0,
-      "positives": 89.21,
-      "negatives": 10.79,
-      "comments": 9.0
+      "positives": 586439.0,
+      "negatives": 70915.0
     },
     "2012.12": {
       "karma": 73.0,
-      "positives": 90.15,
-      "negatives": 9.85,
-      "comments": 9.0
+      "positives": 499764.0,
+      "negatives": 54621.0
     },
     "2013.01": {
       "karma": 64.0,
-      "positives": 89.9,
-      "negatives": 10.1,
-      "comments": 9.0
+      "positives": 596663.0,
+      "negatives": 67058.0
     },
     "2013.02": {
       "karma": 72.0,
-      "positives": 90.01,
-      "negatives": 9.99,
-      "comments": 9.0
+      "positives": 594206.0,
+      "negatives": 65979.0
     },
     "2013.03": {
       "karma": 67.0,
-      "positives": 88.52,
-      "negatives": 11.48,
-      "comments": 9.0
+      "positives": 523378.0,
+      "negatives": 67902.0
     },
     "2013.04": {
       "karma": 60.0,
-      "positives": 87.01,
-      "negatives": 12.99,
-      "comments": 9.0
+      "positives": 550117.0,
+      "negatives": 82159.0
     },
     "2013.05": {
       "karma": 67.0,
-      "positives": 88.22,
-      "negatives": 11.78,
-      "comments": 9.0
+      "positives": 541416.0,
+      "negatives": 72285.0
     },
     "2013.06": {
       "karma": 74.0,
-      "positives": 89.69,
-      "negatives": 10.31,
-      "comments": 10.0
+      "positives": 514174.0,
+      "negatives": 59085.0
     },
     "2013.07": {
       "karma": 80.0,
-      "positives": 89.48,
-      "negatives": 10.52,
-      "comments": 11.0
+      "positives": 544002.0,
+      "negatives": 63954.0
     },
     "2013.08": {
       "karma": 87.0,
-      "positives": 88.51,
-      "negatives": 11.49,
-      "comments": 11.0
+      "positives": 443555.0,
+      "negatives": 57578.0
     },
     "2013.09": {
       "karma": 77.0,
-      "positives": 88.33,
-      "negatives": 11.67,
-      "comments": 11.0
+      "positives": 466349.0,
+      "negatives": 61610.0
     },
     "2013.1": {
       "karma": 63.0,
-      "positives": 87.6,
-      "negatives": 12.4,
-      "comments": 10.0
+      "positives": 431332.0,
+      "negatives": 61074.0
     },
     "2013.11": {
       "karma": 63.0,
-      "positives": 87.23,
-      "negatives": 12.77,
-      "comments": 10.0
+      "positives": 368423.0,
+      "negatives": 53920.0
     },
     "2013.12": {
       "karma": 76.0,
-      "positives": 88.18,
-      "negatives": 11.82,
-      "comments": 10.0
+      "positives": 389199.0,
+      "negatives": 52154.0
     },
     "2014.01": {
       "karma": 69.0,
-      "positives": 87.3,
-      "negatives": 12.7,
-      "comments": 10.0
+      "positives": 428511.0,
+      "negatives": 62319.0
     },
     "2014.02": {
       "karma": 65.0,
-      "positives": 86.61,
-      "negatives": 13.39,
-      "comments": 10.0
+      "positives": 405438.0,
+      "negatives": 62707.0
     },
     "2014.03": {
       "karma": 62.0,
-      "positives": 86.17,
-      "negatives": 13.83,
-      "comments": 10.0
+      "positives": 392215.0,
+      "negatives": 62933.0
     },
     "2014.04": {
       "karma": 57.0,
-      "positives": 86.22,
-      "negatives": 13.78,
-      "comments": 10.0
+      "positives": 339517.0,
+      "negatives": 54274.0
     },
     "2014.05": {
       "karma": 74.0,
-      "positives": 87.26,
-      "negatives": 12.74,
-      "comments": 11.0
+      "positives": 428973.0,
+      "negatives": 62627.0
     },
     "2014.06": {
       "karma": 69.0,
-      "positives": 87.12,
-      "negatives": 12.88,
-      "comments": 12.0
+      "positives": 460809.0,
+      "negatives": 68144.0
     },
     "2014.07": {
       "karma": 72.0,
-      "positives": 88.26,
-      "negatives": 11.74,
-      "comments": 12.0
+      "positives": 435705.0,
+      "negatives": 57956.0
     },
     "2014.08": {
       "karma": 62.0,
-      "positives": 86.07,
-      "negatives": 13.93,
-      "comments": 13.0
+      "positives": 368571.0,
+      "negatives": 59642.0
     },
     "2014.09": {
       "karma": 53.0,
-      "positives": 83.8,
-      "negatives": 16.2,
-      "comments": 14.0
+      "positives": 394684.0,
+      "negatives": 76319.0
     },
     "2014.1": {
       "karma": 66.0,
-      "positives": 87.44,
-      "negatives": 12.56,
-      "comments": 13.0
+      "positives": 494132.0,
+      "negatives": 70978.0
     },
     "2014.11": {
       "karma": 67.0,
-      "positives": 88.1,
-      "negatives": 11.9,
-      "comments": 13.0
+      "positives": 429468.0,
+      "negatives": 58000.0
     },
     "2014.12": {
       "karma": 63.0,
-      "positives": 87.79,
-      "negatives": 12.21,
-      "comments": 12.0
+      "positives": 392615.0,
+      "negatives": 54607.0
     },
     "2015.01": {
       "karma": 66.0,
-      "positives": 87.32,
-      "negatives": 12.68,
-      "comments": 13.0
+      "positives": 420136.0,
+      "negatives": 61028.0
     },
     "2015.02": {
       "karma": 63.0,
-      "positives": 87.42,
-      "negatives": 12.58,
-      "comments": 13.0
+      "positives": 404374.0,
+      "negatives": 58201.0
     },
     "2015.03": {
       "karma": 57.0,
-      "positives": 87.07,
-      "negatives": 12.93,
-      "comments": 14.0
+      "positives": 406198.0,
+      "negatives": 60328.0
     },
     "2015.04": {
       "karma": 55.0,
-      "positives": 86.83,
-      "negatives": 13.17,
-      "comments": 14.0
+      "positives": 374797.0,
+      "negatives": 56826.0
     },
     "2015.05": {
       "karma": 64.0,
-      "positives": 88.33,
-      "negatives": 11.67,
-      "comments": 15.0
+      "positives": 462638.0,
+      "negatives": 61127.0
     },
     "2015.06": {
       "karma": 65.0,
-      "positives": 87.81,
-      "negatives": 12.19,
-      "comments": 17.0
+      "positives": 416013.0,
+      "negatives": 57774.0
     },
     "2015.07": {
       "karma": 58.0,
-      "positives": 87.07,
-      "negatives": 12.93,
-      "comments": 18.0
+      "positives": 378538.0,
+      "negatives": 56193.0
     },
     "2015.08": {
       "karma": 55.0,
-      "positives": 85.96,
-      "negatives": 14.04,
-      "comments": 17.0
+      "positives": 313481.0,
+      "negatives": 51186.0
     },
     "2015.09": {
       "karma": 54.0,
-      "positives": 85.37,
-      "negatives": 14.63,
-      "comments": 19.0
+      "positives": 316499.0,
+      "negatives": 54245.0
     },
     "2015.1": {
       "karma": 59.0,
-      "positives": 87.1,
-      "negatives": 12.9,
-      "comments": 17.0
+      "positives": 363624.0,
+      "negatives": 53845.0
     },
     "2015.11": {
       "karma": 44.0,
-      "positives": 85.2,
-      "negatives": 14.8,
-      "comments": 18.0
+      "positives": 356248.0,
+      "negatives": 61896.0
     },
     "2015.12": {
       "karma": 51.0,
-      "positives": 85.9,
-      "negatives": 14.1,
-      "comments": 17.0
+      "positives": 389524.0,
+      "negatives": 63946.0
     },
     "2016.01": {
       "karma": 50.0,
-      "positives": 85.97,
-      "negatives": 14.03,
-      "comments": 18.0
+      "positives": 395201.0,
+      "negatives": 64494.0
     },
     "2016.02": {
       "karma": 56.0,
-      "positives": 87.03,
-      "negatives": 12.97,
-      "comments": 17.0
+      "positives": 411678.0,
+      "negatives": 61375.0
     },
     "2016.03": {
       "karma": 59.0,
-      "positives": 86.43,
-      "negatives": 13.57,
-      "comments": 18.0
+      "positives": 358221.0,
+      "negatives": 56222.0
     },
     "2016.04": {
       "karma": 61.0,
-      "positives": 87.64,
-      "negatives": 12.36,
-      "comments": 17.0
+      "positives": 391131.0,
+      "negatives": 55177.0
     },
     "2016.05": {
       "karma": 63.0,
-      "positives": 86.54,
-      "negatives": 13.46,
-      "comments": 18.0
+      "positives": 410822.0,
+      "negatives": 63881.0
     },
     "2016.06": {
       "karma": 71.0,
-      "positives": 86.18,
-      "negatives": 13.82,
-      "comments": 21.0
+      "positives": 422230.0,
+      "negatives": 67703.0
     },
     "2016.07": {
       "karma": 68.0,
-      "positives": 87.3,
-      "negatives": 12.7,
-      "comments": 21.0
+      "positives": 344845.0,
+      "negatives": 50153.0
     },
     "2016.08": {
       "karma": 63.0,
-      "positives": 84.38,
-      "negatives": 15.62,
-      "comments": 20.0
+      "positives": 291145.0,
+      "negatives": 53908.0
     },
     "2016.09": {
       "karma": 59.0,
-      "positives": 84.07,
-      "negatives": 15.93,
-      "comments": 19.0
+      "positives": 315778.0,
+      "negatives": 59852.0
     },
     "2016.1": {
       "karma": 55.0,
-      "positives": 83.82,
-      "negatives": 16.18,
-      "comments": 20.0
+      "positives": 317019.0,
+      "negatives": 61200.0
     },
     "2016.11": {
       "karma": 46.0,
-      "positives": 83.46,
-      "negatives": 16.54,
-      "comments": 19.0
+      "positives": 291247.0,
+      "negatives": 57712.0
     },
     "2016.12": {
       "karma": 47.0,
-      "positives": 83.95,
-      "negatives": 16.05,
-      "comments": 19.0
+      "positives": 267571.0,
+      "negatives": 51160.0
     },
     "2017.01": {
       "karma": 40.0,
-      "positives": 83.37,
-      "negatives": 16.63,
-      "comments": 19.0
+      "positives": 275890.0,
+      "negatives": 55014.0
     },
     "2017.02": {
       "karma": 42.0,
-      "positives": 85.39,
-      "negatives": 14.61,
-      "comments": 19.0
+      "positives": 270392.0,
+      "negatives": 46281.0
     },
     "2017.03": {
       "karma": 39.0,
-      "positives": 84.96,
-      "negatives": 15.04,
-      "comments": 18.0
+      "positives": 282969.0,
+      "negatives": 50089.0
     },
     "2017.04": {
       "karma": 47.0,
-      "positives": 86.29,
-      "negatives": 13.71,
-      "comments": 19.0
+      "positives": 302179.0,
+      "negatives": 47991.0
     },
     "2017.05": {
       "karma": 55.0,
-      "positives": 85.38,
-      "negatives": 14.62,
-      "comments": 20.0
+      "positives": 324330.0,
+      "negatives": 55534.0
     },
     "2017.06": {
       "karma": 53.0,
-      "positives": 85.77,
-      "negatives": 14.23,
-      "comments": 21.0
+      "positives": 296272.0,
+      "negatives": 49140.0
     },
     "2017.07": {
       "karma": 45.0,
-      "positives": 84.06,
-      "negatives": 15.94,
-      "comments": 20.0
+      "positives": 255246.0,
+      "negatives": 48408.0
     },
     "2017.08": {
       "karma": 46.0,
-      "positives": 83.12,
-      "negatives": 16.88,
-      "comments": 23.0
+      "positives": 251988.0,
+      "negatives": 51165.0
     },
     "2017.09": {
       "karma": 39.0,
-      "positives": 81.78,
-      "negatives": 18.22,
-      "comments": 23.0
+      "positives": 286091.0,
+      "negatives": 63746.0
     },
     "2017.1": {
       "karma": 58.0,
-      "positives": 83.38,
-      "negatives": 16.62,
-      "comments": 27.0
+      "positives": 399103.0,
+      "negatives": 79535.0
     },
     "2017.11": {
       "karma": 56.0,
-      "positives": 85.9,
-      "negatives": 14.1,
-      "comments": 20.0
+      "positives": 322564.0,
+      "negatives": 52946.0
     },
     "2017.12": {
       "karma": 54.0,
-      "positives": 85.37,
-      "negatives": 14.63,
-      "comments": 20.0
+      "positives": 255190.0,
+      "negatives": 43721.0
     },
     "2018.01": {
       "karma": 58.0,
-      "positives": 86.04,
-      "negatives": 13.96,
-      "comments": 21.0
+      "positives": 300435.0,
+      "negatives": 48765.0
     },
     "2018.02": {
       "karma": 61.0,
-      "positives": 86.41,
-      "negatives": 13.59,
-      "comments": 21.0
+      "positives": 291051.0,
+      "negatives": 45769.0
     },
     "2018.03": {
       "karma": 60.0,
-      "positives": 85.51,
-      "negatives": 14.49,
-      "comments": 21.0
+      "positives": 332951.0,
+      "negatives": 56440.0
     },
     "2018.04": {
       "karma": 68.0,
-      "positives": 87.3,
-      "negatives": 12.7,
-      "comments": 20.0
+      "positives": 395548.0,
+      "negatives": 57531.0
     },
     "2018.05": {
       "karma": 63.0,
-      "positives": 86.54,
-      "negatives": 13.46,
-      "comments": 20.0
+      "positives": 374730.0,
+      "negatives": 58303.0
     },
     "2018.06": {
       "karma": 56.0,
-      "positives": 86.04,
-      "negatives": 13.96,
-      "comments": 21.0
+      "positives": 333347.0,
+      "negatives": 54091.0
     },
     "2018.07": {
       "karma": 64.0,
-      "positives": 86.62,
-      "negatives": 13.38,
-      "comments": 22.0
+      "positives": 313719.0,
+      "negatives": 48439.0
     },
     "2018.08": {
       "karma": 53.0,
-      "positives": 85.31,
-      "negatives": 14.69,
-      "comments": 23.0
+      "positives": 298099.0,
+      "negatives": 51329.0
     },
     "2018.09": {
       "karma": 59.0,
-      "positives": 86.47,
-      "negatives": 13.53,
-      "comments": 21.0
+      "positives": 322610.0,
+      "negatives": 50489.0
     },
     "2018.1": {
       "karma": 54.0,
-      "positives": 86.28,
-      "negatives": 13.72,
-      "comments": 21.0
+      "positives": 302618.0,
+      "negatives": 48113.0
     },
     "2018.11": {
       "karma": 51.0,
-      "positives": 85.61,
-      "negatives": 14.39,
-      "comments": 21.0
+      "positives": 274524.0,
+      "negatives": 46148.0
     },
     "2018.12": {
       "karma": 50.0,
-      "positives": 84.11,
-      "negatives": 15.89,
-      "comments": 23.0
+      "positives": 257609.0,
+      "negatives": 48685.0
     },
     "2019.01": {
       "karma": 50.0,
-      "positives": 84.81,
-      "negatives": 15.19,
-      "comments": 23.0
+      "positives": 279350.0,
+      "negatives": 50051.0
     },
     "2019.02": {
       "karma": 50.0,
-      "positives": 84.23,
-      "negatives": 15.77,
-      "comments": 22.0
+      "positives": 270094.0,
+      "negatives": 50553.0
     },
     "2019.03": {
       "karma": 53.0,
-      "positives": 82.92,
-      "negatives": 17.08,
-      "comments": 20.0
+      "positives": 304052.0,
+      "negatives": 62615.0
     },
     "2019.04": {
       "karma": 59.0,
-      "positives": 85.05,
-      "negatives": 14.95,
-      "comments": 20.0
+      "positives": 305764.0,
+      "negatives": 53736.0
     },
     "2019.05": {
       "karma": 50.0,
-      "positives": 85.52,
-      "negatives": 14.48,
-      "comments": 20.0
+      "positives": 283256.0,
+      "negatives": 47941.0
     },
     "2019.06": {
       "karma": 52.0,
-      "positives": 86.11,
-      "negatives": 13.89,
-      "comments": 20.0
+      "positives": 287893.0,
+      "negatives": 46438.0
     },
     "2019.07": {
       "karma": 44.0,
-      "positives": 84.23,
-      "negatives": 15.77,
-      "comments": 20.0
+      "positives": 269453.0,
+      "negatives": 50446.0
     },
     "2019.08": {
       "karma": 53.0,
-      "positives": 85.06,
-      "negatives": 14.94,
-      "comments": 22.0
+      "positives": 249899.0,
+      "negatives": 43884.0
     },
     "2019.09": {
       "karma": 53.0,
-      "positives": 85.49,
-      "negatives": 14.51,
-      "comments": 22.0
+      "positives": 274198.0,
+      "negatives": 46550.0
     },
     "2019.1": {
       "karma": 55.0,
-      "positives": 84.35,
-      "negatives": 15.65,
-      "comments": 23.0
+      "positives": 316510.0,
+      "negatives": 58733.0
     },
     "2019.11": {
       "karma": 55.0,
-      "positives": 85.88,
-      "negatives": 14.12,
-      "comments": 21.0
+      "positives": 315707.0,
+      "negatives": 51902.0
     },
     "2019.12": {
       "karma": 59.0,
-      "positives": 86.35,
-      "negatives": 13.65,
-      "comments": 23.0
+      "positives": 249809.0,
+      "negatives": 39483.0
     },
     "2020.01": {
       "karma": 61.0,
-      "positives": 86.85,
-      "negatives": 13.15,
-      "comments": 22.0
+      "positives": 303063.0,
+      "negatives": 45899.0
     },
     "2020.02": {
       "karma": 58.0,
-      "positives": 86.5,
-      "negatives": 13.5,
-      "comments": 20.0
+      "positives": 277926.0,
+      "negatives": 43391.0
     },
     "2020.03": {
       "karma": 88.0,
-      "positives": 88.44,
-      "negatives": 11.56,
-      "comments": 23.0
+      "positives": 484324.0,
+      "negatives": 63282.0
     }
   },
   "karma_portada": {
     "2005.12": {
       "karma": 137.0,
-      "positives": 99.31,
-      "negatives": 0.69,
-      "comments": 2.0
+      "positives": 27295.0,
+      "negatives": 191.0
     },
     "2006.01": {
       "karma": 227.0,
-      "positives": 98.91,
-      "negatives": 1.09,
-      "comments": 4.0
+      "positives": 50369.0,
+      "negatives": 555.0
     },
     "2006.02": {
       "karma": 327.0,
-      "positives": 98.97,
-      "negatives": 1.03,
-      "comments": 6.0
+      "positives": 55373.0,
+      "negatives": 577.0
     },
     "2006.03": {
       "karma": 353.0,
-      "positives": 99.0,
-      "negatives": 1.0,
-      "comments": 8.0
+      "positives": 58760.0,
+      "negatives": 593.0
     },
     "2006.04": {
       "karma": 391.0,
-      "positives": 98.9,
-      "negatives": 1.1,
-      "comments": 9.0
+      "positives": 75201.0,
+      "negatives": 837.0
     },
     "2006.05": {
       "karma": 477.0,
-      "positives": 98.95,
-      "negatives": 1.05,
-      "comments": 12.0
+      "positives": 103360.0,
+      "negatives": 1096.0
     },
     "2006.06": {
       "karma": 541.0,
-      "positives": 98.94,
-      "negatives": 1.06,
-      "comments": 14.0
+      "positives": 114198.0,
+      "negatives": 1224.0
     },
     "2006.07": {
       "karma": 543.0,
-      "positives": 98.6,
-      "negatives": 1.4,
-      "comments": 13.0
+      "positives": 121078.0,
+      "negatives": 1713.0
     },
     "2006.08": {
       "karma": 605.0,
-      "positives": 98.7,
-      "negatives": 1.3,
-      "comments": 16.0
+      "positives": 140488.0,
+      "negatives": 1852.0
     },
     "2006.09": {
       "karma": 636.0,
-      "positives": 98.94,
-      "negatives": 1.06,
-      "comments": 19.0
+      "positives": 162801.0,
+      "negatives": 1738.0
     },
     "2006.1": {
       "karma": 700.0,
-      "positives": 98.98,
-      "negatives": 1.02,
-      "comments": 18.0
+      "positives": 212011.0,
+      "negatives": 2180.0
     },
     "2006.11": {
       "karma": 799.0,
-      "positives": 99.21,
-      "negatives": 0.79,
-      "comments": 22.0
+      "positives": 228887.0,
+      "negatives": 1821.0
     },
     "2006.12": {
       "karma": 755.0,
-      "positives": 99.49,
-      "negatives": 0.51,
-      "comments": 21.0
+      "positives": 239660.0,
+      "negatives": 1223.0
     },
     "2007.01": {
       "karma": 764.0,
-      "positives": 99.37,
-      "negatives": 0.63,
-      "comments": 23.0
+      "positives": 383861.0,
+      "negatives": 2425.0
     },
     "2007.02": {
       "karma": 810.0,
-      "positives": 99.34,
-      "negatives": 0.66,
-      "comments": 26.0
+      "positives": 367034.0,
+      "negatives": 2444.0
     },
     "2007.03": {
       "karma": 758.0,
-      "positives": 99.16,
-      "negatives": 0.84,
-      "comments": 26.0
+      "positives": 419567.0,
+      "negatives": 3568.0
     },
     "2007.04": {
       "karma": 783.0,
-      "positives": 99.15,
-      "negatives": 0.85,
-      "comments": 26.0
+      "positives": 395072.0,
+      "negatives": 3402.0
     },
     "2007.05": {
       "karma": 739.0,
-      "positives": 99.19,
-      "negatives": 0.81,
-      "comments": 30.0
+      "positives": 462289.0,
+      "negatives": 3757.0
     },
     "2007.06": {
       "karma": 847.0,
-      "positives": 99.29,
-      "negatives": 0.71,
-      "comments": 36.0
+      "positives": 406483.0,
+      "negatives": 2898.0
     },
     "2007.07": {
       "karma": 860.0,
-      "positives": 98.77,
-      "negatives": 1.23,
-      "comments": 34.0
+      "positives": 260610.0,
+      "negatives": 3250.0
     },
     "2007.08": {
       "karma": 895.0,
-      "positives": 98.77,
-      "negatives": 1.23,
-      "comments": 35.0
+      "positives": 238258.0,
+      "negatives": 2966.0
     },
     "2007.09": {
       "karma": 868.0,
-      "positives": 98.86,
-      "negatives": 1.14,
-      "comments": 36.0
+      "positives": 292684.0,
+      "negatives": 3381.0
     },
     "2007.1": {
       "karma": 825.0,
-      "positives": 98.06,
-      "negatives": 1.94,
-      "comments": 36.0
+      "positives": 321214.0,
+      "negatives": 6351.0
     },
     "2007.11": {
       "karma": 786.0,
-      "positives": 98.08,
-      "negatives": 1.92,
-      "comments": 37.0
+      "positives": 320853.0,
+      "negatives": 6269.0
     },
     "2007.12": {
       "karma": 788.0,
-      "positives": 98.52,
-      "negatives": 1.48,
-      "comments": 39.0
+      "positives": 281514.0,
+      "negatives": 4231.0
     },
     "2008.01": {
       "karma": 829.0,
-      "positives": 98.71,
-      "negatives": 1.29,
-      "comments": 42.0
+      "positives": 347094.0,
+      "negatives": 4532.0
     },
     "2008.02": {
       "karma": 809.0,
-      "positives": 98.83,
-      "negatives": 1.17,
-      "comments": 45.0
+      "positives": 345589.0,
+      "negatives": 4095.0
     },
     "2008.03": {
       "karma": 700.0,
-      "positives": 98.95,
-      "negatives": 1.05,
-      "comments": 44.0
+      "positives": 333180.0,
+      "negatives": 3551.0
     },
     "2008.04": {
       "karma": 652.0,
-      "positives": 98.97,
-      "negatives": 1.03,
-      "comments": 42.0
+      "positives": 315525.0,
+      "negatives": 3270.0
     },
     "2008.05": {
       "karma": 648.0,
-      "positives": 98.86,
-      "negatives": 1.14,
-      "comments": 47.0
+      "positives": 307637.0,
+      "negatives": 3532.0
     },
     "2008.06": {
       "karma": 657.0,
-      "positives": 98.36,
-      "negatives": 1.64,
-      "comments": 51.0
+      "positives": 369969.0,
+      "negatives": 6151.0
     },
     "2008.07": {
       "karma": 689.0,
-      "positives": 98.95,
-      "negatives": 1.05,
-      "comments": 47.0
+      "positives": 336842.0,
+      "negatives": 3566.0
     },
     "2008.08": {
       "karma": 817.0,
-      "positives": 99.15,
-      "negatives": 0.85,
-      "comments": 51.0
+      "positives": 325485.0,
+      "negatives": 2800.0
     },
     "2008.09": {
       "karma": 748.0,
-      "positives": 99.21,
-      "negatives": 0.79,
-      "comments": 54.0
+      "positives": 356003.0,
+      "negatives": 2826.0
     },
     "2008.1": {
       "karma": 637.0,
-      "positives": 99.2,
-      "negatives": 0.8,
-      "comments": 48.0
+      "positives": 337006.0,
+      "negatives": 2708.0
     },
     "2008.11": {
       "karma": 655.0,
-      "positives": 99.21,
-      "negatives": 0.79,
-      "comments": 52.0
+      "positives": 313496.0,
+      "negatives": 2494.0
     },
     "2008.12": {
       "karma": 628.0,
-      "positives": 99.3,
-      "negatives": 0.7,
-      "comments": 50.0
+      "positives": 299537.0,
+      "negatives": 2104.0
     },
     "2009.01": {
       "karma": 695.0,
-      "positives": 99.26,
-      "negatives": 0.74,
-      "comments": 48.0
+      "positives": 378288.0,
+      "negatives": 2803.0
     },
     "2009.02": {
       "karma": 691.0,
-      "positives": 99.17,
-      "negatives": 0.83,
-      "comments": 55.0
+      "positives": 380897.0,
+      "negatives": 3182.0
     },
     "2009.03": {
       "karma": 653.0,
-      "positives": 99.3,
-      "negatives": 0.7,
-      "comments": 51.0
+      "positives": 390313.0,
+      "negatives": 2735.0
     },
     "2009.04": {
       "karma": 649.0,
-      "positives": 99.12,
-      "negatives": 0.88,
-      "comments": 53.0
+      "positives": 402264.0,
+      "negatives": 3580.0
     },
     "2009.05": {
       "karma": 658.0,
-      "positives": 99.21,
-      "negatives": 0.79,
-      "comments": 55.0
+      "positives": 384604.0,
+      "negatives": 3065.0
     },
     "2009.06": {
       "karma": 649.0,
-      "positives": 99.1,
-      "negatives": 0.9,
-      "comments": 58.0
+      "positives": 373906.0,
+      "negatives": 3399.0
     },
     "2009.07": {
       "karma": 654.0,
-      "positives": 99.15,
-      "negatives": 0.85,
-      "comments": 52.0
+      "positives": 330257.0,
+      "negatives": 2841.0
     },
     "2009.08": {
       "karma": 644.0,
-      "positives": 99.07,
-      "negatives": 0.93,
-      "comments": 57.0
+      "positives": 294240.0,
+      "negatives": 2773.0
     },
     "2009.09": {
       "karma": 619.0,
-      "positives": 98.61,
-      "negatives": 1.39,
-      "comments": 62.0
+      "positives": 326663.0,
+      "negatives": 4597.0
     },
     "2009.1": {
       "karma": 592.0,
-      "positives": 98.59,
-      "negatives": 1.41,
-      "comments": 54.0
+      "positives": 356379.0,
+      "negatives": 5090.0
     },
     "2009.11": {
       "karma": 587.0,
-      "positives": 98.6,
-      "negatives": 1.4,
-      "comments": 57.0
+      "positives": 345103.0,
+      "negatives": 4891.0
     },
     "2009.12": {
       "karma": 582.0,
-      "positives": 98.46,
-      "negatives": 1.54,
-      "comments": 55.0
+      "positives": 354014.0,
+      "negatives": 5530.0
     },
     "2010.01": {
       "karma": 618.0,
-      "positives": 98.55,
-      "negatives": 1.45,
-      "comments": 56.0
+      "positives": 388180.0,
+      "negatives": 5715.0
     },
     "2010.02": {
       "karma": 533.0,
-      "positives": 98.7,
-      "negatives": 1.3,
-      "comments": 54.0
+      "positives": 329374.0,
+      "negatives": 4345.0
     },
     "2010.03": {
       "karma": 551.0,
-      "positives": 98.64,
-      "negatives": 1.36,
-      "comments": 53.0
+      "positives": 398648.0,
+      "negatives": 5506.0
     },
     "2010.04": {
       "karma": 537.0,
-      "positives": 98.5,
-      "negatives": 1.5,
-      "comments": 54.0
+      "positives": 344903.0,
+      "negatives": 5256.0
     },
     "2010.05": {
       "karma": 564.0,
-      "positives": 98.66,
-      "negatives": 1.34,
-      "comments": 56.0
+      "positives": 405172.0,
+      "negatives": 5495.0
     },
     "2010.06": {
       "karma": 589.0,
-      "positives": 98.66,
-      "negatives": 1.34,
-      "comments": 60.0
+      "positives": 392812.0,
+      "negatives": 5330.0
     },
     "2010.07": {
       "karma": 656.0,
-      "positives": 98.65,
-      "negatives": 1.35,
-      "comments": 62.0
+      "positives": 350665.0,
+      "negatives": 4799.0
     },
     "2010.08": {
       "karma": 613.0,
-      "positives": 98.64,
-      "negatives": 1.36,
-      "comments": 58.0
+      "positives": 288912.0,
+      "negatives": 3980.0
     },
     "2010.09": {
       "karma": 614.0,
-      "positives": 98.58,
-      "negatives": 1.42,
-      "comments": 62.0
+      "positives": 303613.0,
+      "negatives": 4389.0
     },
     "2010.1": {
       "karma": 503.0,
-      "positives": 98.56,
-      "negatives": 1.44,
-      "comments": 62.0
+      "positives": 285359.0,
+      "negatives": 4180.0
     },
     "2010.11": {
       "karma": 451.0,
-      "positives": 98.57,
-      "negatives": 1.43,
-      "comments": 58.0
+      "positives": 293523.0,
+      "negatives": 4253.0
     },
     "2010.12": {
       "karma": 497.0,
-      "positives": 98.81,
-      "negatives": 1.19,
-      "comments": 67.0
+      "positives": 382028.0,
+      "negatives": 4619.0
     },
     "2011.01": {
       "karma": 487.0,
-      "positives": 98.66,
-      "negatives": 1.34,
-      "comments": 63.0
+      "positives": 365150.0,
+      "negatives": 4969.0
     },
     "2011.02": {
       "karma": 480.0,
-      "positives": 98.7,
-      "negatives": 1.3,
-      "comments": 58.0
+      "positives": 384027.0,
+      "negatives": 5075.0
     },
     "2011.03": {
       "karma": 485.0,
-      "positives": 98.62,
-      "negatives": 1.38,
-      "comments": 64.0
+      "positives": 409792.0,
+      "negatives": 5740.0
     },
     "2011.04": {
       "karma": 487.0,
-      "positives": 98.59,
-      "negatives": 1.41,
-      "comments": 64.0
+      "positives": 348713.0,
+      "negatives": 5003.0
     },
     "2011.05": {
       "karma": 563.0,
-      "positives": 98.72,
-      "negatives": 1.28,
-      "comments": 67.0
+      "positives": 569471.0,
+      "negatives": 7382.0
     },
     "2011.06": {
       "karma": 551.0,
-      "positives": 98.74,
-      "negatives": 1.26,
-      "comments": 72.0
+      "positives": 486313.0,
+      "negatives": 6220.0
     },
     "2011.07": {
       "karma": 539.0,
-      "positives": 98.76,
-      "negatives": 1.24,
-      "comments": 72.0
+      "positives": 380238.0,
+      "negatives": 4772.0
     },
     "2011.08": {
       "karma": 502.0,
-      "positives": 98.35,
-      "negatives": 1.65,
-      "comments": 71.0
+      "positives": 350604.0,
+      "negatives": 5868.0
     },
     "2011.09": {
       "karma": 483.0,
-      "positives": 98.64,
-      "negatives": 1.36,
-      "comments": 69.0
+      "positives": 380065.0,
+      "negatives": 5234.0
     },
     "2011.1": {
       "karma": 486.0,
-      "positives": 98.57,
-      "negatives": 1.43,
-      "comments": 69.0
+      "positives": 408726.0,
+      "negatives": 5922.0
     },
     "2011.11": {
       "karma": 486.0,
-      "positives": 98.46,
-      "negatives": 1.54,
-      "comments": 69.0
+      "positives": 440275.0,
+      "negatives": 6876.0
     },
     "2011.12": {
       "karma": 479.0,
-      "positives": 98.6,
-      "negatives": 1.4,
-      "comments": 65.0
+      "positives": 382252.0,
+      "negatives": 5446.0
     },
     "2012.01": {
       "karma": 618.0,
-      "positives": 98.67,
-      "negatives": 1.33,
-      "comments": 69.0
+      "positives": 468144.0,
+      "negatives": 6294.0
     },
     "2012.02": {
       "karma": 753.0,
-      "positives": 98.51,
-      "negatives": 1.49,
-      "comments": 75.0
+      "positives": 458890.0,
+      "negatives": 6946.0
     },
     "2012.03": {
       "karma": 618.0,
-      "positives": 98.66,
-      "negatives": 1.34,
-      "comments": 72.0
+      "positives": 395656.0,
+      "negatives": 5389.0
     },
     "2012.04": {
       "karma": 606.0,
-      "positives": 98.82,
-      "negatives": 1.18,
-      "comments": 75.0
+      "positives": 445409.0,
+      "negatives": 5339.0
     },
     "2012.05": {
       "karma": 610.0,
-      "positives": 98.74,
-      "negatives": 1.26,
-      "comments": 72.0
+      "positives": 510534.0,
+      "negatives": 6518.0
     },
     "2012.06": {
       "karma": 585.0,
-      "positives": 98.77,
-      "negatives": 1.23,
-      "comments": 76.0
+      "positives": 467410.0,
+      "negatives": 5818.0
     },
     "2012.07": {
       "karma": 617.0,
-      "positives": 98.8,
-      "negatives": 1.2,
-      "comments": 76.0
+      "positives": 506332.0,
+      "negatives": 6140.0
     },
     "2012.08": {
       "karma": 625.0,
-      "positives": 98.45,
-      "negatives": 1.55,
-      "comments": 82.0
+      "positives": 359621.0,
+      "negatives": 5657.0
     },
     "2012.09": {
       "karma": 636.0,
-      "positives": 98.64,
-      "negatives": 1.36,
-      "comments": 79.0
+      "positives": 463088.0,
+      "negatives": 6363.0
     },
     "2012.1": {
       "karma": 656.0,
-      "positives": 98.45,
-      "negatives": 1.55,
-      "comments": 78.0
+      "positives": 423834.0,
+      "negatives": 6672.0
     },
     "2012.11": {
       "karma": 592.0,
-      "positives": 98.75,
-      "negatives": 1.25,
-      "comments": 75.0
+      "positives": 412237.0,
+      "negatives": 5230.0
     },
     "2012.12": {
       "karma": 565.0,
-      "positives": 98.69,
-      "negatives": 1.31,
-      "comments": 69.0
+      "positives": 344264.0,
+      "negatives": 4565.0
     },
     "2013.01": {
       "karma": 539.0,
-      "positives": 98.78,
-      "negatives": 1.22,
-      "comments": 70.0
+      "positives": 417154.0,
+      "negatives": 5143.0
     },
     "2013.02": {
       "karma": 584.0,
-      "positives": 98.81,
-      "negatives": 1.19,
-      "comments": 71.0
+      "positives": 409512.0,
+      "negatives": 4913.0
     },
     "2013.03": {
       "karma": 583.0,
-      "positives": 98.56,
-      "negatives": 1.44,
-      "comments": 72.0
+      "positives": 353732.0,
+      "negatives": 5172.0
     },
     "2013.04": {
       "karma": 581.0,
-      "positives": 98.58,
-      "negatives": 1.42,
-      "comments": 77.0
+      "positives": 361043.0,
+      "negatives": 5187.0
     },
     "2013.05": {
       "karma": 588.0,
-      "positives": 98.74,
-      "negatives": 1.26,
-      "comments": 71.0
+      "positives": 355143.0,
+      "negatives": 4520.0
     },
     "2013.06": {
       "karma": 577.0,
-      "positives": 98.85,
-      "negatives": 1.15,
-      "comments": 71.0
+      "positives": 340178.0,
+      "negatives": 3959.0
     },
     "2013.07": {
       "karma": 616.0,
-      "positives": 98.74,
-      "negatives": 1.26,
-      "comments": 75.0
+      "positives": 345720.0,
+      "negatives": 4402.0
     },
     "2013.08": {
       "karma": 665.0,
-      "positives": 98.41,
-      "negatives": 1.59,
-      "comments": 76.0
+      "positives": 266323.0,
+      "negatives": 4291.0
     },
     "2013.09": {
       "karma": 596.0,
-      "positives": 98.51,
-      "negatives": 1.49,
-      "comments": 74.0
+      "positives": 286283.0,
+      "negatives": 4332.0
     },
     "2013.1": {
       "karma": 550.0,
-      "positives": 98.41,
-      "negatives": 1.59,
-      "comments": 70.0
+      "positives": 262378.0,
+      "negatives": 4226.0
     },
     "2013.11": {
       "karma": 549.0,
-      "positives": 98.28,
-      "negatives": 1.72,
-      "comments": 70.0
+      "positives": 217640.0,
+      "negatives": 3807.0
     },
     "2013.12": {
       "karma": 602.0,
-      "positives": 97.8,
-      "negatives": 2.2,
-      "comments": 69.0
+      "positives": 236735.0,
+      "negatives": 5331.0
     },
     "2014.01": {
       "karma": 628.0,
-      "positives": 97.58,
-      "negatives": 2.42,
-      "comments": 71.0
+      "positives": 270417.0,
+      "negatives": 6708.0
     },
     "2014.02": {
       "karma": 554.0,
-      "positives": 97.79,
-      "negatives": 2.21,
-      "comments": 66.0
+      "positives": 255047.0,
+      "negatives": 5776.0
     },
     "2014.03": {
       "karma": 582.0,
-      "positives": 97.67,
-      "negatives": 2.33,
-      "comments": 66.0
+      "positives": 235709.0,
+      "negatives": 5631.0
     },
     "2014.04": {
       "karma": 519.0,
-      "positives": 97.21,
-      "negatives": 2.79,
-      "comments": 66.0
+      "positives": 207484.0,
+      "negatives": 5946.0
     },
     "2014.05": {
       "karma": 573.0,
-      "positives": 96.91,
-      "negatives": 3.09,
-      "comments": 74.0
+      "positives": 270571.0,
+      "negatives": 8617.0
     },
     "2014.06": {
       "karma": 657.0,
-      "positives": 96.93,
-      "negatives": 3.07,
-      "comments": 73.0
+      "positives": 284801.0,
+      "negatives": 9029.0
     },
     "2014.07": {
       "karma": 596.0,
-      "positives": 96.7,
-      "negatives": 3.3,
-      "comments": 75.0
+      "positives": 269676.0,
+      "negatives": 9196.0
     },
     "2014.08": {
       "karma": 497.0,
-      "positives": 96.94,
-      "negatives": 3.06,
-      "comments": 74.0
+      "positives": 219030.0,
+      "negatives": 6924.0
     },
     "2014.09": {
       "karma": 530.0,
-      "positives": 96.87,
-      "negatives": 3.13,
-      "comments": 82.0
+      "positives": 224620.0,
+      "negatives": 7261.0
     },
     "2014.1": {
       "karma": 544.0,
-      "positives": 97.16,
-      "negatives": 2.84,
-      "comments": 73.0
+      "positives": 313617.0,
+      "negatives": 9152.0
     },
     "2014.11": {
       "karma": 503.0,
-      "positives": 97.15,
-      "negatives": 2.85,
-      "comments": 73.0
+      "positives": 277229.0,
+      "negatives": 8141.0
     },
     "2014.12": {
       "karma": 485.0,
-      "positives": 96.92,
-      "negatives": 3.08,
-      "comments": 69.0
+      "positives": 247528.0,
+      "negatives": 7875.0
     },
     "2015.01": {
       "karma": 489.0,
-      "positives": 96.96,
-      "negatives": 3.04,
-      "comments": 76.0
+      "positives": 268070.0,
+      "negatives": 8395.0
     },
     "2015.02": {
       "karma": 526.0,
-      "positives": 97.39,
-      "negatives": 2.61,
-      "comments": 84.0
+      "positives": 255697.0,
+      "negatives": 6851.0
     },
     "2015.03": {
       "karma": 522.0,
-      "positives": 97.52,
-      "negatives": 2.48,
-      "comments": 82.0
+      "positives": 249551.0,
+      "negatives": 6351.0
     },
     "2015.04": {
       "karma": 456.0,
-      "positives": 97.83,
-      "negatives": 2.17,
-      "comments": 83.0
+      "positives": 228417.0,
+      "negatives": 5070.0
     },
     "2015.05": {
       "karma": 470.0,
-      "positives": 97.97,
-      "negatives": 2.03,
-      "comments": 81.0
+      "positives": 298653.0,
+      "negatives": 6195.0
     },
     "2015.06": {
       "karma": 575.0,
-      "positives": 97.91,
-      "negatives": 2.09,
-      "comments": 106.0
+      "positives": 247529.0,
+      "negatives": 5273.0
     },
     "2015.07": {
       "karma": 541.0,
-      "positives": 97.69,
-      "negatives": 2.31,
-      "comments": 107.0
+      "positives": 220435.0,
+      "negatives": 5224.0
     },
     "2015.08": {
       "karma": 458.0,
-      "positives": 97.97,
-      "negatives": 2.03,
-      "comments": 92.0
+      "positives": 174595.0,
+      "negatives": 3611.0
     },
     "2015.09": {
       "karma": 484.0,
-      "positives": 97.92,
-      "negatives": 2.08,
-      "comments": 108.0
+      "positives": 177654.0,
+      "negatives": 3776.0
     },
     "2015.1": {
       "karma": 451.0,
-      "positives": 97.88,
-      "negatives": 2.12,
-      "comments": 97.0
+      "positives": 214088.0,
+      "negatives": 4647.0
     },
     "2015.11": {
       "karma": 431.0,
-      "positives": 97.66,
-      "negatives": 2.34,
-      "comments": 114.0
+      "positives": 195331.0,
+      "negatives": 4672.0
     },
     "2015.12": {
       "karma": 419.0,
-      "positives": 97.41,
-      "negatives": 2.59,
-      "comments": 99.0
+      "positives": 223784.0,
+      "negatives": 5952.0
     },
     "2016.01": {
       "karma": 487.0,
-      "positives": 97.52,
-      "negatives": 2.48,
-      "comments": 115.0
+      "positives": 223786.0,
+      "negatives": 5691.0
     },
     "2016.02": {
       "karma": 473.0,
-      "positives": 98.09,
-      "negatives": 1.91,
-      "comments": 104.0
+      "positives": 238260.0,
+      "negatives": 4639.0
     },
     "2016.03": {
       "karma": 479.0,
-      "positives": 97.86,
-      "negatives": 2.14,
-      "comments": 100.0
+      "positives": 205390.0,
+      "negatives": 4483.0
     },
     "2016.04": {
       "karma": 480.0,
-      "positives": 97.68,
-      "negatives": 2.32,
-      "comments": 103.0
+      "positives": 226573.0,
+      "negatives": 5376.0
     },
     "2016.05": {
       "karma": 525.0,
-      "positives": 97.35,
-      "negatives": 2.65,
-      "comments": 111.0
+      "positives": 231664.0,
+      "negatives": 6299.0
     },
     "2016.06": {
       "karma": 586.0,
-      "positives": 97.1,
-      "negatives": 2.9,
-      "comments": 126.0
+      "positives": 245070.0,
+      "negatives": 7320.0
     },
     "2016.07": {
       "karma": 583.0,
-      "positives": 97.33,
-      "negatives": 2.67,
-      "comments": 129.0
+      "positives": 193693.0,
+      "negatives": 5316.0
     },
     "2016.08": {
       "karma": 498.0,
-      "positives": 97.1,
-      "negatives": 2.9,
-      "comments": 108.0
+      "positives": 157841.0,
+      "negatives": 4715.0
     },
     "2016.09": {
       "karma": 565.0,
-      "positives": 97.5,
-      "negatives": 2.5,
-      "comments": 113.0
+      "positives": 175561.0,
+      "negatives": 4501.0
     },
     "2016.1": {
       "karma": 594.0,
-      "positives": 96.87,
-      "negatives": 3.13,
-      "comments": 120.0
+      "positives": 169861.0,
+      "negatives": 5497.0
     },
     "2016.11": {
       "karma": 539.0,
-      "positives": 96.9,
-      "negatives": 3.1,
-      "comments": 129.0
+      "positives": 152315.0,
+      "negatives": 4865.0
     },
     "2016.12": {
       "karma": 517.0,
-      "positives": 97.33,
-      "negatives": 2.67,
-      "comments": 110.0
+      "positives": 148546.0,
+      "negatives": 4071.0
     },
     "2017.01": {
       "karma": 459.0,
-      "positives": 97.0,
-      "negatives": 3.0,
-      "comments": 119.0
+      "positives": 155093.0,
+      "negatives": 4794.0
     },
     "2017.02": {
       "karma": 448.0,
-      "positives": 97.68,
-      "negatives": 2.32,
-      "comments": 106.0
+      "positives": 153208.0,
+      "negatives": 3642.0
     },
     "2017.03": {
       "karma": 404.0,
-      "positives": 97.38,
-      "negatives": 2.62,
-      "comments": 102.0
+      "positives": 160660.0,
+      "negatives": 4321.0
     },
     "2017.04": {
       "karma": 382.0,
-      "positives": 97.86,
-      "negatives": 2.14,
-      "comments": 89.0
+      "positives": 180467.0,
+      "negatives": 3939.0
     },
     "2017.05": {
       "karma": 361.0,
-      "positives": 97.56,
-      "negatives": 2.44,
-      "comments": 93.0
+      "positives": 194789.0,
+      "negatives": 4879.0
     },
     "2017.06": {
       "karma": 340.0,
-      "positives": 97.73,
-      "negatives": 2.27,
-      "comments": 92.0
+      "positives": 176791.0,
+      "negatives": 4102.0
     },
     "2017.07": {
       "karma": 310.0,
-      "positives": 97.68,
-      "negatives": 2.32,
-      "comments": 86.0
+      "positives": 148265.0,
+      "negatives": 3523.0
     },
     "2017.08": {
       "karma": 339.0,
-      "positives": 97.43,
-      "negatives": 2.57,
-      "comments": 104.0
+      "positives": 131698.0,
+      "negatives": 3469.0
     },
     "2017.09": {
       "karma": 311.0,
-      "positives": 97.48,
-      "negatives": 2.52,
-      "comments": 102.0
+      "positives": 149206.0,
+      "negatives": 3855.0
     },
     "2017.1": {
       "karma": 354.0,
-      "positives": 96.87,
-      "negatives": 3.13,
-      "comments": 120.0
+      "positives": 217077.0,
+      "negatives": 7023.0
     },
     "2017.11": {
       "karma": 346.0,
-      "positives": 97.83,
-      "negatives": 2.17,
-      "comments": 86.0
+      "positives": 193465.0,
+      "negatives": 4284.0
     },
     "2017.12": {
       "karma": 334.0,
-      "positives": 98.04,
-      "negatives": 1.96,
-      "comments": 84.0
+      "positives": 153166.0,
+      "negatives": 3056.0
     },
     "2018.01": {
       "karma": 343.0,
-      "positives": 97.81,
-      "negatives": 2.19,
-      "comments": 89.0
+      "positives": 179589.0,
+      "negatives": 4016.0
     },
     "2018.02": {
       "karma": 329.0,
-      "positives": 97.57,
-      "negatives": 2.43,
-      "comments": 86.0
+      "positives": 172486.0,
+      "negatives": 4297.0
     },
     "2018.03": {
       "karma": 326.0,
-      "positives": 97.56,
-      "negatives": 2.44,
-      "comments": 92.0
+      "positives": 193284.0,
+      "negatives": 4828.0
     },
     "2018.04": {
       "karma": 350.0,
-      "positives": 97.4,
-      "negatives": 2.6,
-      "comments": 83.0
+      "positives": 244009.0,
+      "negatives": 6506.0
     },
     "2018.05": {
       "karma": 355.0,
-      "positives": 97.86,
-      "negatives": 2.14,
-      "comments": 85.0
+      "positives": 225211.0,
+      "negatives": 4920.0
     },
     "2018.06": {
       "karma": 358.0,
-      "positives": 97.92,
-      "negatives": 2.08,
-      "comments": 92.0
+      "positives": 188797.0,
+      "negatives": 4012.0
     },
     "2018.07": {
       "karma": 328.0,
-      "positives": 97.73,
-      "negatives": 2.27,
-      "comments": 86.0
+      "positives": 191813.0,
+      "negatives": 4464.0
     },
     "2018.08": {
       "karma": 313.0,
-      "positives": 97.48,
-      "negatives": 2.52,
-      "comments": 98.0
+      "positives": 162562.0,
+      "negatives": 4208.0
     },
     "2018.09": {
       "karma": 299.0,
-      "positives": 97.53,
-      "negatives": 2.47,
-      "comments": 87.0
+      "positives": 195007.0,
+      "negatives": 4947.0
     },
     "2018.1": {
       "karma": 305.0,
-      "positives": 97.91,
-      "negatives": 2.09,
-      "comments": 88.0
+      "positives": 176874.0,
+      "negatives": 3777.0
     },
     "2018.11": {
       "karma": 279.0,
-      "positives": 97.67,
-      "negatives": 2.33,
-      "comments": 98.0
+      "positives": 159503.0,
+      "negatives": 3799.0
     },
     "2018.12": {
       "karma": 286.0,
-      "positives": 97.37,
-      "negatives": 2.63,
-      "comments": 101.0
+      "positives": 143418.0,
+      "negatives": 3880.0
     },
     "2019.01": {
       "karma": 297.0,
-      "positives": 97.52,
-      "negatives": 2.48,
-      "comments": 100.0
+      "positives": 152619.0,
+      "negatives": 3885.0
     },
     "2019.02": {
       "karma": 280.0,
-      "positives": 97.2,
-      "negatives": 2.8,
-      "comments": 91.0
+      "positives": 152935.0,
+      "negatives": 4408.0
     },
     "2019.03": {
       "karma": 290.0,
-      "positives": 96.9,
-      "negatives": 3.1,
-      "comments": 81.0
+      "positives": 172444.0,
+      "negatives": 5525.0
     },
     "2019.04": {
       "karma": 317.0,
-      "positives": 96.62,
-      "negatives": 3.38,
-      "comments": 83.0
+      "positives": 184499.0,
+      "negatives": 6461.0
     },
     "2019.05": {
       "karma": 310.0,
-      "positives": 97.26,
-      "negatives": 2.74,
-      "comments": 100.0
+      "positives": 158824.0,
+      "negatives": 4473.0
     },
     "2019.06": {
       "karma": 298.0,
-      "positives": 96.85,
-      "negatives": 3.15,
-      "comments": 89.0
+      "positives": 175616.0,
+      "negatives": 5713.0
     },
     "2019.07": {
       "karma": 261.0,
-      "positives": 96.95,
-      "negatives": 3.05,
-      "comments": 95.0
+      "positives": 146424.0,
+      "negatives": 4608.0
     },
     "2019.08": {
       "karma": 264.0,
-      "positives": 97.23,
-      "negatives": 2.77,
-      "comments": 90.0
+      "positives": 143876.0,
+      "negatives": 4100.0
     },
     "2019.09": {
       "karma": 287.0,
-      "positives": 97.26,
-      "negatives": 2.74,
-      "comments": 94.0
+      "positives": 160208.0,
+      "negatives": 4506.0
     },
     "2019.1": {
       "karma": 281.0,
-      "positives": 96.52,
-      "negatives": 3.48,
-      "comments": 92.0
+      "positives": 180500.0,
+      "negatives": 6500.0
     },
     "2019.11": {
       "karma": 291.0,
-      "positives": 96.39,
-      "negatives": 3.61,
-      "comments": 94.0
+      "positives": 181468.0,
+      "negatives": 6797.0
     },
     "2019.12": {
       "karma": 281.0,
-      "positives": 97.07,
-      "negatives": 2.93,
-      "comments": 97.0
+      "positives": 151015.0,
+      "negatives": 4552.0
     },
     "2020.01": {
       "karma": 298.0,
-      "positives": 96.61,
-      "negatives": 3.39,
-      "comments": 100.0
+      "positives": 180282.0,
+      "negatives": 6322.0
     },
     "2020.02": {
       "karma": 288.0,
-      "positives": 96.87,
-      "negatives": 3.13,
-      "comments": 89.0
+      "positives": 166538.0,
+      "negatives": 5376.0
     },
     "2020.03": {
       "karma": 374.0,
-      "positives": 97.02,
-      "negatives": 2.98,
-      "comments": 105.0
+      "positives": 307412.0,
+      "negatives": 9444.0
     }
   },
   "count_estados": {

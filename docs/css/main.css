@@ -31,14 +31,22 @@ td.rg {
   text-align: right;
 }
 
-canvas {
-	max-width: 800px;
-}
-
 body {
 	margin-bottom: 400px;
 }
 canvas {
 	margin-top: 16px;
 	margin-bottom: 16px;
+	max-width: 800px;
+}
+div.fullscreen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: white;
+	padding: 16px;
+}
+div.fullscreen canvas {
+	max-width: unset !important;
 }

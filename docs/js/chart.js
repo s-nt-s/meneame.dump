@@ -52,6 +52,15 @@ function setGraphChart(obj, dataset) {
         ch.destroy();
       }
     }
+    if (obj.labels.length && typeof obj.labels[0] == "number"){
+      var dc = obj.labels.reduce(function(a,b){
+        return Math.max(
+          a,
+          Math.floor(b) == b?0:b.toString().split(".")[1].length,
+        )
+      }, 0);
+      obj.labels = obj.labels.map(function(x) {return x.toFixed(dc);})
+    }
     var ctx = elem.getContext('2d');
     var dat = {
         type: obj.type,
@@ -144,6 +153,67 @@ function gF(obj, key, porcentaje){
   return values;
 }
 
+function mesTo(ym) {
+  var y=Math.floor(ym);
+  var m=(ym*100)-(y*100);
+  var obj={
+    year:y,
+    mes:m,
+    trimestre: dcd(m,
+      1,1,2,1,3,1,
+      4,2,5,2,6,2,
+      7,3,8,3,9,3,
+      4
+    ),
+    cuatrimestre: dcd(m,
+      1,1,2,1,3,1,4,1,
+      5,2,6,2,7,2,8,3,
+      4
+    ),
+    semestre: m<6?1:2
+  }
+  return obj;
+}
+
+function doAgrupar(tipo, keys) {
+  console.log(tipo);
+  var letter = tipo[0].toUpperCase();
+  var re_index={}
+  var last_piece=null;
+  var new_keys=[]
+  keys.forEach(function(item, i) {
+    var lst = new_keys.length-1;
+    var dt_mes = mesTo(item);
+    var m = dt_mes.mes;
+    if (lst==-1) {
+      if (letter=="T" && !(m==1 || m==4 || m==7 || m==10)) return;
+      if (letter=="C" && !(m==1 || m==5 || m==9)) return;
+      if (letter=="S" && !(m==1 || m==6)) return;
+      if (letter=="Y" && !(m==1)) return;
+    }
+    var t=dt_mes.year;
+    if (letter!="Y") {
+      t = t + (dt_mes[tipo]/100);
+    }
+    if (lst>=0 && new_keys[lst]==t) {
+      re_index[i]=lst;
+    } else {
+      new_keys.push(t);
+      re_index[i]=lst+1;
+    }
+    if (m==6) last_piece=new_keys.length;
+    if (letter=="T" && (m==3 || m==6 || m==9)) last_piece=new_keys.length;
+    if (letter=="C" && (m==4 || m==8)) last_piece=new_keys.length;
+    if (letter=="S" && (m==6)) last_piece=new_keys.length;
+  })
+  new_keys=new_keys.slice(0, last_piece);
+  if (letter!="Y") new_keys = new_keys.map(function(a) {return a.toFixed(2).replace(".0", " "+letter)})
+  return {
+    "keys": new_keys,
+    "index": re_index
+  }
+}
+
 function render_chart() {
   var t=$(this);
   var key_modelo = t.data("modelo") || t.find("*[name=modelo]").val();
@@ -153,39 +223,21 @@ function render_chart() {
     return;
   }
   var prc = t.find("*[name=porcentaje]").val()=="1";
-  if (t.find("*[name=agrupar]").val()=="trimestre") {
+  var agrupar = t.find("*[name=agrupar]").val();
+  if (agrupar && agrupar!="mes") {
+    var agr = doAgrupar(agrupar, mdl["keys"]);
     var _mdl = {
-      "keys": [],
+      "keys": agr.keys,
       "values": []
     }
-    var re_index={}
-    var last_tri=null;
-    mdl["keys"].forEach(function(item, i) {
-      var lst = _mdl["keys"].length-1;
-      var y=Math.floor(item);
-      var m=(item*100)-(y*100);
-      if (lst==-1 && !(m==1 || m==4 || m==7 || m==10)) return;
-      var t=y + (dcd(m,
-        1,1,2,1,3,1,
-        4,2,5,2,6,2,
-        7,3,8,3,9,3,
-        4
-      )/100);
-      if (lst>=0 && _mdl["keys"][lst]==t) {
-        re_index[i]=lst;
-      } else {
-        _mdl["keys"].push(t);
-        re_index[i]=lst+1;
-      }
-      if (m==3 || m==6 || m==9 || m==12) last_tri=_mdl["keys"].length;
-    })
-    _mdl["keys"]=_mdl["keys"].slice(0, last_tri);
     mdl["values"].forEach(function(v, i){
-      var new_index = re_index[i];
+      var new_index = agr.index[i];
       if (new_index==null || new_index>=_mdl["keys"].length) return;
       var new_value = _mdl["values"][new_index];
       if (new_value==null) {
-        _mdl["values"].push(v);
+        var x = {}
+        Object.assign(x, v)
+        _mdl["values"].push(x);
       } else {
         Object.entries(v).forEach(([key, value]) => {
             new_value[key]=new_value[key]+value;
@@ -219,7 +271,7 @@ function render_chart() {
     console.log(key_modelo+" no encontrado builder");
     return;
   }
-  rd.apply(t, [mdl, prc]);
+  rd.apply(t, [mdl, prc, agrupar]);
 }
 
 $(document).ready(function(){
@@ -347,7 +399,7 @@ render_builder={
     setGraphChart({
         id: this.find("canvas")[0],
         title: null,
-        labels: obj["keys"].map(function(x) {return x.toFixed(2);}),
+        labels: obj["keys"],
         type: 'LineWithLine',
         max_y: prc?100:null,
         destroy:true
@@ -376,17 +428,24 @@ render_builder={
     setGraphChart({
         id: this.find("canvas")[0],
         title: null,
-        labels: obj["keys"].map(function(x) {return x.toFixed(2);}),
+        labels: obj["keys"],
         type: 'LineWithLine',
         //max_y: t=="prc_"?100:null,
         destroy:true
     }, dataset);
   },
   "karma_general": function (obj, prc) {
-    var labels = obj["keys"].map(function(x) {return x.toFixed(2);})
+    var labels = obj["keys"];
+    var negatives = gF(obj, "negatives");
+    var positives = gF(obj, "positives");
+    negatives = zip_arr(negatives, positives, function(a, b) {
+      var n = a + b;
+      n = a*100/n;
+      return Math.round(n*100)/100;
+    })
     var dataset = [{
         label: "% votos negativos",
-        data: gF(obj, "negatives"),
+        data: negatives,
         backgroundColor: d_color.red.backgroundColor,
         borderColor: d_color.red.borderColor,
         borderWidth: 1

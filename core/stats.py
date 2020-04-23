@@ -131,17 +131,14 @@ class Stats:
             mes,
             -- noticias,
             round(karma) karma,
-            round((votes*100/(votes+negatives))*100)/100 positives,
-            round((negatives*100/(votes+negatives))*100)/100 negatives,
-            round(comments) comments
+            positives,
+            negatives
         from (
             select
                 mes,
-                -- count(id) noticias,
                 avg(karma) karma,
-                sum(votes)-count(id) votes,
-                sum(negatives) negatives,
-                avg(comments) comments
+                sum(votes)-count(id) positives,
+                sum(negatives) negatives
             from
                 GENERAL
             where
