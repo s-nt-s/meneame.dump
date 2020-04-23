@@ -27,6 +27,11 @@ select
   votes,
   negatives,
   comments,
+  SUBSTRING_INDEX(
+    SUBSTRING_INDEX(
+      SUBSTRING_INDEX(SUBSTRING_INDEX(url, '/', 3), '://', -1)
+    , '/', 1)
+  , '?', 1) dominio,
   from_unixtime(`date`) main_date,
   from_unixtime(sent_date) sent_date,
   from_unixtime(sent_date+604800) closed_date, -- fecha en que la noticia ya esta cerrada,
