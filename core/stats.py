@@ -17,8 +17,8 @@ class Stats:
         self.db = DB()
         self.max_date, self.min_date = self.db.one('''
             select
-                from_unixtime(max(sent_date)),
-                from_unixtime(min(sent_date))
+                max(sent_date),
+                min(sent_date)
             from GENERAL
         ''')
         self.max_portada, self.min_portada = self.db.one('''
@@ -178,21 +178,21 @@ class Stats:
 
     def get_horas_mensual(self):
         data={}
-        min_year, max_year = self.db.one("select min(YEAR(from_unixtime(sent_date))), max(YEAR(from_unixtime(sent_date))) from GENERAL")
+        min_year, max_year = self.db.one("select min(YEAR(sent_date)), max(YEAR(sent_date)) from GENERAL")
         for dt in self.db.select('''
             select
-                YEAR(from_unixtime(sent_date)) yr,
+                YEAR(sent_date) yr,
                 floor(minuto/60) hora,
                 count(id) todas,
                 sum(status='published') published
             from
                 GENERAL
             where
-                YEAR(from_unixtime(sent_date))>{0} and
-                YEAR(from_unixtime(sent_date))<{1}
+                YEAR(sent_date)>{0} and
+                YEAR(sent_date)<{1}
             group by
-                YEAR(from_unixtime(sent_date)), floor(minuto/60)
-            order by YEAR(from_unixtime(sent_date)), floor(minuto/60)
+                YEAR(sent_date), floor(minuto/60)
+            order by YEAR(sent_date), floor(minuto/60)
         '''.format(min_year, max_year), cursor=DictCursor):
             yr = int(dt["yr"])
             hora = int(dt["hora"])
@@ -220,7 +220,7 @@ class Stats:
             from
                 GENERAL
             where
-                sub is not null and sub!='' and YEAR(from_unixtime(sent_date))>2013 {1}
+                sub is not null and sub!='' and YEAR(sent_date)>2013 {1}
             group by
                 mes
             order by mes

@@ -1,3295 +1,3276 @@
 var modelos = {
   "karma_general": {
     "2005.12": {
-      "karma": 58.0,
-      "positives": 96.22,
-      "negatives": 3.78,
+      "karma": 63.0,
+      "positives": 95.83,
+      "negatives": 4.17,
       "comments": 1.0
     },
     "2006.01": {
       "karma": 79.0,
-      "positives": 93.99,
-      "negatives": 6.01,
+      "positives": 93.98,
+      "negatives": 6.02,
       "comments": 2.0
     },
     "2006.02": {
-      "karma": 92.0,
-      "positives": 93.84,
-      "negatives": 6.16,
+      "karma": 91.0,
+      "positives": 93.2,
+      "negatives": 6.8,
       "comments": 3.0
     },
     "2006.03": {
-      "karma": 80.0,
-      "positives": 92.85,
-      "negatives": 7.15,
+      "karma": 77.0,
+      "positives": 93.46,
+      "negatives": 6.54,
       "comments": 4.0
     },
     "2006.04": {
-      "karma": 87.0,
-      "positives": 93.76,
-      "negatives": 6.24,
+      "karma": 96.0,
+      "positives": 93.48,
+      "negatives": 6.52,
       "comments": 4.0
     },
     "2006.05": {
-      "karma": 121.0,
-      "positives": 93.03,
-      "negatives": 6.97,
+      "karma": 129.0,
+      "positives": 92.81,
+      "negatives": 7.19,
       "comments": 5.0
     },
     "2006.06": {
-      "karma": 158.0,
-      "positives": 91.49,
-      "negatives": 8.51,
+      "karma": 170.0,
+      "positives": 91.18,
+      "negatives": 8.82,
       "comments": 6.0
     },
     "2006.07": {
-      "karma": 190.0,
-      "positives": 90.94,
-      "negatives": 9.06,
+      "karma": 193.0,
+      "positives": 90.93,
+      "negatives": 9.07,
       "comments": 5.0
     },
     "2006.08": {
       "karma": 194.0,
-      "positives": 90.67,
-      "negatives": 9.33,
+      "positives": 90.85,
+      "negatives": 9.15,
       "comments": 6.0
     },
     "2006.09": {
-      "karma": 191.0,
-      "positives": 90.31,
-      "negatives": 9.69,
+      "karma": 186.0,
+      "positives": 90.17,
+      "negatives": 9.83,
       "comments": 6.0
     },
     "2006.1": {
-      "karma": 180.0,
-      "positives": 90.86,
-      "negatives": 9.14,
+      "karma": 188.0,
+      "positives": 90.84,
+      "negatives": 9.16,
       "comments": 5.0
     },
     "2006.11": {
-      "karma": 202.0,
-      "positives": 91.47,
-      "negatives": 8.53,
+      "karma": 191.0,
+      "positives": 91.5,
+      "negatives": 8.5,
       "comments": 5.0
     },
     "2006.12": {
-      "karma": 170.0,
-      "positives": 91.68,
-      "negatives": 8.32,
+      "karma": 168.0,
+      "positives": 91.34,
+      "negatives": 8.66,
       "comments": 5.0
     },
     "2007.01": {
-      "karma": 166.0,
-      "positives": 92.06,
-      "negatives": 7.94,
+      "karma": 170.0,
+      "positives": 92.3,
+      "negatives": 7.7,
       "comments": 5.0
     },
     "2007.02": {
-      "karma": 169.0,
-      "positives": 93.0,
-      "negatives": 7.0,
+      "karma": 163.0,
+      "positives": 92.44,
+      "negatives": 7.56,
       "comments": 5.0
     },
     "2007.03": {
-      "karma": 161.0,
-      "positives": 92.58,
-      "negatives": 7.42,
+      "karma": 166.0,
+      "positives": 92.38,
+      "negatives": 7.62,
       "comments": 5.0
     },
     "2007.04": {
-      "karma": 173.0,
-      "positives": 92.61,
-      "negatives": 7.39,
+      "karma": 167.0,
+      "positives": 91.89,
+      "negatives": 8.11,
       "comments": 5.0
     },
     "2007.05": {
-      "karma": 148.0,
-      "positives": 93.29,
-      "negatives": 6.71,
+      "karma": 147.0,
+      "positives": 92.5,
+      "negatives": 7.5,
       "comments": 5.0
     },
     "2007.06": {
-      "karma": 154.0,
-      "positives": 93.25,
-      "negatives": 6.75,
-      "comments": 5.0
+      "karma": 158.0,
+      "positives": 91.75,
+      "negatives": 8.25,
+      "comments": 6.0
     },
     "2007.07": {
-      "karma": 166.0,
-      "positives": 93.5,
-      "negatives": 6.5,
+      "karma": 168.0,
+      "positives": 89.1,
+      "negatives": 10.9,
       "comments": 6.0
     },
     "2007.08": {
-      "karma": 165.0,
-      "positives": 92.03,
-      "negatives": 7.97,
+      "karma": 163.0,
+      "positives": 87.17,
+      "negatives": 12.83,
       "comments": 6.0
     },
     "2007.09": {
-      "karma": 157.0,
-      "positives": 92.24,
-      "negatives": 7.76,
+      "karma": 152.0,
+      "positives": 87.78,
+      "negatives": 12.22,
       "comments": 6.0
     },
     "2007.1": {
-      "karma": 154.0,
-      "positives": 92.69,
-      "negatives": 7.31,
+      "karma": 160.0,
+      "positives": 88.82,
+      "negatives": 11.18,
       "comments": 6.0
     },
     "2007.11": {
-      "karma": 155.0,
-      "positives": 93.55,
-      "negatives": 6.45,
+      "karma": 148.0,
+      "positives": 89.33,
+      "negatives": 10.67,
       "comments": 6.0
     },
     "2007.12": {
-      "karma": 137.0,
-      "positives": 93.77,
-      "negatives": 6.23,
-      "comments": 6.0
-    },
-    "2008.01": {
-      "karma": 143.0,
-      "positives": 93.91,
-      "negatives": 6.09,
+      "karma": 139.0,
+      "positives": 90.24,
+      "negatives": 9.76,
       "comments": 7.0
     },
+    "2008.01": {
+      "karma": 146.0,
+      "positives": 91.01,
+      "negatives": 8.99,
+      "comments": 8.0
+    },
     "2008.02": {
-      "karma": 147.0,
-      "positives": 94.73,
-      "negatives": 5.27,
+      "karma": 145.0,
+      "positives": 91.72,
+      "negatives": 8.28,
       "comments": 8.0
     },
     "2008.03": {
-      "karma": 136.0,
-      "positives": 94.65,
-      "negatives": 5.35,
+      "karma": 131.0,
+      "positives": 91.55,
+      "negatives": 8.45,
       "comments": 8.0
     },
     "2008.04": {
-      "karma": 112.0,
-      "positives": 94.44,
-      "negatives": 5.56,
+      "karma": 113.0,
+      "positives": 91.25,
+      "negatives": 8.75,
       "comments": 7.0
     },
     "2008.05": {
-      "karma": 104.0,
-      "positives": 93.59,
-      "negatives": 6.41,
+      "karma": 103.0,
+      "positives": 89.46,
+      "negatives": 10.54,
       "comments": 8.0
     },
     "2008.06": {
-      "karma": 113.0,
-      "positives": 93.95,
-      "negatives": 6.05,
-      "comments": 8.0
+      "karma": 118.0,
+      "positives": 90.43,
+      "negatives": 9.57,
+      "comments": 9.0
     },
     "2008.07": {
       "karma": 125.0,
-      "positives": 94.43,
-      "negatives": 5.57,
+      "positives": 91.58,
+      "negatives": 8.42,
       "comments": 9.0
     },
     "2008.08": {
-      "karma": 131.0,
-      "positives": 94.23,
-      "negatives": 5.77,
-      "comments": 9.0
+      "karma": 137.0,
+      "positives": 91.21,
+      "negatives": 8.79,
+      "comments": 10.0
     },
     "2008.09": {
-      "karma": 129.0,
-      "positives": 94.38,
-      "negatives": 5.62,
+      "karma": 121.0,
+      "positives": 91.65,
+      "negatives": 8.35,
       "comments": 10.0
     },
     "2008.1": {
-      "karma": 107.0,
-      "positives": 94.91,
-      "negatives": 5.09,
+      "karma": 106.0,
+      "positives": 91.82,
+      "negatives": 8.18,
       "comments": 8.0
     },
     "2008.11": {
-      "karma": 108.0,
-      "positives": 95.12,
-      "negatives": 4.88,
+      "karma": 111.0,
+      "positives": 92.37,
+      "negatives": 7.63,
       "comments": 9.0
     },
     "2008.12": {
-      "karma": 110.0,
-      "positives": 95.52,
-      "negatives": 4.48,
+      "karma": 113.0,
+      "positives": 92.78,
+      "negatives": 7.22,
       "comments": 9.0
     },
     "2009.01": {
       "karma": 131.0,
-      "positives": 95.58,
-      "negatives": 4.42,
+      "positives": 93.12,
+      "negatives": 6.88,
       "comments": 9.0
     },
     "2009.02": {
-      "karma": 127.0,
-      "positives": 96.19,
-      "negatives": 3.81,
+      "karma": 125.0,
+      "positives": 93.62,
+      "negatives": 6.38,
       "comments": 9.0
     },
     "2009.03": {
-      "karma": 121.0,
-      "positives": 96.13,
-      "negatives": 3.87,
+      "karma": 123.0,
+      "positives": 93.8,
+      "negatives": 6.2,
       "comments": 9.0
     },
     "2009.04": {
-      "karma": 121.0,
-      "positives": 96.18,
-      "negatives": 3.82,
+      "karma": 122.0,
+      "positives": 92.98,
+      "negatives": 7.02,
       "comments": 9.0
     },
     "2009.05": {
-      "karma": 122.0,
-      "positives": 95.81,
-      "negatives": 4.19,
+      "karma": 123.0,
+      "positives": 93.34,
+      "negatives": 6.66,
       "comments": 9.0
     },
     "2009.06": {
       "karma": 119.0,
-      "positives": 96.0,
-      "negatives": 4.0,
+      "positives": 93.11,
+      "negatives": 6.89,
       "comments": 9.0
     },
     "2009.07": {
-      "karma": 120.0,
-      "positives": 95.65,
-      "negatives": 4.35,
+      "karma": 119.0,
+      "positives": 92.77,
+      "negatives": 7.23,
       "comments": 9.0
     },
     "2009.08": {
-      "karma": 115.0,
-      "positives": 95.16,
-      "negatives": 4.84,
-      "comments": 9.0
+      "karma": 116.0,
+      "positives": 92.01,
+      "negatives": 7.99,
+      "comments": 10.0
     },
     "2009.09": {
-      "karma": 105.0,
-      "positives": 95.08,
-      "negatives": 4.92,
+      "karma": 102.0,
+      "positives": 91.65,
+      "negatives": 8.35,
       "comments": 9.0
     },
     "2009.1": {
       "karma": 100.0,
-      "positives": 95.28,
-      "negatives": 4.72,
+      "positives": 91.94,
+      "negatives": 8.06,
       "comments": 9.0
     },
     "2009.11": {
-      "karma": 101.0,
-      "positives": 95.22,
-      "negatives": 4.78,
+      "karma": 100.0,
+      "positives": 91.49,
+      "negatives": 8.51,
       "comments": 9.0
     },
     "2009.12": {
       "karma": 96.0,
-      "positives": 95.07,
-      "negatives": 4.93,
+      "positives": 91.37,
+      "negatives": 8.63,
       "comments": 9.0
     },
     "2010.01": {
-      "karma": 103.0,
-      "positives": 95.08,
-      "negatives": 4.92,
+      "karma": 102.0,
+      "positives": 91.37,
+      "negatives": 8.63,
       "comments": 9.0
     },
     "2010.02": {
-      "karma": 90.0,
-      "positives": 95.13,
-      "negatives": 4.87,
+      "karma": 92.0,
+      "positives": 91.57,
+      "negatives": 8.43,
       "comments": 8.0
     },
     "2010.03": {
-      "karma": 96.0,
-      "positives": 95.67,
-      "negatives": 4.33,
+      "karma": 97.0,
+      "positives": 92.26,
+      "negatives": 7.74,
       "comments": 8.0
     },
     "2010.04": {
-      "karma": 95.0,
-      "positives": 95.49,
-      "negatives": 4.51,
+      "karma": 94.0,
+      "positives": 91.49,
+      "negatives": 8.51,
       "comments": 8.0
     },
     "2010.05": {
-      "karma": 95.0,
-      "positives": 95.59,
-      "negatives": 4.41,
+      "karma": 99.0,
+      "positives": 91.64,
+      "negatives": 8.36,
       "comments": 9.0
     },
     "2010.06": {
       "karma": 99.0,
-      "positives": 95.76,
-      "negatives": 4.24,
+      "positives": 91.79,
+      "negatives": 8.21,
       "comments": 9.0
     },
     "2010.07": {
-      "karma": 103.0,
-      "positives": 95.17,
-      "negatives": 4.83,
+      "karma": 108.0,
+      "positives": 91.06,
+      "negatives": 8.94,
       "comments": 10.0
     },
     "2010.08": {
-      "karma": 109.0,
-      "positives": 95.46,
-      "negatives": 4.54,
+      "karma": 106.0,
+      "positives": 91.32,
+      "negatives": 8.68,
       "comments": 9.0
     },
     "2010.09": {
-      "karma": 100.0,
-      "positives": 95.1,
-      "negatives": 4.9,
+      "karma": 95.0,
+      "positives": 90.73,
+      "negatives": 9.27,
       "comments": 9.0
     },
     "2010.1": {
-      "karma": 77.0,
-      "positives": 94.81,
-      "negatives": 5.19,
+      "karma": 76.0,
+      "positives": 90.44,
+      "negatives": 9.56,
       "comments": 9.0
     },
     "2010.11": {
-      "karma": 69.0,
-      "positives": 95.0,
-      "negatives": 5.0,
+      "karma": 70.0,
+      "positives": 90.53,
+      "negatives": 9.47,
       "comments": 8.0
     },
     "2010.12": {
-      "karma": 75.0,
-      "positives": 95.54,
-      "negatives": 4.46,
+      "karma": 77.0,
+      "positives": 91.44,
+      "negatives": 8.56,
       "comments": 9.0
     },
     "2011.01": {
       "karma": 75.0,
-      "positives": 95.12,
-      "negatives": 4.88,
-      "comments": 9.0
+      "positives": 91.46,
+      "negatives": 8.54,
+      "comments": 8.0
     },
     "2011.02": {
       "karma": 74.0,
-      "positives": 95.93,
-      "negatives": 4.07,
+      "positives": 92.25,
+      "negatives": 7.75,
       "comments": 8.0
     },
     "2011.03": {
       "karma": 72.0,
-      "positives": 95.46,
-      "negatives": 4.54,
+      "positives": 91.42,
+      "negatives": 8.58,
       "comments": 8.0
     },
     "2011.04": {
-      "karma": 73.0,
-      "positives": 95.37,
-      "negatives": 4.63,
+      "karma": 71.0,
+      "positives": 91.0,
+      "negatives": 9.0,
       "comments": 9.0
     },
     "2011.05": {
-      "karma": 74.0,
-      "positives": 95.4,
-      "negatives": 4.6,
+      "karma": 80.0,
+      "positives": 91.92,
+      "negatives": 8.08,
       "comments": 9.0
     },
     "2011.06": {
-      "karma": 83.0,
-      "positives": 96.21,
-      "negatives": 3.79,
+      "karma": 80.0,
+      "positives": 92.06,
+      "negatives": 7.94,
       "comments": 9.0
     },
     "2011.07": {
       "karma": 80.0,
-      "positives": 95.64,
-      "negatives": 4.36,
+      "positives": 91.68,
+      "negatives": 8.32,
       "comments": 9.0
     },
     "2011.08": {
       "karma": 71.0,
-      "positives": 94.81,
-      "negatives": 5.19,
+      "positives": 90.33,
+      "negatives": 9.67,
       "comments": 9.0
     },
     "2011.09": {
       "karma": 65.0,
-      "positives": 94.62,
-      "negatives": 5.38,
+      "positives": 90.14,
+      "negatives": 9.86,
       "comments": 9.0
     },
     "2011.1": {
       "karma": 68.0,
-      "positives": 95.21,
-      "negatives": 4.79,
+      "positives": 90.6,
+      "negatives": 9.4,
       "comments": 9.0
     },
     "2011.11": {
-      "karma": 66.0,
-      "positives": 94.98,
-      "negatives": 5.02,
-      "comments": 8.0
+      "karma": 68.0,
+      "positives": 90.57,
+      "negatives": 9.43,
+      "comments": 9.0
     },
     "2011.12": {
-      "karma": 65.0,
-      "positives": 95.28,
-      "negatives": 4.72,
+      "karma": 66.0,
+      "positives": 90.6,
+      "negatives": 9.4,
       "comments": 8.0
     },
     "2012.01": {
-      "karma": 67.0,
-      "positives": 94.8,
-      "negatives": 5.2,
-      "comments": 8.0
+      "karma": 68.0,
+      "positives": 89.23,
+      "negatives": 10.77,
+      "comments": 9.0
     },
     "2012.02": {
-      "karma": 75.0,
-      "positives": 94.66,
-      "negatives": 5.34,
+      "karma": 74.0,
+      "positives": 88.75,
+      "negatives": 11.25,
       "comments": 9.0
     },
     "2012.03": {
-      "karma": 60.0,
-      "positives": 93.74,
-      "negatives": 6.26,
-      "comments": 8.0
+      "karma": 59.0,
+      "positives": 88.36,
+      "negatives": 11.64,
+      "comments": 9.0
     },
     "2012.04": {
-      "karma": 64.0,
-      "positives": 94.83,
-      "negatives": 5.17,
+      "karma": 69.0,
+      "positives": 90.03,
+      "negatives": 9.97,
       "comments": 9.0
     },
     "2012.05": {
       "karma": 75.0,
-      "positives": 95.44,
-      "negatives": 4.56,
+      "positives": 90.9,
+      "negatives": 9.1,
       "comments": 9.0
     },
     "2012.06": {
-      "karma": 71.0,
-      "positives": 95.43,
-      "negatives": 4.57,
-      "comments": 9.0
+      "karma": 72.0,
+      "positives": 90.71,
+      "negatives": 9.29,
+      "comments": 10.0
     },
     "2012.07": {
-      "karma": 83.0,
-      "positives": 96.02,
-      "negatives": 3.98,
+      "karma": 84.0,
+      "positives": 91.83,
+      "negatives": 8.17,
       "comments": 10.0
     },
     "2012.08": {
       "karma": 78.0,
-      "positives": 94.94,
-      "negatives": 5.06,
-      "comments": 10.0
+      "positives": 89.65,
+      "negatives": 10.35,
+      "comments": 11.0
     },
     "2012.09": {
-      "karma": 76.0,
-      "positives": 94.91,
-      "negatives": 5.09,
-      "comments": 10.0
+      "karma": 81.0,
+      "positives": 90.8,
+      "negatives": 9.2,
+      "comments": 11.0
     },
     "2012.1": {
-      "karma": 80.0,
-      "positives": 95.41,
-      "negatives": 4.59,
+      "karma": 74.0,
+      "positives": 89.46,
+      "negatives": 10.54,
       "comments": 10.0
     },
     "2012.11": {
       "karma": 65.0,
-      "positives": 94.54,
-      "negatives": 5.46,
+      "positives": 89.21,
+      "negatives": 10.79,
       "comments": 9.0
     },
     "2012.12": {
-      "karma": 70.0,
-      "positives": 95.22,
-      "negatives": 4.78,
+      "karma": 73.0,
+      "positives": 90.15,
+      "negatives": 9.85,
       "comments": 9.0
     },
     "2013.01": {
-      "karma": 66.0,
-      "positives": 95.13,
-      "negatives": 4.87,
+      "karma": 64.0,
+      "positives": 89.9,
+      "negatives": 10.1,
       "comments": 9.0
     },
     "2013.02": {
-      "karma": 68.0,
-      "positives": 95.36,
-      "negatives": 4.64,
+      "karma": 72.0,
+      "positives": 90.01,
+      "negatives": 9.99,
       "comments": 9.0
     },
     "2013.03": {
-      "karma": 70.0,
-      "positives": 94.69,
-      "negatives": 5.31,
+      "karma": 67.0,
+      "positives": 88.52,
+      "negatives": 11.48,
       "comments": 9.0
     },
     "2013.04": {
-      "karma": 61.0,
-      "positives": 93.47,
-      "negatives": 6.53,
+      "karma": 60.0,
+      "positives": 87.01,
+      "negatives": 12.99,
       "comments": 9.0
     },
     "2013.05": {
-      "karma": 62.0,
-      "positives": 93.88,
-      "negatives": 6.12,
+      "karma": 67.0,
+      "positives": 88.22,
+      "negatives": 11.78,
       "comments": 9.0
     },
     "2013.06": {
-      "karma": 71.0,
-      "positives": 94.79,
-      "negatives": 5.21,
-      "comments": 9.0
+      "karma": 74.0,
+      "positives": 89.69,
+      "negatives": 10.31,
+      "comments": 10.0
     },
     "2013.07": {
       "karma": 80.0,
-      "positives": 94.87,
-      "negatives": 5.13,
-      "comments": 10.0
+      "positives": 89.48,
+      "negatives": 10.52,
+      "comments": 11.0
     },
     "2013.08": {
-      "karma": 86.0,
-      "positives": 93.96,
-      "negatives": 6.04,
+      "karma": 87.0,
+      "positives": 88.51,
+      "negatives": 11.49,
       "comments": 11.0
     },
     "2013.09": {
-      "karma": 79.0,
-      "positives": 93.83,
-      "negatives": 6.17,
+      "karma": 77.0,
+      "positives": 88.33,
+      "negatives": 11.67,
       "comments": 11.0
     },
     "2013.1": {
-      "karma": 64.0,
-      "positives": 93.72,
-      "negatives": 6.28,
+      "karma": 63.0,
+      "positives": 87.6,
+      "negatives": 12.4,
       "comments": 10.0
     },
     "2013.11": {
       "karma": 63.0,
-      "positives": 93.37,
-      "negatives": 6.63,
-      "comments": 9.0
+      "positives": 87.23,
+      "negatives": 12.77,
+      "comments": 10.0
     },
     "2013.12": {
-      "karma": 71.0,
-      "positives": 93.92,
-      "negatives": 6.08,
+      "karma": 76.0,
+      "positives": 88.18,
+      "negatives": 11.82,
       "comments": 10.0
     },
     "2014.01": {
-      "karma": 72.0,
-      "positives": 93.47,
-      "negatives": 6.53,
+      "karma": 69.0,
+      "positives": 87.3,
+      "negatives": 12.7,
       "comments": 10.0
     },
     "2014.02": {
-      "karma": 67.0,
-      "positives": 93.69,
-      "negatives": 6.31,
+      "karma": 65.0,
+      "positives": 86.61,
+      "negatives": 13.39,
       "comments": 10.0
     },
     "2014.03": {
       "karma": 62.0,
-      "positives": 92.46,
-      "negatives": 7.54,
+      "positives": 86.17,
+      "negatives": 13.83,
       "comments": 10.0
     },
     "2014.04": {
-      "karma": 56.0,
-      "positives": 92.82,
-      "negatives": 7.18,
+      "karma": 57.0,
+      "positives": 86.22,
+      "negatives": 13.78,
       "comments": 10.0
     },
     "2014.05": {
-      "karma": 70.0,
-      "positives": 93.55,
-      "negatives": 6.45,
+      "karma": 74.0,
+      "positives": 87.26,
+      "negatives": 12.74,
       "comments": 11.0
     },
     "2014.06": {
       "karma": 69.0,
-      "positives": 93.4,
-      "negatives": 6.6,
+      "positives": 87.12,
+      "negatives": 12.88,
       "comments": 12.0
     },
     "2014.07": {
-      "karma": 73.0,
-      "positives": 94.36,
-      "negatives": 5.64,
+      "karma": 72.0,
+      "positives": 88.26,
+      "negatives": 11.74,
       "comments": 12.0
     },
     "2014.08": {
-      "karma": 65.0,
-      "positives": 93.49,
-      "negatives": 6.51,
+      "karma": 62.0,
+      "positives": 86.07,
+      "negatives": 13.93,
       "comments": 13.0
     },
     "2014.09": {
-      "karma": 51.0,
-      "positives": 91.52,
-      "negatives": 8.48,
+      "karma": 53.0,
+      "positives": 83.8,
+      "negatives": 16.2,
       "comments": 14.0
     },
     "2014.1": {
-      "karma": 65.0,
-      "positives": 93.55,
-      "negatives": 6.45,
+      "karma": 66.0,
+      "positives": 87.44,
+      "negatives": 12.56,
       "comments": 13.0
     },
     "2014.11": {
       "karma": 67.0,
-      "positives": 94.53,
-      "negatives": 5.47,
+      "positives": 88.1,
+      "negatives": 11.9,
       "comments": 13.0
     },
     "2014.12": {
-      "karma": 64.0,
-      "positives": 94.4,
-      "negatives": 5.6,
+      "karma": 63.0,
+      "positives": 87.79,
+      "negatives": 12.21,
       "comments": 12.0
     },
     "2015.01": {
-      "karma": 62.0,
-      "positives": 93.19,
-      "negatives": 6.81,
+      "karma": 66.0,
+      "positives": 87.32,
+      "negatives": 12.68,
       "comments": 13.0
     },
     "2015.02": {
-      "karma": 65.0,
-      "positives": 94.16,
-      "negatives": 5.84,
+      "karma": 63.0,
+      "positives": 87.42,
+      "negatives": 12.58,
       "comments": 13.0
     },
     "2015.03": {
-      "karma": 58.0,
-      "positives": 93.77,
-      "negatives": 6.23,
-      "comments": 13.0
+      "karma": 57.0,
+      "positives": 87.07,
+      "negatives": 12.93,
+      "comments": 14.0
     },
     "2015.04": {
-      "karma": 54.0,
-      "positives": 93.58,
-      "negatives": 6.42,
+      "karma": 55.0,
+      "positives": 86.83,
+      "negatives": 13.17,
       "comments": 14.0
     },
     "2015.05": {
-      "karma": 59.0,
-      "positives": 94.17,
-      "negatives": 5.83,
+      "karma": 64.0,
+      "positives": 88.33,
+      "negatives": 11.67,
       "comments": 15.0
     },
     "2015.06": {
-      "karma": 68.0,
-      "positives": 94.44,
-      "negatives": 5.56,
+      "karma": 65.0,
+      "positives": 87.81,
+      "negatives": 12.19,
       "comments": 17.0
     },
     "2015.07": {
-      "karma": 60.0,
-      "positives": 93.63,
-      "negatives": 6.37,
+      "karma": 58.0,
+      "positives": 87.07,
+      "negatives": 12.93,
       "comments": 18.0
     },
     "2015.08": {
       "karma": 55.0,
-      "positives": 92.89,
-      "negatives": 7.11,
+      "positives": 85.96,
+      "negatives": 14.04,
       "comments": 17.0
     },
     "2015.09": {
-      "karma": 55.0,
-      "positives": 92.47,
-      "negatives": 7.53,
+      "karma": 54.0,
+      "positives": 85.37,
+      "negatives": 14.63,
       "comments": 19.0
     },
     "2015.1": {
-      "karma": 58.0,
-      "positives": 93.4,
-      "negatives": 6.6,
-      "comments": 18.0
+      "karma": 59.0,
+      "positives": 87.1,
+      "negatives": 12.9,
+      "comments": 17.0
     },
     "2015.11": {
-      "karma": 48.0,
-      "positives": 92.54,
-      "negatives": 7.46,
+      "karma": 44.0,
+      "positives": 85.2,
+      "negatives": 14.8,
       "comments": 18.0
     },
     "2015.12": {
-      "karma": 47.0,
-      "positives": 92.62,
-      "negatives": 7.38,
+      "karma": 51.0,
+      "positives": 85.9,
+      "negatives": 14.1,
       "comments": 17.0
     },
     "2016.01": {
-      "karma": 51.0,
-      "positives": 92.78,
-      "negatives": 7.22,
+      "karma": 50.0,
+      "positives": 85.97,
+      "negatives": 14.03,
       "comments": 18.0
     },
     "2016.02": {
       "karma": 56.0,
-      "positives": 93.61,
-      "negatives": 6.39,
+      "positives": 87.03,
+      "negatives": 12.97,
       "comments": 17.0
     },
     "2016.03": {
-      "karma": 57.0,
-      "positives": 93.21,
-      "negatives": 6.79,
+      "karma": 59.0,
+      "positives": 86.43,
+      "negatives": 13.57,
       "comments": 18.0
     },
     "2016.04": {
       "karma": 61.0,
-      "positives": 93.45,
-      "negatives": 6.55,
-      "comments": 18.0
+      "positives": 87.64,
+      "negatives": 12.36,
+      "comments": 17.0
     },
     "2016.05": {
-      "karma": 62.0,
-      "positives": 93.43,
-      "negatives": 6.57,
+      "karma": 63.0,
+      "positives": 86.54,
+      "negatives": 13.46,
       "comments": 18.0
     },
     "2016.06": {
-      "karma": 67.0,
-      "positives": 92.68,
-      "negatives": 7.32,
-      "comments": 19.0
+      "karma": 71.0,
+      "positives": 86.18,
+      "negatives": 13.82,
+      "comments": 21.0
     },
     "2016.07": {
-      "karma": 73.0,
-      "positives": 93.44,
-      "negatives": 6.56,
-      "comments": 22.0
+      "karma": 68.0,
+      "positives": 87.3,
+      "negatives": 12.7,
+      "comments": 21.0
     },
     "2016.08": {
       "karma": 63.0,
-      "positives": 92.06,
-      "negatives": 7.94,
+      "positives": 84.38,
+      "negatives": 15.62,
       "comments": 20.0
     },
     "2016.09": {
       "karma": 59.0,
-      "positives": 91.44,
-      "negatives": 8.56,
+      "positives": 84.07,
+      "negatives": 15.93,
       "comments": 19.0
     },
     "2016.1": {
-      "karma": 56.0,
-      "positives": 91.66,
-      "negatives": 8.34,
+      "karma": 55.0,
+      "positives": 83.82,
+      "negatives": 16.18,
       "comments": 20.0
     },
     "2016.11": {
-      "karma": 50.0,
-      "positives": 91.73,
-      "negatives": 8.27,
-      "comments": 20.0
+      "karma": 46.0,
+      "positives": 83.46,
+      "negatives": 16.54,
+      "comments": 19.0
     },
     "2016.12": {
       "karma": 47.0,
-      "positives": 91.45,
-      "negatives": 8.55,
+      "positives": 83.95,
+      "negatives": 16.05,
       "comments": 19.0
     },
     "2017.01": {
       "karma": 40.0,
-      "positives": 91.01,
-      "negatives": 8.99,
+      "positives": 83.37,
+      "negatives": 16.63,
       "comments": 19.0
     },
     "2017.02": {
-      "karma": 40.0,
-      "positives": 91.76,
-      "negatives": 8.24,
+      "karma": 42.0,
+      "positives": 85.39,
+      "negatives": 14.61,
       "comments": 19.0
     },
     "2017.03": {
       "karma": 39.0,
-      "positives": 91.94,
-      "negatives": 8.06,
+      "positives": 84.96,
+      "negatives": 15.04,
       "comments": 18.0
     },
     "2017.04": {
-      "karma": 42.0,
-      "positives": 92.63,
-      "negatives": 7.37,
+      "karma": 47.0,
+      "positives": 86.29,
+      "negatives": 13.71,
       "comments": 19.0
     },
     "2017.05": {
       "karma": 55.0,
-      "positives": 92.71,
-      "negatives": 7.29,
+      "positives": 85.38,
+      "negatives": 14.62,
       "comments": 20.0
     },
     "2017.06": {
-      "karma": 54.0,
-      "positives": 92.54,
-      "negatives": 7.46,
+      "karma": 53.0,
+      "positives": 85.77,
+      "negatives": 14.23,
       "comments": 21.0
     },
     "2017.07": {
       "karma": 45.0,
-      "positives": 91.21,
-      "negatives": 8.79,
+      "positives": 84.06,
+      "negatives": 15.94,
       "comments": 20.0
     },
     "2017.08": {
-      "karma": 48.0,
-      "positives": 90.85,
-      "negatives": 9.15,
+      "karma": 46.0,
+      "positives": 83.12,
+      "negatives": 16.88,
       "comments": 23.0
     },
     "2017.09": {
-      "karma": 40.0,
-      "positives": 89.91,
-      "negatives": 10.09,
+      "karma": 39.0,
+      "positives": 81.78,
+      "negatives": 18.22,
       "comments": 23.0
     },
     "2017.1": {
-      "karma": 53.0,
-      "positives": 89.97,
-      "negatives": 10.03,
-      "comments": 26.0
+      "karma": 58.0,
+      "positives": 83.38,
+      "negatives": 16.62,
+      "comments": 27.0
     },
     "2017.11": {
-      "karma": 57.0,
-      "positives": 92.04,
-      "negatives": 7.96,
-      "comments": 21.0
+      "karma": 56.0,
+      "positives": 85.9,
+      "negatives": 14.1,
+      "comments": 20.0
     },
     "2017.12": {
-      "karma": 52.0,
-      "positives": 92.26,
-      "negatives": 7.74,
-      "comments": 19.0
+      "karma": 54.0,
+      "positives": 85.37,
+      "negatives": 14.63,
+      "comments": 20.0
     },
     "2018.01": {
-      "karma": 59.0,
-      "positives": 92.6,
-      "negatives": 7.4,
+      "karma": 58.0,
+      "positives": 86.04,
+      "negatives": 13.96,
       "comments": 21.0
     },
     "2018.02": {
-      "karma": 60.0,
-      "positives": 92.75,
-      "negatives": 7.25,
+      "karma": 61.0,
+      "positives": 86.41,
+      "negatives": 13.59,
       "comments": 21.0
     },
     "2018.03": {
-      "karma": 61.0,
-      "positives": 92.61,
-      "negatives": 7.39,
+      "karma": 60.0,
+      "positives": 85.51,
+      "negatives": 14.49,
       "comments": 21.0
     },
     "2018.04": {
       "karma": 68.0,
-      "positives": 93.36,
-      "negatives": 6.64,
-      "comments": 21.0
+      "positives": 87.3,
+      "negatives": 12.7,
+      "comments": 20.0
     },
     "2018.05": {
-      "karma": 62.0,
-      "positives": 92.19,
-      "negatives": 7.81,
+      "karma": 63.0,
+      "positives": 86.54,
+      "negatives": 13.46,
       "comments": 20.0
     },
     "2018.06": {
-      "karma": 59.0,
-      "positives": 93.1,
-      "negatives": 6.9,
+      "karma": 56.0,
+      "positives": 86.04,
+      "negatives": 13.96,
       "comments": 21.0
     },
     "2018.07": {
-      "karma": 63.0,
-      "positives": 92.86,
-      "negatives": 7.14,
-      "comments": 21.0
+      "karma": 64.0,
+      "positives": 86.62,
+      "negatives": 13.38,
+      "comments": 22.0
     },
     "2018.08": {
-      "karma": 56.0,
-      "positives": 92.48,
-      "negatives": 7.52,
+      "karma": 53.0,
+      "positives": 85.31,
+      "negatives": 14.69,
       "comments": 23.0
     },
     "2018.09": {
-      "karma": 56.0,
-      "positives": 92.59,
-      "negatives": 7.41,
-      "comments": 22.0
+      "karma": 59.0,
+      "positives": 86.47,
+      "negatives": 13.53,
+      "comments": 21.0
     },
     "2018.1": {
-      "karma": 56.0,
-      "positives": 92.91,
-      "negatives": 7.09,
+      "karma": 54.0,
+      "positives": 86.28,
+      "negatives": 13.72,
       "comments": 21.0
     },
     "2018.11": {
       "karma": 51.0,
-      "positives": 92.75,
-      "negatives": 7.25,
+      "positives": 85.61,
+      "negatives": 14.39,
       "comments": 21.0
     },
     "2018.12": {
-      "karma": 49.0,
-      "positives": 91.71,
-      "negatives": 8.29,
-      "comments": 22.0
+      "karma": 50.0,
+      "positives": 84.11,
+      "negatives": 15.89,
+      "comments": 23.0
     },
     "2019.01": {
-      "karma": 53.0,
-      "positives": 92.11,
-      "negatives": 7.89,
-      "comments": 24.0
+      "karma": 50.0,
+      "positives": 84.81,
+      "negatives": 15.19,
+      "comments": 23.0
     },
     "2019.02": {
-      "karma": 49.0,
-      "positives": 91.3,
-      "negatives": 8.7,
+      "karma": 50.0,
+      "positives": 84.23,
+      "negatives": 15.77,
       "comments": 22.0
     },
     "2019.03": {
-      "karma": 51.0,
-      "positives": 90.09,
-      "negatives": 9.91,
-      "comments": 21.0
+      "karma": 53.0,
+      "positives": 82.92,
+      "negatives": 17.08,
+      "comments": 20.0
     },
     "2019.04": {
-      "karma": 58.0,
-      "positives": 92.2,
-      "negatives": 7.8,
-      "comments": 19.0
+      "karma": 59.0,
+      "positives": 85.05,
+      "negatives": 14.95,
+      "comments": 20.0
     },
     "2019.05": {
-      "karma": 54.0,
-      "positives": 92.35,
-      "negatives": 7.65,
+      "karma": 50.0,
+      "positives": 85.52,
+      "negatives": 14.48,
       "comments": 20.0
     },
     "2019.06": {
-      "karma": 51.0,
-      "positives": 92.97,
-      "negatives": 7.03,
+      "karma": 52.0,
+      "positives": 86.11,
+      "negatives": 13.89,
       "comments": 20.0
     },
     "2019.07": {
-      "karma": 45.0,
-      "positives": 92.16,
-      "negatives": 7.84,
+      "karma": 44.0,
+      "positives": 84.23,
+      "negatives": 15.77,
       "comments": 20.0
     },
     "2019.08": {
-      "karma": 50.0,
-      "positives": 92.2,
-      "negatives": 7.8,
+      "karma": 53.0,
+      "positives": 85.06,
+      "negatives": 14.94,
       "comments": 22.0
     },
     "2019.09": {
-      "karma": 54.0,
-      "positives": 93.23,
-      "negatives": 6.77,
-      "comments": 21.0
+      "karma": 53.0,
+      "positives": 85.49,
+      "negatives": 14.51,
+      "comments": 22.0
     },
     "2019.1": {
-      "karma": 53.0,
-      "positives": 91.6,
-      "negatives": 8.4,
+      "karma": 55.0,
+      "positives": 84.35,
+      "negatives": 15.65,
       "comments": 23.0
     },
     "2019.11": {
       "karma": 55.0,
-      "positives": 92.52,
-      "negatives": 7.48,
+      "positives": 85.88,
+      "negatives": 14.12,
       "comments": 21.0
     },
     "2019.12": {
-      "karma": 58.0,
-      "positives": 93.18,
-      "negatives": 6.82,
-      "comments": 22.0
+      "karma": 59.0,
+      "positives": 86.35,
+      "negatives": 13.65,
+      "comments": 23.0
     },
     "2020.01": {
       "karma": 61.0,
-      "positives": 93.12,
-      "negatives": 6.88,
-      "comments": 23.0
+      "positives": 86.85,
+      "negatives": 13.15,
+      "comments": 22.0
     },
     "2020.02": {
-      "karma": 59.0,
-      "positives": 93.18,
-      "negatives": 6.82,
+      "karma": 58.0,
+      "positives": 86.5,
+      "negatives": 13.5,
       "comments": 20.0
     },
     "2020.03": {
-      "karma": 81.0,
-      "positives": 93.63,
-      "negatives": 6.37,
-      "comments": 22.0
-    },
-    "2020.04": {
-      "karma": 89.0,
-      "positives": 93.66,
-      "negatives": 6.34,
+      "karma": 88.0,
+      "positives": 88.44,
+      "negatives": 11.56,
       "comments": 23.0
     }
   },
   "karma_portada": {
     "2005.12": {
-      "karma": 126.0,
-      "positives": 99.37,
-      "negatives": 0.63,
+      "karma": 137.0,
+      "positives": 99.31,
+      "negatives": 0.69,
       "comments": 2.0
     },
     "2006.01": {
-      "karma": 207.0,
-      "positives": 98.88,
-      "negatives": 1.12,
-      "comments": 3.0
+      "karma": 227.0,
+      "positives": 98.91,
+      "negatives": 1.09,
+      "comments": 4.0
     },
     "2006.02": {
-      "karma": 309.0,
-      "positives": 98.96,
-      "negatives": 1.04,
+      "karma": 327.0,
+      "positives": 98.97,
+      "negatives": 1.03,
       "comments": 6.0
     },
     "2006.03": {
-      "karma": 352.0,
+      "karma": 353.0,
       "positives": 99.0,
       "negatives": 1.0,
       "comments": 8.0
     },
     "2006.04": {
-      "karma": 376.0,
-      "positives": 98.97,
-      "negatives": 1.03,
+      "karma": 391.0,
+      "positives": 98.9,
+      "negatives": 1.1,
       "comments": 9.0
     },
     "2006.05": {
-      "karma": 457.0,
-      "positives": 98.93,
-      "negatives": 1.07,
-      "comments": 11.0
+      "karma": 477.0,
+      "positives": 98.95,
+      "negatives": 1.05,
+      "comments": 12.0
     },
     "2006.06": {
-      "karma": 537.0,
+      "karma": 541.0,
       "positives": 98.94,
       "negatives": 1.06,
       "comments": 14.0
     },
     "2006.07": {
-      "karma": 527.0,
-      "positives": 98.67,
-      "negatives": 1.33,
-      "comments": 14.0
+      "karma": 543.0,
+      "positives": 98.6,
+      "negatives": 1.4,
+      "comments": 13.0
     },
     "2006.08": {
-      "karma": 595.0,
-      "positives": 98.64,
-      "negatives": 1.36,
-      "comments": 15.0
+      "karma": 605.0,
+      "positives": 98.7,
+      "negatives": 1.3,
+      "comments": 16.0
     },
     "2006.09": {
-      "karma": 637.0,
+      "karma": 636.0,
       "positives": 98.94,
       "negatives": 1.06,
       "comments": 19.0
     },
     "2006.1": {
-      "karma": 657.0,
+      "karma": 700.0,
       "positives": 98.98,
       "negatives": 1.02,
-      "comments": 19.0
+      "comments": 18.0
     },
     "2006.11": {
-      "karma": 815.0,
-      "positives": 99.14,
-      "negatives": 0.86,
-      "comments": 20.0
+      "karma": 799.0,
+      "positives": 99.21,
+      "negatives": 0.79,
+      "comments": 22.0
     },
     "2006.12": {
-      "karma": 753.0,
+      "karma": 755.0,
       "positives": 99.49,
       "negatives": 0.51,
       "comments": 21.0
     },
     "2007.01": {
-      "karma": 749.0,
-      "positives": 99.42,
-      "negatives": 0.58,
-      "comments": 24.0
+      "karma": 764.0,
+      "positives": 99.37,
+      "negatives": 0.63,
+      "comments": 23.0
     },
     "2007.02": {
-      "karma": 821.0,
-      "positives": 99.4,
-      "negatives": 0.6,
-      "comments": 25.0
+      "karma": 810.0,
+      "positives": 99.34,
+      "negatives": 0.66,
+      "comments": 26.0
     },
     "2007.03": {
-      "karma": 756.0,
-      "positives": 99.23,
-      "negatives": 0.77,
+      "karma": 758.0,
+      "positives": 99.16,
+      "negatives": 0.84,
       "comments": 26.0
     },
     "2007.04": {
-      "karma": 785.0,
-      "positives": 99.24,
-      "negatives": 0.76,
+      "karma": 783.0,
+      "positives": 99.15,
+      "negatives": 0.85,
       "comments": 26.0
     },
     "2007.05": {
-      "karma": 743.0,
-      "positives": 99.35,
-      "negatives": 0.65,
+      "karma": 739.0,
+      "positives": 99.19,
+      "negatives": 0.81,
       "comments": 30.0
     },
     "2007.06": {
-      "karma": 806.0,
-      "positives": 99.43,
-      "negatives": 0.57,
-      "comments": 35.0
-    },
-    "2007.07": {
-      "karma": 872.0,
-      "positives": 99.41,
-      "negatives": 0.59,
+      "karma": 847.0,
+      "positives": 99.29,
+      "negatives": 0.71,
       "comments": 36.0
     },
-    "2007.08": {
-      "karma": 891.0,
-      "positives": 99.34,
-      "negatives": 0.66,
+    "2007.07": {
+      "karma": 860.0,
+      "positives": 98.77,
+      "negatives": 1.23,
       "comments": 34.0
     },
+    "2007.08": {
+      "karma": 895.0,
+      "positives": 98.77,
+      "negatives": 1.23,
+      "comments": 35.0
+    },
     "2007.09": {
-      "karma": 877.0,
-      "positives": 99.43,
-      "negatives": 0.57,
+      "karma": 868.0,
+      "positives": 98.86,
+      "negatives": 1.14,
       "comments": 36.0
     },
     "2007.1": {
-      "karma": 831.0,
-      "positives": 99.1,
-      "negatives": 0.9,
+      "karma": 825.0,
+      "positives": 98.06,
+      "negatives": 1.94,
       "comments": 36.0
     },
     "2007.11": {
-      "karma": 799.0,
-      "positives": 98.96,
-      "negatives": 1.04,
-      "comments": 36.0
+      "karma": 786.0,
+      "positives": 98.08,
+      "negatives": 1.92,
+      "comments": 37.0
     },
     "2007.12": {
-      "karma": 777.0,
-      "positives": 99.21,
-      "negatives": 0.79,
-      "comments": 38.0
+      "karma": 788.0,
+      "positives": 98.52,
+      "negatives": 1.48,
+      "comments": 39.0
     },
     "2008.01": {
-      "karma": 821.0,
-      "positives": 99.29,
-      "negatives": 0.71,
-      "comments": 40.0
+      "karma": 829.0,
+      "positives": 98.71,
+      "negatives": 1.29,
+      "comments": 42.0
     },
     "2008.02": {
-      "karma": 829.0,
-      "positives": 99.39,
-      "negatives": 0.61,
+      "karma": 809.0,
+      "positives": 98.83,
+      "negatives": 1.17,
       "comments": 45.0
     },
     "2008.03": {
-      "karma": 731.0,
-      "positives": 99.46,
-      "negatives": 0.54,
+      "karma": 700.0,
+      "positives": 98.95,
+      "negatives": 1.05,
       "comments": 44.0
     },
     "2008.04": {
-      "karma": 649.0,
-      "positives": 99.46,
-      "negatives": 0.54,
-      "comments": 41.0
+      "karma": 652.0,
+      "positives": 98.97,
+      "negatives": 1.03,
+      "comments": 42.0
     },
     "2008.05": {
-      "karma": 654.0,
-      "positives": 99.47,
-      "negatives": 0.53,
-      "comments": 46.0
+      "karma": 648.0,
+      "positives": 98.86,
+      "negatives": 1.14,
+      "comments": 47.0
     },
     "2008.06": {
-      "karma": 647.0,
-      "positives": 99.2,
-      "negatives": 0.8,
-      "comments": 50.0
+      "karma": 657.0,
+      "positives": 98.36,
+      "negatives": 1.64,
+      "comments": 51.0
     },
     "2008.07": {
-      "karma": 681.0,
-      "positives": 99.36,
-      "negatives": 0.64,
-      "comments": 48.0
+      "karma": 689.0,
+      "positives": 98.95,
+      "negatives": 1.05,
+      "comments": 47.0
     },
     "2008.08": {
-      "karma": 775.0,
-      "positives": 99.55,
-      "negatives": 0.45,
-      "comments": 49.0
+      "karma": 817.0,
+      "positives": 99.15,
+      "negatives": 0.85,
+      "comments": 51.0
     },
     "2008.09": {
-      "karma": 810.0,
-      "positives": 99.57,
-      "negatives": 0.43,
-      "comments": 55.0
+      "karma": 748.0,
+      "positives": 99.21,
+      "negatives": 0.79,
+      "comments": 54.0
     },
     "2008.1": {
-      "karma": 636.0,
-      "positives": 99.61,
-      "negatives": 0.39,
+      "karma": 637.0,
+      "positives": 99.2,
+      "negatives": 0.8,
       "comments": 48.0
     },
     "2008.11": {
-      "karma": 646.0,
-      "positives": 99.6,
-      "negatives": 0.4,
-      "comments": 50.0
-    },
-    "2008.12": {
-      "karma": 637.0,
-      "positives": 99.66,
-      "negatives": 0.34,
+      "karma": 655.0,
+      "positives": 99.21,
+      "negatives": 0.79,
       "comments": 52.0
     },
+    "2008.12": {
+      "karma": 628.0,
+      "positives": 99.3,
+      "negatives": 0.7,
+      "comments": 50.0
+    },
     "2009.01": {
-      "karma": 677.0,
-      "positives": 99.61,
-      "negatives": 0.39,
+      "karma": 695.0,
+      "positives": 99.26,
+      "negatives": 0.74,
       "comments": 48.0
     },
     "2009.02": {
-      "karma": 707.0,
-      "positives": 99.6,
-      "negatives": 0.4,
-      "comments": 53.0
+      "karma": 691.0,
+      "positives": 99.17,
+      "negatives": 0.83,
+      "comments": 55.0
     },
     "2009.03": {
-      "karma": 656.0,
-      "positives": 99.65,
-      "negatives": 0.35,
+      "karma": 653.0,
+      "positives": 99.3,
+      "negatives": 0.7,
       "comments": 51.0
     },
     "2009.04": {
-      "karma": 640.0,
-      "positives": 99.64,
-      "negatives": 0.36,
-      "comments": 50.0
+      "karma": 649.0,
+      "positives": 99.12,
+      "negatives": 0.88,
+      "comments": 53.0
     },
     "2009.05": {
-      "karma": 661.0,
-      "positives": 99.57,
-      "negatives": 0.43,
-      "comments": 57.0
+      "karma": 658.0,
+      "positives": 99.21,
+      "negatives": 0.79,
+      "comments": 55.0
     },
     "2009.06": {
-      "karma": 654.0,
-      "positives": 99.58,
-      "negatives": 0.42,
-      "comments": 59.0
+      "karma": 649.0,
+      "positives": 99.1,
+      "negatives": 0.9,
+      "comments": 58.0
     },
     "2009.07": {
-      "karma": 652.0,
-      "positives": 99.58,
-      "negatives": 0.42,
+      "karma": 654.0,
+      "positives": 99.15,
+      "negatives": 0.85,
       "comments": 52.0
     },
     "2009.08": {
       "karma": 644.0,
-      "positives": 99.56,
-      "negatives": 0.44,
-      "comments": 56.0
+      "positives": 99.07,
+      "negatives": 0.93,
+      "comments": 57.0
     },
     "2009.09": {
-      "karma": 632.0,
-      "positives": 99.42,
-      "negatives": 0.58,
-      "comments": 61.0
+      "karma": 619.0,
+      "positives": 98.61,
+      "negatives": 1.39,
+      "comments": 62.0
     },
     "2009.1": {
-      "karma": 594.0,
-      "positives": 99.31,
-      "negatives": 0.69,
-      "comments": 56.0
+      "karma": 592.0,
+      "positives": 98.59,
+      "negatives": 1.41,
+      "comments": 54.0
     },
     "2009.11": {
-      "karma": 592.0,
-      "positives": 99.37,
-      "negatives": 0.63,
-      "comments": 56.0
+      "karma": 587.0,
+      "positives": 98.6,
+      "negatives": 1.4,
+      "comments": 57.0
     },
     "2009.12": {
-      "karma": 580.0,
-      "positives": 99.31,
-      "negatives": 0.69,
+      "karma": 582.0,
+      "positives": 98.46,
+      "negatives": 1.54,
       "comments": 55.0
     },
     "2010.01": {
-      "karma": 620.0,
-      "positives": 99.34,
-      "negatives": 0.66,
+      "karma": 618.0,
+      "positives": 98.55,
+      "negatives": 1.45,
       "comments": 56.0
     },
     "2010.02": {
-      "karma": 542.0,
-      "positives": 99.42,
-      "negatives": 0.58,
-      "comments": 55.0
+      "karma": 533.0,
+      "positives": 98.7,
+      "negatives": 1.3,
+      "comments": 54.0
     },
     "2010.03": {
-      "karma": 547.0,
-      "positives": 99.38,
-      "negatives": 0.62,
+      "karma": 551.0,
+      "positives": 98.64,
+      "negatives": 1.36,
       "comments": 53.0
     },
     "2010.04": {
-      "karma": 539.0,
-      "positives": 99.35,
-      "negatives": 0.65,
-      "comments": 52.0
+      "karma": 537.0,
+      "positives": 98.5,
+      "negatives": 1.5,
+      "comments": 54.0
     },
     "2010.05": {
-      "karma": 556.0,
-      "positives": 99.48,
-      "negatives": 0.52,
+      "karma": 564.0,
+      "positives": 98.66,
+      "negatives": 1.34,
       "comments": 56.0
     },
     "2010.06": {
-      "karma": 581.0,
-      "positives": 99.46,
-      "negatives": 0.54,
-      "comments": 58.0
+      "karma": 589.0,
+      "positives": 98.66,
+      "negatives": 1.34,
+      "comments": 60.0
     },
     "2010.07": {
-      "karma": 641.0,
-      "positives": 99.45,
-      "negatives": 0.55,
+      "karma": 656.0,
+      "positives": 98.65,
+      "negatives": 1.35,
       "comments": 62.0
     },
     "2010.08": {
-      "karma": 631.0,
-      "positives": 99.45,
-      "negatives": 0.55,
-      "comments": 59.0
+      "karma": 613.0,
+      "positives": 98.64,
+      "negatives": 1.36,
+      "comments": 58.0
     },
     "2010.09": {
-      "karma": 625.0,
-      "positives": 99.43,
-      "negatives": 0.57,
-      "comments": 61.0
+      "karma": 614.0,
+      "positives": 98.58,
+      "negatives": 1.42,
+      "comments": 62.0
     },
     "2010.1": {
-      "karma": 519.0,
-      "positives": 99.39,
-      "negatives": 0.61,
+      "karma": 503.0,
+      "positives": 98.56,
+      "negatives": 1.44,
       "comments": 62.0
     },
     "2010.11": {
-      "karma": 459.0,
-      "positives": 99.45,
-      "negatives": 0.55,
+      "karma": 451.0,
+      "positives": 98.57,
+      "negatives": 1.43,
       "comments": 58.0
     },
     "2010.12": {
-      "karma": 485.0,
-      "positives": 99.47,
-      "negatives": 0.53,
-      "comments": 66.0
+      "karma": 497.0,
+      "positives": 98.81,
+      "negatives": 1.19,
+      "comments": 67.0
     },
     "2011.01": {
-      "karma": 491.0,
-      "positives": 99.39,
-      "negatives": 0.61,
-      "comments": 64.0
-    },
-    "2011.02": {
-      "karma": 476.0,
-      "positives": 99.45,
-      "negatives": 0.55,
-      "comments": 59.0
-    },
-    "2011.03": {
       "karma": 487.0,
-      "positives": 99.42,
-      "negatives": 0.58,
+      "positives": 98.66,
+      "negatives": 1.34,
       "comments": 63.0
     },
-    "2011.04": {
+    "2011.02": {
+      "karma": 480.0,
+      "positives": 98.7,
+      "negatives": 1.3,
+      "comments": 58.0
+    },
+    "2011.03": {
       "karma": 485.0,
-      "positives": 99.37,
-      "negatives": 0.63,
+      "positives": 98.62,
+      "negatives": 1.38,
+      "comments": 64.0
+    },
+    "2011.04": {
+      "karma": 487.0,
+      "positives": 98.59,
+      "negatives": 1.41,
       "comments": 64.0
     },
     "2011.05": {
-      "karma": 537.0,
-      "positives": 99.41,
-      "negatives": 0.59,
-      "comments": 65.0
+      "karma": 563.0,
+      "positives": 98.72,
+      "negatives": 1.28,
+      "comments": 67.0
     },
     "2011.06": {
-      "karma": 572.0,
-      "positives": 99.5,
-      "negatives": 0.5,
-      "comments": 70.0
+      "karma": 551.0,
+      "positives": 98.74,
+      "negatives": 1.26,
+      "comments": 72.0
     },
     "2011.07": {
       "karma": 539.0,
-      "positives": 99.45,
-      "negatives": 0.55,
-      "comments": 73.0
-    },
-    "2011.08": {
-      "karma": 507.0,
-      "positives": 99.3,
-      "negatives": 0.7,
+      "positives": 98.76,
+      "negatives": 1.24,
       "comments": 72.0
     },
-    "2011.09": {
-      "karma": 487.0,
-      "positives": 99.35,
-      "negatives": 0.65,
+    "2011.08": {
+      "karma": 502.0,
+      "positives": 98.35,
+      "negatives": 1.65,
       "comments": 71.0
+    },
+    "2011.09": {
+      "karma": 483.0,
+      "positives": 98.64,
+      "negatives": 1.36,
+      "comments": 69.0
     },
     "2011.1": {
       "karma": 486.0,
-      "positives": 99.43,
-      "negatives": 0.57,
-      "comments": 67.0
+      "positives": 98.57,
+      "negatives": 1.43,
+      "comments": 69.0
     },
     "2011.11": {
-      "karma": 484.0,
-      "positives": 99.33,
-      "negatives": 0.67,
+      "karma": 486.0,
+      "positives": 98.46,
+      "negatives": 1.54,
       "comments": 69.0
     },
     "2011.12": {
-      "karma": 475.0,
-      "positives": 99.41,
-      "negatives": 0.59,
-      "comments": 67.0
+      "karma": 479.0,
+      "positives": 98.6,
+      "negatives": 1.4,
+      "comments": 65.0
     },
     "2012.01": {
-      "karma": 579.0,
-      "positives": 99.46,
-      "negatives": 0.54,
-      "comments": 67.0
+      "karma": 618.0,
+      "positives": 98.67,
+      "negatives": 1.33,
+      "comments": 69.0
     },
     "2012.02": {
-      "karma": 742.0,
-      "positives": 99.41,
-      "negatives": 0.59,
-      "comments": 73.0
+      "karma": 753.0,
+      "positives": 98.51,
+      "negatives": 1.49,
+      "comments": 75.0
     },
     "2012.03": {
-      "karma": 653.0,
-      "positives": 99.47,
-      "negatives": 0.53,
-      "comments": 74.0
+      "karma": 618.0,
+      "positives": 98.66,
+      "negatives": 1.34,
+      "comments": 72.0
     },
     "2012.04": {
-      "karma": 599.0,
-      "positives": 99.49,
-      "negatives": 0.51,
-      "comments": 76.0
+      "karma": 606.0,
+      "positives": 98.82,
+      "negatives": 1.18,
+      "comments": 75.0
     },
     "2012.05": {
-      "karma": 618.0,
-      "positives": 99.49,
-      "negatives": 0.51,
+      "karma": 610.0,
+      "positives": 98.74,
+      "negatives": 1.26,
       "comments": 72.0
     },
     "2012.06": {
-      "karma": 582.0,
-      "positives": 99.53,
-      "negatives": 0.47,
-      "comments": 75.0
+      "karma": 585.0,
+      "positives": 98.77,
+      "negatives": 1.23,
+      "comments": 76.0
     },
     "2012.07": {
-      "karma": 613.0,
-      "positives": 99.53,
-      "negatives": 0.47,
-      "comments": 77.0
+      "karma": 617.0,
+      "positives": 98.8,
+      "negatives": 1.2,
+      "comments": 76.0
     },
     "2012.08": {
-      "karma": 621.0,
-      "positives": 99.39,
-      "negatives": 0.61,
-      "comments": 81.0
-    },
-    "2012.09": {
-      "karma": 630.0,
-      "positives": 99.44,
-      "negatives": 0.56,
+      "karma": 625.0,
+      "positives": 98.45,
+      "negatives": 1.55,
       "comments": 82.0
     },
+    "2012.09": {
+      "karma": 636.0,
+      "positives": 98.64,
+      "negatives": 1.36,
+      "comments": 79.0
+    },
     "2012.1": {
-      "karma": 660.0,
-      "positives": 99.43,
-      "negatives": 0.57,
-      "comments": 77.0
+      "karma": 656.0,
+      "positives": 98.45,
+      "negatives": 1.55,
+      "comments": 78.0
     },
     "2012.11": {
-      "karma": 602.0,
-      "positives": 99.46,
-      "negatives": 0.54,
+      "karma": 592.0,
+      "positives": 98.75,
+      "negatives": 1.25,
       "comments": 75.0
     },
     "2012.12": {
-      "karma": 573.0,
-      "positives": 99.54,
-      "negatives": 0.46,
-      "comments": 71.0
+      "karma": 565.0,
+      "positives": 98.69,
+      "negatives": 1.31,
+      "comments": 69.0
     },
     "2013.01": {
-      "karma": 545.0,
-      "positives": 99.51,
-      "negatives": 0.49,
-      "comments": 71.0
-    },
-    "2013.02": {
-      "karma": 567.0,
-      "positives": 99.57,
-      "negatives": 0.43,
+      "karma": 539.0,
+      "positives": 98.78,
+      "negatives": 1.22,
       "comments": 70.0
     },
-    "2013.03": {
-      "karma": 585.0,
-      "positives": 99.48,
-      "negatives": 0.52,
-      "comments": 73.0
-    },
-    "2013.04": {
+    "2013.02": {
       "karma": 584.0,
-      "positives": 99.44,
-      "negatives": 0.56,
-      "comments": 76.0
+      "positives": 98.81,
+      "negatives": 1.19,
+      "comments": 71.0
     },
-    "2013.05": {
-      "karma": 586.0,
-      "positives": 99.49,
-      "negatives": 0.51,
+    "2013.03": {
+      "karma": 583.0,
+      "positives": 98.56,
+      "negatives": 1.44,
       "comments": 72.0
     },
+    "2013.04": {
+      "karma": 581.0,
+      "positives": 98.58,
+      "negatives": 1.42,
+      "comments": 77.0
+    },
+    "2013.05": {
+      "karma": 588.0,
+      "positives": 98.74,
+      "negatives": 1.26,
+      "comments": 71.0
+    },
     "2013.06": {
-      "karma": 576.0,
-      "positives": 99.57,
-      "negatives": 0.43,
+      "karma": 577.0,
+      "positives": 98.85,
+      "negatives": 1.15,
       "comments": 71.0
     },
     "2013.07": {
-      "karma": 603.0,
-      "positives": 99.53,
-      "negatives": 0.47,
-      "comments": 73.0
+      "karma": 616.0,
+      "positives": 98.74,
+      "negatives": 1.26,
+      "comments": 75.0
     },
     "2013.08": {
-      "karma": 667.0,
-      "positives": 99.39,
-      "negatives": 0.61,
-      "comments": 77.0
-    },
-    "2013.09": {
-      "karma": 607.0,
-      "positives": 99.43,
-      "negatives": 0.57,
+      "karma": 665.0,
+      "positives": 98.41,
+      "negatives": 1.59,
       "comments": 76.0
     },
+    "2013.09": {
+      "karma": 596.0,
+      "positives": 98.51,
+      "negatives": 1.49,
+      "comments": 74.0
+    },
     "2013.1": {
-      "karma": 552.0,
-      "positives": 99.44,
-      "negatives": 0.56,
-      "comments": 71.0
+      "karma": 550.0,
+      "positives": 98.41,
+      "negatives": 1.59,
+      "comments": 70.0
     },
     "2013.11": {
-      "karma": 556.0,
-      "positives": 99.29,
-      "negatives": 0.71,
+      "karma": 549.0,
+      "positives": 98.28,
+      "negatives": 1.72,
       "comments": 70.0
     },
     "2013.12": {
-      "karma": 579.0,
-      "positives": 99.27,
-      "negatives": 0.73,
+      "karma": 602.0,
+      "positives": 97.8,
+      "negatives": 2.2,
       "comments": 69.0
     },
     "2014.01": {
-      "karma": 651.0,
-      "positives": 99.01,
-      "negatives": 0.99,
-      "comments": 70.0
+      "karma": 628.0,
+      "positives": 97.58,
+      "negatives": 2.42,
+      "comments": 71.0
     },
     "2014.02": {
-      "karma": 555.0,
-      "positives": 99.18,
-      "negatives": 0.82,
-      "comments": 68.0
+      "karma": 554.0,
+      "positives": 97.79,
+      "negatives": 2.21,
+      "comments": 66.0
     },
     "2014.03": {
-      "karma": 577.0,
-      "positives": 99.08,
-      "negatives": 0.92,
-      "comments": 65.0
+      "karma": 582.0,
+      "positives": 97.67,
+      "negatives": 2.33,
+      "comments": 66.0
     },
     "2014.04": {
-      "karma": 531.0,
-      "positives": 98.92,
-      "negatives": 1.08,
-      "comments": 67.0
+      "karma": 519.0,
+      "positives": 97.21,
+      "negatives": 2.79,
+      "comments": 66.0
     },
     "2014.05": {
-      "karma": 544.0,
-      "positives": 98.83,
-      "negatives": 1.17,
-      "comments": 71.0
+      "karma": 573.0,
+      "positives": 96.91,
+      "negatives": 3.09,
+      "comments": 74.0
     },
     "2014.06": {
-      "karma": 650.0,
-      "positives": 98.86,
-      "negatives": 1.14,
-      "comments": 76.0
+      "karma": 657.0,
+      "positives": 96.93,
+      "negatives": 3.07,
+      "comments": 73.0
     },
     "2014.07": {
-      "karma": 630.0,
-      "positives": 98.83,
-      "negatives": 1.17,
-      "comments": 71.0
+      "karma": 596.0,
+      "positives": 96.7,
+      "negatives": 3.3,
+      "comments": 75.0
     },
     "2014.08": {
-      "karma": 508.0,
-      "positives": 98.85,
-      "negatives": 1.15,
-      "comments": 76.0
+      "karma": 497.0,
+      "positives": 96.94,
+      "negatives": 3.06,
+      "comments": 74.0
     },
     "2014.09": {
-      "karma": 511.0,
-      "positives": 98.88,
-      "negatives": 1.12,
-      "comments": 79.0
+      "karma": 530.0,
+      "positives": 96.87,
+      "negatives": 3.13,
+      "comments": 82.0
     },
     "2014.1": {
-      "karma": 543.0,
-      "positives": 98.9,
-      "negatives": 1.1,
-      "comments": 76.0
+      "karma": 544.0,
+      "positives": 97.16,
+      "negatives": 2.84,
+      "comments": 73.0
     },
     "2014.11": {
-      "karma": 523.0,
-      "positives": 99.03,
-      "negatives": 0.97,
-      "comments": 72.0
+      "karma": 503.0,
+      "positives": 97.15,
+      "negatives": 2.85,
+      "comments": 73.0
     },
     "2014.12": {
-      "karma": 489.0,
-      "positives": 98.95,
-      "negatives": 1.05,
-      "comments": 70.0
+      "karma": 485.0,
+      "positives": 96.92,
+      "negatives": 3.08,
+      "comments": 69.0
     },
     "2015.01": {
-      "karma": 480.0,
-      "positives": 98.73,
-      "negatives": 1.27,
-      "comments": 72.0
+      "karma": 489.0,
+      "positives": 96.96,
+      "negatives": 3.04,
+      "comments": 76.0
     },
     "2015.02": {
-      "karma": 516.0,
-      "positives": 99.05,
-      "negatives": 0.95,
-      "comments": 83.0
+      "karma": 526.0,
+      "positives": 97.39,
+      "negatives": 2.61,
+      "comments": 84.0
     },
     "2015.03": {
-      "karma": 520.0,
-      "positives": 99.08,
-      "negatives": 0.92,
+      "karma": 522.0,
+      "positives": 97.52,
+      "negatives": 2.48,
       "comments": 82.0
     },
     "2015.04": {
-      "karma": 483.0,
-      "positives": 99.2,
-      "negatives": 0.8,
-      "comments": 84.0
+      "karma": 456.0,
+      "positives": 97.83,
+      "negatives": 2.17,
+      "comments": 83.0
     },
     "2015.05": {
-      "karma": 443.0,
-      "positives": 99.28,
-      "negatives": 0.72,
-      "comments": 79.0
+      "karma": 470.0,
+      "positives": 97.97,
+      "negatives": 2.03,
+      "comments": 81.0
     },
     "2015.06": {
-      "karma": 569.0,
-      "positives": 99.25,
-      "negatives": 0.75,
-      "comments": 99.0
+      "karma": 575.0,
+      "positives": 97.91,
+      "negatives": 2.09,
+      "comments": 106.0
     },
     "2015.07": {
-      "karma": 556.0,
-      "positives": 99.16,
-      "negatives": 0.84,
-      "comments": 109.0
-    },
-    "2015.08": {
-      "karma": 457.0,
-      "positives": 99.24,
-      "negatives": 0.76,
-      "comments": 94.0
-    },
-    "2015.09": {
-      "karma": 481.0,
-      "positives": 99.29,
-      "negatives": 0.71,
-      "comments": 101.0
-    },
-    "2015.1": {
-      "karma": 457.0,
-      "positives": 99.19,
-      "negatives": 0.81,
-      "comments": 102.0
-    },
-    "2015.11": {
-      "karma": 440.0,
-      "positives": 99.15,
-      "negatives": 0.85,
-      "comments": 108.0
-    },
-    "2015.12": {
-      "karma": 404.0,
-      "positives": 99.05,
-      "negatives": 0.95,
+      "karma": 541.0,
+      "positives": 97.69,
+      "negatives": 2.31,
       "comments": 107.0
     },
+    "2015.08": {
+      "karma": 458.0,
+      "positives": 97.97,
+      "negatives": 2.03,
+      "comments": 92.0
+    },
+    "2015.09": {
+      "karma": 484.0,
+      "positives": 97.92,
+      "negatives": 2.08,
+      "comments": 108.0
+    },
+    "2015.1": {
+      "karma": 451.0,
+      "positives": 97.88,
+      "negatives": 2.12,
+      "comments": 97.0
+    },
+    "2015.11": {
+      "karma": 431.0,
+      "positives": 97.66,
+      "negatives": 2.34,
+      "comments": 114.0
+    },
+    "2015.12": {
+      "karma": 419.0,
+      "positives": 97.41,
+      "negatives": 2.59,
+      "comments": 99.0
+    },
     "2016.01": {
-      "karma": 497.0,
-      "positives": 99.07,
-      "negatives": 0.93,
-      "comments": 110.0
+      "karma": 487.0,
+      "positives": 97.52,
+      "negatives": 2.48,
+      "comments": 115.0
     },
     "2016.02": {
-      "karma": 471.0,
-      "positives": 99.29,
-      "negatives": 0.71,
-      "comments": 103.0
+      "karma": 473.0,
+      "positives": 98.09,
+      "negatives": 1.91,
+      "comments": 104.0
     },
     "2016.03": {
-      "karma": 469.0,
-      "positives": 99.26,
-      "negatives": 0.74,
-      "comments": 102.0
+      "karma": 479.0,
+      "positives": 97.86,
+      "negatives": 2.14,
+      "comments": 100.0
     },
     "2016.04": {
-      "karma": 474.0,
-      "positives": 99.13,
-      "negatives": 0.87,
-      "comments": 101.0
+      "karma": 480.0,
+      "positives": 97.68,
+      "negatives": 2.32,
+      "comments": 103.0
     },
     "2016.05": {
-      "karma": 528.0,
-      "positives": 99.04,
-      "negatives": 0.96,
+      "karma": 525.0,
+      "positives": 97.35,
+      "negatives": 2.65,
       "comments": 111.0
     },
     "2016.06": {
-      "karma": 560.0,
-      "positives": 98.93,
-      "negatives": 1.07,
-      "comments": 116.0
+      "karma": 586.0,
+      "positives": 97.1,
+      "negatives": 2.9,
+      "comments": 126.0
     },
     "2016.07": {
-      "karma": 607.0,
-      "positives": 98.94,
-      "negatives": 1.06,
-      "comments": 135.0
+      "karma": 583.0,
+      "positives": 97.33,
+      "negatives": 2.67,
+      "comments": 129.0
     },
     "2016.08": {
-      "karma": 506.0,
-      "positives": 98.93,
-      "negatives": 1.07,
-      "comments": 114.0
+      "karma": 498.0,
+      "positives": 97.1,
+      "negatives": 2.9,
+      "comments": 108.0
     },
     "2016.09": {
-      "karma": 542.0,
-      "positives": 99.05,
-      "negatives": 0.95,
-      "comments": 110.0
+      "karma": 565.0,
+      "positives": 97.5,
+      "negatives": 2.5,
+      "comments": 113.0
     },
     "2016.1": {
-      "karma": 591.0,
-      "positives": 98.93,
-      "negatives": 1.07,
-      "comments": 117.0
+      "karma": 594.0,
+      "positives": 96.87,
+      "negatives": 3.13,
+      "comments": 120.0
     },
     "2016.11": {
-      "karma": 568.0,
-      "positives": 98.83,
-      "negatives": 1.17,
-      "comments": 131.0
+      "karma": 539.0,
+      "positives": 96.9,
+      "negatives": 3.1,
+      "comments": 129.0
     },
     "2016.12": {
-      "karma": 515.0,
-      "positives": 99.02,
-      "negatives": 0.98,
-      "comments": 109.0
+      "karma": 517.0,
+      "positives": 97.33,
+      "negatives": 2.67,
+      "comments": 110.0
     },
     "2017.01": {
-      "karma": 472.0,
-      "positives": 98.82,
-      "negatives": 1.18,
+      "karma": 459.0,
+      "positives": 97.0,
+      "negatives": 3.0,
       "comments": 119.0
     },
     "2017.02": {
-      "karma": 451.0,
-      "positives": 99.06,
-      "negatives": 0.94,
-      "comments": 112.0
+      "karma": 448.0,
+      "positives": 97.68,
+      "negatives": 2.32,
+      "comments": 106.0
     },
     "2017.03": {
-      "karma": 411.0,
-      "positives": 99.03,
-      "negatives": 0.97,
-      "comments": 104.0
+      "karma": 404.0,
+      "positives": 97.38,
+      "negatives": 2.62,
+      "comments": 102.0
     },
     "2017.04": {
-      "karma": 385.0,
-      "positives": 99.15,
-      "negatives": 0.85,
-      "comments": 93.0
+      "karma": 382.0,
+      "positives": 97.86,
+      "negatives": 2.14,
+      "comments": 89.0
     },
     "2017.05": {
-      "karma": 369.0,
-      "positives": 99.08,
-      "negatives": 0.92,
-      "comments": 90.0
+      "karma": 361.0,
+      "positives": 97.56,
+      "negatives": 2.44,
+      "comments": 93.0
     },
     "2017.06": {
-      "karma": 348.0,
-      "positives": 99.07,
-      "negatives": 0.93,
-      "comments": 91.0
+      "karma": 340.0,
+      "positives": 97.73,
+      "negatives": 2.27,
+      "comments": 92.0
     },
     "2017.07": {
-      "karma": 308.0,
-      "positives": 99.04,
-      "negatives": 0.96,
+      "karma": 310.0,
+      "positives": 97.68,
+      "negatives": 2.32,
       "comments": 86.0
     },
     "2017.08": {
-      "karma": 337.0,
-      "positives": 99.01,
-      "negatives": 0.99,
-      "comments": 100.0
+      "karma": 339.0,
+      "positives": 97.43,
+      "negatives": 2.57,
+      "comments": 104.0
     },
     "2017.09": {
-      "karma": 315.0,
-      "positives": 99.02,
-      "negatives": 0.98,
-      "comments": 103.0
-    },
-    "2017.1": {
-      "karma": 343.0,
-      "positives": 98.64,
-      "negatives": 1.36,
-      "comments": 119.0
-    },
-    "2017.11": {
-      "karma": 351.0,
-      "positives": 99.05,
-      "negatives": 0.95,
-      "comments": 95.0
-    },
-    "2017.12": {
-      "karma": 332.0,
-      "positives": 99.19,
-      "negatives": 0.81,
-      "comments": 83.0
-    },
-    "2018.01": {
-      "karma": 346.0,
-      "positives": 99.18,
-      "negatives": 0.82,
-      "comments": 87.0
-    },
-    "2018.02": {
-      "karma": 331.0,
-      "positives": 99.06,
-      "negatives": 0.94,
-      "comments": 90.0
-    },
-    "2018.03": {
-      "karma": 328.0,
-      "positives": 99.04,
-      "negatives": 0.96,
-      "comments": 86.0
-    },
-    "2018.04": {
-      "karma": 340.0,
-      "positives": 99.01,
-      "negatives": 0.99,
-      "comments": 84.0
-    },
-    "2018.05": {
-      "karma": 352.0,
-      "positives": 99.06,
-      "negatives": 0.94,
-      "comments": 87.0
-    },
-    "2018.06": {
-      "karma": 372.0,
-      "positives": 99.14,
-      "negatives": 0.86,
-      "comments": 91.0
-    },
-    "2018.07": {
-      "karma": 327.0,
-      "positives": 99.15,
-      "negatives": 0.85,
-      "comments": 85.0
-    },
-    "2018.08": {
-      "karma": 320.0,
-      "positives": 99.1,
-      "negatives": 0.9,
-      "comments": 93.0
-    },
-    "2018.09": {
-      "karma": 294.0,
-      "positives": 98.97,
-      "negatives": 1.03,
-      "comments": 94.0
-    },
-    "2018.1": {
-      "karma": 308.0,
-      "positives": 99.12,
-      "negatives": 0.88,
-      "comments": 87.0
-    },
-    "2018.11": {
-      "karma": 285.0,
-      "positives": 99.17,
-      "negatives": 0.83,
-      "comments": 95.0
-    },
-    "2018.12": {
-      "karma": 280.0,
-      "positives": 99.0,
-      "negatives": 1.0,
+      "karma": 311.0,
+      "positives": 97.48,
+      "negatives": 2.52,
       "comments": 102.0
     },
+    "2017.1": {
+      "karma": 354.0,
+      "positives": 96.87,
+      "negatives": 3.13,
+      "comments": 120.0
+    },
+    "2017.11": {
+      "karma": 346.0,
+      "positives": 97.83,
+      "negatives": 2.17,
+      "comments": 86.0
+    },
+    "2017.12": {
+      "karma": 334.0,
+      "positives": 98.04,
+      "negatives": 1.96,
+      "comments": 84.0
+    },
+    "2018.01": {
+      "karma": 343.0,
+      "positives": 97.81,
+      "negatives": 2.19,
+      "comments": 89.0
+    },
+    "2018.02": {
+      "karma": 329.0,
+      "positives": 97.57,
+      "negatives": 2.43,
+      "comments": 86.0
+    },
+    "2018.03": {
+      "karma": 326.0,
+      "positives": 97.56,
+      "negatives": 2.44,
+      "comments": 92.0
+    },
+    "2018.04": {
+      "karma": 350.0,
+      "positives": 97.4,
+      "negatives": 2.6,
+      "comments": 83.0
+    },
+    "2018.05": {
+      "karma": 355.0,
+      "positives": 97.86,
+      "negatives": 2.14,
+      "comments": 85.0
+    },
+    "2018.06": {
+      "karma": 358.0,
+      "positives": 97.92,
+      "negatives": 2.08,
+      "comments": 92.0
+    },
+    "2018.07": {
+      "karma": 328.0,
+      "positives": 97.73,
+      "negatives": 2.27,
+      "comments": 86.0
+    },
+    "2018.08": {
+      "karma": 313.0,
+      "positives": 97.48,
+      "negatives": 2.52,
+      "comments": 98.0
+    },
+    "2018.09": {
+      "karma": 299.0,
+      "positives": 97.53,
+      "negatives": 2.47,
+      "comments": 87.0
+    },
+    "2018.1": {
+      "karma": 305.0,
+      "positives": 97.91,
+      "negatives": 2.09,
+      "comments": 88.0
+    },
+    "2018.11": {
+      "karma": 279.0,
+      "positives": 97.67,
+      "negatives": 2.33,
+      "comments": 98.0
+    },
+    "2018.12": {
+      "karma": 286.0,
+      "positives": 97.37,
+      "negatives": 2.63,
+      "comments": 101.0
+    },
     "2019.01": {
-      "karma": 304.0,
-      "positives": 99.05,
-      "negatives": 0.95,
-      "comments": 99.0
+      "karma": 297.0,
+      "positives": 97.52,
+      "negatives": 2.48,
+      "comments": 100.0
     },
     "2019.02": {
-      "karma": 285.0,
-      "positives": 98.89,
-      "negatives": 1.11,
-      "comments": 94.0
+      "karma": 280.0,
+      "positives": 97.2,
+      "negatives": 2.8,
+      "comments": 91.0
     },
     "2019.03": {
-      "karma": 284.0,
-      "positives": 98.69,
-      "negatives": 1.31,
-      "comments": 82.0
+      "karma": 290.0,
+      "positives": 96.9,
+      "negatives": 3.1,
+      "comments": 81.0
     },
     "2019.04": {
-      "karma": 305.0,
-      "positives": 98.69,
-      "negatives": 1.31,
-      "comments": 80.0
+      "karma": 317.0,
+      "positives": 96.62,
+      "negatives": 3.38,
+      "comments": 83.0
     },
     "2019.05": {
-      "karma": 322.0,
-      "positives": 98.86,
-      "negatives": 1.14,
-      "comments": 97.0
+      "karma": 310.0,
+      "positives": 97.26,
+      "negatives": 2.74,
+      "comments": 100.0
     },
     "2019.06": {
-      "karma": 296.0,
-      "positives": 98.81,
-      "negatives": 1.19,
-      "comments": 93.0
+      "karma": 298.0,
+      "positives": 96.85,
+      "negatives": 3.15,
+      "comments": 89.0
     },
     "2019.07": {
-      "karma": 273.0,
-      "positives": 98.9,
-      "negatives": 1.1,
+      "karma": 261.0,
+      "positives": 96.95,
+      "negatives": 3.05,
       "comments": 95.0
     },
     "2019.08": {
-      "karma": 257.0,
-      "positives": 98.96,
-      "negatives": 1.04,
-      "comments": 92.0
-    },
-    "2019.09": {
-      "karma": 289.0,
-      "positives": 99.03,
-      "negatives": 0.97,
-      "comments": 92.0
-    },
-    "2019.1": {
-      "karma": 277.0,
-      "positives": 98.68,
-      "negatives": 1.32,
-      "comments": 94.0
-    },
-    "2019.11": {
-      "karma": 293.0,
-      "positives": 98.59,
-      "negatives": 1.41,
-      "comments": 93.0
-    },
-    "2019.12": {
-      "karma": 279.0,
-      "positives": 98.83,
-      "negatives": 1.17,
-      "comments": 94.0
-    },
-    "2020.01": {
-      "karma": 300.0,
-      "positives": 98.73,
-      "negatives": 1.27,
-      "comments": 105.0
-    },
-    "2020.02": {
-      "karma": 291.0,
-      "positives": 98.71,
-      "negatives": 1.29,
+      "karma": 264.0,
+      "positives": 97.23,
+      "negatives": 2.77,
       "comments": 90.0
     },
-    "2020.03": {
-      "karma": 343.0,
-      "positives": 98.76,
-      "negatives": 1.24,
+    "2019.09": {
+      "karma": 287.0,
+      "positives": 97.26,
+      "negatives": 2.74,
+      "comments": 94.0
+    },
+    "2019.1": {
+      "karma": 281.0,
+      "positives": 96.52,
+      "negatives": 3.48,
+      "comments": 92.0
+    },
+    "2019.11": {
+      "karma": 291.0,
+      "positives": 96.39,
+      "negatives": 3.61,
+      "comments": 94.0
+    },
+    "2019.12": {
+      "karma": 281.0,
+      "positives": 97.07,
+      "negatives": 2.93,
       "comments": 97.0
     },
-    "2020.04": {
-      "karma": 436.0,
-      "positives": 98.8,
-      "negatives": 1.2,
-      "comments": 125.0
+    "2020.01": {
+      "karma": 298.0,
+      "positives": 96.61,
+      "negatives": 3.39,
+      "comments": 100.0
+    },
+    "2020.02": {
+      "karma": 288.0,
+      "positives": 96.87,
+      "negatives": 3.13,
+      "comments": 89.0
+    },
+    "2020.03": {
+      "karma": 374.0,
+      "positives": 97.02,
+      "negatives": 2.98,
+      "comments": 105.0
     }
   },
   "count_estados": {
     "2005.12": {
-      "total": 1133,
-      "published": 517,
-      "queued": 595,
+      "total": 1526,
+      "published": 700,
+      "queued": 792,
       "autodiscard": 1,
-      "discard": 20
+      "discard": 33
     },
     "2006.01": {
-      "total": 2274,
-      "published": 858,
-      "queued": 1311,
+      "total": 2394,
+      "published": 829,
+      "queued": 1447,
       "autodiscard": 0,
-      "discard": 105
+      "discard": 118
     },
     "2006.02": {
-      "total": 2296,
-      "published": 683,
-      "queued": 1449,
+      "total": 2497,
+      "published": 692,
+      "queued": 1544,
       "autodiscard": 0,
-      "discard": 164
+      "discard": 261
     },
     "2006.03": {
-      "total": 3106,
-      "published": 704,
-      "queued": 1980,
+      "total": 3218,
+      "published": 699,
+      "queued": 2119,
       "autodiscard": 0,
-      "discard": 422
+      "discard": 400
     },
     "2006.04": {
-      "total": 3452,
-      "published": 795,
-      "queued": 2198,
+      "total": 3508,
+      "published": 835,
+      "queued": 2191,
       "autodiscard": 0,
-      "discard": 459
+      "discard": 482
     },
     "2006.05": {
-      "total": 3851,
-      "published": 923,
-      "queued": 2357,
+      "total": 3859,
+      "published": 938,
+      "queued": 2303,
       "autodiscard": 0,
-      "discard": 571
+      "discard": 618
     },
     "2006.06": {
-      "total": 4085,
-      "published": 869,
-      "queued": 2320,
+      "total": 4070,
+      "published": 825,
+      "queued": 2326,
       "autodiscard": 3,
-      "discard": 893
+      "discard": 916
     },
     "2006.07": {
-      "total": 3928,
-      "published": 839,
-      "queued": 2094,
+      "total": 4104,
+      "published": 921,
+      "queued": 2119,
       "autodiscard": 1,
-      "discard": 994
+      "discard": 1063
     },
     "2006.08": {
-      "total": 4686,
-      "published": 938,
-      "queued": 2552,
+      "total": 4869,
+      "published": 923,
+      "queued": 2719,
       "autodiscard": 0,
-      "discard": 1196
+      "discard": 1226
     },
     "2006.09": {
-      "total": 5761,
-      "published": 947,
-      "queued": 3302,
+      "total": 5921,
+      "published": 917,
+      "queued": 3434,
       "autodiscard": 0,
-      "discard": 1511
+      "discard": 1570
     },
     "2006.1": {
-      "total": 7191,
-      "published": 1123,
-      "queued": 4085,
+      "total": 7791,
+      "published": 1201,
+      "queued": 4476,
       "autodiscard": 0,
-      "discard": 1983
+      "discard": 2114
     },
     "2006.11": {
-      "total": 8987,
-      "published": 1104,
-      "queued": 5675,
-      "autodiscard": 0,
-      "discard": 2208
+      "total": 9289,
+      "published": 1053,
+      "queued": 5902,
+      "autodiscard": 1,
+      "discard": 2333
     },
     "2006.12": {
-      "total": 10030,
-      "published": 1090,
-      "queued": 6162,
-      "autodiscard": 1,
-      "discard": 2776
+      "total": 9684,
+      "published": 1081,
+      "queued": 5825,
+      "autodiscard": 0,
+      "discard": 2777
     },
     "2007.01": {
-      "total": 12110,
-      "published": 1397,
-      "queued": 7560,
+      "total": 13309,
+      "published": 1567,
+      "queued": 8460,
       "autodiscard": 0,
-      "discard": 3153
+      "discard": 3282
     },
     "2007.02": {
-      "total": 13082,
-      "published": 1469,
-      "queued": 8667,
+      "total": 13138,
+      "published": 1393,
+      "queued": 8779,
       "autodiscard": 1,
-      "discard": 2944
+      "discard": 2964
     },
     "2007.03": {
-      "total": 14361,
-      "published": 1531,
-      "queued": 9498,
+      "total": 14224,
+      "published": 1565,
+      "queued": 9354,
       "autodiscard": 1,
-      "discard": 3331
+      "discard": 3304
     },
     "2007.04": {
-      "total": 12918,
-      "published": 1496,
-      "queued": 8023,
+      "total": 13271,
+      "published": 1447,
+      "queued": 8428,
       "autodiscard": 0,
-      "discard": 3398
+      "discard": 3395
     },
     "2007.05": {
-      "total": 17172,
-      "published": 1493,
-      "queued": 12075,
-      "autodiscard": 3,
-      "discard": 3601
+      "total": 17605,
+      "published": 1532,
+      "queued": 12344,
+      "autodiscard": 4,
+      "discard": 3725
     },
     "2007.06": {
-      "total": 16051,
-      "published": 1369,
-      "queued": 10992,
-      "autodiscard": 1,
-      "discard": 3689
+      "total": 15751,
+      "published": 1336,
+      "queued": 10429,
+      "autodiscard": 0,
+      "discard": 3986
     },
     "2007.07": {
-      "total": 15212,
-      "published": 1258,
-      "queued": 10253,
+      "total": 14902,
+      "published": 1257,
+      "queued": 10237,
       "autodiscard": 2,
-      "discard": 3699
+      "discard": 3406
     },
     "2007.08": {
-      "total": 13663,
-      "published": 1193,
-      "queued": 8634,
+      "total": 14035,
+      "published": 1210,
+      "queued": 8911,
       "autodiscard": 0,
-      "discard": 3836
+      "discard": 3914
     },
     "2007.09": {
-      "total": 15869,
-      "published": 1384,
-      "queued": 10424,
+      "total": 16165,
+      "published": 1366,
+      "queued": 10678,
       "autodiscard": 1,
-      "discard": 4060
+      "discard": 4120
     },
     "2007.1": {
-      "total": 17317,
-      "published": 1489,
-      "queued": 11910,
+      "total": 17218,
+      "published": 1559,
+      "queued": 11977,
       "autodiscard": 2,
-      "discard": 3916
+      "discard": 3680
     },
     "2007.11": {
-      "total": 17080,
-      "published": 1556,
-      "queued": 12006,
-      "autodiscard": 4,
-      "discard": 3244
+      "total": 17503,
+      "published": 1529,
+      "queued": 12404,
+      "autodiscard": 5,
+      "discard": 3068
     },
     "2007.12": {
-      "total": 16773,
-      "published": 1433,
-      "queued": 11888,
-      "autodiscard": 1,
-      "discard": 2401
+      "total": 15221,
+      "published": 1332,
+      "queued": 10594,
+      "autodiscard": 0,
+      "discard": 2265
     },
     "2008.01": {
-      "total": 16001,
-      "published": 1466,
-      "queued": 11022,
-      "autodiscard": 441,
-      "discard": 2356
+      "total": 17369,
+      "published": 1599,
+      "queued": 12058,
+      "autodiscard": 748,
+      "discard": 2441
     },
     "2008.02": {
-      "total": 17739,
-      "published": 1492,
-      "queued": 12587,
-      "autodiscard": 1364,
-      "discard": 2219
+      "total": 17910,
+      "published": 1460,
+      "queued": 12820,
+      "autodiscard": 1370,
+      "discard": 2184
     },
     "2008.03": {
-      "total": 17821,
-      "published": 1504,
-      "queued": 12607,
-      "autodiscard": 1383,
-      "discard": 2226
+      "total": 18264,
+      "published": 1543,
+      "queued": 12894,
+      "autodiscard": 1437,
+      "discard": 2284
     },
     "2008.04": {
-      "total": 20993,
-      "published": 1689,
-      "queued": 14904,
-      "autodiscard": 1691,
-      "discard": 2617
+      "total": 20893,
+      "published": 1678,
+      "queued": 14767,
+      "autodiscard": 1718,
+      "discard": 2619
     },
     "2008.05": {
-      "total": 21170,
-      "published": 1554,
-      "queued": 14610,
-      "autodiscard": 1927,
-      "discard": 2885
+      "total": 21500,
+      "published": 1597,
+      "queued": 14720,
+      "autodiscard": 2023,
+      "discard": 2978
     },
     "2008.06": {
-      "total": 22156,
-      "published": 1916,
-      "queued": 15284,
-      "autodiscard": 2155,
-      "discard": 2655
+      "total": 22056,
+      "published": 1948,
+      "queued": 15251,
+      "autodiscard": 2131,
+      "discard": 2555
     },
     "2008.07": {
-      "total": 21536,
-      "published": 1892,
-      "queued": 15077,
-      "autodiscard": 2149,
-      "discard": 2287
+      "total": 21436,
+      "published": 1830,
+      "queued": 15063,
+      "autodiscard": 2170,
+      "discard": 2265
     },
     "2008.08": {
-      "total": 19108,
-      "published": 1594,
-      "queued": 12835,
-      "autodiscard": 2150,
-      "discard": 2393
+      "total": 19138,
+      "published": 1588,
+      "queued": 12602,
+      "autodiscard": 2274,
+      "discard": 2523
     },
     "2008.09": {
-      "total": 21525,
-      "published": 1647,
-      "queued": 14288,
-      "autodiscard": 2650,
-      "discard": 2729
+      "total": 22104,
+      "published": 1653,
+      "queued": 14995,
+      "autodiscard": 2617,
+      "discard": 2631
     },
     "2008.1": {
-      "total": 23785,
-      "published": 1684,
-      "queued": 16808,
-      "autodiscard": 2530,
-      "discard": 2583
+      "total": 23642,
+      "published": 1666,
+      "queued": 16668,
+      "autodiscard": 2520,
+      "discard": 2625
     },
     "2008.11": {
-      "total": 20790,
-      "published": 1524,
-      "queued": 14482,
-      "autodiscard": 2158,
-      "discard": 2475
-    },
-    "2008.12": {
-      "total": 19866,
-      "published": 1466,
-      "queued": 14058,
-      "autodiscard": 1983,
-      "discard": 2207
-    },
-    "2009.01": {
-      "total": 19589,
-      "published": 1717,
-      "queued": 13568,
-      "autodiscard": 2182,
-      "discard": 2028
-    },
-    "2009.02": {
-      "total": 22233,
-      "published": 1772,
-      "queued": 16183,
-      "autodiscard": 2288,
-      "discard": 1921
-    },
-    "2009.03": {
-      "total": 22799,
-      "published": 1869,
-      "queued": 16476,
-      "autodiscard": 2180,
-      "discard": 2220
-    },
-    "2009.04": {
-      "total": 21165,
-      "published": 1745,
-      "queued": 15215,
-      "autodiscard": 2009,
-      "discard": 2147
-    },
-    "2009.05": {
-      "total": 21626,
-      "published": 1648,
-      "queued": 15845,
-      "autodiscard": 1867,
-      "discard": 2079
-    },
-    "2009.06": {
-      "total": 20684,
-      "published": 1575,
-      "queued": 15166,
-      "autodiscard": 1745,
-      "discard": 2179
-    },
-    "2009.07": {
-      "total": 20159,
-      "published": 1669,
-      "queued": 14507,
-      "autodiscard": 1719,
-      "discard": 2239
-    },
-    "2009.08": {
-      "total": 17974,
-      "published": 1350,
-      "queued": 12928,
-      "autodiscard": 1482,
-      "discard": 2201
-    },
-    "2009.09": {
-      "total": 20393,
-      "published": 1470,
-      "queued": 14749,
-      "autodiscard": 1764,
-      "discard": 2389
-    },
-    "2009.1": {
-      "total": 20776,
-      "published": 1585,
-      "queued": 15008,
-      "autodiscard": 1727,
-      "discard": 2423
-    },
-    "2009.11": {
-      "total": 20296,
-      "published": 1598,
-      "queued": 14529,
-      "autodiscard": 1690,
-      "discard": 2452
-    },
-    "2009.12": {
-      "total": 20925,
-      "published": 1639,
-      "queued": 14842,
-      "autodiscard": 1791,
-      "discard": 2618
-    },
-    "2010.01": {
-      "total": 20094,
-      "published": 1548,
-      "queued": 14018,
-      "autodiscard": 1887,
-      "discard": 2621
-    },
-    "2010.02": {
-      "total": 19734,
-      "published": 1430,
-      "queued": 14390,
-      "autodiscard": 1516,
-      "discard": 2367
-    },
-    "2010.03": {
-      "total": 21862,
-      "published": 1736,
-      "queued": 15853,
-      "autodiscard": 1785,
-      "discard": 2466
-    },
-    "2010.04": {
-      "total": 19457,
-      "published": 1506,
-      "queued": 14115,
-      "autodiscard": 1613,
-      "discard": 2204
-    },
-    "2010.05": {
-      "total": 21984,
-      "published": 1684,
-      "queued": 15713,
-      "autodiscard": 1933,
-      "discard": 2623
-    },
-    "2010.06": {
-      "total": 22377,
-      "published": 1644,
-      "queued": 16018,
-      "autodiscard": 2126,
-      "discard": 2560
-    },
-    "2010.07": {
-      "total": 19449,
-      "published": 1383,
-      "queued": 13571,
-      "autodiscard": 1863,
-      "discard": 2592
-    },
-    "2010.08": {
-      "total": 17832,
-      "published": 1317,
-      "queued": 12733,
-      "autodiscard": 1709,
-      "discard": 2036
-    },
-    "2010.09": {
-      "total": 19000,
-      "published": 1311,
-      "queued": 13453,
-      "autodiscard": 1920,
-      "discard": 2292
-    },
-    "2010.1": {
-      "total": 17886,
-      "published": 1183,
-      "queued": 12843,
-      "autodiscard": 1435,
-      "discard": 2401
-    },
-    "2010.11": {
-      "total": 19295,
-      "published": 1293,
-      "queued": 14019,
-      "autodiscard": 1535,
-      "discard": 2416
-    },
-    "2010.12": {
-      "total": 19739,
-      "published": 1406,
-      "queued": 13833,
-      "autodiscard": 1944,
-      "discard": 2509
-    },
-    "2011.01": {
-      "total": 19368,
-      "published": 1300,
-      "queued": 13928,
-      "autodiscard": 1726,
-      "discard": 2375
-    },
-    "2011.02": {
-      "total": 21763,
-      "published": 1472,
-      "queued": 16379,
-      "autodiscard": 1763,
-      "discard": 2106
-    },
-    "2011.03": {
-      "total": 25050,
-      "published": 1550,
-      "queued": 18389,
-      "autodiscard": 2376,
-      "discard": 2679
-    },
-    "2011.04": {
-      "total": 21307,
-      "published": 1420,
-      "queued": 15311,
-      "autodiscard": 2122,
-      "discard": 2415
-    },
-    "2011.05": {
-      "total": 23785,
-      "published": 1631,
-      "queued": 16329,
-      "autodiscard": 2597,
-      "discard": 3176
-    },
-    "2011.06": {
-      "total": 23608,
-      "published": 1554,
-      "queued": 17052,
-      "autodiscard": 2292,
-      "discard": 2642
-    },
-    "2011.07": {
-      "total": 20630,
-      "published": 1381,
-      "queued": 14732,
-      "autodiscard": 1916,
-      "discard": 2513
-    },
-    "2011.08": {
-      "total": 20271,
-      "published": 1281,
-      "queued": 14197,
-      "autodiscard": 2234,
-      "discard": 2487
-    },
-    "2011.09": {
-      "total": 23542,
-      "published": 1475,
-      "queued": 16554,
-      "autodiscard": 2510,
-      "discard": 2951
-    },
-    "2011.1": {
-      "total": 24076,
-      "published": 1576,
-      "queued": 17178,
-      "autodiscard": 2289,
-      "discard": 2982
-    },
-    "2011.11": {
-      "total": 25875,
-      "published": 1653,
-      "queued": 18772,
-      "autodiscard": 2390,
-      "discard": 3009
-    },
-    "2011.12": {
-      "total": 24917,
-      "published": 1567,
-      "queued": 17818,
-      "autodiscard": 2657,
-      "discard": 2817
-    },
-    "2012.01": {
-      "total": 23835,
-      "published": 1634,
-      "queued": 15576,
-      "autodiscard": 2802,
-      "discard": 3741
-    },
-    "2012.02": {
-      "total": 22873,
-      "published": 1499,
-      "queued": 14083,
-      "autodiscard": 3059,
-      "discard": 4185
-    },
-    "2012.03": {
-      "total": 21546,
-      "published": 1224,
-      "queued": 13154,
-      "autodiscard": 2702,
-      "discard": 4421
-    },
-    "2012.04": {
-      "total": 19206,
-      "published": 1274,
-      "queued": 11536,
-      "autodiscard": 2374,
-      "discard": 3966
-    },
-    "2012.05": {
-      "total": 21882,
-      "published": 1439,
-      "queued": 13920,
-      "autodiscard": 2712,
-      "discard": 3775
-    },
-    "2012.06": {
-      "total": 21011,
-      "published": 1420,
-      "queued": 13516,
-      "autodiscard": 2514,
-      "discard": 3518
-    },
-    "2012.07": {
-      "total": 20351,
-      "published": 1385,
-      "queued": 13272,
-      "autodiscard": 2564,
-      "discard": 3083
-    },
-    "2012.08": {
-      "total": 17161,
-      "published": 1114,
-      "queued": 10916,
-      "autodiscard": 2079,
-      "discard": 3014
-    },
-    "2012.09": {
-      "total": 18352,
-      "published": 1194,
-      "queued": 11726,
-      "autodiscard": 2067,
-      "discard": 3323
-    },
-    "2012.1": {
-      "total": 20536,
-      "published": 1318,
-      "queued": 13362,
-      "autodiscard": 2415,
-      "discard": 3396
-    },
-    "2012.11": {
-      "total": 19993,
-      "published": 1208,
-      "queued": 12769,
-      "autodiscard": 2472,
-      "discard": 3510
-    },
-    "2012.12": {
-      "total": 19007,
-      "published": 1219,
-      "queued": 12509,
-      "autodiscard": 2227,
-      "discard": 3025
-    },
-    "2013.01": {
-      "total": 20148,
-      "published": 1236,
-      "queued": 13487,
-      "autodiscard": 2468,
-      "discard": 2911
-    },
-    "2013.02": {
-      "total": 20411,
-      "published": 1258,
-      "queued": 13301,
-      "autodiscard": 2668,
-      "discard": 3149
-    },
-    "2013.03": {
-      "total": 20211,
-      "published": 1239,
-      "queued": 13331,
-      "autodiscard": 2402,
-      "discard": 3197
-    },
-    "2013.04": {
-      "total": 19778,
-      "published": 1159,
-      "queued": 12126,
-      "autodiscard": 2808,
-      "discard": 3640
-    },
-    "2013.05": {
-      "total": 20357,
-      "published": 1203,
-      "queued": 12820,
-      "autodiscard": 2851,
-      "discard": 3448
-    },
-    "2013.06": {
-      "total": 18651,
-      "published": 1149,
-      "queued": 12517,
-      "autodiscard": 2210,
-      "discard": 2737
-    },
-    "2013.07": {
-      "total": 17947,
-      "published": 1130,
-      "queued": 11961,
-      "autodiscard": 2249,
-      "discard": 2556
-    },
-    "2013.08": {
-      "total": 14566,
-      "published": 913,
-      "queued": 9371,
-      "autodiscard": 1797,
-      "discard": 2461
-    },
-    "2013.09": {
-      "total": 16225,
-      "published": 975,
-      "queued": 10857,
-      "autodiscard": 1859,
-      "discard": 2496
-    },
-    "2013.1": {
-      "total": 17409,
-      "published": 1032,
-      "queued": 11747,
-      "autodiscard": 1895,
-      "discard": 2711
-    },
-    "2013.11": {
-      "total": 15130,
-      "published": 908,
-      "queued": 10083,
-      "autodiscard": 1529,
-      "discard": 2595
-    },
-    "2013.12": {
-      "total": 14929,
-      "published": 982,
-      "queued": 9729,
-      "autodiscard": 1683,
-      "discard": 2516
-    },
-    "2014.01": {
-      "total": 14843,
-      "published": 1029,
-      "queued": 9429,
-      "autodiscard": 1770,
-      "discard": 2587
-    },
-    "2014.02": {
-      "total": 15451,
-      "published": 1065,
-      "queued": 10055,
-      "autodiscard": 1632,
-      "discard": 2672
-    },
-    "2014.03": {
-      "total": 15137,
-      "published": 1086,
-      "queued": 9330,
-      "autodiscard": 1854,
-      "discard": 2832
-    },
-    "2014.04": {
-      "total": 14068,
-      "published": 975,
-      "queued": 9018,
-      "autodiscard": 1590,
-      "discard": 2450
-    },
-    "2014.05": {
-      "total": 14339,
-      "published": 1081,
-      "queued": 9278,
-      "autodiscard": 1512,
-      "discard": 2433
-    },
-    "2014.06": {
-      "total": 14952,
-      "published": 1071,
-      "queued": 9217,
-      "autodiscard": 1892,
-      "discard": 2739
-    },
-    "2014.07": {
-      "total": 14032,
-      "published": 1087,
-      "queued": 9031,
-      "autodiscard": 1557,
-      "discard": 2334
-    },
-    "2014.08": {
-      "total": 13043,
-      "published": 1011,
-      "queued": 8403,
-      "autodiscard": 1506,
-      "discard": 2095
-    },
-    "2014.09": {
-      "total": 13124,
-      "published": 981,
-      "queued": 7530,
-      "autodiscard": 1692,
-      "discard": 2891
-    },
-    "2014.1": {
-      "total": 15714,
-      "published": 1207,
-      "queued": 9838,
-      "autodiscard": 1860,
-      "discard": 2779
-    },
-    "2014.11": {
-      "total": 14508,
-      "published": 1229,
-      "queued": 9245,
-      "autodiscard": 1561,
-      "discard": 2442
-    },
-    "2014.12": {
-      "total": 14497,
-      "published": 1207,
-      "queued": 9358,
-      "autodiscard": 1564,
+      "total": 20291,
+      "published": 1483,
+      "queued": 14280,
+      "autodiscard": 2020,
       "discard": 2351
     },
-    "2015.01": {
-      "total": 13480,
-      "published": 1134,
-      "queued": 8504,
-      "autodiscard": 1533,
-      "discard": 2268
+    "2008.12": {
+      "total": 18462,
+      "published": 1416,
+      "queued": 12962,
+      "autodiscard": 1876,
+      "discard": 2050
     },
-    "2015.02": {
-      "total": 13504,
-      "published": 1100,
-      "queued": 8630,
-      "autodiscard": 1473,
-      "discard": 2193
+    "2009.01": {
+      "total": 21933,
+      "published": 1878,
+      "queued": 15305,
+      "autodiscard": 2451,
+      "discard": 2218
     },
-    "2015.03": {
-      "total": 14520,
-      "published": 1145,
-      "queued": 9007,
-      "autodiscard": 1727,
-      "discard": 2592
+    "2009.02": {
+      "total": 21911,
+      "published": 1731,
+      "queued": 15925,
+      "autodiscard": 2192,
+      "discard": 2006
     },
-    "2015.04": {
-      "total": 13175,
-      "published": 1002,
-      "queued": 8351,
-      "autodiscard": 1462,
-      "discard": 2332
+    "2009.03": {
+      "total": 22825,
+      "published": 1882,
+      "queued": 16564,
+      "autodiscard": 2190,
+      "discard": 2128
     },
-    "2015.05": {
-      "total": 14395,
-      "published": 1234,
-      "queued": 9299,
-      "autodiscard": 1466,
-      "discard": 2366
+    "2009.04": {
+      "total": 21384,
+      "published": 1736,
+      "queued": 15301,
+      "autodiscard": 1985,
+      "discard": 2196
     },
-    "2015.06": {
-      "total": 13267,
-      "published": 1065,
-      "queued": 8341,
-      "autodiscard": 1447,
-      "discard": 2380
-    },
-    "2015.07": {
-      "total": 12152,
-      "published": 959,
-      "queued": 7328,
-      "autodiscard": 1380,
-      "discard": 2283
-    },
-    "2015.08": {
-      "total": 11227,
-      "published": 847,
-      "queued": 7107,
-      "autodiscard": 1258,
-      "discard": 1951
-    },
-    "2015.09": {
-      "total": 11055,
-      "published": 872,
-      "queued": 6614,
-      "autodiscard": 1185,
-      "discard": 2274
-    },
-    "2015.1": {
-      "total": 12289,
-      "published": 962,
-      "queued": 7945,
-      "autodiscard": 1248,
-      "discard": 1940
-    },
-    "2015.11": {
-      "total": 13173,
-      "published": 967,
-      "queued": 8381,
-      "autodiscard": 1300,
-      "discard": 2350
-    },
-    "2015.12": {
-      "total": 13843,
-      "published": 1003,
-      "queued": 8869,
-      "autodiscard": 1486,
-      "discard": 2326
-    },
-    "2016.01": {
-      "total": 12671,
-      "published": 904,
-      "queued": 7713,
-      "autodiscard": 1657,
-      "discard": 2313
-    },
-    "2016.02": {
-      "total": 13757,
-      "published": 995,
-      "queued": 8637,
-      "autodiscard": 1748,
-      "discard": 2241
-    },
-    "2016.03": {
-      "total": 12572,
-      "published": 947,
-      "queued": 7809,
-      "autodiscard": 1534,
-      "discard": 2166
-    },
-    "2016.04": {
-      "total": 11822,
-      "published": 911,
-      "queued": 7397,
-      "autodiscard": 1337,
+    "2009.05": {
+      "total": 20854,
+      "published": 1619,
+      "queued": 15346,
+      "autodiscard": 1759,
       "discard": 2074
     },
-    "2016.05": {
-      "total": 12108,
+    "2009.06": {
+      "total": 20554,
+      "published": 1601,
+      "queued": 14928,
+      "autodiscard": 1819,
+      "discard": 2181
+    },
+    "2009.07": {
+      "total": 19966,
+      "published": 1600,
+      "queued": 14498,
+      "autodiscard": 1652,
+      "discard": 2199
+    },
+    "2009.08": {
+      "total": 18259,
+      "published": 1382,
+      "queued": 13070,
+      "autodiscard": 1528,
+      "discard": 2260
+    },
+    "2009.09": {
+      "total": 20256,
+      "published": 1439,
+      "queued": 14749,
+      "autodiscard": 1675,
+      "discard": 2371
+    },
+    "2009.1": {
+      "total": 21161,
+      "published": 1636,
+      "queued": 15207,
+      "autodiscard": 1821,
+      "discard": 2461
+    },
+    "2009.11": {
+      "total": 20166,
+      "published": 1566,
+      "queued": 14421,
+      "autodiscard": 1684,
+      "discard": 2474
+    },
+    "2009.12": {
+      "total": 19785,
+      "published": 1552,
+      "queued": 14012,
+      "autodiscard": 1692,
+      "discard": 2494
+    },
+    "2010.01": {
+      "total": 21573,
+      "published": 1642,
+      "queued": 15168,
+      "autodiscard": 1970,
+      "discard": 2770
+    },
+    "2010.02": {
+      "total": 19374,
+      "published": 1472,
+      "queued": 14149,
+      "autodiscard": 1450,
+      "discard": 2277
+    },
+    "2010.03": {
+      "total": 21420,
+      "published": 1673,
+      "queued": 15455,
+      "autodiscard": 1812,
+      "discard": 2453
+    },
+    "2010.04": {
+      "total": 20208,
+      "published": 1534,
+      "queued": 14671,
+      "autodiscard": 1706,
+      "discard": 2279
+    },
+    "2010.05": {
+      "total": 22032,
+      "published": 1719,
+      "queued": 15700,
+      "autodiscard": 1971,
+      "discard": 2615
+    },
+    "2010.06": {
+      "total": 21832,
+      "published": 1575,
+      "queued": 15573,
+      "autodiscard": 2114,
+      "discard": 2539
+    },
+    "2010.07": {
+      "total": 19045,
+      "published": 1393,
+      "queued": 13318,
+      "autodiscard": 1777,
+      "discard": 2517
+    },
+    "2010.08": {
+      "total": 17941,
+      "published": 1307,
+      "queued": 12807,
+      "autodiscard": 1743,
+      "discard": 2046
+    },
+    "2010.09": {
+      "total": 18791,
+      "published": 1224,
+      "queued": 13375,
+      "autodiscard": 1835,
+      "discard": 2333
+    },
+    "2010.1": {
+      "total": 18138,
+      "published": 1212,
+      "queued": 13061,
+      "autodiscard": 1430,
+      "discard": 2406
+    },
+    "2010.11": {
+      "total": 19397,
+      "published": 1352,
+      "queued": 14036,
+      "autodiscard": 1576,
+      "discard": 2401
+    },
+    "2010.12": {
+      "total": 18956,
+      "published": 1330,
+      "queued": 13285,
+      "autodiscard": 1880,
+      "discard": 2419
+    },
+    "2011.01": {
+      "total": 21226,
+      "published": 1414,
+      "queued": 15502,
+      "autodiscard": 1836,
+      "discard": 2427
+    },
+    "2011.02": {
+      "total": 21781,
+      "published": 1457,
+      "queued": 16304,
+      "autodiscard": 1800,
+      "discard": 2172
+    },
+    "2011.03": {
+      "total": 24889,
+      "published": 1555,
+      "queued": 18228,
+      "autodiscard": 2393,
+      "discard": 2668
+    },
+    "2011.04": {
+      "total": 20810,
+      "published": 1375,
+      "queued": 14739,
+      "autodiscard": 2126,
+      "discard": 2526
+    },
+    "2011.05": {
+      "total": 24264,
+      "published": 1703,
+      "queued": 16688,
+      "autodiscard": 2688,
+      "discard": 3131
+    },
+    "2011.06": {
+      "total": 23190,
+      "published": 1480,
+      "queued": 16832,
+      "autodiscard": 2168,
+      "discard": 2639
+    },
+    "2011.07": {
+      "total": 20234,
+      "published": 1351,
+      "queued": 14434,
+      "autodiscard": 1899,
+      "discard": 2469
+    },
+    "2011.08": {
+      "total": 20903,
+      "published": 1319,
+      "queued": 14616,
+      "autodiscard": 2357,
+      "discard": 2536
+    },
+    "2011.09": {
+      "total": 23859,
+      "published": 1508,
+      "queued": 16758,
+      "autodiscard": 2522,
+      "discard": 3014
+    },
+    "2011.1": {
+      "total": 24119,
+      "published": 1547,
+      "queued": 17320,
+      "autodiscard": 2237,
+      "discard": 2975
+    },
+    "2011.11": {
+      "total": 26266,
+      "published": 1674,
+      "queued": 19090,
+      "autodiscard": 2475,
+      "discard": 2964
+    },
+    "2011.12": {
+      "total": 23678,
+      "published": 1537,
+      "queued": 16737,
+      "autodiscard": 2599,
+      "discard": 2749
+    },
+    "2012.01": {
+      "total": 24778,
+      "published": 1673,
+      "queued": 15828,
+      "autodiscard": 3016,
+      "discard": 4182
+    },
+    "2012.02": {
+      "total": 22364,
+      "published": 1395,
+      "queued": 13699,
+      "autodiscard": 2980,
+      "discard": 4249
+    },
+    "2012.03": {
+      "total": 21223,
+      "published": 1277,
+      "queued": 12878,
+      "autodiscard": 2655,
+      "discard": 4366
+    },
+    "2012.04": {
+      "total": 19146,
+      "published": 1285,
+      "queued": 11662,
+      "autodiscard": 2334,
+      "discard": 3811
+    },
+    "2012.05": {
+      "total": 22177,
+      "published": 1460,
+      "queued": 14248,
+      "autodiscard": 2761,
+      "discard": 3668
+    },
+    "2012.06": {
+      "total": 20327,
+      "published": 1373,
+      "queued": 13081,
+      "autodiscard": 2371,
+      "discard": 3459
+    },
+    "2012.07": {
+      "total": 20294,
+      "published": 1368,
+      "queued": 13243,
+      "autodiscard": 2586,
+      "discard": 3057
+    },
+    "2012.08": {
+      "total": 17039,
+      "published": 1113,
+      "queued": 10734,
+      "autodiscard": 2087,
+      "discard": 3062
+    },
+    "2012.09": {
+      "total": 18933,
+      "published": 1286,
+      "queued": 12205,
+      "autodiscard": 2083,
+      "discard": 3312
+    },
+    "2012.1": {
+      "total": 20521,
+      "published": 1237,
+      "queued": 13285,
+      "autodiscard": 2441,
+      "discard": 3522
+    },
+    "2012.11": {
+      "total": 19931,
+      "published": 1211,
+      "queued": 12729,
+      "autodiscard": 2418,
+      "discard": 3535
+    },
+    "2012.12": {
+      "total": 17771,
+      "published": 1141,
+      "queued": 11824,
+      "autodiscard": 2115,
+      "discard": 2673
+    },
+    "2013.01": {
+      "total": 21976,
+      "published": 1357,
+      "queued": 14555,
+      "autodiscard": 2777,
+      "discard": 3230
+    },
+    "2013.02": {
+      "total": 19845,
+      "published": 1224,
+      "queued": 13045,
+      "autodiscard": 2483,
+      "discard": 3057
+    },
+    "2013.03": {
+      "total": 19594,
+      "published": 1198,
+      "queued": 12601,
+      "autodiscard": 2476,
+      "discard": 3280
+    },
+    "2013.04": {
+      "total": 20585,
+      "published": 1151,
+      "queued": 12739,
+      "autodiscard": 2945,
+      "discard": 3707
+    },
+    "2013.05": {
+      "total": 19936,
+      "published": 1225,
+      "queued": 12761,
+      "autodiscard": 2647,
+      "discard": 3269
+    },
+    "2013.06": {
+      "total": 18128,
+      "published": 1146,
+      "queued": 12126,
+      "autodiscard": 2202,
+      "discard": 2614
+    },
+    "2013.07": {
+      "total": 17467,
+      "published": 1067,
+      "queued": 11595,
+      "autodiscard": 2180,
+      "discard": 2578
+    },
+    "2013.08": {
+      "total": 14706,
+      "published": 911,
+      "queued": 9547,
+      "autodiscard": 1808,
+      "discard": 2419
+    },
+    "2013.09": {
+      "total": 16521,
+      "published": 1012,
+      "queued": 11148,
+      "autodiscard": 1788,
+      "discard": 2533
+    },
+    "2013.1": {
+      "total": 17054,
+      "published": 1017,
+      "queued": 11417,
+      "autodiscard": 1866,
+      "discard": 2731
+    },
+    "2013.11": {
+      "total": 15152,
+      "published": 918,
+      "queued": 10011,
+      "autodiscard": 1589,
+      "discard": 2619
+    },
+    "2013.12": {
+      "total": 13959,
+      "published": 924,
+      "queued": 9113,
+      "autodiscard": 1545,
+      "discard": 2359
+    },
+    "2014.01": {
+      "total": 16083,
+      "published": 1088,
+      "queued": 10369,
+      "autodiscard": 1837,
+      "discard": 2757
+    },
+    "2014.02": {
+      "total": 15339,
+      "published": 1061,
+      "queued": 9754,
+      "autodiscard": 1761,
+      "discard": 2732
+    },
+    "2014.03": {
+      "total": 15063,
+      "published": 1070,
+      "queued": 9440,
+      "autodiscard": 1794,
+      "discard": 2727
+    },
+    "2014.04": {
+      "total": 13668,
+      "published": 986,
+      "queued": 8768,
+      "autodiscard": 1503,
+      "discard": 2371
+    },
+    "2014.05": {
+      "total": 14751,
+      "published": 1124,
+      "queued": 9359,
+      "autodiscard": 1636,
+      "discard": 2597
+    },
+    "2014.06": {
+      "total": 14439,
+      "published": 1076,
+      "queued": 8926,
+      "autodiscard": 1786,
+      "discard": 2622
+    },
+    "2014.07": {
+      "total": 13951,
+      "published": 1037,
+      "queued": 9192,
+      "autodiscard": 1464,
+      "discard": 2233
+    },
+    "2014.08": {
+      "total": 13057,
+      "published": 1031,
+      "queued": 8166,
+      "autodiscard": 1647,
+      "discard": 2186
+    },
+    "2014.09": {
+      "total": 13183,
+      "published": 959,
+      "queued": 7618,
+      "autodiscard": 1638,
+      "discard": 2946
+    },
+    "2014.1": {
+      "total": 16054,
+      "published": 1298,
+      "queued": 9955,
+      "autodiscard": 1960,
+      "discard": 2806
+    },
+    "2014.11": {
+      "total": 14484,
+      "published": 1204,
+      "queued": 9431,
+      "autodiscard": 1472,
+      "discard": 2349
+    },
+    "2014.12": {
+      "total": 13526,
+      "published": 1115,
+      "queued": 8724,
+      "autodiscard": 1436,
+      "discard": 2231
+    },
+    "2015.01": {
+      "total": 14327,
+      "published": 1216,
+      "queued": 9149,
+      "autodiscard": 1637,
+      "discard": 2281
+    },
+    "2015.02": {
+      "total": 13668,
+      "published": 1087,
+      "queued": 8587,
+      "autodiscard": 1540,
+      "discard": 2345
+    },
+    "2015.03": {
+      "total": 14001,
+      "published": 1099,
+      "queued": 8595,
+      "autodiscard": 1682,
+      "discard": 2579
+    },
+    "2015.04": {
+      "total": 13713,
+      "published": 1075,
+      "queued": 8780,
+      "autodiscard": 1499,
+      "discard": 2329
+    },
+    "2015.05": {
+      "total": 14128,
+      "published": 1257,
+      "queued": 9059,
+      "autodiscard": 1426,
+      "discard": 2360
+    },
+    "2015.06": {
+      "total": 12821,
+      "published": 970,
+      "queued": 8025,
+      "autodiscard": 1417,
+      "discard": 2307
+    },
+    "2015.07": {
+      "total": 12082,
+      "published": 924,
+      "queued": 7440,
+      "autodiscard": 1349,
+      "discard": 2204
+    },
+    "2015.08": {
+      "total": 10980,
+      "published": 870,
+      "queued": 6770,
+      "autodiscard": 1235,
+      "discard": 2051
+    },
+    "2015.09": {
+      "total": 11076,
+      "published": 847,
+      "queued": 6744,
+      "autodiscard": 1152,
+      "discard": 2200
+    },
+    "2015.1": {
+      "total": 12797,
+      "published": 1031,
+      "queued": 8298,
+      "autodiscard": 1271,
+      "discard": 2015
+    },
+    "2015.11": {
+      "total": 13352,
+      "published": 899,
+      "queued": 8551,
+      "autodiscard": 1362,
+      "discard": 2339
+    },
+    "2015.12": {
+      "total": 13240,
+      "published": 1043,
+      "queued": 8326,
+      "autodiscard": 1469,
+      "discard": 2290
+    },
+    "2016.01": {
+      "total": 13496,
+      "published": 914,
+      "queued": 8379,
+      "autodiscard": 1779,
+      "discard": 2327
+    },
+    "2016.02": {
+      "total": 13308,
+      "published": 954,
+      "queued": 8287,
+      "autodiscard": 1662,
+      "discard": 2269
+    },
+    "2016.03": {
+      "total": 11981,
+      "published": 959,
+      "queued": 7354,
+      "autodiscard": 1464,
+      "discard": 2091
+    },
+    "2016.04": {
+      "total": 12186,
       "published": 913,
-      "queued": 7420,
-      "autodiscard": 1376,
-      "discard": 2262
+      "queued": 7615,
+      "autodiscard": 1401,
+      "discard": 2161
+    },
+    "2016.05": {
+      "total": 12258,
+      "published": 914,
+      "queued": 7577,
+      "autodiscard": 1345,
+      "discard": 2219
     },
     "2016.06": {
-      "total": 11893,
-      "published": 882,
-      "queued": 7233,
-      "autodiscard": 1381,
-      "discard": 2147
+      "total": 11594,
+      "published": 912,
+      "queued": 6957,
+      "autodiscard": 1429,
+      "discard": 2109
     },
     "2016.07": {
-      "total": 10712,
-      "published": 871,
-      "queued": 6538,
-      "autodiscard": 1368,
-      "discard": 1883
+      "total": 10319,
+      "published": 814,
+      "queued": 6333,
+      "autodiscard": 1267,
+      "discard": 1861
     },
     "2016.08": {
-      "total": 9565,
-      "published": 777,
-      "queued": 5767,
-      "autodiscard": 1116,
-      "discard": 1856
+      "total": 9639,
+      "published": 786,
+      "queued": 5731,
+      "autodiscard": 1171,
+      "discard": 1905
     },
     "2016.09": {
-      "total": 10260,
-      "published": 782,
-      "queued": 5641,
-      "autodiscard": 1560,
-      "discard": 2235
+      "total": 10190,
+      "published": 770,
+      "queued": 5508,
+      "autodiscard": 1563,
+      "discard": 2310
     },
     "2016.1": {
-      "total": 9686,
-      "published": 720,
-      "queued": 5217,
-      "autodiscard": 1318,
-      "discard": 2400
+      "total": 9530,
+      "published": 693,
+      "queued": 5170,
+      "autodiscard": 1270,
+      "discard": 2363
     },
     "2016.11": {
-      "total": 9189,
-      "published": 614,
-      "queued": 5192,
-      "autodiscard": 1146,
-      "discard": 2203
+      "total": 9386,
+      "published": 585,
+      "queued": 5386,
+      "autodiscard": 1153,
+      "discard": 2233
     },
     "2016.12": {
-      "total": 9345,
-      "published": 691,
-      "queued": 5324,
-      "autodiscard": 1071,
-      "discard": 2225
+      "total": 8796,
+      "published": 676,
+      "queued": 5005,
+      "autodiscard": 997,
+      "discard": 2086
     },
     "2017.01": {
-      "total": 9056,
-      "published": 648,
-      "queued": 5196,
-      "autodiscard": 1027,
-      "discard": 2156
+      "total": 9801,
+      "published": 700,
+      "queued": 5685,
+      "autodiscard": 1082,
+      "discard": 2303
     },
     "2017.02": {
-      "total": 9196,
-      "published": 683,
-      "queued": 5458,
-      "autodiscard": 968,
-      "discard": 2071
+      "total": 8853,
+      "published": 689,
+      "queued": 5292,
+      "autodiscard": 912,
+      "discard": 1950
     },
     "2017.03": {
-      "total": 9576,
-      "published": 724,
-      "queued": 5805,
-      "autodiscard": 965,
-      "discard": 2063
+      "total": 9639,
+      "published": 740,
+      "queued": 5899,
+      "autodiscard": 953,
+      "discard": 2022
     },
     "2017.04": {
-      "total": 8750,
-      "published": 775,
-      "queued": 5232,
-      "autodiscard": 946,
-      "discard": 1770
+      "total": 8922,
+      "published": 872,
+      "queued": 5263,
+      "autodiscard": 1015,
+      "discard": 1751
     },
     "2017.05": {
-      "total": 11001,
-      "published": 1132,
-      "queued": 6967,
-      "autodiscard": 1152,
-      "discard": 1720
+      "total": 11043,
+      "published": 1095,
+      "queued": 7153,
+      "autodiscard": 1095,
+      "discard": 1666
     },
     "2017.06": {
-      "total": 10148,
-      "published": 1049,
-      "queued": 6682,
-      "autodiscard": 918,
-      "discard": 1444
+      "total": 9883,
+      "published": 1007,
+      "queued": 6519,
+      "autodiscard": 882,
+      "discard": 1415
     },
     "2017.07": {
-      "total": 9184,
-      "published": 929,
-      "queued": 5724,
-      "autodiscard": 791,
-      "discard": 1655
+      "total": 9090,
+      "published": 930,
+      "queued": 5511,
+      "autodiscard": 858,
+      "discard": 1695
     },
     "2017.08": {
-      "total": 8690,
-      "published": 861,
-      "queued": 5353,
-      "autodiscard": 878,
-      "discard": 1528
+      "total": 8751,
+      "published": 829,
+      "queued": 5401,
+      "autodiscard": 882,
+      "discard": 1580
     },
     "2017.09": {
-      "total": 9475,
-      "published": 874,
-      "queued": 5793,
-      "autodiscard": 1012,
-      "discard": 1753
+      "total": 9867,
+      "published": 891,
+      "queued": 6117,
+      "autodiscard": 1014,
+      "discard": 1799
     },
     "2017.1": {
-      "total": 11400,
-      "published": 1096,
-      "queued": 7263,
-      "autodiscard": 1183,
-      "discard": 1756
+      "total": 11669,
+      "published": 1201,
+      "queued": 7379,
+      "autodiscard": 1223,
+      "discard": 1755
     },
     "2017.11": {
-      "total": 11048,
-      "published": 1150,
-      "queued": 7109,
-      "autodiscard": 1028,
-      "discard": 1663
+      "total": 10650,
+      "published": 1127,
+      "queued": 6880,
+      "autodiscard": 946,
+      "discard": 1610
     },
     "2017.12": {
-      "total": 9452,
-      "published": 991,
-      "queued": 6058,
-      "autodiscard": 734,
-      "discard": 1611
+      "total": 8770,
+      "published": 958,
+      "queued": 5584,
+      "autodiscard": 664,
+      "discard": 1512
     },
     "2018.01": {
-      "total": 9468,
-      "published": 1069,
-      "queued": 6101,
-      "autodiscard": 754,
-      "discard": 1502
+      "total": 10203,
+      "published": 1112,
+      "queued": 6697,
+      "autodiscard": 798,
+      "discard": 1545
     },
     "2018.02": {
-      "total": 9800,
-      "published": 1050,
-      "queued": 6780,
+      "total": 9870,
+      "published": 1075,
+      "queued": 6830,
       "autodiscard": 705,
-      "discard": 1213
+      "discard": 1211
     },
     "2018.03": {
-      "total": 11115,
-      "published": 1233,
-      "queued": 7466,
-      "autodiscard": 913,
-      "discard": 1454
+      "total": 10918,
+      "published": 1170,
+      "queued": 7358,
+      "autodiscard": 902,
+      "discard": 1435
     },
     "2018.04": {
-      "total": 11297,
-      "published": 1307,
-      "queued": 7870,
-      "autodiscard": 829,
-      "discard": 1238
+      "total": 11763,
+      "published": 1361,
+      "queued": 8098,
+      "autodiscard": 970,
+      "discard": 1283
     },
     "2018.05": {
-      "total": 11864,
-      "published": 1211,
-      "queued": 8027,
-      "autodiscard": 1059,
-      "discard": 1485
+      "total": 11804,
+      "published": 1261,
+      "queued": 8051,
+      "autodiscard": 1001,
+      "discard": 1404
     },
     "2018.06": {
-      "total": 11242,
-      "published": 1153,
-      "queued": 7825,
-      "autodiscard": 928,
-      "discard": 1252
+      "total": 10960,
+      "published": 1050,
+      "queued": 7707,
+      "autodiscard": 854,
+      "discard": 1266
     },
     "2018.07": {
-      "total": 10289,
-      "published": 1206,
-      "queued": 7132,
-      "autodiscard": 719,
-      "discard": 1160
-    },
-    "2018.08": {
-      "total": 10186,
-      "published": 1118,
-      "queued": 7071,
-      "autodiscard": 790,
-      "discard": 1133
-    },
-    "2018.09": {
-      "total": 10918,
-      "published": 1139,
-      "queued": 7755,
-      "autodiscard": 791,
-      "discard": 1185
-    },
-    "2018.1": {
-      "total": 10874,
-      "published": 1188,
-      "queued": 7736,
-      "autodiscard": 749,
-      "discard": 1164
-    },
-    "2018.11": {
-      "total": 9972,
-      "published": 1030,
-      "queued": 7166,
-      "autodiscard": 684,
-      "discard": 1039
-    },
-    "2018.12": {
-      "total": 9886,
-      "published": 944,
-      "queued": 7041,
-      "autodiscard": 711,
+      "total": 10124,
+      "published": 1254,
+      "queued": 6985,
+      "autodiscard": 687,
       "discard": 1130
     },
+    "2018.08": {
+      "total": 10432,
+      "published": 1045,
+      "queued": 7322,
+      "autodiscard": 836,
+      "discard": 1152
+    },
+    "2018.09": {
+      "total": 10894,
+      "published": 1246,
+      "queued": 7653,
+      "autodiscard": 761,
+      "discard": 1191
+    },
+    "2018.1": {
+      "total": 10755,
+      "published": 1129,
+      "queued": 7732,
+      "autodiscard": 735,
+      "discard": 1119
+    },
+    "2018.11": {
+      "total": 9957,
+      "published": 1008,
+      "queued": 7133,
+      "autodiscard": 701,
+      "discard": 1063
+    },
+    "2018.12": {
+      "total": 9155,
+      "published": 895,
+      "queued": 6421,
+      "autodiscard": 691,
+      "discard": 1079
+    },
     "2019.01": {
-      "total": 9153,
-      "published": 948,
-      "queued": 6381,
-      "autodiscard": 714,
-      "discard": 1010
+      "total": 9963,
+      "published": 953,
+      "queued": 7079,
+      "autodiscard": 735,
+      "discard": 1093
     },
     "2019.02": {
-      "total": 9726,
-      "published": 955,
-      "queued": 6890,
-      "autodiscard": 694,
-      "discard": 1120
+      "total": 9840,
+      "published": 995,
+      "queued": 6917,
+      "autodiscard": 716,
+      "discard": 1146
     },
     "2019.03": {
-      "total": 10965,
-      "published": 1151,
-      "queued": 7580,
-      "autodiscard": 722,
-      "discard": 1360
+      "total": 11163,
+      "published": 1195,
+      "queued": 7789,
+      "autodiscard": 750,
+      "discard": 1284
     },
     "2019.04": {
-      "total": 10651,
-      "published": 1162,
-      "queued": 7540,
-      "autodiscard": 775,
-      "discard": 1098
+      "total": 10235,
+      "published": 1140,
+      "queued": 7138,
+      "autodiscard": 748,
+      "discard": 1118
     },
     "2019.05": {
-      "total": 10278,
-      "published": 981,
-      "queued": 7352,
-      "autodiscard": 763,
-      "discard": 1084
+      "total": 10339,
+      "published": 929,
+      "queued": 7471,
+      "autodiscard": 776,
+      "discard": 1075
     },
     "2019.06": {
-      "total": 10065,
-      "published": 1041,
-      "queued": 7080,
-      "autodiscard": 840,
-      "discard": 1047
+      "total": 10160,
+      "published": 1063,
+      "queued": 7125,
+      "autodiscard": 838,
+      "discard": 1076
     },
     "2019.07": {
-      "total": 10347,
-      "published": 931,
-      "queued": 7411,
-      "autodiscard": 809,
-      "discard": 1106
+      "total": 10126,
+      "published": 908,
+      "queued": 7258,
+      "autodiscard": 801,
+      "discard": 1075
     },
     "2019.08": {
-      "total": 9233,
-      "published": 973,
-      "queued": 6433,
-      "autodiscard": 730,
-      "discard": 1036
+      "total": 9212,
+      "published": 1016,
+      "queued": 6405,
+      "autodiscard": 702,
+      "discard": 1022
     },
     "2019.09": {
-      "total": 9449,
-      "published": 1007,
-      "queued": 6651,
-      "autodiscard": 726,
-      "discard": 967
+      "total": 9629,
+      "published": 978,
+      "queued": 6818,
+      "autodiscard": 751,
+      "discard": 982
     },
     "2019.1": {
-      "total": 10590,
-      "published": 1097,
-      "queued": 7572,
-      "autodiscard": 766,
-      "discard": 997
+      "total": 10473,
+      "published": 1149,
+      "queued": 7473,
+      "autodiscard": 741,
+      "discard": 945
     },
     "2019.11": {
-      "total": 10343,
-      "published": 1072,
-      "queued": 7507,
-      "autodiscard": 682,
-      "discard": 933
+      "total": 10318,
+      "published": 1067,
+      "queued": 7479,
+      "autodiscard": 673,
+      "discard": 953
     },
     "2019.12": {
-      "total": 9436,
-      "published": 1095,
-      "queued": 6795,
-      "autodiscard": 563,
-      "discard": 908
+      "total": 8768,
+      "published": 1023,
+      "queued": 6330,
+      "autodiscard": 519,
+      "discard": 846
     },
     "2020.01": {
-      "total": 9115,
-      "published": 986,
-      "queued": 6644,
-      "autodiscard": 595,
-      "discard": 836
+      "total": 10003,
+      "published": 1101,
+      "queued": 7262,
+      "autodiscard": 666,
+      "discard": 880
     },
     "2020.02": {
-      "total": 10306,
-      "published": 1152,
-      "queued": 7479,
-      "autodiscard": 663,
-      "discard": 855
+      "total": 10418,
+      "published": 1127,
+      "queued": 7570,
+      "autodiscard": 674,
+      "discard": 912
     },
     "2020.03": {
-      "total": 12874,
-      "published": 1571,
-      "queued": 9037,
-      "autodiscard": 983,
-      "discard": 1170
-    },
-    "2020.04": {
-      "total": 3708,
-      "published": 346,
-      "queued": 2664,
-      "autodiscard": 340,
-      "discard": 307
+      "total": 13977,
+      "published": 1632,
+      "queued": 9847,
+      "autodiscard": 1135,
+      "discard": 1220
     }
   },
   "count_categorias_todas": {

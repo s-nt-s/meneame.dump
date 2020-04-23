@@ -1,3 +1,28 @@
+Chart.defaults.LineWithLine = Chart.defaults.line;
+Chart.controllers.LineWithLine = Chart.controllers.line.extend({
+   draw: function(ease) {
+      Chart.controllers.line.prototype.draw.call(this, ease);
+
+      if (this.chart.tooltip._active && this.chart.tooltip._active.length) {
+         var activePoint = this.chart.tooltip._active[0],
+             ctx = this.chart.ctx,
+             x = activePoint.tooltipPosition().x,
+             topY = this.chart.legend.bottom,
+             bottomY = this.chart.chartArea.bottom;
+
+         // draw line
+         ctx.save();
+         ctx.beginPath();
+         ctx.moveTo(x, topY);
+         ctx.lineTo(x, bottomY);
+         ctx.lineWidth = 0.5;
+         ctx.strokeStyle = '#07C';
+         ctx.stroke();
+         ctx.restore();
+      }
+   }
+});
+
 var d_color={
   "red": {
     backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -41,6 +66,7 @@ function setGraphChart(obj, dataset) {
             },
             tooltips: {
               mode: 'index',
+              //mode: 'nearest',
               intersect: false
             },
             responsive: true,
@@ -286,7 +312,7 @@ render_builder={
           id: this.find("canvas")[0],
           title: null,
           labels: labels,
-          type: 'line',
+          type: 'LineWithLine',
           destroy:true,
           //max_y: t=="prc_"?100:null,
           x_label: "Horas del día"
@@ -322,7 +348,7 @@ render_builder={
         id: this.find("canvas")[0],
         title: null,
         labels: obj["keys"].map(function(x) {return x.toFixed(2);}),
-        type: 'line',
+        type: 'LineWithLine',
         max_y: prc?100:null,
         destroy:true
     }, dataset);
@@ -351,7 +377,7 @@ render_builder={
         id: this.find("canvas")[0],
         title: null,
         labels: obj["keys"].map(function(x) {return x.toFixed(2);}),
-        type: 'line',
+        type: 'LineWithLine',
         //max_y: t=="prc_"?100:null,
         destroy:true
     }, dataset);
@@ -400,7 +426,7 @@ render_builder={
         id: this.find("canvas")[0],
         title: null,
         labels: labels,
-        type: 'line',
+        type: 'LineWithLine',
         destroy:true
     }, dataset);
   }
