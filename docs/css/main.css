@@ -54,3 +54,6 @@ div.fullscreen {
 div.fullscreen canvas {
 	max-width: unset !important;
 }
+code {
+	font-size: 1.3em;
+}
