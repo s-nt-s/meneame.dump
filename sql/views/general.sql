@@ -29,7 +29,11 @@ select
   comments,
   SUBSTRING_INDEX(
     SUBSTRING_INDEX(
-      SUBSTRING_INDEX(SUBSTRING_INDEX(url, '/', 3), '://', -1)
+      SUBSTRING_INDEX(
+        SUBSTRING_INDEX(
+          REGEXP_REPLACE(url, "://www[0-9]*\\.", "://")
+        , '/', 3)
+      , '://', -1)
     , '/', 1)
   , '?', 1) dominio,
   from_unixtime(`date`) main_date,
