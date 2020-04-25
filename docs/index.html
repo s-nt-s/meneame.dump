@@ -4,12 +4,15 @@
 <meta charset="utf-8"/>
 <title>Informe de datos de meneame.net</title>
 <link href="css/main.css" rel="stylesheet" type="text/css"/>
+<link href="https://yaireo.github.io/tagify/dist/tagify.css" rel="stylesheet" type="text/css"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="https://yaireo.github.io/tagify/dist/tagify.js"></script>
 <script data-autoinsert="1" src="00-js/util.js"></script>
 <script data-autoinsert="1" src="data/modelos.js"></script>
 <script data-autoinsert="1" src="data/zz-parse.js"></script>
+<script data-autoinsert="1" src="js/00-tag.js"></script>
 <script data-autoinsert="1" src="js/chart.js"></script>
 </head>
 <body>
@@ -21,8 +24,8 @@
       a
       <a href="https://www.meneame.net/story/3280490"><code>31/03/2020 23:58</code></a>,
       lo que representa
-      <code>29.182.322</code> comentarios y
-      <code>2.571.407</code> noticias repartidas en:
+      <code>2.571.407</code> noticias y
+      <code>29.182.322</code> comentarios repartidos en:
     </p>
 <table>
 <thead>
@@ -140,6 +143,21 @@
       (*) Antes de 2014 más del 98% de las noticias estan en la categoría <code>mnm</code>
 </p><p>
 </p></div>
+<h2>¿De dónde son las noticias?</h2>
+<div class="data">
+<p>Mostrar datos en <select name="porcentaje">
+<option value="1">% del total</option>
+<option value="0">números absolutos</option>
+</select> de <select name="modelo">
+<option value="dominios_portada">solo la portada (published)</option>
+<option value="dominios_todos">todos los envios</option>
+</select> para los siguientes dominios:
+  </p>
+<p>
+<input class="tag_filter" data-source="dominios" type="text" value="*.elmundotoday.com, *.20minutos.es, *.abc.es, *.eldiario.es, *.elmundo.es"/>
+</p>
+<canvas></canvas>
+</div>
 <h2>¿Hay buen rollo en Menéame?</h2>
 <div class="data">
 <p>Mostrar datos de <select name="modelo">

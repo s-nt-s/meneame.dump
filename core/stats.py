@@ -242,9 +242,7 @@ class Stats:
                 GENERAL
             where
                 YEAR(sent_date)>{1} and
-                YEAR(sent_date)<{2} and
-                dominio is not null and
-                dominio!='' {0}
+                YEAR(sent_date)<{2} {0}
             group by
                 YEAR(sent_date)
         '''.format(where, min_year, max_year)):
@@ -267,7 +265,7 @@ class Stats:
                 YEAR(sent_date),
                 dominio
             having
-                count(*)>100
+                count(*)>50
         '''.format(where, min_year, max_year), cursor=DictCursor):
             yr=int(dt["yr"])
             data[yr][dt["dominio"]]=int(dt["total"])

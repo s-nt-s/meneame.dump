@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Informe de datos de meneame.net</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://yaireo.github.io/tagify/dist/tagify.css">
     {% for c in css %}
       <link href="{{c}}" rel="stylesheet" type="text/css" data-autoinsert="1"/>
     {% endfor %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://yaireo.github.io/tagify/dist/tagify.js"></script>
     {% for js in javascript %}
       <script src="{{js}}" data-autoinsert="1"></script>
     {% endfor %}
@@ -22,8 +24,8 @@
       a
       <a href="https://www.meneame.net/story/{{st.max_portada}}"><code>{{st.max_date.strftime("%d/%m/%Y %H:%M")}}</code></a>,
       lo que representa
-      <code>{{st.counts.comments.total | millar }}</code> comentarios y
-      <code>{{st.counts.links.total | millar }}</code> noticias repartidas en:
+      <code>{{st.counts.links.total | millar }}</code> noticias y
+      <code>{{st.counts.comments.total | millar }}</code> comentarios repartidos en:
     </p>
     <table>
       <thead>
@@ -106,6 +108,21 @@
     <p>
       (*) Antes de 2014 más del 98% de las noticias estan en la categoría <code>mnm</code>
     <p>
+  </div>
+  <h2>¿De dónde son las noticias?</h2>
+  <div class="data">
+    <p>Mostrar datos en <select name="porcentaje">
+      <option value="1">% del total</option>
+      <option value="0">números absolutos</option>
+    </select> de <select name="modelo">
+      <option value="dominios_portada">solo la portada (published)</option>
+      <option value="dominios_todos">todos los envios</option>
+    </select> para los siguientes dominios:
+  </p>
+  <p>
+    <input class="tag_filter" type="text" value="*.elmundotoday.com, *.20minutos.es, *.abc.es, *.eldiario.es, *.elmundo.es" data-source="dominios"/>
+    </p>
+    <canvas></canvas>
   </div>
   <h2>¿Hay buen rollo en Menéame?</h2>
   <div class="data">

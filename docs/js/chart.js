@@ -144,7 +144,7 @@ function setGraphChart(obj, dataset) {
 }
 
 function gF(obj, key, porcentaje){
-  values = obj["values"].map(function(x){return x[key]});
+  values = obj["values"].map(function(x){return x[key] || 0});
   if (porcentaje!=null) {
     var total = values.reduce(function(a,b){return a + b}, 0);
     var dc=Math.pow(10, porcentaje);
@@ -176,7 +176,6 @@ function mesTo(ym) {
 }
 
 function doAgrupar(tipo, keys) {
-  console.log(tipo);
   var letter = tipo[0].toUpperCase();
   var re_index={}
   var last_piece=null;
@@ -222,6 +221,14 @@ function render_chart() {
     console.log(key_modelo+" no encontrado");
     return;
   }
+  var tags = t.find(".tag_filter:not(.tagify)").data("mytagify");
+  if (tags) {
+    tags = tags.value.filter(function(x){
+      return x.__isValid;
+    }).map(function(x) {
+      return x.value;
+    });
+  }
   var prc = t.find("*[name=porcentaje]").val()=="1";
   var agrupar = t.find("*[name=agrupar]").val();
   if (agrupar && agrupar!="mes") {
@@ -240,7 +247,7 @@ function render_chart() {
         _mdl["values"].push(x);
       } else {
         Object.entries(v).forEach(([key, value]) => {
-            new_value[key]=new_value[key]+value;
+            new_value[key]=(new_value[key] || 0)+value;
         });
         _mdl["values"][new_index]=new_value;
       }
@@ -271,20 +278,24 @@ function render_chart() {
     console.log(key_modelo+" no encontrado builder");
     return;
   }
-  rd.apply(t, [mdl, prc, agrupar]);
+  rd.apply(t, [mdl, {
+    "porcentaje": prc,
+    "agrupar": agrupar,
+    "tags": tags
+  }]);
 }
 
 $(document).ready(function(){
   $("div.data")
   .on("render", render_chart)
-  .find("select").change(function(){
+  .find("select,input").change(function(){
     $(this).closest("div.data").trigger("render");
   });
   $("div.data").trigger("render");
 })
 
 render_builder={
-  "horas_dia":function(obj, prc) {
+  "horas_dia":function(obj, options) {
       var horas = rg(24);
       var year=parseInt($("#yearsDiaNormal").val(), 10);//.map(function(x){return Number(x)});
       if (isNaN(year)) year=null;
@@ -323,12 +334,12 @@ render_builder={
         if (x>9) return x+"-"+(x+1);
         return "0"+x+"-0"+(x+1);
       })
-      var td = gF(data, "todas", (prc?2:null));
-      var pb = gF(data, "published", (prc?2:null));
-      var prov = zip_arr(prc?gF(data, "todas"):td, prc?gF(data, "published"):pb, function (tot, pub) {
+      var td = gF(data, "todas", (options.porcentaje?2:null));
+      var pb = gF(data, "published", (options.porcentaje?2:null));
+      var prov = zip_arr(options.porcentaje?gF(data, "todas"):td, options.porcentaje?gF(data, "published"):pb, function (tot, pub) {
         return Math.round((pub/tot)*10000)/100;
       })
-      if (!prc) {
+      if (!options.porcentaje) {
         var rnd=function(x) {
           var a=x/divisor;
           var b=Math.round(a);
@@ -338,14 +349,14 @@ render_builder={
         pb = pb.map(rnd);
       }
       var dataset = [{
-          label: (prc?"% ":"")+"envios",
+          label: (options.porcentaje?"% ":"")+"envios",
           data: td,
           fill: false,
           //backgroundColor: d_color.blue.backgroundColor,
           borderColor: "black",
           borderWidth: 1
         },{
-          label: (prc?"% ":"")+"published",
+          label: (options.porcentaje?"% ":"")+"published",
           data: pb,
           fill: false,
           //backgroundColor: d_color.blue.backgroundColor,
@@ -370,7 +381,7 @@ render_builder={
           x_label: "Horas del día"
       }, dataset);
   },
-  "count_estados":function(obj, prc) {
+  "count_estados":function(obj, options) {
     var dataset = [];
     var i, k, kl;
     var ks = Object.keys(obj["values"][0]);
@@ -401,18 +412,18 @@ render_builder={
         title: null,
         labels: obj["keys"],
         type: 'LineWithLine',
-        max_y: prc?100:null,
+        max_y: options.porcentaje?100:null,
         destroy:true
     }, dataset);
   },
-  "count_categorias_todas": function(obj, prc) {
+  "count_categorias_todas": function(obj, options) {
     var dataset = [];
     var i, k, kl, color;
     var ks = Object.keys(obj["values"][0]);
     var colors = ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
     for (i=0; i<ks.length; i++) {
       k = ks[i];
-      color = colors.slice(prc?1:0)[i] || "grey";
+      color = colors.slice(options.porcentaje?1:0)[i] || "grey";
       dataset.push({
         label: k,
         data: gF(obj, k),
@@ -434,7 +445,7 @@ render_builder={
         destroy:true
     }, dataset);
   },
-  "karma_general": function (obj, prc) {
+  "karma_general": function (obj, options) {
     var labels = obj["keys"];
     var negatives = gF(obj, "negatives");
     var positives = gF(obj, "positives");
@@ -488,7 +499,54 @@ render_builder={
         type: 'LineWithLine',
         destroy:true
     }, dataset);
+  },
+  "dominios_todos": function(obj, options) {
+    var dataset = [];
+    var i, t, k, kl, color;
+    var ks={};
+    if (!options.porcentaje) ks["total"]="total";
+    obj["values"].forEach(function(v) {
+      Object.keys(v).forEach(function(k) {
+        if (ks[k]!=null) return;
+        for (i=0;i<options.tags.length;i++) {
+          t = options.tags[i];
+          if (k==t) {
+            ks[t]=[t];
+          } else if (t.startsWith("*.") && (k.endsWith(t.substr(1)) || k==t.substr(2))) {
+            var a = ks[t] || [];
+            a.push(k)
+            ks[t]=a;
+          }
+        }
+      });
+    })
+    var colors = ["black", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
+    if (options.porcentaje) colors = colors.slice(1)
+    for (const [k, doms] of Object.entries(ks)) {
+      color = colors[dataset.length] || "grey";
+      var values=gF(obj, doms[0]);
+      for (i=1;i<doms.length;i++) values = zip_arr(values, gF(obj, doms[i]), function(a,b){return a+b})
+      if (options.porcentaje) values = values.map(function(x){return Math.round(x*100)/100})
+      dataset.push({
+        label: k,
+        data: values,
+        fill: false,
+        //backgroundColor: d_color.blue.backgroundColor,
+        borderColor: color,
+        borderWidth: 1,
+        hidden: k == "total"
+      })
+    }
+    setGraphChart({
+        id: this.find("canvas")[0],
+        title: null,
+        labels: obj["keys"],
+        type: 'LineWithLine',
+        //max_y: t=="prc_"?100:null,
+        destroy:true
+    }, dataset);
   }
 }
 render_builder["count_categorias_published"] = render_builder["count_categorias_todas"];
 render_builder["karma_portada"] = render_builder["karma_general"];
+render_builder["dominios_portada"] = render_builder["dominios_todos"];
