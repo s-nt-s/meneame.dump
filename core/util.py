@@ -3,8 +3,13 @@ from glob import glob
 import os
 import re
 import argparse
+from urllib.parse import urlparse
 
 re_sp = re.compile(r"\s+")
+re_www = re.compile(r"^www\d*\.")
+re_nb = re.compile(r"\d+")
+re_blogspot = re.compile(r"\.blogspot\.com\.[a-z]{,2}$")
+re_port = re.compile(r":\d+$")
 
 def chunks(lst, n):
     arr = []
@@ -83,3 +88,25 @@ def mkArg(title, **kargv):
     if "silent" in kargv:
         args.trazas = not args.silent
     return args
+
+def extract_source(url):
+    if not url or url in ("[borrado a petición del usuario]", "blank.html") or url.startswith("about:"):
+        return None
+    if re_www.search(url):
+        url = "http://"+url
+    dom = urlparse(url).netloc
+    if not dom or not dom.strip():
+        return None
+    dom = dom.strip().lower()
+    dom = re_port.sub("", dom)
+    dom = re_www.sub("", dom).rstrip(".")
+    dom = re_blogspot.sub(".blogspot.com", dom)
+    while True:
+        spl = dom.split(".")
+        sz = len(spl)
+        if sz<3 or len(spl[0])>2 or re_nb.search(spl[0]):
+            break
+        if sz==3 and len(".".join(spl[-2:]))<6:
+            break
+        dom = ".".join(spl[1:])
+    return dom

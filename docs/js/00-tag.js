@@ -75,6 +75,7 @@ $(document).ready(function(){
       value = value.trim().split(/\s*,\s*/);
     }
     var full_whitelist = tags[$(this).data("source")];
+    if ($(this).data("source")=="dominios") full_whitelist.push("AEDE");
     value = value.filter(function (x) {return full_whitelist.indexOf(x)>-1})
     var tagify = new Tagify(this, {
         enforceWhitelist: true,

@@ -10,8 +10,30 @@ import string
 import re
 from unicodedata import category
 from MySQLdb.cursors import DictCursor
-from core.util import chunks
+from core.util import chunks, extract_source
 from .util import get_items
+
+def gW(ids, f="id"):
+    if len(ids)==1:
+        return f+" = "+str(ids.pop())
+    return f+" in %s" % (tuple(sorted(ids)), )
+
+
+import sqlite3
+fuentes={}
+file = "file:meneame.db?mode=ro"
+lt = sqlite3.connect(file, detect_types=sqlite3.PARSE_DECLTYPES, uri=True)
+for id, url in lt.execute("select id, url from LINKS where url is not null and url!=''"):
+    dom = extract_source(url)
+    if dom and "'" not in dom and '"' not in dom and "\\" not in dom:
+        fuentes[dom] = fuentes.get(dom, []) + [id]
+lt.close()
+print('''
+ALTER TABLE LINKS ADD domain VARCHAR(253);
+''')
+for fuente, ids in sorted(fuentes.items()):
+    print("UPDATE LINKS set domain = '{0}' where {1};".format(fuente, gW(ids)))
+sys.exit()
 
 def remove_control_chars(s):
     return "".join(ch for ch in s if category(ch)[0]!="C")
@@ -46,21 +68,5 @@ def get_groups(*fields, ok_ids=None):
         return r[fields[0]]
     return r
 
-def gW(ids, f="id"):
-    if len(ids)==1:
-        return f+" = "+str(ids.pop())
-    return f+" in %s" % (tuple(sorted(ids)), )
-
-
-db=DB()
-grp = get_groups("votes", "negatives")
-for f, gr in sorted(grp.items()):
-    for v, ids in sorted(gr.items()):
-        ids = db.to_list("select id from LINKS where {0} and {1}!={2}".format(gW(ids),f, v))
-        if len(ids)==0:
-            continue
-        if len(ids)>1:
-            print("--", len(ids))
-        print("UPDATE LINKS set {0} = {1} where {2};".format(f, v, gW(ids)))
-    print("commit;")
-db.close()
+for i in get_items():
+    extract_source(i.get("url"))

@@ -16,7 +16,7 @@ from bunch import Bunch
 from dateutil.relativedelta import relativedelta
 
 from .endpoint import EndPoint
-from .util import chunks
+from .util import chunks, extract_source
 from .threadme import ThreadMe
 
 fisg1 = re.compile(
@@ -507,6 +507,8 @@ class Api:
         fields = fields or (self.link_fields_info if full else self.link_fields)
         _link = {"id": id}
         for fl in chunks(fields, 10):
+            if len(fl)==1:
+                fl.append("id")
             fl = ",".join(fl)
             obj = self.get_info(what='link', id=id, fields=fl)
             if not obj:
@@ -530,6 +532,8 @@ class Api:
                 elif v.isdigit():
                     v = int(v)
             link[k] = v
+        if "url" in fields:
+            link["fuente"] = extract_source(link.get("url"))
         return link
 
     def get_comment_info(self, id, *fields, full=False):

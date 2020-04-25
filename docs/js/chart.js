@@ -102,6 +102,11 @@ function setGraphChart(obj, dataset) {
             }
         }
     };
+    if (obj.porcentaje) {
+      dat.options.scales.yAxes[0].ticks.callback=function(value, index, values) {
+          return value+' %';
+      }
+    }
     dat.data.datasets.forEach(function(i){
       if (!i.pointBackgroundColor) i.pointBackgroundColor=i.borderColor;
       if (!i.pointBorderColor) i.pointBorderColor=i.borderColor;
@@ -378,7 +383,8 @@ render_builder={
           type: 'LineWithLine',
           destroy:true,
           //max_y: t=="prc_"?100:null,
-          x_label: "Horas del día"
+          x_label: "Horas del día",
+          porcentaje:options.porcentaje
       }, dataset);
   },
   "count_estados":function(obj, options) {
@@ -413,7 +419,8 @@ render_builder={
         labels: obj["keys"],
         type: 'LineWithLine',
         max_y: options.porcentaje?100:null,
-        destroy:true
+        destroy:true,
+        porcentaje:options.porcentaje
     }, dataset);
   },
   "count_categorias_todas": function(obj, options) {
@@ -442,7 +449,8 @@ render_builder={
         labels: obj["keys"],
         type: 'LineWithLine',
         //max_y: t=="prc_"?100:null,
-        destroy:true
+        destroy:true,
+        porcentaje:options.porcentaje
     }, dataset);
   },
   "karma_general": function (obj, options) {
@@ -497,32 +505,50 @@ render_builder={
         title: null,
         labels: labels,
         type: 'LineWithLine',
-        destroy:true
+        destroy:true,
+        porcentaje:options.porcentaje
     }, dataset);
   },
   "dominios_todos": function(obj, options) {
     var dataset = [];
     var i, t, k, kl, color;
     var ks={};
-    if (!options.porcentaje) ks["total"]="total";
+    if (!options.porcentaje) ks["total"]=["total"];
     obj["values"].forEach(function(v) {
       Object.keys(v).forEach(function(k) {
         if (ks[k]!=null) return;
-        for (i=0;i<options.tags.length;i++) {
-          t = options.tags[i];
+        options.tags.forEach(function(t) {
           if (k==t) {
             ks[t]=[t];
           } else if (t.startsWith("*.") && (k.endsWith(t.substr(1)) || k==t.substr(2))) {
             var a = ks[t] || [];
-            a.push(k)
-            ks[t]=a;
+            if (ks[t]==null) ks[t]=[k];
+            else if (ks[t].indexOf(k)==-1) ks[t].push(k)
           }
-        }
+        });
       });
     })
+    if (options.tags.indexOf("AEDE")>-1) {
+      ks["AEDE"]=[];
+      obj["values"].forEach(function(v) {
+        Object.keys(v).forEach(function(k) {
+          DOM_AEDE.forEach(function(a) {
+            if (ks["AEDE"].indexOf(k)>-1) return;
+            if (k==a || k.endsWith("."+a)) {
+              ks["AEDE"].push(k);
+            }
+          });
+        })
+      });
+    }
+    console.log(JSON.stringify(ks, null, 2));
     var colors = ["black", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
     if (options.porcentaje) colors = colors.slice(1)
-    for (const [k, doms] of Object.entries(ks)) {
+    for (const [k, doms] of Object.entries(ks).sort(function(a,b){
+      var i1=options.tags.indexOf(a[0]);
+      var i2=options.tags.indexOf(b[0]);
+      return i1-i2;
+    })) {
       color = colors[dataset.length] || "grey";
       var values=gF(obj, doms[0]);
       for (i=1;i<doms.length;i++) values = zip_arr(values, gF(obj, doms[i]), function(a,b){return a+b})
@@ -543,7 +569,8 @@ render_builder={
         labels: obj["keys"],
         type: 'LineWithLine',
         //max_y: t=="prc_"?100:null,
-        destroy:true
+        destroy:true,
+        porcentaje:options.porcentaje
     }, dataset);
   }
 }
