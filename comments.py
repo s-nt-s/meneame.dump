@@ -52,13 +52,33 @@ def main():
     db.meta.min_comment_history_id = min_id
     max_date = db.one("select max(sent_date) from LINKS")
     max_date = max_date - api.mnm_config['time_enabled_comments']
-    print("Obteniendo comentarios de link_id > %s and link_date < %s " % (min_id, max_date))
-    gnr = db.comment_gaps(min_id, max_date)
+    print("Obteniendo comentarios de link_id > %s and link_date < %s" % (min_id, max_date), end="\r")
+    max_id = db.one("select max(id) from LINKS where sent_date<"+str(max_date))
+    print("Obteniendo comentarios de link_id > %s and link_id < %s [link_date < %s]" % (min_id, max_id, max_date))
+    gnr = db.comment_gaps(min_id, max_id)
     for comments in tm.list_run(get_comments, gnr):
-        comments = api.fill_user_id(comments)
+        comments = api.fill_user_id(comments, what='comments')
         db.replace("COMMENTS", comments)
         db.save_meta("min_comment_history_id")
     db.save_meta("min_comment_history_id")
+
+def fix():
+    max_date = db.one("select max(sent_date) from LINKS")
+    max_date = max_date - api.mnm_config['time_enabled_comments']
+    print("Obteniendo comentarios de link_id > %s and link_date < %s" % (min_id, max_date), end="\r")
+    max_id = db.one("select max(id) from LINKS where sent_date<"+str(max_date))
+    print("Obteniendo comentarios de link_id > %s and link_id < %s [link_date < %s]" % (min_id, max_id, max_date))
+    gnr = db.select('''
+        select id from LINKS
+        where
+        id<={0} and
+        comments>0 and
+        id not in (select link from COMMENTS)
+    '''.format(max_id))
+    for comments in tm.list_run(get_comments, gnr):
+        comments = api.fill_user_id(comments, what='comments')
+        db.replace("COMMENTS", comments)
+    db.commit()
 
 if __name__ == "__main__":
     try:

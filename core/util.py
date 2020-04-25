@@ -64,6 +64,13 @@ def parse_tag(tag, main=True):
         return "Europa"
     return original
 
+def extract_tags(tags):
+    tags = tags.lower().strip().split(",")
+    tags = set(t.strip() for t in tags if t.strip())
+    tags = set([parse_tag(t) for t in tags])
+    tags = sorted(t for t in tags if t is not None)
+    return tags
+
 def mkArg(title, **kargv):
     parser = argparse.ArgumentParser(description=title)
     for k, h in kargv.items():

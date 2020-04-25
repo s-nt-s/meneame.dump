@@ -6,7 +6,7 @@ import unidecode
 import yaml
 from bunch import Bunch
 import MySQLdb
-from .util import chunks, parse_tag
+from .util import chunks, extract_tags
 import sqlite3
 
 import warnings
@@ -267,24 +267,23 @@ class DB:
                         yield i
                 cursor = max_range
 
-    def comment_gaps(self, cursor, max_date, size=2000):
-        max_id = self.one("select max(id) from LINKS where sent_date<"+str(max_date))
-        if max_id is not None:
-            while cursor < max_id:
-                ids = self.to_list('''
-                    select id from
-                    COMMENTS
-                    where id>={0}
-                    order by id
-                    limit {1}
-                '''.format(cursor, size))
-                max_range = min(max_id, cursor+size+1)
-                if len(ids) and max_range<=ids[-1]:
-                    max_range=ids[-1]+1
-                for i in range(cursor, max_range):
-                    if i not in ids:
-                        yield i
-                cursor = max_range
+    def comment_gaps(self, cursor, max_id, size=2000):
+        while cursor < max_id:
+            ids = self.to_list('''
+                select distinct link from
+                COMMENTS
+                where link>={0}
+                order by link
+                limit {1}
+            '''.format(cursor, size))
+            max_range = min(max_id, cursor+size+1)
+            if len(ids) and max_range<=ids[-1]:
+                max_range=ids[-1]+1
+            for i in range(cursor, max_range):
+                if i not in ids:
+                    yield i
+            cursor = max_range
+            print(cursor)
 
     def loop_tags(self, min_id, max_date):
         for id, tags in self.select('''
@@ -296,11 +295,7 @@ class DB:
             order by id
         '''.format(min_id, max_date)):
             print(id, end="\r")
-            tags = tags.lower().strip().split(",")
-            tags = set(t.strip() for t in tags if t.strip())
-            tags = set([parse_tag(t) for t in tags])
-            tags = sorted(t for t in tags if t is not None)
-            for tag in tags:
+            for tag in extract_tags(tags):
                 yield (tag, id)
 
     def insert_tags(self, time_enabled_comments=604800):

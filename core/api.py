@@ -65,6 +65,10 @@ def get_response(url, params=None, intentos=None):
                 return None
         time.sleep(60)
         return get_response(url, params=params, intentos=intentos)
+    if r.status_code == 404:
+        if "página inexistente" in r.text:
+            return None
+        return r
     if r.status_code not in (200, 202):
         if intentos is not None:
             intentos = intentos - 1
@@ -243,12 +247,16 @@ class Api:
                 self.user_id[user]=id
         return self.user_id.get(users[0])
 
-    def fill_user_id(self, arr):
+    def fill_user_id(self, arr, what=None):
         isDict = isinstance(arr, dict)
         if isDict:
             arr = [arr]
         users = set(i["user"] for i in arr if i["user"] and ("user_id" not in i or i["user_id"] is None))
         self.populate_user_id(*users)
+        if what is not None:
+            for i in arr:
+                if self.user_id.get(i["user"]) is None:
+                    self.user_id[i["user"]] = self.get_info(what=what, id=i["id"], fields="author")
         for i in arr:
             i["user_id"] = self.user_id.get(i["user"])
         return arr[0] if isDict else arr
@@ -284,7 +292,10 @@ class Api:
     def get_story_url(self, id):
         r = requests.get(self.story, params={
                          'id': id}, allow_redirects=False)
-        return r.headers['Location']
+        lc = r.headers.get('Location')
+        if lc is None:
+            return "https://www.meneame.net/story/"+str(id)
+        return lc
 
     def get_story_log(self, url):
         if isinstance(url, int) or (isinstance(url, str) and url.isdigit()):
@@ -347,7 +358,7 @@ class Api:
             point = self.post_answers
         return get_comments(point, params={'id': id})
 
-    def get_links(self, **kargv):
+    def get_links(self, fill_user_id=False, **kargv):
         posts = {}
         # duplicated metapublished
         # https://github.com/Meneame/meneame.net/blob/master/sql/meneame.sql
@@ -361,6 +372,8 @@ class Api:
             for p in posts:
                 p["sub_status_id"]=1
         '''
+        if fill_user_id:
+            self.fill_user_id(posts, what="link")
         return posts
 
     def search_links(self, word):
@@ -388,7 +401,7 @@ class Api:
                     ))
                 ini = ini + ms1
 
-    def get_comments(self, id):
+    def get_comments(self, id, fill_user_id=False):
         comments = self.get_list(id=id)
         if len(comments)==2000 and False:
             url = self.get_story_url(id)
@@ -414,6 +427,8 @@ class Api:
         for c in comments:
             c["link"] = id
         comments = sorted(comments, key=lambda x:x["order"])
+        if fill_user_id:
+            self.fill_user_id(comments, what="comment")
         return comments
 
     @property
@@ -518,6 +533,7 @@ class Api:
         return link
 
     def get_comment_info(self, id, *fields, full=False):
+        # link strike
         fields = fields or ('date', 'votes', 'karma', 'order', 'author', 'content')
         _link = {"id": id}
         for fl in chunks(fields, 10):
@@ -543,3 +559,37 @@ class Api:
                     v = int(v)
             link[k] = v
         return link
+
+    def get_comment_strikes(self, id, left_comments=-1):
+        url = self.get_story_url(id)
+        if url and "/story/" in url:
+            url = url + "/standard/"
+            pag = 0
+            while left_comments!=0:
+                pag = pag + 1
+                soup = get_soup(url + str(pag))
+                if soup is None:
+                    break
+                com = soup.select("ol.comments-list div.comment[data-id]")
+                if len(com)==0:
+                    break
+                left_comments = left_comments - len(com)
+                for c in com:
+                    cls = c.attrs["class"]
+                    if isinstance(cls, str):
+                        cls = cls.split()
+                    if 'strike' in cls:
+                        razon = c.select_one("div.comment-text")
+                        if razon is not None:
+                            razon = razon.get_text().strip()
+                            razon = razon.split(":", 1)[-1].strip()
+                        c_id = int(c.attrs["data-id"].split("-")[-1])
+                        yield c_id, (razon or "--strike--")
+                    '''
+                    for k in ("comment", "author"):
+                        if k in cls:
+                            cls.remove(k)
+                    if cls:
+                        c = int(c.attrs["data-id"].split("-")[-1])
+                        print(c, cls)
+                    '''

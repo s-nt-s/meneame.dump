@@ -175,7 +175,8 @@ class Stats:
 
     def get_horas_mensual(self):
         data={}
-        min_year, max_year = self.db.one("select min(YEAR(sent_date)), max(YEAR(sent_date)) from GENERAL")
+        min_year = self.min_date.year
+        max_year = self.max_date.year
         for dt in self.db.select('''
             select
                 YEAR(sent_date) yr,
@@ -223,4 +224,51 @@ class Stats:
             order by mes
         '''.format(counts, where), cursor=DictCursor):
             data[float(dt["mes"])]={k:int(v or 0) for k,v in dt.items() if k!="mes"}
+        return data
+
+    def get_dominios(self, where=None):
+        if where is None:
+            where = ""
+        else:
+            where = "and " + where
+        min_year = self.min_date.year
+        max_year = self.max_date.year
+        data={}
+        for yr, total in self.db.select('''
+            select
+                YEAR(sent_date) yr,
+                count(*) total
+            from
+                GENERAL
+            where
+                YEAR(sent_date)>{1} and
+                YEAR(sent_date)<{2} and
+                dominio is not null and
+                dominio!='' {0}
+            group by
+                YEAR(sent_date)
+        '''.format(where, min_year, max_year)):
+            data[int(yr)]={
+                "total": int(total)
+            }
+        for dt in self.db.select('''
+            select
+            	YEAR(sent_date) yr,
+            	dominio,
+            	count(*) total
+            from
+                GENERAL
+            where
+                YEAR(sent_date)>{1} and
+                YEAR(sent_date)<{2} and
+                dominio is not null and
+                dominio!='' {0}
+            group by
+                YEAR(sent_date),
+                dominio
+            having
+                count(*)>100
+        '''.format(where, min_year, max_year), cursor=DictCursor):
+            yr=int(dt["yr"])
+            data[yr][dt["dominio"]]=int(dt["total"])
         return data
