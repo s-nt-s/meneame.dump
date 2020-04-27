@@ -27,17 +27,7 @@ select
   votes,
   negatives,
   comments,
-  REGEXP_REPLACE(
-  SUBSTRING_INDEX(
-    SUBSTRING_INDEX(
-      SUBSTRING_INDEX(
-        SUBSTRING_INDEX(
-          REGEXP_REPLACE(url, "://www[0-9]*\\.", "://")
-        , '/', 3)
-      , '://', -1)
-    , '/', 1)
-  , '?', 1)
-  , "^(es|en)\\.", "") fuente,
+  domain,
   from_unixtime(`date`) main_date,
   from_unixtime(sent_date) sent_date,
   from_unixtime(sent_date+604800) closed_date, -- fecha en que la noticia ya esta cerrada,
@@ -58,23 +48,3 @@ ALTER TABLE GENERAL
 ADD PRIMARY KEY (id),
 ADD INDEX ndx_glinks_status (status ASC),
 ADD INDEX ndx_glinks_sub (sub ASC);
-
-
-CREATE OR REPLACE TABLE GENERAL_COMMENTS AS
-select
-  link,
-  id,
-  from_unixtime(`date`) main_date,
-  votes,
-  karma,
-  order,
-  user_id,
-  (votes>8 and karma<0) negative -- segun https://github.com/Meneame/meneame.net/blob/master/www/libs/comment.php#L335
-from
-  COMMENTS
-where link in (select id from GENERAL)
-;
-
-ALTER TABLE GENERAL_COMMENTS
-ADD PRIMARY KEY (id),
-ADD INDEX ndx_gcomments_link (link ASC);

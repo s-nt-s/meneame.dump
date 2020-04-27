@@ -16,7 +16,7 @@ from bunch import Bunch
 from dateutil.relativedelta import relativedelta
 
 from .endpoint import EndPoint
-from .util import chunks, extract_source
+from .util import chunks, extract_domain
 from .threadme import ThreadMe
 
 fisg1 = re.compile(
@@ -533,7 +533,7 @@ class Api:
                     v = int(v)
             link[k] = v
         if "url" in fields:
-            link["fuente"] = extract_source(link.get("url"))
+            link["domain"] = extract_domain(link.get("url"))
         return link
 
     def get_comment_info(self, id, *fields, full=False):

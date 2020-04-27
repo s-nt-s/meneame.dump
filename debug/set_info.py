@@ -10,7 +10,7 @@ import string
 import re
 from unicodedata import category
 from MySQLdb.cursors import DictCursor
-from core.util import chunks, extract_source
+from core.util import chunks, extract_domain
 from .util import get_items
 
 def gW(ids, f="id"):
@@ -24,7 +24,7 @@ fuentes={}
 file = "file:meneame.db?mode=ro"
 lt = sqlite3.connect(file, detect_types=sqlite3.PARSE_DECLTYPES, uri=True)
 for id, url in lt.execute("select id, url from LINKS where url is not null and url!=''"):
-    dom = extract_source(url)
+    dom = extract_domain(url)
     if dom and "'" not in dom and '"' not in dom and "\\" not in dom:
         fuentes[dom] = fuentes.get(dom, []) + [id]
 lt.close()

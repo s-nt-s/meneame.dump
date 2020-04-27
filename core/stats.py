@@ -3,6 +3,7 @@ from .api import Api
 from functools import lru_cache
 from MySQLdb.cursors import DictCursor
 from dateutil.relativedelta import relativedelta
+from bunch import Bunch
 
 
 def read_file(file, *args, **kargv):
@@ -11,6 +12,16 @@ def read_file(file, *args, **kargv):
         if args or kargv:
             txt = txt.format(*args, **kargv)
         return txt
+
+def get_root(dom):
+    i=1
+    while True:
+        i = i + 1
+        root = ".".join(dom.split(".")[-i:])
+        if len(root)>5 and root!=dom:
+            return "*."+root
+        if root == dom:
+            return root
 
 class Stats:
     def __init__(self):
@@ -252,21 +263,53 @@ class Stats:
         for dt in self.db.select('''
             select
             	YEAR(sent_date) yr,
-            	dominio,
+            	fuente dominio,
             	count(*) total
             from
                 GENERAL
             where
                 YEAR(sent_date)>{1} and
                 YEAR(sent_date)<{2} and
-                dominio is not null and
-                dominio!='' {0}
+                fuente is not null and
+                fuente!='' {0}
             group by
                 YEAR(sent_date),
-                dominio
-            having
-                count(*)>50
+                fuente
         '''.format(where, min_year, max_year), cursor=DictCursor):
             yr=int(dt["yr"])
             data[yr][dt["dominio"]]=int(dt["total"])
         return data
+
+    def get_full_dominios(self, min_count=50):
+
+        dominios_todos = self.get_dominios()
+        dominios_portada = self.get_dominios("status='published'")
+
+        dominios=set()
+        for yr in dominios_portada.values():
+            for d, count in yr.items():
+                if count>=min_count:
+                    dominios.add(d)
+
+        for dom in (dominios_portada, dominios_todos):
+            for yr in dom.values():
+                for d in list(yr.keys()):
+                    if d not in dominios:
+                        del yr[d]
+
+        if "total" in dominios:
+            dominios.remove("total")
+        visto=set()
+        for d in list(dominios):
+            root = get_root(d)
+            if root in visto:
+                dominios.add(root)
+            else:
+                visto.add(root)
+        dominios = sorted(dominios, key=lambda x: x.replace("*.", ""))
+
+        return Bunch(
+            todos=dominios_todos,
+            portada=dominios_portada,
+            claves=dominios
+        )

@@ -28,6 +28,7 @@ create table LINKS (
   `date` INT,
   `content` VARCHAR(65535),
   `user_id` INT,
+  `domain` VARCHAR(253),
   `check` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (id)
 );

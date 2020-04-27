@@ -80,7 +80,15 @@ $(document).ready(function(){
     var tagify = new Tagify(this, {
         enforceWhitelist: true,
         whitelist: value, // Array of values. stackoverflow.com/a/43375571/104380
-        full_whitelist: full_whitelist
+        full_whitelist: full_whitelist,
+        dropdown : {
+          classname     : "color-blue",
+          enabled       : 0,              // show the dropdown immediately on focus
+          maxItems      : Infinity,
+          position      : "text",         // place the dropdown near the typed text
+          closeOnSelect : false,          // keep the dropdown open after selecting a suggestion
+          highlightFirst: true
+      }
     })
     $(this).data("mytagify", tagify)
 

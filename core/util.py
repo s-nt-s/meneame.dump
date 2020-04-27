@@ -89,7 +89,7 @@ def mkArg(title, **kargv):
         args.trazas = not args.silent
     return args
 
-def extract_source(url):
+def extract_domain(url):
     if not url or url in ("[borrado a petición del usuario]", "blank.html") or url.startswith("about:"):
         return None
     if re_www.search(url):
@@ -106,7 +106,8 @@ def extract_source(url):
         sz = len(spl)
         if sz<3 or len(spl[0])>2 or re_nb.search(spl[0]):
             break
-        if sz==3 and len(".".join(spl[-2:]))<6:
+        tail = ".".join(spl[-2:])
+        if sz==3 and (len(tail)<7 or spl[-2] == "google"):
             break
         dom = ".".join(spl[1:])
     return dom
