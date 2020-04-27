@@ -69,13 +69,24 @@ $(document).ready(function(){
   $("input.tag_filter").each(function(){
     // initialize Tagify on the above input node reference
     var value = this.value;
+    var full_whitelist = tags[$(this).data("source")];
+    var $this = $(this);
+    if ($this.is(".domains")) full_whitelist.push("AEDE");
     if (value.startsWith("[{")) {
       value = JSON.parse(value).map(function(x){return x.value})
     } else {
       value = value.trim().split(/\s*,\s*/);
+      if ($this.is(".domains")) {
+          value = value.map(function(v){
+          if (full_whitelist.indexOf(v)>-1) return v;
+          if (!v.startsWith("*.")) return null;
+          v = v.substr(2);
+          if (full_whitelist.indexOf(v)>-1) return v;
+          return null;
+        }).filter(function(x){return x!=null})
+        $this.val(value.join(", "));
+      }
     }
-    var full_whitelist = tags[$(this).data("source")];
-    if ($(this).data("source")=="dominios") full_whitelist.push("AEDE");
     value = value.filter(function (x) {return full_whitelist.indexOf(x)>-1})
     var tagify = new Tagify(this, {
         enforceWhitelist: true,
@@ -90,7 +101,7 @@ $(document).ready(function(){
           highlightFirst: true
       }
     })
-    $(this).data("mytagify", tagify)
+    $this.data("mytagify", tagify)
 
     // Chainable event listeners
     tagify.on('add', onAddTag)

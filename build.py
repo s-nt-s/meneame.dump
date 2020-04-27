@@ -27,6 +27,7 @@ jHtml.create_script("data/modelos.js", replace=True,
         "horas_dia": st.get_horas_mensual(),
         "dominios_todos": dominios.todos,
         "dominios_portada": dominios.portada,
+        "tags": st.get_tags()
     },
     tags={
         "dominios": dominios.claves

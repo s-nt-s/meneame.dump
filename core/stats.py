@@ -18,10 +18,10 @@ def get_root(dom):
     while True:
         i = i + 1
         root = ".".join(dom.split(".")[-i:])
-        if len(root)>5 and root!=dom:
+        if len(root)>5 and root!=dom and not root.startswith("com."):
             return "*."+root
         if root == dom:
-            return root
+            return "*."+root
 
 class Stats:
     def __init__(self):
@@ -263,21 +263,20 @@ class Stats:
         for dt in self.db.select('''
             select
             	YEAR(sent_date) yr,
-            	fuente dominio,
+            	domain,
             	count(*) total
             from
                 GENERAL
             where
                 YEAR(sent_date)>{1} and
                 YEAR(sent_date)<{2} and
-                fuente is not null and
-                fuente!='' {0}
+                domain is not null {0}
             group by
                 YEAR(sent_date),
-                fuente
+                domain
         '''.format(where, min_year, max_year), cursor=DictCursor):
             yr=int(dt["yr"])
-            data[yr][dt["dominio"]]=int(dt["total"])
+            data[yr][dt["domain"]]=int(dt["total"])
         return data
 
     def get_full_dominios(self, min_count=50):
@@ -313,3 +312,40 @@ class Stats:
             portada=dominios_portada,
             claves=dominios
         )
+
+    def get_tags(self):
+        min_year = self.min_date.year
+        max_year = self.max_date.year
+        data={}
+        for mes, total in self.db.select('''
+            select
+                mes,
+                count(*) total
+            from
+                GENERAL
+            where
+                status='published'
+            group by
+                mes
+        '''):
+            data[float(mes)]={
+                "total": int(total)
+            }
+        for dt in self.db.select('''
+            select
+                mes,
+                tag,
+                count(distinct id) total
+            from
+                GENERAL JOIN TAGS on id=link
+            where
+                status='published' and tag in (
+                    select tag from TAGS group by tag having count(*)>1000
+                )
+            group by
+                mes,
+                tag
+        ''', cursor=DictCursor):
+            mes=float(dt["mes"])
+            data[mes][dt["tag"]]=int(dt["total"])
+        return data
