@@ -27,6 +27,7 @@ select
   votes,
   negatives,
   comments,
+  tags,
   domain,
   from_unixtime(`date`) main_date,
   from_unixtime(sent_date) sent_date,

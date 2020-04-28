@@ -541,7 +541,52 @@ render_builder={
         })
       });
     }
-    console.log(JSON.stringify(ks, null, 2));
+    var colors = ["black", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
+    if (options.porcentaje) colors = colors.slice(1)
+    for (const [k, doms] of Object.entries(ks).sort(function(a,b){
+      var i1=options.tags.indexOf(a[0]);
+      var i2=options.tags.indexOf(b[0]);
+      return i1-i2;
+    })) {
+      color = colors[dataset.length] || "grey";
+      var values=gF(obj, doms[0]);
+      for (i=1;i<doms.length;i++) values = zip_arr(values, gF(obj, doms[i]), function(a,b){return a+b})
+      if (options.porcentaje) values = values.map(function(x){return Math.round(x*100)/100})
+      dataset.push({
+        label: k,
+        data: values,
+        fill: false,
+        //backgroundColor: d_color.blue.backgroundColor,
+        borderColor: color,
+        borderWidth: 1,
+        hidden: k == "total"
+      })
+    }
+    setGraphChart({
+        id: this.find("canvas")[0],
+        title: null,
+        labels: obj["keys"],
+        type: 'LineWithLine',
+        //max_y: t=="prc_"?100:null,
+        destroy:true,
+        porcentaje:options.porcentaje
+    }, dataset);
+  },
+  "tags_portada": function(obj, options) {
+    var dataset = [];
+    var i, t, k, kl, color;
+    var ks={};
+    if (!options.porcentaje) ks["total"]=["total"];
+    obj["values"].forEach(function(v) {
+      Object.keys(v).forEach(function(k) {
+        if (ks[k]!=null) return;
+        options.tags.forEach(function(t) {
+          if (k==t) {
+            ks[t]=[t];
+          }
+        });
+      });
+    })
     var colors = ["black", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
     if (options.porcentaje) colors = colors.slice(1)
     for (const [k, doms] of Object.entries(ks).sort(function(a,b){

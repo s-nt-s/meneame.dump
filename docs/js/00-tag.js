@@ -34,6 +34,7 @@ function onInput(e){
             // replace tagify "whitelist" array values with new values
             // and add back the ones already choses as Tags
             var result = e.detail.tagify.settings.full_whitelist
+            console.log("dadsadsad")
             e.detail.tagify.settings.whitelist.push(...result, ...e.detail.tagify.value)
 
             // render the suggestions dropdown.
@@ -68,29 +69,34 @@ function onDropdownSelect(e){
 $(document).ready(function(){
   $("input.tag_filter").each(function(){
     // initialize Tagify on the above input node reference
-    var value = this.value;
-    var full_whitelist = tags[$(this).data("source")];
+    var values = this.value;
     var $this = $(this);
-    if ($this.is(".domains")) full_whitelist.push("AEDE");
-    if (value.startsWith("[{")) {
-      value = JSON.parse(value).map(function(x){return x.value})
+    var full_whitelist = tags[$this.data("source")];
+    if (full_whitelist==null) return;
+    if ($this.data("addtowhitelist")) {
+      var whitelist=$this.data("addtowhitelist").trim().split(/\s*,\s*/);
+      if (whitelist.length) Array.prototype.push.apply(full_whitelist, whitelist);
+    }
+    if (values.startsWith("[{")) {
+      values = JSON.parse(values).map(function(x){return x.value})
     } else {
-      value = value.trim().split(/\s*,\s*/);
+      values = values.trim().split(/\s*,\s*/).filter(function(x){return x.length>0});
       if ($this.is(".domains")) {
-          value = value.map(function(v){
-          if (full_whitelist.indexOf(v)>-1) return v;
-          if (!v.startsWith("*.")) return null;
-          v = v.substr(2);
-          if (full_whitelist.indexOf(v)>-1) return v;
-          return null;
-        }).filter(function(x){return x!=null})
-        $this.val(value.join(", "));
+          values = values.map(function(v){
+            if (full_whitelist.indexOf(v)>-1) return v;
+            if (!v.startsWith("*.")) return null;
+            v = v.substr(2);
+            if (full_whitelist.indexOf(v)>-1) return v;
+            return null;
+          }).filter(function(x){return x!=null})
+          this.value = values.join(", ");
       }
     }
-    value = value.filter(function (x) {return full_whitelist.indexOf(x)>-1})
+    values = values.filter(function (x) {return full_whitelist.indexOf(x)>-1})
+    console.log(values);
     var tagify = new Tagify(this, {
         enforceWhitelist: true,
-        whitelist: value, // Array of values. stackoverflow.com/a/43375571/104380
+        whitelist: values, // Array of values. stackoverflow.com/a/43375571/104380
         full_whitelist: full_whitelist,
         dropdown : {
           classname     : "color-blue",
@@ -101,6 +107,7 @@ $(document).ready(function(){
           highlightFirst: true
       }
     })
+    console.log(tagify.value);
     $this.data("mytagify", tagify)
 
     // Chainable event listeners

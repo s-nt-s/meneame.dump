@@ -285,30 +285,25 @@ class DB:
             cursor = max_range
             print(cursor)
 
-    def loop_tags(self, min_id, max_date):
+    def loop_tags(self):
         for id, tags in self.select('''
             select
                 id,
                 tags
-            from LINKS
-            where id>{0} and sent_date < {1} and tags is not null and TRIM(tags)!=''
-            order by id
-        '''.format(min_id, max_date)):
+            from
+                GENERAL
+            where
+                status='published' and
+                tags is not null
+                id not in (select link from TAGS)
+        '''):
             print(id, end="\r")
             for tag in extract_tags(tags):
                 yield (tag, id)
 
-    def insert_tags(self, time_enabled_comments=604800):
-        max_date = self.one("select max(sent_date) from LINKS")
-        max_date = max_date - time_enabled_comments
-        #self.execute("delete from TAGS;")
-        #self.commit()
-        min_id = self.one("select max(link) from TAGS") or 0
-        if min_id>0:
-            self.execute("delete from TAGS where link = "+str(min_id))
-            min_id = min_id - 1
+    def insert_tags(self):
         insert = "insert into TAGS (tag, link) values (%s, %s)"
-        for tags_links in chunks(self.loop_tags(min_id, max_date), 2000):
+        for tags_links in chunks(self.loop_tags(), 2000):
             c = self.con.cursor()
             c.executemany(insert, tags_links)
             c.close()

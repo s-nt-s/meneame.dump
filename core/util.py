@@ -48,10 +48,11 @@ def parse_tag(tag, main=True):
     if len(tag)==0 or (main and len(tag)<2):
         return None
     tags = tag.split()
-    if len(tags)>1:
+    if main and len(tags)>1:
         tags=[parse_tag(t, main=False) or t for t in tags]
         tag = " ".join(t for t in tags if t is not None)
-        return tag if len(tag) else None
+        if len(tag)==0:
+            return None
     original = str(tag)
     for a, b in (
         ("á", "a"),
@@ -61,12 +62,202 @@ def parse_tag(tag, main=True):
         ("ú", "u")
     ):
         tag = tag.replace(a, b)
+    if main and tag in ("de", "la"):
+        return None
     if tag == "meneame":
         return "Menéame"
-    if tag == "españa":
-        return "España"
-    if tag == "Europa":
-        return "Europa"
+    if tag == "monarquia":
+        return "monarquía"
+    if tag in ("mujer", "mujeres"):
+        return "mujeres"
+    if tag in ("hombre", "hombres"):
+        return "hombres"
+    if tag in ("15-m", "15m"):
+        return "15M"
+    if tag in ("11-m", "11m"):
+        return "11M"
+    if tag in ("ee.uu", "ee.uu.", "eeuu", "eeuu.", "u.s.a.", "estados unidos"):
+        return "EE.UU."
+    if tag in ("eta", "e.t.a.", "eta."):
+        return "ETA"
+    if tag == "evolucion":
+        return "evolución"
+    if tag == "fiscalia":
+        return "fiscalía"
+    if tag in ("f1", "formula 1"):
+        return "Fórmula 1"
+    if tag in ("futbol", "football"):
+        return "fútbol"
+    if tag == "fotografia":
+        return "fotografía"
+    if tag == ("gato", "gatos"):
+        return "gatos"
+    if tag in ("empresa", "empresas"):
+        return "empresas"
+    if tag == "gallardon":
+        return "Gallardón"
+    if tag == "garzon":
+        return "Garzón"
+    if tag in ("gurtel", "gürtel"):
+        return "Gürtel"
+    if tag == "imagenes":
+        return "imágenes"
+    if tag == "informacion":
+        return "información"
+    if tag == "informatica":
+        return "informática"
+    if tag == "inmigracion":
+        return "inmigración"
+    if tag == "inversion":
+        return "inversión"
+    if tag == "investigacion":
+        return "investigación"
+    if tag == "iran":
+        return "Irán"
+    if tag in ("iu", "iu.", "i.u."):
+        return "IU"
+    if tag == "japon":
+        return "Japón"
+    if tag in ("juego", "juegos"):
+        return "juegos"
+    if tag == "manifestacion":
+        return "manifestación"
+    if tag == "manipulacion":
+        return "manipulación"
+    if tag == "matematicas":
+        return "matemáticas"
+    if tag in ("medio ambiente", "medioambiente"):
+        return "medio ambiente"
+    if tag == "musica":
+        return "música"
+    if tag in ("niño", "niños"):
+        return "niños"
+    if tag in ("niña", "niñas"):
+        return "niñas"
+    if tag == "malaga":
+        return "Málaga"
+    if tag in ("noticia", "noticias"):
+        return "noticias"
+    if tag in ("nueva york", "new york"):
+        return "Nueva York"
+    if tag == "opinion":
+        return "opinión"
+    if tag in ("otan", "otan.", "o.t.a.n."):
+        return "OTAN"
+    if tag == "pablo iglesias":
+        return "Pablo Iglesias"
+    if tag in ("pais vasco", "euskadi"):
+        return "Euskadi"
+    if tag in ("pp", "pp.", "p.p.", "partido popular"):
+        return "PP"
+    if tag in ("psoe", "psoe.", "p.s.o.e.", "partido socialista obrero español"):
+        return "PSOE"
+    if tag in ("peliculas", "pelicula"):
+        return "películas"
+    if tag in ("perro", "perros"):
+        return "perros"
+    if tag in ("peluca", "pelucas"):
+        return "pelucas"
+    if tag in ("peru", "el peru"):
+        return "Perú"
+    if tag == "petroleo":
+        return "petróleo"
+    if tag == "pirateria":
+        return "piratería"
+    if tag in ("policia", "policias"):
+        return "policía"
+    if tag == "politica":
+        return "política"
+    if tag == "politicos":
+        return "políticos"
+    if tag == "paris":
+        return "París"
+    if tag == "prision":
+        return "prisión"
+    if tag == "privatizacion":
+        return "privatización"
+    if tag == "programacion":
+        return "programación"
+    if tag == "psicologia":
+        return "psicología"
+    if tag == "referendum":
+        return "referéndum"
+    if tag == "religion":
+        return "religión"
+    if tag == "represion":
+        return "represión"
+    if tag == "republica":
+        return "república"
+    if tag == "revolucion":
+        return "revolución"
+    if tag == "tecnologia":
+        return "tecnología"
+    if tag == "telefonica":
+        return "telefónica"
+    if tag == "television":
+        return "televisión"
+    if tag == "turquia":
+        return "Turquía"
+    if tag in ("ue", "u.e.", "ue.", "union europea"):
+        return "UE"
+    if tag == "violacion":
+        return "violación"
+    if tag == "africa":
+        return "África"
+    if tag in ("españa", "europa", "portugal", "alemania", "aznar", "barcelona", "bilbao", "bolivia", "brasil", "bruselas", "canarias", "china", "chile", "colombia", "cospedal", "camps", "cuba", "egipto", "francia", "franco", "galicia", "india", "inglaterra", "irak", "israel", "italia", "libia", "londres", "madrid", "murcia", "obama", "palestina", "rajoy", "reino unido", "trump"):
+        return tag.title()
+    if tag == "andalucia":
+        return "Andalucía"
+    if tag == "energia":
+        return "energía"
+    if tag == "arqueologia":
+        return "arqueología"
+    if tag == "articulo":
+        return "artículo"
+    if tag == "astronomia":
+        return "astronomía"
+    if tag == "biologia":
+        return "biología"
+    if tag == "avion":
+        return "avión"
+    if tag in ("banca", "banco", "bancos"):
+        return "bancos"
+    if tag in ("blog", "blogs"):
+        return "blog"
+    if tag in ("barcenas", "luis barcenas"):
+        return "Bárcenas"
+    if "climatico" in tag:
+        return tag.replace("climatico", "climático")
+    if tag in ("catalunya", "cataluña"):
+        return "Cataluña"
+    if tag == "chavez":
+        return "Chávez"
+    if tag in ("coche", "coches"):
+        return "coches"
+    if tag == "comunicacion":
+        return "comunicación"
+    if tag == "construccion":
+        return "construcción"
+    if tag == "contaminacion":
+        return "contaminación"
+    if tag == "corrupcion":
+        return "corrupción"
+    if tag == "critica":
+        return "crítica"
+    if tag == "democracia":
+        return "democracía"
+    if tag in ("deporte", "deportes"):
+        return "deportes"
+    if tag == "dimision":
+        return "dimisión"
+    if tag in ("droga", "drogas"):
+        return "drogas"
+    if tag == "ecologia":
+        return "ecología"
+    if tag == "economia":
+        return "economía"
+    if tag == "educacion":
+        return "educación"
     return original
 
 def extract_tags(tags):

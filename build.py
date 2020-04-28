@@ -11,11 +11,13 @@ jHtml = Jnj2("template/", "docs/")
 
 
 dominios = st.get_full_dominios()
+tags = st.get_tags()
 
 jHtml.save("index.html",
     st=st,
     years_completos=sorted(st.db.to_list("select distinct floor(mes) from GENERAL")[1:-1]),
-    dominios=dominios.claves
+    dominios=dominios.claves,
+    tags=tags.claves
 )
 jHtml.create_script("data/modelos.js", replace=True,
     modelos={
@@ -27,10 +29,11 @@ jHtml.create_script("data/modelos.js", replace=True,
         "horas_dia": st.get_horas_mensual(),
         "dominios_todos": dominios.todos,
         "dominios_portada": dominios.portada,
-        "tags": st.get_tags()
+        "tags_portada": tags.portada
     },
     tags={
-        "dominios": dominios.claves
+        "dominios": dominios.claves,
+        "tags": tags.claves
     }
 )
 

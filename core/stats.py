@@ -314,38 +314,47 @@ class Stats:
         )
 
     def get_tags(self):
-        min_year = self.min_date.year
-        max_year = self.max_date.year
+        #min_dt, max_dt = self.db.one("select min(trimestre), max(trimestre) from GENERAL")
+        min_dt = self.min_date.year
+        max_dt = self.max_date.year
         data={}
-        for mes, total in self.db.select('''
+        for key, total in self.db.select('''
             select
-                mes,
+                YEAR(sent_date) key,
                 count(*) total
             from
                 GENERAL
             where
+                YEAR(sent_date)>{0} and YEAR(sent_date)<{1} and
                 status='published'
             group by
-                mes
-        '''):
-            data[float(mes)]={
+                YEAR(sent_date)
+        '''.format(min_dt, max_dt)):
+            data[int(key)]={
                 "total": int(total)
             }
+        tags=set()
         for dt in self.db.select('''
             select
-                mes,
+                YEAR(sent_date) key,
                 tag,
                 count(distinct id) total
             from
                 GENERAL JOIN TAGS on id=link
             where
-                status='published' and tag in (
-                    select tag from TAGS group by tag having count(*)>1000
+                YEAR(sent_date)>{0} and YEAR(sent_date)<{1} and
+                status='published' and
+                tag != 'total' and
+                tag in (
+                    select tag from TAGS group by tag having count(*)>=3000
                 )
             group by
-                mes,
+                YEAR(sent_date),
                 tag
-        ''', cursor=DictCursor):
-            mes=float(dt["mes"])
-            data[mes][dt["tag"]]=int(dt["total"])
-        return data
+        '''.format(min_dt, max_dt), cursor=DictCursor):
+            tags.add(dt["tag"])
+            data[int(dt["key"])][dt["tag"]]=int(dt["total"])
+        return Bunch(
+            claves=sorted(tags),
+            portada=data
+        )
