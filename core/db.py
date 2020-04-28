@@ -294,7 +294,7 @@ class DB:
                 GENERAL
             where
                 status='published' and
-                tags is not null
+                tags is not null and
                 id not in (select link from TAGS)
         '''):
             print(id, end="\r")
