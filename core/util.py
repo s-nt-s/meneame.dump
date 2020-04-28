@@ -45,7 +45,7 @@ def parse_tag(tag, main=True):
     tag = re_sp.sub(" ", tag).strip()
     while main and len(tag)>2 and (tag[0]+tag[-1]) in ("''", '""', "``", "´´", "`´", "´`", "[]", "()"):
         tag = tag[1:-1]
-    if len(tag)==0 or (main and len(tag)<2):
+    if len(tag)==0:
         return None
     tags = tag.split()
     if main and len(tags)>1:
@@ -62,8 +62,6 @@ def parse_tag(tag, main=True):
         ("ú", "u")
     ):
         tag = tag.replace(a, b)
-    if main and tag in ("de", "la"):
-        return None
     if tag == "meneame":
         return "Menéame"
     if tag == "monarquia":
@@ -204,7 +202,15 @@ def parse_tag(tag, main=True):
         return "violación"
     if tag == "africa":
         return "África"
-    if tag in ("españa", "europa", "portugal", "alemania", "aznar", "barcelona", "bilbao", "bolivia", "brasil", "bruselas", "canarias", "china", "chile", "colombia", "cospedal", "camps", "cuba", "egipto", "francia", "franco", "galicia", "india", "inglaterra", "irak", "israel", "italia", "libia", "londres", "madrid", "murcia", "obama", "palestina", "rajoy", "reino unido", "trump"):
+    if tag == "ahora madrid":
+        return "Ahora Madrid"
+    if tag in ("alimentacion", "alimentos"):
+        return "alimentos"
+    if tag == "almeria":
+        return "Almería"
+    if tag in ("anuncio", "anuncios"):
+        return "anuncios"
+    if tag in ("españa", "europa", "portugal", "alemania", "aznar", "barcelona", "bilbao", "bolivia", "brasil", "bruselas", "canarias", "china", "chile", "colombia", "cospedal", "camps", "cuba", "egipto", "francia", "franco", "galicia", "india", "inglaterra", "irak", "israel", "italia", "libia", "londres", "madrid", "murcia", "obama", "palestina", "rajoy", "reino unido", "trump", "aguirre", "ana botella"):
         return tag.title()
     if tag == "andalucia":
         return "Andalucía"
@@ -224,6 +230,20 @@ def parse_tag(tag, main=True):
         return "bancos"
     if tag in ("blog", "blogs"):
         return "blog"
+    if tag == "podemos":
+        return "Podemos"
+    if tag == "animacion":
+        return "animación"
+    if tag == "arabia saudi":
+        return "Arabia Saudí"
+    if tag in ("avion", "aviones"):
+        return "aviones"
+    if tag == "administracion":
+        return "administración"
+    if tag == "afganistan":
+        return "Afganistán"
+    if tag == "agresion":
+        return "agresión"
     if tag in ("barcenas", "luis barcenas"):
         return "Bárcenas"
     if "climatico" in tag:
@@ -258,7 +278,7 @@ def parse_tag(tag, main=True):
         return "economía"
     if tag == "educacion":
         return "educación"
-    return original
+    return tag
 
 def extract_tags(tags):
     tags = tags.lower().strip().split(",")

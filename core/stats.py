@@ -320,7 +320,7 @@ class Stats:
         data={}
         for key, total in self.db.select('''
             select
-                YEAR(sent_date) key,
+                YEAR(sent_date) d,
                 count(*) total
             from
                 GENERAL
@@ -336,24 +336,23 @@ class Stats:
         tags=set()
         for dt in self.db.select('''
             select
-                YEAR(sent_date) key,
+                YEAR(sent_date) d,
                 tag,
                 count(distinct id) total
             from
                 GENERAL JOIN TAGS on id=link
             where
                 YEAR(sent_date)>{0} and YEAR(sent_date)<{1} and
-                status='published' and
                 tag != 'total' and
                 tag in (
-                    select tag from TAGS group by tag having count(*)>=3000
+                    select tag from TAGS group by tag having count(*)>=100
                 )
             group by
                 YEAR(sent_date),
                 tag
         '''.format(min_dt, max_dt), cursor=DictCursor):
             tags.add(dt["tag"])
-            data[int(dt["key"])][dt["tag"]]=int(dt["total"])
+            data[int(dt["d"])][dt["tag"]]=int(dt["total"])
         return Bunch(
             claves=sorted(tags),
             portada=data
