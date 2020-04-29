@@ -1,3 +1,6 @@
+var DFL_COLOR = [
+  "black", "blue", "green", "SaddleBrown", "Purple", "Lime", "lightcoral", "orange", "Aqua", "Fuchsia", "yellow"
+];
 Chart.defaults.LineWithLine = Chart.defaults.line;
 Chart.controllers.LineWithLine = Chart.controllers.line.extend({
    draw: function(ease) {
@@ -39,16 +42,18 @@ function setGraphChart(obj, dataset) {
     if (obj.type==null) obj.type = "bar";
     var elem = (typeof obj.id == "string")?document.getElementById(obj.id):obj.id;
     if (obj.destroy) {
-      var ch = $(elem).data("chart");
+      var $elem = $(elem);
+      var ch = $elem.data("chart");
       if (ch) {
-        var hd = ch.legend.legendItems.map(function(x){
-          return x.hidden;
+        var hd = $elem.data("full_hidden") || {};
+        ch.legend.legendItems.forEach(function(x){
+          return hd[x.text]=x.hidden;
         })
-        if (hd.length>dataset.length) hd = hd.slice(1);
-        else if (hd.length<dataset.length) hd.unshift(false);
-        hd.forEach(function(h, i){
-          dataset[i].hidden=h;
+        dataset.forEach(function(d, i){
+          d.hidden=hd[d.label]==null?d.hidden:hd[d.label];
+          hd[d.label]=d.hidden;
         })
+        $elem.data("full_hidden", hd);
         ch.destroy();
       }
     }
@@ -428,9 +433,10 @@ render_builder={
     var i, k, kl, color;
     var ks = Object.keys(obj["values"][0]);
     var colors = ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
+    if (options.porcentaje) colors = colors.slice(1);
     for (i=0; i<ks.length; i++) {
       k = ks[i];
-      color = colors.slice(options.porcentaje?1:0)[i] || "grey";
+      color = colors[i] || "grey";
       dataset.push({
         label: k,
         data: gF(obj, k),
@@ -541,8 +547,7 @@ render_builder={
         })
       });
     }
-    var colors = ["black", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
-    if (options.porcentaje) colors = colors.slice(1)
+    var colors = (options.porcentaje)?DFL_COLOR.slice(1):DFL_COLOR;
     for (const [k, doms] of Object.entries(ks).sort(function(a,b){
       var i1=options.tags.indexOf(a[0]);
       var i2=options.tags.indexOf(b[0]);
@@ -587,8 +592,7 @@ render_builder={
         });
       });
     })
-    var colors = ["black", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
-    if (options.porcentaje) colors = colors.slice(1)
+    var colors = (options.porcentaje)?DFL_COLOR.slice(1):DFL_COLOR;
     for (const [k, doms] of Object.entries(ks).sort(function(a,b){
       var i1=options.tags.indexOf(a[0]);
       var i2=options.tags.indexOf(b[0]);

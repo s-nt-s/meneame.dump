@@ -345,7 +345,7 @@ class Stats:
                 YEAR(sent_date)>{0} and YEAR(sent_date)<{1} and
                 tag != 'total' and
                 tag in (
-                    select tag from TAGS group by tag having count(*)>=100
+                    select tag from TAGS group by tag having count(*)>=300
                 )
             group by
                 YEAR(sent_date),
@@ -357,3 +357,39 @@ class Stats:
             claves=sorted(tags),
             portada=data
         )
+
+    def get_tags_sibling(self):
+        tags=[]
+        for tag, total in self.db.select('''
+            select
+                tag, count(*)
+            from
+                TAGS
+            group by
+                tag
+            order by count(*) desc
+            limit 10
+        '''):
+            sbl, cnt = self.db.one('''
+                select tag, count(*)
+                from TAGS where
+                    tag!='{0}' and link in (
+                    select link from TAGS where tag='{0}'
+                    )
+                group by tag
+                order by count(*) desc
+                limit 1
+            '''.format(tag))
+            tags.append({
+                "tag": {
+                    "name": tag,
+                    "count": total
+                },
+                "sibling": {
+                    "name":sbl,
+                    "count": cnt
+                },
+                "prc": round((100*cnt)/total)
+            })
+
+        return tags

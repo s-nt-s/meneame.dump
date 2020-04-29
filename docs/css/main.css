@@ -57,3 +57,8 @@ div.fullscreen canvas {
 code {
 	font-size: 1.3em;
 }
+code.poptag {
+	display: inline-block;
+	width: 2em;
+	text-align: right;
+}
