@@ -79,7 +79,7 @@ class Jnj2():
             fh.write(bytes(html, 'UTF-8'))
         return html
 
-    def create_script(self, destino, indent=2, replace=False, **kargv):
+    def create_script(self, destino, indent=1, replace=False, **kargv):
         destino = self.destino + destino
         if not replace and os.path.isfile(destino):
             return

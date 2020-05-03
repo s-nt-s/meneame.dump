@@ -17,8 +17,7 @@ jHtml.save("index.html",
     st=st,
     years_completos=sorted(st.db.to_list("select distinct floor(mes) from GENERAL")[1:-1]),
     dominios=dominios.claves,
-    tags=tags.claves,
-    popular=st.get_tags_sibling()
+    tags=tags.claves
 )
 jHtml.create_script("data/modelos.js", replace=True,
     modelos={
@@ -38,4 +37,9 @@ jHtml.create_script("data/modelos.js", replace=True,
     }
 )
 
+jHtml.create_script("data/graph.js", replace=True,
+    graphs={
+        "tags": st.get_tags_graph()
+    }
+)
 st.db.close()

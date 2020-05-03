@@ -61,7 +61,12 @@ def parse_tag(tag, main=True):
         ("é", "e"),
         ("í", "i"),
         ("ó", "o"),
-        ("ú", "u")
+        ("ú", "u"),
+        ("à", "a"),
+        ("è", "e"),
+        ("ì", "i"),
+        ("ò", "o"),
+        ("ù", "u")
     ):
         tag = tag.replace(a, b)
     if re_diames.match(tag):

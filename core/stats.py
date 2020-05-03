@@ -1,5 +1,6 @@
 from .db import DB
 from .api import Api
+from .graph import Graph
 from functools import lru_cache
 from MySQLdb.cursors import DictCursor
 from dateutil.relativedelta import relativedelta
@@ -26,6 +27,7 @@ def get_root(dom):
 class Stats:
     def __init__(self):
         self.db = DB()
+        self.min_tag=300
         self.max_date, self.min_date = self.db.one('''
             select
                 max(sent_date),
@@ -345,12 +347,12 @@ class Stats:
                 YEAR(sent_date)>{0} and YEAR(sent_date)<{1} and
                 tag != 'total' and
                 tag in (
-                    select tag from TAGS group by tag having count(*)>=300
+                    select tag from TAGS group by tag having count(*)>={2}
                 )
             group by
                 YEAR(sent_date),
                 tag
-        '''.format(min_dt, max_dt), cursor=DictCursor):
+        '''.format(min_dt, max_dt, self.min_tag), cursor=DictCursor):
             tags.add(dt["tag"])
             data[int(dt["d"])][dt["tag"]]=int(dt["total"])
         return Bunch(
@@ -358,38 +360,38 @@ class Stats:
             portada=data
         )
 
-    def get_tags_sibling(self):
-        tags=[]
-        for tag, total in self.db.select('''
+    def get_tags_graph(self):
+        g = Graph()
+        for tag, size in self.db.select('''
             select
-                tag, count(*)
+                tag,
+                count(*) total
             from
                 TAGS
             group by
                 tag
-            order by count(*) desc
-            limit 10
-        '''):
-            sbl, cnt = self.db.one('''
-                select tag, count(*)
-                from TAGS where
-                    tag!='{0}' and link in (
-                    select link from TAGS where tag='{0}'
-                    )
-                group by tag
-                order by count(*) desc
-                limit 1
-            '''.format(tag))
-            tags.append({
-                "tag": {
-                    "name": tag,
-                    "count": total
-                },
-                "sibling": {
-                    "name":sbl,
-                    "count": cnt
-                },
-                "prc": round((100*cnt)/total)
-            })
+            having
+                count(*)>={0}
+            order by
+                count(*) desc
+            limit 50
+        '''.format(self.min_tag)):
+            g.add(tag, size)
 
-        return tags
+        for a, b, size in self.db.select('''
+            select
+                t1.tag a,
+                t2.tag b,
+                count(*) size
+            from
+                TAGS t1 join TAGS t2 on
+                    t1.link=t2.link and
+                    t1.tag>t2.tag
+            where
+                t1.tag in {0} and t2.tag in {0}
+            group by
+                t1.tag, t2.tag
+        '''.format(g.nodes)):
+            g.add_edge(a, b, weight=size)
+
+        return g.sigmajs

@@ -41,7 +41,7 @@ create table COMMENTS (
   `karma` INT,
   `order` INT,
   `user` VARCHAR(32),
-  `content` TEXT,
+--  `content` TEXT,
   `user_id` INT,
   PRIMARY KEY (id)
   -- ,FOREIGN KEY (link) REFERENCES LINKS(id)

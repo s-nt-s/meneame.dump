@@ -11,6 +11,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <script src="https://yaireo.github.io/tagify/dist/tagify.js"></script>
+    <script src="http://sigmajs.org/assets/js/sigma.min.js"></script>
+    <script src="http://sigmajs.org/assets/js/sigma.plugins.animate.min.js"></script>
     {% for js in javascript %}
       <script src="{{js}}" data-autoinsert="1"></script>
     {% endfor %}
@@ -60,7 +62,7 @@
       <option value="0">promedio de noticias enviadas a la hora</option>
       <option value="1">% de noticias enviadas con respecto al día completo</option>
     </select>
-    <canvas></canvas>
+    <canvas class="chart"></canvas>
     (*) La linea <code>published</code> señala a que hora fueron enviadas las noticias que, más tarde, terminaron
     siendo publicadas en portada, no a que hora llegaron a la portada.
   </div>
@@ -71,7 +73,7 @@
       <option value="0">números absolutos</option>
     </select>
     </p>
-    <canvas></canvas>
+    <canvas class="chart"></canvas>
     <p>
       <label>Unidad temporal:</label>
       <select name="agrupar">
@@ -94,7 +96,7 @@
       <option value="count_categorias_published">solo las noticias que llegaron a portada</option>
     </select>
     </p>
-    <canvas></canvas>
+    <canvas class="chart"></canvas>
     <p>
       <label>Unidad temporal:</label>
       <select name="agrupar">
@@ -124,7 +126,7 @@
     value="AEDE, *.20minutos.es, *.eldiario.es, *.publico.es, *.bbc.co.uk"
     data-source="dominios" data-addtowhitelist="AEDE"/>
     </p>
-    <canvas></canvas>
+    <canvas class="chart"></canvas>
     <p>(*) <code>AEDE</code> agrupa todos los medios pertenecientes a la
        <a href="https://es.wikipedia.org/wiki/Asociaci%C3%B3n_de_Editores_de_Diarios_Espa%C3%B1oles">Asociación de Editores de Diarios Españoles</a> y el
        <a href="https://es.wikipedia.org/wiki/Centro_Espa%C3%B1ol_de_Derechos_Reprogr%C3%A1ficos">Centro Español de Derechos Reprográficos</a>
@@ -151,36 +153,24 @@
     value="linux, humor, internet, corrupcion, crisis, 15M"
     data-source="tags" data-addtowhitelist=""/>
     </p>
-    <canvas></canvas>
+    <canvas class="chart"></canvas>
     <p>(*) Para simplificar, solo aparecen como seleccionables los tags
       que se han tenído al menos 300 portadas.
     </p>
     <p>(*) Para facilitar la unificación de etiquetas similares se han
-      eliminado las tildes y se han pasado a minusculas la mayoria de ellas.
+      <a href="https://github.com/s-nt-s/meneame.dump/blob/216884fa742dd4dabdeabe86ae4e35c592e4b096/core/util.py#L45">
+        realizado conversiones entre sinónimos, 
+      eliminado las tildes y se han pasado a minusculas la mayoria de ellas</a>.
     </p>
   </div>
-  <h3>¿Cuales son las etiquetas más usadas?</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>tag</th>
-        <th>acompañada por...</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for p in popular %}
-      <tr>
-        <td>{{loop.index}}</td>
-        <td title="{{p.tag.count | millar}} veces"><code>{{p.tag.name}}</code></td>
-        <td>
-          el <code class="poptag">{{p.prc}}%</code> acompañada por
-          <code title="{{p.sibling.count | millar}} veces">{{p.sibling.name}}</code>
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+  <h2>¿Como se relacionan los temas en Menéame?</h2>
+  <p>
+    Pincha en un nodo para ver que etiquetas aparecen en las
+    mismas noticias y en que procentaje
+  </p>
+  <div class="graph" id="sigma-container" data-graph="tags">
+
+  </div>
   <h2>¿Hay buen rollo en Menéame?</h2>
   <div class="data">
     <p>Mostrar datos de <select name="modelo">
@@ -188,7 +178,7 @@
       <option value="karma_general">todos los envios</option>
     </select>
     </p>
-    <canvas></canvas>
+    <canvas class="chart"></canvas>
     <p>
       <label>Unidad temporal:</label>
       <select name="agrupar">
@@ -206,4 +196,5 @@
       no tener en cuenta el voto del propio autor.
     </p>
   </div>
+</body>
 </html>

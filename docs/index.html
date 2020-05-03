@@ -9,10 +9,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 <script src="https://yaireo.github.io/tagify/dist/tagify.js"></script>
+<script src="http://sigmajs.org/assets/js/sigma.min.js"></script>
+<script src="http://sigmajs.org/assets/js/sigma.plugins.animate.min.js"></script>
 <script data-autoinsert="1" src="00-js/util.js"></script>
 <script data-autoinsert="1" src="data/aede.js"></script>
+<script data-autoinsert="1" src="data/graph.js"></script>
 <script data-autoinsert="1" src="data/modelos.js"></script>
 <script data-autoinsert="1" src="data/zz-parse.js"></script>
+<script data-autoinsert="1" src="js/00-graph.js"></script>
 <script data-autoinsert="1" src="js/00-tag.js"></script>
 <script data-autoinsert="1" src="js/chart.js"></script>
 </head>
@@ -95,7 +99,7 @@
 <option value="0">promedio de noticias enviadas a la hora</option>
 <option value="1">% de noticias enviadas con respecto al día completo</option>
 </select>
-<canvas></canvas>
+<canvas class="chart"></canvas>
     (*) La linea <code>published</code> señala a que hora fueron enviadas las noticias que, más tarde, terminaron
     siendo publicadas en portada, no a que hora llegaron a la portada.
   </p></div>
@@ -106,7 +110,7 @@
 <option value="0">números absolutos</option>
 </select>
 </p>
-<canvas></canvas>
+<canvas class="chart"></canvas>
 <p>
 <label>Unidad temporal:</label>
 <select name="agrupar">
@@ -129,7 +133,7 @@
 <option value="count_categorias_published">solo las noticias que llegaron a portada</option>
 </select>
 </p>
-<canvas></canvas>
+<canvas class="chart"></canvas>
 <p>
 <label>Unidad temporal:</label>
 <select name="agrupar">
@@ -157,7 +161,7 @@
 <p>
 <input class="tag_filter domains" data-addtowhitelist="AEDE" data-source="dominios" type="text" value="AEDE, *.20minutos.es, *.eldiario.es, *.publico.es, *.bbc.co.uk"/>
 </p>
-<canvas></canvas>
+<canvas class="chart"></canvas>
 <p>(*) <code>AEDE</code> agrupa todos los medios pertenecientes a la
        <a href="https://es.wikipedia.org/wiki/Asociaci%C3%B3n_de_Editores_de_Diarios_Espa%C3%B1oles">Asociación de Editores de Diarios Españoles</a> y el
        <a href="https://es.wikipedia.org/wiki/Centro_Espa%C3%B1ol_de_Derechos_Reprogr%C3%A1ficos">Centro Español de Derechos Reprográficos</a>
@@ -182,106 +186,23 @@
 <p>
 <input class="tag_filter" data-addtowhitelist="" data-source="tags" type="text" value="linux, humor, internet, corrupcion, crisis, 15M"/>
 </p>
-<canvas></canvas>
+<canvas class="chart"></canvas>
 <p>(*) Para simplificar, solo aparecen como seleccionables los tags
       que se han tenído al menos 300 portadas.
     </p>
 <p>(*) Para facilitar la unificación de etiquetas similares se han
-      eliminado las tildes y se han pasado a minusculas la mayoria de ellas.
+      <a href="https://github.com/s-nt-s/meneame.dump/blob/216884fa742dd4dabdeabe86ae4e35c592e4b096/core/util.py#L45">
+        realizado conversiones, 
+      eliminado las tildes y se han pasado a minusculas la mayoria de ellas</a>.
     </p>
 </div>
-<h3>¿Cuales son las etiquetas más usadas?</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>tag</th>
-<th>acompañada por...</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td title="7.732 veces"><code>PP</code></td>
-<td>
-          el <code class="poptag" >15%</code> acompañada por
-          <code title="1.179 veces">corrupcion</code>
-</td>
-</tr>
-<tr>
-<td>2</td>
-<td title="6.141 veces"><code>España</code></td>
-<td>
-          el <code class="poptag" >6%</code> acompañada por
-          <code title="349 veces">crisis</code>
-</td>
-</tr>
-<tr>
-<td>3</td>
-<td title="4.072 veces"><code>EE.UU.</code></td>
-<td>
-          el <code class="poptag" >5%</code> acompañada por
-          <code title="185 veces">guerra</code>
-</td>
-</tr>
-<tr>
-<td>4</td>
-<td title="3.797 veces"><code>crisis</code></td>
-<td>
-          el <code class="poptag" >14%</code> acompañada por
-          <code title="546 veces">economia</code>
-</td>
-</tr>
-<tr>
-<td>5</td>
-<td title="3.581 veces"><code>Madrid</code></td>
-<td>
-          el <code class="poptag" >11%</code> acompañada por
-          <code title="395 veces">PP</code>
-</td>
-</tr>
-<tr>
-<td>6</td>
-<td title="3.445 veces"><code>humor</code></td>
-<td>
-          el <code class="poptag" >5%</code> acompañada por
-          <code title="167 veces">viñeta</code>
-</td>
-</tr>
-<tr>
-<td>7</td>
-<td title="3.207 veces"><code>corrupcion</code></td>
-<td>
-          el <code class="poptag" >37%</code> acompañada por
-          <code title="1.179 veces">PP</code>
-</td>
-</tr>
-<tr>
-<td>8</td>
-<td title="2.960 veces"><code>politica</code></td>
-<td>
-          el <code class="poptag" >14%</code> acompañada por
-          <code title="421 veces">PP</code>
-</td>
-</tr>
-<tr>
-<td>9</td>
-<td title="2.960 veces"><code>internet</code></td>
-<td>
-          el <code class="poptag" >5%</code> acompañada por
-          <code title="136 veces">google</code>
-</td>
-</tr>
-<tr>
-<td>10</td>
-<td title="2.617 veces"><code>policia</code></td>
-<td>
-          el <code class="poptag" >5%</code> acompañada por
-          <code title="123 veces">Madrid</code>
-</td>
-</tr>
-</tbody>
-</table>
+<h2>¿Como se relacionan los temas en Menéame?</h2>
+<p>
+    Pincha en un nodo para ver que etiquetas aparecen en las
+    mismas noticias y en que procentaje
+  </p>
+<div class="graph" data-graph="tags" id="sigma-container">
+</div>
 <h2>¿Hay buen rollo en Menéame?</h2>
 <div class="data">
 <p>Mostrar datos de <select name="modelo">
@@ -289,7 +210,7 @@
 <option value="karma_general">todos los envios</option>
 </select>
 </p>
-<canvas></canvas>
+<canvas class="chart"></canvas>
 <p>
 <label>Unidad temporal:</label>
 <select name="agrupar">
