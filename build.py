@@ -27,6 +27,7 @@ jHtml.create_script("data/modelos.js", replace=True,
         "count_categorias_todas": st.get_mes_categorias(),
         "count_categorias_published": st.get_mes_categorias("status='published'"),
         "horas_dia": st.get_horas_mensual(),
+        "actividad": st.get_actividad(),
         "dominios_todos": dominios.todos,
         "dominios_portada": dominios.portada,
         "tags_portada": tags.portada
@@ -37,7 +38,7 @@ jHtml.create_script("data/modelos.js", replace=True,
     }
 )
 
-jHtml.create_script("data/graph.js", replace=True,
+False and jHtml.create_script("data/graph.js", replace=True,
     graphs={
         "tags": st.get_tags_graph()
     }

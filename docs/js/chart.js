@@ -621,7 +621,38 @@ render_builder={
         destroy:true,
         porcentaje:options.porcentaje
     }, dataset);
-  }
+  },
+  "actividad": function(obj, options) {
+      var dataset = [];
+      var i, k, kl, color;
+      var ks = Object.keys(obj["values"][0]);
+      var colors = ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
+      if (options.porcentaje) colors = colors.slice(1);
+      for (i=0; i<ks.length; i++) {
+        k = ks[i];
+        color = colors[i] || "grey";
+        dataset.push({
+          label: k,
+          data: gF(obj, k),
+          fill: false,
+          //backgroundColor: d_color.blue.backgroundColor,
+          borderColor: color,
+          borderWidth: 1,
+          hidden: k=="mnm" || k=="otros",
+          fill: k=="otros",
+          backgroundColor:k=="otros"?color:null
+        })
+      }
+      setGraphChart({
+          id: this.find("canvas")[0],
+          title: null,
+          labels: obj["keys"],
+          type: 'LineWithLine',
+          //max_y: t=="prc_"?100:null,
+          destroy:true,
+          porcentaje:options.porcentaje
+      }, dataset);
+    }
 }
 render_builder["count_categorias_published"] = render_builder["count_categorias_todas"];
 render_builder["karma_portada"] = render_builder["karma_general"];

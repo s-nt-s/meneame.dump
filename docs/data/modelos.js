@@ -5657,6 +5657,868 @@ var modelos = {
    }
   }
  },
+ "actividad": {
+  "2005.12": {
+   "noticias": 1526,
+   "comentarios": 1712,
+   "usuarios activos": 361
+  },
+  "2006.01": {
+   "noticias": 2394,
+   "comentarios": 5411,
+   "usuarios activos": 650
+  },
+  "2006.02": {
+   "noticias": 2497,
+   "comentarios": 7525,
+   "usuarios activos": 932
+  },
+  "2006.03": {
+   "noticias": 3218,
+   "comentarios": 11282,
+   "usuarios activos": 1206
+  },
+  "2006.04": {
+   "noticias": 3508,
+   "comentarios": 14729,
+   "usuarios activos": 1107
+  },
+  "2006.05": {
+   "noticias": 3859,
+   "comentarios": 19766,
+   "usuarios activos": 1377
+  },
+  "2006.06": {
+   "noticias": 4070,
+   "comentarios": 23252,
+   "usuarios activos": 1672
+  },
+  "2006.07": {
+   "noticias": 4104,
+   "comentarios": 22394,
+   "usuarios activos": 2076
+  },
+  "2006.08": {
+   "noticias": 4869,
+   "comentarios": 27346,
+   "usuarios activos": 2454
+  },
+  "2006.09": {
+   "noticias": 5921,
+   "comentarios": 33691,
+   "usuarios activos": 3044
+  },
+  "2006.1": {
+   "noticias": 7791,
+   "comentarios": 40180,
+   "usuarios activos": 3414
+  },
+  "2006.11": {
+   "noticias": 9289,
+   "comentarios": 46858,
+   "usuarios activos": 3874
+  },
+  "2006.12": {
+   "noticias": 9684,
+   "comentarios": 46375,
+   "usuarios activos": 4146
+  },
+  "2007.01": {
+   "noticias": 13309,
+   "comentarios": 65869,
+   "usuarios activos": 4889
+  },
+  "2007.02": {
+   "noticias": 13138,
+   "comentarios": 64308,
+   "usuarios activos": 4036
+  },
+  "2007.03": {
+   "noticias": 14224,
+   "comentarios": 70708,
+   "usuarios activos": 4656
+  },
+  "2007.04": {
+   "noticias": 13271,
+   "comentarios": 68018,
+   "usuarios activos": 4786
+  },
+  "2007.05": {
+   "noticias": 17605,
+   "comentarios": 85839,
+   "usuarios activos": 5703
+  },
+  "2007.06": {
+   "noticias": 15751,
+   "comentarios": 88112,
+   "usuarios activos": 5646
+  },
+  "2007.07": {
+   "noticias": 14902,
+   "comentarios": 82912,
+   "usuarios activos": 5324
+  },
+  "2007.08": {
+   "noticias": 14035,
+   "comentarios": 83123,
+   "usuarios activos": 5175
+  },
+  "2007.09": {
+   "noticias": 16165,
+   "comentarios": 96948,
+   "usuarios activos": 5926
+  },
+  "2007.1": {
+   "noticias": 17218,
+   "comentarios": 107471,
+   "usuarios activos": 5814
+  },
+  "2007.11": {
+   "noticias": 17503,
+   "comentarios": 106911,
+   "usuarios activos": 6283
+  },
+  "2007.12": {
+   "noticias": 15221,
+   "comentarios": 101155,
+   "usuarios activos": 5794
+  },
+  "2008.01": {
+   "noticias": 17369,
+   "comentarios": 133320,
+   "usuarios activos": 6558
+  },
+  "2008.02": {
+   "noticias": 17910,
+   "comentarios": 137083,
+   "usuarios activos": 6707
+  },
+  "2008.03": {
+   "noticias": 18264,
+   "comentarios": 136872,
+   "usuarios activos": 7742
+  },
+  "2008.04": {
+   "noticias": 20893,
+   "comentarios": 145761,
+   "usuarios activos": 9588
+  },
+  "2008.05": {
+   "noticias": 21500,
+   "comentarios": 161401,
+   "usuarios activos": 9817
+  },
+  "2008.06": {
+   "noticias": 22057,
+   "comentarios": 190434,
+   "usuarios activos": 10099
+  },
+  "2008.07": {
+   "noticias": 21436,
+   "comentarios": 182329,
+   "usuarios activos": 9628
+  },
+  "2008.08": {
+   "noticias": 19138,
+   "comentarios": 178617,
+   "usuarios activos": 9279
+  },
+  "2008.09": {
+   "noticias": 22104,
+   "comentarios": 203996,
+   "usuarios activos": 10230
+  },
+  "2008.1": {
+   "noticias": 23642,
+   "comentarios": 188941,
+   "usuarios activos": 10307
+  },
+  "2008.11": {
+   "noticias": 20291,
+   "comentarios": 174230,
+   "usuarios activos": 9962
+  },
+  "2008.12": {
+   "noticias": 18462,
+   "comentarios": 161372,
+   "usuarios activos": 9564
+  },
+  "2009.01": {
+   "noticias": 21933,
+   "comentarios": 195867,
+   "usuarios activos": 10366
+  },
+  "2009.02": {
+   "noticias": 21911,
+   "comentarios": 195219,
+   "usuarios activos": 10746
+  },
+  "2009.03": {
+   "noticias": 22825,
+   "comentarios": 198192,
+   "usuarios activos": 10522
+  },
+  "2009.04": {
+   "noticias": 21384,
+   "comentarios": 184773,
+   "usuarios activos": 10361
+  },
+  "2009.05": {
+   "noticias": 20854,
+   "comentarios": 181187,
+   "usuarios activos": 10236
+  },
+  "2009.06": {
+   "noticias": 20554,
+   "comentarios": 184381,
+   "usuarios activos": 9917
+  },
+  "2009.07": {
+   "noticias": 19966,
+   "comentarios": 172934,
+   "usuarios activos": 9626
+  },
+  "2009.08": {
+   "noticias": 18260,
+   "comentarios": 169061,
+   "usuarios activos": 9366
+  },
+  "2009.09": {
+   "noticias": 20256,
+   "comentarios": 184013,
+   "usuarios activos": 10320
+  },
+  "2009.1": {
+   "noticias": 21161,
+   "comentarios": 178206,
+   "usuarios activos": 10195
+  },
+  "2009.11": {
+   "noticias": 20166,
+   "comentarios": 178879,
+   "usuarios activos": 10198
+  },
+  "2009.12": {
+   "noticias": 19785,
+   "comentarios": 171094,
+   "usuarios activos": 10261
+  },
+  "2010.01": {
+   "noticias": 21573,
+   "comentarios": 187474,
+   "usuarios activos": 10746
+  },
+  "2010.02": {
+   "noticias": 19374,
+   "comentarios": 158395,
+   "usuarios activos": 9898
+  },
+  "2010.03": {
+   "noticias": 21420,
+   "comentarios": 172347,
+   "usuarios activos": 10268
+  },
+  "2010.04": {
+   "noticias": 20208,
+   "comentarios": 164241,
+   "usuarios activos": 9972
+  },
+  "2010.05": {
+   "noticias": 22032,
+   "comentarios": 192752,
+   "usuarios activos": 10857
+  },
+  "2010.06": {
+   "noticias": 21832,
+   "comentarios": 191397,
+   "usuarios activos": 10823
+  },
+  "2010.07": {
+   "noticias": 19046,
+   "comentarios": 182220,
+   "usuarios activos": 10407
+  },
+  "2010.08": {
+   "noticias": 17941,
+   "comentarios": 160433,
+   "usuarios activos": 9654
+  },
+  "2010.09": {
+   "noticias": 18791,
+   "comentarios": 164162,
+   "usuarios activos": 10358
+  },
+  "2010.1": {
+   "noticias": 18138,
+   "comentarios": 153989,
+   "usuarios activos": 10347
+  },
+  "2010.11": {
+   "noticias": 19397,
+   "comentarios": 153064,
+   "usuarios activos": 10500
+  },
+  "2010.12": {
+   "noticias": 18956,
+   "comentarios": 170676,
+   "usuarios activos": 11213
+  },
+  "2011.01": {
+   "noticias": 21226,
+   "comentarios": 173475,
+   "usuarios activos": 11446
+  },
+  "2011.02": {
+   "noticias": 21781,
+   "comentarios": 157542,
+   "usuarios activos": 11452
+  },
+  "2011.03": {
+   "noticias": 24889,
+   "comentarios": 195062,
+   "usuarios activos": 12087
+  },
+  "2011.04": {
+   "noticias": 20810,
+   "comentarios": 170185,
+   "usuarios activos": 11430
+  },
+  "2011.05": {
+   "noticias": 24264,
+   "comentarios": 212024,
+   "usuarios activos": 12744
+  },
+  "2011.06": {
+   "noticias": 23190,
+   "comentarios": 204483,
+   "usuarios activos": 12404
+  },
+  "2011.07": {
+   "noticias": 20234,
+   "comentarios": 181435,
+   "usuarios activos": 11478
+  },
+  "2011.08": {
+   "noticias": 20903,
+   "comentarios": 180625,
+   "usuarios activos": 11260
+  },
+  "2011.09": {
+   "noticias": 23859,
+   "comentarios": 195552,
+   "usuarios activos": 12102
+  },
+  "2011.1": {
+   "noticias": 24119,
+   "comentarios": 201154,
+   "usuarios activos": 12223
+  },
+  "2011.11": {
+   "noticias": 26266,
+   "comentarios": 212002,
+   "usuarios activos": 12734
+  },
+  "2011.12": {
+   "noticias": 23816,
+   "comentarios": 183421,
+   "usuarios activos": 12013
+  },
+  "2012.01": {
+   "noticias": 24787,
+   "comentarios": 204928,
+   "usuarios activos": 12871
+  },
+  "2012.02": {
+   "noticias": 22373,
+   "comentarios": 191488,
+   "usuarios activos": 12355
+  },
+  "2012.03": {
+   "noticias": 21225,
+   "comentarios": 174300,
+   "usuarios activos": 11787
+  },
+  "2012.04": {
+   "noticias": 19147,
+   "comentarios": 173712,
+   "usuarios activos": 11501
+  },
+  "2012.05": {
+   "noticias": 22179,
+   "comentarios": 194142,
+   "usuarios activos": 11935
+  },
+  "2012.06": {
+   "noticias": 20328,
+   "comentarios": 191110,
+   "usuarios activos": 11527
+  },
+  "2012.07": {
+   "noticias": 20300,
+   "comentarios": 198414,
+   "usuarios activos": 11160
+  },
+  "2012.08": {
+   "noticias": 17258,
+   "comentarios": 177059,
+   "usuarios activos": 9920
+  },
+  "2012.09": {
+   "noticias": 19234,
+   "comentarios": 193942,
+   "usuarios activos": 10241
+  },
+  "2012.1": {
+   "noticias": 20906,
+   "comentarios": 191826,
+   "usuarios activos": 10001
+  },
+  "2012.11": {
+   "noticias": 20276,
+   "comentarios": 176701,
+   "usuarios activos": 9860
+  },
+  "2012.12": {
+   "noticias": 18032,
+   "comentarios": 153798,
+   "usuarios activos": 8711
+  },
+  "2013.01": {
+   "noticias": 22385,
+   "comentarios": 183265,
+   "usuarios activos": 9621
+  },
+  "2013.02": {
+   "noticias": 20110,
+   "comentarios": 172664,
+   "usuarios activos": 8860
+  },
+  "2013.03": {
+   "noticias": 19937,
+   "comentarios": 168925,
+   "usuarios activos": 8802
+  },
+  "2013.04": {
+   "noticias": 21074,
+   "comentarios": 184202,
+   "usuarios activos": 8593
+  },
+  "2013.05": {
+   "noticias": 20609,
+   "comentarios": 180036,
+   "usuarios activos": 8403
+  },
+  "2013.06": {
+   "noticias": 18745,
+   "comentarios": 167722,
+   "usuarios activos": 8083
+  },
+  "2013.07": {
+   "noticias": 17964,
+   "comentarios": 180473,
+   "usuarios activos": 7742
+  },
+  "2013.08": {
+   "noticias": 15049,
+   "comentarios": 157087,
+   "usuarios activos": 7126
+  },
+  "2013.09": {
+   "noticias": 16853,
+   "comentarios": 175040,
+   "usuarios activos": 7646
+  },
+  "2013.1": {
+   "noticias": 17374,
+   "comentarios": 161581,
+   "usuarios activos": 7757
+  },
+  "2013.11": {
+   "noticias": 15397,
+   "comentarios": 140764,
+   "usuarios activos": 7496
+  },
+  "2013.12": {
+   "noticias": 14127,
+   "comentarios": 134395,
+   "usuarios activos": 7121
+  },
+  "2014.01": {
+   "noticias": 16301,
+   "comentarios": 158382,
+   "usuarios activos": 7654
+  },
+  "2014.02": {
+   "noticias": 15525,
+   "comentarios": 147968,
+   "usuarios activos": 7603
+  },
+  "2014.03": {
+   "noticias": 16314,
+   "comentarios": 149660,
+   "usuarios activos": 7315
+  },
+  "2014.04": {
+   "noticias": 15742,
+   "comentarios": 133986,
+   "usuarios activos": 6887
+  },
+  "2014.05": {
+   "noticias": 16200,
+   "comentarios": 164135,
+   "usuarios activos": 7304
+  },
+  "2014.06": {
+   "noticias": 15736,
+   "comentarios": 165024,
+   "usuarios activos": 7172
+  },
+  "2014.07": {
+   "noticias": 15060,
+   "comentarios": 167479,
+   "usuarios activos": 7038
+  },
+  "2014.08": {
+   "noticias": 14113,
+   "comentarios": 169479,
+   "usuarios activos": 6657
+  },
+  "2014.09": {
+   "noticias": 14568,
+   "comentarios": 184831,
+   "usuarios activos": 7008
+  },
+  "2014.1": {
+   "noticias": 17254,
+   "comentarios": 199605,
+   "usuarios activos": 7320
+  },
+  "2014.11": {
+   "noticias": 15393,
+   "comentarios": 180860,
+   "usuarios activos": 7024
+  },
+  "2014.12": {
+   "noticias": 14556,
+   "comentarios": 160038,
+   "usuarios activos": 6878
+  },
+  "2015.01": {
+   "noticias": 15382,
+   "comentarios": 186151,
+   "usuarios activos": 7145
+  },
+  "2015.02": {
+   "noticias": 14813,
+   "comentarios": 179252,
+   "usuarios activos": 7056
+  },
+  "2015.03": {
+   "noticias": 14925,
+   "comentarios": 187775,
+   "usuarios activos": 7023
+  },
+  "2015.04": {
+   "noticias": 14707,
+   "comentarios": 187077,
+   "usuarios activos": 6763
+  },
+  "2015.05": {
+   "noticias": 15366,
+   "comentarios": 214646,
+   "usuarios activos": 7004
+  },
+  "2015.06": {
+   "noticias": 13967,
+   "comentarios": 219428,
+   "usuarios activos": 6899
+  },
+  "2015.07": {
+   "noticias": 13180,
+   "comentarios": 214597,
+   "usuarios activos": 7009
+  },
+  "2015.08": {
+   "noticias": 12119,
+   "comentarios": 188946,
+   "usuarios activos": 6305
+  },
+  "2015.09": {
+   "noticias": 12031,
+   "comentarios": 207173,
+   "usuarios activos": 6451
+  },
+  "2015.1": {
+   "noticias": 13783,
+   "comentarios": 217984,
+   "usuarios activos": 6659
+  },
+  "2015.11": {
+   "noticias": 14222,
+   "comentarios": 231321,
+   "usuarios activos": 6751
+  },
+  "2015.12": {
+   "noticias": 14246,
+   "comentarios": 226449,
+   "usuarios activos": 6775
+  },
+  "2016.01": {
+   "noticias": 14722,
+   "comentarios": 237891,
+   "usuarios activos": 6862
+  },
+  "2016.02": {
+   "noticias": 14554,
+   "comentarios": 218822,
+   "usuarios activos": 7316
+  },
+  "2016.03": {
+   "noticias": 12999,
+   "comentarios": 213258,
+   "usuarios activos": 6946
+  },
+  "2016.04": {
+   "noticias": 13235,
+   "comentarios": 208784,
+   "usuarios activos": 6561
+  },
+  "2016.05": {
+   "noticias": 13296,
+   "comentarios": 222348,
+   "usuarios activos": 6544
+  },
+  "2016.06": {
+   "noticias": 12404,
+   "comentarios": 239917,
+   "usuarios activos": 6440
+  },
+  "2016.07": {
+   "noticias": 11130,
+   "comentarios": 217133,
+   "usuarios activos": 6372
+  },
+  "2016.08": {
+   "noticias": 10213,
+   "comentarios": 188883,
+   "usuarios activos": 6206
+  },
+  "2016.09": {
+   "noticias": 10744,
+   "comentarios": 187717,
+   "usuarios activos": 6419
+  },
+  "2016.1": {
+   "noticias": 10180,
+   "comentarios": 187828,
+   "usuarios activos": 6256
+  },
+  "2016.11": {
+   "noticias": 10037,
+   "comentarios": 178927,
+   "usuarios activos": 6057
+  },
+  "2016.12": {
+   "noticias": 9849,
+   "comentarios": 169931,
+   "usuarios activos": 5984
+  },
+  "2017.01": {
+   "noticias": 10863,
+   "comentarios": 182707,
+   "usuarios activos": 6613
+  },
+  "2017.02": {
+   "noticias": 9773,
+   "comentarios": 165452,
+   "usuarios activos": 6191
+  },
+  "2017.03": {
+   "noticias": 10678,
+   "comentarios": 169768,
+   "usuarios activos": 5985
+  },
+  "2017.04": {
+   "noticias": 9820,
+   "comentarios": 170546,
+   "usuarios activos": 5616
+  },
+  "2017.05": {
+   "noticias": 11827,
+   "comentarios": 217525,
+   "usuarios activos": 6243
+  },
+  "2017.06": {
+   "noticias": 10612,
+   "comentarios": 202773,
+   "usuarios activos": 6228
+  },
+  "2017.07": {
+   "noticias": 10832,
+   "comentarios": 181815,
+   "usuarios activos": 6035
+  },
+  "2017.08": {
+   "noticias": 11061,
+   "comentarios": 203397,
+   "usuarios activos": 5917
+  },
+  "2017.09": {
+   "noticias": 12405,
+   "comentarios": 228849,
+   "usuarios activos": 6400
+  },
+  "2017.1": {
+   "noticias": 14696,
+   "comentarios": 308607,
+   "usuarios activos": 6709
+  },
+  "2017.11": {
+   "noticias": 12919,
+   "comentarios": 206174,
+   "usuarios activos": 5818
+  },
+  "2017.12": {
+   "noticias": 10838,
+   "comentarios": 171277,
+   "usuarios activos": 5384
+  },
+  "2018.01": {
+   "noticias": 12429,
+   "comentarios": 207862,
+   "usuarios activos": 5658
+  },
+  "2018.02": {
+   "noticias": 11946,
+   "comentarios": 204227,
+   "usuarios activos": 5429
+  },
+  "2018.03": {
+   "noticias": 13277,
+   "comentarios": 229845,
+   "usuarios activos": 5586
+  },
+  "2018.04": {
+   "noticias": 14127,
+   "comentarios": 235337,
+   "usuarios activos": 5709
+  },
+  "2018.05": {
+   "noticias": 14146,
+   "comentarios": 239281,
+   "usuarios activos": 5625
+  },
+  "2018.06": {
+   "noticias": 13128,
+   "comentarios": 223923,
+   "usuarios activos": 5482
+  },
+  "2018.07": {
+   "noticias": 12143,
+   "comentarios": 222909,
+   "usuarios activos": 5421
+  },
+  "2018.08": {
+   "noticias": 12393,
+   "comentarios": 231877,
+   "usuarios activos": 5310
+  },
+  "2018.09": {
+   "noticias": 12858,
+   "comentarios": 229865,
+   "usuarios activos": 5731
+  },
+  "2018.1": {
+   "noticias": 12667,
+   "comentarios": 221303,
+   "usuarios activos": 6054
+  },
+  "2018.11": {
+   "noticias": 11697,
+   "comentarios": 209701,
+   "usuarios activos": 5492
+  },
+  "2018.12": {
+   "noticias": 10873,
+   "comentarios": 210548,
+   "usuarios activos": 5339
+  },
+  "2019.01": {
+   "noticias": 11890,
+   "comentarios": 224263,
+   "usuarios activos": 5388
+  },
+  "2019.02": {
+   "noticias": 11690,
+   "comentarios": 211074,
+   "usuarios activos": 5189
+  },
+  "2019.03": {
+   "noticias": 13196,
+   "comentarios": 223675,
+   "usuarios activos": 5319
+  },
+  "2019.04": {
+   "noticias": 12214,
+   "comentarios": 204491,
+   "usuarios activos": 5193
+  },
+  "2019.05": {
+   "noticias": 12238,
+   "comentarios": 204381,
+   "usuarios activos": 5336
+  },
+  "2019.06": {
+   "noticias": 11997,
+   "comentarios": 199384,
+   "usuarios activos": 5514
+  },
+  "2019.07": {
+   "noticias": 11946,
+   "comentarios": 204869,
+   "usuarios activos": 5212
+  },
+  "2019.08": {
+   "noticias": 10860,
+   "comentarios": 198043,
+   "usuarios activos": 5052
+  },
+  "2019.09": {
+   "noticias": 11230,
+   "comentarios": 205440,
+   "usuarios activos": 5068
+  },
+  "2019.1": {
+   "noticias": 12264,
+   "comentarios": 235444,
+   "usuarios activos": 5444
+  },
+  "2019.11": {
+   "noticias": 12228,
+   "comentarios": 215025,
+   "usuarios activos": 5147
+  },
+  "2019.12": {
+   "noticias": 10253,
+   "comentarios": 199096,
+   "usuarios activos": 4878
+  },
+  "2020.01": {
+   "noticias": 11660,
+   "comentarios": 220385,
+   "usuarios activos": 5083
+  },
+  "2020.02": {
+   "noticias": 12102,
+   "comentarios": 201810,
+   "usuarios activos": 4860
+  },
+  "2020.03": {
+   "noticias": 16778,
+   "comentarios": 320507,
+   "usuarios activos": 6145
+  }
+ },
  "dominios_todos": {
   "2006": {
    "total": 61204,
@@ -13465,14 +14327,14 @@ var tags = {
   "economia.elpais.com",
   "elblogsalmon.com",
   "elboletin.com",
-  "*.elconfidencial.com",
   "elconfidencial.com",
+  "*.elconfidencial.com",
   "elconfidencialdigital.com",
   "elcorreo.com",
   "*.elcorreo.com",
   "elcorreodigital.com",
-  "eldiario.es",
   "*.eldiario.es",
+  "eldiario.es",
   "*.eleconomista.es",
   "eleconomista.es",
   "electronicafacil.net",
@@ -13542,8 +14404,8 @@ var tags = {
   "omicrono.com",
   "politica.elpais.com",
   "portaltic.es",
-  "*.publico.es",
   "publico.es",
+  "*.publico.es",
   "que.es",
   "rebelion.org",
   "recuerdosdepandora.com",
@@ -13564,8 +14426,8 @@ var tags = {
   "vertele.eldiario.es",
   "vozpopuli.com",
   "wikipedia.org",
-  "*.xataka.com",
   "xataka.com",
+  "*.xataka.com",
   "*.yahoo.com",
   "yorokobu.es",
   "youtube.com",

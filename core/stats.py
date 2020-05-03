@@ -395,3 +395,76 @@ class Stats:
             g.add_edge(a, b, weight=size)
 
         return g.sigmajs
+
+    def get_actividad(self):
+        max_mes = self.db.one("select max(mes) from GENERAL")
+        data={}
+        for dt in self.db.select('''
+            select
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
+                count(*) noticias,
+                sum(comments) comentarios
+            from
+                LINKS
+            where
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)<={0}
+            group by
+                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
+        '''.format(max_mes), cursor=DictCursor):
+            data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
+        for dt in self.db.select('''
+            select
+                mes,
+                count(distinct user_id) usuarios
+            from (
+                select
+                    YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
+                    user_id
+                from
+                    LINKS
+                union
+                select
+                    YEAR(from_unixtime(`date`))+(MONTH(from_unixtime(`date`))/100) mes,
+                    user_id
+                from
+                    COMMENTS
+            ) T
+            where
+                user_id is not null and
+                mes <= {0}
+            group by mes
+        '''.format(max_mes), cursor=DictCursor):
+            data[float(dt["mes"])]["usuarios activos"] = int(dt["usuarios"])
+
+        return data
+
+    def get_users_by_month(self):
+        max_mes = self.db.one("select max(mes) from GENERAL")
+        data={}
+        for dt in self.db.select('''
+            select distinct
+                mes,
+                user_id
+            from (
+                select
+                    YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
+                    user_id
+                from
+                    LINKS
+                union
+                select
+                    YEAR(from_unixtime(`date`))+(MONTH(from_unixtime(`date`))/100) mes,
+                    user_id
+                from
+                    COMMENTS
+            ) T
+            where
+                user_id is not null and
+                mes <= {0}
+            order by
+                mes, user_id
+        '''.format(max_mes), cursor=DictCursor):
+            key = float(dt["mes"])
+            data[key] = data.get(key, []) + [dt["user_id"]]
+
+        return data

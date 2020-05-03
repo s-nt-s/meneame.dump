@@ -49,10 +49,11 @@ div.graph {
   background-color: gainsboro;
   padding: 5px;
   position: relative;
+  display: inline-block;
 }
 div.graph div.rootpanel {
   height: 500px;
-  width: 100%;
+  width: 800px;
 }
 div.graph div.panel {
   width: 100%;

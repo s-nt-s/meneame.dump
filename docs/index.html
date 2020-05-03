@@ -8,10 +8,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-<script src="https://yaireo.github.io/tagify/dist/tagify.js"></script>
-<script src="http://sigmajs.org/assets/js/sigma.min.js"></script>
-<script src="http://sigmajs.org/assets/js/sigma.plugins.animate.min.js"></script>
-<script data-autoinsert="1" src="00-js/util.js"></script>
+<script data-autoinsert="1" src="00-libs/sigma.min.js"></script>
+<script data-autoinsert="1" src="00-libs/sigma.plugins.animate.min.js"></script>
+<script data-autoinsert="1" src="00-libs/tagify.js"></script>
+<script data-autoinsert="1" src="01-js/util.js"></script>
 <script data-autoinsert="1" src="data/aede.js"></script>
 <script data-autoinsert="1" src="data/graph.js"></script>
 <script data-autoinsert="1" src="data/modelos.js"></script>
@@ -192,7 +192,7 @@
     </p>
 <p>(*) Para facilitar la unificación de etiquetas similares se han
       <a href="https://github.com/s-nt-s/meneame.dump/blob/216884fa742dd4dabdeabe86ae4e35c592e4b096/core/util.py#L45">
-        realizado conversiones, 
+        realizado conversiones entre sinónimos,
       eliminado las tildes y se han pasado a minusculas la mayoria de ellas</a>.
     </p>
 </div>
@@ -227,5 +227,11 @@
       de usuarios registrados. Tras esto se resta un voto positivo a todas las noticias para
       no tener en cuenta el voto del propio autor.
     </p>
+</div>
+<h2>¿Cúanta actividad hay Menéame?</h2>
+<div class="data" data-modelo="actividad">
+<canvas class="chart"></canvas>
+<p>(*) A diferecina de las anteriores gráficas, esta esta hecha sobre TODO
+      Menéame, no solo sobre la edicción general</p>
 </div>
 </html>
