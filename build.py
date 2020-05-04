@@ -35,6 +35,9 @@ jHtml.create_script("data/modelos.js", replace=True,
     tags={
         "dominios": dominios.claves,
         "tags": tags.claves
+    },
+    modelos_aux={
+        "actividad": st.get_users_by_period()
     }
 )
 

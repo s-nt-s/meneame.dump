@@ -6,6 +6,7 @@ use meneame;
 SET NAMES utf8mb4;
 SET CHARACTER SET utf8mb4;
 SET character_set_connection=utf8mb4;
+SET div_precision_increment = 2;
 
 create table LINKS (
   `id` INT,
@@ -47,16 +48,6 @@ create table COMMENTS (
   -- ,FOREIGN KEY (link) REFERENCES LINKS(id)
 );
 
-create table USERS (
-  `id` INT,
-  `links` INT default 0,
-  `comments` INT default 0,
-  `since` INT,
-  `until` INT,
-  `live` BOOLEAN default 1,
-  PRIMARY KEY (id)
-);
-
 create table TAGS (
   `tag` VARCHAR(80),
   `link` INT
@@ -76,3 +67,37 @@ create table META_STR (
 );
 
 commit;
+
+DROP FUNCTION IF EXISTS mes_mod;
+
+DELIMITER //
+
+CREATE FUNCTION mes_mod(x float, md int) RETURNS DECIMAL(6,2) DETERMINISTIC
+BEGIN
+ DECLARE y INT;
+ DECLARE m INT;
+ DECLARE t INT;
+ DECLARE r DECIMAL(6,2);
+ SET y = FLOOR(x);
+ SET m = x*100-(y*100);
+ SET t = FLOOR((m-1)/md)+1;
+ SET t = (y*100)+t;
+ SET r = t/100;
+ RETURN r;
+END; //
+
+CREATE FUNCTION date_mod(x datetime, md int) RETURNS DECIMAL(6,2) DETERMINISTIC
+BEGIN
+ DECLARE y INT;
+ DECLARE m INT;
+ DECLARE t INT;
+ DECLARE r DECIMAL(6,2);
+ SET y = YEAR(x);
+ SET m = MONTH(x);
+ SET t = FLOOR((m-1)/md)+1;
+ SET t = (y*100)+t;
+ SET r = t/100;
+ RETURN r;
+END; //
+
+DELIMITER ;

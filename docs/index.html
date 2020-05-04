@@ -203,6 +203,7 @@
   </p>
 <div class="graph" data-graph="tags" id="sigma-container">
 </div>
+<p>(*) Solo se muestran las 50 etiquetas más usadas</p>
 <h2>¿Hay buen rollo en Menéame?</h2>
 <div class="data">
 <p>Mostrar datos de <select name="modelo">
@@ -230,8 +231,22 @@
 </div>
 <h2>¿Cúanta actividad hay Menéame?</h2>
 <div class="data" data-modelo="actividad">
+<p>Mostrar cantidad en <select name="promedio">
+<option value="0">números absolutos</option>
+<option value="1">promedio por usuario activo</option>
+</select>
+</p>
 <canvas class="chart"></canvas>
-<p>(*) A diferecina de las anteriores gráficas, esta esta hecha sobre TODO
-      Menéame, no solo sobre la edicción general</p>
+<p>
+<label>Unidad temporal:</label>
+<select name="agrupar">
+<option value="">mes</option>
+<option selected="selected" value="trimestre">trimestre</option>
+<option value="semestre">semestre</option>
+<option value="year">anual</option>
+</select>
+</p>
+<p>(*) A diferecina de las anteriores gráficas, esta se basa en TODO
+      Menéame, no solo sobre la edicción general.</p>
 </div>
 </html>

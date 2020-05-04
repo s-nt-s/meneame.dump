@@ -11,13 +11,19 @@ import re
 from unicodedata import category
 from MySQLdb.cursors import DictCursor
 from core.util import chunks, extract_domain
-from .util import get_items
+from .util import get_items, read, gW
 
-def gW(ids, f="id"):
-    if len(ids)==1:
-        return f+" = "+str(ids.pop())
-    return f+" in %s" % (tuple(sorted(ids)), )
+no_done=tuple(read("/tmp/cmt_user_id.txt", cast=int))
 
+dt={}
+for id, user_id in read("cmt.txt", split=2, cast=int):
+    if id in no_done:
+        dt[user_id] = dt.get(user_id, []) + [id]
+
+for user_id, ids in sorted(dt.items()):
+    print("UPDATE COMMENTS set user_id={0} where {1};".format(user_id, gW(ids)))
+
+sys.exit()
 
 import sqlite3
 fuentes={}

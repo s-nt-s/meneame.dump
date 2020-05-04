@@ -195,9 +195,23 @@
   </div>
   <h2>¿Cúanta actividad hay Menéame?</h2>
   <div class="data" data-modelo="actividad">
+  <p>Mostrar cantidad en <select name="promedio">
+    <option value="0">números absolutos</option>
+    <option value="1">promedio por usuario activo</option>
+  </select>
+  </p>
     <canvas class="chart"></canvas>
-    <p>(*) A diferecina de las anteriores gráficas, esta esta hecha sobre TODO
-      Menéame, no solo sobre la edicción general</p>
+    <p>
+      <label>Unidad temporal:</label>
+      <select name="agrupar">
+        <option value="">mes</option>
+        <option value="trimestre" selected="selected">trimestre</option>
+        <option value="semestre">semestre</option>
+        <option value="year">anual</option>
+      </select>
+    </p>
+    <p>(*) A diferecina de las anteriores gráficas, esta se basa en TODO
+      Menéame, no solo sobre la edicción general.</p>
   </div>
 </body>
 </html>

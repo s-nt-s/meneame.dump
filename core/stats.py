@@ -163,6 +163,30 @@ class Stats:
         ) T
         '''.format(where or ""), cursor=DictCursor):
             data[float(dt["mes"])]={k:float(v) for k,v in dt.items() if k!="mes"}
+        if where !="":
+            where = " where "+where[5:]
+        max_mes = max(data.keys())
+        for dt in self.db.select('''
+            select
+                mes,
+                round(avg(karma)) karma
+            from (
+                select
+                    date_mod(from_unixtime(`date`), 1) mes,
+                    karma
+                from
+                    COMMENTS
+                where link in (select id from GENERAL {1})
+            ) T
+            where
+                mes <= {0}
+            group by
+                mes
+        '''.format(max_mes, where or ""), cursor=DictCursor):
+            key = float(dt["mes"])
+            for k, v in dt.items():
+                if k!="mes":
+                    data[key]["comment_"+k]=float(v)
         return data
 
 
@@ -370,11 +394,9 @@ class Stats:
                 TAGS
             group by
                 tag
-            having
-                count(*)>={0}
             order by
                 count(*) desc
-            limit 50
+            limit 100
         '''.format(self.min_tag)):
             g.add(tag, size)
 
@@ -397,74 +419,71 @@ class Stats:
         return g.sigmajs
 
     def get_actividad(self):
-        max_mes = self.db.one("select max(mes) from GENERAL")
         data={}
         for dt in self.db.select('''
             select
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
-                count(*) noticias,
-                sum(comments) comentarios
+                mes,
+                sum(links) noticias,
+                sum(comments) comentarios,
+                count(distinct user_id) `usuarios activos`
             from
-                LINKS
-            where
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)<={0}
+                ACTIVIDAD
             group by
-                YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100)
-        '''.format(max_mes), cursor=DictCursor):
+                mes
+        ''', cursor=DictCursor):
             data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
+
+        max_mes = max(data.keys())
         for dt in self.db.select('''
             select
-                mes,
-                count(distinct user_id) usuarios
-            from (
-                select
-                    YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
-                    user_id
-                from
-                    LINKS
-                union
-                select
-                    YEAR(from_unixtime(`date`))+(MONTH(from_unixtime(`date`))/100) mes,
-                    user_id
-                from
-                    COMMENTS
-            ) T
+                date_mod(`create`, 1) mes,
+                count(*) `usuarios creados`
+            from
+                USERS
             where
-                user_id is not null and
-                mes <= {0}
-            group by mes
+                `create` is not null and
+                date_mod(`create`, 1) <= {0}
+            group by
+                date_mod(`create`, 1)
         '''.format(max_mes), cursor=DictCursor):
-            data[float(dt["mes"])]["usuarios activos"] = int(dt["usuarios"])
+            data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
+
+        for dt in self.db.select('''
+            select
+                date_mod(`ultil`, 1) mes,
+                count(*) `usuarios eliminados`
+            from
+                USERS
+            where
+                `live` = 0 and 
+                `ultil` is not null and
+                date_mod(`ultil`, 1) <= {0}
+            group by
+                date_mod(`ultil`, 1)
+        '''.format(max_mes), cursor=DictCursor):
+            data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
 
         return data
 
-    def get_users_by_month(self):
-        max_mes = self.db.one("select max(mes) from GENERAL")
+    def get_users_by_period(self):
         data={}
-        for dt in self.db.select('''
-            select distinct
-                mes,
-                user_id
-            from (
+        for tp, nb in (
+            ("T", "mes_mod(mes, 3)"),
+            ("S", "mes_mod(mes, 6)"),
+            ("A", "FLOOR(mes)")
+        ):
+            for key, usuarios in self.db.select('''
                 select
-                    YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes,
-                    user_id
+                    {0},
+                    count(distinct user_id) usuarios
                 from
-                    LINKS
-                union
-                select
-                    YEAR(from_unixtime(`date`))+(MONTH(from_unixtime(`date`))/100) mes,
-                    user_id
-                from
-                    COMMENTS
-            ) T
-            where
-                user_id is not null and
-                mes <= {0}
-            order by
-                mes, user_id
-        '''.format(max_mes), cursor=DictCursor):
-            key = float(dt["mes"])
-            data[key] = data.get(key, []) + [dt["user_id"]]
+                    ACTIVIDAD
+                group by
+                    {0}
+            '''.format(nb)):
+                if tp!="A":
+                    key = "{:.2f}".format(key)
+                    key = key.replace(".0", " "+tp)
+                data[key] = int(usuarios)
 
         return data

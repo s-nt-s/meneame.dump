@@ -1,3 +1,14 @@
+create table IF NOT EXISTS USERS (
+  `id` INT,
+  `links` INT default 0,
+  `comments` INT default 0,
+  `create` DATE,
+  `since` DATE,
+  `until` DATE,
+  `live` BOOLEAN default 1,
+  PRIMARY KEY (id)
+);
+
 insert ignore into USERS (id)
 select distinct user_id from (
   select user_id from LINKS
@@ -6,7 +17,7 @@ select distinct user_id from (
 ) T where user_id is not null
 ;
 
-update USERS set live=0 where id in (
+update USERS set live=0 where live=1 and id in (
   select user_id from (
     select user_id, user from LINKS
     union
@@ -19,8 +30,8 @@ inner join (
   select
     user_id,
     count(*) C,
-    min(sent_date) min_date,
-    max(sent_date) max_date
+    from_unixtime(min(sent_date)) min_date,
+    from_unixtime(max(sent_date)) max_date
   from
     LINKS
   where
@@ -39,8 +50,8 @@ inner join (
   select
     user_id,
     count(*) C,
-    min(`date`) min_date,
-    max(`date`) max_date
+    from_unixtime(min(`date`)) min_date,
+    from_unixtime(max(`date`)) max_date
   from
     COMMENTS
   where

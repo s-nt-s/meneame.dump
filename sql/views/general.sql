@@ -5,6 +5,7 @@ SET @cutdate := (select CASE
   else @cutdate2
 end
 );
+SET div_precision_increment = 2;
 
 UPDATE LINKS set
   `sub` = 'mnm',
@@ -33,10 +34,7 @@ select
   from_unixtime(sent_date) sent_date,
   from_unixtime(sent_date+604800) closed_date, -- fecha en que la noticia ya esta cerrada,
   (HOUR(from_unixtime(sent_date))*60)+MINUTE(from_unixtime(sent_date)) minuto, -- minuto del dia en que se envio
-  YEAR(from_unixtime(sent_date))+(MONTH(from_unixtime(sent_date))/100) mes, -- mes en el que se envio la noticia
-  YEAR(from_unixtime(sent_date))+((
-    floor((MONTH(from_unixtime(sent_date))-1)/3)+1
-  )/100) trimestre -- trimeste en el que se envio la noticias
+  date_mod(from_unixtime(sent_date), 1) mes -- mes en el que se envio la noticia
 from
   LINKS
 where

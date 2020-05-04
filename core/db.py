@@ -7,7 +7,10 @@ import yaml
 from bunch import Bunch
 import MySQLdb
 from .util import chunks, extract_tags
+from .api import Api, tm_search_user_data
+from .threadme import ThreadMe
 import sqlite3
+import sys
 
 import warnings
 warnings.filterwarnings("ignore", category = MySQLdb.Warning)
@@ -25,6 +28,19 @@ def save(file, content):
         content = textwrap.dedent(content).strip()
         with open(file, "w") as f:
             f.write(content)
+
+def my_tm_search_user_data(id):
+    print(id, end="\r")
+    u = tm_search_user_data(id)
+    if u is None or u.id is None:
+        return None
+    if u.create is None and (u.live is None or u.live):
+        return None
+    return {
+        "id": u.id,
+        "create":u.create,
+        "live":u.live
+    }
 
 class DB:
     def __init__(self, debug_dir=None):
@@ -335,12 +351,46 @@ class DB:
         cursor.close()
         lt.close()
 
+    def update_users(self):
+        self.execute("sql/views/users.sql")
+        max_user = self.one("select max(id) from USERS")
+        min_user = self.one("select max(id) from USERS where `create` is not null") or 0
+        api = Api()
+        tm = ThreadMe(max_thread=100, list_size=2000)
+        sql = "insert into USERS (id, `create`, `live`) values (%(id)s, %(create)s, %(live)s) on duplicate key update `create`=values(`create`), `live`=values(`live`)"
+        for rows in tm.list_run(my_tm_search_user_data, range(min_user+1, max_user+1)):
+            c = self.con.cursor()
+            c.executemany(sql, rows)
+            c.close()
+            self.con.commit()
+        def my_tm_search_user_live(id):
+            id = id[0]
+            r=my_tm_search_user_data(id)
+            if r is None or r.live is None or r.live:
+                return None
+            return id
+        sql = "update USERS set live=0 where id "
+        for ids in tm.list_run(my_tm_search_user_live, self.select("select id from USERS where live=1")):
+            if len(ids)==1:
+                ids = "="+ids.pop()
+            else:
+                ids = "in %s" % tuple(ids)
+            c = self.con.cursor()
+            c.execute(sql+ids)
+            c.close()
+            self.con.commit()
+
 
 if __name__ == "__main__":
     db=DB()
+    arg = sys.argv[1]
     try:
-        db.execute("delete from TAGS")
-        db.commit()
-        db.insert_tags()
+        if arg == "tags":
+            db.execute("delete from TAGS")
+            db.commit()
+            db.insert_tags()
+        if arg == "users":
+            db.update_users()
+            db.commit()
     finally:
         db.close()

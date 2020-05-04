@@ -17,7 +17,7 @@ tm = ThreadMe(
 )
 
 def get_info(id):
-    user_id = self.get_info(what="comment", id=i["id"], fields="author")
+    user_id = api.get_info(what="comment", id=id, fields="author")
     if user_id is None:
         return None
     return (id, user_id)

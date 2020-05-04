@@ -177,10 +177,10 @@ function mesTo(ym) {
     ),
     cuatrimestre: dcd(m,
       1,1,2,1,3,1,4,1,
-      5,2,6,2,7,2,8,3,
-      4
+      5,2,6,2,7,2,8,2,
+      3
     ),
-    semestre: m<6?1:2
+    semestre: m<7?1:2
   }
   return obj;
 }
@@ -291,7 +291,8 @@ function render_chart() {
   rd.apply(t, [mdl, {
     "porcentaje": prc,
     "agrupar": agrupar,
-    "tags": tags
+    "tags": tags,
+    "jq": t
   }]);
 }
 
@@ -468,6 +469,13 @@ render_builder={
       n = a*100/n;
       return Math.round(n*100)/100;
     })
+    /*
+    var neg_com = gF(obj, "comment_negatives");
+    neg_com = zip_arr(neg_com, gF(obj, "comment_total"), function(a, n) {
+      if (n==0 || a==0) return 0;
+      n = a*100/n;
+      return Math.round(n*100)/100;
+    })*/
     var dataset = [{
         label: "% votos negativos",
         data: negatives,
@@ -475,14 +483,26 @@ render_builder={
         borderColor: d_color.red.borderColor,
         borderWidth: 1
       },{
-        label: "Karma (media)",
+        label: "Karma noticias (media)",
         data: gF(obj, "karma"),
         fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
         borderColor: "orange",
         borderWidth: 1,
         hidden: true
-      },/*{
+      },{
+        label: "Karma comentarios (media)",
+        data: gF(obj, "comment_karma"),
+        fill: false,
+        borderColor: "Lime",
+        borderWidth: 1,
+        hidden: true
+      }/*,{
+        label: "% comentarios negativizados",
+        data: neg_com,
+        fill: false,
+        borderColor: "lightcoral",
+        borderWidth: 1
+      }{
         label: "% votos positivos",
         data: gF(obj, "positives"),
         backgroundColor: d_color.blue.backgroundColor,
@@ -624,23 +644,40 @@ render_builder={
   },
   "actividad": function(obj, options) {
       var dataset = [];
-      var i, k, kl, color;
-      var ks = Object.keys(obj["values"][0]);
-      var colors = ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
+      var i, k, kl, color, values;
+      var ks = ["usuarios activos", "noticias", "comentarios"];//Object.keys(obj["values"][0]);
+      var colors = ["blue", "green", "SaddleBrown"];
       if (options.porcentaje) colors = colors.slice(1);
+      var user_values;
+      if (options.agrupar) {
+        user_values=[];
+        obj["keys"].forEach(function(k){
+          user_values.push(modelos_aux["actividad"][k]);
+        });
+      } else {
+        user_values=gF(obj, "usuarios activos");
+      }
+      var promedio = options.jq.find("*[name=promedio]").val()=="1";
       for (i=0; i<ks.length; i++) {
         k = ks[i];
+        if (promedio && ["comentarios", "noticias"].indexOf(k)==-1) continue;
+        if (k=="usuarios activos") {
+          values = user_values;
+        } else {
+          values=gF(obj, k);
+        }
+        if (promedio) {
+          values = zip_arr(values, user_values, function(a,b){return Math.round(a/b);})
+          k = k +" / usuario";
+        }
         color = colors[i] || "grey";
         dataset.push({
           label: k,
-          data: gF(obj, k),
+          data: values,
           fill: false,
           //backgroundColor: d_color.blue.backgroundColor,
           borderColor: color,
-          borderWidth: 1,
-          hidden: k=="mnm" || k=="otros",
-          fill: k=="otros",
-          backgroundColor:k=="otros"?color:null
+          borderWidth: 1
         })
       }
       setGraphChart({

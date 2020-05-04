@@ -3,6 +3,29 @@ from os.path import abspath, dirname, basename
 import os
 import json
 from glob import glob
+from bunch import Bunch
+
+def gW(ids, f="id"):
+    if len(ids)==1:
+        return f+" = "+str(ids.pop())
+    return f+" in %s" % (tuple(sorted(ids)), )
+
+
+def read(fl, split=None, cast=None):
+    with open(fl, "r") as f:
+        for l in f.readlines():
+            l=l.strip()
+            if l:
+                if split is None:
+                    if cast is not None:
+                        l=cast(l)
+                    yield l
+                else:
+                    l = l.split()
+                    if len(l)==split:
+                        if cast is not None:
+                            l = tuple(cast(i) for i in l)
+                        yield l
 
 def load_json(fl):
     ex = None
@@ -36,3 +59,28 @@ def get_items(ok_ids=None, reverse=False):
                 if d.get("sub_karma") == 0:
                     d["sub_karma"] = None
                 yield d
+
+
+
+def mkBunchParse(obj):
+    if isinstance(obj, list):
+        for i, v in enumerate(obj):
+            obj[i] = mkBunchParse(v)
+        return obj
+    if isinstance(obj, dict):
+        data = []
+        flag = True
+        for k in obj.keys():
+            if not isinstance(k, str):
+                return {k: mkBunchParse(v) for k, v in obj.items()}
+        obj = Bunch(**{k: mkBunchParse(v) for k, v in obj.items()})
+        return obj
+    return obj
+
+def mkBunch(file):
+    if not os.path.isfile(file):
+        return None
+    with open(file, "r") as f:
+        data = json.load(f)
+    data = mkBunchParse(data)
+    return data

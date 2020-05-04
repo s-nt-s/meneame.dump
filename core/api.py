@@ -24,10 +24,11 @@ fisg1 = re.compile(
 fisg2 = re.compile(r'([^"a-z])([a-z]+):',
                    re.MULTILINE | re.DOTALL | re.IGNORECASE)
 karma = re.compile(r'\s*\b(?:karma|valor):\s*(-?\d+)', re.IGNORECASE)
-sp = re.compile(r'\s+', re.MULTILINE | re.DOTALL | re.IGNORECASE)
+re_sp = re.compile(r'\s+', re.MULTILINE | re.DOTALL | re.IGNORECASE)
 dt1 = re.compile(r'(\d\d)/(\d\d)-(\d\d):(\d\d):(\d\d)')
 dt2 = re.compile(r'(\d\d)-(\d\d)-(\d\d\d\d) (\d\d):(\d\d) UTC')
 dt3 = re.compile(r'(\d\d):(\d\d) UTC')
+dt_user = re.compile(r"Usuario\s+desde:\s+(\d\d-\d\d-\d\d\d\d)", re.IGNORECASE)
 re_user_id = re.compile(r'^--(\d+)--$')
 
 logger = logging.getLogger()
@@ -160,7 +161,7 @@ def get_items(url, params, date, total=-1):
             m = karma.search(obj.get("title", ""))
             if m:
                 obj["karma"] = int(m.group(1))
-                obj["title"] = sp.sub(
+                obj["title"] = re_sp.sub(
                     " ", karma.sub(" ", obj["title"])).strip()
             epoch = str_to_epoch(obj.get("title", ""), date)
             if epoch:
@@ -181,16 +182,47 @@ def get_items(url, params, date, total=-1):
 
 
 
-def tm_search_user_id(user):
-    items = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+user, select="img.avatar", default=[])
-    if items:
-        src = items[0].attrs["src"]
-        src = src.rsplit("/")[-1].rsplit(".")[0]
-        src = src.split("-")
-        if len(src)==3 and src[0].isdigit():
-            id = int(src[0])
-            return user, id
-    return user, None
+def tm_search_user_data(user):
+    usr = Bunch(
+        id=None,
+        nick=None,
+        create=None,
+        live=None,
+        meta={}
+    )
+    if isinstance(user, str):
+        usr.nick = user
+    else:
+        usr.id = user
+    soup = get_soup("https://www.meneame.net/backend/get_user_info.php?id="+str(user))
+    if soup is None:
+        return usr
+    if usr.id is None:
+        img = soup.select_one("img.avatar")
+        if img:
+            src = img.attrs["src"]
+            src = src.rsplit("/")[-1].rsplit(".")[0]
+            src = src.split("-")
+            if len(src)==3 and src[0].isdigit():
+                id = int(src[0])
+                usr.id=id
+    for br in soup.findAll("br"):
+        br.replaceWith("\n")
+    txt = soup.get_text().strip()
+    for l in txt.split("\n"):
+        l = l.strip()
+        if ":" in l:
+            l = tuple(i.strip() for i in l.split(":", 1))
+            if l[0] and l[1]:
+                usr.meta[l[0].lower()]=l[1]
+    if usr.meta.get('usuario desde'):
+        m = usr.meta['usuario desde']
+        usr.create = datetime.strptime(m, "%d-%m-%Y").date()
+    if usr.nick is None:
+        usr.nick = usr.meta.get("usuario")
+    if usr.nick and usr.id:
+        usr.live = usr.nick != "--"+str(usr.id)+"--"
+    return usr
 
 class Api:
     MAX_ITEMS = 2000
@@ -240,11 +272,11 @@ class Api:
             pass
         elif len(search)==1:
             user = search.pop()
-            self.user_id[user] = tm_search_user_id(user)[1]
+            self.user_id[user] = tm_search_user_data(user).id
         else:
             tm = ThreadMe(max_thread=50)
-            for user, id in tm.run(tm_search_user_id, sorted(search)):
-                self.user_id[user]=id
+            for usr in tm.run(tm_search_user_data, sorted(search)):
+                self.user_id[usr.nick]=usr.id
         return self.user_id.get(users[0])
 
     def fill_user_id(self, arr, what=None):
