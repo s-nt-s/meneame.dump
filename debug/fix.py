@@ -19,8 +19,8 @@ if not os.path.isfile(file_name):
     db = DB()
     info = {
         "users":{
-            "max":db.one("select max(user_id) from (select user_id from LINKS union select user_id from COMMENTS) T"),
-            "max_create": db.one("select max(id) from USERS where `create` is not null") or 0,
+            "max":(db.one("select max(user_id) from (select user_id from LINKS union select user_id from COMMENTS) T") or 0) + 1,
+            "max_create": (db.one("select max(id) from USERS where `create` is not null") or 0)+1,
             "live": db.to_list("select id from USERS where live=1 order by id"),
         },
         "comments": {
@@ -90,7 +90,7 @@ def gnr_users():
         yield i
 
 print("-- USERS.create")
-for usr in tm.run(get_user_info, gnr_users()):
+for usr in tm.run(get_user_info, range(info.user.max_create, info.user.max)):
     live = "0" if usr.live is False else "1"
     i_sql = sql.format(id=usr.id, create=usr.meta['usuario desde'], live=live)
     i_sql.replace(", 1)", ")").replace(", `live`=1;", ";")
@@ -103,7 +103,7 @@ def get_user_info(id):
     return None
 
 print("-- USERS.live")
-for ids in tm.list_run(get_user_info, info["users"]["live"]):
+for ids in tm.list_run(get_user_info, info.users.live):
     print("update USERS set live=0 where", gW(ids)+";")
 
 
