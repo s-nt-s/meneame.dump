@@ -113,6 +113,6 @@ def get_post_info(id):
 print("-- POSTS")
 for p in tm.run(get_post_info, range(info["posts"], api.last_post+1)):
     p = {k:(v or "NULL") for k,v in p.items()}
-    print("INSERT INTO `POSTS` (`id`, `date`, `votes`, `karma`, `user_id`) VALUES ({id}, {date}, {votes}, {karma}, {user_id});".format(**p))
+    print("INSERT INTO POSTS (id, `date`, votes, karma, user_id) VALUES ({id}, {date}, {votes}, {karma}, {user_id});".format(**p))
 
 print("-- END")
