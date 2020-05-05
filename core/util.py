@@ -12,6 +12,12 @@ re_blogspot = re.compile(r"\.blogspot\.com\.[a-z]{,2}$")
 re_port = re.compile(r":\d+$")
 re_diames= re.compile(r"^\d+-?[efmajasond]$")
 
+
+def gW(ids, f="id"):
+    if len(ids)==1:
+        return f+" = "+str(ids.pop())
+    return f+" in %s" % (tuple(sorted(ids)), )
+
 def chunks(lst, n):
     arr = []
     for i in lst:

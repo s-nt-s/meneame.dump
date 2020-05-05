@@ -446,22 +446,28 @@ class Stats:
             group by
                 date_mod(`create`, 1)
         '''.format(max_mes), cursor=DictCursor):
-            data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
+            key = float(dt["mes"])
+            for k, v in dt.items():
+                if k!="mes":
+                    data[key][k]=int(v)
 
         for dt in self.db.select('''
             select
-                date_mod(`ultil`, 1) mes,
+                date_mod(`until`, 1) mes,
                 count(*) `usuarios eliminados`
             from
                 USERS
             where
-                `live` = 0 and 
-                `ultil` is not null and
-                date_mod(`ultil`, 1) <= {0}
+                `live` = 0 and
+                `until` is not null and
+                date_mod(`until`, 1) <= {0}
             group by
-                date_mod(`ultil`, 1)
+                date_mod(`until`, 1)
         '''.format(max_mes), cursor=DictCursor):
-            data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
+            key = float(dt["mes"])
+            for k, v in dt.items():
+                if k!="mes":
+                    data[key][k]=int(v)
 
         return data
 

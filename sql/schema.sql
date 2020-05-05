@@ -48,6 +48,15 @@ create table COMMENTS (
   -- ,FOREIGN KEY (link) REFERENCES LINKS(id)
 );
 
+create table POSTS (
+  `id` INT,
+  `date` INT,
+  `votes` INT,
+  `karma` INT,
+  `user_id` INT,
+  PRIMARY KEY (id)
+);
+
 create table TAGS (
   `tag` VARCHAR(80),
   `link` INT

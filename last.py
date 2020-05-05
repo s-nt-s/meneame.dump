@@ -59,7 +59,7 @@ def main():
     )
     print("Actualizando enlaces cerrados...", end="\r")
     max_date = db.one("select max(sent_date) from LINKS")
-    max_date = max_date - api.mnm_config['time_enabled_comments']
+    max_date = max_date - api.safe_wait
     print("Actualizando enlaces cerrados sent_date < %s" % max_date, end="\r")
     cerrados = db.to_list('''
         select id
@@ -68,7 +68,7 @@ def main():
             `check` is null or
             (UNIX_TIMESTAMP(`check`)-sent_date)<={1}
         )
-    '''.format(max_date, api.mnm_config['time_enabled_comments']))
+    '''.format(max_date, api.safe_wait))
     print("Actualizando %s enlaces cerrados sent_date < %s" % (len(cerrados), max_date))
     for links in tm.list_run(update_info, cerrados):
         db.update("LINKS", links, skipNull=True, fixSet="`check` = CURRENT_TIMESTAMP, ")

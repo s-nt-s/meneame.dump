@@ -11,7 +11,8 @@ import re
 from unicodedata import category
 from MySQLdb.cursors import DictCursor
 from core.util import chunks, extract_domain
-from .util import get_items, read, gW
+from .util import get_items, read
+from core.util import gW
 
 no_done=tuple(read("/tmp/cmt_user_id.txt", cast=int))
 

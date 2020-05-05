@@ -486,6 +486,23 @@ class Api:
             fld = sorted(link.keys())
         return tuple(fld)
 
+    @property
+    @lru_cache(maxsize=None)
+    def last_post(self):
+        soup = get_soup("https://www.meneame.net/notame/")
+        if soup is None:
+            return None
+        ids=set()
+        for a in soup.select("a[href]"):
+            a=a.attrs["href"]
+            if "/notame/" in a:
+                a=a.split("/notame/", 1)[-1].rstrip("/")
+                if a.isdigit():
+                    ids.add(int(a))
+        if not ids:
+            return None
+        return max(ids)
+
 
     @property
     @lru_cache(maxsize=None)
@@ -517,6 +534,12 @@ class Api:
                 v = int(v)
             cfg[k]=v
         return cfg
+
+
+    @property
+    @lru_cache(maxsize=None)
+    def safe_wait(self):
+        return max({k:v for k,v in self.mnm_config.items() if "time" in k and isinstance(v, int)}.values())
 
     @property
     @lru_cache(maxsize=None)
@@ -568,15 +591,43 @@ class Api:
             link["domain"] = extract_domain(link.get("url"))
         return link
 
-    def get_comment_info(self, id, *fields, full=False):
+    def get_comment_info(self, id, *fields):
         # link strike
-        fields = fields or ('date', 'votes', 'karma', 'order', 'author', 'content')
+        fields = fields or ('date', 'votes', 'karma', 'order', 'author') #'content'
         _link = {"id": id}
         for fl in chunks(fields, 10):
             if len(fl)==1:
                 fl.append("id")
             fl = ",".join(fl)
             obj = self.get_info(what='comment', id=id, fields=fl)
+            if not obj:
+                return None
+            _link = {**_link, **obj}
+        link = {}
+        for k, v in _link.items():
+            if v == "":
+                v = None
+            if k == "author":
+                k = "user_id"
+            if isinstance(v, str):
+                if "karma" in k:
+                    v = float(v)
+                    if int(v)==v:
+                        v=int(v)
+                elif v.isdigit():
+                    v = int(v)
+            link[k] = v
+        return link
+
+    def get_post_info(self, id, *fields):
+        # link strike
+        fields = fields or ('date', 'author', 'karma', 'votes') #'content'
+        _link = {"id": id}
+        for fl in chunks(fields, 10):
+            if len(fl)==1:
+                fl.append("id")
+            fl = ",".join(fl)
+            obj = self.get_info(what='post', id=id, fields=fl)
             if not obj:
                 return None
             _link = {**_link, **obj}

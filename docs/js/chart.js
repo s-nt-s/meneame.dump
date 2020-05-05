@@ -645,7 +645,8 @@ render_builder={
   "actividad": function(obj, options) {
       var dataset = [];
       var i, k, kl, color, values;
-      var ks = ["usuarios activos", "noticias", "comentarios"];//Object.keys(obj["values"][0]);
+      //var ks = ["usuarios activos", "noticias", "comentarios", "usuarios creados", "usuarios eliminados"];
+      var ks = Object.keys(obj["values"][0]).sort();
       var colors = ["blue", "green", "SaddleBrown"];
       if (options.porcentaje) colors = colors.slice(1);
       var user_values;

@@ -51,7 +51,7 @@ def main():
     min_id  = db.meta.get("min_comment_history_id", api.first_link["id"])
     db.meta.min_comment_history_id = min_id
     max_date = db.one("select max(sent_date) from LINKS")
-    max_date = max_date - api.mnm_config['time_enabled_comments']
+    max_date = max_date - api.safe_wait
     print("Obteniendo comentarios de link_id > %s and link_date < %s" % (min_id, max_date), end="\r")
     max_id = db.one("select max(id) from LINKS where sent_date<"+str(max_date))
     print("Obteniendo comentarios de link_id > %s and link_id < %s [link_date < %s]" % (min_id, max_id, max_date))
@@ -64,7 +64,7 @@ def main():
 
 def fix():
     max_date = db.one("select max(sent_date) from LINKS")
-    max_date = max_date - api.mnm_config['time_enabled_comments']
+    max_date = max_date - api.safe_wait
     print("Obteniendo comentarios de link_id > %s and link_date < %s" % (min_id, max_date), end="\r")
     max_id = db.one("select max(id) from LINKS where sent_date<"+str(max_date))
     print("Obteniendo comentarios de link_id > %s and link_id < %s [link_date < %s]" % (min_id, max_id, max_date))

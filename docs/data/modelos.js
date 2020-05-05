@@ -6005,862 +6005,1206 @@ var modelos = {
   "2005.12": {
    "noticias": 1526,
    "comentarios": 1644,
-   "usuarios activos": 404
+   "usuarios activos": 404,
+   "usuarios creados": 610,
+   "usuarios eliminados": 5
   },
   "2006.01": {
    "noticias": 2394,
    "comentarios": 5369,
-   "usuarios activos": 746
+   "usuarios activos": 746,
+   "usuarios creados": 646,
+   "usuarios eliminados": 9
   },
   "2006.02": {
    "noticias": 2497,
    "comentarios": 7454,
-   "usuarios activos": 988
+   "usuarios activos": 988,
+   "usuarios creados": 639,
+   "usuarios eliminados": 5
   },
   "2006.03": {
    "noticias": 3218,
    "comentarios": 11274,
-   "usuarios activos": 1253
+   "usuarios activos": 1253,
+   "usuarios creados": 966,
+   "usuarios eliminados": 13
   },
   "2006.04": {
    "noticias": 3508,
    "comentarios": 14610,
-   "usuarios activos": 1362
+   "usuarios activos": 1362,
+   "usuarios creados": 938,
+   "usuarios eliminados": 10
   },
   "2006.05": {
    "noticias": 3859,
    "comentarios": 19774,
-   "usuarios activos": 1718
+   "usuarios activos": 1718,
+   "usuarios creados": 1068,
+   "usuarios eliminados": 17
   },
   "2006.06": {
    "noticias": 4070,
    "comentarios": 23271,
-   "usuarios activos": 1992
+   "usuarios activos": 1992,
+   "usuarios creados": 1153,
+   "usuarios eliminados": 28
   },
   "2006.07": {
    "noticias": 4104,
    "comentarios": 22285,
-   "usuarios activos": 2078
+   "usuarios activos": 2078,
+   "usuarios creados": 1139,
+   "usuarios eliminados": 32
   },
   "2006.08": {
    "noticias": 4869,
    "comentarios": 27264,
-   "usuarios activos": 2462
+   "usuarios activos": 2462,
+   "usuarios creados": 1394,
+   "usuarios eliminados": 31
   },
   "2006.09": {
    "noticias": 5921,
    "comentarios": 33779,
-   "usuarios activos": 3045
+   "usuarios activos": 3045,
+   "usuarios creados": 1564,
+   "usuarios eliminados": 33
   },
   "2006.1": {
    "noticias": 7791,
    "comentarios": 40151,
-   "usuarios activos": 3415
+   "usuarios activos": 3415,
+   "usuarios creados": 2227,
+   "usuarios eliminados": 36
   },
   "2006.11": {
    "noticias": 9289,
    "comentarios": 46569,
-   "usuarios activos": 3879
+   "usuarios activos": 3879,
+   "usuarios creados": 2360,
+   "usuarios eliminados": 39
   },
   "2006.12": {
    "noticias": 9684,
    "comentarios": 46694,
-   "usuarios activos": 4152
+   "usuarios activos": 4152,
+   "usuarios creados": 2207,
+   "usuarios eliminados": 28
   },
   "2007.01": {
    "noticias": 13309,
    "comentarios": 65533,
-   "usuarios activos": 5219
+   "usuarios activos": 5219,
+   "usuarios creados": 3088,
+   "usuarios eliminados": 47
   },
   "2007.02": {
    "noticias": 13138,
    "comentarios": 64202,
-   "usuarios activos": 5245
+   "usuarios activos": 5245,
+   "usuarios creados": 2447,
+   "usuarios eliminados": 41
   },
   "2007.03": {
    "noticias": 14224,
    "comentarios": 70636,
-   "usuarios activos": 5876
+   "usuarios activos": 5876,
+   "usuarios creados": 3044,
+   "usuarios eliminados": 57
   },
   "2007.04": {
    "noticias": 13271,
    "comentarios": 67972,
-   "usuarios activos": 6130
+   "usuarios activos": 6130,
+   "usuarios creados": 2997,
+   "usuarios eliminados": 133
   },
   "2007.05": {
    "noticias": 17605,
    "comentarios": 85815,
-   "usuarios activos": 7226
+   "usuarios activos": 7226,
+   "usuarios creados": 3688,
+   "usuarios eliminados": 106
   },
   "2007.06": {
    "noticias": 15751,
    "comentarios": 88231,
-   "usuarios activos": 7275
+   "usuarios activos": 7275,
+   "usuarios creados": 3219,
+   "usuarios eliminados": 172
   },
   "2007.07": {
    "noticias": 14902,
    "comentarios": 82823,
-   "usuarios activos": 6797
+   "usuarios activos": 6797,
+   "usuarios creados": 2847,
+   "usuarios eliminados": 154
   },
   "2007.08": {
    "noticias": 14035,
    "comentarios": 83212,
-   "usuarios activos": 6764
+   "usuarios activos": 6764,
+   "usuarios creados": 2760,
+   "usuarios eliminados": 183
   },
   "2007.09": {
    "noticias": 16165,
    "comentarios": 96737,
-   "usuarios activos": 7587
+   "usuarios activos": 7587,
+   "usuarios creados": 3149,
+   "usuarios eliminados": 250
   },
   "2007.1": {
    "noticias": 17218,
    "comentarios": 107759,
-   "usuarios activos": 7517
+   "usuarios activos": 7517,
+   "usuarios creados": 3364,
+   "usuarios eliminados": 164
   },
   "2007.11": {
    "noticias": 17503,
    "comentarios": 106661,
-   "usuarios activos": 7883
+   "usuarios activos": 7883,
+   "usuarios creados": 3540,
+   "usuarios eliminados": 213
   },
   "2007.12": {
    "noticias": 15221,
    "comentarios": 101551,
-   "usuarios activos": 7680
+   "usuarios activos": 7680,
+   "usuarios creados": 3473,
+   "usuarios eliminados": 183
   },
   "2008.01": {
    "noticias": 17369,
    "comentarios": 132941,
-   "usuarios activos": 8626
+   "usuarios activos": 8626,
+   "usuarios creados": 3922,
+   "usuarios eliminados": 257
   },
   "2008.02": {
    "noticias": 17910,
    "comentarios": 137098,
-   "usuarios activos": 9150
+   "usuarios activos": 9150,
+   "usuarios creados": 4162,
+   "usuarios eliminados": 219
   },
   "2008.03": {
    "noticias": 18264,
    "comentarios": 136948,
-   "usuarios activos": 8955
+   "usuarios activos": 8955,
+   "usuarios creados": 3644,
+   "usuarios eliminados": 170
   },
   "2008.04": {
    "noticias": 20893,
    "comentarios": 145555,
-   "usuarios activos": 9731
+   "usuarios activos": 9731,
+   "usuarios creados": 3618,
+   "usuarios eliminados": 238
   },
   "2008.05": {
    "noticias": 21500,
    "comentarios": 161645,
-   "usuarios activos": 9827
+   "usuarios activos": 9827,
+   "usuarios creados": 3564,
+   "usuarios eliminados": 259
   },
   "2008.06": {
    "noticias": 22057,
    "comentarios": 188920,
-   "usuarios activos": 10100
+   "usuarios activos": 10100,
+   "usuarios creados": 3665,
+   "usuarios eliminados": 260
   },
   "2008.07": {
    "noticias": 21436,
    "comentarios": 183326,
-   "usuarios activos": 9629
+   "usuarios activos": 9629,
+   "usuarios creados": 3549,
+   "usuarios eliminados": 187
   },
   "2008.08": {
    "noticias": 19138,
    "comentarios": 178639,
-   "usuarios activos": 9320
+   "usuarios activos": 9320,
+   "usuarios creados": 3382,
+   "usuarios eliminados": 185
   },
   "2008.09": {
    "noticias": 22104,
    "comentarios": 203939,
-   "usuarios activos": 10301
+   "usuarios activos": 10301,
+   "usuarios creados": 3507,
+   "usuarios eliminados": 240
   },
   "2008.1": {
    "noticias": 23642,
    "comentarios": 189142,
-   "usuarios activos": 10341
+   "usuarios activos": 10341,
+   "usuarios creados": 3473,
+   "usuarios eliminados": 248
   },
   "2008.11": {
    "noticias": 20291,
    "comentarios": 174226,
-   "usuarios activos": 9982
+   "usuarios activos": 9982,
+   "usuarios creados": 3259,
+   "usuarios eliminados": 236
   },
   "2008.12": {
    "noticias": 18462,
    "comentarios": 161507,
-   "usuarios activos": 9574
+   "usuarios activos": 9574,
+   "usuarios creados": 2980,
+   "usuarios eliminados": 262
   },
   "2009.01": {
    "noticias": 21933,
    "comentarios": 195877,
-   "usuarios activos": 10366
+   "usuarios activos": 10366,
+   "usuarios creados": 3563,
+   "usuarios eliminados": 288
   },
   "2009.02": {
    "noticias": 21911,
    "comentarios": 195101,
-   "usuarios activos": 10748
+   "usuarios activos": 10748,
+   "usuarios creados": 3588,
+   "usuarios eliminados": 289
   },
   "2009.03": {
    "noticias": 22825,
    "comentarios": 197740,
-   "usuarios activos": 10525
+   "usuarios activos": 10525,
+   "usuarios creados": 3736,
+   "usuarios eliminados": 320
   },
   "2009.04": {
    "noticias": 21384,
    "comentarios": 184450,
-   "usuarios activos": 10363
+   "usuarios activos": 10363,
+   "usuarios creados": 3596,
+   "usuarios eliminados": 666
   },
   "2009.05": {
    "noticias": 20854,
    "comentarios": 181702,
-   "usuarios activos": 10250
+   "usuarios activos": 10250,
+   "usuarios creados": 3806,
+   "usuarios eliminados": 409
   },
   "2009.06": {
    "noticias": 20554,
    "comentarios": 184168,
-   "usuarios activos": 9918
+   "usuarios activos": 9918,
+   "usuarios creados": 3430,
+   "usuarios eliminados": 185
   },
   "2009.07": {
    "noticias": 19966,
    "comentarios": 173472,
-   "usuarios activos": 9626
+   "usuarios activos": 9626,
+   "usuarios creados": 3128,
+   "usuarios eliminados": 181
   },
   "2009.08": {
    "noticias": 18260,
    "comentarios": 168367,
-   "usuarios activos": 9375
+   "usuarios activos": 9375,
+   "usuarios creados": 3151,
+   "usuarios eliminados": 179
   },
   "2009.09": {
    "noticias": 20256,
    "comentarios": 183985,
-   "usuarios activos": 10339
+   "usuarios activos": 10339,
+   "usuarios creados": 3073,
+   "usuarios eliminados": 266
   },
   "2009.1": {
    "noticias": 21161,
    "comentarios": 178795,
-   "usuarios activos": 10240
+   "usuarios activos": 10240,
+   "usuarios creados": 2936,
+   "usuarios eliminados": 240
   },
   "2009.11": {
    "noticias": 20166,
    "comentarios": 178408,
-   "usuarios activos": 10198
+   "usuarios activos": 10198,
+   "usuarios creados": 3324,
+   "usuarios eliminados": 176
   },
   "2009.12": {
    "noticias": 19785,
    "comentarios": 171710,
-   "usuarios activos": 10263
+   "usuarios activos": 10263,
+   "usuarios creados": 2796,
+   "usuarios eliminados": 189
   },
   "2010.01": {
    "noticias": 21573,
    "comentarios": 187061,
-   "usuarios activos": 10746
+   "usuarios activos": 10746,
+   "usuarios creados": 3373,
+   "usuarios eliminados": 191
   },
   "2010.02": {
    "noticias": 19374,
    "comentarios": 158535,
-   "usuarios activos": 9899
+   "usuarios activos": 9899,
+   "usuarios creados": 3101,
+   "usuarios eliminados": 161
   },
   "2010.03": {
    "noticias": 21420,
    "comentarios": 172239,
-   "usuarios activos": 10277
+   "usuarios activos": 10277,
+   "usuarios creados": 3167,
+   "usuarios eliminados": 212
   },
   "2010.04": {
    "noticias": 20208,
    "comentarios": 164392,
-   "usuarios activos": 9994
+   "usuarios activos": 9994,
+   "usuarios creados": 4448,
+   "usuarios eliminados": 162
   },
   "2010.05": {
    "noticias": 22032,
    "comentarios": 192527,
-   "usuarios activos": 10857
+   "usuarios activos": 10857,
+   "usuarios creados": 5781,
+   "usuarios eliminados": 218
   },
   "2010.06": {
    "noticias": 21832,
    "comentarios": 191261,
-   "usuarios activos": 10823
+   "usuarios activos": 10823,
+   "usuarios creados": 5259,
+   "usuarios eliminados": 269
   },
   "2010.07": {
    "noticias": 19046,
    "comentarios": 182479,
-   "usuarios activos": 10424
+   "usuarios activos": 10424,
+   "usuarios creados": 4870,
+   "usuarios eliminados": 235
   },
   "2010.08": {
    "noticias": 17941,
    "comentarios": 159928,
-   "usuarios activos": 9660
+   "usuarios activos": 9660,
+   "usuarios creados": 4988,
+   "usuarios eliminados": 268
   },
   "2010.09": {
    "noticias": 18791,
    "comentarios": 164691,
-   "usuarios activos": 10395
+   "usuarios activos": 10395,
+   "usuarios creados": 4910,
+   "usuarios eliminados": 238
   },
   "2010.1": {
    "noticias": 18138,
    "comentarios": 153952,
-   "usuarios activos": 10388
+   "usuarios activos": 10388,
+   "usuarios creados": 4965,
+   "usuarios eliminados": 236
   },
   "2010.11": {
    "noticias": 19397,
    "comentarios": 152931,
-   "usuarios activos": 10511
+   "usuarios activos": 10511,
+   "usuarios creados": 5468,
+   "usuarios eliminados": 268
   },
   "2010.12": {
    "noticias": 18956,
    "comentarios": 171175,
-   "usuarios activos": 11222
+   "usuarios activos": 11222,
+   "usuarios creados": 5907,
+   "usuarios eliminados": 253
   },
   "2011.01": {
    "noticias": 21226,
    "comentarios": 172518,
-   "usuarios activos": 11446
+   "usuarios activos": 11446,
+   "usuarios creados": 5805,
+   "usuarios eliminados": 263
   },
   "2011.02": {
    "noticias": 21781,
    "comentarios": 157540,
-   "usuarios activos": 11555
+   "usuarios activos": 11555,
+   "usuarios creados": 6027,
+   "usuarios eliminados": 238
   },
   "2011.03": {
    "noticias": 24889,
    "comentarios": 194995,
-   "usuarios activos": 12170
+   "usuarios activos": 12170,
+   "usuarios creados": 6889,
+   "usuarios eliminados": 304
   },
   "2011.04": {
    "noticias": 20810,
    "comentarios": 170718,
-   "usuarios activos": 11456
+   "usuarios activos": 11456,
+   "usuarios creados": 5520,
+   "usuarios eliminados": 259
   },
   "2011.05": {
    "noticias": 24264,
    "comentarios": 211838,
-   "usuarios activos": 12745
+   "usuarios activos": 12745,
+   "usuarios creados": 6666,
+   "usuarios eliminados": 250
   },
   "2011.06": {
    "noticias": 23190,
    "comentarios": 204464,
-   "usuarios activos": 12404
+   "usuarios activos": 12404,
+   "usuarios creados": 5761,
+   "usuarios eliminados": 268
   },
   "2011.07": {
    "noticias": 20234,
    "comentarios": 181967,
-   "usuarios activos": 11478
+   "usuarios activos": 11478,
+   "usuarios creados": 5008,
+   "usuarios eliminados": 248
   },
   "2011.08": {
    "noticias": 20903,
    "comentarios": 180164,
-   "usuarios activos": 11260
+   "usuarios activos": 11260,
+   "usuarios creados": 4665,
+   "usuarios eliminados": 212
   },
   "2011.09": {
    "noticias": 23859,
    "comentarios": 195836,
-   "usuarios activos": 12106
+   "usuarios activos": 12106,
+   "usuarios creados": 5129,
+   "usuarios eliminados": 280
   },
   "2011.1": {
    "noticias": 24119,
    "comentarios": 200701,
-   "usuarios activos": 12242
+   "usuarios activos": 12242,
+   "usuarios creados": 5339,
+   "usuarios eliminados": 241
   },
   "2011.11": {
    "noticias": 26266,
    "comentarios": 211502,
-   "usuarios activos": 12749
+   "usuarios activos": 12749,
+   "usuarios creados": 5760,
+   "usuarios eliminados": 246
   },
   "2011.12": {
    "noticias": 23816,
    "comentarios": 184111,
-   "usuarios activos": 12013
+   "usuarios activos": 12013,
+   "usuarios creados": 4901,
+   "usuarios eliminados": 225
   },
   "2012.01": {
    "noticias": 24787,
    "comentarios": 204477,
-   "usuarios activos": 12873
+   "usuarios activos": 12873,
+   "usuarios creados": 5721,
+   "usuarios eliminados": 281
   },
   "2012.02": {
    "noticias": 22373,
    "comentarios": 191727,
-   "usuarios activos": 12360
+   "usuarios activos": 12360,
+   "usuarios creados": 5305,
+   "usuarios eliminados": 278
   },
   "2012.03": {
    "noticias": 21225,
    "comentarios": 174372,
-   "usuarios activos": 11789
+   "usuarios activos": 11789,
+   "usuarios creados": 4961,
+   "usuarios eliminados": 230
   },
   "2012.04": {
    "noticias": 19147,
    "comentarios": 173804,
-   "usuarios activos": 11503
+   "usuarios activos": 11503,
+   "usuarios creados": 4312,
+   "usuarios eliminados": 241
   },
   "2012.05": {
    "noticias": 22179,
    "comentarios": 193969,
-   "usuarios activos": 11937
+   "usuarios activos": 11937,
+   "usuarios creados": 4585,
+   "usuarios eliminados": 222
   },
   "2012.06": {
    "noticias": 20328,
    "comentarios": 191029,
-   "usuarios activos": 11565
+   "usuarios activos": 11565,
+   "usuarios creados": 3992,
+   "usuarios eliminados": 251
   },
   "2012.07": {
    "noticias": 20300,
    "comentarios": 198154,
-   "usuarios activos": 11409
+   "usuarios activos": 11409,
+   "usuarios creados": 3969,
+   "usuarios eliminados": 241
   },
   "2012.08": {
    "noticias": 17258,
    "comentarios": 177289,
-   "usuarios activos": 10562
+   "usuarios activos": 10562,
+   "usuarios creados": 3802,
+   "usuarios eliminados": 216
   },
   "2012.09": {
    "noticias": 19234,
    "comentarios": 194197,
-   "usuarios activos": 11424
+   "usuarios activos": 11424,
+   "usuarios creados": 4545,
+   "usuarios eliminados": 289
   },
   "2012.1": {
    "noticias": 20906,
    "comentarios": 191568,
-   "usuarios activos": 11619
+   "usuarios activos": 11619,
+   "usuarios creados": 4371,
+   "usuarios eliminados": 233
   },
   "2012.11": {
    "noticias": 20276,
    "comentarios": 176464,
-   "usuarios activos": 11261
+   "usuarios activos": 11261,
+   "usuarios creados": 3649,
+   "usuarios eliminados": 259
   },
   "2012.12": {
    "noticias": 18032,
    "comentarios": 154897,
-   "usuarios activos": 10500
+   "usuarios activos": 10500,
+   "usuarios creados": 4633,
+   "usuarios eliminados": 188
   },
   "2013.01": {
    "noticias": 22385,
    "comentarios": 182681,
-   "usuarios activos": 11211
+   "usuarios activos": 11211,
+   "usuarios creados": 4660,
+   "usuarios eliminados": 263
   },
   "2013.02": {
    "noticias": 20110,
    "comentarios": 172296,
-   "usuarios activos": 10944
+   "usuarios activos": 10944,
+   "usuarios creados": 4297,
+   "usuarios eliminados": 232
   },
   "2013.03": {
    "noticias": 19937,
    "comentarios": 169823,
-   "usuarios activos": 10839
+   "usuarios activos": 10839,
+   "usuarios creados": 4219,
+   "usuarios eliminados": 309
   },
   "2013.04": {
    "noticias": 21074,
    "comentarios": 183761,
-   "usuarios activos": 10823
+   "usuarios activos": 10823,
+   "usuarios creados": 4636,
+   "usuarios eliminados": 264
   },
   "2013.05": {
    "noticias": 20609,
    "comentarios": 179955,
-   "usuarios activos": 10669
+   "usuarios activos": 10669,
+   "usuarios creados": 4595,
+   "usuarios eliminados": 250
   },
   "2013.06": {
    "noticias": 18745,
    "comentarios": 167938,
-   "usuarios activos": 10211
+   "usuarios activos": 10211,
+   "usuarios creados": 4037,
+   "usuarios eliminados": 227
   },
   "2013.07": {
    "noticias": 17964,
    "comentarios": 180242,
-   "usuarios activos": 9854
+   "usuarios activos": 9854,
+   "usuarios creados": 3919,
+   "usuarios eliminados": 229
   },
   "2013.08": {
    "noticias": 15049,
    "comentarios": 157255,
-   "usuarios activos": 9211
+   "usuarios activos": 9211,
+   "usuarios creados": 3678,
+   "usuarios eliminados": 148
   },
   "2013.09": {
    "noticias": 16853,
    "comentarios": 174818,
-   "usuarios activos": 9721
+   "usuarios activos": 9721,
+   "usuarios creados": 3732,
+   "usuarios eliminados": 163
   },
   "2013.1": {
    "noticias": 17374,
    "comentarios": 161767,
-   "usuarios activos": 9799
+   "usuarios activos": 9799,
+   "usuarios creados": 4103,
+   "usuarios eliminados": 208
   },
   "2013.11": {
    "noticias": 15397,
    "comentarios": 141095,
-   "usuarios activos": 9491
+   "usuarios activos": 9491,
+   "usuarios creados": 3901,
+   "usuarios eliminados": 159
   },
   "2013.12": {
    "noticias": 14127,
    "comentarios": 134431,
-   "usuarios activos": 9051
+   "usuarios activos": 9051,
+   "usuarios creados": 3832,
+   "usuarios eliminados": 144
   },
   "2014.01": {
    "noticias": 16301,
    "comentarios": 157717,
-   "usuarios activos": 9721
+   "usuarios activos": 9721,
+   "usuarios creados": 4245,
+   "usuarios eliminados": 216
   },
   "2014.02": {
    "noticias": 15525,
    "comentarios": 148762,
-   "usuarios activos": 9554
+   "usuarios activos": 9554,
+   "usuarios creados": 3939,
+   "usuarios eliminados": 148
   },
   "2014.03": {
    "noticias": 16314,
    "comentarios": 149289,
-   "usuarios activos": 9191
+   "usuarios activos": 9191,
+   "usuarios creados": 4240,
+   "usuarios eliminados": 192
   },
   "2014.04": {
    "noticias": 15742,
    "comentarios": 133869,
-   "usuarios activos": 8755
+   "usuarios activos": 8755,
+   "usuarios creados": 3813,
+   "usuarios eliminados": 187
   },
   "2014.05": {
    "noticias": 16200,
    "comentarios": 164340,
-   "usuarios activos": 9260
+   "usuarios activos": 9260,
+   "usuarios creados": 4001,
+   "usuarios eliminados": 233
   },
   "2014.06": {
    "noticias": 15736,
    "comentarios": 164587,
-   "usuarios activos": 9137
+   "usuarios activos": 9137,
+   "usuarios creados": 5896,
+   "usuarios eliminados": 159
   },
   "2014.07": {
    "noticias": 15060,
    "comentarios": 167362,
-   "usuarios activos": 9003
+   "usuarios activos": 9003,
+   "usuarios creados": 3777,
+   "usuarios eliminados": 214
   },
   "2014.08": {
    "noticias": 14113,
    "comentarios": 169787,
-   "usuarios activos": 8602
+   "usuarios activos": 8602,
+   "usuarios creados": 3621,
+   "usuarios eliminados": 237
   },
   "2014.09": {
    "noticias": 14568,
    "comentarios": 184742,
-   "usuarios activos": 9041
+   "usuarios activos": 9041,
+   "usuarios creados": 3347,
+   "usuarios eliminados": 215
   },
   "2014.1": {
    "noticias": 17254,
    "comentarios": 199797,
-   "usuarios activos": 9469
+   "usuarios activos": 9469,
+   "usuarios creados": 3234,
+   "usuarios eliminados": 180
   },
   "2014.11": {
    "noticias": 15393,
    "comentarios": 180716,
-   "usuarios activos": 9061
+   "usuarios activos": 9061,
+   "usuarios creados": 2959,
+   "usuarios eliminados": 207
   },
   "2014.12": {
    "noticias": 14556,
    "comentarios": 160439,
-   "usuarios activos": 8955
+   "usuarios activos": 8955,
+   "usuarios creados": 2785,
+   "usuarios eliminados": 166
   },
   "2015.01": {
    "noticias": 15382,
    "comentarios": 185642,
-   "usuarios activos": 9250
+   "usuarios activos": 9250,
+   "usuarios creados": 3102,
+   "usuarios eliminados": 220
   },
   "2015.02": {
    "noticias": 14813,
    "comentarios": 178444,
-   "usuarios activos": 9082
+   "usuarios activos": 9082,
+   "usuarios creados": 3310,
+   "usuarios eliminados": 266
   },
   "2015.03": {
    "noticias": 14925,
    "comentarios": 188283,
-   "usuarios activos": 8968
+   "usuarios activos": 8968,
+   "usuarios creados": 3392,
+   "usuarios eliminados": 194
   },
   "2015.04": {
    "noticias": 14707,
    "comentarios": 186808,
-   "usuarios activos": 8758
+   "usuarios activos": 8758,
+   "usuarios creados": 2973,
+   "usuarios eliminados": 230
   },
   "2015.05": {
    "noticias": 15366,
    "comentarios": 214655,
-   "usuarios activos": 9144
+   "usuarios activos": 9144,
+   "usuarios creados": 3252,
+   "usuarios eliminados": 182
   },
   "2015.06": {
    "noticias": 13967,
    "comentarios": 219083,
-   "usuarios activos": 9005
+   "usuarios activos": 9005,
+   "usuarios creados": 3034,
+   "usuarios eliminados": 273
   },
   "2015.07": {
    "noticias": 13180,
    "comentarios": 215184,
-   "usuarios activos": 8682
+   "usuarios activos": 8682,
+   "usuarios creados": 2721,
+   "usuarios eliminados": 333
   },
   "2015.08": {
    "noticias": 12119,
    "comentarios": 188938,
-   "usuarios activos": 8058
+   "usuarios activos": 8058,
+   "usuarios creados": 2470,
+   "usuarios eliminados": 170
   },
   "2015.09": {
    "noticias": 12031,
    "comentarios": 206849,
-   "usuarios activos": 8453
+   "usuarios activos": 8453,
+   "usuarios creados": 2457,
+   "usuarios eliminados": 223
   },
   "2015.1": {
    "noticias": 13783,
    "comentarios": 218177,
-   "usuarios activos": 8530
+   "usuarios activos": 8530,
+   "usuarios creados": 2750,
+   "usuarios eliminados": 299
   },
   "2015.11": {
    "noticias": 14222,
    "comentarios": 231180,
-   "usuarios activos": 8699
+   "usuarios activos": 8699,
+   "usuarios creados": 3020,
+   "usuarios eliminados": 337
   },
   "2015.12": {
    "noticias": 14246,
    "comentarios": 227205,
-   "usuarios activos": 8627
+   "usuarios activos": 8627,
+   "usuarios creados": 2596,
+   "usuarios eliminados": 229
   },
   "2016.01": {
    "noticias": 14722,
    "comentarios": 236823,
-   "usuarios activos": 8431
+   "usuarios activos": 8431,
+   "usuarios creados": 2730,
+   "usuarios eliminados": 226
   },
   "2016.02": {
    "noticias": 14554,
    "comentarios": 219471,
-   "usuarios activos": 8491
+   "usuarios activos": 8491,
+   "usuarios creados": 2929,
+   "usuarios eliminados": 249
   },
   "2016.03": {
    "noticias": 12999,
    "comentarios": 213257,
-   "usuarios activos": 8268
+   "usuarios activos": 8268,
+   "usuarios creados": 2446,
+   "usuarios eliminados": 214
   },
   "2016.04": {
    "noticias": 13235,
    "comentarios": 209060,
-   "usuarios activos": 8186
+   "usuarios activos": 8186,
+   "usuarios creados": 2577,
+   "usuarios eliminados": 200
   },
   "2016.05": {
    "noticias": 13296,
    "comentarios": 221953,
-   "usuarios activos": 8345
+   "usuarios activos": 8345,
+   "usuarios creados": 2565,
+   "usuarios eliminados": 300
   },
   "2016.06": {
    "noticias": 12404,
    "comentarios": 239200,
-   "usuarios activos": 8435
+   "usuarios activos": 8435,
+   "usuarios creados": 2194,
+   "usuarios eliminados": 258
   },
   "2016.07": {
    "noticias": 11130,
    "comentarios": 217615,
-   "usuarios activos": 7955
+   "usuarios activos": 7955,
+   "usuarios creados": 2028,
+   "usuarios eliminados": 177
   },
   "2016.08": {
    "noticias": 10213,
    "comentarios": 188898,
-   "usuarios activos": 7602
+   "usuarios activos": 7602,
+   "usuarios creados": 1809,
+   "usuarios eliminados": 180
   },
   "2016.09": {
    "noticias": 10744,
    "comentarios": 188487,
-   "usuarios activos": 7799
+   "usuarios activos": 7799,
+   "usuarios creados": 1981,
+   "usuarios eliminados": 198
   },
   "2016.1": {
    "noticias": 10180,
    "comentarios": 187007,
-   "usuarios activos": 7553
+   "usuarios activos": 7553,
+   "usuarios creados": 1931,
+   "usuarios eliminados": 135
   },
   "2016.11": {
    "noticias": 10037,
    "comentarios": 179006,
-   "usuarios activos": 7498
+   "usuarios activos": 7498,
+   "usuarios creados": 2783,
+   "usuarios eliminados": 170
   },
   "2016.12": {
    "noticias": 9849,
    "comentarios": 170443,
-   "usuarios activos": 7398
+   "usuarios activos": 7398,
+   "usuarios creados": 3076,
+   "usuarios eliminados": 169
   },
   "2017.01": {
    "noticias": 10863,
    "comentarios": 182556,
-   "usuarios activos": 7700
+   "usuarios activos": 7700,
+   "usuarios creados": 3238,
+   "usuarios eliminados": 204
   },
   "2017.02": {
    "noticias": 9773,
    "comentarios": 165056,
-   "usuarios activos": 7348
+   "usuarios activos": 7348,
+   "usuarios creados": 3011,
+   "usuarios eliminados": 152
   },
   "2017.03": {
    "noticias": 10678,
    "comentarios": 170449,
-   "usuarios activos": 7218
+   "usuarios activos": 7218,
+   "usuarios creados": 3052,
+   "usuarios eliminados": 128
   },
   "2017.04": {
    "noticias": 9820,
    "comentarios": 169903,
-   "usuarios activos": 6986
+   "usuarios activos": 6986,
+   "usuarios creados": 2043,
+   "usuarios eliminados": 127
   },
   "2017.05": {
    "noticias": 11827,
    "comentarios": 217732,
-   "usuarios activos": 7693
+   "usuarios activos": 7693,
+   "usuarios creados": 2423,
+   "usuarios eliminados": 146
   },
   "2017.06": {
    "noticias": 10612,
    "comentarios": 203080,
-   "usuarios activos": 7490
+   "usuarios activos": 7490,
+   "usuarios creados": 2297,
+   "usuarios eliminados": 149
   },
   "2017.07": {
    "noticias": 10832,
    "comentarios": 180947,
-   "usuarios activos": 7363
+   "usuarios activos": 7363,
+   "usuarios creados": 2618,
+   "usuarios eliminados": 235
   },
   "2017.08": {
    "noticias": 11061,
    "comentarios": 203998,
-   "usuarios activos": 7351
+   "usuarios activos": 7351,
+   "usuarios creados": 2958,
+   "usuarios eliminados": 202
   },
   "2017.09": {
    "noticias": 12405,
    "comentarios": 229542,
-   "usuarios activos": 7556
+   "usuarios activos": 7556,
+   "usuarios creados": 2839,
+   "usuarios eliminados": 185
   },
   "2017.1": {
    "noticias": 14696,
    "comentarios": 307998,
-   "usuarios activos": 8250
+   "usuarios activos": 8250,
+   "usuarios creados": 3308,
+   "usuarios eliminados": 280
   },
   "2017.11": {
    "noticias": 12919,
    "comentarios": 206194,
-   "usuarios activos": 7543
+   "usuarios activos": 7543,
+   "usuarios creados": 2904,
+   "usuarios eliminados": 235
   },
   "2017.12": {
    "noticias": 10838,
    "comentarios": 171079,
-   "usuarios activos": 7020
+   "usuarios activos": 7020,
+   "usuarios creados": 2289,
+   "usuarios eliminados": 196
   },
   "2018.01": {
    "noticias": 12429,
    "comentarios": 207986,
-   "usuarios activos": 7391
+   "usuarios activos": 7391,
+   "usuarios creados": 2718,
+   "usuarios eliminados": 207
   },
   "2018.02": {
    "noticias": 11946,
    "comentarios": 204387,
-   "usuarios activos": 7184
+   "usuarios activos": 7184,
+   "usuarios creados": 2390,
+   "usuarios eliminados": 208
   },
   "2018.03": {
    "noticias": 13277,
    "comentarios": 229850,
-   "usuarios activos": 7405
+   "usuarios activos": 7405,
+   "usuarios creados": 2447,
+   "usuarios eliminados": 199
   },
   "2018.04": {
    "noticias": 14127,
    "comentarios": 234558,
-   "usuarios activos": 7369
+   "usuarios activos": 7369,
+   "usuarios creados": 2537,
+   "usuarios eliminados": 169
   },
   "2018.05": {
    "noticias": 14146,
    "comentarios": 240398,
-   "usuarios activos": 7494
+   "usuarios activos": 7494,
+   "usuarios creados": 2508,
+   "usuarios eliminados": 238
   },
   "2018.06": {
    "noticias": 13128,
    "comentarios": 223747,
-   "usuarios activos": 7363
+   "usuarios activos": 7363,
+   "usuarios creados": 2279,
+   "usuarios eliminados": 236
   },
   "2018.07": {
    "noticias": 12143,
    "comentarios": 222140,
-   "usuarios activos": 7341
+   "usuarios activos": 7341,
+   "usuarios creados": 2242,
+   "usuarios eliminados": 189
   },
   "2018.08": {
    "noticias": 12393,
    "comentarios": 232124,
-   "usuarios activos": 7250
+   "usuarios activos": 7250,
+   "usuarios creados": 2362,
+   "usuarios eliminados": 177
   },
   "2018.09": {
    "noticias": 12858,
    "comentarios": 229982,
-   "usuarios activos": 7274
+   "usuarios activos": 7274,
+   "usuarios creados": 2098,
+   "usuarios eliminados": 180
   },
   "2018.1": {
    "noticias": 12667,
    "comentarios": 221526,
-   "usuarios activos": 7151
+   "usuarios activos": 7151,
+   "usuarios creados": 2063,
+   "usuarios eliminados": 164
   },
   "2018.11": {
    "noticias": 11697,
    "comentarios": 209606,
-   "usuarios activos": 6979
+   "usuarios activos": 6979,
+   "usuarios creados": 2047,
+   "usuarios eliminados": 158
   },
   "2018.12": {
    "noticias": 10873,
    "comentarios": 210771,
-   "usuarios activos": 6909
+   "usuarios activos": 6909,
+   "usuarios creados": 2051,
+   "usuarios eliminados": 185
   },
   "2019.01": {
    "noticias": 11890,
    "comentarios": 224200,
-   "usuarios activos": 7228
+   "usuarios activos": 7228,
+   "usuarios creados": 3073,
+   "usuarios eliminados": 197
   },
   "2019.02": {
    "noticias": 11690,
    "comentarios": 210828,
-   "usuarios activos": 7105
+   "usuarios activos": 7105,
+   "usuarios creados": 2301,
+   "usuarios eliminados": 209
   },
   "2019.03": {
    "noticias": 13196,
    "comentarios": 223743,
-   "usuarios activos": 7273
+   "usuarios activos": 7273,
+   "usuarios creados": 2460,
+   "usuarios eliminados": 252
   },
   "2019.04": {
    "noticias": 12214,
    "comentarios": 204153,
-   "usuarios activos": 7087
+   "usuarios activos": 7087,
+   "usuarios creados": 2518,
+   "usuarios eliminados": 173
   },
   "2019.05": {
    "noticias": 12238,
    "comentarios": 204862,
-   "usuarios activos": 7255
+   "usuarios activos": 7255,
+   "usuarios creados": 2493,
+   "usuarios eliminados": 262
   },
   "2019.06": {
    "noticias": 11997,
    "comentarios": 199480,
-   "usuarios activos": 7009
+   "usuarios activos": 7009,
+   "usuarios creados": 2674,
+   "usuarios eliminados": 204
   },
   "2019.07": {
    "noticias": 11946,
    "comentarios": 204613,
-   "usuarios activos": 6888
+   "usuarios activos": 6888,
+   "usuarios creados": 2489,
+   "usuarios eliminados": 248
   },
   "2019.08": {
    "noticias": 10860,
    "comentarios": 198213,
-   "usuarios activos": 6628
+   "usuarios activos": 6628,
+   "usuarios creados": 2210,
+   "usuarios eliminados": 180
   },
   "2019.09": {
    "noticias": 11230,
    "comentarios": 205340,
-   "usuarios activos": 6722
+   "usuarios activos": 6722,
+   "usuarios creados": 2300,
+   "usuarios eliminados": 197
   },
   "2019.1": {
    "noticias": 12264,
    "comentarios": 235365,
-   "usuarios activos": 7122
+   "usuarios activos": 7122,
+   "usuarios creados": 2828,
+   "usuarios eliminados": 288
   },
   "2019.11": {
    "noticias": 12228,
    "comentarios": 214566,
-   "usuarios activos": 7010
+   "usuarios activos": 7010,
+   "usuarios creados": 2557,
+   "usuarios eliminados": 277
   },
   "2019.12": {
    "noticias": 10253,
    "comentarios": 199599,
-   "usuarios activos": 6598
+   "usuarios activos": 6598,
+   "usuarios creados": 2340,
+   "usuarios eliminados": 181
   },
   "2020.01": {
    "noticias": 11660,
    "comentarios": 220350,
-   "usuarios activos": 6845
+   "usuarios activos": 6845,
+   "usuarios creados": 2735,
+   "usuarios eliminados": 219
   },
   "2020.02": {
    "noticias": 12102,
    "comentarios": 202176,
-   "usuarios activos": 6789
+   "usuarios activos": 6789,
+   "usuarios creados": 2677,
+   "usuarios eliminados": 246
   },
   "2020.03": {
    "noticias": 16778,
    "comentarios": 319203,
-   "usuarios activos": 8265
+   "usuarios activos": 8265,
+   "usuarios creados": 4684,
+   "usuarios eliminados": 96
   }
  },
  "dominios_todos": {
@@ -14640,8 +14984,8 @@ var tags = {
   "astroseti.org",
   "bandaancha.eu",
   "barrapunto.com",
-  "*.bbc.co.uk",
   "bbc.co.uk",
+  "*.bbc.co.uk",
   "bitelia.com",
   "blogs.20minutos.es",
   "blogs.elconfidencial.com",
@@ -14671,8 +15015,8 @@ var tags = {
   "economia.elpais.com",
   "elblogsalmon.com",
   "elboletin.com",
-  "elconfidencial.com",
   "*.elconfidencial.com",
+  "elconfidencial.com",
   "elconfidencialdigital.com",
   "elcorreo.com",
   "*.elcorreo.com",
@@ -14687,8 +15031,8 @@ var tags = {
   "eljueves.es",
   "elmundo.es",
   "elmundotoday.com",
-  "*.elpais.com",
   "elpais.com",
+  "*.elpais.com",
   "elperiodico.com",
   "elplural.com",
   "elsaltodiario.com",
@@ -14721,8 +15065,8 @@ var tags = {
   "kaosenlared.net",
   "kriptopolis.org",
   "labrujulaverde.com",
-  "lainformacion.com",
   "*.lainformacion.com",
+  "lainformacion.com",
   "lamarea.com",
   "larazon.es",
   "lasexta.com",

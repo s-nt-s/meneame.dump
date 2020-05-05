@@ -5,12 +5,6 @@ import json
 from glob import glob
 from bunch import Bunch
 
-def gW(ids, f="id"):
-    if len(ids)==1:
-        return f+" = "+str(ids.pop())
-    return f+" in %s" % (tuple(sorted(ids)), )
-
-
 def read(fl, split=None, cast=None):
     with open(fl, "r") as f:
         for l in f.readlines():
