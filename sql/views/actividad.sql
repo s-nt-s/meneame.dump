@@ -13,13 +13,15 @@ select
   mes,
   user_id,
   sum(links) links,
-  sum(comments) comments
+  sum(comments) comments,
+  sum(posts) posts
 from (
   select
     date_mod(from_unixtime(sent_date), 1) mes,
     user_id,
     1 links,
-    0 comments
+    0 comments,
+    0 posts
   from
     LINKS
   where `sent_date` < @cutdate
@@ -28,9 +30,20 @@ from (
     date_mod(from_unixtime(`date`), 1) mes,
     user_id,
     0 links,
-    1 comments
+    1 comments,
+    0 posts
   from
     COMMENTS
+  where `date` < @cutdate
+  union all
+  select
+    date_mod(from_unixtime(`date`), 1) mes,
+    user_id,
+    0 links,
+    0 comments,
+    1 posts
+  from
+    POSTS
   where `date` < @cutdate
 ) T
 group by

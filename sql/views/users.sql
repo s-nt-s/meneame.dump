@@ -2,6 +2,7 @@ create table IF NOT EXISTS USERS (
   `id` INT,
   `links` INT default 0,
   `comments` INT default 0,
+  `posts` INT default 0,
   `create` DATE,
   `since` DATE,
   `until` DATE,
@@ -14,6 +15,8 @@ select distinct user_id from (
   select user_id from LINKS
   union
   select user_id from COMMENTS
+  union
+  select user_id from POSTS
 ) T where user_id is not null
 ;
 
@@ -25,52 +28,31 @@ update USERS set live=0 where live=1 and id in (
   ) T where user_id is not null and user like '--%--'
 );
 
-update USERS
-inner join (
-  select
-    user_id,
-    count(*) C,
-    from_unixtime(min(sent_date)) min_date,
-    from_unixtime(max(sent_date)) max_date
-  from
-    LINKS
-  where
-    user_id is not null
-  group by
-    user_id
-) AUX on USERS.id = AUX.user_id
-set
-  USERS.links = AUX.C,
-  USERS.since = AUX.min_date,
-  USERS.until = AUX.max_date
-;
 
 update USERS
 inner join (
   select
     user_id,
-    count(*) C,
-    from_unixtime(min(`date`)) min_date,
-    from_unixtime(max(`date`)) max_date
-  from
-    COMMENTS
-  where
+    from_unixtime(min(d)) min_date,
+    from_unixtime(max(d)) max_date,
+    sum(link) links,
+    sum(comment) comments,
+    sum(posts) posts
+  from (
+    select user_id, sent_date d, 1 link, 0 comment, 0 posts from LINKS
+    union
+    select user_id, `date` d, 0 link, 1 comment, 0 posts from COMMENTS
+    union
+    select user_id, `date` d, 0 link, 0 comment, 1 posts from POSTS
+  ) AUX0 where
     user_id is not null
   group by
     user_id
 ) AUX on USERS.id = AUX.user_id
 set
-  USERS.comments = AUX.C,
-  USERS.since = CASE
-    when AUX.min_date is null then USERS.since
-    when USERS.since is null then AUX.min_date
-    when AUX.min_date<USERS.since then AUX.min_date
-    else USERS.since
-  END,
-  USERS.until = CASE
-    when AUX.max_date is null then USERS.until
-    when USERS.until is null then AUX.max_date
-    when AUX.max_date>USERS.until then AUX.max_date
-    else USERS.until
-  END
+  USERS.since = AUX.min_date,
+  USERS.until = AUX.max_date,
+  USERS.links = AUX.links,
+  USERS.comments = AUX.comments,
+  USERS.posts = AUX.posts
 ;

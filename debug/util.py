@@ -5,6 +5,15 @@ import json
 from glob import glob
 from bunch import Bunch
 
+def js_write(file, rows):
+    with open(file, "w") as f:
+        f.write("[\n")
+        json.dump(rows[0], f)
+        for r in rows[1:]:
+            f.write(",\n")
+            json.dump(r, f)
+        f.write("\n]")
+
 def read(fl, split=None, cast=None):
     with open(fl, "r") as f:
         for l in f.readlines():
@@ -78,3 +87,27 @@ def mkBunch(file):
         data = json.load(f)
     data = mkBunchParse(data)
     return data
+
+
+def get_huecos(db, column, where=None, min_id=1, max_id=None):
+    if where is None:
+        where = ""
+    else:
+        where = "where "+where
+    t, c = column.split(".")
+    if max_id is None:
+        max_id = db.one("select max({0}) from {1} {2}".format(c, t, where))
+    ids = db.select("select {0} from {1} {2} order by {0}".format(c, t, where))
+    cursor = min_id - 1
+    max_id = max_id - 1
+    while cursor<max_id:
+        cursor = cursor + 1
+        try:
+            id, = next(ids)
+            for i in range(cursor, id):
+                yield i
+            cursor = id
+        except StopIteration:
+            for i in range(cursor, max_id+1):
+                yield i
+            break

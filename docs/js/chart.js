@@ -647,7 +647,7 @@ render_builder={
       var i, k, kl, color, values;
       //var ks = ["usuarios activos", "noticias", "comentarios", "usuarios creados", "usuarios eliminados"];
       var ks = Object.keys(obj["values"][0]).sort();
-      var colors = ["blue", "green", "SaddleBrown"];
+      var colors = DFL_COLOR;//["blue", "green", "SaddleBrown"];
       if (options.porcentaje) colors = colors.slice(1);
       var user_values;
       if (options.agrupar) {
@@ -661,7 +661,7 @@ render_builder={
       var promedio = options.jq.find("*[name=promedio]").val()=="1";
       for (i=0; i<ks.length; i++) {
         k = ks[i];
-        if (promedio && ["comentarios", "noticias"].indexOf(k)==-1) continue;
+        if (promedio && ["comentarios", "noticias", "posts"].indexOf(k)==-1) continue;
         if (k=="usuarios activos") {
           values = user_values;
         } else {

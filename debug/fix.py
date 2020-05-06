@@ -2,7 +2,7 @@ from core.api import Api, tm_search_user_data
 from core.threadme import ThreadMe
 import os
 import json
-from .util import mkBunch
+from .util import mkBunch, js_write, get_huecos
 from core.util import gW
 import sys
 
@@ -17,21 +17,81 @@ file_name = "fix.json"
 if not os.path.isfile(file_name):
     from core.db import DB
     db = DB()
+
+    def huecos(*args, **kargv):
+        return tuple(get_huecos(db, *args, **kargv))
+
+    def intersection(*args):
+        s = set(args[0])
+        for a in args[1:]:
+            s = s.intersection(a)
+        return tuple(sorted(a))
+
+    def union(*args):
+        s = set(args[0])
+        for a in args[1:]:
+            s = s.union(a)
+        return tuple(sorted(a))
+
+    max_user = (db.one('''
+        select max(user_id) from (
+            select user_id from LINKS union
+            select user_id from COMMENTS union
+            select user_id from POSTS union
+            select id from USERS
+        ) T''') or 0) + 1
+
+    cut_date=db.one("""
+        select min(d)-{0} from (
+            select max(`date`) d from POSTS
+            union
+            select max(`sent_date`) d from LINKS
+            union
+            select max(`date`) d from COMMENTS
+        ) T
+    """.format(api.safe_wait))
+
+    update_links = db.to_list("""
+        select id from LINKS where (
+            sent_date<{0} and (
+                `check` is null or
+                (UNIX_TIMESTAMP(`check`)-sent_date)<={1}
+            )
+        )
+    """.format(cut_date, api.safe_wait))
+
     info = {
         "users":{
-            "max":(db.one("select max(user_id) from (select user_id from LINKS union select user_id from COMMENTS) T") or 0) + 1,
-            "max_create": (db.one("select max(id) from USERS where `create` is not null") or 0)+1,
-            "live": db.to_list("select id from USERS where live=1 order by id"),
+            "insert": huecos("USERS.id", max_id=max_user),
+            "update": db.to_list("select id from USERS where live=1 order by id"),
+        },
+        "posts": {
+            "insert": union(
+                db.to_list("""
+                    select id from POSTS where `date`>{0}
+                """.format(cut_date)),
+                huecos("POSTS.id", max_id=api.last_post),
+            )
         },
         "comments": {
+            "insert": union(
+                update_links,
+                db.to_list("""
+                    select id from LINKS
+                    where
+                        comments>0 and id not in (select link from COMMENTS)
+                """)
+            ),
             "user_id": db.to_list("select id from COMMENTS where user_id is null")
         },
         "links": {
+            "insert": union(
+                update_links,
+                huecos("LINKS.id"),
+            ),
             "user_id": db.to_list("select id from LINKS where user_id is null")
         }
     }
-    info["users"]["null_create"]=db.to_list("select id from USERS where id<%s and `create` is null order by id" % info["users"]["max_create"])
-    info["posts"] = (db.one("select max(id) from POSTS") or 0)+1
     db.close()
     with open(file_name, "w") as f:
         json.dump(info, f, indent=1)
@@ -40,6 +100,30 @@ if not os.path.isfile(file_name):
 
 print("-- BEGIN")
 info=mkBunch(file_name)
+
+tm = ThreadMe(
+    max_thread=50,
+    list_size=2000
+)
+
+os.makedirs("js", exist_ok=True)
+def get_info(id):
+    return api.get_link_info(id)
+
+for i, rows in enumerate(tm.list_run(get_info, info.links.insert)):
+    js_write("js/l%03d.json" % i, rows)
+
+def get_info(id):
+    cs = api.get_link_info(id)
+    if not cs:
+        return None
+    for c in cs:
+        del c["content"]
+    return cs
+
+for i, rows in enumerate(tm.list_run(get_info, info.comments.insert)):
+    rows = api.fill_user_id(rows, what='comments')
+    js_write("js/c%03d.json" % i, rows)
 
 def get_user_id(what, id):
     user_id = api.get_info(what=what, id=id, fields="author")
@@ -53,20 +137,6 @@ def get_link_user_id(id):
 def get_comment_user_id(id):
     return get_user_id("comment", id)
 
-def get_user_info(id):
-    usr = tm_search_user_data(id)
-    if usr is None or usr.id is None:
-        return None
-    dt = usr.meta.get('usuario desde')
-    if usr.meta.get('usuario desde') is None or usr.live is None:
-        return None
-    return usr
-
-tm = ThreadMe(
-    max_thread=50,
-    list_size=2000
-)
-
 print("-- LINKS.user_id")
 sql = "update LINKS set user_id={0} where id = {1};"
 for id, user_id in tm.run(get_link_user_id, info.links.user_id):
@@ -77,24 +147,24 @@ sql = "update COMMENT set user_id={0} where id = {1};"
 for id, user_id in tm.run(get_comment_user_id, info.comments.user_id):
     print(sql.format(user_id, id))
 
+def get_user_info(id):
+    usr = tm_search_user_data(id)
+    if usr is None or usr.id is None:
+        return None
+    dt = usr.meta.get('usuario desde')
+    if usr.meta.get('usuario desde') is None or usr.live is None:
+        return None
+    return usr
+
 sql = """
 insert into USERS (id, `create`, `live`) values
-({id}, STR_TO_DATE('{create}', '%d-%m-%Y'), {live}) on duplicate key update
-`create`=STR_TO_DATE('{create}', '%d-%m-%Y'), `live`={live};
+({id}, STR_TO_DATE('{create}', '%d-%m-%Y'), {live});
 """.strip().replace("\n", " ")
 
-def gnr_users():
-    for i in info["users"]["null_create"]:
-        yield i
-    for i in range(info["users"]["max_create"]+1, info["users"]["max"]+1):
-        yield i
-
 print("-- USERS.create")
-for usr in tm.run(get_user_info, range(info.user.max_create, info.user.max)):
+for usr in tm.run(get_user_info, info.users.insert):
     live = "0" if usr.live is False else "1"
-    i_sql = sql.format(id=usr.id, create=usr.meta['usuario desde'], live=live)
-    i_sql.replace(", 1)", ")").replace(", `live`=1;", ";")
-    print(i_sql)
+    print(sql.format(id=usr.id, create=usr.meta['usuario desde'], live=live))
 
 def get_user_info(id):
     usr = tm_search_user_data(id)
@@ -102,17 +172,16 @@ def get_user_info(id):
         return id
     return None
 
-print("-- USERS.live")
-for ids in tm.list_run(get_user_info, info.users.live):
-    print("update USERS set live=0 where", gW(ids)+";")
-
+print("-- USERS.update")
+for ids in tm.list_run(get_user_info, info.users.update):
+    print("UPDATE USERS set live=0 where", gW(ids)+";")
 
 def get_post_info(id):
     return api.get_post_info(id)
 
 print("-- POSTS")
-for p in tm.run(get_post_info, range(info["posts"], api.last_post+1)):
+for p in tm.run(get_post_info, info.users.create):
     p = {k:(v or "NULL") for k,v in p.items()}
-    print("INSERT INTO POSTS (id, `date`, votes, karma, user_id) VALUES ({id}, {date}, {votes}, {karma}, {user_id});".format(**p))
+    print("replace INTO POSTS (id, `date`, votes, karma, user_id) VALUES ({id}, {date}, {votes}, {karma}, {user_id});".format(**p))
 
 print("-- END")

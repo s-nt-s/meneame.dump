@@ -425,6 +425,7 @@ class Stats:
                 mes,
                 sum(links) noticias,
                 sum(comments) comentarios,
+                sum(posts) posts,
                 count(distinct user_id) `usuarios activos`
             from
                 ACTIVIDAD
