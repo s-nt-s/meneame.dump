@@ -470,6 +470,25 @@ class Stats:
                 if k!="mes":
                     data[key][k]=int(v)
 
+        for dt in self.db.select('''
+            select
+                date_mod(`until`, 1) mes,
+                count(*) `usuarios abandonados`
+            from
+                USERS
+            where
+                `live` = 1 and
+                `until` is not null and
+                YEAR(NOW())-YEAR(`until`)>0 and 
+                date_mod(`until`, 1) <= {0}
+            group by
+                date_mod(`until`, 1)
+        '''.format(max_mes), cursor=DictCursor):
+            key = float(dt["mes"])
+            for k, v in dt.items():
+                if k!="mes":
+                    data[key][k]=int(v)
+
         return data
 
     def get_users_by_period(self):

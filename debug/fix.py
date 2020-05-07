@@ -79,7 +79,7 @@ if not os.path.isfile(file_name):
                 db.to_list("""
                     select id from LINKS
                     where
-                        comments>0 and id not in (select link from COMMENTS)
+                        comments>0 and (id, comments) not in (select link, count(*) from COMMENTS group by link)
                 """)
             ),
             "user_id": db.to_list("select id from COMMENTS where user_id is null")
