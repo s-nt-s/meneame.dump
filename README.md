@@ -45,13 +45,13 @@ por cada estado posible solicitando el máximo de resultados que permite la api.
 A efectos práctios `all` es como buscar `published` y `queued` a la vez, mientras que `duplicated` y `metapublished` nunca
 dan resultados, por lo tanto consultando todos estos `endpoint` obtendremos 10.000 noticias.
 
-Nota: Supuestamente podriamos hacer lo mismo con cada `sub`, primero recuperando los `subs` con el `endpoint` [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php)<sup>
+Nota: Supuestamente podríamos hacer lo mismo con cada `sub`, primero recuperando los `subs` con el `endpoint` [meneame.net/backend/get_subs.php](https://www.meneame.net/backend/get_subs.php)<sup>
 <a href="https://github.com/Meneame/meneame.net/blob/master/www/backend/get_subs.php">c</a>
-</sup> y despues usando el parametro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
+</sup> y después usando el parámetro `sub` del endpoint `meneame.net/api/list.php`, pero [por alguna extraña razón nunca devuelve nada](https://github.com/Meneame/meneame.net/issues/28).
 
 A la vez que hacemos esto resolveremos todos los `ids` de los usuarios que enviaron esas noticias:
 
-* Aquellos usuarios cuyo nick sea `--XXXXXXX--` (siendo `XXXXXXX` un número) son usuarios eliminados que tenian por `id` `XXXXXXX`
+* Aquellos usuarios cuyo nick sea `--XXXXXXX--` (siendo `XXXXXXX` un número) son usuarios eliminados que tenían por `id` `XXXXXXX`
 * Para el resto consultaremos [meneame.net/backend/get_user_info.php?id=gallir](https://www.meneame.net/backend/get_user_info.php?id=gallir) (donde `gallir` es el usuario que queremos consultar) y si hay suerte ese usuario
 tendrá un avatar, cuyo nombre de fichero sera `XXXXXXX-YYYYY-ZZ.jpg` siendo todas las letras números y `XXXXXXX` el id
 del usuario.
