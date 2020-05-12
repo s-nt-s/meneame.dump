@@ -503,6 +503,16 @@ class Api:
             return None
         return max(ids)
 
+    @property
+    @lru_cache(maxsize=None)
+    def last_link(self):
+        for p in self.get_list(status="queued", rows=1):
+            return p
+
+    @property
+    @lru_cache(maxsize=None)
+    def safe_date(self):
+        return self.last_link['sent_date'] - self.safe_wait - 86400
 
     @property
     @lru_cache(maxsize=None)

@@ -1,10 +1,5 @@
-SET @cutdate1 := (SELECT max(sent_date)-864000 FROM LINKS);
-SET @cutdate2 := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@cutdate1) ,'%Y-%m-01 00:00:00') as DATETIME)));
-SET @cutdate := (select CASE
-  when @cutdate1<@cutdate2 then @cutdate1
-  else @cutdate2
-end
-);
+SET @cutdate_aux := (SELECT max(sent_date) FROM LINKS);
+SET @cutdate := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@cutdate_aux) ,'%Y-%m-01 00:00:00') as DATETIME)));
 
 SET div_precision_increment = 2;
 

@@ -18,17 +18,17 @@ os.chdir(dname)
 
 arg = mkArg(
     "Intenta recuperar todo el historico de meneame.net",
-    usuarios="Recuperar historico de usuarios",
     silent="No imprime trazas"
 )
 if arg.silent:
     print = lambda *args, **kargv: None
 
+safe_date=None
 db = DB()
 api = Api()
 tm = ThreadMe(
     max_thread=30,
-    list_size=2000
+    list_size=100
 )
 
 def close_out(*args, **kargv):
@@ -44,47 +44,19 @@ signal.signal(signal.SIGINT, lambda *args, **kargv: [close_out(), sys.exit(0)])
 def get_info(id):
     print("%7d" % id, end="\r")
     r = api.get_link_info(id)
-    db.meta.min_link_history_id = max(db.meta.min_link_history_id, id)
-    return r
-
-def get_user(user):
-    r = api.get_list(sent_by=user)
-    print("%4d %-20s" % (len(r), user), end="\r")
     return r
 
 def main():
-    if arg.usuarios:
-        print("Calculando estadisticas de usuarios")
-        db.execute("sql/update_users.sql")
-        print("Obtener usuario máximo...", end=" ")
-        max_user = db.one("select max(id) from USERS") or -1
-        print(max_user)
-        for links in tm.list_run(get_user, range(1, max_user+1)):
-            for l in links:
-                links["check"] = None
-            db.ignore("LINKS", links)
-    print("Obteniendo info de links faltantes")
-    done = set({None})
-    min_id  = db.meta.get("min_link_history_id", api.first_link["id"])
-    for links in tm.list_run(get_info, db.link_gaps(min_id)):
-        db.ignore("LINKS", links)
-        db.save_meta("min_link_history_id")
-    db.save_meta("min_link_history_id")
-
-def set_falta():
-    ids=[]
-    with open("falta.txt") as f:
-        for l in f.readlines():
-            l = l.strip()
-            if l:
-                l = int(l)
-                if l < 3293660:
-                    ids.append(l)
-    print(len(ids))
-    for links in tm.list_run(get_info, ids):
-        db.ignore("LINKS", links)
-    sys.exit()
-
+    print("Obteniendo links de sent_date < {}".format(api.safe_date), end="\r")
+    min_id = (db.one("select max(id) from LINKS where sent_date<"+str(api.safe_date)) or 0) + 1
+    print("Obteniendo links de sent_date < {} and id > {}".format(api.safe_date, min_id))
+    for links in tm.list_run(get_info, range(min_id, api.last_link['id'])):
+        sz = len(links)
+        links = [l for l in links if l['sent_date']<api.safe_date]
+        if links:
+            db.replace("LINKS", links)
+        if len(links)<sz:
+            break
 
 if __name__ == "__main__":
     try:

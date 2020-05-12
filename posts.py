@@ -47,14 +47,15 @@ def get_posts(id):
     return r
 
 def main():
-    min_id = 0
-    max_date = db.one("select max(date) from POSTS")
-    if max_date:
-        max_date = max_date - api.safe_wait
-        min_id = db.one("select max(id) from POSTS where `data`< %s" % max_date) or 0
-    print("Obteniendo posts con id > %s and date < %s" % (min_id, max_date))
-    for posts in tm.list_run(get_posts, range(min_id+1, api.last_post+1)):
-        db.replace("POSTS", posts)
+    min_id = (db.one("select max(id) from POSTS where `date`< %s" % api.safe_date) or 0) + 1
+    print("Obteniendo posts con id > %s and date < %s" % (min_id, api.safe_date))
+    for posts in tm.list_run(get_posts, range(min_id, api.last_post)):
+        sz = len(posts)
+        posts = [p for p in posts if p['date']<api.safe_date]
+        if posts:
+            db.replace("POSTS", posts)
+        if len(posts)<sz:
+            break
 
 if __name__ == "__main__":
     try:

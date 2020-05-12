@@ -4,6 +4,7 @@ import os
 import json
 from glob import glob
 from bunch import Bunch
+import random
 
 def js_write(file, rows):
     with open(file, "w") as f:
@@ -65,8 +66,10 @@ def get_items(ok_ids=None, reverse=False):
 
 
 
-def mkBunchParse(obj):
+def mkBunchParse(obj, shuffle=False):
     if isinstance(obj, list):
+        if shuffle:
+            random.shuffle(obj)
         for i, v in enumerate(obj):
             obj[i] = mkBunchParse(v)
         return obj
@@ -80,12 +83,12 @@ def mkBunchParse(obj):
         return obj
     return obj
 
-def mkBunch(file):
+def mkBunch(file, shuffle=False):
     if not os.path.isfile(file):
         return None
     with open(file, "r") as f:
         data = json.load(f)
-    data = mkBunchParse(data)
+    data = mkBunchParse(data, shuffle=shuffle)
     return data
 
 

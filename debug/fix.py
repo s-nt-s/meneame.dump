@@ -41,57 +41,29 @@ if not os.path.isfile(file_name):
             select id from USERS
         ) T''') or 0) + 1
 
-    cut_date=db.one("""
-        select min(d)-{0} from (
-            select max(`date`) d from POSTS
-            union
-            select max(`sent_date`) d from LINKS
-            union
-            select max(`date`) d from COMMENTS
-        ) T
-    """.format(api.safe_wait))
-
-    update_links = db.to_list("""
-        select id from LINKS where (
-            sent_date<{0} and (
-                `check` is null or
-                (UNIX_TIMESTAMP(`check`)-sent_date)<={1}
-            )
-        )
-    """.format(cut_date, api.safe_wait))
-
+    miss_comment=db.to_list("""
+        select id from LINKS
+        where
+            comments>0 and (id, comments) not in (select link, count(*) from COMMENTS group by link)
+    """)
     info = {
         "users":{
             "insert": huecos("USERS.id", max_id=max_user),
-            "update": db.to_list("select id from USERS where live=1 order by id"),
+            "update": db.to_list("select id from USERS where live=1 order by id")
         },
         "posts": {
-            "insert": union(
-                db.to_list("""
-                    select id from POSTS where `date`>{0}
-                """.format(cut_date)),
-                huecos("POSTS.id", max_id=api.last_post),
-            )
+            "insert": huecos("POSTS.id")#, max_id=api.last_post),
         },
         "comments": {
-            "insert": union(
-                update_links,
-                db.to_list("""
-                    select id from LINKS
-                    where
-                        comments>0 and (id, comments) not in (select link, count(*) from COMMENTS group by link)
-                """)
-            ),
+            "insert": miss_comment,
             "user_id": db.to_list("select id from COMMENTS where user_id is null")
         },
         "links": {
-            "insert": union(
-                update_links,
-                huecos("LINKS.id"),
-            ),
+            "insert": huecos("LINKS.id"),
             "user_id": db.to_list("select id from LINKS where user_id is null")
         }
     }
+    info["comments"]["done"] = db.to_list("select id from COMMENTS where "+gW(miss_comment, f="link"))
     db.close()
     with open(file_name, "w") as f:
         json.dump(info, f, indent=1)
@@ -99,7 +71,7 @@ if not os.path.isfile(file_name):
     sys.exit()
 
 print("-- BEGIN")
-info=mkBunch(file_name)
+info=mkBunch(file_name, shuffle=True)
 
 tm = ThreadMe(
     max_thread=50,
@@ -114,12 +86,15 @@ for i, rows in enumerate(tm.list_run(get_info, info.links.insert)):
     js_write("js/l%03d.json" % i, rows)
 
 def get_info(id):
-    cs = api.get_link_info(id)
+    cs = api.get_comments(id)
     if not cs:
         return None
+    r=[]
     for c in cs:
-        del c["content"]
-    return cs
+        if c["id"] not in info.comments.done:
+            del c["content"]
+            r.append(c)
+    return r
 
 for i, rows in enumerate(tm.list_run(get_info, info.comments.insert)):
     rows = api.fill_user_id(rows, what='comments')
@@ -173,14 +148,14 @@ def get_user_info(id):
     return None
 
 print("-- USERS.update")
-for ids in tm.list_run(get_user_info, info.users.update):
+for ids in tm.list_run(get_user_info, info.users["update"]):
     print("UPDATE USERS set live=0 where", gW(ids)+";")
 
 def get_post_info(id):
     return api.get_post_info(id)
 
 print("-- POSTS")
-for p in tm.run(get_post_info, info.users.create):
+for p in tm.run(get_post_info, info.users.insert):
     p = {k:(v or "NULL") for k,v in p.items()}
     print("replace INTO POSTS (id, `date`, votes, karma, user_id) VALUES ({id}, {date}, {votes}, {karma}, {user_id});".format(**p))
 

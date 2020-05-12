@@ -40,7 +40,6 @@ class DB:
                 debug_dir = debug_dir + "/"
             self.debug_dir = debug_dir
         self.name = 'meneame'
-        self.meta = Bunch()
         host = os.environ.get("MARIADB_HOSTS", "localhost")
         port = os.environ.get("MARIADB_PORT", "3306")
         self.con = MySQLdb.connect(host=host, port=int(port), user='meneame', password='meneame', database=self.name)
@@ -52,35 +51,6 @@ class DB:
         cursor.execute("SET time_zone='Europe/Madrid';")
         cursor.close()
         self.load_tables()
-        self.load_meta()
-
-    def load_meta(self):
-        self.meta = {}
-        for k, v in self.select("select id, value from META_INT"):
-            self.meta[k]=v
-        for k, v in self.select("select id, value from META_STR"):
-            self.meta[k]=v
-        self.meta=Bunch(**self.meta)
-
-    def save_meta(self, *keys):
-        meta_int = []
-        meta_str = []
-        for k, v in self.meta.items():
-            if len(keys)>0 and k not in keys:
-                continue
-            if isinstance(v, int):
-                meta_int.append((k, v))
-            else:
-                meta_str.append((k, v))
-        if not meta_int and not meta_str:
-            return
-        cursor = self.con.cursor()
-        if meta_int:
-            cursor.executemany("replace into META_INT (id, value) values (%s, %s)", meta_int)
-        if meta_str:
-            cursor.executemany("replace into META_STR (id, value) values (%s, %s)", meta_str)
-        cursor.close()
-        self.commit()
 
     def load_tables(self):
         self.tables = dict()
@@ -246,7 +216,6 @@ class DB:
     def close(self):
         if self.closed:
             return
-        self.save_meta()
         self.con.commit()
         self.con.close()
         self.closed = True
@@ -269,24 +238,6 @@ class DB:
                     if i not in ids:
                         yield i
                 cursor = max_range
-
-    def comment_gaps(self, cursor, max_id, size=2000):
-        while cursor < max_id:
-            ids = self.to_list('''
-                select distinct link from
-                COMMENTS
-                where link>={0}
-                order by link
-                limit {1}
-            '''.format(cursor, size))
-            max_range = min(max_id, cursor+size+1)
-            if len(ids) and max_range<=ids[-1]:
-                max_range=ids[-1]+1
-            for i in range(cursor, max_range):
-                if i not in ids:
-                    yield i
-            cursor = max_range
-            print(cursor)
 
     def loop_tags(self):
         for id, tags in self.select('''
@@ -387,5 +338,6 @@ if __name__ == "__main__":
         if arg == "users":
             db.update_users()
             db.commit()
+        print("")
     finally:
         db.close()

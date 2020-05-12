@@ -238,7 +238,7 @@ def parse_tag(tag, main=True):
         return "accidentes"
     if tag in ("amenaza", "amenazas"):
         return "amenazas"
-    if tag in ("f1", "formula 1"):
+    if tag in ("f1", "formula 1", "formula1"):
         return "Formula 1"
     if tag in ("futbol", "football"):
         return "futbol"
@@ -372,6 +372,10 @@ def parse_tag(tag, main=True):
             "valladolid", "vaticano", "venezuela", "vigo", "zaragoza", "noruega",
             "roma", "suecia", "ucrania", "marruecos"):
         return tag.title()
+
+    _tag = tag.replace(" ", "").replace("-", "").replace("_", "")
+    if _tag in ("coronavirus", "covid", "covid19", "srascov2"):
+        return "COVID-19"
 
     return tag_ori
 

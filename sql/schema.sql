@@ -30,7 +30,6 @@ create table LINKS (
   `content` VARCHAR(65535),
   `user_id` INT,
   `domain` VARCHAR(253),
-  `check` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (id)
 );
 
@@ -61,18 +60,6 @@ create table TAGS (
   `tag` VARCHAR(80),
   `link` INT
   --,PRIMARY KEY (tag, link)
-);
-
-create table META_INT (
-  `id` VARCHAR(25),
-  `value` INT,
-  PRIMARY KEY (id)
-);
-
-create table META_STR (
-  `id` VARCHAR(25),
-  `value` VARCHAR(25),
-  PRIMARY KEY (id)
 );
 
 commit;
