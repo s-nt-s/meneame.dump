@@ -16,9 +16,11 @@ class Graph:
 
     def add_edge(self, a, b, **kargv):
         if a not in self.G.nodes:
-            self.G.add_node(a)
+            return
+            #self.G.add_node(a)
         if b not in self.G.nodes:
-            self.G.add_node(b)
+            return
+            #self.G.add_node(b)
         self.G.add_edge(a, b, **kargv)
 
     def show(self):

@@ -9,7 +9,7 @@ dname = os.path.dirname(abspath)
 os.chdir(dname)
 
 def read(glb):
-    for fl in glob(glb):
+    for fl in sorted(glob(glb)):
         with open(fl) as f:
             for i in json.load(f):
                 yield i

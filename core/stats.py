@@ -396,7 +396,7 @@ class Stats:
                 tag
             order by
                 count(*) desc
-            limit 100
+            limit 80
         '''.format(self.min_tag)):
             g.add(tag, size)
 
@@ -479,7 +479,7 @@ class Stats:
             where
                 `live` = 1 and
                 `until` is not null and
-                YEAR(NOW())-YEAR(`until`)>0 and 
+                YEAR(NOW())-YEAR(`until`)>0 and
                 date_mod(`until`, 1) <= {0}
             group by
                 date_mod(`until`, 1)

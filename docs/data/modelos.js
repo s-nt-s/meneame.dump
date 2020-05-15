@@ -7495,7 +7495,7 @@ var modelos = {
    "usuarios activos": 7285,
    "usuarios creados": 2493,
    "usuarios eliminados": 261,
-   "usuarios abandonados": 637
+   "usuarios abandonados": 636
   },
   "2019.06": {
    "noticias": 11997,
@@ -7549,7 +7549,7 @@ var modelos = {
    "usuarios activos": 7049,
    "usuarios creados": 2557,
    "usuarios eliminados": 278,
-   "usuarios abandonados": 709
+   "usuarios abandonados": 708
   },
   "2019.12": {
    "noticias": 10253,
@@ -7585,10 +7585,10 @@ var modelos = {
    "usuarios eliminados": 114
   },
   "2020.04": {
-   "noticias": 17994,
+   "noticias": 18134,
    "comentarios": 350051,
    "posts": 16078,
-   "usuarios activos": 8772,
+   "usuarios activos": 8780,
    "usuarios creados": 5542,
    "usuarios eliminados": 93
   }
@@ -15376,8 +15376,8 @@ var tags = {
   "astroseti.org",
   "bandaancha.eu",
   "barrapunto.com",
-  "*.bbc.co.uk",
   "bbc.co.uk",
+  "*.bbc.co.uk",
   "bitelia.com",
   "blogs.20minutos.es",
   "blogs.elconfidencial.com",
@@ -15407,8 +15407,8 @@ var tags = {
   "economia.elpais.com",
   "elblogsalmon.com",
   "elboletin.com",
-  "*.elconfidencial.com",
   "elconfidencial.com",
+  "*.elconfidencial.com",
   "elconfidencialdigital.com",
   "elcorreo.com",
   "*.elcorreo.com",
@@ -15457,8 +15457,8 @@ var tags = {
   "kaosenlared.net",
   "kriptopolis.org",
   "labrujulaverde.com",
-  "*.lainformacion.com",
   "lainformacion.com",
+  "*.lainformacion.com",
   "lamarea.com",
   "larazon.es",
   "lasexta.com",
@@ -15506,8 +15506,8 @@ var tags = {
   "vertele.eldiario.es",
   "vozpopuli.com",
   "wikipedia.org",
-  "*.xataka.com",
   "xataka.com",
+  "*.xataka.com",
   "*.yahoo.com",
   "yorokobu.es",
   "youtube.com",
@@ -15928,7 +15928,7 @@ var modelos_aux = {
   "2019 T3": 10159,
   "2019 T4": 10374,
   "2020 T1": 11174,
-  "2020 T2": 8772,
+  "2020 T2": 8780,
   "2005 S2": 404,
   "2006 S1": 3910,
   "2006 S2": 8944,
@@ -15958,7 +15958,7 @@ var modelos_aux = {
   "2018 S2": 14304,
   "2019 S1": 14429,
   "2019 S2": 13636,
-  "2020 S1": 13317,
+  "2020 S1": 13324,
   "2005": 404,
   "2006": 10657,
   "2007": 28537,
@@ -15974,6 +15974,6 @@ var modelos_aux = {
   "2017": 22577,
   "2018": 20547,
   "2019": 19348,
-  "2020": 13317
+  "2020": 13324
  }
 };

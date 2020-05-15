@@ -89,8 +89,14 @@ $("div.graph").each(function(){
         ot.prc = e.weight*100/me.weight;
       }
       if (ot.prc!=null) {
-        var prc = Math.round(ot.prc);
-        if (prc == 0) prc = Math.round(ot.prc*100)/100;
+        var m;
+        var d=0;
+        var prc=0;
+        while (prc==0) {
+          m = Math.pow(10, d);
+          prc = Math.round(ot.prc*m)/m;
+          d++;
+        }
         ot.label = prc+"% "+ot.originalLabel;
       }
       if (high_sibling.prc == null || high_sibling.prc<ot.prc) {

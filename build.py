@@ -12,12 +12,14 @@ jHtml = Jnj2("template/", "docs/")
 
 dominios = st.get_full_dominios()
 tags = st.get_tags()
+tags_graph = st.get_tags_graph()
 
 jHtml.save("index.html",
     st=st,
     years_completos=sorted(st.db.to_list("select distinct floor(mes) from GENERAL")[1:-1]),
     dominios=dominios.claves,
-    tags=tags.claves
+    tags=tags.claves,
+    tags_nodes=len(tags_graph["nodes"])
 )
 jHtml.create_script("data/modelos.js", replace=True,
     modelos={
@@ -41,9 +43,9 @@ jHtml.create_script("data/modelos.js", replace=True,
     }
 )
 
-False and jHtml.create_script("data/graph.js", replace=True,
+jHtml.create_script("data/graph.js", replace=True,
     graphs={
-        "tags": st.get_tags_graph()
+        "tags": tags_graph
     }
 )
 st.db.close()
