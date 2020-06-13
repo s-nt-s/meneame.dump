@@ -33,6 +33,20 @@ re_user_id = re.compile(r'^--(\d+)--$')
 
 logger = logging.getLogger()
 
+default_headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:54.0) Gecko/20100101 Firefox/54.0',
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    'Accept': 'text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'DNT': '1',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    "X-Requested-With": "XMLHttpRequest",
+}
+
 def str_to_epoch(s, date):
     mt = dt3.match(s)
     if mt:
@@ -58,7 +72,7 @@ def str_to_epoch(s, date):
 
 def get_response(url, params=None, intentos=None):
     try:
-        r = requests.get(url, params=params)
+        r = requests.get(url, params=params, headers=default_headers)
     except requests.exceptions.ConnectionError as e:
         if intentos is not None:
             intentos = intentos - 1
