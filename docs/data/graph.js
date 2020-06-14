@@ -4,562 +4,562 @@ var graphs = {
    {
     "size": 5.0,
     "id": "PP",
-    "x": 85.621,
-    "y": 88.948,
-    "weight": 7772
+    "x": 102.85,
+    "y": 92.012,
+    "weight": 7801
    },
    {
-    "size": 4.110335804622765,
+    "size": 4.145214999276097,
     "id": "Espa\u00f1a",
-    "x": 112.35,
-    "y": 106.61,
-    "weight": 6242
+    "x": 134.51,
+    "y": 93.994,
+    "weight": 6325
    },
    {
-    "size": 2.8839947666812034,
+    "size": 2.8989431012016795,
     "id": "EE.UU.",
-    "x": 121.48,
-    "y": 97.813,
-    "weight": 4133
+    "x": 134.77,
+    "y": 81.092,
+    "weight": 4173
    },
    {
-    "size": 2.6944323302805637,
+    "size": 2.695091935717388,
     "id": "crisis",
-    "x": 119.34,
-    "y": 117.93,
-    "weight": 3807
+    "x": 111.66,
+    "y": 119.28,
+    "weight": 3821
    },
    {
-    "size": 2.5833696758249745,
+    "size": 2.62907195598668,
     "id": "Madrid",
-    "x": 116.19,
-    "y": 76.359,
-    "weight": 3616
+    "x": 153.15,
+    "y": 67.541,
+    "weight": 3707
    },
    {
-    "size": 2.492658816688472,
+    "size": 2.4929781381207468,
     "id": "humor",
-    "x": 107.32,
-    "y": 93.276,
-    "weight": 3460
+    "x": 119.09,
+    "y": 96.623,
+    "weight": 3472
    },
    {
-    "size": 2.3490332897223434,
+    "size": 2.347618358187346,
     "id": "corrupcion",
-    "x": 117.73,
-    "y": 46.468,
-    "weight": 3213
+    "x": 106.77,
+    "y": 56.535,
+    "weight": 3221
    },
    {
-    "size": 2.208896641953772,
+    "size": 2.2097871724337628,
     "id": "politica",
-    "x": 123.67,
-    "y": 61.667,
-    "weight": 2972
+    "x": 147.44,
+    "y": 75.46,
+    "weight": 2983
    },
    {
-    "size": 2.205989242622474,
+    "size": 2.2016794556247286,
     "id": "internet",
-    "x": 127.51,
-    "y": 86.444,
-    "weight": 2967
+    "x": 149.45,
+    "y": 90.783,
+    "weight": 2969
    },
    {
-    "size": 2.0181712458206134,
+    "size": 2.0331547705226583,
     "id": "policia",
-    "x": 115.44,
-    "y": 60.877,
-    "weight": 2644
+    "x": 130.86,
+    "y": 56.395,
+    "weight": 2678
    },
    {
-    "size": 1.9925861317051896,
+    "size": 1.9943535543651367,
     "id": "fotos",
-    "x": 71.242,
-    "y": 80.816,
-    "weight": 2600
+    "x": 91.348,
+    "y": 108.42,
+    "weight": 2611
    },
    {
-    "size": 1.9408344236080826,
+    "size": 1.9370204140726799,
     "id": "Rajoy",
-    "x": 97.076,
-    "y": 60.196,
-    "weight": 2511
+    "x": 97.179,
+    "y": 66.283,
+    "weight": 2512
    },
    {
-    "size": 1.88210495711586,
+    "size": 1.8843202548139568,
     "id": "economia",
-    "x": 131.67,
-    "y": 106.54,
-    "weight": 2410
+    "x": 157.99,
+    "y": 84.93,
+    "weight": 2421
    },
    {
-    "size": 1.851868004070359,
+    "size": 1.8542058780946866,
     "id": "ciencia",
-    "x": 136.08,
-    "y": 128.46,
-    "weight": 2358
+    "x": 156.44,
+    "y": 125.54,
+    "weight": 2369
    },
    {
-    "size": 1.8338421282163107,
+    "size": 1.837411321847401,
     "id": "PSOE",
-    "x": 55.076,
-    "y": 102.2,
-    "weight": 2327
+    "x": 81.27,
+    "y": 68.199,
+    "weight": 2340
    },
    {
-    "size": 1.6070649803750545,
-    "id": "SGAE",
-    "x": 64.757,
-    "y": 41.652,
+    "size": 1.6040249022730562,
+    "id": "gobierno",
+    "x": 124.6,
+    "y": 66.256,
     "weight": 1937
    },
    {
-    "size": 1.5896205843872657,
-    "id": "gobierno",
-    "x": 100.27,
-    "y": 75.325,
-    "weight": 1907
+    "size": 1.6040249022730562,
+    "id": "SGAE",
+    "x": 155.87,
+    "y": 45.019,
+    "weight": 1937
    },
    {
-    "size": 1.580898386393371,
+    "size": 1.5930215723179382,
     "id": "historia",
-    "x": 58.058,
-    "y": 114.68,
-    "weight": 1892
+    "x": 109.16,
+    "y": 150.09,
+    "weight": 1918
    },
    {
-    "size": 1.5791539467945923,
-    "id": "google",
-    "x": 68.235,
-    "y": 95.575,
-    "weight": 1889
-   },
-   {
-    "size": 1.5663613897368802,
+    "size": 1.5773852613290864,
     "id": "muerte",
-    "x": 74.952,
-    "y": 63.305,
-    "weight": 1867
+    "x": 84.455,
+    "y": 111.07,
+    "weight": 1891
    },
    {
-    "size": 1.5407762756214565,
+    "size": 1.5768061386998697,
+    "id": "google",
+    "x": 110.86,
+    "y": 139.53,
+    "weight": 1890
+   },
+   {
+    "size": 1.544954394092949,
+    "id": "COVID-19",
+    "x": 119.85,
+    "y": 35.361,
+    "weight": 1835
+   },
+   {
+    "size": 1.5397422904299987,
     "id": "linux",
-    "x": 86.086,
-    "y": 153.46,
-    "weight": 1823
+    "x": 131.43,
+    "y": 165.36,
+    "weight": 1826
    },
    {
-    "size": 1.4890245675243494,
+    "size": 1.4916751122050094,
     "id": "educacion",
-    "x": 106.79,
-    "y": 47.436,
-    "weight": 1734
+    "x": 167.78,
+    "y": 65.79,
+    "weight": 1743
    },
    {
-    "size": 1.4884430876580899,
+    "size": 1.4870421311712756,
     "id": "elecciones",
-    "x": 102.66,
-    "y": 115.84,
-    "weight": 1733
+    "x": 142.99,
+    "y": 111.18,
+    "weight": 1735
    },
    {
-    "size": 1.4634394534089257,
+    "size": 1.4609816128565223,
     "id": "bancos",
-    "x": 145.99,
-    "y": 71.889,
+    "x": 72.882,
+    "y": 78.829,
     "weight": 1690
    },
    {
-    "size": 1.4512283762174736,
+    "size": 1.4540321413059214,
     "id": "Valencia",
-    "x": 90.527,
-    "y": 120.93,
-    "weight": 1669
+    "x": 112.08,
+    "y": 73.27,
+    "weight": 1678
    },
    {
-    "size": 1.4256432621020498,
+    "size": 1.4349210945417692,
     "id": "China",
-    "x": 94.133,
-    "y": 89.404,
-    "weight": 1625
+    "x": 101.0,
+    "y": 132.15,
+    "weight": 1645
    },
    {
-    "size": 1.4145951446431169,
+    "size": 1.4152309251484,
     "id": "religion",
-    "x": 107.53,
-    "y": 34.354,
-    "weight": 1606
+    "x": 128.85,
+    "y": 143.94,
+    "weight": 1611
    },
    {
-    "size": 1.366913795609827,
+    "size": 1.3700593600694946,
     "id": "Europa",
-    "x": 147.07,
-    "y": 108.1,
-    "weight": 1524
+    "x": 122.59,
+    "y": 116.03,
+    "weight": 1533
    },
    {
-    "size": 1.3384212821631052,
-    "id": "COVID-19",
-    "x": 54.137,
-    "y": 77.405,
-    "weight": 1475
-   },
-   {
-    "size": 1.2982991713911907,
+    "size": 1.3040393803387866,
     "id": "iglesia",
-    "x": 96.18,
-    "y": 32.798,
-    "weight": 1406
+    "x": 96.837,
+    "y": 44.974,
+    "weight": 1419
    },
    {
-    "size": 1.2773658962058438,
-    "id": "cine",
-    "x": 168.21,
-    "y": 99.905,
-    "weight": 1370
-   },
-   {
-    "size": 1.275621456607065,
+    "size": 1.290140437237585,
     "id": "sanidad",
-    "x": 48.016,
-    "y": 89.792,
-    "weight": 1367
+    "x": 140.41,
+    "y": 38.599,
+    "weight": 1395
    },
    {
-    "size": 1.2663177787469109,
+    "size": 1.2802953525409007,
+    "id": "cine",
+    "x": 165.16,
+    "y": 140.52,
+    "weight": 1378
+   },
+   {
+    "size": 1.2692920225857827,
     "id": "trabajo",
-    "x": 138.35,
-    "y": 93.648,
-    "weight": 1351
+    "x": 140.48,
+    "y": 63.992,
+    "weight": 1359
    },
    {
-    "size": 1.2436400639627854,
-    "id": "Catalu\u00f1a",
-    "x": 73.412,
-    "y": 49.486,
-    "weight": 1312
-   },
-   {
-    "size": 1.2430585840965256,
+    "size": 1.2478644853047633,
     "id": "videos",
-    "x": 86.469,
-    "y": 110.55,
-    "weight": 1311
+    "x": 108.1,
+    "y": 105.7,
+    "weight": 1322
    },
    {
-    "size": 1.2372437854339293,
+    "size": 1.2467062400463298,
+    "id": "Catalu\u00f1a",
+    "x": 65.71,
+    "y": 87.214,
+    "weight": 1320
+   },
+   {
+    "size": 1.2461271174171131,
     "id": "Alemania",
-    "x": 95.534,
-    "y": 106.2,
-    "weight": 1301
+    "x": 119.95,
+    "y": 80.275,
+    "weight": 1319
    },
    {
-    "size": 1.2320104666375926,
+    "size": 1.233386419574345,
     "id": "ni\u00f1os",
-    "x": 90.838,
-    "y": 56.534,
-    "weight": 1292
+    "x": 133.5,
+    "y": 126.14,
+    "weight": 1297
    },
    {
-    "size": 1.2273586277075157,
-    "id": "sociedad",
-    "x": 141.59,
-    "y": 68.185,
-    "weight": 1284
-   },
-   {
-    "size": 1.2261956679749964,
+    "size": 1.2281743159113943,
     "id": "mujeres",
-    "x": 143.9,
-    "y": 115.8,
+    "x": 124.41,
+    "y": 134.47,
+    "weight": 1288
+   },
+   {
+    "size": 1.2275951932821776,
+    "id": "sociedad",
+    "x": 132.18,
+    "y": 108.05,
+    "weight": 1287
+   },
+   {
+    "size": 1.2246995801360938,
+    "id": "guerra",
+    "x": 95.326,
+    "y": 150.65,
     "weight": 1282
    },
    {
-    "size": 1.2244512283762174,
-    "id": "guerra",
-    "x": 97.862,
-    "y": 141.04,
-    "weight": 1279
-   },
-   {
-    "size": 1.2209623491786596,
-    "id": "ETA",
-    "x": 41.553,
-    "y": 60.746,
-    "weight": 1273
-   },
-   {
-    "size": 1.213984590783544,
-    "id": "Francia",
-    "x": 76.557,
-    "y": 101.38,
-    "weight": 1261
-   },
-   {
-    "size": 1.212821631051025,
+    "size": 1.222383089619227,
     "id": "Podemos",
-    "x": 53.065,
-    "y": 46.687,
-    "weight": 1259
+    "x": 89.865,
+    "y": 27.597,
+    "weight": 1278
    },
    {
-    "size": 1.2070068323884287,
+    "size": 1.2206457217315767,
+    "id": "ETA",
+    "x": 55.962,
+    "y": 71.446,
+    "weight": 1275
+   },
+   {
+    "size": 1.2200665991023598,
+    "id": "Francia",
+    "x": 95.299,
+    "y": 120.98,
+    "weight": 1274
+   },
+   {
+    "size": 1.2131171275517592,
     "id": "Barcelona",
-    "x": 74.405,
-    "y": 107.9,
-    "weight": 1249
+    "x": 86.497,
+    "y": 128.0,
+    "weight": 1262
    },
    {
-    "size": 1.2052623927896498,
+    "size": 1.206746778630375,
     "id": "Japon",
-    "x": 167.95,
-    "y": 69.233,
-    "weight": 1246
+    "x": 102.99,
+    "y": 81.542,
+    "weight": 1251
    },
    {
-    "size": 1.1645588021514754,
+    "size": 1.1719994208773707,
     "id": "salud",
-    "x": 165.52,
-    "y": 103.45,
-    "weight": 1176
+    "x": 181.03,
+    "y": 85.603,
+    "weight": 1191
    },
    {
-    "size": 1.1616514028201774,
+    "size": 1.1638917040683365,
     "id": "television",
-    "x": 148.6,
-    "y": 84.827,
-    "weight": 1171
+    "x": 173.85,
+    "y": 99.525,
+    "weight": 1177
    },
    {
-    "size": 1.1476958860299462,
+    "size": 1.1488345157087014,
     "id": "musica",
-    "x": 63.589,
-    "y": 136.99,
-    "weight": 1147
+    "x": 103.02,
+    "y": 165.35,
+    "weight": 1151
    },
    {
-    "size": 1.144788486698648,
+    "size": 1.145359779933401,
     "id": "energia",
-    "x": 169.14,
-    "y": 129.51,
-    "weight": 1142
+    "x": 190.0,
+    "y": 104.05,
+    "weight": 1145
    },
    {
-    "size": 1.1424625672336095,
+    "size": 1.1424641667873172,
     "id": "paro",
-    "x": 152.77,
-    "y": 41.159,
-    "weight": 1138
+    "x": 161.52,
+    "y": 43.342,
+    "weight": 1140
    },
    {
-    "size": 1.135484808838494,
+    "size": 1.136093817865933,
     "id": "periodismo",
-    "x": 154.81,
-    "y": 97.008,
-    "weight": 1126
+    "x": 160.33,
+    "y": 97.678,
+    "weight": 1129
    },
    {
-    "size": 1.129088530309638,
+    "size": 1.129723468944549,
     "id": "seguridad",
-    "x": 146.06,
-    "y": 128.21,
-    "weight": 1115
+    "x": 140.21,
+    "y": 143.96,
+    "weight": 1118
    },
    {
-    "size": 1.1250181712458207,
+    "size": 1.1262487331692486,
     "id": "salarios",
-    "x": 82.506,
-    "y": 32.475,
-    "weight": 1108
+    "x": 78.689,
+    "y": 54.272,
+    "weight": 1112
    },
    {
-    "size": 1.1250181712458207,
+    "size": 1.1245113652815983,
     "id": "Aguirre",
-    "x": 130.25,
-    "y": 18.757,
+    "x": 117.24,
+    "y": 18.0,
+    "weight": 1109
+   },
+   {
+    "size": 1.1239322426523817,
+    "id": "Israel",
+    "x": 74.644,
+    "y": 143.36,
     "weight": 1108
    },
    {
-    "size": 1.1238552115133014,
-    "id": "Israel",
-    "x": 86.187,
-    "y": 150.24,
-    "weight": 1106
-   },
-   {
-    "size": 1.1186218927169647,
+    "size": 1.1221948747647315,
     "id": "UE",
-    "x": 127.42,
-    "y": 131.33,
-    "weight": 1097
+    "x": 140.96,
+    "y": 130.76,
+    "weight": 1105
    },
    {
-    "size": 1.113388573920628,
+    "size": 1.112349790068047,
     "id": "derechos",
-    "x": 131.96,
-    "y": 68.325,
+    "x": 152.52,
+    "y": 104.43,
     "weight": 1088
    },
    {
-    "size": 1.1122256141881088,
+    "size": 1.112349790068047,
     "id": "vivienda",
-    "x": 117.34,
-    "y": 18.0,
-    "weight": 1086
+    "x": 138.61,
+    "y": 24.408,
+    "weight": 1088
    },
    {
-    "size": 1.1040848960604739,
-    "id": "justicia",
-    "x": 81.354,
-    "y": 70.44,
-    "weight": 1072
-   },
-   {
-    "size": 1.1035034161942143,
+    "size": 1.1088750542927466,
     "id": "coches",
-    "x": 119.5,
-    "y": 136.73,
-    "weight": 1071
+    "x": 69.992,
+    "y": 105.24,
+    "weight": 1082
    },
    {
-    "size": 1.0889664195377236,
+    "size": 1.1065585637758795,
+    "id": "justicia",
+    "x": 87.643,
+    "y": 89.291,
+    "weight": 1078
+   },
+   {
+    "size": 1.0915013754162444,
     "id": "microsoft",
-    "x": 163.0,
-    "y": 150.22,
-    "weight": 1046
+    "x": 190.26,
+    "y": 142.84,
+    "weight": 1052
    },
    {
-    "size": 1.086640500072685,
+    "size": 1.0862892717532937,
     "id": "software libre",
-    "x": 103.46,
-    "y": 165.83,
-    "weight": 1042
+    "x": 151.6,
+    "y": 171.18,
+    "weight": 1043
    },
    {
-    "size": 1.0825701410088675,
+    "size": 1.0833936586072102,
+    "id": "manifestaciones",
+    "x": 67.594,
+    "y": 61.458,
+    "weight": 1038
+   },
+   {
+    "size": 1.0822354133487766,
     "id": "curiosidades",
-    "x": 175.15,
-    "y": 86.978,
-    "weight": 1035
+    "x": 184.11,
+    "y": 122.9,
+    "weight": 1036
    },
    {
-    "size": 1.0779183020787906,
+    "size": 1.0799189228319097,
     "id": "Rusia",
-    "x": 112.24,
-    "y": 145.39,
-    "weight": 1027
+    "x": 115.98,
+    "y": 160.47,
+    "weight": 1032
    },
    {
-    "size": 1.0767553423462712,
+    "size": 1.0776024323150426,
     "id": "censura",
-    "x": 73.875,
-    "y": 124.53,
+    "x": 75.221,
+    "y": 100.4,
+    "weight": 1028
+   },
+   {
+    "size": 1.0758650644273926,
+    "id": "RTVE",
+    "x": 67.864,
+    "y": 112.13,
     "weight": 1025
    },
    {
-    "size": 1.0750109027474923,
-    "id": "RTVE",
-    "x": 51.311,
-    "y": 74.404,
-    "weight": 1022
-   },
-   {
-    "size": 1.0744294228812328,
-    "id": "manifestaciones",
-    "x": 139.62,
-    "y": 39.97,
-    "weight": 1021
-   },
-   {
-    "size": 1.0569850268934438,
+    "size": 1.0602287534385406,
     "id": "cultura",
-    "x": 141.6,
-    "y": 52.725,
-    "weight": 991
+    "x": 168.38,
+    "y": 115.03,
+    "weight": 998
    },
    {
-    "size": 1.048844308765809,
+    "size": 1.0492254234834226,
     "id": "accidentes",
-    "x": 75.879,
-    "y": 139.15,
-    "weight": 977
+    "x": 61.74,
+    "y": 111.8,
+    "weight": 979
    },
    {
-    "size": 1.0470998691670301,
+    "size": 1.0474880555957724,
+    "id": "NASA",
+    "x": 177.98,
+    "y": 158.54,
+    "weight": 976
+   },
+   {
+    "size": 1.0463298103373389,
     "id": "recortes",
-    "x": 161.23,
-    "y": 53.058,
+    "x": 165.93,
+    "y": 49.783,
     "weight": 974
    },
    {
-    "size": 1.0453554295682512,
-    "id": "NASA",
-    "x": 155.11,
-    "y": 158.88,
-    "weight": 971
-   },
-   {
-    "size": 1.0383776711731356,
+    "size": 1.0393803387867382,
     "id": "homosexualidad",
-    "x": 74.972,
-    "y": 29.041,
-    "weight": 959
+    "x": 119.95,
+    "y": 40.313,
+    "weight": 962
    },
    {
-    "size": 1.03139991277802,
+    "size": 1.0335891124945706,
     "id": "detenidos",
-    "x": 50.266,
-    "y": 44.949,
-    "weight": 947
+    "x": 70.439,
+    "y": 41.811,
+    "weight": 952
    },
    {
-    "size": 1.029655473179241,
+    "size": 1.0295352540900535,
     "id": "huelga",
-    "x": 97.651,
-    "y": 24.709,
-    "weight": 944
+    "x": 107.47,
+    "y": 34.352,
+    "weight": 945
    },
    {
-    "size": 1.022096234917866,
+    "size": 1.0237440277978862,
     "id": "terrorismo",
-    "x": 52.157,
-    "y": 126.9,
-    "weight": 931
+    "x": 60.52,
+    "y": 131.15,
+    "weight": 935
    },
    {
-    "size": 1.0139555167902312,
+    "size": 1.0144780657304184,
     "id": "tecnologia",
-    "x": 132.58,
-    "y": 151.47,
-    "weight": 917
+    "x": 154.54,
+    "y": 155.29,
+    "weight": 919
    },
    {
-    "size": 1.011048117458933,
+    "size": 1.0104242073259013,
     "id": "Zapatero",
-    "x": 42.246,
-    "y": 87.906,
+    "x": 83.232,
+    "y": 49.899,
     "weight": 912
    },
    {
-    "size": 1.006396278528856,
+    "size": 1.0098450846966844,
     "id": "empresas",
-    "x": 161.41,
-    "y": 71.942,
-    "weight": 904
+    "x": 180.98,
+    "y": 70.681,
+    "weight": 911
    },
    {
-    "size": 1.0034888791975578,
+    "size": 1.0028956131460838,
     "id": "futbol",
-    "x": 125.97,
-    "y": 31.683,
+    "x": 174.46,
+    "y": 79.033,
     "weight": 899
    },
    {
     "size": 1.0,
-    "id": "B\u00e1rcenas",
-    "x": 108.13,
-    "y": 158.09,
-    "weight": 893
+    "id": "aviones",
+    "x": 170.37,
+    "y": 129.23,
+    "weight": 894
    }
   ],
   "edges": [
@@ -582,21 +582,21 @@ var graphs = {
     "id": 2
    },
    {
+    "weight": 4,
+    "source": "PP",
+    "target": "aviones",
+    "id": 3
+   },
+   {
     "weight": 27,
     "source": "PP",
     "target": "bancos",
-    "id": 3
+    "id": 4
    },
    {
     "weight": 18,
     "source": "PP",
     "target": "Barcelona",
-    "id": 4
-   },
-   {
-    "weight": 516,
-    "source": "PP",
-    "target": "B\u00e1rcenas",
     "id": 5
    },
    {
@@ -606,7 +606,7 @@ var graphs = {
     "id": 6
    },
    {
-    "weight": 46,
+    "weight": 47,
     "source": "PP",
     "target": "censura",
     "id": 7
@@ -630,19 +630,19 @@ var graphs = {
     "id": 10
    },
    {
-    "weight": 1181,
+    "weight": 1182,
     "source": "PP",
     "target": "corrupcion",
     "id": 11
    },
    {
-    "weight": 22,
+    "weight": 31,
     "source": "PP",
     "target": "COVID-19",
     "id": 12
    },
    {
-    "weight": 134,
+    "weight": 136,
     "source": "PP",
     "target": "crisis",
     "id": 13
@@ -702,13 +702,13 @@ var graphs = {
     "id": 22
    },
    {
-    "weight": 236,
+    "weight": 237,
     "source": "PP",
     "target": "Espa\u00f1a",
     "id": 23
    },
    {
-    "weight": 120,
+    "weight": 121,
     "source": "PP",
     "target": "ETA",
     "id": 24
@@ -780,7 +780,7 @@ var graphs = {
     "id": 35
    },
    {
-    "weight": 59,
+    "weight": 61,
     "source": "PP",
     "target": "iglesia",
     "id": 36
@@ -810,7 +810,7 @@ var graphs = {
     "id": 40
    },
    {
-    "weight": 398,
+    "weight": 402,
     "source": "PP",
     "target": "Madrid",
     "id": 41
@@ -870,7 +870,7 @@ var graphs = {
     "id": 50
    },
    {
-    "weight": 190,
+    "weight": 193,
     "source": "PP",
     "target": "Podemos",
     "id": 51
@@ -888,7 +888,7 @@ var graphs = {
     "id": 53
    },
    {
-    "weight": 818,
+    "weight": 821,
     "source": "PP",
     "target": "PSOE",
     "id": 54
@@ -936,7 +936,7 @@ var graphs = {
     "id": 61
    },
    {
-    "weight": 101,
+    "weight": 102,
     "source": "PP",
     "target": "sanidad",
     "id": 62
@@ -1032,27 +1032,27 @@ var graphs = {
     "id": 77
    },
    {
-    "weight": 122,
+    "weight": 124,
     "source": "Espa\u00f1a",
     "target": "Alemania",
     "id": 78
    },
    {
-    "weight": 119,
+    "weight": 8,
     "source": "Espa\u00f1a",
-    "target": "bancos",
+    "target": "aviones",
     "id": 79
    },
    {
-    "weight": 17,
+    "weight": 119,
     "source": "Espa\u00f1a",
-    "target": "Barcelona",
+    "target": "bancos",
     "id": 80
    },
    {
-    "weight": 10,
+    "weight": 18,
     "source": "Espa\u00f1a",
-    "target": "B\u00e1rcenas",
+    "target": "Barcelona",
     "id": 81
    },
    {
@@ -1074,7 +1074,7 @@ var graphs = {
     "id": 84
    },
    {
-    "weight": 74,
+    "weight": 75,
     "source": "Espa\u00f1a",
     "target": "ciencia",
     "id": 85
@@ -1086,7 +1086,7 @@ var graphs = {
     "id": 86
    },
    {
-    "weight": 14,
+    "weight": 16,
     "source": "Espa\u00f1a",
     "target": "coches",
     "id": 87
@@ -1098,13 +1098,13 @@ var graphs = {
     "id": 88
    },
    {
-    "weight": 116,
+    "weight": 164,
     "source": "Espa\u00f1a",
     "target": "COVID-19",
     "id": 89
    },
    {
-    "weight": 349,
+    "weight": 352,
     "source": "Espa\u00f1a",
     "target": "crisis",
     "id": 90
@@ -1158,7 +1158,7 @@ var graphs = {
     "id": 98
    },
    {
-    "weight": 71,
+    "weight": 72,
     "source": "Espa\u00f1a",
     "target": "empresas",
     "id": 99
@@ -1176,19 +1176,19 @@ var graphs = {
     "id": 101
    },
    {
-    "weight": 218,
+    "weight": 221,
     "source": "Espa\u00f1a",
     "target": "Europa",
     "id": 102
    },
    {
-    "weight": 31,
+    "weight": 32,
     "source": "Espa\u00f1a",
     "target": "fotos",
     "id": 103
    },
    {
-    "weight": 103,
+    "weight": 105,
     "source": "Espa\u00f1a",
     "target": "Francia",
     "id": 104
@@ -1200,7 +1200,7 @@ var graphs = {
     "id": 105
    },
    {
-    "weight": 143,
+    "weight": 144,
     "source": "Espa\u00f1a",
     "target": "gobierno",
     "id": 106
@@ -1218,7 +1218,7 @@ var graphs = {
     "id": 108
    },
    {
-    "weight": 116,
+    "weight": 120,
     "source": "Espa\u00f1a",
     "target": "historia",
     "id": 109
@@ -1248,7 +1248,7 @@ var graphs = {
     "id": 113
    },
    {
-    "weight": 69,
+    "weight": 70,
     "source": "Espa\u00f1a",
     "target": "internet",
     "id": 114
@@ -1266,7 +1266,7 @@ var graphs = {
     "id": 116
    },
    {
-    "weight": 75,
+    "weight": 76,
     "source": "Espa\u00f1a",
     "target": "justicia",
     "id": 117
@@ -1278,13 +1278,13 @@ var graphs = {
     "id": 118
    },
    {
-    "weight": 63,
+    "weight": 66,
     "source": "Espa\u00f1a",
     "target": "Madrid",
     "id": 119
    },
    {
-    "weight": 27,
+    "weight": 28,
     "source": "Espa\u00f1a",
     "target": "manifestaciones",
     "id": 120
@@ -1296,7 +1296,7 @@ var graphs = {
     "id": 121
    },
    {
-    "weight": 18,
+    "weight": 21,
     "source": "Espa\u00f1a",
     "target": "muerte",
     "id": 122
@@ -1338,7 +1338,7 @@ var graphs = {
     "id": 128
    },
    {
-    "weight": 27,
+    "weight": 28,
     "source": "Espa\u00f1a",
     "target": "Podemos",
     "id": 129
@@ -1356,7 +1356,7 @@ var graphs = {
     "id": 131
    },
    {
-    "weight": 65,
+    "weight": 66,
     "source": "Espa\u00f1a",
     "target": "PSOE",
     "id": 132
@@ -1404,7 +1404,7 @@ var graphs = {
     "id": 139
    },
    {
-    "weight": 50,
+    "weight": 52,
     "source": "Espa\u00f1a",
     "target": "sanidad",
     "id": 140
@@ -1458,7 +1458,7 @@ var graphs = {
     "id": 148
    },
    {
-    "weight": 130,
+    "weight": 132,
     "source": "Espa\u00f1a",
     "target": "UE",
     "id": 149
@@ -1506,21 +1506,21 @@ var graphs = {
     "id": 156
    },
    {
+    "weight": 31,
+    "source": "EE.UU.",
+    "target": "aviones",
+    "id": 157
+   },
+   {
     "weight": 42,
     "source": "EE.UU.",
     "target": "bancos",
-    "id": 157
+    "id": 158
    },
    {
     "weight": 3,
     "source": "EE.UU.",
     "target": "Barcelona",
-    "id": 158
-   },
-   {
-    "weight": 4,
-    "source": "EE.UU.",
-    "target": "B\u00e1rcenas",
     "id": 159
    },
    {
@@ -1536,7 +1536,7 @@ var graphs = {
     "id": 161
    },
    {
-    "weight": 128,
+    "weight": 130,
     "source": "EE.UU.",
     "target": "China",
     "id": 162
@@ -1566,7 +1566,7 @@ var graphs = {
     "id": 166
    },
    {
-    "weight": 71,
+    "weight": 79,
     "source": "EE.UU.",
     "target": "COVID-19",
     "id": 167
@@ -1644,7 +1644,7 @@ var graphs = {
     "id": 179
    },
    {
-    "weight": 35,
+    "weight": 36,
     "source": "EE.UU.",
     "target": "fotos",
     "id": 180
@@ -1662,7 +1662,7 @@ var graphs = {
     "id": 182
    },
    {
-    "weight": 20,
+    "weight": 21,
     "source": "EE.UU.",
     "target": "gobierno",
     "id": 183
@@ -1674,7 +1674,7 @@ var graphs = {
     "id": 184
    },
    {
-    "weight": 186,
+    "weight": 188,
     "source": "EE.UU.",
     "target": "guerra",
     "id": 185
@@ -1728,7 +1728,7 @@ var graphs = {
     "id": 193
    },
    {
-    "weight": 35,
+    "weight": 36,
     "source": "EE.UU.",
     "target": "justicia",
     "id": 194
@@ -1758,7 +1758,7 @@ var graphs = {
     "id": 198
    },
    {
-    "weight": 35,
+    "weight": 36,
     "source": "EE.UU.",
     "target": "muerte",
     "id": 199
@@ -1806,7 +1806,7 @@ var graphs = {
     "id": 206
    },
    {
-    "weight": 80,
+    "weight": 85,
     "source": "EE.UU.",
     "target": "policia",
     "id": 207
@@ -1860,7 +1860,7 @@ var graphs = {
     "id": 215
    },
    {
-    "weight": 60,
+    "weight": 61,
     "source": "EE.UU.",
     "target": "sanidad",
     "id": 216
@@ -1902,7 +1902,7 @@ var graphs = {
     "id": 222
    },
    {
-    "weight": 54,
+    "weight": 55,
     "source": "EE.UU.",
     "target": "terrorismo",
     "id": 223
@@ -1950,31 +1950,31 @@ var graphs = {
     "id": 230
    },
    {
-    "weight": 67,
+    "weight": 69,
     "source": "crisis",
     "target": "Alemania",
     "id": 231
    },
    {
-    "weight": 301,
+    "weight": 3,
     "source": "crisis",
-    "target": "bancos",
+    "target": "aviones",
     "id": 232
    },
    {
-    "weight": 6,
+    "weight": 301,
     "source": "crisis",
-    "target": "Barcelona",
+    "target": "bancos",
     "id": 233
    },
    {
-    "weight": 5,
+    "weight": 7,
     "source": "crisis",
-    "target": "B\u00e1rcenas",
+    "target": "Barcelona",
     "id": 234
    },
    {
-    "weight": 25,
+    "weight": 26,
     "source": "crisis",
     "target": "Catalu\u00f1a",
     "id": 235
@@ -2004,7 +2004,7 @@ var graphs = {
     "id": 239
    },
    {
-    "weight": 26,
+    "weight": 27,
     "source": "crisis",
     "target": "coches",
     "id": 240
@@ -2016,7 +2016,7 @@ var graphs = {
     "id": 241
    },
    {
-    "weight": 28,
+    "weight": 37,
     "source": "crisis",
     "target": "COVID-19",
     "id": 242
@@ -2076,7 +2076,7 @@ var graphs = {
     "id": 251
    },
    {
-    "weight": 85,
+    "weight": 86,
     "source": "crisis",
     "target": "Europa",
     "id": 252
@@ -2346,7 +2346,7 @@ var graphs = {
     "id": 296
    },
    {
-    "weight": 71,
+    "weight": 72,
     "source": "crisis",
     "target": "trabajo",
     "id": 297
@@ -2400,21 +2400,21 @@ var graphs = {
     "id": 305
    },
    {
-    "weight": 12,
+    "weight": 6,
     "source": "Madrid",
-    "target": "bancos",
+    "target": "aviones",
     "id": 306
    },
    {
-    "weight": 59,
+    "weight": 12,
     "source": "Madrid",
-    "target": "Barcelona",
+    "target": "bancos",
     "id": 307
    },
    {
-    "weight": 5,
+    "weight": 60,
     "source": "Madrid",
-    "target": "B\u00e1rcenas",
+    "target": "Barcelona",
     "id": 308
    },
    {
@@ -2442,7 +2442,7 @@ var graphs = {
     "id": 312
    },
    {
-    "weight": 8,
+    "weight": 9,
     "source": "Madrid",
     "target": "cine",
     "id": 313
@@ -2460,7 +2460,7 @@ var graphs = {
     "id": 315
    },
    {
-    "weight": 71,
+    "weight": 104,
     "source": "Madrid",
     "target": "COVID-19",
     "id": 316
@@ -2484,7 +2484,7 @@ var graphs = {
     "id": 319
    },
    {
-    "weight": 32,
+    "weight": 33,
     "source": "Madrid",
     "target": "detenidos",
     "id": 320
@@ -2544,7 +2544,7 @@ var graphs = {
     "id": 329
    },
    {
-    "weight": 25,
+    "weight": 27,
     "source": "Madrid",
     "target": "gobierno",
     "id": 330
@@ -2616,7 +2616,7 @@ var graphs = {
     "id": 341
    },
    {
-    "weight": 83,
+    "weight": 85,
     "source": "Madrid",
     "target": "manifestaciones",
     "id": 342
@@ -2652,7 +2652,7 @@ var graphs = {
     "id": 347
    },
    {
-    "weight": 16,
+    "weight": 17,
     "source": "Madrid",
     "target": "ni\u00f1os",
     "id": 348
@@ -2670,13 +2670,13 @@ var graphs = {
     "id": 350
    },
    {
-    "weight": 39,
+    "weight": 41,
     "source": "Madrid",
     "target": "Podemos",
     "id": 351
    },
    {
-    "weight": 123,
+    "weight": 128,
     "source": "Madrid",
     "target": "policia",
     "id": 352
@@ -2688,7 +2688,7 @@ var graphs = {
     "id": 353
    },
    {
-    "weight": 50,
+    "weight": 51,
     "source": "Madrid",
     "target": "PSOE",
     "id": 354
@@ -2730,7 +2730,7 @@ var graphs = {
     "id": 360
    },
    {
-    "weight": 150,
+    "weight": 154,
     "source": "Madrid",
     "target": "sanidad",
     "id": 361
@@ -2832,21 +2832,21 @@ var graphs = {
     "id": 377
    },
    {
+    "weight": 5,
+    "source": "humor",
+    "target": "aviones",
+    "id": 378
+   },
+   {
     "weight": 20,
     "source": "humor",
     "target": "bancos",
-    "id": 378
+    "id": 379
    },
    {
     "weight": 9,
     "source": "humor",
     "target": "Barcelona",
-    "id": 379
-   },
-   {
-    "weight": 18,
-    "source": "humor",
-    "target": "B\u00e1rcenas",
     "id": 380
    },
    {
@@ -3054,7 +3054,7 @@ var graphs = {
     "id": 414
    },
    {
-    "weight": 8,
+    "weight": 10,
     "source": "humor",
     "target": "manifestaciones",
     "id": 415
@@ -3288,387 +3288,387 @@ var graphs = {
     "id": 453
    },
    {
-    "weight": 227,
-    "source": "corrupcion",
-    "target": "B\u00e1rcenas",
-    "id": 454
-   },
-   {
     "weight": 36,
     "source": "corrupcion",
     "target": "Catalu\u00f1a",
-    "id": 455
+    "id": 454
    },
    {
     "weight": 10,
     "source": "corrupcion",
     "target": "censura",
-    "id": 456
+    "id": 455
    },
    {
     "weight": 14,
     "source": "corrupcion",
     "target": "China",
-    "id": 457
+    "id": 456
    },
    {
     "weight": 6,
     "source": "corrupcion",
     "target": "ciencia",
-    "id": 458
+    "id": 457
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "cine",
-    "id": 459
+    "id": 458
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "coches",
-    "id": 460
+    "id": 459
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "COVID-19",
-    "id": 461
+    "id": 460
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "cultura",
-    "id": 462
+    "id": 461
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "derechos",
-    "id": 463
+    "id": 462
    },
    {
     "weight": 19,
     "source": "corrupcion",
     "target": "detenidos",
-    "id": 464
+    "id": 463
    },
    {
     "weight": 26,
     "source": "corrupcion",
     "target": "economia",
-    "id": 465
+    "id": 464
    },
    {
     "weight": 6,
     "source": "corrupcion",
     "target": "educacion",
-    "id": 466
+    "id": 465
    },
    {
     "weight": 39,
     "source": "corrupcion",
     "target": "elecciones",
-    "id": 467
+    "id": 466
    },
    {
     "weight": 15,
     "source": "corrupcion",
     "target": "empresas",
-    "id": 468
+    "id": 467
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "energia",
-    "id": 469
+    "id": 468
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "ETA",
-    "id": 470
+    "id": 469
    },
    {
     "weight": 15,
     "source": "corrupcion",
     "target": "Europa",
-    "id": 471
+    "id": 470
    },
    {
     "weight": 4,
     "source": "corrupcion",
     "target": "fotos",
-    "id": 472
+    "id": 471
    },
    {
     "weight": 4,
     "source": "corrupcion",
     "target": "Francia",
-    "id": 473
+    "id": 472
    },
    {
     "weight": 22,
     "source": "corrupcion",
     "target": "futbol",
-    "id": 474
+    "id": 473
    },
    {
     "weight": 54,
     "source": "corrupcion",
     "target": "gobierno",
-    "id": 475
+    "id": 474
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "google",
-    "id": 476
+    "id": 475
    },
    {
     "weight": 7,
     "source": "corrupcion",
     "target": "historia",
-    "id": 477
+    "id": 476
    },
    {
     "weight": 1,
     "source": "corrupcion",
     "target": "homosexualidad",
-    "id": 478
+    "id": 477
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "huelga",
-    "id": 479
+    "id": 478
    },
    {
-    "weight": 12,
+    "weight": 14,
     "source": "corrupcion",
     "target": "iglesia",
-    "id": 480
+    "id": 479
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "internet",
-    "id": 481
+    "id": 480
    },
    {
     "weight": 1,
     "source": "corrupcion",
     "target": "Israel",
-    "id": 482
+    "id": 481
    },
    {
     "weight": 65,
     "source": "corrupcion",
     "target": "justicia",
-    "id": 483
+    "id": 482
    },
    {
     "weight": 11,
     "source": "corrupcion",
     "target": "manifestaciones",
-    "id": 484
+    "id": 483
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "microsoft",
-    "id": 485
+    "id": 484
    },
    {
     "weight": 5,
     "source": "corrupcion",
     "target": "muerte",
-    "id": 486
+    "id": 485
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "mujeres",
-    "id": 487
+    "id": 486
    },
    {
     "weight": 4,
     "source": "corrupcion",
     "target": "musica",
-    "id": 488
+    "id": 487
    },
    {
     "weight": 2,
     "source": "corrupcion",
     "target": "ni\u00f1os",
-    "id": 489
+    "id": 488
    },
    {
     "weight": 13,
     "source": "corrupcion",
     "target": "paro",
-    "id": 490
+    "id": 489
    },
    {
     "weight": 14,
     "source": "corrupcion",
     "target": "periodismo",
-    "id": 491
+    "id": 490
    },
    {
-    "weight": 24,
+    "weight": 25,
     "source": "corrupcion",
     "target": "Podemos",
-    "id": 492
+    "id": 491
    },
    {
     "weight": 55,
     "source": "corrupcion",
     "target": "policia",
-    "id": 493
+    "id": 492
    },
    {
     "weight": 238,
     "source": "corrupcion",
     "target": "politica",
-    "id": 494
+    "id": 493
    },
    {
     "weight": 144,
     "source": "corrupcion",
     "target": "PSOE",
-    "id": 495
+    "id": 494
    },
    {
     "weight": 166,
     "source": "corrupcion",
     "target": "Rajoy",
-    "id": 496
+    "id": 495
    },
    {
     "weight": 8,
     "source": "corrupcion",
     "target": "recortes",
-    "id": 497
+    "id": 496
    },
    {
     "weight": 4,
     "source": "corrupcion",
     "target": "religion",
-    "id": 498
+    "id": 497
    },
    {
     "weight": 12,
     "source": "corrupcion",
     "target": "RTVE",
-    "id": 499
+    "id": 498
    },
    {
     "weight": 1,
     "source": "corrupcion",
     "target": "Rusia",
-    "id": 500
+    "id": 499
    },
    {
     "weight": 12,
     "source": "corrupcion",
     "target": "salarios",
-    "id": 501
+    "id": 500
    },
    {
     "weight": 5,
     "source": "corrupcion",
     "target": "salud",
-    "id": 502
+    "id": 501
    },
    {
     "weight": 26,
     "source": "corrupcion",
     "target": "sanidad",
-    "id": 503
+    "id": 502
    },
    {
     "weight": 1,
     "source": "corrupcion",
     "target": "seguridad",
-    "id": 504
+    "id": 503
    },
    {
     "weight": 21,
     "source": "corrupcion",
     "target": "SGAE",
-    "id": 505
+    "id": 504
    },
    {
     "weight": 18,
     "source": "corrupcion",
     "target": "sociedad",
-    "id": 506
+    "id": 505
    },
    {
     "weight": 4,
     "source": "corrupcion",
     "target": "television",
-    "id": 507
+    "id": 506
    },
    {
     "weight": 1,
     "source": "corrupcion",
     "target": "terrorismo",
-    "id": 508
+    "id": 507
    },
    {
     "weight": 3,
     "source": "corrupcion",
     "target": "trabajo",
-    "id": 509
+    "id": 508
    },
    {
     "weight": 8,
     "source": "corrupcion",
     "target": "UE",
-    "id": 510
+    "id": 509
    },
    {
     "weight": 149,
     "source": "corrupcion",
     "target": "Valencia",
-    "id": 511
+    "id": 510
    },
    {
     "weight": 7,
     "source": "corrupcion",
     "target": "videos",
-    "id": 512
+    "id": 511
    },
    {
     "weight": 22,
     "source": "corrupcion",
     "target": "vivienda",
-    "id": 513
+    "id": 512
    },
    {
     "weight": 6,
     "source": "corrupcion",
     "target": "Zapatero",
-    "id": 514
+    "id": 513
    },
    {
     "weight": 2,
     "source": "politica",
     "target": "accidentes",
-    "id": 515
+    "id": 514
    },
    {
     "weight": 27,
     "source": "politica",
     "target": "Aguirre",
-    "id": 516
+    "id": 515
    },
    {
     "weight": 11,
     "source": "politica",
     "target": "Alemania",
+    "id": 516
+   },
+   {
+    "weight": 2,
+    "source": "politica",
+    "target": "aviones",
     "id": 517
    },
    {
@@ -3684,393 +3684,393 @@ var graphs = {
     "id": 519
    },
    {
-    "weight": 15,
-    "source": "politica",
-    "target": "B\u00e1rcenas",
-    "id": 520
-   },
-   {
     "weight": 43,
     "source": "politica",
     "target": "Catalu\u00f1a",
-    "id": 521
+    "id": 520
    },
    {
     "weight": 16,
     "source": "politica",
     "target": "censura",
-    "id": 522
+    "id": 521
    },
    {
     "weight": 10,
     "source": "politica",
     "target": "China",
-    "id": 523
+    "id": 522
    },
    {
     "weight": 29,
     "source": "politica",
     "target": "ciencia",
-    "id": 524
+    "id": 523
    },
    {
     "weight": 11,
     "source": "politica",
     "target": "cine",
-    "id": 525
+    "id": 524
    },
    {
-    "weight": 11,
+    "weight": 13,
     "source": "politica",
     "target": "COVID-19",
-    "id": 526
+    "id": 525
    },
    {
     "weight": 26,
     "source": "politica",
     "target": "cultura",
-    "id": 527
+    "id": 526
    },
    {
     "weight": 4,
     "source": "politica",
     "target": "curiosidades",
-    "id": 528
+    "id": 527
    },
    {
     "weight": 33,
     "source": "politica",
     "target": "derechos",
-    "id": 529
+    "id": 528
    },
    {
-    "weight": 197,
+    "weight": 198,
     "source": "politica",
     "target": "economia",
-    "id": 530
+    "id": 529
    },
    {
     "weight": 34,
     "source": "politica",
     "target": "educacion",
-    "id": 531
+    "id": 530
    },
    {
     "weight": 132,
     "source": "politica",
     "target": "elecciones",
-    "id": 532
+    "id": 531
    },
    {
     "weight": 14,
     "source": "politica",
     "target": "empresas",
-    "id": 533
+    "id": 532
    },
    {
     "weight": 11,
     "source": "politica",
     "target": "energia",
-    "id": 534
+    "id": 533
    },
    {
     "weight": 43,
     "source": "politica",
     "target": "ETA",
-    "id": 535
+    "id": 534
    },
    {
     "weight": 33,
     "source": "politica",
     "target": "Europa",
-    "id": 536
+    "id": 535
    },
    {
     "weight": 11,
     "source": "politica",
     "target": "fotos",
-    "id": 537
+    "id": 536
    },
    {
     "weight": 14,
     "source": "politica",
     "target": "Francia",
-    "id": 538
+    "id": 537
    },
    {
     "weight": 16,
     "source": "politica",
     "target": "futbol",
-    "id": 539
+    "id": 538
    },
    {
     "weight": 65,
     "source": "politica",
     "target": "gobierno",
-    "id": 540
+    "id": 539
    },
    {
     "weight": 4,
     "source": "politica",
     "target": "google",
-    "id": 541
+    "id": 540
    },
    {
     "weight": 24,
     "source": "politica",
     "target": "guerra",
-    "id": 542
+    "id": 541
    },
    {
     "weight": 28,
     "source": "politica",
     "target": "historia",
-    "id": 543
+    "id": 542
    },
    {
     "weight": 7,
     "source": "politica",
     "target": "homosexualidad",
-    "id": 544
+    "id": 543
    },
    {
     "weight": 10,
     "source": "politica",
     "target": "huelga",
-    "id": 545
+    "id": 544
    },
    {
     "weight": 23,
     "source": "politica",
     "target": "iglesia",
-    "id": 546
+    "id": 545
    },
    {
     "weight": 31,
     "source": "politica",
     "target": "internet",
-    "id": 547
+    "id": 546
    },
    {
     "weight": 21,
     "source": "politica",
     "target": "Israel",
-    "id": 548
+    "id": 547
    },
    {
     "weight": 7,
     "source": "politica",
     "target": "Japon",
-    "id": 549
+    "id": 548
    },
    {
-    "weight": 34,
+    "weight": 35,
     "source": "politica",
     "target": "justicia",
-    "id": 550
+    "id": 549
    },
    {
     "weight": 1,
     "source": "politica",
     "target": "linux",
-    "id": 551
+    "id": 550
    },
    {
     "weight": 24,
     "source": "politica",
     "target": "manifestaciones",
-    "id": 552
+    "id": 551
    },
    {
     "weight": 7,
     "source": "politica",
     "target": "muerte",
-    "id": 553
+    "id": 552
    },
    {
     "weight": 6,
     "source": "politica",
     "target": "mujeres",
-    "id": 554
+    "id": 553
    },
    {
     "weight": 6,
     "source": "politica",
     "target": "musica",
-    "id": 555
+    "id": 554
    },
    {
     "weight": 3,
     "source": "politica",
     "target": "ni\u00f1os",
-    "id": 556
+    "id": 555
    },
    {
     "weight": 18,
     "source": "politica",
     "target": "paro",
-    "id": 557
+    "id": 556
    },
    {
     "weight": 22,
     "source": "politica",
     "target": "periodismo",
-    "id": 558
+    "id": 557
    },
    {
     "weight": 40,
     "source": "politica",
     "target": "Podemos",
-    "id": 559
+    "id": 558
    },
    {
     "weight": 23,
     "source": "politica",
     "target": "policia",
-    "id": 560
+    "id": 559
    },
    {
     "weight": 154,
     "source": "politica",
     "target": "PSOE",
-    "id": 561
+    "id": 560
    },
    {
     "weight": 112,
     "source": "politica",
     "target": "Rajoy",
-    "id": 562
+    "id": 561
    },
    {
     "weight": 27,
     "source": "politica",
     "target": "recortes",
-    "id": 563
+    "id": 562
    },
    {
     "weight": 33,
     "source": "politica",
     "target": "religion",
-    "id": 564
+    "id": 563
    },
    {
     "weight": 13,
     "source": "politica",
     "target": "RTVE",
-    "id": 565
+    "id": 564
    },
    {
     "weight": 10,
     "source": "politica",
     "target": "Rusia",
-    "id": 566
+    "id": 565
    },
    {
     "weight": 42,
     "source": "politica",
     "target": "salarios",
+    "id": 566
+   },
+   {
+    "weight": 18,
+    "source": "politica",
+    "target": "salud",
     "id": 567
    },
    {
-    "weight": 16,
-    "source": "politica",
-    "target": "salud",
-    "id": 568
-   },
-   {
-    "weight": 29,
+    "weight": 30,
     "source": "politica",
     "target": "sanidad",
-    "id": 569
+    "id": 568
    },
    {
     "weight": 5,
     "source": "politica",
     "target": "seguridad",
-    "id": 570
+    "id": 569
    },
    {
     "weight": 14,
     "source": "politica",
     "target": "SGAE",
-    "id": 571
+    "id": 570
    },
    {
     "weight": 148,
     "source": "politica",
     "target": "sociedad",
-    "id": 572
+    "id": 571
    },
    {
     "weight": 8,
     "source": "politica",
     "target": "software libre",
-    "id": 573
+    "id": 572
    },
    {
     "weight": 7,
     "source": "politica",
     "target": "tecnologia",
-    "id": 574
+    "id": 573
    },
    {
     "weight": 34,
     "source": "politica",
     "target": "television",
-    "id": 575
+    "id": 574
    },
    {
     "weight": 44,
     "source": "politica",
     "target": "terrorismo",
-    "id": 576
+    "id": 575
    },
    {
-    "weight": 18,
+    "weight": 19,
     "source": "politica",
     "target": "trabajo",
-    "id": 577
+    "id": 576
    },
    {
     "weight": 15,
     "source": "politica",
     "target": "UE",
-    "id": 578
+    "id": 577
    },
    {
     "weight": 29,
     "source": "politica",
     "target": "Valencia",
-    "id": 579
+    "id": 578
    },
    {
     "weight": 4,
     "source": "politica",
     "target": "videos",
-    "id": 580
+    "id": 579
    },
    {
     "weight": 13,
     "source": "politica",
     "target": "vivienda",
-    "id": 581
+    "id": 580
    },
    {
     "weight": 49,
     "source": "politica",
     "target": "Zapatero",
-    "id": 582
+    "id": 581
    },
    {
     "weight": 1,
     "source": "internet",
     "target": "Aguirre",
-    "id": 583
+    "id": 582
    },
    {
     "weight": 6,
     "source": "internet",
     "target": "Alemania",
+    "id": 583
+   },
+   {
+    "weight": 2,
+    "source": "internet",
+    "target": "aviones",
     "id": 584
    },
    {
@@ -4086,1173 +4086,1173 @@ var graphs = {
     "id": 586
    },
    {
-    "weight": 1,
-    "source": "internet",
-    "target": "B\u00e1rcenas",
-    "id": 587
-   },
-   {
     "weight": 4,
     "source": "internet",
     "target": "Catalu\u00f1a",
-    "id": 588
+    "id": 587
    },
    {
     "weight": 113,
     "source": "internet",
     "target": "censura",
-    "id": 589
+    "id": 588
    },
    {
     "weight": 31,
     "source": "internet",
     "target": "China",
-    "id": 590
+    "id": 589
    },
    {
     "weight": 15,
     "source": "internet",
     "target": "ciencia",
-    "id": 591
+    "id": 590
    },
    {
     "weight": 29,
     "source": "internet",
     "target": "cine",
-    "id": 592
+    "id": 591
    },
    {
     "weight": 3,
     "source": "internet",
     "target": "coches",
-    "id": 593
+    "id": 592
    },
    {
     "weight": 5,
     "source": "internet",
     "target": "COVID-19",
-    "id": 594
+    "id": 593
    },
    {
     "weight": 46,
     "source": "internet",
     "target": "cultura",
-    "id": 595
+    "id": 594
    },
    {
     "weight": 21,
     "source": "internet",
     "target": "curiosidades",
-    "id": 596
+    "id": 595
    },
    {
     "weight": 80,
     "source": "internet",
     "target": "derechos",
-    "id": 597
+    "id": 596
    },
    {
     "weight": 16,
     "source": "internet",
     "target": "detenidos",
-    "id": 598
+    "id": 597
    },
    {
     "weight": 21,
     "source": "internet",
     "target": "economia",
-    "id": 599
+    "id": 598
    },
    {
     "weight": 12,
     "source": "internet",
     "target": "educacion",
-    "id": 600
+    "id": 599
    },
    {
     "weight": 9,
     "source": "internet",
     "target": "elecciones",
-    "id": 601
+    "id": 600
    },
    {
     "weight": 19,
     "source": "internet",
     "target": "empresas",
+    "id": 601
+   },
+   {
+    "weight": 4,
+    "source": "internet",
+    "target": "energia",
     "id": 602
    },
    {
     "weight": 4,
     "source": "internet",
-    "target": "energia",
-    "id": 603
-   },
-   {
-    "weight": 4,
-    "source": "internet",
     "target": "ETA",
-    "id": 604
+    "id": 603
    },
    {
     "weight": 38,
     "source": "internet",
     "target": "Europa",
-    "id": 605
+    "id": 604
    },
    {
     "weight": 29,
     "source": "internet",
     "target": "fotos",
-    "id": 606
+    "id": 605
    },
    {
     "weight": 25,
     "source": "internet",
     "target": "Francia",
-    "id": 607
+    "id": 606
    },
    {
     "weight": 4,
     "source": "internet",
     "target": "futbol",
-    "id": 608
+    "id": 607
    },
    {
     "weight": 29,
     "source": "internet",
     "target": "gobierno",
-    "id": 609
+    "id": 608
    },
    {
     "weight": 136,
     "source": "internet",
     "target": "google",
-    "id": 610
+    "id": 609
    },
    {
     "weight": 4,
     "source": "internet",
     "target": "guerra",
-    "id": 611
+    "id": 610
    },
    {
-    "weight": 19,
+    "weight": 20,
     "source": "internet",
     "target": "historia",
-    "id": 612
+    "id": 611
    },
    {
     "weight": 1,
     "source": "internet",
     "target": "homosexualidad",
-    "id": 613
+    "id": 612
    },
    {
     "weight": 4,
     "source": "internet",
     "target": "huelga",
-    "id": 614
+    "id": 613
    },
    {
     "weight": 5,
     "source": "internet",
     "target": "iglesia",
-    "id": 615
+    "id": 614
    },
    {
     "weight": 3,
     "source": "internet",
     "target": "Israel",
-    "id": 616
+    "id": 615
    },
    {
     "weight": 6,
     "source": "internet",
     "target": "Japon",
-    "id": 617
+    "id": 616
    },
    {
     "weight": 10,
     "source": "internet",
     "target": "justicia",
-    "id": 618
+    "id": 617
    },
    {
     "weight": 18,
     "source": "internet",
     "target": "linux",
-    "id": 619
+    "id": 618
    },
    {
     "weight": 5,
     "source": "internet",
     "target": "manifestaciones",
-    "id": 620
+    "id": 619
    },
    {
     "weight": 27,
     "source": "internet",
     "target": "microsoft",
-    "id": 621
+    "id": 620
    },
    {
     "weight": 7,
     "source": "internet",
     "target": "muerte",
-    "id": 622
+    "id": 621
    },
    {
     "weight": 9,
     "source": "internet",
     "target": "mujeres",
-    "id": 623
+    "id": 622
    },
    {
     "weight": 71,
     "source": "internet",
     "target": "musica",
-    "id": 624
+    "id": 623
    },
    {
     "weight": 5,
     "source": "internet",
     "target": "NASA",
-    "id": 625
+    "id": 624
    },
    {
     "weight": 7,
     "source": "internet",
     "target": "ni\u00f1os",
-    "id": 626
+    "id": 625
    },
    {
     "weight": 4,
     "source": "internet",
     "target": "paro",
-    "id": 627
+    "id": 626
    },
    {
     "weight": 16,
     "source": "internet",
     "target": "periodismo",
-    "id": 628
+    "id": 627
    },
    {
     "weight": 17,
     "source": "internet",
     "target": "policia",
-    "id": 629
+    "id": 628
    },
    {
     "weight": 20,
     "source": "internet",
     "target": "PSOE",
-    "id": 630
+    "id": 629
    },
    {
     "weight": 5,
     "source": "internet",
     "target": "Rajoy",
-    "id": 631
+    "id": 630
    },
    {
     "weight": 2,
     "source": "internet",
     "target": "recortes",
-    "id": 632
+    "id": 631
    },
    {
     "weight": 5,
     "source": "internet",
     "target": "religion",
-    "id": 633
+    "id": 632
    },
    {
     "weight": 6,
     "source": "internet",
     "target": "RTVE",
-    "id": 634
+    "id": 633
    },
    {
     "weight": 10,
     "source": "internet",
     "target": "Rusia",
-    "id": 635
+    "id": 634
    },
    {
     "weight": 1,
     "source": "internet",
     "target": "salarios",
-    "id": 636
+    "id": 635
    },
    {
     "weight": 6,
     "source": "internet",
     "target": "salud",
-    "id": 637
+    "id": 636
    },
    {
-    "weight": 78,
+    "weight": 79,
     "source": "internet",
     "target": "seguridad",
-    "id": 638
+    "id": 637
    },
    {
     "weight": 98,
     "source": "internet",
     "target": "SGAE",
-    "id": 639
+    "id": 638
    },
    {
     "weight": 32,
     "source": "internet",
     "target": "sociedad",
-    "id": 640
+    "id": 639
    },
    {
     "weight": 31,
     "source": "internet",
     "target": "software libre",
-    "id": 641
+    "id": 640
    },
    {
     "weight": 66,
     "source": "internet",
     "target": "tecnologia",
-    "id": 642
+    "id": 641
    },
    {
     "weight": 36,
     "source": "internet",
     "target": "television",
-    "id": 643
+    "id": 642
    },
    {
     "weight": 7,
     "source": "internet",
     "target": "terrorismo",
-    "id": 644
+    "id": 643
    },
    {
     "weight": 15,
     "source": "internet",
     "target": "trabajo",
-    "id": 645
+    "id": 644
    },
    {
     "weight": 26,
     "source": "internet",
     "target": "UE",
-    "id": 646
+    "id": 645
    },
    {
     "weight": 3,
     "source": "internet",
     "target": "Valencia",
-    "id": 647
+    "id": 646
    },
    {
     "weight": 38,
     "source": "internet",
     "target": "videos",
-    "id": 648
+    "id": 647
    },
    {
     "weight": 2,
     "source": "internet",
     "target": "vivienda",
-    "id": 649
+    "id": 648
    },
    {
     "weight": 8,
     "source": "internet",
     "target": "Zapatero",
-    "id": 650
+    "id": 649
    },
    {
     "weight": 14,
     "source": "policia",
     "target": "accidentes",
-    "id": 651
+    "id": 650
    },
    {
     "weight": 15,
     "source": "policia",
     "target": "Aguirre",
-    "id": 652
+    "id": 651
    },
    {
     "weight": 14,
     "source": "policia",
     "target": "Alemania",
-    "id": 653
+    "id": 652
    },
    {
     "weight": 7,
     "source": "policia",
     "target": "bancos",
-    "id": 654
+    "id": 653
    },
    {
     "weight": 27,
     "source": "policia",
     "target": "Barcelona",
-    "id": 655
-   },
-   {
-    "weight": 21,
-    "source": "policia",
-    "target": "B\u00e1rcenas",
-    "id": 656
+    "id": 654
    },
    {
     "weight": 22,
     "source": "policia",
     "target": "Catalu\u00f1a",
-    "id": 657
+    "id": 655
    },
    {
     "weight": 10,
     "source": "policia",
     "target": "censura",
-    "id": 658
+    "id": 656
    },
    {
     "weight": 11,
     "source": "policia",
     "target": "China",
-    "id": 659
+    "id": 657
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "ciencia",
-    "id": 660
+    "id": 658
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "cine",
-    "id": 661
+    "id": 659
    },
    {
     "weight": 20,
     "source": "policia",
     "target": "coches",
-    "id": 662
+    "id": 660
    },
    {
-    "weight": 21,
+    "weight": 23,
     "source": "policia",
     "target": "COVID-19",
-    "id": 663
+    "id": 661
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "cultura",
-    "id": 664
+    "id": 662
    },
    {
     "weight": 3,
     "source": "policia",
     "target": "curiosidades",
-    "id": 665
+    "id": 663
    },
    {
     "weight": 21,
     "source": "policia",
     "target": "derechos",
-    "id": 666
+    "id": 664
    },
    {
-    "weight": 93,
+    "weight": 95,
     "source": "policia",
     "target": "detenidos",
-    "id": 667
+    "id": 665
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "economia",
-    "id": 668
+    "id": 666
    },
    {
     "weight": 8,
     "source": "policia",
     "target": "educacion",
-    "id": 669
+    "id": 667
    },
    {
     "weight": 5,
     "source": "policia",
     "target": "elecciones",
-    "id": 670
+    "id": 668
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "empresas",
-    "id": 671
+    "id": 669
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "energia",
-    "id": 672
+    "id": 670
    },
    {
     "weight": 30,
     "source": "policia",
     "target": "ETA",
-    "id": 673
+    "id": 671
    },
    {
     "weight": 4,
     "source": "policia",
     "target": "Europa",
-    "id": 674
+    "id": 672
    },
    {
     "weight": 18,
     "source": "policia",
     "target": "fotos",
-    "id": 675
+    "id": 673
    },
    {
-    "weight": 25,
+    "weight": 26,
     "source": "policia",
     "target": "Francia",
-    "id": 676
+    "id": 674
    },
    {
     "weight": 4,
     "source": "policia",
     "target": "futbol",
-    "id": 677
+    "id": 675
    },
    {
-    "weight": 15,
+    "weight": 16,
     "source": "policia",
     "target": "gobierno",
-    "id": 678
+    "id": 676
    },
    {
     "weight": 3,
     "source": "policia",
     "target": "google",
-    "id": 679
+    "id": 677
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "guerra",
-    "id": 680
+    "id": 678
    },
    {
     "weight": 4,
     "source": "policia",
     "target": "homosexualidad",
-    "id": 681
+    "id": 679
    },
    {
     "weight": 29,
     "source": "policia",
     "target": "huelga",
-    "id": 682
+    "id": 680
    },
    {
     "weight": 6,
     "source": "policia",
     "target": "iglesia",
-    "id": 683
+    "id": 681
    },
    {
     "weight": 6,
     "source": "policia",
     "target": "Israel",
-    "id": 684
+    "id": 682
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "Japon",
-    "id": 685
+    "id": 683
    },
    {
     "weight": 39,
     "source": "policia",
     "target": "justicia",
-    "id": 686
+    "id": 684
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "linux",
-    "id": 687
+    "id": 685
    },
    {
-    "weight": 104,
+    "weight": 105,
     "source": "policia",
     "target": "manifestaciones",
-    "id": 688
+    "id": 686
    },
    {
     "weight": 4,
     "source": "policia",
     "target": "microsoft",
-    "id": 689
+    "id": 687
    },
    {
-    "weight": 39,
+    "weight": 40,
     "source": "policia",
     "target": "muerte",
-    "id": 690
+    "id": 688
    },
    {
-    "weight": 23,
+    "weight": 24,
     "source": "policia",
     "target": "mujeres",
-    "id": 691
+    "id": 689
    },
    {
     "weight": 4,
     "source": "policia",
     "target": "musica",
-    "id": 692
+    "id": 690
    },
    {
     "weight": 19,
     "source": "policia",
     "target": "ni\u00f1os",
-    "id": 693
+    "id": 691
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "paro",
-    "id": 694
+    "id": 692
    },
    {
     "weight": 34,
     "source": "policia",
     "target": "periodismo",
-    "id": 695
+    "id": 693
    },
    {
     "weight": 16,
     "source": "policia",
     "target": "Podemos",
-    "id": 696
+    "id": 694
    },
    {
     "weight": 7,
     "source": "policia",
     "target": "PSOE",
-    "id": 697
+    "id": 695
    },
    {
     "weight": 13,
     "source": "policia",
     "target": "Rajoy",
-    "id": 698
+    "id": 696
    },
    {
     "weight": 19,
     "source": "policia",
     "target": "recortes",
-    "id": 699
+    "id": 697
    },
    {
     "weight": 4,
     "source": "policia",
     "target": "religion",
-    "id": 700
+    "id": 698
    },
    {
     "weight": 8,
     "source": "policia",
     "target": "Rusia",
-    "id": 701
+    "id": 699
    },
    {
     "weight": 10,
     "source": "policia",
     "target": "salarios",
-    "id": 702
+    "id": 700
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "salud",
-    "id": 703
+    "id": 701
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "sanidad",
-    "id": 704
+    "id": 702
    },
    {
     "weight": 27,
     "source": "policia",
     "target": "seguridad",
-    "id": 705
+    "id": 703
    },
    {
     "weight": 9,
     "source": "policia",
     "target": "SGAE",
-    "id": 706
+    "id": 704
    },
    {
     "weight": 5,
     "source": "policia",
     "target": "sociedad",
-    "id": 707
+    "id": 705
    },
    {
     "weight": 3,
     "source": "policia",
     "target": "tecnologia",
-    "id": 708
+    "id": 706
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "television",
-    "id": 709
+    "id": 707
    },
    {
     "weight": 16,
     "source": "policia",
     "target": "terrorismo",
-    "id": 710
+    "id": 708
    },
    {
     "weight": 9,
     "source": "policia",
     "target": "trabajo",
-    "id": 711
+    "id": 709
    },
    {
     "weight": 1,
     "source": "policia",
     "target": "UE",
-    "id": 712
+    "id": 710
    },
    {
     "weight": 59,
     "source": "policia",
     "target": "Valencia",
-    "id": 713
+    "id": 711
    },
    {
     "weight": 34,
     "source": "policia",
     "target": "videos",
-    "id": 714
+    "id": 712
    },
    {
     "weight": 7,
     "source": "policia",
     "target": "vivienda",
-    "id": 715
+    "id": 713
    },
    {
     "weight": 2,
     "source": "policia",
     "target": "Zapatero",
-    "id": 716
+    "id": 714
    },
    {
     "weight": 7,
     "source": "fotos",
     "target": "accidentes",
-    "id": 717
+    "id": 715
    },
    {
     "weight": 6,
     "source": "fotos",
     "target": "Alemania",
-    "id": 718
+    "id": 716
+   },
+   {
+    "weight": 18,
+    "source": "fotos",
+    "target": "aviones",
+    "id": 717
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "bancos",
-    "id": 719
+    "id": 718
    },
    {
     "weight": 12,
     "source": "fotos",
     "target": "Barcelona",
-    "id": 720
+    "id": 719
    },
    {
     "weight": 3,
     "source": "fotos",
     "target": "Catalu\u00f1a",
-    "id": 721
+    "id": 720
    },
    {
     "weight": 14,
     "source": "fotos",
     "target": "censura",
-    "id": 722
+    "id": 721
    },
    {
     "weight": 16,
     "source": "fotos",
     "target": "China",
-    "id": 723
+    "id": 722
    },
    {
     "weight": 23,
     "source": "fotos",
     "target": "ciencia",
-    "id": 724
+    "id": 723
    },
    {
     "weight": 17,
     "source": "fotos",
     "target": "cine",
-    "id": 725
+    "id": 724
    },
    {
     "weight": 15,
     "source": "fotos",
     "target": "coches",
-    "id": 726
+    "id": 725
    },
    {
     "weight": 3,
     "source": "fotos",
     "target": "COVID-19",
-    "id": 727
+    "id": 726
    },
    {
     "weight": 16,
     "source": "fotos",
     "target": "cultura",
-    "id": 728
+    "id": 727
    },
    {
     "weight": 56,
     "source": "fotos",
     "target": "curiosidades",
-    "id": 729
+    "id": 728
    },
    {
     "weight": 13,
     "source": "fotos",
     "target": "derechos",
-    "id": 730
+    "id": 729
    },
    {
     "weight": 7,
     "source": "fotos",
     "target": "detenidos",
-    "id": 731
+    "id": 730
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "economia",
-    "id": 732
+    "id": 731
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "educacion",
-    "id": 733
+    "id": 732
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "elecciones",
-    "id": 734
+    "id": 733
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "ETA",
-    "id": 735
+    "id": 734
    },
    {
     "weight": 3,
     "source": "fotos",
     "target": "Europa",
-    "id": 736
+    "id": 735
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "Francia",
-    "id": 737
+    "id": 736
    },
    {
     "weight": 3,
     "source": "fotos",
     "target": "futbol",
-    "id": 738
+    "id": 737
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "gobierno",
-    "id": 739
+    "id": 738
    },
    {
     "weight": 14,
     "source": "fotos",
     "target": "google",
-    "id": 740
+    "id": 739
    },
    {
-    "weight": 31,
+    "weight": 32,
     "source": "fotos",
     "target": "guerra",
-    "id": 741
+    "id": 740
    },
    {
     "weight": 72,
     "source": "fotos",
     "target": "historia",
-    "id": 742
+    "id": 741
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "homosexualidad",
-    "id": 743
+    "id": 742
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "huelga",
-    "id": 744
+    "id": 743
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "iglesia",
-    "id": 745
+    "id": 744
    },
    {
     "weight": 5,
     "source": "fotos",
     "target": "Israel",
-    "id": 746
+    "id": 745
    },
    {
     "weight": 23,
     "source": "fotos",
     "target": "Japon",
-    "id": 747
+    "id": 746
    },
    {
     "weight": 3,
     "source": "fotos",
     "target": "linux",
-    "id": 748
+    "id": 747
    },
    {
     "weight": 11,
     "source": "fotos",
     "target": "manifestaciones",
-    "id": 749
+    "id": 748
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "microsoft",
-    "id": 750
+    "id": 749
    },
    {
-    "weight": 12,
+    "weight": 13,
     "source": "fotos",
     "target": "muerte",
-    "id": 751
+    "id": 750
    },
    {
     "weight": 19,
     "source": "fotos",
     "target": "mujeres",
-    "id": 752
+    "id": 751
    },
    {
     "weight": 6,
     "source": "fotos",
     "target": "musica",
-    "id": 753
+    "id": 752
    },
    {
     "weight": 53,
     "source": "fotos",
     "target": "NASA",
-    "id": 754
+    "id": 753
    },
    {
     "weight": 20,
     "source": "fotos",
     "target": "ni\u00f1os",
-    "id": 755
+    "id": 754
    },
    {
     "weight": 1,
     "source": "fotos",
     "target": "paro",
-    "id": 756
+    "id": 755
    },
    {
     "weight": 26,
     "source": "fotos",
     "target": "periodismo",
-    "id": 757
+    "id": 756
    },
    {
     "weight": 1,
     "source": "fotos",
     "target": "Podemos",
-    "id": 758
+    "id": 757
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "PSOE",
-    "id": 759
+    "id": 758
    },
    {
     "weight": 11,
     "source": "fotos",
     "target": "Rajoy",
-    "id": 760
+    "id": 759
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "recortes",
-    "id": 761
+    "id": 760
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "religion",
-    "id": 762
+    "id": 761
    },
    {
-    "weight": 26,
+    "weight": 27,
     "source": "fotos",
     "target": "Rusia",
-    "id": 763
+    "id": 762
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "salarios",
-    "id": 764
+    "id": 763
    },
    {
     "weight": 1,
     "source": "fotos",
     "target": "salud",
-    "id": 765
+    "id": 764
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "seguridad",
-    "id": 766
+    "id": 765
    },
    {
     "weight": 4,
     "source": "fotos",
     "target": "SGAE",
-    "id": 767
+    "id": 766
    },
    {
-    "weight": 7,
+    "weight": 8,
     "source": "fotos",
     "target": "sociedad",
-    "id": 768
+    "id": 767
    },
    {
     "weight": 6,
     "source": "fotos",
     "target": "software libre",
-    "id": 769
+    "id": 768
    },
    {
     "weight": 6,
     "source": "fotos",
     "target": "tecnologia",
-    "id": 770
+    "id": 769
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "television",
-    "id": 771
+    "id": 770
    },
    {
     "weight": 5,
     "source": "fotos",
     "target": "terrorismo",
-    "id": 772
+    "id": 771
    },
    {
     "weight": 5,
     "source": "fotos",
     "target": "trabajo",
-    "id": 773
+    "id": 772
    },
    {
     "weight": 2,
     "source": "fotos",
     "target": "UE",
-    "id": 774
+    "id": 773
    },
    {
-    "weight": 8,
+    "weight": 9,
     "source": "fotos",
     "target": "Valencia",
-    "id": 775
+    "id": 774
    },
    {
     "weight": 17,
     "source": "fotos",
     "target": "videos",
-    "id": 776
+    "id": 775
    },
    {
     "weight": 1,
     "source": "fotos",
     "target": "vivienda",
-    "id": 777
+    "id": 776
    },
    {
     "weight": 6,
     "source": "fotos",
     "target": "Zapatero",
-    "id": 778
+    "id": 777
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "accidentes",
-    "id": 779
+    "id": 778
    },
    {
     "weight": 50,
     "source": "Rajoy",
     "target": "Aguirre",
-    "id": 780
+    "id": 779
    },
    {
     "weight": 6,
     "source": "Rajoy",
     "target": "Alemania",
+    "id": 780
+   },
+   {
+    "weight": 2,
+    "source": "Rajoy",
+    "target": "aviones",
     "id": 781
    },
    {
@@ -5268,357 +5268,357 @@ var graphs = {
     "id": 783
    },
    {
-    "weight": 164,
-    "source": "Rajoy",
-    "target": "B\u00e1rcenas",
-    "id": 784
-   },
-   {
     "weight": 29,
     "source": "Rajoy",
     "target": "Catalu\u00f1a",
-    "id": 785
+    "id": 784
    },
    {
     "weight": 15,
     "source": "Rajoy",
     "target": "censura",
-    "id": 786
+    "id": 785
    },
    {
     "weight": 6,
     "source": "Rajoy",
     "target": "ciencia",
-    "id": 787
+    "id": 786
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "cine",
-    "id": 788
+    "id": 787
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "coches",
-    "id": 789
+    "id": 788
    },
    {
     "weight": 3,
     "source": "Rajoy",
     "target": "COVID-19",
-    "id": 790
+    "id": 789
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "cultura",
-    "id": 791
+    "id": 790
    },
    {
     "weight": 5,
     "source": "Rajoy",
     "target": "derechos",
-    "id": 792
+    "id": 791
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "detenidos",
-    "id": 793
+    "id": 792
    },
    {
     "weight": 34,
     "source": "Rajoy",
     "target": "economia",
-    "id": 794
+    "id": 793
    },
    {
     "weight": 12,
     "source": "Rajoy",
     "target": "educacion",
-    "id": 795
+    "id": 794
    },
    {
     "weight": 132,
     "source": "Rajoy",
     "target": "elecciones",
-    "id": 796
+    "id": 795
    },
    {
     "weight": 4,
     "source": "Rajoy",
     "target": "empresas",
-    "id": 797
+    "id": 796
    },
    {
     "weight": 3,
     "source": "Rajoy",
     "target": "energia",
-    "id": 798
+    "id": 797
    },
    {
     "weight": 27,
     "source": "Rajoy",
     "target": "ETA",
-    "id": 799
+    "id": 798
    },
    {
     "weight": 15,
     "source": "Rajoy",
     "target": "Europa",
-    "id": 800
+    "id": 799
    },
    {
     "weight": 4,
     "source": "Rajoy",
     "target": "Francia",
-    "id": 801
+    "id": 800
    },
    {
     "weight": 3,
     "source": "Rajoy",
     "target": "futbol",
-    "id": 802
+    "id": 801
    },
    {
     "weight": 112,
     "source": "Rajoy",
     "target": "gobierno",
-    "id": 803
+    "id": 802
    },
    {
     "weight": 4,
     "source": "Rajoy",
     "target": "google",
-    "id": 804
+    "id": 803
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "guerra",
-    "id": 805
+    "id": 804
    },
    {
     "weight": 3,
     "source": "Rajoy",
     "target": "historia",
-    "id": 806
+    "id": 805
    },
    {
     "weight": 11,
     "source": "Rajoy",
     "target": "homosexualidad",
-    "id": 807
+    "id": 806
    },
    {
     "weight": 8,
     "source": "Rajoy",
     "target": "huelga",
-    "id": 808
+    "id": 807
    },
    {
     "weight": 16,
     "source": "Rajoy",
     "target": "iglesia",
-    "id": 809
+    "id": 808
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "Israel",
-    "id": 810
+    "id": 809
    },
    {
     "weight": 5,
     "source": "Rajoy",
     "target": "Japon",
-    "id": 811
+    "id": 810
    },
    {
     "weight": 10,
     "source": "Rajoy",
     "target": "justicia",
-    "id": 812
+    "id": 811
    },
    {
     "weight": 11,
     "source": "Rajoy",
     "target": "manifestaciones",
-    "id": 813
+    "id": 812
    },
    {
     "weight": 8,
     "source": "Rajoy",
     "target": "muerte",
-    "id": 814
+    "id": 813
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "mujeres",
-    "id": 815
+    "id": 814
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "NASA",
-    "id": 816
+    "id": 815
    },
    {
     "weight": 43,
     "source": "Rajoy",
     "target": "paro",
-    "id": 817
+    "id": 816
    },
    {
     "weight": 16,
     "source": "Rajoy",
     "target": "periodismo",
-    "id": 818
+    "id": 817
    },
    {
     "weight": 31,
     "source": "Rajoy",
     "target": "Podemos",
-    "id": 819
+    "id": 818
    },
    {
     "weight": 94,
     "source": "Rajoy",
     "target": "PSOE",
-    "id": 820
+    "id": 819
    },
    {
     "weight": 79,
     "source": "Rajoy",
     "target": "recortes",
-    "id": 821
+    "id": 820
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "religion",
-    "id": 822
+    "id": 821
    },
    {
     "weight": 29,
     "source": "Rajoy",
     "target": "RTVE",
-    "id": 823
+    "id": 822
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "Rusia",
-    "id": 824
+    "id": 823
    },
    {
     "weight": 17,
     "source": "Rajoy",
     "target": "salarios",
-    "id": 825
+    "id": 824
    },
    {
     "weight": 9,
     "source": "Rajoy",
     "target": "salud",
-    "id": 826
+    "id": 825
    },
    {
     "weight": 14,
     "source": "Rajoy",
     "target": "sanidad",
-    "id": 827
+    "id": 826
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "seguridad",
-    "id": 828
+    "id": 827
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "SGAE",
-    "id": 829
+    "id": 828
    },
    {
     "weight": 2,
     "source": "Rajoy",
     "target": "sociedad",
-    "id": 830
+    "id": 829
    },
    {
     "weight": 1,
     "source": "Rajoy",
     "target": "tecnologia",
-    "id": 831
+    "id": 830
    },
    {
     "weight": 7,
     "source": "Rajoy",
     "target": "television",
-    "id": 832
+    "id": 831
    },
    {
     "weight": 12,
     "source": "Rajoy",
     "target": "terrorismo",
-    "id": 833
+    "id": 832
    },
    {
     "weight": 6,
     "source": "Rajoy",
     "target": "trabajo",
-    "id": 834
+    "id": 833
    },
    {
     "weight": 11,
     "source": "Rajoy",
     "target": "UE",
-    "id": 835
+    "id": 834
    },
    {
     "weight": 14,
     "source": "Rajoy",
     "target": "Valencia",
-    "id": 836
+    "id": 835
    },
    {
     "weight": 10,
     "source": "Rajoy",
     "target": "videos",
-    "id": 837
+    "id": 836
    },
    {
     "weight": 3,
     "source": "Rajoy",
     "target": "vivienda",
-    "id": 838
+    "id": 837
    },
    {
     "weight": 117,
     "source": "Rajoy",
     "target": "Zapatero",
-    "id": 839
+    "id": 838
    },
    {
     "weight": 1,
     "source": "economia",
     "target": "accidentes",
-    "id": 840
+    "id": 839
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "Aguirre",
-    "id": 841
+    "id": 840
    },
    {
     "weight": 41,
     "source": "economia",
     "target": "Alemania",
+    "id": 841
+   },
+   {
+    "weight": 2,
+    "source": "economia",
+    "target": "aviones",
     "id": 842
    },
    {
@@ -5634,717 +5634,717 @@ var graphs = {
     "id": 844
    },
    {
-    "weight": 2,
-    "source": "economia",
-    "target": "B\u00e1rcenas",
-    "id": 845
-   },
-   {
     "weight": 7,
     "source": "economia",
     "target": "Catalu\u00f1a",
-    "id": 846
+    "id": 845
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "censura",
-    "id": 847
+    "id": 846
    },
    {
     "weight": 31,
     "source": "economia",
     "target": "China",
-    "id": 848
+    "id": 847
    },
    {
     "weight": 14,
     "source": "economia",
     "target": "ciencia",
-    "id": 849
+    "id": 848
    },
    {
     "weight": 5,
     "source": "economia",
     "target": "cine",
-    "id": 850
+    "id": 849
    },
    {
     "weight": 10,
     "source": "economia",
     "target": "coches",
-    "id": 851
+    "id": 850
    },
    {
-    "weight": 14,
+    "weight": 18,
     "source": "economia",
     "target": "COVID-19",
-    "id": 852
+    "id": 851
    },
    {
     "weight": 12,
     "source": "economia",
     "target": "cultura",
-    "id": 853
+    "id": 852
    },
    {
     "weight": 10,
     "source": "economia",
     "target": "curiosidades",
-    "id": 854
+    "id": 853
    },
    {
     "weight": 14,
     "source": "economia",
     "target": "derechos",
-    "id": 855
+    "id": 854
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "detenidos",
-    "id": 856
+    "id": 855
    },
    {
     "weight": 19,
     "source": "economia",
     "target": "educacion",
-    "id": 857
+    "id": 856
    },
    {
     "weight": 18,
     "source": "economia",
     "target": "elecciones",
-    "id": 858
+    "id": 857
    },
    {
     "weight": 76,
     "source": "economia",
     "target": "empresas",
-    "id": 859
+    "id": 858
    },
    {
     "weight": 32,
     "source": "economia",
     "target": "energia",
-    "id": 860
+    "id": 859
    },
    {
     "weight": 71,
     "source": "economia",
     "target": "Europa",
-    "id": 861
+    "id": 860
    },
    {
     "weight": 12,
     "source": "economia",
     "target": "Francia",
-    "id": 862
+    "id": 861
    },
    {
     "weight": 11,
     "source": "economia",
     "target": "futbol",
-    "id": 863
+    "id": 862
    },
    {
     "weight": 67,
     "source": "economia",
     "target": "gobierno",
-    "id": 864
+    "id": 863
    },
    {
     "weight": 3,
     "source": "economia",
     "target": "google",
-    "id": 865
+    "id": 864
    },
    {
     "weight": 6,
     "source": "economia",
     "target": "guerra",
-    "id": 866
+    "id": 865
    },
    {
     "weight": 16,
     "source": "economia",
     "target": "historia",
-    "id": 867
+    "id": 866
    },
    {
     "weight": 14,
     "source": "economia",
     "target": "huelga",
-    "id": 868
+    "id": 867
    },
    {
     "weight": 5,
     "source": "economia",
     "target": "iglesia",
-    "id": 869
+    "id": 868
    },
    {
     "weight": 3,
     "source": "economia",
     "target": "Israel",
-    "id": 870
+    "id": 869
    },
    {
     "weight": 12,
     "source": "economia",
     "target": "Japon",
-    "id": 871
+    "id": 870
    },
    {
     "weight": 10,
     "source": "economia",
     "target": "justicia",
-    "id": 872
+    "id": 871
    },
    {
     "weight": 3,
     "source": "economia",
     "target": "linux",
+    "id": 872
+   },
+   {
+    "weight": 2,
+    "source": "economia",
+    "target": "manifestaciones",
     "id": 873
    },
    {
     "weight": 2,
     "source": "economia",
-    "target": "manifestaciones",
+    "target": "microsoft",
     "id": 874
    },
    {
     "weight": 2,
     "source": "economia",
-    "target": "microsoft",
-    "id": 875
-   },
-   {
-    "weight": 2,
-    "source": "economia",
     "target": "muerte",
-    "id": 876
+    "id": 875
    },
    {
     "weight": 1,
     "source": "economia",
     "target": "mujeres",
-    "id": 877
+    "id": 876
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "musica",
-    "id": 878
+    "id": 877
    },
    {
     "weight": 1,
     "source": "economia",
     "target": "ni\u00f1os",
-    "id": 879
+    "id": 878
    },
    {
     "weight": 69,
     "source": "economia",
     "target": "paro",
-    "id": 880
+    "id": 879
    },
    {
     "weight": 5,
     "source": "economia",
     "target": "periodismo",
-    "id": 881
+    "id": 880
    },
    {
     "weight": 6,
     "source": "economia",
     "target": "Podemos",
-    "id": 882
+    "id": 881
    },
    {
     "weight": 34,
     "source": "economia",
     "target": "PSOE",
-    "id": 883
+    "id": 882
    },
    {
     "weight": 23,
     "source": "economia",
     "target": "recortes",
-    "id": 884
+    "id": 883
    },
    {
     "weight": 5,
     "source": "economia",
     "target": "religion",
-    "id": 885
+    "id": 884
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "RTVE",
-    "id": 886
+    "id": 885
    },
    {
     "weight": 6,
     "source": "economia",
     "target": "Rusia",
-    "id": 887
+    "id": 886
    },
    {
     "weight": 61,
     "source": "economia",
     "target": "salarios",
-    "id": 888
+    "id": 887
    },
    {
-    "weight": 15,
+    "weight": 16,
     "source": "economia",
     "target": "salud",
-    "id": 889
+    "id": 888
    },
    {
     "weight": 16,
     "source": "economia",
     "target": "sanidad",
-    "id": 890
+    "id": 889
    },
    {
     "weight": 1,
     "source": "economia",
     "target": "seguridad",
-    "id": 891
+    "id": 890
    },
    {
     "weight": 6,
     "source": "economia",
     "target": "SGAE",
-    "id": 892
+    "id": 891
    },
    {
     "weight": 92,
     "source": "economia",
     "target": "sociedad",
-    "id": 893
+    "id": 892
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "software libre",
-    "id": 894
+    "id": 893
    },
    {
     "weight": 19,
     "source": "economia",
     "target": "tecnologia",
-    "id": 895
+    "id": 894
    },
    {
     "weight": 3,
     "source": "economia",
     "target": "television",
-    "id": 896
+    "id": 895
    },
    {
     "weight": 2,
     "source": "economia",
     "target": "terrorismo",
-    "id": 897
+    "id": 896
    },
    {
-    "weight": 67,
+    "weight": 68,
     "source": "economia",
     "target": "trabajo",
-    "id": 898
+    "id": 897
    },
    {
     "weight": 39,
     "source": "economia",
     "target": "UE",
-    "id": 899
+    "id": 898
    },
    {
-    "weight": 6,
+    "weight": 7,
     "source": "economia",
     "target": "Valencia",
-    "id": 900
+    "id": 899
    },
    {
     "weight": 1,
     "source": "economia",
     "target": "videos",
-    "id": 901
+    "id": 900
    },
    {
     "weight": 77,
     "source": "economia",
     "target": "vivienda",
-    "id": 902
+    "id": 901
    },
    {
     "weight": 47,
     "source": "economia",
     "target": "Zapatero",
-    "id": 903
+    "id": 902
    },
    {
     "weight": 2,
     "source": "ciencia",
     "target": "accidentes",
-    "id": 904
+    "id": 903
    },
    {
     "weight": 6,
     "source": "ciencia",
     "target": "Alemania",
-    "id": 905
+    "id": 904
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "bancos",
-    "id": 906
+    "id": 905
    },
    {
     "weight": 3,
     "source": "ciencia",
     "target": "Barcelona",
-    "id": 907
+    "id": 906
    },
    {
     "weight": 6,
     "source": "ciencia",
     "target": "censura",
-    "id": 908
+    "id": 907
    },
    {
     "weight": 11,
     "source": "ciencia",
     "target": "China",
-    "id": 909
+    "id": 908
    },
    {
     "weight": 15,
     "source": "ciencia",
     "target": "cine",
-    "id": 910
+    "id": 909
    },
    {
     "weight": 3,
     "source": "ciencia",
     "target": "coches",
+    "id": 910
+   },
+   {
+    "weight": 15,
+    "source": "ciencia",
+    "target": "COVID-19",
     "id": 911
    },
    {
-    "weight": 12,
-    "source": "ciencia",
-    "target": "COVID-19",
-    "id": 912
-   },
-   {
-    "weight": 42,
+    "weight": 43,
     "source": "ciencia",
     "target": "cultura",
-    "id": 913
+    "id": 912
    },
    {
     "weight": 54,
     "source": "ciencia",
     "target": "curiosidades",
-    "id": 914
+    "id": 913
    },
    {
     "weight": 4,
     "source": "ciencia",
     "target": "derechos",
-    "id": 915
+    "id": 914
    },
    {
     "weight": 34,
     "source": "ciencia",
     "target": "educacion",
-    "id": 916
+    "id": 915
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "elecciones",
-    "id": 917
+    "id": 916
    },
    {
     "weight": 2,
     "source": "ciencia",
     "target": "empresas",
-    "id": 918
+    "id": 917
    },
    {
     "weight": 22,
     "source": "ciencia",
     "target": "energia",
-    "id": 919
+    "id": 918
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "ETA",
-    "id": 920
+    "id": 919
    },
    {
     "weight": 14,
     "source": "ciencia",
     "target": "Europa",
-    "id": 921
+    "id": 920
    },
    {
     "weight": 4,
     "source": "ciencia",
     "target": "Francia",
-    "id": 922
+    "id": 921
    },
    {
     "weight": 4,
     "source": "ciencia",
     "target": "futbol",
-    "id": 923
+    "id": 922
    },
    {
     "weight": 16,
     "source": "ciencia",
     "target": "gobierno",
-    "id": 924
+    "id": 923
    },
    {
     "weight": 6,
     "source": "ciencia",
     "target": "google",
-    "id": 925
+    "id": 924
    },
    {
     "weight": 4,
     "source": "ciencia",
     "target": "guerra",
-    "id": 926
+    "id": 925
    },
    {
     "weight": 58,
     "source": "ciencia",
     "target": "historia",
-    "id": 927
+    "id": 926
    },
    {
     "weight": 4,
     "source": "ciencia",
     "target": "homosexualidad",
-    "id": 928
+    "id": 927
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "huelga",
-    "id": 929
+    "id": 928
    },
    {
     "weight": 7,
     "source": "ciencia",
     "target": "iglesia",
-    "id": 930
+    "id": 929
    },
    {
     "weight": 2,
     "source": "ciencia",
     "target": "Israel",
-    "id": 931
+    "id": 930
    },
    {
     "weight": 3,
     "source": "ciencia",
     "target": "Japon",
-    "id": 932
+    "id": 931
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "linux",
-    "id": 933
+    "id": 932
    },
    {
     "weight": 3,
     "source": "ciencia",
     "target": "manifestaciones",
-    "id": 934
+    "id": 933
    },
    {
     "weight": 8,
     "source": "ciencia",
     "target": "muerte",
-    "id": 935
+    "id": 934
    },
    {
     "weight": 22,
     "source": "ciencia",
     "target": "mujeres",
-    "id": 936
+    "id": 935
    },
    {
     "weight": 2,
     "source": "ciencia",
     "target": "musica",
-    "id": 937
+    "id": 936
    },
    {
-    "weight": 34,
+    "weight": 35,
     "source": "ciencia",
     "target": "NASA",
-    "id": 938
+    "id": 937
    },
    {
     "weight": 12,
     "source": "ciencia",
     "target": "ni\u00f1os",
-    "id": 939
+    "id": 938
    },
    {
     "weight": 3,
     "source": "ciencia",
     "target": "paro",
-    "id": 940
+    "id": 939
    },
    {
     "weight": 11,
     "source": "ciencia",
     "target": "periodismo",
-    "id": 941
+    "id": 940
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "Podemos",
-    "id": 942
+    "id": 941
    },
    {
     "weight": 3,
     "source": "ciencia",
     "target": "PSOE",
-    "id": 943
+    "id": 942
    },
    {
     "weight": 49,
     "source": "ciencia",
     "target": "recortes",
-    "id": 944
+    "id": 943
    },
    {
     "weight": 75,
     "source": "ciencia",
     "target": "religion",
-    "id": 945
+    "id": 944
    },
    {
     "weight": 11,
     "source": "ciencia",
     "target": "RTVE",
-    "id": 946
+    "id": 945
    },
    {
     "weight": 6,
     "source": "ciencia",
     "target": "Rusia",
-    "id": 947
+    "id": 946
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "salarios",
-    "id": 948
+    "id": 947
    },
    {
-    "weight": 90,
+    "weight": 92,
     "source": "ciencia",
     "target": "salud",
-    "id": 949
+    "id": 948
    },
    {
     "weight": 6,
     "source": "ciencia",
     "target": "sanidad",
-    "id": 950
+    "id": 949
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "seguridad",
-    "id": 951
+    "id": 950
    },
    {
-    "weight": 32,
+    "weight": 33,
     "source": "ciencia",
     "target": "sociedad",
-    "id": 952
+    "id": 951
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "software libre",
-    "id": 953
+    "id": 952
    },
    {
     "weight": 74,
     "source": "ciencia",
     "target": "tecnologia",
-    "id": 954
+    "id": 953
    },
    {
     "weight": 17,
     "source": "ciencia",
     "target": "television",
-    "id": 955
+    "id": 954
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "terrorismo",
-    "id": 956
+    "id": 955
    },
    {
     "weight": 6,
     "source": "ciencia",
     "target": "trabajo",
-    "id": 957
+    "id": 956
    },
    {
     "weight": 8,
     "source": "ciencia",
     "target": "UE",
-    "id": 958
+    "id": 957
    },
    {
     "weight": 1,
     "source": "ciencia",
     "target": "Valencia",
-    "id": 959
+    "id": 958
    },
    {
     "weight": 14,
     "source": "ciencia",
     "target": "videos",
-    "id": 960
+    "id": 959
    },
    {
     "weight": 3,
     "source": "PSOE",
     "target": "accidentes",
-    "id": 961
+    "id": 960
    },
    {
     "weight": 14,
     "source": "PSOE",
     "target": "Aguirre",
-    "id": 962
+    "id": 961
    },
    {
     "weight": 1,
     "source": "PSOE",
     "target": "Alemania",
+    "id": 962
+   },
+   {
+    "weight": 3,
+    "source": "PSOE",
+    "target": "aviones",
     "id": 963
    },
    {
@@ -6360,51 +6360,51 @@ var graphs = {
     "id": 965
    },
    {
-    "weight": 9,
-    "source": "PSOE",
-    "target": "B\u00e1rcenas",
-    "id": 966
-   },
-   {
     "weight": 18,
     "source": "PSOE",
     "target": "Catalu\u00f1a",
-    "id": 967
+    "id": 966
    },
    {
     "weight": 15,
     "source": "PSOE",
     "target": "censura",
-    "id": 968
+    "id": 967
    },
    {
     "weight": 1,
     "source": "PSOE",
     "target": "China",
-    "id": 969
+    "id": 968
    },
    {
     "weight": 2,
     "source": "PSOE",
     "target": "coches",
-    "id": 970
+    "id": 969
    },
    {
-    "weight": 3,
+    "weight": 5,
     "source": "PSOE",
     "target": "COVID-19",
-    "id": 971
+    "id": 970
    },
    {
     "weight": 6,
     "source": "PSOE",
     "target": "cultura",
-    "id": 972
+    "id": 971
    },
    {
     "weight": 6,
     "source": "PSOE",
     "target": "derechos",
+    "id": 972
+   },
+   {
+    "weight": 1,
+    "source": "PSOE",
+    "target": "detenidos",
     "id": 973
    },
    {
@@ -6534,7 +6534,7 @@ var graphs = {
     "id": 994
    },
    {
-    "weight": 209,
+    "weight": 214,
     "source": "PSOE",
     "target": "Podemos",
     "id": 995
@@ -6642,602 +6642,602 @@ var graphs = {
     "id": 1012
    },
    {
-    "weight": 2,
-    "source": "SGAE",
-    "target": "Alemania",
-    "id": 1013
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "bancos",
-    "id": 1014
-   },
-   {
-    "weight": 27,
-    "source": "SGAE",
-    "target": "censura",
-    "id": 1015
-   },
-   {
-    "weight": 9,
-    "source": "SGAE",
-    "target": "cine",
-    "id": 1016
-   },
-   {
-    "weight": 71,
-    "source": "SGAE",
-    "target": "cultura",
-    "id": 1017
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "curiosidades",
-    "id": 1018
-   },
-   {
-    "weight": 87,
-    "source": "SGAE",
-    "target": "derechos",
-    "id": 1019
-   },
-   {
-    "weight": 2,
-    "source": "SGAE",
-    "target": "detenidos",
-    "id": 1020
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "educacion",
-    "id": 1021
-   },
-   {
-    "weight": 10,
-    "source": "SGAE",
-    "target": "elecciones",
-    "id": 1022
-   },
-   {
-    "weight": 6,
-    "source": "SGAE",
-    "target": "empresas",
-    "id": 1023
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "ETA",
-    "id": 1024
-   },
-   {
-    "weight": 4,
-    "source": "SGAE",
-    "target": "Europa",
-    "id": 1025
-   },
-   {
-    "weight": 6,
-    "source": "SGAE",
-    "target": "Francia",
-    "id": 1026
-   },
-   {
-    "weight": 3,
-    "source": "SGAE",
-    "target": "futbol",
-    "id": 1027
-   },
-   {
-    "weight": 38,
-    "source": "SGAE",
-    "target": "gobierno",
-    "id": 1028
-   },
-   {
-    "weight": 16,
-    "source": "SGAE",
-    "target": "google",
-    "id": 1029
-   },
-   {
-    "weight": 5,
-    "source": "SGAE",
-    "target": "guerra",
-    "id": 1030
-   },
-   {
-    "weight": 3,
-    "source": "SGAE",
-    "target": "historia",
-    "id": 1031
-   },
-   {
-    "weight": 2,
-    "source": "SGAE",
-    "target": "huelga",
-    "id": 1032
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "iglesia",
-    "id": 1033
-   },
-   {
-    "weight": 19,
-    "source": "SGAE",
-    "target": "justicia",
-    "id": 1034
-   },
-   {
-    "weight": 2,
-    "source": "SGAE",
-    "target": "linux",
-    "id": 1035
-   },
-   {
-    "weight": 10,
-    "source": "SGAE",
-    "target": "manifestaciones",
-    "id": 1036
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "mujeres",
-    "id": 1037
-   },
-   {
-    "weight": 135,
-    "source": "SGAE",
-    "target": "musica",
-    "id": 1038
-   },
-   {
-    "weight": 2,
-    "source": "SGAE",
-    "target": "ni\u00f1os",
-    "id": 1039
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "religion",
-    "id": 1040
-   },
-   {
-    "weight": 4,
-    "source": "SGAE",
-    "target": "RTVE",
-    "id": 1041
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "salarios",
-    "id": 1042
-   },
-   {
-    "weight": 20,
-    "source": "SGAE",
-    "target": "sociedad",
-    "id": 1043
-   },
-   {
-    "weight": 12,
-    "source": "SGAE",
-    "target": "software libre",
-    "id": 1044
-   },
-   {
-    "weight": 9,
-    "source": "SGAE",
-    "target": "tecnologia",
-    "id": 1045
-   },
-   {
-    "weight": 10,
-    "source": "SGAE",
-    "target": "television",
-    "id": 1046
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "trabajo",
-    "id": 1047
-   },
-   {
-    "weight": 8,
-    "source": "SGAE",
-    "target": "UE",
-    "id": 1048
-   },
-   {
-    "weight": 4,
-    "source": "SGAE",
-    "target": "Valencia",
-    "id": 1049
-   },
-   {
-    "weight": 10,
-    "source": "SGAE",
-    "target": "videos",
-    "id": 1050
-   },
-   {
-    "weight": 1,
-    "source": "SGAE",
-    "target": "vivienda",
-    "id": 1051
-   },
-   {
-    "weight": 8,
-    "source": "SGAE",
-    "target": "Zapatero",
-    "id": 1052
-   },
-   {
     "weight": 6,
     "source": "gobierno",
     "target": "accidentes",
-    "id": 1053
+    "id": 1013
    },
    {
     "weight": 7,
     "source": "gobierno",
     "target": "Aguirre",
-    "id": 1054
+    "id": 1014
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "Alemania",
-    "id": 1055
+    "id": 1015
+   },
+   {
+    "weight": 1,
+    "source": "gobierno",
+    "target": "aviones",
+    "id": 1016
    },
    {
     "weight": 32,
     "source": "gobierno",
     "target": "bancos",
-    "id": 1056
+    "id": 1017
    },
    {
     "weight": 3,
     "source": "gobierno",
     "target": "Barcelona",
-    "id": 1057
-   },
-   {
-    "weight": 16,
-    "source": "gobierno",
-    "target": "B\u00e1rcenas",
-    "id": 1058
+    "id": 1018
    },
    {
     "weight": 22,
     "source": "gobierno",
     "target": "Catalu\u00f1a",
-    "id": 1059
+    "id": 1019
    },
    {
     "weight": 11,
     "source": "gobierno",
     "target": "censura",
-    "id": 1060
+    "id": 1020
    },
    {
     "weight": 5,
     "source": "gobierno",
     "target": "China",
-    "id": 1061
+    "id": 1021
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "cine",
-    "id": 1062
+    "id": 1022
    },
    {
     "weight": 2,
     "source": "gobierno",
     "target": "coches",
-    "id": 1063
+    "id": 1023
    },
    {
-    "weight": 32,
+    "weight": 42,
     "source": "gobierno",
     "target": "COVID-19",
-    "id": 1064
+    "id": 1024
    },
    {
     "weight": 14,
     "source": "gobierno",
     "target": "cultura",
-    "id": 1065
+    "id": 1025
    },
    {
     "weight": 10,
     "source": "gobierno",
     "target": "derechos",
-    "id": 1066
+    "id": 1026
    },
    {
     "weight": 1,
     "source": "gobierno",
     "target": "detenidos",
-    "id": 1067
+    "id": 1027
    },
    {
     "weight": 20,
     "source": "gobierno",
     "target": "educacion",
-    "id": 1068
+    "id": 1028
    },
    {
     "weight": 27,
     "source": "gobierno",
     "target": "elecciones",
-    "id": 1069
+    "id": 1029
    },
    {
     "weight": 14,
     "source": "gobierno",
     "target": "empresas",
-    "id": 1070
+    "id": 1030
    },
    {
     "weight": 25,
     "source": "gobierno",
     "target": "energia",
-    "id": 1071
+    "id": 1031
    },
    {
     "weight": 18,
     "source": "gobierno",
     "target": "ETA",
-    "id": 1072
+    "id": 1032
    },
    {
     "weight": 20,
     "source": "gobierno",
     "target": "Europa",
-    "id": 1073
+    "id": 1033
    },
    {
     "weight": 8,
     "source": "gobierno",
     "target": "Francia",
-    "id": 1074
+    "id": 1034
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "futbol",
-    "id": 1075
+    "id": 1035
    },
    {
     "weight": 8,
     "source": "gobierno",
     "target": "google",
-    "id": 1076
+    "id": 1036
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "guerra",
-    "id": 1077
+    "id": 1037
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "historia",
-    "id": 1078
+    "id": 1038
    },
    {
     "weight": 2,
     "source": "gobierno",
     "target": "homosexualidad",
-    "id": 1079
+    "id": 1039
    },
    {
     "weight": 19,
     "source": "gobierno",
     "target": "huelga",
-    "id": 1080
+    "id": 1040
    },
    {
-    "weight": 31,
+    "weight": 32,
     "source": "gobierno",
     "target": "iglesia",
-    "id": 1081
+    "id": 1041
    },
    {
     "weight": 3,
     "source": "gobierno",
     "target": "Israel",
-    "id": 1082
+    "id": 1042
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "Japon",
-    "id": 1083
+    "id": 1043
    },
    {
     "weight": 17,
     "source": "gobierno",
     "target": "justicia",
-    "id": 1084
+    "id": 1044
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "linux",
-    "id": 1085
+    "id": 1045
    },
    {
-    "weight": 17,
+    "weight": 20,
     "source": "gobierno",
     "target": "manifestaciones",
-    "id": 1086
+    "id": 1046
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "microsoft",
-    "id": 1087
+    "id": 1047
    },
    {
     "weight": 2,
     "source": "gobierno",
     "target": "muerte",
-    "id": 1088
+    "id": 1048
    },
    {
     "weight": 3,
     "source": "gobierno",
     "target": "mujeres",
-    "id": 1089
+    "id": 1049
    },
    {
     "weight": 2,
     "source": "gobierno",
     "target": "musica",
-    "id": 1090
+    "id": 1050
    },
    {
     "weight": 1,
     "source": "gobierno",
     "target": "NASA",
-    "id": 1091
+    "id": 1051
    },
    {
     "weight": 3,
     "source": "gobierno",
     "target": "ni\u00f1os",
-    "id": 1092
+    "id": 1052
    },
    {
     "weight": 37,
     "source": "gobierno",
     "target": "paro",
-    "id": 1093
+    "id": 1053
    },
    {
     "weight": 6,
     "source": "gobierno",
     "target": "periodismo",
-    "id": 1094
+    "id": 1054
    },
    {
-    "weight": 26,
+    "weight": 28,
     "source": "gobierno",
     "target": "Podemos",
-    "id": 1095
+    "id": 1055
    },
    {
     "weight": 47,
     "source": "gobierno",
     "target": "recortes",
-    "id": 1096
+    "id": 1056
    },
    {
     "weight": 10,
     "source": "gobierno",
     "target": "religion",
-    "id": 1097
+    "id": 1057
    },
    {
     "weight": 15,
     "source": "gobierno",
     "target": "RTVE",
-    "id": 1098
+    "id": 1058
    },
    {
     "weight": 22,
     "source": "gobierno",
     "target": "salarios",
-    "id": 1099
+    "id": 1059
    },
    {
     "weight": 4,
     "source": "gobierno",
     "target": "salud",
-    "id": 1100
+    "id": 1060
    },
    {
-    "weight": 19,
+    "weight": 24,
     "source": "gobierno",
     "target": "sanidad",
-    "id": 1101
+    "id": 1061
    },
    {
     "weight": 2,
     "source": "gobierno",
     "target": "seguridad",
-    "id": 1102
+    "id": 1062
+   },
+   {
+    "weight": 38,
+    "source": "gobierno",
+    "target": "SGAE",
+    "id": 1063
    },
    {
     "weight": 6,
     "source": "gobierno",
     "target": "sociedad",
-    "id": 1103
+    "id": 1064
    },
    {
     "weight": 11,
     "source": "gobierno",
     "target": "software libre",
-    "id": 1104
+    "id": 1065
    },
    {
     "weight": 7,
     "source": "gobierno",
     "target": "television",
-    "id": 1105
+    "id": 1066
    },
    {
     "weight": 2,
     "source": "gobierno",
     "target": "terrorismo",
-    "id": 1106
+    "id": 1067
    },
    {
-    "weight": 14,
+    "weight": 15,
     "source": "gobierno",
     "target": "trabajo",
-    "id": 1107
+    "id": 1068
    },
    {
     "weight": 7,
     "source": "gobierno",
     "target": "UE",
-    "id": 1108
+    "id": 1069
    },
    {
     "weight": 15,
     "source": "gobierno",
     "target": "Valencia",
-    "id": 1109
+    "id": 1070
    },
    {
     "weight": 7,
     "source": "gobierno",
     "target": "videos",
-    "id": 1110
+    "id": 1071
    },
    {
     "weight": 16,
     "source": "gobierno",
     "target": "vivienda",
-    "id": 1111
+    "id": 1072
    },
    {
     "weight": 36,
     "source": "gobierno",
+    "target": "Zapatero",
+    "id": 1073
+   },
+   {
+    "weight": 2,
+    "source": "SGAE",
+    "target": "Alemania",
+    "id": 1074
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "bancos",
+    "id": 1075
+   },
+   {
+    "weight": 27,
+    "source": "SGAE",
+    "target": "censura",
+    "id": 1076
+   },
+   {
+    "weight": 9,
+    "source": "SGAE",
+    "target": "cine",
+    "id": 1077
+   },
+   {
+    "weight": 71,
+    "source": "SGAE",
+    "target": "cultura",
+    "id": 1078
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "curiosidades",
+    "id": 1079
+   },
+   {
+    "weight": 87,
+    "source": "SGAE",
+    "target": "derechos",
+    "id": 1080
+   },
+   {
+    "weight": 2,
+    "source": "SGAE",
+    "target": "detenidos",
+    "id": 1081
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "educacion",
+    "id": 1082
+   },
+   {
+    "weight": 10,
+    "source": "SGAE",
+    "target": "elecciones",
+    "id": 1083
+   },
+   {
+    "weight": 6,
+    "source": "SGAE",
+    "target": "empresas",
+    "id": 1084
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "ETA",
+    "id": 1085
+   },
+   {
+    "weight": 4,
+    "source": "SGAE",
+    "target": "Europa",
+    "id": 1086
+   },
+   {
+    "weight": 6,
+    "source": "SGAE",
+    "target": "Francia",
+    "id": 1087
+   },
+   {
+    "weight": 3,
+    "source": "SGAE",
+    "target": "futbol",
+    "id": 1088
+   },
+   {
+    "weight": 16,
+    "source": "SGAE",
+    "target": "google",
+    "id": 1089
+   },
+   {
+    "weight": 5,
+    "source": "SGAE",
+    "target": "guerra",
+    "id": 1090
+   },
+   {
+    "weight": 3,
+    "source": "SGAE",
+    "target": "historia",
+    "id": 1091
+   },
+   {
+    "weight": 2,
+    "source": "SGAE",
+    "target": "huelga",
+    "id": 1092
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "iglesia",
+    "id": 1093
+   },
+   {
+    "weight": 19,
+    "source": "SGAE",
+    "target": "justicia",
+    "id": 1094
+   },
+   {
+    "weight": 2,
+    "source": "SGAE",
+    "target": "linux",
+    "id": 1095
+   },
+   {
+    "weight": 10,
+    "source": "SGAE",
+    "target": "manifestaciones",
+    "id": 1096
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "mujeres",
+    "id": 1097
+   },
+   {
+    "weight": 135,
+    "source": "SGAE",
+    "target": "musica",
+    "id": 1098
+   },
+   {
+    "weight": 2,
+    "source": "SGAE",
+    "target": "ni\u00f1os",
+    "id": 1099
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "religion",
+    "id": 1100
+   },
+   {
+    "weight": 4,
+    "source": "SGAE",
+    "target": "RTVE",
+    "id": 1101
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "salarios",
+    "id": 1102
+   },
+   {
+    "weight": 20,
+    "source": "SGAE",
+    "target": "sociedad",
+    "id": 1103
+   },
+   {
+    "weight": 12,
+    "source": "SGAE",
+    "target": "software libre",
+    "id": 1104
+   },
+   {
+    "weight": 9,
+    "source": "SGAE",
+    "target": "tecnologia",
+    "id": 1105
+   },
+   {
+    "weight": 10,
+    "source": "SGAE",
+    "target": "television",
+    "id": 1106
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "trabajo",
+    "id": 1107
+   },
+   {
+    "weight": 8,
+    "source": "SGAE",
+    "target": "UE",
+    "id": 1108
+   },
+   {
+    "weight": 4,
+    "source": "SGAE",
+    "target": "Valencia",
+    "id": 1109
+   },
+   {
+    "weight": 10,
+    "source": "SGAE",
+    "target": "videos",
+    "id": 1110
+   },
+   {
+    "weight": 1,
+    "source": "SGAE",
+    "target": "vivienda",
+    "id": 1111
+   },
+   {
+    "weight": 8,
+    "source": "SGAE",
     "target": "Zapatero",
     "id": 1112
    },
@@ -7254,9016 +7254,9112 @@ var graphs = {
     "id": 1114
    },
    {
+    "weight": 8,
+    "source": "historia",
+    "target": "aviones",
+    "id": 1115
+   },
+   {
     "weight": 5,
     "source": "historia",
     "target": "bancos",
-    "id": 1115
+    "id": 1116
    },
    {
     "weight": 7,
     "source": "historia",
     "target": "Barcelona",
-    "id": 1116
+    "id": 1117
    },
    {
     "weight": 10,
     "source": "historia",
     "target": "Catalu\u00f1a",
-    "id": 1117
+    "id": 1118
    },
    {
     "weight": 3,
     "source": "historia",
     "target": "censura",
-    "id": 1118
+    "id": 1119
    },
    {
     "weight": 19,
     "source": "historia",
     "target": "China",
-    "id": 1119
+    "id": 1120
    },
    {
     "weight": 30,
     "source": "historia",
     "target": "cine",
-    "id": 1120
-   },
-   {
-    "weight": 7,
-    "source": "historia",
-    "target": "coches",
     "id": 1121
    },
    {
-    "weight": 88,
+    "weight": 8,
     "source": "historia",
-    "target": "cultura",
+    "target": "coches",
     "id": 1122
    },
    {
-    "weight": 83,
+    "weight": 89,
+    "source": "historia",
+    "target": "cultura",
+    "id": 1123
+   },
+   {
+    "weight": 84,
     "source": "historia",
     "target": "curiosidades",
-    "id": 1123
+    "id": 1124
    },
    {
     "weight": 2,
     "source": "historia",
     "target": "derechos",
-    "id": 1124
+    "id": 1125
    },
    {
     "weight": 11,
     "source": "historia",
     "target": "educacion",
-    "id": 1125
+    "id": 1126
    },
    {
     "weight": 4,
     "source": "historia",
     "target": "elecciones",
-    "id": 1126
+    "id": 1127
    },
    {
     "weight": 2,
     "source": "historia",
     "target": "energia",
-    "id": 1127
+    "id": 1128
    },
    {
     "weight": 4,
     "source": "historia",
     "target": "ETA",
-    "id": 1128
+    "id": 1129
    },
    {
     "weight": 14,
     "source": "historia",
     "target": "Europa",
-    "id": 1129
+    "id": 1130
    },
    {
     "weight": 8,
     "source": "historia",
     "target": "Francia",
-    "id": 1130
+    "id": 1131
    },
    {
     "weight": 1,
     "source": "historia",
     "target": "futbol",
-    "id": 1131
+    "id": 1132
    },
    {
     "weight": 3,
     "source": "historia",
     "target": "google",
-    "id": 1132
+    "id": 1133
    },
    {
-    "weight": 41,
+    "weight": 42,
     "source": "historia",
     "target": "guerra",
-    "id": 1133
+    "id": 1134
    },
    {
     "weight": 3,
     "source": "historia",
     "target": "homosexualidad",
-    "id": 1134
+    "id": 1135
    },
    {
     "weight": 5,
     "source": "historia",
     "target": "huelga",
-    "id": 1135
+    "id": 1136
    },
    {
     "weight": 7,
     "source": "historia",
     "target": "iglesia",
-    "id": 1136
+    "id": 1137
    },
    {
     "weight": 2,
     "source": "historia",
     "target": "Israel",
-    "id": 1137
+    "id": 1138
    },
    {
-    "weight": 16,
+    "weight": 17,
     "source": "historia",
     "target": "Japon",
-    "id": 1138
+    "id": 1139
    },
    {
     "weight": 5,
     "source": "historia",
     "target": "justicia",
-    "id": 1139
+    "id": 1140
    },
    {
     "weight": 2,
     "source": "historia",
     "target": "linux",
-    "id": 1140
+    "id": 1141
    },
    {
     "weight": 7,
     "source": "historia",
     "target": "muerte",
-    "id": 1141
+    "id": 1142
    },
    {
     "weight": 17,
     "source": "historia",
     "target": "mujeres",
-    "id": 1142
-   },
-   {
-    "weight": 10,
-    "source": "historia",
-    "target": "musica",
     "id": 1143
    },
    {
-    "weight": 7,
+    "weight": 11,
     "source": "historia",
-    "target": "NASA",
+    "target": "musica",
     "id": 1144
    },
    {
     "weight": 7,
     "source": "historia",
-    "target": "ni\u00f1os",
+    "target": "NASA",
     "id": 1145
+   },
+   {
+    "weight": 7,
+    "source": "historia",
+    "target": "ni\u00f1os",
+    "id": 1146
    },
    {
     "weight": 1,
     "source": "historia",
     "target": "paro",
-    "id": 1146
+    "id": 1147
    },
    {
     "weight": 4,
     "source": "historia",
     "target": "periodismo",
-    "id": 1147
+    "id": 1148
    },
    {
     "weight": 1,
     "source": "historia",
     "target": "Podemos",
-    "id": 1148
+    "id": 1149
    },
    {
     "weight": 23,
     "source": "historia",
     "target": "religion",
-    "id": 1149
+    "id": 1150
    },
    {
     "weight": 3,
     "source": "historia",
     "target": "RTVE",
-    "id": 1150
-   },
-   {
-    "weight": 17,
-    "source": "historia",
-    "target": "Rusia",
     "id": 1151
    },
    {
-    "weight": 5,
+    "weight": 18,
     "source": "historia",
-    "target": "salud",
+    "target": "Rusia",
     "id": 1152
    },
    {
-    "weight": 1,
+    "weight": 6,
     "source": "historia",
-    "target": "sanidad",
+    "target": "salud",
     "id": 1153
    },
    {
     "weight": 1,
     "source": "historia",
-    "target": "seguridad",
+    "target": "sanidad",
     "id": 1154
+   },
+   {
+    "weight": 1,
+    "source": "historia",
+    "target": "seguridad",
+    "id": 1155
    },
    {
     "weight": 15,
     "source": "historia",
     "target": "sociedad",
-    "id": 1155
+    "id": 1156
    },
    {
     "weight": 1,
     "source": "historia",
     "target": "software libre",
-    "id": 1156
+    "id": 1157
    },
    {
     "weight": 15,
     "source": "historia",
     "target": "tecnologia",
-    "id": 1157
+    "id": 1158
    },
    {
     "weight": 9,
     "source": "historia",
     "target": "television",
-    "id": 1158
+    "id": 1159
    },
    {
     "weight": 5,
     "source": "historia",
     "target": "terrorismo",
-    "id": 1159
+    "id": 1160
    },
    {
     "weight": 6,
     "source": "historia",
     "target": "trabajo",
-    "id": 1160
+    "id": 1161
    },
    {
     "weight": 2,
     "source": "historia",
     "target": "UE",
-    "id": 1161
+    "id": 1162
    },
    {
     "weight": 3,
     "source": "historia",
     "target": "Valencia",
-    "id": 1162
+    "id": 1163
    },
    {
     "weight": 9,
     "source": "historia",
     "target": "videos",
-    "id": 1163
+    "id": 1164
+   },
+   {
+    "weight": 54,
+    "source": "muerte",
+    "target": "accidentes",
+    "id": 1165
+   },
+   {
+    "weight": 2,
+    "source": "muerte",
+    "target": "Aguirre",
+    "id": 1166
+   },
+   {
+    "weight": 8,
+    "source": "muerte",
+    "target": "Alemania",
+    "id": 1167
+   },
+   {
+    "weight": 6,
+    "source": "muerte",
+    "target": "aviones",
+    "id": 1168
+   },
+   {
+    "weight": 5,
+    "source": "muerte",
+    "target": "bancos",
+    "id": 1169
+   },
+   {
+    "weight": 17,
+    "source": "muerte",
+    "target": "Barcelona",
+    "id": 1170
+   },
+   {
+    "weight": 4,
+    "source": "muerte",
+    "target": "Catalu\u00f1a",
+    "id": 1171
+   },
+   {
+    "weight": 2,
+    "source": "muerte",
+    "target": "censura",
+    "id": 1172
+   },
+   {
+    "weight": 17,
+    "source": "muerte",
+    "target": "China",
+    "id": 1173
+   },
+   {
+    "weight": 40,
+    "source": "muerte",
+    "target": "cine",
+    "id": 1174
+   },
+   {
+    "weight": 17,
+    "source": "muerte",
+    "target": "coches",
+    "id": 1175
+   },
+   {
+    "weight": 42,
+    "source": "muerte",
+    "target": "COVID-19",
+    "id": 1176
+   },
+   {
+    "weight": 7,
+    "source": "muerte",
+    "target": "cultura",
+    "id": 1177
+   },
+   {
+    "weight": 10,
+    "source": "muerte",
+    "target": "curiosidades",
+    "id": 1178
+   },
+   {
+    "weight": 4,
+    "source": "muerte",
+    "target": "derechos",
+    "id": 1179
+   },
+   {
+    "weight": 13,
+    "source": "muerte",
+    "target": "detenidos",
+    "id": 1180
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "educacion",
+    "id": 1181
+   },
+   {
+    "weight": 5,
+    "source": "muerte",
+    "target": "elecciones",
+    "id": 1182
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "empresas",
+    "id": 1183
+   },
+   {
+    "weight": 6,
+    "source": "muerte",
+    "target": "ETA",
+    "id": 1184
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "Europa",
+    "id": 1185
+   },
+   {
+    "weight": 13,
+    "source": "muerte",
+    "target": "Francia",
+    "id": 1186
+   },
+   {
+    "weight": 6,
+    "source": "muerte",
+    "target": "futbol",
+    "id": 1187
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "google",
+    "id": 1188
+   },
+   {
+    "weight": 19,
+    "source": "muerte",
+    "target": "guerra",
+    "id": 1189
+   },
+   {
+    "weight": 6,
+    "source": "muerte",
+    "target": "homosexualidad",
+    "id": 1190
+   },
+   {
+    "weight": 3,
+    "source": "muerte",
+    "target": "huelga",
+    "id": 1191
+   },
+   {
+    "weight": 6,
+    "source": "muerte",
+    "target": "iglesia",
+    "id": 1192
+   },
+   {
+    "weight": 7,
+    "source": "muerte",
+    "target": "Israel",
+    "id": 1193
+   },
+   {
+    "weight": 8,
+    "source": "muerte",
+    "target": "Japon",
+    "id": 1194
+   },
+   {
+    "weight": 5,
+    "source": "muerte",
+    "target": "justicia",
+    "id": 1195
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "linux",
+    "id": 1196
+   },
+   {
+    "weight": 4,
+    "source": "muerte",
+    "target": "manifestaciones",
+    "id": 1197
+   },
+   {
+    "weight": 23,
+    "source": "muerte",
+    "target": "mujeres",
+    "id": 1198
+   },
+   {
+    "weight": 11,
+    "source": "muerte",
+    "target": "musica",
+    "id": 1199
+   },
+   {
+    "weight": 4,
+    "source": "muerte",
+    "target": "NASA",
+    "id": 1200
+   },
+   {
+    "weight": 52,
+    "source": "muerte",
+    "target": "ni\u00f1os",
+    "id": 1201
+   },
+   {
+    "weight": 2,
+    "source": "muerte",
+    "target": "paro",
+    "id": 1202
+   },
+   {
+    "weight": 15,
+    "source": "muerte",
+    "target": "periodismo",
+    "id": 1203
+   },
+   {
+    "weight": 3,
+    "source": "muerte",
+    "target": "Podemos",
+    "id": 1204
+   },
+   {
+    "weight": 3,
+    "source": "muerte",
+    "target": "recortes",
+    "id": 1205
+   },
+   {
+    "weight": 7,
+    "source": "muerte",
+    "target": "religion",
+    "id": 1206
+   },
+   {
+    "weight": 2,
+    "source": "muerte",
+    "target": "RTVE",
+    "id": 1207
+   },
+   {
+    "weight": 6,
+    "source": "muerte",
+    "target": "Rusia",
+    "id": 1208
+   },
+   {
+    "weight": 7,
+    "source": "muerte",
+    "target": "salud",
+    "id": 1209
+   },
+   {
+    "weight": 13,
+    "source": "muerte",
+    "target": "sanidad",
+    "id": 1210
+   },
+   {
+    "weight": 2,
+    "source": "muerte",
+    "target": "seguridad",
+    "id": 1211
+   },
+   {
+    "weight": 4,
+    "source": "muerte",
+    "target": "sociedad",
+    "id": 1212
+   },
+   {
+    "weight": 2,
+    "source": "muerte",
+    "target": "software libre",
+    "id": 1213
+   },
+   {
+    "weight": 3,
+    "source": "muerte",
+    "target": "television",
+    "id": 1214
+   },
+   {
+    "weight": 7,
+    "source": "muerte",
+    "target": "terrorismo",
+    "id": 1215
+   },
+   {
+    "weight": 5,
+    "source": "muerte",
+    "target": "trabajo",
+    "id": 1216
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "UE",
+    "id": 1217
+   },
+   {
+    "weight": 10,
+    "source": "muerte",
+    "target": "Valencia",
+    "id": 1218
+   },
+   {
+    "weight": 10,
+    "source": "muerte",
+    "target": "videos",
+    "id": 1219
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "vivienda",
+    "id": 1220
+   },
+   {
+    "weight": 1,
+    "source": "muerte",
+    "target": "Zapatero",
+    "id": 1221
    },
    {
     "weight": 4,
     "source": "google",
     "target": "accidentes",
-    "id": 1164
+    "id": 1222
    },
    {
     "weight": 5,
     "source": "google",
     "target": "Alemania",
-    "id": 1165
+    "id": 1223
+   },
+   {
+    "weight": 2,
+    "source": "google",
+    "target": "aviones",
+    "id": 1224
    },
    {
     "weight": 4,
     "source": "google",
     "target": "bancos",
-    "id": 1166
+    "id": 1225
    },
    {
     "weight": 1,
     "source": "google",
     "target": "Barcelona",
-    "id": 1167
+    "id": 1226
    },
    {
     "weight": 40,
     "source": "google",
     "target": "censura",
-    "id": 1168
+    "id": 1227
    },
    {
     "weight": 28,
     "source": "google",
     "target": "China",
-    "id": 1169
+    "id": 1228
    },
    {
     "weight": 3,
     "source": "google",
     "target": "cine",
-    "id": 1170
+    "id": 1229
    },
    {
     "weight": 10,
     "source": "google",
     "target": "coches",
-    "id": 1171
+    "id": 1230
    },
    {
     "weight": 2,
     "source": "google",
     "target": "COVID-19",
-    "id": 1172
+    "id": 1231
    },
    {
     "weight": 3,
     "source": "google",
     "target": "cultura",
-    "id": 1173
+    "id": 1232
    },
    {
     "weight": 14,
     "source": "google",
     "target": "curiosidades",
-    "id": 1174
+    "id": 1233
    },
    {
     "weight": 9,
     "source": "google",
     "target": "derechos",
-    "id": 1175
+    "id": 1234
    },
    {
     "weight": 2,
     "source": "google",
     "target": "educacion",
-    "id": 1176
+    "id": 1235
    },
    {
     "weight": 2,
     "source": "google",
     "target": "elecciones",
-    "id": 1177
+    "id": 1236
    },
    {
     "weight": 10,
     "source": "google",
     "target": "empresas",
-    "id": 1178
+    "id": 1237
    },
    {
     "weight": 9,
     "source": "google",
     "target": "energia",
-    "id": 1179
+    "id": 1238
    },
    {
     "weight": 11,
     "source": "google",
     "target": "Europa",
-    "id": 1180
+    "id": 1239
    },
    {
     "weight": 9,
     "source": "google",
     "target": "Francia",
-    "id": 1181
+    "id": 1240
    },
    {
     "weight": 1,
     "source": "google",
     "target": "futbol",
-    "id": 1182
+    "id": 1241
    },
    {
     "weight": 6,
     "source": "google",
     "target": "homosexualidad",
-    "id": 1183
+    "id": 1242
    },
    {
     "weight": 1,
     "source": "google",
     "target": "huelga",
-    "id": 1184
+    "id": 1243
    },
    {
     "weight": 3,
     "source": "google",
     "target": "iglesia",
-    "id": 1185
+    "id": 1244
    },
    {
     "weight": 1,
     "source": "google",
     "target": "Israel",
-    "id": 1186
+    "id": 1245
    },
    {
     "weight": 1,
     "source": "google",
     "target": "Japon",
-    "id": 1187
+    "id": 1246
    },
    {
     "weight": 3,
     "source": "google",
     "target": "justicia",
-    "id": 1188
+    "id": 1247
    },
    {
     "weight": 34,
     "source": "google",
     "target": "linux",
-    "id": 1189
+    "id": 1248
    },
    {
     "weight": 73,
     "source": "google",
     "target": "microsoft",
-    "id": 1190
-   },
-   {
-    "weight": 1,
-    "source": "google",
-    "target": "muerte",
-    "id": 1191
+    "id": 1249
    },
    {
     "weight": 3,
     "source": "google",
     "target": "mujeres",
-    "id": 1192
+    "id": 1250
    },
    {
     "weight": 7,
     "source": "google",
     "target": "musica",
-    "id": 1193
+    "id": 1251
    },
    {
     "weight": 3,
     "source": "google",
     "target": "NASA",
-    "id": 1194
+    "id": 1252
    },
    {
     "weight": 3,
     "source": "google",
     "target": "ni\u00f1os",
-    "id": 1195
+    "id": 1253
    },
    {
     "weight": 1,
     "source": "google",
     "target": "paro",
-    "id": 1196
+    "id": 1254
    },
    {
     "weight": 2,
     "source": "google",
     "target": "periodismo",
-    "id": 1197
+    "id": 1255
    },
    {
     "weight": 1,
     "source": "google",
     "target": "religion",
-    "id": 1198
+    "id": 1256
    },
    {
     "weight": 1,
     "source": "google",
     "target": "RTVE",
-    "id": 1199
+    "id": 1257
    },
    {
     "weight": 3,
     "source": "google",
     "target": "Rusia",
-    "id": 1200
+    "id": 1258
    },
    {
     "weight": 5,
     "source": "google",
     "target": "salarios",
-    "id": 1201
+    "id": 1259
    },
    {
     "weight": 1,
     "source": "google",
     "target": "salud",
-    "id": 1202
+    "id": 1260
    },
    {
     "weight": 1,
     "source": "google",
     "target": "sanidad",
-    "id": 1203
+    "id": 1261
    },
    {
     "weight": 26,
     "source": "google",
     "target": "seguridad",
-    "id": 1204
+    "id": 1262
    },
    {
     "weight": 4,
     "source": "google",
     "target": "sociedad",
-    "id": 1205
+    "id": 1263
    },
    {
     "weight": 13,
     "source": "google",
     "target": "software libre",
-    "id": 1206
+    "id": 1264
    },
    {
     "weight": 23,
     "source": "google",
     "target": "tecnologia",
-    "id": 1207
+    "id": 1265
    },
    {
     "weight": 4,
     "source": "google",
     "target": "television",
-    "id": 1208
+    "id": 1266
    },
    {
     "weight": 1,
     "source": "google",
     "target": "terrorismo",
-    "id": 1209
+    "id": 1267
    },
    {
     "weight": 12,
     "source": "google",
     "target": "trabajo",
-    "id": 1210
+    "id": 1268
    },
    {
     "weight": 11,
     "source": "google",
     "target": "UE",
-    "id": 1211
+    "id": 1269
    },
    {
     "weight": 1,
     "source": "google",
     "target": "Valencia",
-    "id": 1212
+    "id": 1270
    },
    {
     "weight": 28,
     "source": "google",
     "target": "videos",
-    "id": 1213
-   },
-   {
-    "weight": 2,
-    "source": "google",
-    "target": "vivienda",
-    "id": 1214
-   },
-   {
-    "weight": 1,
-    "source": "google",
-    "target": "Zapatero",
-    "id": 1215
-   },
-   {
-    "weight": 54,
-    "source": "muerte",
-    "target": "accidentes",
-    "id": 1216
-   },
-   {
-    "weight": 2,
-    "source": "muerte",
-    "target": "Aguirre",
-    "id": 1217
-   },
-   {
-    "weight": 8,
-    "source": "muerte",
-    "target": "Alemania",
-    "id": 1218
-   },
-   {
-    "weight": 5,
-    "source": "muerte",
-    "target": "bancos",
-    "id": 1219
-   },
-   {
-    "weight": 16,
-    "source": "muerte",
-    "target": "Barcelona",
-    "id": 1220
-   },
-   {
-    "weight": 4,
-    "source": "muerte",
-    "target": "Catalu\u00f1a",
-    "id": 1221
-   },
-   {
-    "weight": 2,
-    "source": "muerte",
-    "target": "censura",
-    "id": 1222
-   },
-   {
-    "weight": 17,
-    "source": "muerte",
-    "target": "China",
-    "id": 1223
-   },
-   {
-    "weight": 39,
-    "source": "muerte",
-    "target": "cine",
-    "id": 1224
-   },
-   {
-    "weight": 17,
-    "source": "muerte",
-    "target": "coches",
-    "id": 1225
-   },
-   {
-    "weight": 32,
-    "source": "muerte",
-    "target": "COVID-19",
-    "id": 1226
-   },
-   {
-    "weight": 7,
-    "source": "muerte",
-    "target": "cultura",
-    "id": 1227
-   },
-   {
-    "weight": 10,
-    "source": "muerte",
-    "target": "curiosidades",
-    "id": 1228
-   },
-   {
-    "weight": 4,
-    "source": "muerte",
-    "target": "derechos",
-    "id": 1229
-   },
-   {
-    "weight": 13,
-    "source": "muerte",
-    "target": "detenidos",
-    "id": 1230
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "educacion",
-    "id": 1231
-   },
-   {
-    "weight": 5,
-    "source": "muerte",
-    "target": "elecciones",
-    "id": 1232
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "empresas",
-    "id": 1233
-   },
-   {
-    "weight": 6,
-    "source": "muerte",
-    "target": "ETA",
-    "id": 1234
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "Europa",
-    "id": 1235
-   },
-   {
-    "weight": 13,
-    "source": "muerte",
-    "target": "Francia",
-    "id": 1236
-   },
-   {
-    "weight": 6,
-    "source": "muerte",
-    "target": "futbol",
-    "id": 1237
-   },
-   {
-    "weight": 19,
-    "source": "muerte",
-    "target": "guerra",
-    "id": 1238
-   },
-   {
-    "weight": 6,
-    "source": "muerte",
-    "target": "homosexualidad",
-    "id": 1239
-   },
-   {
-    "weight": 3,
-    "source": "muerte",
-    "target": "huelga",
-    "id": 1240
-   },
-   {
-    "weight": 6,
-    "source": "muerte",
-    "target": "iglesia",
-    "id": 1241
-   },
-   {
-    "weight": 7,
-    "source": "muerte",
-    "target": "Israel",
-    "id": 1242
-   },
-   {
-    "weight": 8,
-    "source": "muerte",
-    "target": "Japon",
-    "id": 1243
-   },
-   {
-    "weight": 5,
-    "source": "muerte",
-    "target": "justicia",
-    "id": 1244
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "linux",
-    "id": 1245
-   },
-   {
-    "weight": 4,
-    "source": "muerte",
-    "target": "manifestaciones",
-    "id": 1246
-   },
-   {
-    "weight": 23,
-    "source": "muerte",
-    "target": "mujeres",
-    "id": 1247
-   },
-   {
-    "weight": 11,
-    "source": "muerte",
-    "target": "musica",
-    "id": 1248
-   },
-   {
-    "weight": 4,
-    "source": "muerte",
-    "target": "NASA",
-    "id": 1249
-   },
-   {
-    "weight": 51,
-    "source": "muerte",
-    "target": "ni\u00f1os",
-    "id": 1250
-   },
-   {
-    "weight": 2,
-    "source": "muerte",
-    "target": "paro",
-    "id": 1251
-   },
-   {
-    "weight": 15,
-    "source": "muerte",
-    "target": "periodismo",
-    "id": 1252
-   },
-   {
-    "weight": 3,
-    "source": "muerte",
-    "target": "Podemos",
-    "id": 1253
-   },
-   {
-    "weight": 3,
-    "source": "muerte",
-    "target": "recortes",
-    "id": 1254
-   },
-   {
-    "weight": 7,
-    "source": "muerte",
-    "target": "religion",
-    "id": 1255
-   },
-   {
-    "weight": 2,
-    "source": "muerte",
-    "target": "RTVE",
-    "id": 1256
-   },
-   {
-    "weight": 6,
-    "source": "muerte",
-    "target": "Rusia",
-    "id": 1257
-   },
-   {
-    "weight": 7,
-    "source": "muerte",
-    "target": "salud",
-    "id": 1258
-   },
-   {
-    "weight": 13,
-    "source": "muerte",
-    "target": "sanidad",
-    "id": 1259
-   },
-   {
-    "weight": 2,
-    "source": "muerte",
-    "target": "seguridad",
-    "id": 1260
-   },
-   {
-    "weight": 4,
-    "source": "muerte",
-    "target": "sociedad",
-    "id": 1261
-   },
-   {
-    "weight": 2,
-    "source": "muerte",
-    "target": "software libre",
-    "id": 1262
-   },
-   {
-    "weight": 3,
-    "source": "muerte",
-    "target": "television",
-    "id": 1263
-   },
-   {
-    "weight": 7,
-    "source": "muerte",
-    "target": "terrorismo",
-    "id": 1264
-   },
-   {
-    "weight": 5,
-    "source": "muerte",
-    "target": "trabajo",
-    "id": 1265
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "UE",
-    "id": 1266
-   },
-   {
-    "weight": 10,
-    "source": "muerte",
-    "target": "Valencia",
-    "id": 1267
-   },
-   {
-    "weight": 10,
-    "source": "muerte",
-    "target": "videos",
-    "id": 1268
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "vivienda",
-    "id": 1269
-   },
-   {
-    "weight": 1,
-    "source": "muerte",
-    "target": "Zapatero",
-    "id": 1270
-   },
-   {
-    "weight": 6,
-    "source": "linux",
-    "target": "Alemania",
     "id": 1271
    },
    {
     "weight": 2,
+    "source": "google",
+    "target": "vivienda",
+    "id": 1272
+   },
+   {
+    "weight": 1,
+    "source": "google",
+    "target": "Zapatero",
+    "id": 1273
+   },
+   {
+    "weight": 1,
+    "source": "COVID-19",
+    "target": "Aguirre",
+    "id": 1274
+   },
+   {
+    "weight": 35,
+    "source": "COVID-19",
+    "target": "Alemania",
+    "id": 1275
+   },
+   {
+    "weight": 6,
+    "source": "COVID-19",
+    "target": "aviones",
+    "id": 1276
+   },
+   {
+    "weight": 4,
+    "source": "COVID-19",
+    "target": "bancos",
+    "id": 1277
+   },
+   {
+    "weight": 9,
+    "source": "COVID-19",
+    "target": "Barcelona",
+    "id": 1278
+   },
+   {
+    "weight": 17,
+    "source": "COVID-19",
+    "target": "Catalu\u00f1a",
+    "id": 1279
+   },
+   {
+    "weight": 2,
+    "source": "COVID-19",
+    "target": "censura",
+    "id": 1280
+   },
+   {
+    "weight": 77,
+    "source": "COVID-19",
+    "target": "China",
+    "id": 1281
+   },
+   {
+    "weight": 6,
+    "source": "COVID-19",
+    "target": "coches",
+    "id": 1282
+   },
+   {
+    "weight": 4,
+    "source": "COVID-19",
+    "target": "detenidos",
+    "id": 1283
+   },
+   {
+    "weight": 6,
+    "source": "COVID-19",
+    "target": "educacion",
+    "id": 1284
+   },
+   {
+    "weight": 9,
+    "source": "COVID-19",
+    "target": "empresas",
+    "id": 1285
+   },
+   {
+    "weight": 20,
+    "source": "COVID-19",
+    "target": "Europa",
+    "id": 1286
+   },
+   {
+    "weight": 26,
+    "source": "COVID-19",
+    "target": "Francia",
+    "id": 1287
+   },
+   {
+    "weight": 1,
+    "source": "COVID-19",
+    "target": "futbol",
+    "id": 1288
+   },
+   {
+    "weight": 10,
+    "source": "COVID-19",
+    "target": "iglesia",
+    "id": 1289
+   },
+   {
+    "weight": 3,
+    "source": "COVID-19",
+    "target": "Israel",
+    "id": 1290
+   },
+   {
+    "weight": 9,
+    "source": "COVID-19",
+    "target": "Japon",
+    "id": 1291
+   },
+   {
+    "weight": 2,
+    "source": "COVID-19",
+    "target": "justicia",
+    "id": 1292
+   },
+   {
+    "weight": 10,
+    "source": "COVID-19",
+    "target": "manifestaciones",
+    "id": 1293
+   },
+   {
+    "weight": 1,
+    "source": "COVID-19",
+    "target": "mujeres",
+    "id": 1294
+   },
+   {
+    "weight": 2,
+    "source": "COVID-19",
+    "target": "NASA",
+    "id": 1295
+   },
+   {
+    "weight": 9,
+    "source": "COVID-19",
+    "target": "ni\u00f1os",
+    "id": 1296
+   },
+   {
+    "weight": 5,
+    "source": "COVID-19",
+    "target": "paro",
+    "id": 1297
+   },
+   {
+    "weight": 3,
+    "source": "COVID-19",
+    "target": "periodismo",
+    "id": 1298
+   },
+   {
+    "weight": 3,
+    "source": "COVID-19",
+    "target": "Podemos",
+    "id": 1299
+   },
+   {
+    "weight": 5,
+    "source": "COVID-19",
+    "target": "recortes",
+    "id": 1300
+   },
+   {
+    "weight": 5,
+    "source": "COVID-19",
+    "target": "religion",
+    "id": 1301
+   },
+   {
+    "weight": 1,
+    "source": "COVID-19",
+    "target": "RTVE",
+    "id": 1302
+   },
+   {
+    "weight": 5,
+    "source": "COVID-19",
+    "target": "Rusia",
+    "id": 1303
+   },
+   {
+    "weight": 4,
+    "source": "COVID-19",
+    "target": "salarios",
+    "id": 1304
+   },
+   {
+    "weight": 42,
+    "source": "COVID-19",
+    "target": "salud",
+    "id": 1305
+   },
+   {
+    "weight": 78,
+    "source": "COVID-19",
+    "target": "sanidad",
+    "id": 1306
+   },
+   {
+    "weight": 3,
+    "source": "COVID-19",
+    "target": "seguridad",
+    "id": 1307
+   },
+   {
+    "weight": 4,
+    "source": "COVID-19",
+    "target": "sociedad",
+    "id": 1308
+   },
+   {
+    "weight": 1,
+    "source": "COVID-19",
+    "target": "television",
+    "id": 1309
+   },
+   {
+    "weight": 11,
+    "source": "COVID-19",
+    "target": "trabajo",
+    "id": 1310
+   },
+   {
+    "weight": 20,
+    "source": "COVID-19",
+    "target": "UE",
+    "id": 1311
+   },
+   {
+    "weight": 16,
+    "source": "COVID-19",
+    "target": "Valencia",
+    "id": 1312
+   },
+   {
+    "weight": 3,
+    "source": "COVID-19",
+    "target": "videos",
+    "id": 1313
+   },
+   {
+    "weight": 2,
+    "source": "COVID-19",
+    "target": "vivienda",
+    "id": 1314
+   },
+   {
+    "weight": 6,
+    "source": "linux",
+    "target": "Alemania",
+    "id": 1315
+   },
+   {
+    "weight": 1,
+    "source": "linux",
+    "target": "aviones",
+    "id": 1316
+   },
+   {
+    "weight": 2,
     "source": "linux",
     "target": "bancos",
-    "id": 1272
+    "id": 1317
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "Catalu\u00f1a",
-    "id": 1273
+    "id": 1318
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "censura",
-    "id": 1274
+    "id": 1319
    },
    {
     "weight": 7,
     "source": "linux",
     "target": "China",
-    "id": 1275
+    "id": 1320
    },
    {
     "weight": 4,
     "source": "linux",
     "target": "cine",
-    "id": 1276
+    "id": 1321
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "coches",
-    "id": 1277
+    "id": 1322
    },
    {
     "weight": 6,
     "source": "linux",
     "target": "curiosidades",
-    "id": 1278
+    "id": 1323
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "derechos",
-    "id": 1279
+    "id": 1324
    },
    {
     "weight": 11,
     "source": "linux",
     "target": "educacion",
-    "id": 1280
+    "id": 1325
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "elecciones",
-    "id": 1281
+    "id": 1326
    },
    {
     "weight": 6,
     "source": "linux",
     "target": "empresas",
-    "id": 1282
+    "id": 1327
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "energia",
-    "id": 1283
+    "id": 1328
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "ETA",
-    "id": 1284
+    "id": 1329
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "Europa",
-    "id": 1285
+    "id": 1330
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "Francia",
-    "id": 1286
+    "id": 1331
    },
    {
     "weight": 4,
     "source": "linux",
     "target": "Japon",
-    "id": 1287
+    "id": 1332
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "justicia",
-    "id": 1288
+    "id": 1333
    },
    {
-    "weight": 118,
+    "weight": 119,
     "source": "linux",
     "target": "microsoft",
-    "id": 1289
+    "id": 1334
    },
    {
     "weight": 3,
     "source": "linux",
     "target": "mujeres",
-    "id": 1290
+    "id": 1335
    },
    {
     "weight": 8,
     "source": "linux",
     "target": "musica",
-    "id": 1291
+    "id": 1336
    },
    {
     "weight": 7,
     "source": "linux",
     "target": "NASA",
-    "id": 1292
+    "id": 1337
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "ni\u00f1os",
-    "id": 1293
+    "id": 1338
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "religion",
-    "id": 1294
+    "id": 1339
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "RTVE",
-    "id": 1295
+    "id": 1340
    },
    {
     "weight": 7,
     "source": "linux",
     "target": "Rusia",
-    "id": 1296
+    "id": 1341
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "salud",
-    "id": 1297
+    "id": 1342
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "sanidad",
-    "id": 1298
+    "id": 1343
    },
    {
     "weight": 39,
     "source": "linux",
     "target": "seguridad",
-    "id": 1299
+    "id": 1344
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "sociedad",
-    "id": 1300
+    "id": 1345
    },
    {
-    "weight": 274,
+    "weight": 275,
     "source": "linux",
     "target": "software libre",
-    "id": 1301
+    "id": 1346
    },
    {
     "weight": 11,
     "source": "linux",
     "target": "tecnologia",
-    "id": 1302
+    "id": 1347
    },
    {
     "weight": 4,
     "source": "linux",
     "target": "television",
-    "id": 1303
+    "id": 1348
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "terrorismo",
-    "id": 1304
+    "id": 1349
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "trabajo",
-    "id": 1305
+    "id": 1350
    },
    {
     "weight": 2,
     "source": "linux",
     "target": "UE",
-    "id": 1306
+    "id": 1351
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "Valencia",
-    "id": 1307
+    "id": 1352
    },
    {
     "weight": 14,
     "source": "linux",
     "target": "videos",
-    "id": 1308
+    "id": 1353
    },
    {
     "weight": 1,
     "source": "linux",
     "target": "Zapatero",
-    "id": 1309
+    "id": 1354
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "accidentes",
-    "id": 1310
+    "id": 1355
    },
    {
     "weight": 44,
     "source": "educacion",
     "target": "Aguirre",
-    "id": 1311
+    "id": 1356
    },
    {
     "weight": 6,
     "source": "educacion",
     "target": "Alemania",
-    "id": 1312
+    "id": 1357
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "Barcelona",
-    "id": 1313
+    "id": 1358
    },
    {
     "weight": 19,
     "source": "educacion",
     "target": "Catalu\u00f1a",
-    "id": 1314
+    "id": 1359
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "censura",
-    "id": 1315
+    "id": 1360
    },
    {
     "weight": 3,
     "source": "educacion",
     "target": "China",
-    "id": 1316
+    "id": 1361
    },
    {
     "weight": 4,
     "source": "educacion",
     "target": "cine",
-    "id": 1317
+    "id": 1362
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "coches",
-    "id": 1318
-   },
-   {
-    "weight": 4,
-    "source": "educacion",
-    "target": "COVID-19",
-    "id": 1319
+    "id": 1363
    },
    {
     "weight": 39,
     "source": "educacion",
     "target": "cultura",
-    "id": 1320
+    "id": 1364
    },
    {
     "weight": 5,
     "source": "educacion",
     "target": "curiosidades",
-    "id": 1321
+    "id": 1365
    },
    {
     "weight": 14,
     "source": "educacion",
     "target": "derechos",
-    "id": 1322
+    "id": 1366
    },
    {
     "weight": 4,
     "source": "educacion",
     "target": "detenidos",
-    "id": 1323
+    "id": 1367
    },
    {
     "weight": 3,
     "source": "educacion",
     "target": "elecciones",
-    "id": 1324
+    "id": 1368
    },
    {
     "weight": 4,
     "source": "educacion",
     "target": "empresas",
-    "id": 1325
+    "id": 1369
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "energia",
-    "id": 1326
+    "id": 1370
    },
    {
     "weight": 13,
     "source": "educacion",
     "target": "Europa",
-    "id": 1327
+    "id": 1371
    },
    {
-    "weight": 2,
+    "weight": 3,
     "source": "educacion",
     "target": "Francia",
-    "id": 1328
+    "id": 1372
    },
    {
     "weight": 4,
     "source": "educacion",
     "target": "futbol",
-    "id": 1329
+    "id": 1373
    },
    {
     "weight": 8,
     "source": "educacion",
     "target": "homosexualidad",
-    "id": 1330
+    "id": 1374
    },
    {
     "weight": 28,
     "source": "educacion",
     "target": "huelga",
-    "id": 1331
+    "id": 1375
    },
    {
     "weight": 23,
     "source": "educacion",
     "target": "iglesia",
-    "id": 1332
+    "id": 1376
    },
    {
     "weight": 15,
     "source": "educacion",
     "target": "Japon",
-    "id": 1333
+    "id": 1377
    },
    {
     "weight": 9,
     "source": "educacion",
     "target": "justicia",
-    "id": 1334
+    "id": 1378
    },
    {
     "weight": 19,
     "source": "educacion",
     "target": "manifestaciones",
-    "id": 1335
+    "id": 1379
    },
    {
     "weight": 7,
     "source": "educacion",
     "target": "microsoft",
-    "id": 1336
+    "id": 1380
    },
    {
     "weight": 7,
     "source": "educacion",
     "target": "mujeres",
-    "id": 1337
+    "id": 1381
    },
    {
     "weight": 2,
     "source": "educacion",
     "target": "musica",
-    "id": 1338
+    "id": 1382
    },
    {
     "weight": 55,
     "source": "educacion",
     "target": "ni\u00f1os",
-    "id": 1339
+    "id": 1383
    },
    {
     "weight": 6,
     "source": "educacion",
     "target": "paro",
-    "id": 1340
+    "id": 1384
    },
    {
     "weight": 7,
     "source": "educacion",
     "target": "periodismo",
-    "id": 1341
+    "id": 1385
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "Podemos",
-    "id": 1342
+    "id": 1386
    },
    {
     "weight": 92,
     "source": "educacion",
     "target": "recortes",
-    "id": 1343
+    "id": 1387
    },
    {
     "weight": 112,
     "source": "educacion",
     "target": "religion",
-    "id": 1344
+    "id": 1388
    },
    {
     "weight": 1,
     "source": "educacion",
     "target": "Rusia",
-    "id": 1345
+    "id": 1389
    },
    {
     "weight": 4,
     "source": "educacion",
     "target": "salarios",
-    "id": 1346
+    "id": 1390
    },
    {
-    "weight": 8,
+    "weight": 9,
     "source": "educacion",
     "target": "salud",
-    "id": 1347
+    "id": 1391
    },
    {
     "weight": 39,
     "source": "educacion",
     "target": "sanidad",
-    "id": 1348
+    "id": 1392
    },
    {
     "weight": 42,
     "source": "educacion",
     "target": "sociedad",
-    "id": 1349
+    "id": 1393
    },
    {
     "weight": 21,
     "source": "educacion",
     "target": "software libre",
-    "id": 1350
+    "id": 1394
    },
    {
     "weight": 11,
     "source": "educacion",
     "target": "tecnologia",
-    "id": 1351
+    "id": 1395
    },
    {
     "weight": 2,
     "source": "educacion",
     "target": "television",
-    "id": 1352
+    "id": 1396
    },
    {
     "weight": 10,
     "source": "educacion",
     "target": "trabajo",
-    "id": 1353
+    "id": 1397
    },
    {
     "weight": 2,
     "source": "educacion",
     "target": "UE",
-    "id": 1354
+    "id": 1398
    },
    {
     "weight": 42,
     "source": "educacion",
     "target": "Valencia",
-    "id": 1355
+    "id": 1399
    },
    {
     "weight": 2,
     "source": "educacion",
     "target": "videos",
-    "id": 1356
+    "id": 1400
    },
    {
     "weight": 2,
     "source": "educacion",
     "target": "vivienda",
-    "id": 1357
+    "id": 1401
    },
    {
     "weight": 4,
     "source": "educacion",
     "target": "Zapatero",
-    "id": 1358
+    "id": 1402
    },
    {
     "weight": 26,
     "source": "elecciones",
     "target": "Aguirre",
-    "id": 1359
+    "id": 1403
    },
    {
     "weight": 16,
     "source": "elecciones",
     "target": "Alemania",
-    "id": 1360
+    "id": 1404
+   },
+   {
+    "weight": 1,
+    "source": "elecciones",
+    "target": "aviones",
+    "id": 1405
    },
    {
     "weight": 3,
     "source": "elecciones",
     "target": "bancos",
-    "id": 1361
+    "id": 1406
    },
    {
     "weight": 2,
     "source": "elecciones",
     "target": "Barcelona",
-    "id": 1362
+    "id": 1407
    },
    {
-    "weight": 6,
-    "source": "elecciones",
-    "target": "B\u00e1rcenas",
-    "id": 1363
-   },
-   {
-    "weight": 41,
+    "weight": 42,
     "source": "elecciones",
     "target": "Catalu\u00f1a",
-    "id": 1364
+    "id": 1408
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "censura",
-    "id": 1365
+    "id": 1409
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "cine",
-    "id": 1366
+    "id": 1410
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "coches",
-    "id": 1367
+    "id": 1411
    },
    {
     "weight": 3,
     "source": "elecciones",
     "target": "cultura",
-    "id": 1368
+    "id": 1412
    },
    {
     "weight": 2,
     "source": "elecciones",
     "target": "curiosidades",
-    "id": 1369
+    "id": 1413
    },
    {
     "weight": 7,
     "source": "elecciones",
     "target": "derechos",
-    "id": 1370
+    "id": 1414
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "detenidos",
-    "id": 1371
+    "id": 1415
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "empresas",
-    "id": 1372
+    "id": 1416
    },
    {
     "weight": 19,
     "source": "elecciones",
     "target": "ETA",
-    "id": 1373
+    "id": 1417
    },
    {
     "weight": 30,
     "source": "elecciones",
     "target": "Europa",
-    "id": 1374
+    "id": 1418
    },
    {
     "weight": 26,
     "source": "elecciones",
     "target": "Francia",
-    "id": 1375
+    "id": 1419
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "futbol",
-    "id": 1376
+    "id": 1420
    },
    {
     "weight": 2,
     "source": "elecciones",
     "target": "guerra",
-    "id": 1377
+    "id": 1421
    },
    {
     "weight": 4,
     "source": "elecciones",
     "target": "homosexualidad",
-    "id": 1378
+    "id": 1422
    },
    {
     "weight": 3,
     "source": "elecciones",
     "target": "huelga",
-    "id": 1379
+    "id": 1423
    },
    {
     "weight": 17,
     "source": "elecciones",
     "target": "iglesia",
-    "id": 1380
+    "id": 1424
    },
    {
-    "weight": 1,
+    "weight": 2,
     "source": "elecciones",
     "target": "Israel",
-    "id": 1381
+    "id": 1425
    },
    {
     "weight": 5,
     "source": "elecciones",
     "target": "Japon",
-    "id": 1382
+    "id": 1426
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "justicia",
-    "id": 1383
+    "id": 1427
    },
    {
     "weight": 8,
     "source": "elecciones",
     "target": "manifestaciones",
-    "id": 1384
+    "id": 1428
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "microsoft",
-    "id": 1385
+    "id": 1429
    },
    {
     "weight": 6,
     "source": "elecciones",
     "target": "mujeres",
-    "id": 1386
+    "id": 1430
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "musica",
-    "id": 1387
+    "id": 1431
    },
    {
     "weight": 5,
     "source": "elecciones",
     "target": "paro",
-    "id": 1388
+    "id": 1432
    },
    {
     "weight": 7,
     "source": "elecciones",
     "target": "periodismo",
-    "id": 1389
+    "id": 1433
    },
    {
     "weight": 88,
     "source": "elecciones",
     "target": "Podemos",
-    "id": 1390
+    "id": 1434
    },
    {
     "weight": 5,
     "source": "elecciones",
     "target": "recortes",
-    "id": 1391
+    "id": 1435
    },
    {
     "weight": 5,
     "source": "elecciones",
     "target": "religion",
-    "id": 1392
+    "id": 1436
    },
    {
     "weight": 13,
     "source": "elecciones",
     "target": "RTVE",
-    "id": 1393
+    "id": 1437
    },
    {
     "weight": 13,
     "source": "elecciones",
     "target": "Rusia",
-    "id": 1394
+    "id": 1438
    },
    {
     "weight": 5,
     "source": "elecciones",
     "target": "salarios",
-    "id": 1395
+    "id": 1439
    },
    {
     "weight": 1,
     "source": "elecciones",
     "target": "salud",
-    "id": 1396
+    "id": 1440
    },
    {
     "weight": 3,
     "source": "elecciones",
     "target": "sanidad",
-    "id": 1397
+    "id": 1441
    },
    {
     "weight": 3,
     "source": "elecciones",
     "target": "seguridad",
-    "id": 1398
+    "id": 1442
    },
    {
     "weight": 5,
     "source": "elecciones",
     "target": "sociedad",
-    "id": 1399
+    "id": 1443
    },
    {
     "weight": 7,
     "source": "elecciones",
     "target": "software libre",
-    "id": 1400
+    "id": 1444
    },
    {
     "weight": 8,
     "source": "elecciones",
     "target": "television",
-    "id": 1401
+    "id": 1445
    },
    {
     "weight": 9,
     "source": "elecciones",
     "target": "terrorismo",
-    "id": 1402
+    "id": 1446
    },
    {
     "weight": 2,
     "source": "elecciones",
     "target": "trabajo",
-    "id": 1403
+    "id": 1447
    },
    {
     "weight": 9,
     "source": "elecciones",
     "target": "UE",
-    "id": 1404
+    "id": 1448
    },
    {
     "weight": 23,
     "source": "elecciones",
     "target": "Valencia",
-    "id": 1405
+    "id": 1449
    },
    {
     "weight": 6,
     "source": "elecciones",
     "target": "videos",
-    "id": 1406
+    "id": 1450
    },
    {
     "weight": 3,
     "source": "elecciones",
     "target": "vivienda",
-    "id": 1407
+    "id": 1451
    },
    {
     "weight": 48,
     "source": "elecciones",
     "target": "Zapatero",
-    "id": 1408
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "Aguirre",
-    "id": 1409
-   },
-   {
-    "weight": 25,
-    "source": "bancos",
-    "target": "Alemania",
-    "id": 1410
-   },
-   {
-    "weight": 6,
-    "source": "bancos",
-    "target": "Barcelona",
-    "id": 1411
-   },
-   {
-    "weight": 2,
-    "source": "bancos",
-    "target": "B\u00e1rcenas",
-    "id": 1412
-   },
-   {
-    "weight": 9,
-    "source": "bancos",
-    "target": "Catalu\u00f1a",
-    "id": 1413
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "censura",
-    "id": 1414
-   },
-   {
-    "weight": 9,
-    "source": "bancos",
-    "target": "China",
-    "id": 1415
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "coches",
-    "id": 1416
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "COVID-19",
-    "id": 1417
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "curiosidades",
-    "id": 1418
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "derechos",
-    "id": 1419
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "detenidos",
-    "id": 1420
-   },
-   {
-    "weight": 11,
-    "source": "bancos",
-    "target": "empresas",
-    "id": 1421
-   },
-   {
-    "weight": 2,
-    "source": "bancos",
-    "target": "energia",
-    "id": 1422
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "ETA",
-    "id": 1423
-   },
-   {
-    "weight": 26,
-    "source": "bancos",
-    "target": "Europa",
-    "id": 1424
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "Francia",
-    "id": 1425
-   },
-   {
-    "weight": 3,
-    "source": "bancos",
-    "target": "futbol",
-    "id": 1426
-   },
-   {
-    "weight": 2,
-    "source": "bancos",
-    "target": "guerra",
-    "id": 1427
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "homosexualidad",
-    "id": 1428
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "huelga",
-    "id": 1429
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "iglesia",
-    "id": 1430
-   },
-   {
-    "weight": 2,
-    "source": "bancos",
-    "target": "Japon",
-    "id": 1431
-   },
-   {
-    "weight": 13,
-    "source": "bancos",
-    "target": "justicia",
-    "id": 1432
-   },
-   {
-    "weight": 5,
-    "source": "bancos",
-    "target": "manifestaciones",
-    "id": 1433
-   },
-   {
-    "weight": 3,
-    "source": "bancos",
-    "target": "mujeres",
-    "id": 1434
-   },
-   {
-    "weight": 2,
-    "source": "bancos",
-    "target": "ni\u00f1os",
-    "id": 1435
-   },
-   {
-    "weight": 9,
-    "source": "bancos",
-    "target": "paro",
-    "id": 1436
-   },
-   {
-    "weight": 2,
-    "source": "bancos",
-    "target": "periodismo",
-    "id": 1437
-   },
-   {
-    "weight": 3,
-    "source": "bancos",
-    "target": "Podemos",
-    "id": 1438
-   },
-   {
-    "weight": 13,
-    "source": "bancos",
-    "target": "recortes",
-    "id": 1439
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "religion",
-    "id": 1440
-   },
-   {
-    "weight": 3,
-    "source": "bancos",
-    "target": "RTVE",
-    "id": 1441
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "Rusia",
-    "id": 1442
-   },
-   {
-    "weight": 18,
-    "source": "bancos",
-    "target": "salarios",
-    "id": 1443
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "salud",
-    "id": 1444
-   },
-   {
-    "weight": 4,
-    "source": "bancos",
-    "target": "sanidad",
-    "id": 1445
-   },
-   {
-    "weight": 17,
-    "source": "bancos",
-    "target": "seguridad",
-    "id": 1446
-   },
-   {
-    "weight": 8,
-    "source": "bancos",
-    "target": "sociedad",
-    "id": 1447
-   },
-   {
-    "weight": 3,
-    "source": "bancos",
-    "target": "tecnologia",
-    "id": 1448
-   },
-   {
-    "weight": 1,
-    "source": "bancos",
-    "target": "terrorismo",
-    "id": 1449
-   },
-   {
-    "weight": 5,
-    "source": "bancos",
-    "target": "trabajo",
-    "id": 1450
-   },
-   {
-    "weight": 26,
-    "source": "bancos",
-    "target": "UE",
-    "id": 1451
-   },
-   {
-    "weight": 11,
-    "source": "bancos",
-    "target": "Valencia",
     "id": 1452
    },
    {
     "weight": 4,
     "source": "bancos",
-    "target": "videos",
+    "target": "Aguirre",
     "id": 1453
+   },
+   {
+    "weight": 25,
+    "source": "bancos",
+    "target": "Alemania",
+    "id": 1454
+   },
+   {
+    "weight": 6,
+    "source": "bancos",
+    "target": "Barcelona",
+    "id": 1455
+   },
+   {
+    "weight": 9,
+    "source": "bancos",
+    "target": "Catalu\u00f1a",
+    "id": 1456
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "censura",
+    "id": 1457
+   },
+   {
+    "weight": 9,
+    "source": "bancos",
+    "target": "China",
+    "id": 1458
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "coches",
+    "id": 1459
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "curiosidades",
+    "id": 1460
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "derechos",
+    "id": 1461
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "detenidos",
+    "id": 1462
+   },
+   {
+    "weight": 11,
+    "source": "bancos",
+    "target": "empresas",
+    "id": 1463
+   },
+   {
+    "weight": 2,
+    "source": "bancos",
+    "target": "energia",
+    "id": 1464
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "ETA",
+    "id": 1465
+   },
+   {
+    "weight": 26,
+    "source": "bancos",
+    "target": "Europa",
+    "id": 1466
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "Francia",
+    "id": 1467
+   },
+   {
+    "weight": 3,
+    "source": "bancos",
+    "target": "futbol",
+    "id": 1468
+   },
+   {
+    "weight": 2,
+    "source": "bancos",
+    "target": "guerra",
+    "id": 1469
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "homosexualidad",
+    "id": 1470
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "huelga",
+    "id": 1471
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "iglesia",
+    "id": 1472
+   },
+   {
+    "weight": 2,
+    "source": "bancos",
+    "target": "Japon",
+    "id": 1473
+   },
+   {
+    "weight": 13,
+    "source": "bancos",
+    "target": "justicia",
+    "id": 1474
+   },
+   {
+    "weight": 5,
+    "source": "bancos",
+    "target": "manifestaciones",
+    "id": 1475
+   },
+   {
+    "weight": 3,
+    "source": "bancos",
+    "target": "mujeres",
+    "id": 1476
+   },
+   {
+    "weight": 2,
+    "source": "bancos",
+    "target": "ni\u00f1os",
+    "id": 1477
+   },
+   {
+    "weight": 9,
+    "source": "bancos",
+    "target": "paro",
+    "id": 1478
+   },
+   {
+    "weight": 2,
+    "source": "bancos",
+    "target": "periodismo",
+    "id": 1479
+   },
+   {
+    "weight": 3,
+    "source": "bancos",
+    "target": "Podemos",
+    "id": 1480
+   },
+   {
+    "weight": 13,
+    "source": "bancos",
+    "target": "recortes",
+    "id": 1481
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "religion",
+    "id": 1482
+   },
+   {
+    "weight": 3,
+    "source": "bancos",
+    "target": "RTVE",
+    "id": 1483
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "Rusia",
+    "id": 1484
+   },
+   {
+    "weight": 18,
+    "source": "bancos",
+    "target": "salarios",
+    "id": 1485
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "salud",
+    "id": 1486
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "sanidad",
+    "id": 1487
+   },
+   {
+    "weight": 17,
+    "source": "bancos",
+    "target": "seguridad",
+    "id": 1488
+   },
+   {
+    "weight": 8,
+    "source": "bancos",
+    "target": "sociedad",
+    "id": 1489
+   },
+   {
+    "weight": 3,
+    "source": "bancos",
+    "target": "tecnologia",
+    "id": 1490
+   },
+   {
+    "weight": 1,
+    "source": "bancos",
+    "target": "terrorismo",
+    "id": 1491
+   },
+   {
+    "weight": 5,
+    "source": "bancos",
+    "target": "trabajo",
+    "id": 1492
+   },
+   {
+    "weight": 26,
+    "source": "bancos",
+    "target": "UE",
+    "id": 1493
+   },
+   {
+    "weight": 11,
+    "source": "bancos",
+    "target": "Valencia",
+    "id": 1494
+   },
+   {
+    "weight": 4,
+    "source": "bancos",
+    "target": "videos",
+    "id": 1495
    },
    {
     "weight": 55,
     "source": "bancos",
     "target": "vivienda",
-    "id": 1454
+    "id": 1496
    },
    {
     "weight": 10,
     "source": "bancos",
     "target": "Zapatero",
-    "id": 1455
+    "id": 1497
    },
    {
     "weight": 29,
     "source": "Valencia",
     "target": "accidentes",
-    "id": 1456
+    "id": 1498
+   },
+   {
+    "weight": 1,
+    "source": "Valencia",
+    "target": "aviones",
+    "id": 1499
    },
    {
     "weight": 5,
     "source": "Valencia",
     "target": "Barcelona",
-    "id": 1457
-   },
-   {
-    "weight": 2,
-    "source": "Valencia",
-    "target": "B\u00e1rcenas",
-    "id": 1458
+    "id": 1500
    },
    {
     "weight": 3,
     "source": "Valencia",
     "target": "Catalu\u00f1a",
-    "id": 1459
+    "id": 1501
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "censura",
-    "id": 1460
+    "id": 1502
    },
    {
     "weight": 1,
     "source": "Valencia",
     "target": "China",
-    "id": 1461
+    "id": 1503
    },
    {
     "weight": 1,
     "source": "Valencia",
     "target": "cine",
-    "id": 1462
+    "id": 1504
    },
    {
     "weight": 9,
     "source": "Valencia",
     "target": "coches",
-    "id": 1463
-   },
-   {
-    "weight": 14,
-    "source": "Valencia",
-    "target": "COVID-19",
-    "id": 1464
+    "id": 1505
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "cultura",
-    "id": 1465
+    "id": 1506
    },
    {
     "weight": 2,
     "source": "Valencia",
     "target": "curiosidades",
-    "id": 1466
+    "id": 1507
    },
    {
     "weight": 5,
     "source": "Valencia",
     "target": "derechos",
-    "id": 1467
+    "id": 1508
    },
    {
     "weight": 17,
     "source": "Valencia",
     "target": "detenidos",
-    "id": 1468
+    "id": 1509
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "empresas",
-    "id": 1469
+    "id": 1510
    },
    {
     "weight": 3,
     "source": "Valencia",
     "target": "energia",
-    "id": 1470
+    "id": 1511
    },
    {
     "weight": 3,
     "source": "Valencia",
     "target": "ETA",
-    "id": 1471
+    "id": 1512
    },
    {
     "weight": 3,
     "source": "Valencia",
     "target": "Europa",
-    "id": 1472
+    "id": 1513
    },
    {
     "weight": 1,
     "source": "Valencia",
     "target": "Francia",
-    "id": 1473
+    "id": 1514
    },
    {
     "weight": 11,
     "source": "Valencia",
     "target": "futbol",
-    "id": 1474
+    "id": 1515
    },
    {
     "weight": 2,
     "source": "Valencia",
     "target": "guerra",
-    "id": 1475
+    "id": 1516
    },
    {
     "weight": 9,
     "source": "Valencia",
     "target": "homosexualidad",
-    "id": 1476
+    "id": 1517
    },
    {
     "weight": 5,
     "source": "Valencia",
     "target": "huelga",
-    "id": 1477
+    "id": 1518
    },
    {
     "weight": 17,
     "source": "Valencia",
     "target": "iglesia",
-    "id": 1478
+    "id": 1519
    },
    {
     "weight": 1,
     "source": "Valencia",
     "target": "Israel",
-    "id": 1479
+    "id": 1520
    },
    {
     "weight": 14,
     "source": "Valencia",
     "target": "justicia",
-    "id": 1480
+    "id": 1521
    },
    {
     "weight": 28,
     "source": "Valencia",
     "target": "manifestaciones",
-    "id": 1481
+    "id": 1522
    },
    {
     "weight": 1,
     "source": "Valencia",
     "target": "microsoft",
-    "id": 1482
+    "id": 1523
    },
    {
     "weight": 5,
     "source": "Valencia",
     "target": "mujeres",
-    "id": 1483
+    "id": 1524
    },
    {
     "weight": 3,
     "source": "Valencia",
     "target": "musica",
-    "id": 1484
+    "id": 1525
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "ni\u00f1os",
-    "id": 1485
+    "id": 1526
    },
    {
     "weight": 8,
     "source": "Valencia",
     "target": "paro",
-    "id": 1486
+    "id": 1527
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "periodismo",
-    "id": 1487
+    "id": 1528
    },
    {
     "weight": 10,
     "source": "Valencia",
     "target": "Podemos",
-    "id": 1488
+    "id": 1529
    },
    {
     "weight": 27,
     "source": "Valencia",
     "target": "recortes",
-    "id": 1489
+    "id": 1530
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "religion",
-    "id": 1490
+    "id": 1531
    },
    {
     "weight": 2,
     "source": "Valencia",
     "target": "RTVE",
-    "id": 1491
+    "id": 1532
    },
    {
     "weight": 8,
     "source": "Valencia",
     "target": "salarios",
-    "id": 1492
+    "id": 1533
    },
    {
     "weight": 2,
     "source": "Valencia",
     "target": "salud",
-    "id": 1493
+    "id": 1534
    },
    {
     "weight": 29,
     "source": "Valencia",
     "target": "sanidad",
-    "id": 1494
+    "id": 1535
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "seguridad",
-    "id": 1495
+    "id": 1536
    },
    {
     "weight": 7,
     "source": "Valencia",
     "target": "sociedad",
-    "id": 1496
+    "id": 1537
    },
    {
     "weight": 2,
     "source": "Valencia",
     "target": "software libre",
-    "id": 1497
+    "id": 1538
    },
    {
     "weight": 13,
     "source": "Valencia",
     "target": "television",
-    "id": 1498
+    "id": 1539
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "terrorismo",
-    "id": 1499
+    "id": 1540
    },
    {
     "weight": 4,
     "source": "Valencia",
     "target": "trabajo",
-    "id": 1500
+    "id": 1541
    },
    {
     "weight": 6,
     "source": "Valencia",
     "target": "UE",
-    "id": 1501
+    "id": 1542
    },
    {
     "weight": 4,
     "source": "Valencia",
     "target": "videos",
-    "id": 1502
+    "id": 1543
    },
    {
     "weight": 4,
     "source": "Valencia",
     "target": "vivienda",
-    "id": 1503
+    "id": 1544
    },
    {
     "weight": 4,
     "source": "Valencia",
     "target": "Zapatero",
-    "id": 1504
+    "id": 1545
    },
    {
     "weight": 10,
     "source": "China",
     "target": "accidentes",
-    "id": 1505
+    "id": 1546
    },
    {
-    "weight": 9,
+    "weight": 11,
     "source": "China",
     "target": "Alemania",
-    "id": 1506
+    "id": 1547
+   },
+   {
+    "weight": 10,
+    "source": "China",
+    "target": "aviones",
+    "id": 1548
    },
    {
     "weight": 2,
     "source": "China",
     "target": "Barcelona",
-    "id": 1507
+    "id": 1549
    },
    {
     "weight": 2,
     "source": "China",
     "target": "Catalu\u00f1a",
-    "id": 1508
+    "id": 1550
    },
    {
     "weight": 45,
     "source": "China",
     "target": "censura",
-    "id": 1509
+    "id": 1551
    },
    {
     "weight": 3,
     "source": "China",
     "target": "cine",
-    "id": 1510
+    "id": 1552
    },
    {
     "weight": 13,
     "source": "China",
     "target": "coches",
-    "id": 1511
-   },
-   {
-    "weight": 71,
-    "source": "China",
-    "target": "COVID-19",
-    "id": 1512
+    "id": 1553
    },
    {
     "weight": 7,
     "source": "China",
     "target": "cultura",
-    "id": 1513
+    "id": 1554
    },
    {
     "weight": 8,
     "source": "China",
     "target": "curiosidades",
-    "id": 1514
+    "id": 1555
    },
    {
     "weight": 7,
     "source": "China",
     "target": "derechos",
-    "id": 1515
+    "id": 1556
    },
    {
     "weight": 5,
     "source": "China",
     "target": "detenidos",
-    "id": 1516
+    "id": 1557
    },
    {
     "weight": 5,
     "source": "China",
     "target": "empresas",
-    "id": 1517
+    "id": 1558
    },
    {
     "weight": 19,
     "source": "China",
     "target": "energia",
-    "id": 1518
+    "id": 1559
    },
    {
     "weight": 21,
     "source": "China",
     "target": "Europa",
-    "id": 1519
+    "id": 1560
    },
    {
     "weight": 9,
     "source": "China",
     "target": "Francia",
-    "id": 1520
+    "id": 1561
    },
    {
     "weight": 1,
     "source": "China",
     "target": "futbol",
-    "id": 1521
+    "id": 1562
    },
    {
     "weight": 15,
     "source": "China",
     "target": "guerra",
-    "id": 1522
+    "id": 1563
    },
    {
     "weight": 7,
     "source": "China",
     "target": "homosexualidad",
-    "id": 1523
+    "id": 1564
    },
    {
     "weight": 4,
     "source": "China",
     "target": "huelga",
-    "id": 1524
+    "id": 1565
    },
    {
     "weight": 1,
     "source": "China",
     "target": "iglesia",
-    "id": 1525
+    "id": 1566
    },
    {
     "weight": 1,
     "source": "China",
     "target": "Israel",
-    "id": 1526
+    "id": 1567
    },
    {
     "weight": 20,
     "source": "China",
     "target": "Japon",
-    "id": 1527
+    "id": 1568
    },
    {
     "weight": 2,
     "source": "China",
     "target": "justicia",
-    "id": 1528
+    "id": 1569
    },
    {
     "weight": 2,
     "source": "China",
     "target": "manifestaciones",
-    "id": 1529
+    "id": 1570
    },
    {
     "weight": 4,
     "source": "China",
     "target": "microsoft",
-    "id": 1530
+    "id": 1571
    },
    {
     "weight": 14,
     "source": "China",
     "target": "mujeres",
-    "id": 1531
+    "id": 1572
    },
    {
     "weight": 1,
     "source": "China",
     "target": "musica",
-    "id": 1532
+    "id": 1573
    },
    {
     "weight": 7,
     "source": "China",
     "target": "NASA",
-    "id": 1533
+    "id": 1574
    },
    {
     "weight": 6,
     "source": "China",
     "target": "ni\u00f1os",
-    "id": 1534
+    "id": 1575
    },
    {
     "weight": 7,
     "source": "China",
     "target": "paro",
-    "id": 1535
+    "id": 1576
    },
    {
     "weight": 7,
     "source": "China",
     "target": "periodismo",
-    "id": 1536
+    "id": 1577
    },
    {
     "weight": 3,
     "source": "China",
     "target": "religion",
-    "id": 1537
+    "id": 1578
    },
    {
     "weight": 1,
     "source": "China",
     "target": "RTVE",
-    "id": 1538
+    "id": 1579
    },
    {
     "weight": 31,
     "source": "China",
     "target": "Rusia",
-    "id": 1539
+    "id": 1580
    },
    {
     "weight": 4,
     "source": "China",
     "target": "salarios",
-    "id": 1540
+    "id": 1581
    },
    {
     "weight": 4,
     "source": "China",
     "target": "salud",
-    "id": 1541
+    "id": 1582
    },
    {
     "weight": 2,
     "source": "China",
     "target": "sanidad",
-    "id": 1542
+    "id": 1583
    },
    {
     "weight": 6,
     "source": "China",
     "target": "seguridad",
-    "id": 1543
+    "id": 1584
    },
    {
     "weight": 6,
     "source": "China",
     "target": "sociedad",
-    "id": 1544
+    "id": 1585
    },
    {
     "weight": 1,
     "source": "China",
     "target": "software libre",
-    "id": 1545
+    "id": 1586
    },
    {
     "weight": 12,
     "source": "China",
     "target": "tecnologia",
-    "id": 1546
+    "id": 1587
    },
    {
     "weight": 5,
     "source": "China",
     "target": "television",
-    "id": 1547
+    "id": 1588
    },
    {
     "weight": 1,
     "source": "China",
     "target": "terrorismo",
-    "id": 1548
+    "id": 1589
    },
    {
-    "weight": 7,
+    "weight": 8,
     "source": "China",
     "target": "trabajo",
-    "id": 1549
+    "id": 1590
    },
    {
     "weight": 6,
     "source": "China",
     "target": "UE",
-    "id": 1550
+    "id": 1591
    },
    {
-    "weight": 8,
+    "weight": 9,
     "source": "China",
     "target": "videos",
-    "id": 1551
+    "id": 1592
    },
    {
     "weight": 5,
     "source": "China",
     "target": "vivienda",
-    "id": 1552
+    "id": 1593
    },
    {
     "weight": 1,
     "source": "China",
     "target": "Zapatero",
-    "id": 1553
+    "id": 1594
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "Aguirre",
-    "id": 1554
+    "id": 1595
    },
    {
     "weight": 9,
     "source": "religion",
     "target": "Alemania",
-    "id": 1555
+    "id": 1596
+   },
+   {
+    "weight": 2,
+    "source": "religion",
+    "target": "aviones",
+    "id": 1597
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "Barcelona",
-    "id": 1556
+    "id": 1598
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "Catalu\u00f1a",
-    "id": 1557
+    "id": 1599
    },
    {
     "weight": 13,
     "source": "religion",
     "target": "censura",
-    "id": 1558
+    "id": 1600
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "cine",
-    "id": 1559
-   },
-   {
-    "weight": 4,
-    "source": "religion",
-    "target": "COVID-19",
-    "id": 1560
+    "id": 1601
    },
    {
     "weight": 11,
     "source": "religion",
     "target": "cultura",
-    "id": 1561
+    "id": 1602
    },
    {
     "weight": 8,
     "source": "religion",
     "target": "curiosidades",
-    "id": 1562
+    "id": 1603
    },
    {
     "weight": 29,
     "source": "religion",
     "target": "derechos",
-    "id": 1563
+    "id": 1604
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "empresas",
-    "id": 1564
+    "id": 1605
    },
    {
     "weight": 1,
     "source": "religion",
     "target": "ETA",
-    "id": 1565
+    "id": 1606
    },
    {
     "weight": 14,
     "source": "religion",
     "target": "Europa",
-    "id": 1566
+    "id": 1607
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "Francia",
-    "id": 1567
+    "id": 1608
    },
    {
     "weight": 5,
     "source": "religion",
     "target": "futbol",
-    "id": 1568
+    "id": 1609
    },
    {
     "weight": 3,
     "source": "religion",
     "target": "guerra",
-    "id": 1569
+    "id": 1610
    },
    {
     "weight": 36,
     "source": "religion",
     "target": "homosexualidad",
-    "id": 1570
+    "id": 1611
    },
    {
     "weight": 121,
     "source": "religion",
     "target": "iglesia",
-    "id": 1571
+    "id": 1612
    },
    {
     "weight": 10,
     "source": "religion",
     "target": "Israel",
-    "id": 1572
+    "id": 1613
    },
    {
     "weight": 1,
     "source": "religion",
     "target": "Japon",
-    "id": 1573
+    "id": 1614
    },
    {
     "weight": 9,
     "source": "religion",
     "target": "justicia",
-    "id": 1574
+    "id": 1615
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "manifestaciones",
-    "id": 1575
+    "id": 1616
    },
    {
-    "weight": 17,
+    "weight": 18,
     "source": "religion",
     "target": "mujeres",
-    "id": 1576
+    "id": 1617
    },
    {
     "weight": 5,
     "source": "religion",
     "target": "musica",
-    "id": 1577
+    "id": 1618
    },
    {
     "weight": 10,
     "source": "religion",
     "target": "ni\u00f1os",
-    "id": 1578
+    "id": 1619
    },
    {
     "weight": 6,
     "source": "religion",
     "target": "periodismo",
-    "id": 1579
+    "id": 1620
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "recortes",
-    "id": 1580
+    "id": 1621
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "RTVE",
-    "id": 1581
+    "id": 1622
    },
    {
     "weight": 5,
     "source": "religion",
     "target": "Rusia",
-    "id": 1582
+    "id": 1623
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "salarios",
-    "id": 1583
+    "id": 1624
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "salud",
-    "id": 1584
+    "id": 1625
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "sanidad",
-    "id": 1585
+    "id": 1626
    },
    {
     "weight": 1,
     "source": "religion",
     "target": "seguridad",
-    "id": 1586
+    "id": 1627
    },
    {
     "weight": 31,
     "source": "religion",
     "target": "sociedad",
-    "id": 1587
+    "id": 1628
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "tecnologia",
-    "id": 1588
+    "id": 1629
    },
    {
     "weight": 5,
     "source": "religion",
     "target": "television",
-    "id": 1589
+    "id": 1630
    },
    {
     "weight": 2,
     "source": "religion",
     "target": "terrorismo",
-    "id": 1590
+    "id": 1631
    },
    {
     "weight": 5,
     "source": "religion",
     "target": "videos",
-    "id": 1591
+    "id": 1632
    },
    {
     "weight": 4,
     "source": "religion",
     "target": "Zapatero",
-    "id": 1592
-   },
-   {
-    "weight": 1,
-    "source": "Europa",
-    "target": "accidentes",
-    "id": 1593
-   },
-   {
-    "weight": 43,
-    "source": "Europa",
-    "target": "Alemania",
-    "id": 1594
-   },
-   {
-    "weight": 4,
-    "source": "Europa",
-    "target": "Barcelona",
-    "id": 1595
-   },
-   {
-    "weight": 1,
-    "source": "Europa",
-    "target": "B\u00e1rcenas",
-    "id": 1596
-   },
-   {
-    "weight": 7,
-    "source": "Europa",
-    "target": "Catalu\u00f1a",
-    "id": 1597
-   },
-   {
-    "weight": 3,
-    "source": "Europa",
-    "target": "censura",
-    "id": 1598
-   },
-   {
-    "weight": 3,
-    "source": "Europa",
-    "target": "cine",
-    "id": 1599
-   },
-   {
-    "weight": 7,
-    "source": "Europa",
-    "target": "coches",
-    "id": 1600
-   },
-   {
-    "weight": 18,
-    "source": "Europa",
-    "target": "COVID-19",
-    "id": 1601
-   },
-   {
-    "weight": 11,
-    "source": "Europa",
-    "target": "cultura",
-    "id": 1602
-   },
-   {
-    "weight": 1,
-    "source": "Europa",
-    "target": "curiosidades",
-    "id": 1603
-   },
-   {
-    "weight": 14,
-    "source": "Europa",
-    "target": "derechos",
-    "id": 1604
-   },
-   {
-    "weight": 5,
-    "source": "Europa",
-    "target": "empresas",
-    "id": 1605
-   },
-   {
-    "weight": 24,
-    "source": "Europa",
-    "target": "energia",
-    "id": 1606
-   },
-   {
-    "weight": 14,
-    "source": "Europa",
-    "target": "Francia",
-    "id": 1607
-   },
-   {
-    "weight": 6,
-    "source": "Europa",
-    "target": "futbol",
-    "id": 1608
-   },
-   {
-    "weight": 9,
-    "source": "Europa",
-    "target": "guerra",
-    "id": 1609
-   },
-   {
-    "weight": 6,
-    "source": "Europa",
-    "target": "homosexualidad",
-    "id": 1610
-   },
-   {
-    "weight": 3,
-    "source": "Europa",
-    "target": "huelga",
-    "id": 1611
-   },
-   {
-    "weight": 5,
-    "source": "Europa",
-    "target": "iglesia",
-    "id": 1612
-   },
-   {
-    "weight": 3,
-    "source": "Europa",
-    "target": "Israel",
-    "id": 1613
-   },
-   {
-    "weight": 4,
-    "source": "Europa",
-    "target": "Japon",
-    "id": 1614
-   },
-   {
-    "weight": 6,
-    "source": "Europa",
-    "target": "justicia",
-    "id": 1615
-   },
-   {
-    "weight": 3,
-    "source": "Europa",
-    "target": "manifestaciones",
-    "id": 1616
-   },
-   {
-    "weight": 4,
-    "source": "Europa",
-    "target": "microsoft",
-    "id": 1617
-   },
-   {
-    "weight": 4,
-    "source": "Europa",
-    "target": "mujeres",
-    "id": 1618
-   },
-   {
-    "weight": 3,
-    "source": "Europa",
-    "target": "musica",
-    "id": 1619
-   },
-   {
-    "weight": 8,
-    "source": "Europa",
-    "target": "NASA",
-    "id": 1620
-   },
-   {
-    "weight": 1,
-    "source": "Europa",
-    "target": "ni\u00f1os",
-    "id": 1621
-   },
-   {
-    "weight": 25,
-    "source": "Europa",
-    "target": "paro",
-    "id": 1622
-   },
-   {
-    "weight": 2,
-    "source": "Europa",
-    "target": "periodismo",
-    "id": 1623
-   },
-   {
-    "weight": 9,
-    "source": "Europa",
-    "target": "Podemos",
-    "id": 1624
-   },
-   {
-    "weight": 20,
-    "source": "Europa",
-    "target": "recortes",
-    "id": 1625
-   },
-   {
-    "weight": 18,
-    "source": "Europa",
-    "target": "Rusia",
-    "id": 1626
-   },
-   {
-    "weight": 24,
-    "source": "Europa",
-    "target": "salarios",
-    "id": 1627
-   },
-   {
-    "weight": 6,
-    "source": "Europa",
-    "target": "salud",
-    "id": 1628
-   },
-   {
-    "weight": 8,
-    "source": "Europa",
-    "target": "sanidad",
-    "id": 1629
-   },
-   {
-    "weight": 7,
-    "source": "Europa",
-    "target": "seguridad",
-    "id": 1630
-   },
-   {
-    "weight": 6,
-    "source": "Europa",
-    "target": "sociedad",
-    "id": 1631
-   },
-   {
-    "weight": 7,
-    "source": "Europa",
-    "target": "software libre",
-    "id": 1632
-   },
-   {
-    "weight": 7,
-    "source": "Europa",
-    "target": "tecnologia",
     "id": 1633
    },
    {
     "weight": 1,
     "source": "Europa",
-    "target": "television",
+    "target": "accidentes",
     "id": 1634
+   },
+   {
+    "weight": 44,
+    "source": "Europa",
+    "target": "Alemania",
+    "id": 1635
+   },
+   {
+    "weight": 6,
+    "source": "Europa",
+    "target": "aviones",
+    "id": 1636
+   },
+   {
+    "weight": 4,
+    "source": "Europa",
+    "target": "Barcelona",
+    "id": 1637
+   },
+   {
+    "weight": 7,
+    "source": "Europa",
+    "target": "Catalu\u00f1a",
+    "id": 1638
+   },
+   {
+    "weight": 3,
+    "source": "Europa",
+    "target": "censura",
+    "id": 1639
+   },
+   {
+    "weight": 3,
+    "source": "Europa",
+    "target": "cine",
+    "id": 1640
+   },
+   {
+    "weight": 7,
+    "source": "Europa",
+    "target": "coches",
+    "id": 1641
+   },
+   {
+    "weight": 11,
+    "source": "Europa",
+    "target": "cultura",
+    "id": 1642
+   },
+   {
+    "weight": 1,
+    "source": "Europa",
+    "target": "curiosidades",
+    "id": 1643
+   },
+   {
+    "weight": 14,
+    "source": "Europa",
+    "target": "derechos",
+    "id": 1644
+   },
+   {
+    "weight": 5,
+    "source": "Europa",
+    "target": "empresas",
+    "id": 1645
+   },
+   {
+    "weight": 24,
+    "source": "Europa",
+    "target": "energia",
+    "id": 1646
+   },
+   {
+    "weight": 14,
+    "source": "Europa",
+    "target": "Francia",
+    "id": 1647
+   },
+   {
+    "weight": 6,
+    "source": "Europa",
+    "target": "futbol",
+    "id": 1648
+   },
+   {
+    "weight": 9,
+    "source": "Europa",
+    "target": "guerra",
+    "id": 1649
+   },
+   {
+    "weight": 6,
+    "source": "Europa",
+    "target": "homosexualidad",
+    "id": 1650
+   },
+   {
+    "weight": 3,
+    "source": "Europa",
+    "target": "huelga",
+    "id": 1651
+   },
+   {
+    "weight": 5,
+    "source": "Europa",
+    "target": "iglesia",
+    "id": 1652
+   },
+   {
+    "weight": 3,
+    "source": "Europa",
+    "target": "Israel",
+    "id": 1653
+   },
+   {
+    "weight": 4,
+    "source": "Europa",
+    "target": "Japon",
+    "id": 1654
+   },
+   {
+    "weight": 6,
+    "source": "Europa",
+    "target": "justicia",
+    "id": 1655
+   },
+   {
+    "weight": 3,
+    "source": "Europa",
+    "target": "manifestaciones",
+    "id": 1656
+   },
+   {
+    "weight": 4,
+    "source": "Europa",
+    "target": "microsoft",
+    "id": 1657
+   },
+   {
+    "weight": 4,
+    "source": "Europa",
+    "target": "mujeres",
+    "id": 1658
+   },
+   {
+    "weight": 3,
+    "source": "Europa",
+    "target": "musica",
+    "id": 1659
+   },
+   {
+    "weight": 8,
+    "source": "Europa",
+    "target": "NASA",
+    "id": 1660
+   },
+   {
+    "weight": 1,
+    "source": "Europa",
+    "target": "ni\u00f1os",
+    "id": 1661
+   },
+   {
+    "weight": 25,
+    "source": "Europa",
+    "target": "paro",
+    "id": 1662
+   },
+   {
+    "weight": 2,
+    "source": "Europa",
+    "target": "periodismo",
+    "id": 1663
+   },
+   {
+    "weight": 9,
+    "source": "Europa",
+    "target": "Podemos",
+    "id": 1664
+   },
+   {
+    "weight": 20,
+    "source": "Europa",
+    "target": "recortes",
+    "id": 1665
+   },
+   {
+    "weight": 18,
+    "source": "Europa",
+    "target": "Rusia",
+    "id": 1666
+   },
+   {
+    "weight": 24,
+    "source": "Europa",
+    "target": "salarios",
+    "id": 1667
+   },
+   {
+    "weight": 6,
+    "source": "Europa",
+    "target": "salud",
+    "id": 1668
+   },
+   {
+    "weight": 8,
+    "source": "Europa",
+    "target": "sanidad",
+    "id": 1669
+   },
+   {
+    "weight": 7,
+    "source": "Europa",
+    "target": "seguridad",
+    "id": 1670
+   },
+   {
+    "weight": 6,
+    "source": "Europa",
+    "target": "sociedad",
+    "id": 1671
+   },
+   {
+    "weight": 7,
+    "source": "Europa",
+    "target": "software libre",
+    "id": 1672
+   },
+   {
+    "weight": 7,
+    "source": "Europa",
+    "target": "tecnologia",
+    "id": 1673
+   },
+   {
+    "weight": 1,
+    "source": "Europa",
+    "target": "television",
+    "id": 1674
    },
    {
     "weight": 10,
     "source": "Europa",
     "target": "terrorismo",
-    "id": 1635
+    "id": 1675
    },
    {
     "weight": 18,
     "source": "Europa",
     "target": "trabajo",
-    "id": 1636
+    "id": 1676
    },
    {
     "weight": 87,
     "source": "Europa",
     "target": "UE",
-    "id": 1637
+    "id": 1677
    },
    {
     "weight": 5,
     "source": "Europa",
     "target": "vivienda",
-    "id": 1638
+    "id": 1678
    },
    {
     "weight": 6,
     "source": "Europa",
     "target": "Zapatero",
-    "id": 1639
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "Aguirre",
-    "id": 1640
-   },
-   {
-    "weight": 24,
-    "source": "COVID-19",
-    "target": "Alemania",
-    "id": 1641
-   },
-   {
-    "weight": 6,
-    "source": "COVID-19",
-    "target": "Barcelona",
-    "id": 1642
-   },
-   {
-    "weight": 13,
-    "source": "COVID-19",
-    "target": "Catalu\u00f1a",
-    "id": 1643
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "censura",
-    "id": 1644
-   },
-   {
-    "weight": 3,
-    "source": "COVID-19",
-    "target": "coches",
-    "id": 1645
-   },
-   {
-    "weight": 3,
-    "source": "COVID-19",
-    "target": "detenidos",
-    "id": 1646
-   },
-   {
-    "weight": 6,
-    "source": "COVID-19",
-    "target": "empresas",
-    "id": 1647
-   },
-   {
-    "weight": 18,
-    "source": "COVID-19",
-    "target": "Francia",
-    "id": 1648
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "futbol",
-    "id": 1649
-   },
-   {
-    "weight": 10,
-    "source": "COVID-19",
-    "target": "iglesia",
-    "id": 1650
-   },
-   {
-    "weight": 3,
-    "source": "COVID-19",
-    "target": "Israel",
-    "id": 1651
-   },
-   {
-    "weight": 9,
-    "source": "COVID-19",
-    "target": "Japon",
-    "id": 1652
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "justicia",
-    "id": 1653
-   },
-   {
-    "weight": 2,
-    "source": "COVID-19",
-    "target": "manifestaciones",
-    "id": 1654
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "mujeres",
-    "id": 1655
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "NASA",
-    "id": 1656
-   },
-   {
-    "weight": 7,
-    "source": "COVID-19",
-    "target": "ni\u00f1os",
-    "id": 1657
-   },
-   {
-    "weight": 5,
-    "source": "COVID-19",
-    "target": "paro",
-    "id": 1658
-   },
-   {
-    "weight": 3,
-    "source": "COVID-19",
-    "target": "periodismo",
-    "id": 1659
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "Podemos",
-    "id": 1660
-   },
-   {
-    "weight": 5,
-    "source": "COVID-19",
-    "target": "recortes",
-    "id": 1661
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "RTVE",
-    "id": 1662
-   },
-   {
-    "weight": 4,
-    "source": "COVID-19",
-    "target": "Rusia",
-    "id": 1663
-   },
-   {
-    "weight": 2,
-    "source": "COVID-19",
-    "target": "salarios",
-    "id": 1664
-   },
-   {
-    "weight": 35,
-    "source": "COVID-19",
-    "target": "salud",
-    "id": 1665
-   },
-   {
-    "weight": 63,
-    "source": "COVID-19",
-    "target": "sanidad",
-    "id": 1666
-   },
-   {
-    "weight": 3,
-    "source": "COVID-19",
-    "target": "seguridad",
-    "id": 1667
-   },
-   {
-    "weight": 3,
-    "source": "COVID-19",
-    "target": "sociedad",
-    "id": 1668
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "television",
-    "id": 1669
-   },
-   {
-    "weight": 9,
-    "source": "COVID-19",
-    "target": "trabajo",
-    "id": 1670
-   },
-   {
-    "weight": 20,
-    "source": "COVID-19",
-    "target": "UE",
-    "id": 1671
-   },
-   {
-    "weight": 2,
-    "source": "COVID-19",
-    "target": "videos",
-    "id": 1672
-   },
-   {
-    "weight": 1,
-    "source": "COVID-19",
-    "target": "vivienda",
-    "id": 1673
+    "id": 1679
    },
    {
     "weight": 1,
     "source": "iglesia",
     "target": "accidentes",
-    "id": 1674
+    "id": 1680
    },
    {
     "weight": 12,
     "source": "iglesia",
     "target": "Aguirre",
-    "id": 1675
+    "id": 1681
    },
    {
     "weight": 7,
     "source": "iglesia",
     "target": "Alemania",
-    "id": 1676
+    "id": 1682
    },
    {
     "weight": 3,
     "source": "iglesia",
     "target": "Barcelona",
-    "id": 1677
-   },
-   {
-    "weight": 1,
-    "source": "iglesia",
-    "target": "B\u00e1rcenas",
-    "id": 1678
+    "id": 1683
    },
    {
     "weight": 5,
     "source": "iglesia",
     "target": "Catalu\u00f1a",
-    "id": 1679
+    "id": 1684
    },
    {
     "weight": 7,
     "source": "iglesia",
     "target": "censura",
-    "id": 1680
+    "id": 1685
    },
    {
     "weight": 4,
     "source": "iglesia",
     "target": "cine",
-    "id": 1681
+    "id": 1686
    },
    {
     "weight": 1,
     "source": "iglesia",
     "target": "coches",
-    "id": 1682
+    "id": 1687
    },
    {
     "weight": 1,
     "source": "iglesia",
     "target": "cultura",
-    "id": 1683
+    "id": 1688
    },
    {
     "weight": 4,
     "source": "iglesia",
     "target": "curiosidades",
-    "id": 1684
+    "id": 1689
    },
    {
     "weight": 4,
     "source": "iglesia",
     "target": "derechos",
-    "id": 1685
+    "id": 1690
    },
    {
     "weight": 1,
     "source": "iglesia",
     "target": "empresas",
-    "id": 1686
-   },
-   {
-    "weight": 6,
-    "source": "iglesia",
-    "target": "ETA",
-    "id": 1687
-   },
-   {
-    "weight": 7,
-    "source": "iglesia",
-    "target": "Francia",
-    "id": 1688
-   },
-   {
-    "weight": 46,
-    "source": "iglesia",
-    "target": "homosexualidad",
-    "id": 1689
-   },
-   {
-    "weight": 1,
-    "source": "iglesia",
-    "target": "huelga",
-    "id": 1690
-   },
-   {
-    "weight": 2,
-    "source": "iglesia",
-    "target": "justicia",
     "id": 1691
    },
    {
     "weight": 6,
     "source": "iglesia",
-    "target": "manifestaciones",
+    "target": "ETA",
     "id": 1692
+   },
+   {
+    "weight": 7,
+    "source": "iglesia",
+    "target": "Francia",
+    "id": 1693
+   },
+   {
+    "weight": 46,
+    "source": "iglesia",
+    "target": "homosexualidad",
+    "id": 1694
+   },
+   {
+    "weight": 1,
+    "source": "iglesia",
+    "target": "huelga",
+    "id": 1695
+   },
+   {
+    "weight": 2,
+    "source": "iglesia",
+    "target": "justicia",
+    "id": 1696
+   },
+   {
+    "weight": 6,
+    "source": "iglesia",
+    "target": "manifestaciones",
+    "id": 1697
    },
    {
     "weight": 8,
     "source": "iglesia",
     "target": "mujeres",
-    "id": 1693
+    "id": 1698
    },
    {
     "weight": 15,
     "source": "iglesia",
     "target": "ni\u00f1os",
-    "id": 1694
+    "id": 1699
    },
    {
     "weight": 3,
     "source": "iglesia",
     "target": "paro",
-    "id": 1695
+    "id": 1700
    },
    {
     "weight": 5,
     "source": "iglesia",
     "target": "periodismo",
-    "id": 1696
+    "id": 1701
    },
    {
-    "weight": 77,
+    "weight": 81,
     "source": "iglesia",
     "target": "Podemos",
-    "id": 1697
+    "id": 1702
    },
    {
     "weight": 9,
     "source": "iglesia",
     "target": "recortes",
-    "id": 1698
+    "id": 1703
    },
    {
     "weight": 4,
     "source": "iglesia",
     "target": "RTVE",
-    "id": 1699
+    "id": 1704
    },
    {
     "weight": 1,
     "source": "iglesia",
     "target": "Rusia",
-    "id": 1700
+    "id": 1705
    },
    {
     "weight": 3,
     "source": "iglesia",
     "target": "salarios",
-    "id": 1701
-   },
-   {
-    "weight": 1,
-    "source": "iglesia",
-    "target": "salud",
-    "id": 1702
-   },
-   {
-    "weight": 2,
-    "source": "iglesia",
-    "target": "sanidad",
-    "id": 1703
-   },
-   {
-    "weight": 18,
-    "source": "iglesia",
-    "target": "sociedad",
-    "id": 1704
-   },
-   {
-    "weight": 2,
-    "source": "iglesia",
-    "target": "television",
-    "id": 1705
-   },
-   {
-    "weight": 2,
-    "source": "iglesia",
-    "target": "terrorismo",
     "id": 1706
    },
    {
     "weight": 1,
     "source": "iglesia",
-    "target": "trabajo",
+    "target": "salud",
     "id": 1707
    },
    {
     "weight": 2,
     "source": "iglesia",
-    "target": "UE",
+    "target": "sanidad",
     "id": 1708
+   },
+   {
+    "weight": 18,
+    "source": "iglesia",
+    "target": "sociedad",
+    "id": 1709
+   },
+   {
+    "weight": 2,
+    "source": "iglesia",
+    "target": "television",
+    "id": 1710
+   },
+   {
+    "weight": 3,
+    "source": "iglesia",
+    "target": "terrorismo",
+    "id": 1711
+   },
+   {
+    "weight": 1,
+    "source": "iglesia",
+    "target": "trabajo",
+    "id": 1712
+   },
+   {
+    "weight": 2,
+    "source": "iglesia",
+    "target": "UE",
+    "id": 1713
    },
    {
     "weight": 1,
     "source": "iglesia",
     "target": "videos",
-    "id": 1709
+    "id": 1714
    },
    {
     "weight": 3,
     "source": "iglesia",
     "target": "vivienda",
-    "id": 1710
+    "id": 1715
    },
    {
     "weight": 5,
     "source": "iglesia",
     "target": "Zapatero",
-    "id": 1711
-   },
-   {
-    "weight": 2,
-    "source": "cine",
-    "target": "accidentes",
-    "id": 1712
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "Aguirre",
-    "id": 1713
-   },
-   {
-    "weight": 5,
-    "source": "cine",
-    "target": "Alemania",
-    "id": 1714
-   },
-   {
-    "weight": 2,
-    "source": "cine",
-    "target": "Barcelona",
-    "id": 1715
-   },
-   {
-    "weight": 8,
-    "source": "cine",
-    "target": "Catalu\u00f1a",
     "id": 1716
    },
    {
-    "weight": 18,
-    "source": "cine",
-    "target": "censura",
-    "id": 1717
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "coches",
-    "id": 1718
-   },
-   {
-    "weight": 79,
-    "source": "cine",
-    "target": "cultura",
-    "id": 1719
-   },
-   {
-    "weight": 18,
-    "source": "cine",
-    "target": "curiosidades",
-    "id": 1720
-   },
-   {
-    "weight": 4,
-    "source": "cine",
-    "target": "derechos",
-    "id": 1721
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "empresas",
-    "id": 1722
-   },
-   {
-    "weight": 3,
-    "source": "cine",
-    "target": "Francia",
-    "id": 1723
-   },
-   {
-    "weight": 2,
-    "source": "cine",
-    "target": "futbol",
-    "id": 1724
-   },
-   {
-    "weight": 2,
-    "source": "cine",
-    "target": "guerra",
-    "id": 1725
-   },
-   {
-    "weight": 4,
-    "source": "cine",
-    "target": "homosexualidad",
-    "id": 1726
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "Israel",
-    "id": 1727
-   },
-   {
-    "weight": 9,
-    "source": "cine",
-    "target": "Japon",
-    "id": 1728
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "justicia",
-    "id": 1729
-   },
-   {
-    "weight": 4,
-    "source": "cine",
-    "target": "mujeres",
-    "id": 1730
-   },
-   {
-    "weight": 13,
-    "source": "cine",
-    "target": "musica",
-    "id": 1731
-   },
-   {
-    "weight": 2,
-    "source": "cine",
-    "target": "NASA",
-    "id": 1732
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "ni\u00f1os",
-    "id": 1733
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "paro",
-    "id": 1734
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "recortes",
-    "id": 1735
-   },
-   {
-    "weight": 11,
-    "source": "cine",
-    "target": "RTVE",
-    "id": 1736
-   },
-   {
-    "weight": 2,
-    "source": "cine",
-    "target": "Rusia",
-    "id": 1737
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "salud",
-    "id": 1738
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "seguridad",
-    "id": 1739
-   },
-   {
-    "weight": 7,
-    "source": "cine",
-    "target": "sociedad",
-    "id": 1740
-   },
-   {
-    "weight": 1,
-    "source": "cine",
-    "target": "software libre",
-    "id": 1741
-   },
-   {
-    "weight": 10,
-    "source": "cine",
-    "target": "tecnologia",
-    "id": 1742
-   },
-   {
-    "weight": 37,
-    "source": "cine",
-    "target": "television",
-    "id": 1743
-   },
-   {
-    "weight": 10,
-    "source": "cine",
-    "target": "videos",
-    "id": 1744
-   },
-   {
     "weight": 1,
     "source": "sanidad",
     "target": "accidentes",
-    "id": 1745
+    "id": 1717
    },
    {
-    "weight": 38,
+    "weight": 39,
     "source": "sanidad",
     "target": "Aguirre",
-    "id": 1746
+    "id": 1718
    },
    {
     "weight": 8,
     "source": "sanidad",
     "target": "Alemania",
-    "id": 1747
+    "id": 1719
+   },
+   {
+    "weight": 1,
+    "source": "sanidad",
+    "target": "aviones",
+    "id": 1720
    },
    {
     "weight": 6,
     "source": "sanidad",
     "target": "Barcelona",
-    "id": 1748
-   },
-   {
-    "weight": 1,
-    "source": "sanidad",
-    "target": "B\u00e1rcenas",
-    "id": 1749
+    "id": 1721
    },
    {
     "weight": 39,
     "source": "sanidad",
     "target": "Catalu\u00f1a",
-    "id": 1750
+    "id": 1722
    },
    {
     "weight": 4,
     "source": "sanidad",
     "target": "censura",
-    "id": 1751
+    "id": 1723
    },
    {
     "weight": 13,
     "source": "sanidad",
     "target": "derechos",
-    "id": 1752
+    "id": 1724
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "detenidos",
-    "id": 1753
+    "id": 1725
    },
    {
     "weight": 7,
     "source": "sanidad",
     "target": "empresas",
-    "id": 1754
+    "id": 1726
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "ETA",
-    "id": 1755
+    "id": 1727
    },
    {
     "weight": 2,
     "source": "sanidad",
     "target": "Francia",
-    "id": 1756
+    "id": 1728
    },
    {
     "weight": 2,
     "source": "sanidad",
     "target": "futbol",
-    "id": 1757
+    "id": 1729
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "homosexualidad",
-    "id": 1758
+    "id": 1730
    },
    {
     "weight": 5,
     "source": "sanidad",
     "target": "huelga",
-    "id": 1759
+    "id": 1731
    },
    {
     "weight": 4,
     "source": "sanidad",
     "target": "justicia",
-    "id": 1760
+    "id": 1732
    },
    {
     "weight": 12,
     "source": "sanidad",
     "target": "manifestaciones",
-    "id": 1761
+    "id": 1733
    },
    {
     "weight": 4,
     "source": "sanidad",
     "target": "mujeres",
-    "id": 1762
+    "id": 1734
    },
    {
     "weight": 7,
     "source": "sanidad",
     "target": "ni\u00f1os",
-    "id": 1763
+    "id": 1735
    },
    {
     "weight": 11,
     "source": "sanidad",
     "target": "paro",
-    "id": 1764
+    "id": 1736
    },
    {
     "weight": 3,
     "source": "sanidad",
     "target": "Podemos",
-    "id": 1765
+    "id": 1737
    },
    {
     "weight": 150,
     "source": "sanidad",
     "target": "recortes",
-    "id": 1766
+    "id": 1738
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "RTVE",
-    "id": 1767
+    "id": 1739
    },
    {
     "weight": 4,
     "source": "sanidad",
     "target": "salarios",
-    "id": 1768
+    "id": 1740
    },
    {
-    "weight": 129,
+    "weight": 131,
     "source": "sanidad",
     "target": "salud",
-    "id": 1769
+    "id": 1741
    },
    {
     "weight": 2,
     "source": "sanidad",
     "target": "seguridad",
-    "id": 1770
+    "id": 1742
    },
    {
     "weight": 17,
     "source": "sanidad",
     "target": "sociedad",
-    "id": 1771
+    "id": 1743
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "tecnologia",
-    "id": 1772
+    "id": 1744
    },
    {
-    "weight": 3,
+    "weight": 4,
     "source": "sanidad",
     "target": "television",
-    "id": 1773
+    "id": 1745
    },
    {
     "weight": 4,
     "source": "sanidad",
     "target": "trabajo",
-    "id": 1774
+    "id": 1746
    },
    {
     "weight": 6,
     "source": "sanidad",
     "target": "UE",
-    "id": 1775
+    "id": 1747
    },
    {
     "weight": 2,
     "source": "sanidad",
     "target": "videos",
-    "id": 1776
+    "id": 1748
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "vivienda",
-    "id": 1777
+    "id": 1749
    },
    {
     "weight": 1,
     "source": "sanidad",
     "target": "Zapatero",
+    "id": 1750
+   },
+   {
+    "weight": 2,
+    "source": "cine",
+    "target": "accidentes",
+    "id": 1751
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "Aguirre",
+    "id": 1752
+   },
+   {
+    "weight": 5,
+    "source": "cine",
+    "target": "Alemania",
+    "id": 1753
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "aviones",
+    "id": 1754
+   },
+   {
+    "weight": 2,
+    "source": "cine",
+    "target": "Barcelona",
+    "id": 1755
+   },
+   {
+    "weight": 8,
+    "source": "cine",
+    "target": "Catalu\u00f1a",
+    "id": 1756
+   },
+   {
+    "weight": 18,
+    "source": "cine",
+    "target": "censura",
+    "id": 1757
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "coches",
+    "id": 1758
+   },
+   {
+    "weight": 79,
+    "source": "cine",
+    "target": "cultura",
+    "id": 1759
+   },
+   {
+    "weight": 18,
+    "source": "cine",
+    "target": "curiosidades",
+    "id": 1760
+   },
+   {
+    "weight": 4,
+    "source": "cine",
+    "target": "derechos",
+    "id": 1761
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "empresas",
+    "id": 1762
+   },
+   {
+    "weight": 3,
+    "source": "cine",
+    "target": "Francia",
+    "id": 1763
+   },
+   {
+    "weight": 2,
+    "source": "cine",
+    "target": "futbol",
+    "id": 1764
+   },
+   {
+    "weight": 2,
+    "source": "cine",
+    "target": "guerra",
+    "id": 1765
+   },
+   {
+    "weight": 4,
+    "source": "cine",
+    "target": "homosexualidad",
+    "id": 1766
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "Israel",
+    "id": 1767
+   },
+   {
+    "weight": 9,
+    "source": "cine",
+    "target": "Japon",
+    "id": 1768
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "justicia",
+    "id": 1769
+   },
+   {
+    "weight": 4,
+    "source": "cine",
+    "target": "mujeres",
+    "id": 1770
+   },
+   {
+    "weight": 13,
+    "source": "cine",
+    "target": "musica",
+    "id": 1771
+   },
+   {
+    "weight": 2,
+    "source": "cine",
+    "target": "NASA",
+    "id": 1772
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "ni\u00f1os",
+    "id": 1773
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "paro",
+    "id": 1774
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "recortes",
+    "id": 1775
+   },
+   {
+    "weight": 11,
+    "source": "cine",
+    "target": "RTVE",
+    "id": 1776
+   },
+   {
+    "weight": 2,
+    "source": "cine",
+    "target": "Rusia",
+    "id": 1777
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "salud",
     "id": 1778
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "seguridad",
+    "id": 1779
+   },
+   {
+    "weight": 7,
+    "source": "cine",
+    "target": "sociedad",
+    "id": 1780
+   },
+   {
+    "weight": 1,
+    "source": "cine",
+    "target": "software libre",
+    "id": 1781
+   },
+   {
+    "weight": 10,
+    "source": "cine",
+    "target": "tecnologia",
+    "id": 1782
+   },
+   {
+    "weight": 37,
+    "source": "cine",
+    "target": "television",
+    "id": 1783
+   },
+   {
+    "weight": 11,
+    "source": "cine",
+    "target": "videos",
+    "id": 1784
    },
    {
     "weight": 11,
     "source": "trabajo",
     "target": "accidentes",
-    "id": 1779
+    "id": 1785
    },
    {
     "weight": 12,
     "source": "trabajo",
     "target": "Alemania",
-    "id": 1780
-   },
-   {
-    "weight": 3,
-    "source": "trabajo",
-    "target": "Barcelona",
-    "id": 1781
+    "id": 1786
    },
    {
     "weight": 1,
     "source": "trabajo",
-    "target": "B\u00e1rcenas",
-    "id": 1782
+    "target": "aviones",
+    "id": 1787
    },
    {
-    "weight": 2,
+    "weight": 4,
+    "source": "trabajo",
+    "target": "Barcelona",
+    "id": 1788
+   },
+   {
+    "weight": 3,
     "source": "trabajo",
     "target": "Catalu\u00f1a",
-    "id": 1783
+    "id": 1789
    },
    {
     "weight": 1,
     "source": "trabajo",
     "target": "censura",
-    "id": 1784
+    "id": 1790
    },
    {
     "weight": 2,
     "source": "trabajo",
     "target": "coches",
-    "id": 1785
+    "id": 1791
    },
    {
     "weight": 7,
     "source": "trabajo",
     "target": "cultura",
-    "id": 1786
+    "id": 1792
    },
    {
     "weight": 4,
     "source": "trabajo",
     "target": "curiosidades",
-    "id": 1787
+    "id": 1793
    },
    {
     "weight": 37,
     "source": "trabajo",
     "target": "derechos",
-    "id": 1788
+    "id": 1794
    },
    {
     "weight": 2,
     "source": "trabajo",
     "target": "detenidos",
-    "id": 1789
-   },
-   {
-    "weight": 52,
-    "source": "trabajo",
-    "target": "empresas",
-    "id": 1790
-   },
-   {
-    "weight": 1,
-    "source": "trabajo",
-    "target": "energia",
-    "id": 1791
-   },
-   {
-    "weight": 4,
-    "source": "trabajo",
-    "target": "Francia",
-    "id": 1792
-   },
-   {
-    "weight": 2,
-    "source": "trabajo",
-    "target": "futbol",
-    "id": 1793
-   },
-   {
-    "weight": 1,
-    "source": "trabajo",
-    "target": "guerra",
-    "id": 1794
-   },
-   {
-    "weight": 1,
-    "source": "trabajo",
-    "target": "homosexualidad",
     "id": 1795
    },
    {
-    "weight": 26,
+    "weight": 53,
     "source": "trabajo",
-    "target": "huelga",
+    "target": "empresas",
     "id": 1796
    },
    {
     "weight": 1,
     "source": "trabajo",
-    "target": "Israel",
+    "target": "energia",
     "id": 1797
    },
    {
-    "weight": 13,
+    "weight": 4,
     "source": "trabajo",
-    "target": "Japon",
+    "target": "Francia",
     "id": 1798
-   },
-   {
-    "weight": 10,
-    "source": "trabajo",
-    "target": "justicia",
-    "id": 1799
    },
    {
     "weight": 2,
     "source": "trabajo",
-    "target": "manifestaciones",
+    "target": "futbol",
+    "id": 1799
+   },
+   {
+    "weight": 1,
+    "source": "trabajo",
+    "target": "guerra",
     "id": 1800
    },
    {
     "weight": 1,
     "source": "trabajo",
-    "target": "microsoft",
+    "target": "homosexualidad",
     "id": 1801
+   },
+   {
+    "weight": 26,
+    "source": "trabajo",
+    "target": "huelga",
+    "id": 1802
+   },
+   {
+    "weight": 1,
+    "source": "trabajo",
+    "target": "Israel",
+    "id": 1803
+   },
+   {
+    "weight": 13,
+    "source": "trabajo",
+    "target": "Japon",
+    "id": 1804
+   },
+   {
+    "weight": 10,
+    "source": "trabajo",
+    "target": "justicia",
+    "id": 1805
+   },
+   {
+    "weight": 2,
+    "source": "trabajo",
+    "target": "manifestaciones",
+    "id": 1806
+   },
+   {
+    "weight": 1,
+    "source": "trabajo",
+    "target": "microsoft",
+    "id": 1807
    },
    {
     "weight": 21,
     "source": "trabajo",
     "target": "mujeres",
-    "id": 1802
+    "id": 1808
    },
    {
     "weight": 4,
     "source": "trabajo",
     "target": "musica",
-    "id": 1803
-   },
-   {
-    "weight": 1,
-    "source": "trabajo",
-    "target": "NASA",
-    "id": 1804
-   },
-   {
-    "weight": 9,
-    "source": "trabajo",
-    "target": "ni\u00f1os",
-    "id": 1805
-   },
-   {
-    "weight": 125,
-    "source": "trabajo",
-    "target": "paro",
-    "id": 1806
-   },
-   {
-    "weight": 9,
-    "source": "trabajo",
-    "target": "periodismo",
-    "id": 1807
-   },
-   {
-    "weight": 3,
-    "source": "trabajo",
-    "target": "Podemos",
-    "id": 1808
-   },
-   {
-    "weight": 6,
-    "source": "trabajo",
-    "target": "recortes",
     "id": 1809
    },
    {
     "weight": 1,
     "source": "trabajo",
-    "target": "RTVE",
+    "target": "NASA",
     "id": 1810
+   },
+   {
+    "weight": 9,
+    "source": "trabajo",
+    "target": "ni\u00f1os",
+    "id": 1811
+   },
+   {
+    "weight": 125,
+    "source": "trabajo",
+    "target": "paro",
+    "id": 1812
+   },
+   {
+    "weight": 9,
+    "source": "trabajo",
+    "target": "periodismo",
+    "id": 1813
+   },
+   {
+    "weight": 3,
+    "source": "trabajo",
+    "target": "Podemos",
+    "id": 1814
+   },
+   {
+    "weight": 6,
+    "source": "trabajo",
+    "target": "recortes",
+    "id": 1815
+   },
+   {
+    "weight": 1,
+    "source": "trabajo",
+    "target": "RTVE",
+    "id": 1816
    },
    {
     "weight": 1,
     "source": "trabajo",
     "target": "Rusia",
-    "id": 1811
+    "id": 1817
    },
    {
     "weight": 59,
     "source": "trabajo",
     "target": "salarios",
-    "id": 1812
+    "id": 1818
    },
    {
     "weight": 13,
     "source": "trabajo",
     "target": "salud",
-    "id": 1813
+    "id": 1819
    },
    {
     "weight": 5,
     "source": "trabajo",
     "target": "seguridad",
-    "id": 1814
+    "id": 1820
    },
    {
     "weight": 28,
     "source": "trabajo",
     "target": "sociedad",
-    "id": 1815
+    "id": 1821
    },
    {
     "weight": 7,
     "source": "trabajo",
     "target": "tecnologia",
-    "id": 1816
+    "id": 1822
    },
    {
     "weight": 2,
     "source": "trabajo",
     "target": "television",
-    "id": 1817
+    "id": 1823
    },
    {
     "weight": 2,
     "source": "trabajo",
     "target": "terrorismo",
-    "id": 1818
+    "id": 1824
    },
    {
     "weight": 12,
     "source": "trabajo",
     "target": "UE",
-    "id": 1819
+    "id": 1825
    },
    {
     "weight": 6,
     "source": "trabajo",
     "target": "videos",
-    "id": 1820
-   },
-   {
-    "weight": 4,
-    "source": "trabajo",
-    "target": "vivienda",
-    "id": 1821
-   },
-   {
-    "weight": 4,
-    "source": "trabajo",
-    "target": "Zapatero",
-    "id": 1822
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "accidentes",
-    "id": 1823
-   },
-   {
-    "weight": 4,
-    "source": "Catalu\u00f1a",
-    "target": "Alemania",
-    "id": 1824
-   },
-   {
-    "weight": 39,
-    "source": "Catalu\u00f1a",
-    "target": "Barcelona",
-    "id": 1825
-   },
-   {
-    "weight": 9,
-    "source": "Catalu\u00f1a",
-    "target": "censura",
     "id": 1826
    },
    {
     "weight": 4,
-    "source": "Catalu\u00f1a",
-    "target": "coches",
+    "source": "trabajo",
+    "target": "vivienda",
     "id": 1827
    },
    {
-    "weight": 9,
-    "source": "Catalu\u00f1a",
-    "target": "cultura",
-    "id": 1828
-   },
-   {
-    "weight": 2,
-    "source": "Catalu\u00f1a",
-    "target": "derechos",
-    "id": 1829
-   },
-   {
-    "weight": 9,
-    "source": "Catalu\u00f1a",
-    "target": "detenidos",
-    "id": 1830
-   },
-   {
-    "weight": 8,
-    "source": "Catalu\u00f1a",
-    "target": "empresas",
-    "id": 1831
-   },
-   {
     "weight": 4,
-    "source": "Catalu\u00f1a",
-    "target": "ETA",
-    "id": 1832
-   },
-   {
-    "weight": 5,
-    "source": "Catalu\u00f1a",
-    "target": "Francia",
-    "id": 1833
-   },
-   {
-    "weight": 4,
-    "source": "Catalu\u00f1a",
-    "target": "futbol",
-    "id": 1834
-   },
-   {
-    "weight": 4,
-    "source": "Catalu\u00f1a",
-    "target": "guerra",
-    "id": 1835
-   },
-   {
-    "weight": 2,
-    "source": "Catalu\u00f1a",
-    "target": "homosexualidad",
-    "id": 1836
-   },
-   {
-    "weight": 9,
-    "source": "Catalu\u00f1a",
-    "target": "huelga",
-    "id": 1837
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "Japon",
-    "id": 1838
-   },
-   {
-    "weight": 11,
-    "source": "Catalu\u00f1a",
-    "target": "justicia",
-    "id": 1839
-   },
-   {
-    "weight": 6,
-    "source": "Catalu\u00f1a",
-    "target": "manifestaciones",
-    "id": 1840
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "mujeres",
-    "id": 1841
-   },
-   {
-    "weight": 3,
-    "source": "Catalu\u00f1a",
-    "target": "ni\u00f1os",
-    "id": 1842
-   },
-   {
-    "weight": 6,
-    "source": "Catalu\u00f1a",
-    "target": "paro",
-    "id": 1843
-   },
-   {
-    "weight": 7,
-    "source": "Catalu\u00f1a",
-    "target": "periodismo",
-    "id": 1844
-   },
-   {
-    "weight": 18,
-    "source": "Catalu\u00f1a",
-    "target": "Podemos",
-    "id": 1845
-   },
-   {
-    "weight": 18,
-    "source": "Catalu\u00f1a",
-    "target": "recortes",
-    "id": 1846
-   },
-   {
-    "weight": 6,
-    "source": "Catalu\u00f1a",
-    "target": "RTVE",
-    "id": 1847
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "Rusia",
-    "id": 1848
-   },
-   {
-    "weight": 9,
-    "source": "Catalu\u00f1a",
-    "target": "salarios",
-    "id": 1849
-   },
-   {
-    "weight": 8,
-    "source": "Catalu\u00f1a",
-    "target": "salud",
-    "id": 1850
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "seguridad",
-    "id": 1851
-   },
-   {
-    "weight": 4,
-    "source": "Catalu\u00f1a",
-    "target": "sociedad",
-    "id": 1852
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "software libre",
-    "id": 1853
-   },
-   {
-    "weight": 7,
-    "source": "Catalu\u00f1a",
-    "target": "television",
-    "id": 1854
-   },
-   {
-    "weight": 6,
-    "source": "Catalu\u00f1a",
-    "target": "terrorismo",
-    "id": 1855
-   },
-   {
-    "weight": 8,
-    "source": "Catalu\u00f1a",
-    "target": "UE",
-    "id": 1856
-   },
-   {
-    "weight": 3,
-    "source": "Catalu\u00f1a",
-    "target": "videos",
-    "id": 1857
-   },
-   {
-    "weight": 1,
-    "source": "Catalu\u00f1a",
-    "target": "vivienda",
-    "id": 1858
-   },
-   {
-    "weight": 6,
-    "source": "Catalu\u00f1a",
+    "source": "trabajo",
     "target": "Zapatero",
-    "id": 1859
+    "id": 1828
    },
    {
     "weight": 12,
     "source": "videos",
     "target": "accidentes",
-    "id": 1860
+    "id": 1829
    },
    {
     "weight": 2,
     "source": "videos",
     "target": "Aguirre",
-    "id": 1861
+    "id": 1830
    },
    {
     "weight": 6,
     "source": "videos",
     "target": "Alemania",
-    "id": 1862
+    "id": 1831
+   },
+   {
+    "weight": 13,
+    "source": "videos",
+    "target": "aviones",
+    "id": 1832
    },
    {
     "weight": 13,
     "source": "videos",
     "target": "Barcelona",
+    "id": 1833
+   },
+   {
+    "weight": 3,
+    "source": "videos",
+    "target": "Catalu\u00f1a",
+    "id": 1834
+   },
+   {
+    "weight": 12,
+    "source": "videos",
+    "target": "censura",
+    "id": 1835
+   },
+   {
+    "weight": 17,
+    "source": "videos",
+    "target": "coches",
+    "id": 1836
+   },
+   {
+    "weight": 2,
+    "source": "videos",
+    "target": "cultura",
+    "id": 1837
+   },
+   {
+    "weight": 14,
+    "source": "videos",
+    "target": "curiosidades",
+    "id": 1838
+   },
+   {
+    "weight": 5,
+    "source": "videos",
+    "target": "derechos",
+    "id": 1839
+   },
+   {
+    "weight": 5,
+    "source": "videos",
+    "target": "detenidos",
+    "id": 1840
+   },
+   {
+    "weight": 3,
+    "source": "videos",
+    "target": "empresas",
+    "id": 1841
+   },
+   {
+    "weight": 4,
+    "source": "videos",
+    "target": "ETA",
+    "id": 1842
+   },
+   {
+    "weight": 3,
+    "source": "videos",
+    "target": "Francia",
+    "id": 1843
+   },
+   {
+    "weight": 2,
+    "source": "videos",
+    "target": "futbol",
+    "id": 1844
+   },
+   {
+    "weight": 5,
+    "source": "videos",
+    "target": "guerra",
+    "id": 1845
+   },
+   {
+    "weight": 1,
+    "source": "videos",
+    "target": "homosexualidad",
+    "id": 1846
+   },
+   {
+    "weight": 1,
+    "source": "videos",
+    "target": "huelga",
+    "id": 1847
+   },
+   {
+    "weight": 9,
+    "source": "videos",
+    "target": "Israel",
+    "id": 1848
+   },
+   {
+    "weight": 10,
+    "source": "videos",
+    "target": "Japon",
+    "id": 1849
+   },
+   {
+    "weight": 3,
+    "source": "videos",
+    "target": "justicia",
+    "id": 1850
+   },
+   {
+    "weight": 8,
+    "source": "videos",
+    "target": "manifestaciones",
+    "id": 1851
+   },
+   {
+    "weight": 5,
+    "source": "videos",
+    "target": "microsoft",
+    "id": 1852
+   },
+   {
+    "weight": 10,
+    "source": "videos",
+    "target": "mujeres",
+    "id": 1853
+   },
+   {
+    "weight": 12,
+    "source": "videos",
+    "target": "musica",
+    "id": 1854
+   },
+   {
+    "weight": 12,
+    "source": "videos",
+    "target": "NASA",
+    "id": 1855
+   },
+   {
+    "weight": 9,
+    "source": "videos",
+    "target": "ni\u00f1os",
+    "id": 1856
+   },
+   {
+    "weight": 1,
+    "source": "videos",
+    "target": "paro",
+    "id": 1857
+   },
+   {
+    "weight": 6,
+    "source": "videos",
+    "target": "periodismo",
+    "id": 1858
+   },
+   {
+    "weight": 5,
+    "source": "videos",
+    "target": "Podemos",
+    "id": 1859
+   },
+   {
+    "weight": 1,
+    "source": "videos",
+    "target": "recortes",
+    "id": 1860
+   },
+   {
+    "weight": 5,
+    "source": "videos",
+    "target": "RTVE",
+    "id": 1861
+   },
+   {
+    "weight": 8,
+    "source": "videos",
+    "target": "Rusia",
+    "id": 1862
+   },
+   {
+    "weight": 3,
+    "source": "videos",
+    "target": "salud",
     "id": 1863
    },
    {
     "weight": 4,
     "source": "videos",
-    "target": "B\u00e1rcenas",
-    "id": 1864
-   },
-   {
-    "weight": 12,
-    "source": "videos",
-    "target": "censura",
-    "id": 1865
-   },
-   {
-    "weight": 17,
-    "source": "videos",
-    "target": "coches",
-    "id": 1866
-   },
-   {
-    "weight": 2,
-    "source": "videos",
-    "target": "cultura",
-    "id": 1867
-   },
-   {
-    "weight": 14,
-    "source": "videos",
-    "target": "curiosidades",
-    "id": 1868
-   },
-   {
-    "weight": 5,
-    "source": "videos",
-    "target": "derechos",
-    "id": 1869
-   },
-   {
-    "weight": 5,
-    "source": "videos",
-    "target": "detenidos",
-    "id": 1870
-   },
-   {
-    "weight": 3,
-    "source": "videos",
-    "target": "empresas",
-    "id": 1871
-   },
-   {
-    "weight": 4,
-    "source": "videos",
-    "target": "ETA",
-    "id": 1872
-   },
-   {
-    "weight": 3,
-    "source": "videos",
-    "target": "Francia",
-    "id": 1873
-   },
-   {
-    "weight": 2,
-    "source": "videos",
-    "target": "futbol",
-    "id": 1874
-   },
-   {
-    "weight": 5,
-    "source": "videos",
-    "target": "guerra",
-    "id": 1875
-   },
-   {
-    "weight": 1,
-    "source": "videos",
-    "target": "homosexualidad",
-    "id": 1876
-   },
-   {
-    "weight": 1,
-    "source": "videos",
-    "target": "huelga",
-    "id": 1877
-   },
-   {
-    "weight": 9,
-    "source": "videos",
-    "target": "Israel",
-    "id": 1878
-   },
-   {
-    "weight": 9,
-    "source": "videos",
-    "target": "Japon",
-    "id": 1879
-   },
-   {
-    "weight": 3,
-    "source": "videos",
-    "target": "justicia",
-    "id": 1880
-   },
-   {
-    "weight": 8,
-    "source": "videos",
-    "target": "manifestaciones",
-    "id": 1881
-   },
-   {
-    "weight": 5,
-    "source": "videos",
-    "target": "microsoft",
-    "id": 1882
-   },
-   {
-    "weight": 10,
-    "source": "videos",
-    "target": "mujeres",
-    "id": 1883
-   },
-   {
-    "weight": 12,
-    "source": "videos",
-    "target": "musica",
-    "id": 1884
-   },
-   {
-    "weight": 12,
-    "source": "videos",
-    "target": "NASA",
-    "id": 1885
-   },
-   {
-    "weight": 9,
-    "source": "videos",
-    "target": "ni\u00f1os",
-    "id": 1886
-   },
-   {
-    "weight": 1,
-    "source": "videos",
-    "target": "paro",
-    "id": 1887
-   },
-   {
-    "weight": 6,
-    "source": "videos",
-    "target": "periodismo",
-    "id": 1888
-   },
-   {
-    "weight": 5,
-    "source": "videos",
-    "target": "Podemos",
-    "id": 1889
-   },
-   {
-    "weight": 1,
-    "source": "videos",
-    "target": "recortes",
-    "id": 1890
-   },
-   {
-    "weight": 5,
-    "source": "videos",
-    "target": "RTVE",
-    "id": 1891
-   },
-   {
-    "weight": 8,
-    "source": "videos",
-    "target": "Rusia",
-    "id": 1892
-   },
-   {
-    "weight": 3,
-    "source": "videos",
-    "target": "salud",
-    "id": 1893
-   },
-   {
-    "weight": 4,
-    "source": "videos",
     "target": "seguridad",
-    "id": 1894
+    "id": 1864
    },
    {
     "weight": 4,
     "source": "videos",
     "target": "sociedad",
-    "id": 1895
+    "id": 1865
    },
    {
     "weight": 10,
     "source": "videos",
     "target": "software libre",
-    "id": 1896
+    "id": 1866
    },
    {
     "weight": 7,
     "source": "videos",
     "target": "tecnologia",
-    "id": 1897
+    "id": 1867
    },
    {
     "weight": 7,
     "source": "videos",
     "target": "television",
-    "id": 1898
+    "id": 1868
    },
    {
     "weight": 4,
     "source": "videos",
     "target": "terrorismo",
-    "id": 1899
+    "id": 1869
    },
    {
     "weight": 1,
     "source": "videos",
     "target": "UE",
-    "id": 1900
+    "id": 1870
    },
    {
     "weight": 1,
     "source": "videos",
     "target": "vivienda",
-    "id": 1901
+    "id": 1871
    },
    {
     "weight": 1,
     "source": "videos",
     "target": "Zapatero",
+    "id": 1872
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "accidentes",
+    "id": 1873
+   },
+   {
+    "weight": 4,
+    "source": "Catalu\u00f1a",
+    "target": "Alemania",
+    "id": 1874
+   },
+   {
+    "weight": 41,
+    "source": "Catalu\u00f1a",
+    "target": "Barcelona",
+    "id": 1875
+   },
+   {
+    "weight": 9,
+    "source": "Catalu\u00f1a",
+    "target": "censura",
+    "id": 1876
+   },
+   {
+    "weight": 5,
+    "source": "Catalu\u00f1a",
+    "target": "coches",
+    "id": 1877
+   },
+   {
+    "weight": 9,
+    "source": "Catalu\u00f1a",
+    "target": "cultura",
+    "id": 1878
+   },
+   {
+    "weight": 2,
+    "source": "Catalu\u00f1a",
+    "target": "derechos",
+    "id": 1879
+   },
+   {
+    "weight": 9,
+    "source": "Catalu\u00f1a",
+    "target": "detenidos",
+    "id": 1880
+   },
+   {
+    "weight": 8,
+    "source": "Catalu\u00f1a",
+    "target": "empresas",
+    "id": 1881
+   },
+   {
+    "weight": 4,
+    "source": "Catalu\u00f1a",
+    "target": "ETA",
+    "id": 1882
+   },
+   {
+    "weight": 5,
+    "source": "Catalu\u00f1a",
+    "target": "Francia",
+    "id": 1883
+   },
+   {
+    "weight": 4,
+    "source": "Catalu\u00f1a",
+    "target": "futbol",
+    "id": 1884
+   },
+   {
+    "weight": 4,
+    "source": "Catalu\u00f1a",
+    "target": "guerra",
+    "id": 1885
+   },
+   {
+    "weight": 2,
+    "source": "Catalu\u00f1a",
+    "target": "homosexualidad",
+    "id": 1886
+   },
+   {
+    "weight": 9,
+    "source": "Catalu\u00f1a",
+    "target": "huelga",
+    "id": 1887
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "Japon",
+    "id": 1888
+   },
+   {
+    "weight": 11,
+    "source": "Catalu\u00f1a",
+    "target": "justicia",
+    "id": 1889
+   },
+   {
+    "weight": 6,
+    "source": "Catalu\u00f1a",
+    "target": "manifestaciones",
+    "id": 1890
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "mujeres",
+    "id": 1891
+   },
+   {
+    "weight": 3,
+    "source": "Catalu\u00f1a",
+    "target": "ni\u00f1os",
+    "id": 1892
+   },
+   {
+    "weight": 6,
+    "source": "Catalu\u00f1a",
+    "target": "paro",
+    "id": 1893
+   },
+   {
+    "weight": 7,
+    "source": "Catalu\u00f1a",
+    "target": "periodismo",
+    "id": 1894
+   },
+   {
+    "weight": 18,
+    "source": "Catalu\u00f1a",
+    "target": "Podemos",
+    "id": 1895
+   },
+   {
+    "weight": 18,
+    "source": "Catalu\u00f1a",
+    "target": "recortes",
+    "id": 1896
+   },
+   {
+    "weight": 6,
+    "source": "Catalu\u00f1a",
+    "target": "RTVE",
+    "id": 1897
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "Rusia",
+    "id": 1898
+   },
+   {
+    "weight": 9,
+    "source": "Catalu\u00f1a",
+    "target": "salarios",
+    "id": 1899
+   },
+   {
+    "weight": 8,
+    "source": "Catalu\u00f1a",
+    "target": "salud",
+    "id": 1900
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "seguridad",
+    "id": 1901
+   },
+   {
+    "weight": 4,
+    "source": "Catalu\u00f1a",
+    "target": "sociedad",
     "id": 1902
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "software libre",
+    "id": 1903
+   },
+   {
+    "weight": 7,
+    "source": "Catalu\u00f1a",
+    "target": "television",
+    "id": 1904
+   },
+   {
+    "weight": 6,
+    "source": "Catalu\u00f1a",
+    "target": "terrorismo",
+    "id": 1905
+   },
+   {
+    "weight": 8,
+    "source": "Catalu\u00f1a",
+    "target": "UE",
+    "id": 1906
+   },
+   {
+    "weight": 1,
+    "source": "Catalu\u00f1a",
+    "target": "vivienda",
+    "id": 1907
+   },
+   {
+    "weight": 6,
+    "source": "Catalu\u00f1a",
+    "target": "Zapatero",
+    "id": 1908
    },
    {
     "weight": 6,
     "source": "Alemania",
     "target": "accidentes",
-    "id": 1903
+    "id": 1909
    },
    {
     "weight": 1,
     "source": "Alemania",
     "target": "Aguirre",
-    "id": 1904
-   },
-   {
-    "weight": 1,
-    "source": "Alemania",
-    "target": "B\u00e1rcenas",
-    "id": 1905
-   },
-   {
-    "weight": 9,
-    "source": "Alemania",
-    "target": "censura",
-    "id": 1906
-   },
-   {
-    "weight": 7,
-    "source": "Alemania",
-    "target": "coches",
-    "id": 1907
-   },
-   {
-    "weight": 5,
-    "source": "Alemania",
-    "target": "cultura",
-    "id": 1908
-   },
-   {
-    "weight": 1,
-    "source": "Alemania",
-    "target": "curiosidades",
-    "id": 1909
-   },
-   {
-    "weight": 3,
-    "source": "Alemania",
-    "target": "derechos",
     "id": 1910
    },
    {
     "weight": 3,
     "source": "Alemania",
-    "target": "detenidos",
+    "target": "aviones",
     "id": 1911
    },
    {
-    "weight": 4,
+    "weight": 9,
     "source": "Alemania",
-    "target": "empresas",
+    "target": "censura",
     "id": 1912
    },
    {
-    "weight": 19,
+    "weight": 7,
     "source": "Alemania",
-    "target": "energia",
+    "target": "coches",
     "id": 1913
+   },
+   {
+    "weight": 5,
+    "source": "Alemania",
+    "target": "cultura",
+    "id": 1914
    },
    {
     "weight": 1,
     "source": "Alemania",
-    "target": "ETA",
-    "id": 1914
-   },
-   {
-    "weight": 45,
-    "source": "Alemania",
-    "target": "Francia",
+    "target": "curiosidades",
     "id": 1915
    },
    {
     "weight": 3,
     "source": "Alemania",
-    "target": "futbol",
+    "target": "derechos",
     "id": 1916
+   },
+   {
+    "weight": 3,
+    "source": "Alemania",
+    "target": "detenidos",
+    "id": 1917
+   },
+   {
+    "weight": 4,
+    "source": "Alemania",
+    "target": "empresas",
+    "id": 1918
+   },
+   {
+    "weight": 19,
+    "source": "Alemania",
+    "target": "energia",
+    "id": 1919
+   },
+   {
+    "weight": 1,
+    "source": "Alemania",
+    "target": "ETA",
+    "id": 1920
+   },
+   {
+    "weight": 46,
+    "source": "Alemania",
+    "target": "Francia",
+    "id": 1921
+   },
+   {
+    "weight": 3,
+    "source": "Alemania",
+    "target": "futbol",
+    "id": 1922
    },
    {
     "weight": 20,
     "source": "Alemania",
     "target": "guerra",
-    "id": 1917
+    "id": 1923
    },
    {
     "weight": 8,
     "source": "Alemania",
     "target": "homosexualidad",
-    "id": 1918
-   },
-   {
-    "weight": 5,
-    "source": "Alemania",
-    "target": "huelga",
-    "id": 1919
-   },
-   {
-    "weight": 5,
-    "source": "Alemania",
-    "target": "Israel",
-    "id": 1920
-   },
-   {
-    "weight": 6,
-    "source": "Alemania",
-    "target": "Japon",
-    "id": 1921
-   },
-   {
-    "weight": 5,
-    "source": "Alemania",
-    "target": "justicia",
-    "id": 1922
-   },
-   {
-    "weight": 2,
-    "source": "Alemania",
-    "target": "manifestaciones",
-    "id": 1923
-   },
-   {
-    "weight": 7,
-    "source": "Alemania",
-    "target": "microsoft",
     "id": 1924
    },
    {
     "weight": 5,
     "source": "Alemania",
-    "target": "mujeres",
+    "target": "huelga",
     "id": 1925
    },
    {
-    "weight": 2,
+    "weight": 5,
     "source": "Alemania",
-    "target": "musica",
+    "target": "Israel",
     "id": 1926
    },
    {
     "weight": 6,
     "source": "Alemania",
-    "target": "ni\u00f1os",
+    "target": "Japon",
     "id": 1927
+   },
+   {
+    "weight": 6,
+    "source": "Alemania",
+    "target": "justicia",
+    "id": 1928
+   },
+   {
+    "weight": 3,
+    "source": "Alemania",
+    "target": "manifestaciones",
+    "id": 1929
+   },
+   {
+    "weight": 7,
+    "source": "Alemania",
+    "target": "microsoft",
+    "id": 1930
+   },
+   {
+    "weight": 5,
+    "source": "Alemania",
+    "target": "mujeres",
+    "id": 1931
+   },
+   {
+    "weight": 2,
+    "source": "Alemania",
+    "target": "musica",
+    "id": 1932
+   },
+   {
+    "weight": 6,
+    "source": "Alemania",
+    "target": "ni\u00f1os",
+    "id": 1933
    },
    {
     "weight": 22,
     "source": "Alemania",
     "target": "paro",
-    "id": 1928
+    "id": 1934
    },
    {
     "weight": 4,
     "source": "Alemania",
     "target": "periodismo",
-    "id": 1929
+    "id": 1935
    },
    {
     "weight": 1,
     "source": "Alemania",
     "target": "Podemos",
-    "id": 1930
+    "id": 1936
    },
    {
     "weight": 12,
     "source": "Alemania",
     "target": "recortes",
-    "id": 1931
+    "id": 1937
    },
    {
     "weight": 15,
     "source": "Alemania",
     "target": "Rusia",
-    "id": 1932
+    "id": 1938
    },
    {
     "weight": 13,
     "source": "Alemania",
     "target": "salarios",
-    "id": 1933
-   },
-   {
-    "weight": 7,
-    "source": "Alemania",
-    "target": "salud",
-    "id": 1934
-   },
-   {
-    "weight": 3,
-    "source": "Alemania",
-    "target": "seguridad",
-    "id": 1935
-   },
-   {
-    "weight": 7,
-    "source": "Alemania",
-    "target": "sociedad",
-    "id": 1936
-   },
-   {
-    "weight": 5,
-    "source": "Alemania",
-    "target": "software libre",
-    "id": 1937
-   },
-   {
-    "weight": 4,
-    "source": "Alemania",
-    "target": "tecnologia",
-    "id": 1938
-   },
-   {
-    "weight": 2,
-    "source": "Alemania",
-    "target": "television",
     "id": 1939
    },
    {
     "weight": 7,
     "source": "Alemania",
-    "target": "terrorismo",
+    "target": "salud",
     "id": 1940
    },
    {
-    "weight": 38,
+    "weight": 3,
+    "source": "Alemania",
+    "target": "seguridad",
+    "id": 1941
+   },
+   {
+    "weight": 7,
+    "source": "Alemania",
+    "target": "sociedad",
+    "id": 1942
+   },
+   {
+    "weight": 5,
+    "source": "Alemania",
+    "target": "software libre",
+    "id": 1943
+   },
+   {
+    "weight": 4,
+    "source": "Alemania",
+    "target": "tecnologia",
+    "id": 1944
+   },
+   {
+    "weight": 2,
+    "source": "Alemania",
+    "target": "television",
+    "id": 1945
+   },
+   {
+    "weight": 7,
+    "source": "Alemania",
+    "target": "terrorismo",
+    "id": 1946
+   },
+   {
+    "weight": 39,
     "source": "Alemania",
     "target": "UE",
-    "id": 1941
+    "id": 1947
    },
    {
     "weight": 1,
     "source": "Alemania",
     "target": "vivienda",
-    "id": 1942
+    "id": 1948
    },
    {
     "weight": 4,
     "source": "Alemania",
     "target": "Zapatero",
-    "id": 1943
+    "id": 1949
    },
    {
     "weight": 8,
     "source": "ni\u00f1os",
     "target": "accidentes",
-    "id": 1944
+    "id": 1950
    },
    {
     "weight": 1,
     "source": "ni\u00f1os",
     "target": "Aguirre",
-    "id": 1945
+    "id": 1951
+   },
+   {
+    "weight": 1,
+    "source": "ni\u00f1os",
+    "target": "aviones",
+    "id": 1952
    },
    {
     "weight": 3,
     "source": "ni\u00f1os",
     "target": "Barcelona",
-    "id": 1946
+    "id": 1953
    },
    {
     "weight": 2,
     "source": "ni\u00f1os",
     "target": "censura",
-    "id": 1947
+    "id": 1954
    },
    {
     "weight": 16,
     "source": "ni\u00f1os",
     "target": "coches",
-    "id": 1948
+    "id": 1955
    },
    {
     "weight": 2,
     "source": "ni\u00f1os",
     "target": "cultura",
-    "id": 1949
+    "id": 1956
    },
    {
     "weight": 9,
     "source": "ni\u00f1os",
     "target": "curiosidades",
-    "id": 1950
+    "id": 1957
    },
    {
     "weight": 10,
     "source": "ni\u00f1os",
     "target": "derechos",
-    "id": 1951
+    "id": 1958
    },
    {
     "weight": 12,
     "source": "ni\u00f1os",
     "target": "detenidos",
-    "id": 1952
+    "id": 1959
    },
    {
     "weight": 1,
     "source": "ni\u00f1os",
     "target": "ETA",
-    "id": 1953
+    "id": 1960
    },
    {
-    "weight": 11,
+    "weight": 12,
     "source": "ni\u00f1os",
     "target": "Francia",
-    "id": 1954
+    "id": 1961
    },
    {
     "weight": 6,
     "source": "ni\u00f1os",
     "target": "futbol",
-    "id": 1955
+    "id": 1962
    },
    {
     "weight": 20,
     "source": "ni\u00f1os",
     "target": "guerra",
-    "id": 1956
+    "id": 1963
    },
    {
     "weight": 8,
     "source": "ni\u00f1os",
     "target": "homosexualidad",
-    "id": 1957
+    "id": 1964
    },
    {
     "weight": 16,
     "source": "ni\u00f1os",
     "target": "Israel",
-    "id": 1958
+    "id": 1965
    },
    {
     "weight": 11,
     "source": "ni\u00f1os",
     "target": "Japon",
-    "id": 1959
+    "id": 1966
    },
    {
     "weight": 2,
     "source": "ni\u00f1os",
     "target": "justicia",
-    "id": 1960
+    "id": 1967
    },
    {
     "weight": 4,
     "source": "ni\u00f1os",
     "target": "manifestaciones",
-    "id": 1961
-   },
-   {
-    "weight": 2,
-    "source": "ni\u00f1os",
-    "target": "microsoft",
-    "id": 1962
-   },
-   {
-    "weight": 11,
-    "source": "ni\u00f1os",
-    "target": "mujeres",
-    "id": 1963
-   },
-   {
-    "weight": 3,
-    "source": "ni\u00f1os",
-    "target": "musica",
-    "id": 1964
-   },
-   {
-    "weight": 1,
-    "source": "ni\u00f1os",
-    "target": "NASA",
-    "id": 1965
-   },
-   {
-    "weight": 2,
-    "source": "ni\u00f1os",
-    "target": "paro",
-    "id": 1966
-   },
-   {
-    "weight": 3,
-    "source": "ni\u00f1os",
-    "target": "periodismo",
-    "id": 1967
-   },
-   {
-    "weight": 1,
-    "source": "ni\u00f1os",
-    "target": "Podemos",
     "id": 1968
    },
    {
     "weight": 2,
     "source": "ni\u00f1os",
-    "target": "recortes",
+    "target": "microsoft",
     "id": 1969
    },
    {
-    "weight": 2,
+    "weight": 11,
     "source": "ni\u00f1os",
-    "target": "RTVE",
+    "target": "mujeres",
     "id": 1970
    },
    {
-    "weight": 4,
+    "weight": 3,
     "source": "ni\u00f1os",
-    "target": "Rusia",
+    "target": "musica",
     "id": 1971
    },
    {
     "weight": 1,
     "source": "ni\u00f1os",
-    "target": "salarios",
+    "target": "NASA",
     "id": 1972
+   },
+   {
+    "weight": 2,
+    "source": "ni\u00f1os",
+    "target": "paro",
+    "id": 1973
+   },
+   {
+    "weight": 3,
+    "source": "ni\u00f1os",
+    "target": "periodismo",
+    "id": 1974
+   },
+   {
+    "weight": 1,
+    "source": "ni\u00f1os",
+    "target": "Podemos",
+    "id": 1975
+   },
+   {
+    "weight": 2,
+    "source": "ni\u00f1os",
+    "target": "recortes",
+    "id": 1976
+   },
+   {
+    "weight": 2,
+    "source": "ni\u00f1os",
+    "target": "RTVE",
+    "id": 1977
+   },
+   {
+    "weight": 4,
+    "source": "ni\u00f1os",
+    "target": "Rusia",
+    "id": 1978
+   },
+   {
+    "weight": 1,
+    "source": "ni\u00f1os",
+    "target": "salarios",
+    "id": 1979
    },
    {
     "weight": 12,
     "source": "ni\u00f1os",
     "target": "salud",
-    "id": 1973
+    "id": 1980
    },
    {
     "weight": 4,
     "source": "ni\u00f1os",
     "target": "seguridad",
-    "id": 1974
+    "id": 1981
    },
    {
     "weight": 10,
     "source": "ni\u00f1os",
     "target": "sociedad",
-    "id": 1975
+    "id": 1982
    },
    {
     "weight": 1,
     "source": "ni\u00f1os",
     "target": "software libre",
-    "id": 1976
+    "id": 1983
    },
    {
     "weight": 7,
     "source": "ni\u00f1os",
     "target": "television",
-    "id": 1977
+    "id": 1984
    },
    {
     "weight": 1,
     "source": "ni\u00f1os",
     "target": "terrorismo",
-    "id": 1978
+    "id": 1985
+   },
+   {
+    "weight": 4,
+    "source": "mujeres",
+    "target": "accidentes",
+    "id": 1986
+   },
+   {
+    "weight": 5,
+    "source": "mujeres",
+    "target": "aviones",
+    "id": 1987
+   },
+   {
+    "weight": 6,
+    "source": "mujeres",
+    "target": "Barcelona",
+    "id": 1988
+   },
+   {
+    "weight": 6,
+    "source": "mujeres",
+    "target": "coches",
+    "id": 1989
+   },
+   {
+    "weight": 3,
+    "source": "mujeres",
+    "target": "cultura",
+    "id": 1990
+   },
+   {
+    "weight": 1,
+    "source": "mujeres",
+    "target": "curiosidades",
+    "id": 1991
+   },
+   {
+    "weight": 38,
+    "source": "mujeres",
+    "target": "derechos",
+    "id": 1992
+   },
+   {
+    "weight": 8,
+    "source": "mujeres",
+    "target": "detenidos",
+    "id": 1993
+   },
+   {
+    "weight": 4,
+    "source": "mujeres",
+    "target": "empresas",
+    "id": 1994
+   },
+   {
+    "weight": 9,
+    "source": "mujeres",
+    "target": "Francia",
+    "id": 1995
+   },
+   {
+    "weight": 3,
+    "source": "mujeres",
+    "target": "futbol",
+    "id": 1996
+   },
+   {
+    "weight": 5,
+    "source": "mujeres",
+    "target": "guerra",
+    "id": 1997
+   },
+   {
+    "weight": 5,
+    "source": "mujeres",
+    "target": "homosexualidad",
+    "id": 1998
+   },
+   {
+    "weight": 4,
+    "source": "mujeres",
+    "target": "huelga",
+    "id": 1999
+   },
+   {
+    "weight": 9,
+    "source": "mujeres",
+    "target": "Israel",
+    "id": 2000
+   },
+   {
+    "weight": 1,
+    "source": "mujeres",
+    "target": "Japon",
+    "id": 2001
+   },
+   {
+    "weight": 6,
+    "source": "mujeres",
+    "target": "justicia",
+    "id": 2002
+   },
+   {
+    "weight": 6,
+    "source": "mujeres",
+    "target": "manifestaciones",
+    "id": 2003
+   },
+   {
+    "weight": 3,
+    "source": "mujeres",
+    "target": "musica",
+    "id": 2004
+   },
+   {
+    "weight": 2,
+    "source": "mujeres",
+    "target": "NASA",
+    "id": 2005
+   },
+   {
+    "weight": 3,
+    "source": "mujeres",
+    "target": "paro",
+    "id": 2006
+   },
+   {
+    "weight": 1,
+    "source": "mujeres",
+    "target": "periodismo",
+    "id": 2007
+   },
+   {
+    "weight": 1,
+    "source": "mujeres",
+    "target": "recortes",
+    "id": 2008
+   },
+   {
+    "weight": 2,
+    "source": "mujeres",
+    "target": "RTVE",
+    "id": 2009
+   },
+   {
+    "weight": 6,
+    "source": "mujeres",
+    "target": "Rusia",
+    "id": 2010
+   },
+   {
+    "weight": 7,
+    "source": "mujeres",
+    "target": "salarios",
+    "id": 2011
+   },
+   {
+    "weight": 9,
+    "source": "mujeres",
+    "target": "salud",
+    "id": 2012
+   },
+   {
+    "weight": 5,
+    "source": "mujeres",
+    "target": "seguridad",
+    "id": 2013
+   },
+   {
+    "weight": 16,
+    "source": "mujeres",
+    "target": "sociedad",
+    "id": 2014
+   },
+   {
+    "weight": 2,
+    "source": "mujeres",
+    "target": "software libre",
+    "id": 2015
+   },
+   {
+    "weight": 3,
+    "source": "mujeres",
+    "target": "tecnologia",
+    "id": 2016
+   },
+   {
+    "weight": 5,
+    "source": "mujeres",
+    "target": "television",
+    "id": 2017
+   },
+   {
+    "weight": 1,
+    "source": "mujeres",
+    "target": "terrorismo",
+    "id": 2018
+   },
+   {
+    "weight": 2,
+    "source": "mujeres",
+    "target": "vivienda",
+    "id": 2019
    },
    {
     "weight": 4,
     "source": "sociedad",
     "target": "accidentes",
-    "id": 1979
+    "id": 2020
    },
    {
     "weight": 2,
     "source": "sociedad",
     "target": "Aguirre",
-    "id": 1980
+    "id": 2021
+   },
+   {
+    "weight": 1,
+    "source": "sociedad",
+    "target": "aviones",
+    "id": 2022
    },
    {
     "weight": 5,
     "source": "sociedad",
     "target": "Barcelona",
-    "id": 1981
+    "id": 2023
    },
    {
     "weight": 5,
     "source": "sociedad",
     "target": "censura",
-    "id": 1982
+    "id": 2024
    },
    {
     "weight": 3,
     "source": "sociedad",
     "target": "coches",
-    "id": 1983
+    "id": 2025
    },
    {
     "weight": 43,
     "source": "sociedad",
     "target": "cultura",
-    "id": 1984
+    "id": 2026
    },
    {
     "weight": 28,
     "source": "sociedad",
     "target": "curiosidades",
-    "id": 1985
+    "id": 2027
    },
    {
     "weight": 30,
     "source": "sociedad",
     "target": "derechos",
-    "id": 1986
+    "id": 2028
    },
    {
     "weight": 2,
     "source": "sociedad",
     "target": "detenidos",
-    "id": 1987
+    "id": 2029
    },
    {
     "weight": 14,
     "source": "sociedad",
     "target": "empresas",
-    "id": 1988
+    "id": 2030
    },
    {
     "weight": 6,
     "source": "sociedad",
     "target": "energia",
-    "id": 1989
+    "id": 2031
    },
    {
     "weight": 1,
     "source": "sociedad",
     "target": "ETA",
-    "id": 1990
+    "id": 2032
    },
    {
     "weight": 7,
     "source": "sociedad",
     "target": "Francia",
-    "id": 1991
+    "id": 2033
    },
    {
     "weight": 4,
     "source": "sociedad",
     "target": "futbol",
-    "id": 1992
+    "id": 2034
    },
    {
     "weight": 7,
     "source": "sociedad",
     "target": "guerra",
-    "id": 1993
+    "id": 2035
    },
    {
     "weight": 11,
     "source": "sociedad",
     "target": "homosexualidad",
-    "id": 1994
+    "id": 2036
    },
    {
     "weight": 7,
     "source": "sociedad",
     "target": "huelga",
-    "id": 1995
+    "id": 2037
    },
    {
     "weight": 5,
     "source": "sociedad",
     "target": "Israel",
-    "id": 1996
+    "id": 2038
    },
    {
     "weight": 8,
     "source": "sociedad",
     "target": "Japon",
-    "id": 1997
+    "id": 2039
    },
    {
     "weight": 21,
     "source": "sociedad",
     "target": "justicia",
-    "id": 1998
+    "id": 2040
    },
    {
     "weight": 7,
     "source": "sociedad",
     "target": "manifestaciones",
-    "id": 1999
-   },
-   {
-    "weight": 16,
-    "source": "sociedad",
-    "target": "mujeres",
-    "id": 2000
+    "id": 2041
    },
    {
     "weight": 7,
     "source": "sociedad",
     "target": "musica",
-    "id": 2001
+    "id": 2042
    },
    {
     "weight": 2,
     "source": "sociedad",
     "target": "NASA",
-    "id": 2002
+    "id": 2043
    },
    {
     "weight": 10,
     "source": "sociedad",
     "target": "paro",
-    "id": 2003
+    "id": 2044
    },
    {
     "weight": 9,
     "source": "sociedad",
     "target": "periodismo",
-    "id": 2004
+    "id": 2045
    },
    {
     "weight": 6,
     "source": "sociedad",
     "target": "recortes",
-    "id": 2005
+    "id": 2046
    },
    {
     "weight": 4,
     "source": "sociedad",
     "target": "RTVE",
-    "id": 2006
+    "id": 2047
    },
    {
     "weight": 3,
     "source": "sociedad",
     "target": "Rusia",
-    "id": 2007
+    "id": 2048
    },
    {
     "weight": 4,
     "source": "sociedad",
     "target": "salarios",
-    "id": 2008
+    "id": 2049
    },
    {
-    "weight": 28,
+    "weight": 29,
     "source": "sociedad",
     "target": "salud",
-    "id": 2009
+    "id": 2050
    },
    {
     "weight": 6,
     "source": "sociedad",
     "target": "seguridad",
-    "id": 2010
+    "id": 2051
    },
    {
     "weight": 4,
     "source": "sociedad",
     "target": "software libre",
-    "id": 2011
+    "id": 2052
    },
    {
     "weight": 15,
     "source": "sociedad",
     "target": "tecnologia",
-    "id": 2012
+    "id": 2053
    },
    {
     "weight": 15,
     "source": "sociedad",
     "target": "television",
-    "id": 2013
+    "id": 2054
    },
    {
     "weight": 7,
     "source": "sociedad",
     "target": "terrorismo",
-    "id": 2014
+    "id": 2055
    },
    {
     "weight": 2,
     "source": "sociedad",
     "target": "UE",
-    "id": 2015
+    "id": 2056
    },
    {
     "weight": 22,
     "source": "sociedad",
     "target": "vivienda",
-    "id": 2016
-   },
-   {
-    "weight": 4,
-    "source": "mujeres",
-    "target": "accidentes",
-    "id": 2017
-   },
-   {
-    "weight": 6,
-    "source": "mujeres",
-    "target": "Barcelona",
-    "id": 2018
-   },
-   {
-    "weight": 8,
-    "source": "mujeres",
-    "target": "B\u00e1rcenas",
-    "id": 2019
-   },
-   {
-    "weight": 6,
-    "source": "mujeres",
-    "target": "coches",
-    "id": 2020
-   },
-   {
-    "weight": 3,
-    "source": "mujeres",
-    "target": "cultura",
-    "id": 2021
-   },
-   {
-    "weight": 1,
-    "source": "mujeres",
-    "target": "curiosidades",
-    "id": 2022
-   },
-   {
-    "weight": 38,
-    "source": "mujeres",
-    "target": "derechos",
-    "id": 2023
-   },
-   {
-    "weight": 8,
-    "source": "mujeres",
-    "target": "detenidos",
-    "id": 2024
-   },
-   {
-    "weight": 4,
-    "source": "mujeres",
-    "target": "empresas",
-    "id": 2025
-   },
-   {
-    "weight": 9,
-    "source": "mujeres",
-    "target": "Francia",
-    "id": 2026
-   },
-   {
-    "weight": 3,
-    "source": "mujeres",
-    "target": "futbol",
-    "id": 2027
-   },
-   {
-    "weight": 5,
-    "source": "mujeres",
-    "target": "guerra",
-    "id": 2028
-   },
-   {
-    "weight": 5,
-    "source": "mujeres",
-    "target": "homosexualidad",
-    "id": 2029
-   },
-   {
-    "weight": 4,
-    "source": "mujeres",
-    "target": "huelga",
-    "id": 2030
-   },
-   {
-    "weight": 9,
-    "source": "mujeres",
-    "target": "Israel",
-    "id": 2031
-   },
-   {
-    "weight": 1,
-    "source": "mujeres",
-    "target": "Japon",
-    "id": 2032
-   },
-   {
-    "weight": 6,
-    "source": "mujeres",
-    "target": "justicia",
-    "id": 2033
-   },
-   {
-    "weight": 6,
-    "source": "mujeres",
-    "target": "manifestaciones",
-    "id": 2034
-   },
-   {
-    "weight": 3,
-    "source": "mujeres",
-    "target": "musica",
-    "id": 2035
-   },
-   {
-    "weight": 2,
-    "source": "mujeres",
-    "target": "NASA",
-    "id": 2036
-   },
-   {
-    "weight": 3,
-    "source": "mujeres",
-    "target": "paro",
-    "id": 2037
-   },
-   {
-    "weight": 1,
-    "source": "mujeres",
-    "target": "periodismo",
-    "id": 2038
-   },
-   {
-    "weight": 1,
-    "source": "mujeres",
-    "target": "recortes",
-    "id": 2039
-   },
-   {
-    "weight": 2,
-    "source": "mujeres",
-    "target": "RTVE",
-    "id": 2040
-   },
-   {
-    "weight": 6,
-    "source": "mujeres",
-    "target": "Rusia",
-    "id": 2041
-   },
-   {
-    "weight": 7,
-    "source": "mujeres",
-    "target": "salarios",
-    "id": 2042
-   },
-   {
-    "weight": 9,
-    "source": "mujeres",
-    "target": "salud",
-    "id": 2043
-   },
-   {
-    "weight": 5,
-    "source": "mujeres",
-    "target": "seguridad",
-    "id": 2044
-   },
-   {
-    "weight": 2,
-    "source": "mujeres",
-    "target": "software libre",
-    "id": 2045
-   },
-   {
-    "weight": 3,
-    "source": "mujeres",
-    "target": "tecnologia",
-    "id": 2046
-   },
-   {
-    "weight": 5,
-    "source": "mujeres",
-    "target": "television",
-    "id": 2047
-   },
-   {
-    "weight": 1,
-    "source": "mujeres",
-    "target": "terrorismo",
-    "id": 2048
-   },
-   {
-    "weight": 2,
-    "source": "mujeres",
-    "target": "vivienda",
-    "id": 2049
-   },
-   {
-    "weight": 1,
-    "source": "guerra",
-    "target": "accidentes",
-    "id": 2050
-   },
-   {
-    "weight": 2,
-    "source": "guerra",
-    "target": "Aguirre",
-    "id": 2051
-   },
-   {
-    "weight": 3,
-    "source": "guerra",
-    "target": "Barcelona",
-    "id": 2052
-   },
-   {
-    "weight": 1,
-    "source": "guerra",
-    "target": "B\u00e1rcenas",
-    "id": 2053
-   },
-   {
-    "weight": 1,
-    "source": "guerra",
-    "target": "censura",
-    "id": 2054
-   },
-   {
-    "weight": 1,
-    "source": "guerra",
-    "target": "coches",
-    "id": 2055
-   },
-   {
-    "weight": 3,
-    "source": "guerra",
-    "target": "cultura",
-    "id": 2056
-   },
-   {
-    "weight": 6,
-    "source": "guerra",
-    "target": "curiosidades",
     "id": 2057
    },
    {
-    "weight": 4,
+    "weight": 1,
     "source": "guerra",
-    "target": "derechos",
+    "target": "accidentes",
     "id": 2058
    },
    {
     "weight": 2,
     "source": "guerra",
-    "target": "empresas",
+    "target": "Aguirre",
     "id": 2059
+   },
+   {
+    "weight": 11,
+    "source": "guerra",
+    "target": "aviones",
+    "id": 2060
+   },
+   {
+    "weight": 3,
+    "source": "guerra",
+    "target": "Barcelona",
+    "id": 2061
    },
    {
     "weight": 1,
     "source": "guerra",
-    "target": "energia",
-    "id": 2060
-   },
-   {
-    "weight": 15,
-    "source": "guerra",
-    "target": "Francia",
-    "id": 2061
-   },
-   {
-    "weight": 2,
-    "source": "guerra",
-    "target": "futbol",
+    "target": "censura",
     "id": 2062
    },
    {
     "weight": 1,
     "source": "guerra",
-    "target": "homosexualidad",
+    "target": "coches",
     "id": 2063
-   },
-   {
-    "weight": 85,
-    "source": "guerra",
-    "target": "Israel",
-    "id": 2064
-   },
-   {
-    "weight": 13,
-    "source": "guerra",
-    "target": "Japon",
-    "id": 2065
-   },
-   {
-    "weight": 2,
-    "source": "guerra",
-    "target": "justicia",
-    "id": 2066
    },
    {
     "weight": 3,
     "source": "guerra",
-    "target": "manifestaciones",
+    "target": "cultura",
+    "id": 2064
+   },
+   {
+    "weight": 6,
+    "source": "guerra",
+    "target": "curiosidades",
+    "id": 2065
+   },
+   {
+    "weight": 4,
+    "source": "guerra",
+    "target": "derechos",
+    "id": 2066
+   },
+   {
+    "weight": 2,
+    "source": "guerra",
+    "target": "empresas",
     "id": 2067
    },
    {
     "weight": 1,
     "source": "guerra",
-    "target": "musica",
+    "target": "energia",
     "id": 2068
    },
    {
-    "weight": 1,
+    "weight": 15,
     "source": "guerra",
-    "target": "NASA",
+    "target": "Francia",
     "id": 2069
    },
    {
-    "weight": 14,
+    "weight": 2,
     "source": "guerra",
-    "target": "periodismo",
+    "target": "futbol",
     "id": 2070
    },
    {
     "weight": 1,
     "source": "guerra",
-    "target": "RTVE",
+    "target": "homosexualidad",
     "id": 2071
    },
    {
-    "weight": 53,
+    "weight": 85,
     "source": "guerra",
-    "target": "Rusia",
+    "target": "Israel",
     "id": 2072
    },
    {
-    "weight": 1,
+    "weight": 13,
     "source": "guerra",
-    "target": "salarios",
+    "target": "Japon",
     "id": 2073
    },
    {
     "weight": 2,
     "source": "guerra",
-    "target": "salud",
+    "target": "justicia",
     "id": 2074
    },
    {
-    "weight": 2,
+    "weight": 3,
     "source": "guerra",
-    "target": "seguridad",
+    "target": "manifestaciones",
     "id": 2075
    },
    {
     "weight": 1,
     "source": "guerra",
-    "target": "software libre",
+    "target": "musica",
     "id": 2076
    },
    {
     "weight": 1,
     "source": "guerra",
-    "target": "tecnologia",
+    "target": "NASA",
     "id": 2077
+   },
+   {
+    "weight": 14,
+    "source": "guerra",
+    "target": "periodismo",
+    "id": 2078
+   },
+   {
+    "weight": 1,
+    "source": "guerra",
+    "target": "RTVE",
+    "id": 2079
+   },
+   {
+    "weight": 54,
+    "source": "guerra",
+    "target": "Rusia",
+    "id": 2080
+   },
+   {
+    "weight": 1,
+    "source": "guerra",
+    "target": "salarios",
+    "id": 2081
+   },
+   {
+    "weight": 2,
+    "source": "guerra",
+    "target": "salud",
+    "id": 2082
+   },
+   {
+    "weight": 2,
+    "source": "guerra",
+    "target": "seguridad",
+    "id": 2083
+   },
+   {
+    "weight": 1,
+    "source": "guerra",
+    "target": "software libre",
+    "id": 2084
+   },
+   {
+    "weight": 1,
+    "source": "guerra",
+    "target": "tecnologia",
+    "id": 2085
    },
    {
     "weight": 4,
     "source": "guerra",
     "target": "television",
-    "id": 2078
+    "id": 2086
    },
    {
     "weight": 29,
     "source": "guerra",
     "target": "terrorismo",
-    "id": 2079
+    "id": 2087
    },
    {
     "weight": 3,
     "source": "guerra",
     "target": "UE",
-    "id": 2080
+    "id": 2088
    },
    {
     "weight": 5,
     "source": "guerra",
     "target": "Zapatero",
-    "id": 2081
+    "id": 2089
+   },
+   {
+    "weight": 23,
+    "source": "Podemos",
+    "target": "Aguirre",
+    "id": 2090
+   },
+   {
+    "weight": 3,
+    "source": "Podemos",
+    "target": "Barcelona",
+    "id": 2091
+   },
+   {
+    "weight": 8,
+    "source": "Podemos",
+    "target": "censura",
+    "id": 2092
+   },
+   {
+    "weight": 1,
+    "source": "Podemos",
+    "target": "coches",
+    "id": 2093
+   },
+   {
+    "weight": 2,
+    "source": "Podemos",
+    "target": "derechos",
+    "id": 2094
+   },
+   {
+    "weight": 1,
+    "source": "Podemos",
+    "target": "empresas",
+    "id": 2095
+   },
+   {
+    "weight": 3,
+    "source": "Podemos",
+    "target": "energia",
+    "id": 2096
+   },
+   {
+    "weight": 27,
+    "source": "Podemos",
+    "target": "ETA",
+    "id": 2097
+   },
+   {
+    "weight": 1,
+    "source": "Podemos",
+    "target": "Francia",
+    "id": 2098
+   },
+   {
+    "weight": 1,
+    "source": "Podemos",
+    "target": "futbol",
+    "id": 2099
+   },
+   {
+    "weight": 2,
+    "source": "Podemos",
+    "target": "homosexualidad",
+    "id": 2100
+   },
+   {
+    "weight": 1,
+    "source": "Podemos",
+    "target": "huelga",
+    "id": 2101
+   },
+   {
+    "weight": 2,
+    "source": "Podemos",
+    "target": "Israel",
+    "id": 2102
+   },
+   {
+    "weight": 6,
+    "source": "Podemos",
+    "target": "justicia",
+    "id": 2103
+   },
+   {
+    "weight": 3,
+    "source": "Podemos",
+    "target": "manifestaciones",
+    "id": 2104
+   },
+   {
+    "weight": 1,
+    "source": "Podemos",
+    "target": "paro",
+    "id": 2105
+   },
+   {
+    "weight": 12,
+    "source": "Podemos",
+    "target": "periodismo",
+    "id": 2106
+   },
+   {
+    "weight": 23,
+    "source": "Podemos",
+    "target": "RTVE",
+    "id": 2107
+   },
+   {
+    "weight": 6,
+    "source": "Podemos",
+    "target": "salarios",
+    "id": 2108
+   },
+   {
+    "weight": 2,
+    "source": "Podemos",
+    "target": "salud",
+    "id": 2109
+   },
+   {
+    "weight": 4,
+    "source": "Podemos",
+    "target": "television",
+    "id": 2110
+   },
+   {
+    "weight": 3,
+    "source": "Podemos",
+    "target": "terrorismo",
+    "id": 2111
+   },
+   {
+    "weight": 2,
+    "source": "Podemos",
+    "target": "vivienda",
+    "id": 2112
+   },
+   {
+    "weight": 2,
+    "source": "Podemos",
+    "target": "Zapatero",
+    "id": 2113
    },
    {
     "weight": 2,
     "source": "ETA",
     "target": "accidentes",
-    "id": 2082
+    "id": 2114
    },
    {
     "weight": 6,
     "source": "ETA",
     "target": "Aguirre",
-    "id": 2083
+    "id": 2115
+   },
+   {
+    "weight": 1,
+    "source": "ETA",
+    "target": "aviones",
+    "id": 2116
    },
    {
     "weight": 3,
     "source": "ETA",
     "target": "Barcelona",
-    "id": 2084
-   },
-   {
-    "weight": 2,
-    "source": "ETA",
-    "target": "B\u00e1rcenas",
-    "id": 2085
+    "id": 2117
    },
    {
     "weight": 7,
     "source": "ETA",
     "target": "censura",
-    "id": 2086
+    "id": 2118
    },
    {
     "weight": 4,
     "source": "ETA",
     "target": "coches",
-    "id": 2087
+    "id": 2119
    },
    {
     "weight": 1,
     "source": "ETA",
     "target": "cultura",
-    "id": 2088
+    "id": 2120
    },
    {
     "weight": 1,
     "source": "ETA",
     "target": "curiosidades",
-    "id": 2089
+    "id": 2121
    },
    {
     "weight": 2,
     "source": "ETA",
     "target": "derechos",
-    "id": 2090
+    "id": 2122
    },
    {
     "weight": 59,
     "source": "ETA",
     "target": "detenidos",
-    "id": 2091
+    "id": 2123
    },
    {
     "weight": 1,
     "source": "ETA",
     "target": "empresas",
-    "id": 2092
+    "id": 2124
    },
    {
     "weight": 69,
     "source": "ETA",
     "target": "Francia",
-    "id": 2093
+    "id": 2125
    },
    {
     "weight": 2,
     "source": "ETA",
     "target": "futbol",
-    "id": 2094
+    "id": 2126
    },
    {
     "weight": 1,
     "source": "ETA",
     "target": "homosexualidad",
-    "id": 2095
+    "id": 2127
    },
    {
     "weight": 2,
     "source": "ETA",
     "target": "huelga",
-    "id": 2096
+    "id": 2128
    },
    {
     "weight": 6,
     "source": "ETA",
     "target": "justicia",
-    "id": 2097
+    "id": 2129
    },
    {
     "weight": 23,
     "source": "ETA",
     "target": "manifestaciones",
-    "id": 2098
+    "id": 2130
    },
    {
     "weight": 10,
     "source": "ETA",
     "target": "periodismo",
-    "id": 2099
-   },
-   {
-    "weight": 27,
-    "source": "ETA",
-    "target": "Podemos",
-    "id": 2100
+    "id": 2131
    },
    {
     "weight": 4,
     "source": "ETA",
     "target": "RTVE",
-    "id": 2101
+    "id": 2132
    },
    {
     "weight": 4,
     "source": "ETA",
     "target": "seguridad",
-    "id": 2102
+    "id": 2133
    },
    {
     "weight": 216,
     "source": "ETA",
     "target": "terrorismo",
-    "id": 2103
+    "id": 2134
    },
    {
     "weight": 1,
     "source": "ETA",
     "target": "vivienda",
-    "id": 2104
+    "id": 2135
    },
    {
     "weight": 39,
     "source": "ETA",
     "target": "Zapatero",
-    "id": 2105
+    "id": 2136
    },
    {
     "weight": 12,
     "source": "Francia",
     "target": "accidentes",
-    "id": 2106
+    "id": 2137
+   },
+   {
+    "weight": 6,
+    "source": "Francia",
+    "target": "aviones",
+    "id": 2138
    },
    {
     "weight": 1,
     "source": "Francia",
-    "target": "B\u00e1rcenas",
-    "id": 2107
+    "target": "Barcelona",
+    "id": 2139
    },
    {
     "weight": 5,
     "source": "Francia",
     "target": "censura",
-    "id": 2108
+    "id": 2140
    },
    {
-    "weight": 8,
+    "weight": 9,
     "source": "Francia",
     "target": "coches",
-    "id": 2109
+    "id": 2141
    },
    {
     "weight": 7,
     "source": "Francia",
     "target": "cultura",
-    "id": 2110
+    "id": 2142
    },
    {
     "weight": 1,
     "source": "Francia",
     "target": "curiosidades",
-    "id": 2111
+    "id": 2143
    },
    {
     "weight": 10,
     "source": "Francia",
     "target": "derechos",
-    "id": 2112
+    "id": 2144
    },
    {
     "weight": 31,
     "source": "Francia",
     "target": "detenidos",
-    "id": 2113
+    "id": 2145
    },
    {
     "weight": 3,
     "source": "Francia",
     "target": "empresas",
-    "id": 2114
+    "id": 2146
    },
    {
     "weight": 7,
     "source": "Francia",
     "target": "energia",
-    "id": 2115
+    "id": 2147
    },
    {
     "weight": 9,
     "source": "Francia",
     "target": "futbol",
-    "id": 2116
+    "id": 2148
    },
    {
     "weight": 13,
     "source": "Francia",
     "target": "homosexualidad",
-    "id": 2117
+    "id": 2149
    },
    {
     "weight": 35,
     "source": "Francia",
     "target": "huelga",
-    "id": 2118
+    "id": 2150
    },
    {
     "weight": 6,
     "source": "Francia",
     "target": "Israel",
-    "id": 2119
+    "id": 2151
    },
    {
     "weight": 3,
     "source": "Francia",
     "target": "Japon",
-    "id": 2120
+    "id": 2152
    },
    {
     "weight": 8,
     "source": "Francia",
     "target": "justicia",
-    "id": 2121
+    "id": 2153
    },
    {
     "weight": 9,
     "source": "Francia",
     "target": "manifestaciones",
-    "id": 2122
+    "id": 2154
    },
    {
     "weight": 3,
     "source": "Francia",
     "target": "microsoft",
-    "id": 2123
+    "id": 2155
    },
    {
     "weight": 2,
     "source": "Francia",
     "target": "musica",
-    "id": 2124
+    "id": 2156
    },
    {
     "weight": 7,
     "source": "Francia",
     "target": "paro",
-    "id": 2125
+    "id": 2157
    },
    {
     "weight": 9,
     "source": "Francia",
     "target": "periodismo",
-    "id": 2126
-   },
-   {
-    "weight": 1,
-    "source": "Francia",
-    "target": "Podemos",
-    "id": 2127
+    "id": 2158
    },
    {
     "weight": 4,
     "source": "Francia",
     "target": "recortes",
-    "id": 2128
+    "id": 2159
    },
    {
     "weight": 2,
     "source": "Francia",
     "target": "RTVE",
-    "id": 2129
+    "id": 2160
    },
    {
     "weight": 5,
     "source": "Francia",
     "target": "Rusia",
-    "id": 2130
+    "id": 2161
    },
    {
     "weight": 7,
     "source": "Francia",
     "target": "salarios",
-    "id": 2131
+    "id": 2162
    },
    {
-    "weight": 4,
+    "weight": 5,
     "source": "Francia",
     "target": "salud",
-    "id": 2132
+    "id": 2163
    },
    {
     "weight": 4,
     "source": "Francia",
     "target": "seguridad",
-    "id": 2133
+    "id": 2164
    },
    {
     "weight": 5,
     "source": "Francia",
     "target": "software libre",
-    "id": 2134
+    "id": 2165
    },
    {
     "weight": 4,
     "source": "Francia",
     "target": "tecnologia",
-    "id": 2135
+    "id": 2166
    },
    {
     "weight": 8,
     "source": "Francia",
     "target": "television",
-    "id": 2136
+    "id": 2167
    },
    {
     "weight": 29,
     "source": "Francia",
     "target": "terrorismo",
-    "id": 2137
+    "id": 2168
    },
    {
     "weight": 21,
     "source": "Francia",
     "target": "UE",
-    "id": 2138
+    "id": 2169
    },
    {
     "weight": 6,
     "source": "Francia",
     "target": "vivienda",
-    "id": 2139
+    "id": 2170
    },
    {
     "weight": 6,
     "source": "Francia",
     "target": "Zapatero",
-    "id": 2140
-   },
-   {
-    "weight": 23,
-    "source": "Podemos",
-    "target": "Aguirre",
-    "id": 2141
-   },
-   {
-    "weight": 3,
-    "source": "Podemos",
-    "target": "Barcelona",
-    "id": 2142
-   },
-   {
-    "weight": 8,
-    "source": "Podemos",
-    "target": "censura",
-    "id": 2143
-   },
-   {
-    "weight": 1,
-    "source": "Podemos",
-    "target": "coches",
-    "id": 2144
-   },
-   {
-    "weight": 2,
-    "source": "Podemos",
-    "target": "derechos",
-    "id": 2145
-   },
-   {
-    "weight": 1,
-    "source": "Podemos",
-    "target": "empresas",
-    "id": 2146
-   },
-   {
-    "weight": 3,
-    "source": "Podemos",
-    "target": "energia",
-    "id": 2147
-   },
-   {
-    "weight": 1,
-    "source": "Podemos",
-    "target": "futbol",
-    "id": 2148
-   },
-   {
-    "weight": 2,
-    "source": "Podemos",
-    "target": "homosexualidad",
-    "id": 2149
-   },
-   {
-    "weight": 1,
-    "source": "Podemos",
-    "target": "huelga",
-    "id": 2150
-   },
-   {
-    "weight": 2,
-    "source": "Podemos",
-    "target": "Israel",
-    "id": 2151
-   },
-   {
-    "weight": 6,
-    "source": "Podemos",
-    "target": "justicia",
-    "id": 2152
-   },
-   {
-    "weight": 3,
-    "source": "Podemos",
-    "target": "manifestaciones",
-    "id": 2153
-   },
-   {
-    "weight": 1,
-    "source": "Podemos",
-    "target": "paro",
-    "id": 2154
-   },
-   {
-    "weight": 12,
-    "source": "Podemos",
-    "target": "periodismo",
-    "id": 2155
-   },
-   {
-    "weight": 23,
-    "source": "Podemos",
-    "target": "RTVE",
-    "id": 2156
-   },
-   {
-    "weight": 6,
-    "source": "Podemos",
-    "target": "salarios",
-    "id": 2157
-   },
-   {
-    "weight": 2,
-    "source": "Podemos",
-    "target": "salud",
-    "id": 2158
-   },
-   {
-    "weight": 4,
-    "source": "Podemos",
-    "target": "television",
-    "id": 2159
-   },
-   {
-    "weight": 3,
-    "source": "Podemos",
-    "target": "terrorismo",
-    "id": 2160
-   },
-   {
-    "weight": 2,
-    "source": "Podemos",
-    "target": "vivienda",
-    "id": 2161
-   },
-   {
-    "weight": 2,
-    "source": "Podemos",
-    "target": "Zapatero",
-    "id": 2162
+    "id": 2171
    },
    {
     "weight": 12,
     "source": "Barcelona",
     "target": "accidentes",
-    "id": 2163
+    "id": 2172
    },
    {
-    "weight": 1,
+    "weight": 4,
     "source": "Barcelona",
-    "target": "B\u00e1rcenas",
-    "id": 2164
+    "target": "aviones",
+    "id": 2173
    },
    {
     "weight": 3,
     "source": "Barcelona",
     "target": "censura",
-    "id": 2165
+    "id": 2174
    },
    {
-    "weight": 12,
+    "weight": 13,
     "source": "Barcelona",
     "target": "coches",
-    "id": 2166
+    "id": 2175
    },
    {
     "weight": 3,
     "source": "Barcelona",
     "target": "cultura",
-    "id": 2167
+    "id": 2176
    },
    {
     "weight": 2,
     "source": "Barcelona",
     "target": "curiosidades",
-    "id": 2168
+    "id": 2177
    },
    {
     "weight": 2,
     "source": "Barcelona",
     "target": "derechos",
-    "id": 2169
+    "id": 2178
    },
    {
     "weight": 20,
     "source": "Barcelona",
     "target": "detenidos",
-    "id": 2170
+    "id": 2179
    },
    {
     "weight": 1,
     "source": "Barcelona",
     "target": "energia",
-    "id": 2171
+    "id": 2180
    },
    {
     "weight": 27,
     "source": "Barcelona",
     "target": "futbol",
-    "id": 2172
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "homosexualidad",
-    "id": 2173
-   },
-   {
-    "weight": 24,
-    "source": "Barcelona",
-    "target": "huelga",
-    "id": 2174
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "Israel",
-    "id": 2175
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "Japon",
-    "id": 2176
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "justicia",
-    "id": 2177
-   },
-   {
-    "weight": 28,
-    "source": "Barcelona",
-    "target": "manifestaciones",
-    "id": 2178
-   },
-   {
-    "weight": 4,
-    "source": "Barcelona",
-    "target": "microsoft",
-    "id": 2179
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "musica",
-    "id": 2180
-   },
-   {
-    "weight": 2,
-    "source": "Barcelona",
-    "target": "paro",
     "id": 2181
    },
    {
     "weight": 5,
     "source": "Barcelona",
-    "target": "periodismo",
+    "target": "homosexualidad",
     "id": 2182
    },
    {
-    "weight": 9,
+    "weight": 24,
     "source": "Barcelona",
-    "target": "recortes",
+    "target": "huelga",
     "id": 2183
    },
    {
     "weight": 1,
     "source": "Barcelona",
-    "target": "RTVE",
+    "target": "Israel",
     "id": 2184
    },
    {
     "weight": 1,
     "source": "Barcelona",
-    "target": "Rusia",
+    "target": "Japon",
     "id": 2185
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "justicia",
+    "id": 2186
+   },
+   {
+    "weight": 28,
+    "source": "Barcelona",
+    "target": "manifestaciones",
+    "id": 2187
    },
    {
     "weight": 4,
     "source": "Barcelona",
-    "target": "salarios",
-    "id": 2186
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "salud",
-    "id": 2187
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "seguridad",
+    "target": "microsoft",
     "id": 2188
    },
    {
     "weight": 3,
     "source": "Barcelona",
-    "target": "software libre",
+    "target": "musica",
     "id": 2189
+   },
+   {
+    "weight": 2,
+    "source": "Barcelona",
+    "target": "paro",
+    "id": 2190
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "periodismo",
+    "id": 2191
+   },
+   {
+    "weight": 9,
+    "source": "Barcelona",
+    "target": "recortes",
+    "id": 2192
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "RTVE",
+    "id": 2193
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "Rusia",
+    "id": 2194
+   },
+   {
+    "weight": 4,
+    "source": "Barcelona",
+    "target": "salarios",
+    "id": 2195
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "salud",
+    "id": 2196
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "seguridad",
+    "id": 2197
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "software libre",
+    "id": 2198
    },
    {
     "weight": 1,
     "source": "Barcelona",
     "target": "tecnologia",
-    "id": 2190
+    "id": 2199
    },
    {
     "weight": 2,
     "source": "Barcelona",
     "target": "television",
-    "id": 2191
+    "id": 2200
    },
    {
     "weight": 8,
     "source": "Barcelona",
     "target": "terrorismo",
-    "id": 2192
+    "id": 2201
    },
    {
     "weight": 2,
     "source": "Barcelona",
     "target": "UE",
-    "id": 2193
+    "id": 2202
    },
    {
     "weight": 9,
     "source": "Barcelona",
     "target": "vivienda",
-    "id": 2194
+    "id": 2203
    },
    {
     "weight": 10,
     "source": "Japon",
     "target": "accidentes",
-    "id": 2195
-   },
-   {
-    "weight": 1,
-    "source": "Japon",
-    "target": "censura",
-    "id": 2196
+    "id": 2204
    },
    {
     "weight": 7,
     "source": "Japon",
-    "target": "coches",
-    "id": 2197
-   },
-   {
-    "weight": 13,
-    "source": "Japon",
-    "target": "cultura",
-    "id": 2198
-   },
-   {
-    "weight": 17,
-    "source": "Japon",
-    "target": "curiosidades",
-    "id": 2199
-   },
-   {
-    "weight": 3,
-    "source": "Japon",
-    "target": "derechos",
-    "id": 2200
-   },
-   {
-    "weight": 2,
-    "source": "Japon",
-    "target": "detenidos",
-    "id": 2201
-   },
-   {
-    "weight": 12,
-    "source": "Japon",
-    "target": "empresas",
-    "id": 2202
-   },
-   {
-    "weight": 16,
-    "source": "Japon",
-    "target": "energia",
-    "id": 2203
-   },
-   {
-    "weight": 1,
-    "source": "Japon",
-    "target": "futbol",
-    "id": 2204
-   },
-   {
-    "weight": 3,
-    "source": "Japon",
-    "target": "homosexualidad",
+    "target": "aviones",
     "id": 2205
    },
    {
     "weight": 1,
     "source": "Japon",
-    "target": "huelga",
+    "target": "censura",
     "id": 2206
+   },
+   {
+    "weight": 7,
+    "source": "Japon",
+    "target": "coches",
+    "id": 2207
+   },
+   {
+    "weight": 13,
+    "source": "Japon",
+    "target": "cultura",
+    "id": 2208
+   },
+   {
+    "weight": 17,
+    "source": "Japon",
+    "target": "curiosidades",
+    "id": 2209
+   },
+   {
+    "weight": 3,
+    "source": "Japon",
+    "target": "derechos",
+    "id": 2210
+   },
+   {
+    "weight": 2,
+    "source": "Japon",
+    "target": "detenidos",
+    "id": 2211
+   },
+   {
+    "weight": 12,
+    "source": "Japon",
+    "target": "empresas",
+    "id": 2212
+   },
+   {
+    "weight": 16,
+    "source": "Japon",
+    "target": "energia",
+    "id": 2213
+   },
+   {
+    "weight": 1,
+    "source": "Japon",
+    "target": "futbol",
+    "id": 2214
+   },
+   {
+    "weight": 3,
+    "source": "Japon",
+    "target": "homosexualidad",
+    "id": 2215
+   },
+   {
+    "weight": 1,
+    "source": "Japon",
+    "target": "huelga",
+    "id": 2216
    },
    {
     "weight": 1,
     "source": "Japon",
     "target": "justicia",
-    "id": 2207
+    "id": 2217
    },
    {
     "weight": 3,
     "source": "Japon",
     "target": "manifestaciones",
-    "id": 2208
+    "id": 2218
    },
    {
     "weight": 1,
     "source": "Japon",
     "target": "microsoft",
-    "id": 2209
-   },
-   {
-    "weight": 2,
-    "source": "Japon",
-    "target": "musica",
-    "id": 2210
-   },
-   {
-    "weight": 3,
-    "source": "Japon",
-    "target": "NASA",
-    "id": 2211
-   },
-   {
-    "weight": 3,
-    "source": "Japon",
-    "target": "paro",
-    "id": 2212
-   },
-   {
-    "weight": 3,
-    "source": "Japon",
-    "target": "periodismo",
-    "id": 2213
-   },
-   {
-    "weight": 6,
-    "source": "Japon",
-    "target": "Rusia",
-    "id": 2214
-   },
-   {
-    "weight": 4,
-    "source": "Japon",
-    "target": "salarios",
-    "id": 2215
-   },
-   {
-    "weight": 8,
-    "source": "Japon",
-    "target": "salud",
-    "id": 2216
-   },
-   {
-    "weight": 7,
-    "source": "Japon",
-    "target": "seguridad",
-    "id": 2217
-   },
-   {
-    "weight": 11,
-    "source": "Japon",
-    "target": "tecnologia",
-    "id": 2218
-   },
-   {
-    "weight": 6,
-    "source": "Japon",
-    "target": "television",
     "id": 2219
    },
    {
     "weight": 2,
     "source": "Japon",
-    "target": "terrorismo",
+    "target": "musica",
     "id": 2220
    },
    {
-    "weight": 9,
+    "weight": 3,
     "source": "Japon",
-    "target": "UE",
+    "target": "NASA",
     "id": 2221
    },
    {
     "weight": 3,
     "source": "Japon",
-    "target": "vivienda",
+    "target": "paro",
     "id": 2222
+   },
+   {
+    "weight": 3,
+    "source": "Japon",
+    "target": "periodismo",
+    "id": 2223
+   },
+   {
+    "weight": 6,
+    "source": "Japon",
+    "target": "Rusia",
+    "id": 2224
+   },
+   {
+    "weight": 4,
+    "source": "Japon",
+    "target": "salarios",
+    "id": 2225
+   },
+   {
+    "weight": 8,
+    "source": "Japon",
+    "target": "salud",
+    "id": 2226
+   },
+   {
+    "weight": 7,
+    "source": "Japon",
+    "target": "seguridad",
+    "id": 2227
+   },
+   {
+    "weight": 11,
+    "source": "Japon",
+    "target": "tecnologia",
+    "id": 2228
+   },
+   {
+    "weight": 6,
+    "source": "Japon",
+    "target": "television",
+    "id": 2229
+   },
+   {
+    "weight": 2,
+    "source": "Japon",
+    "target": "terrorismo",
+    "id": 2230
+   },
+   {
+    "weight": 9,
+    "source": "Japon",
+    "target": "UE",
+    "id": 2231
+   },
+   {
+    "weight": 3,
+    "source": "Japon",
+    "target": "vivienda",
+    "id": 2232
    },
    {
     "weight": 1,
     "source": "salud",
     "target": "accidentes",
-    "id": 2223
+    "id": 2233
    },
    {
     "weight": 2,
     "source": "salud",
     "target": "Aguirre",
-    "id": 2224
+    "id": 2234
+   },
+   {
+    "weight": 1,
+    "source": "salud",
+    "target": "aviones",
+    "id": 2235
    },
    {
     "weight": 7,
     "source": "salud",
     "target": "coches",
-    "id": 2225
+    "id": 2236
    },
    {
-    "weight": 5,
+    "weight": 6,
     "source": "salud",
     "target": "cultura",
-    "id": 2226
+    "id": 2237
    },
    {
     "weight": 8,
     "source": "salud",
     "target": "curiosidades",
-    "id": 2227
+    "id": 2238
    },
    {
     "weight": 7,
     "source": "salud",
     "target": "derechos",
-    "id": 2228
+    "id": 2239
    },
    {
     "weight": 7,
     "source": "salud",
     "target": "empresas",
-    "id": 2229
+    "id": 2240
    },
    {
     "weight": 2,
     "source": "salud",
     "target": "energia",
-    "id": 2230
+    "id": 2241
    },
    {
     "weight": 1,
     "source": "salud",
     "target": "huelga",
-    "id": 2231
+    "id": 2242
    },
    {
     "weight": 2,
     "source": "salud",
     "target": "justicia",
-    "id": 2232
+    "id": 2243
    },
    {
     "weight": 3,
     "source": "salud",
     "target": "paro",
-    "id": 2233
+    "id": 2244
    },
    {
     "weight": 20,
     "source": "salud",
     "target": "recortes",
-    "id": 2234
+    "id": 2245
    },
    {
     "weight": 2,
     "source": "salud",
     "target": "RTVE",
-    "id": 2235
+    "id": 2246
    },
    {
     "weight": 3,
     "source": "salud",
     "target": "Rusia",
-    "id": 2236
+    "id": 2247
    },
    {
     "weight": 4,
     "source": "salud",
     "target": "seguridad",
-    "id": 2237
+    "id": 2248
    },
    {
     "weight": 7,
     "source": "salud",
     "target": "tecnologia",
-    "id": 2238
+    "id": 2249
    },
    {
     "weight": 2,
     "source": "salud",
     "target": "television",
-    "id": 2239
+    "id": 2250
    },
    {
     "weight": 5,
     "source": "salud",
     "target": "UE",
-    "id": 2240
+    "id": 2251
    },
    {
     "weight": 1,
     "source": "salud",
     "target": "vivienda",
-    "id": 2241
+    "id": 2252
    },
    {
-    "weight": 5,
+    "weight": 6,
     "source": "television",
     "target": "Aguirre",
-    "id": 2242
+    "id": 2253
    },
    {
     "weight": 1,
     "source": "television",
-    "target": "B\u00e1rcenas",
-    "id": 2243
+    "target": "aviones",
+    "id": 2254
    },
    {
     "weight": 21,
     "source": "television",
     "target": "censura",
-    "id": 2244
+    "id": 2255
    },
    {
     "weight": 13,
     "source": "television",
     "target": "cultura",
-    "id": 2245
+    "id": 2256
    },
    {
     "weight": 4,
     "source": "television",
     "target": "curiosidades",
-    "id": 2246
+    "id": 2257
    },
    {
     "weight": 6,
     "source": "television",
     "target": "derechos",
-    "id": 2247
+    "id": 2258
    },
    {
     "weight": 2,
     "source": "television",
     "target": "empresas",
-    "id": 2248
+    "id": 2259
    },
    {
     "weight": 20,
     "source": "television",
     "target": "futbol",
-    "id": 2249
+    "id": 2260
    },
    {
     "weight": 6,
     "source": "television",
     "target": "homosexualidad",
-    "id": 2250
+    "id": 2261
    },
    {
     "weight": 6,
     "source": "television",
     "target": "huelga",
-    "id": 2251
+    "id": 2262
    },
    {
     "weight": 4,
     "source": "television",
     "target": "Israel",
-    "id": 2252
+    "id": 2263
    },
    {
     "weight": 2,
     "source": "television",
     "target": "justicia",
-    "id": 2253
+    "id": 2264
    },
    {
     "weight": 4,
     "source": "television",
     "target": "manifestaciones",
-    "id": 2254
+    "id": 2265
    },
    {
     "weight": 1,
     "source": "television",
     "target": "microsoft",
-    "id": 2255
+    "id": 2266
    },
    {
     "weight": 7,
     "source": "television",
     "target": "musica",
-    "id": 2256
+    "id": 2267
    },
    {
     "weight": 1,
     "source": "television",
     "target": "paro",
-    "id": 2257
+    "id": 2268
    },
    {
     "weight": 23,
     "source": "television",
     "target": "periodismo",
-    "id": 2258
+    "id": 2269
    },
    {
     "weight": 3,
     "source": "television",
     "target": "recortes",
-    "id": 2259
+    "id": 2270
    },
    {
     "weight": 105,
     "source": "television",
     "target": "RTVE",
-    "id": 2260
+    "id": 2271
    },
    {
     "weight": 2,
     "source": "television",
     "target": "Rusia",
-    "id": 2261
+    "id": 2272
    },
    {
     "weight": 2,
     "source": "television",
     "target": "salarios",
-    "id": 2262
+    "id": 2273
    },
    {
     "weight": 2,
     "source": "television",
     "target": "seguridad",
-    "id": 2263
+    "id": 2274
    },
    {
     "weight": 3,
     "source": "television",
     "target": "software libre",
-    "id": 2264
+    "id": 2275
    },
    {
     "weight": 11,
     "source": "television",
     "target": "tecnologia",
-    "id": 2265
+    "id": 2276
    },
    {
     "weight": 3,
     "source": "television",
     "target": "terrorismo",
-    "id": 2266
+    "id": 2277
    },
    {
     "weight": 1,
     "source": "television",
     "target": "UE",
-    "id": 2267
+    "id": 2278
    },
    {
     "weight": 6,
     "source": "television",
     "target": "Zapatero",
-    "id": 2268
+    "id": 2279
    },
    {
     "weight": 11,
     "source": "musica",
     "target": "censura",
-    "id": 2269
+    "id": 2280
    },
    {
     "weight": 2,
     "source": "musica",
     "target": "coches",
-    "id": 2270
+    "id": 2281
    },
    {
     "weight": 52,
     "source": "musica",
     "target": "cultura",
-    "id": 2271
+    "id": 2282
    },
    {
     "weight": 6,
     "source": "musica",
     "target": "curiosidades",
-    "id": 2272
+    "id": 2283
    },
    {
     "weight": 27,
     "source": "musica",
     "target": "derechos",
-    "id": 2273
+    "id": 2284
    },
    {
     "weight": 3,
     "source": "musica",
     "target": "empresas",
-    "id": 2274
-   },
-   {
-    "weight": 2,
-    "source": "musica",
-    "target": "homosexualidad",
-    "id": 2275
-   },
-   {
-    "weight": 1,
-    "source": "musica",
-    "target": "justicia",
-    "id": 2276
-   },
-   {
-    "weight": 1,
-    "source": "musica",
-    "target": "microsoft",
-    "id": 2277
-   },
-   {
-    "weight": 1,
-    "source": "musica",
-    "target": "periodismo",
-    "id": 2278
-   },
-   {
-    "weight": 6,
-    "source": "musica",
-    "target": "RTVE",
-    "id": 2279
-   },
-   {
-    "weight": 3,
-    "source": "musica",
-    "target": "Rusia",
-    "id": 2280
-   },
-   {
-    "weight": 1,
-    "source": "musica",
-    "target": "salarios",
-    "id": 2281
-   },
-   {
-    "weight": 1,
-    "source": "musica",
-    "target": "seguridad",
-    "id": 2282
-   },
-   {
-    "weight": 5,
-    "source": "musica",
-    "target": "software libre",
-    "id": 2283
-   },
-   {
-    "weight": 3,
-    "source": "musica",
-    "target": "tecnologia",
-    "id": 2284
-   },
-   {
-    "weight": 2,
-    "source": "musica",
-    "target": "terrorismo",
     "id": 2285
    },
    {
     "weight": 2,
     "source": "musica",
-    "target": "UE",
+    "target": "homosexualidad",
     "id": 2286
+   },
+   {
+    "weight": 1,
+    "source": "musica",
+    "target": "justicia",
+    "id": 2287
+   },
+   {
+    "weight": 1,
+    "source": "musica",
+    "target": "microsoft",
+    "id": 2288
+   },
+   {
+    "weight": 1,
+    "source": "musica",
+    "target": "periodismo",
+    "id": 2289
+   },
+   {
+    "weight": 6,
+    "source": "musica",
+    "target": "RTVE",
+    "id": 2290
+   },
+   {
+    "weight": 3,
+    "source": "musica",
+    "target": "Rusia",
+    "id": 2291
+   },
+   {
+    "weight": 1,
+    "source": "musica",
+    "target": "salarios",
+    "id": 2292
+   },
+   {
+    "weight": 1,
+    "source": "musica",
+    "target": "seguridad",
+    "id": 2293
+   },
+   {
+    "weight": 5,
+    "source": "musica",
+    "target": "software libre",
+    "id": 2294
+   },
+   {
+    "weight": 3,
+    "source": "musica",
+    "target": "tecnologia",
+    "id": 2295
+   },
+   {
+    "weight": 2,
+    "source": "musica",
+    "target": "terrorismo",
+    "id": 2296
+   },
+   {
+    "weight": 2,
+    "source": "musica",
+    "target": "UE",
+    "id": 2297
    },
    {
     "weight": 2,
     "source": "energia",
     "target": "accidentes",
-    "id": 2287
+    "id": 2298
+   },
+   {
+    "weight": 2,
+    "source": "energia",
+    "target": "aviones",
+    "id": 2299
    },
    {
     "weight": 1,
     "source": "energia",
     "target": "censura",
-    "id": 2288
+    "id": 2300
    },
    {
     "weight": 6,
     "source": "energia",
     "target": "coches",
-    "id": 2289
+    "id": 2301
    },
    {
     "weight": 2,
     "source": "energia",
     "target": "cultura",
-    "id": 2290
-   },
-   {
-    "weight": 2,
-    "source": "energia",
-    "target": "curiosidades",
-    "id": 2291
-   },
-   {
-    "weight": 1,
-    "source": "energia",
-    "target": "derechos",
-    "id": 2292
-   },
-   {
-    "weight": 9,
-    "source": "energia",
-    "target": "empresas",
-    "id": 2293
-   },
-   {
-    "weight": 1,
-    "source": "energia",
-    "target": "Israel",
-    "id": 2294
-   },
-   {
-    "weight": 3,
-    "source": "energia",
-    "target": "justicia",
-    "id": 2295
-   },
-   {
-    "weight": 3,
-    "source": "energia",
-    "target": "NASA",
-    "id": 2296
-   },
-   {
-    "weight": 1,
-    "source": "energia",
-    "target": "periodismo",
-    "id": 2297
-   },
-   {
-    "weight": 1,
-    "source": "energia",
-    "target": "recortes",
-    "id": 2298
-   },
-   {
-    "weight": 8,
-    "source": "energia",
-    "target": "Rusia",
-    "id": 2299
-   },
-   {
-    "weight": 2,
-    "source": "energia",
-    "target": "seguridad",
-    "id": 2300
-   },
-   {
-    "weight": 34,
-    "source": "energia",
-    "target": "tecnologia",
-    "id": 2301
-   },
-   {
-    "weight": 9,
-    "source": "energia",
-    "target": "UE",
     "id": 2302
    },
    {
     "weight": 2,
     "source": "energia",
-    "target": "vivienda",
+    "target": "curiosidades",
     "id": 2303
+   },
+   {
+    "weight": 1,
+    "source": "energia",
+    "target": "derechos",
+    "id": 2304
+   },
+   {
+    "weight": 9,
+    "source": "energia",
+    "target": "empresas",
+    "id": 2305
+   },
+   {
+    "weight": 1,
+    "source": "energia",
+    "target": "Israel",
+    "id": 2306
+   },
+   {
+    "weight": 3,
+    "source": "energia",
+    "target": "justicia",
+    "id": 2307
+   },
+   {
+    "weight": 3,
+    "source": "energia",
+    "target": "NASA",
+    "id": 2308
+   },
+   {
+    "weight": 1,
+    "source": "energia",
+    "target": "periodismo",
+    "id": 2309
+   },
+   {
+    "weight": 1,
+    "source": "energia",
+    "target": "recortes",
+    "id": 2310
+   },
+   {
+    "weight": 8,
+    "source": "energia",
+    "target": "Rusia",
+    "id": 2311
+   },
+   {
+    "weight": 2,
+    "source": "energia",
+    "target": "seguridad",
+    "id": 2312
+   },
+   {
+    "weight": 34,
+    "source": "energia",
+    "target": "tecnologia",
+    "id": 2313
+   },
+   {
+    "weight": 10,
+    "source": "energia",
+    "target": "UE",
+    "id": 2314
+   },
+   {
+    "weight": 2,
+    "source": "energia",
+    "target": "vivienda",
+    "id": 2315
    },
    {
     "weight": 2,
     "source": "energia",
     "target": "Zapatero",
-    "id": 2304
+    "id": 2316
    },
    {
     "weight": 6,
     "source": "paro",
     "target": "Aguirre",
-    "id": 2305
-   },
-   {
-    "weight": 1,
-    "source": "paro",
-    "target": "B\u00e1rcenas",
-    "id": 2306
+    "id": 2317
    },
    {
     "weight": 1,
     "source": "paro",
     "target": "coches",
-    "id": 2307
+    "id": 2318
    },
    {
     "weight": 1,
     "source": "paro",
     "target": "cultura",
-    "id": 2308
+    "id": 2319
    },
    {
     "weight": 1,
     "source": "paro",
     "target": "curiosidades",
-    "id": 2309
+    "id": 2320
    },
    {
     "weight": 6,
     "source": "paro",
     "target": "derechos",
-    "id": 2310
+    "id": 2321
    },
    {
     "weight": 16,
     "source": "paro",
     "target": "empresas",
-    "id": 2311
+    "id": 2322
    },
    {
     "weight": 3,
     "source": "paro",
     "target": "futbol",
-    "id": 2312
+    "id": 2323
    },
    {
     "weight": 13,
     "source": "paro",
     "target": "huelga",
-    "id": 2313
+    "id": 2324
    },
    {
     "weight": 4,
     "source": "paro",
     "target": "manifestaciones",
-    "id": 2314
+    "id": 2325
    },
    {
     "weight": 1,
     "source": "paro",
     "target": "NASA",
-    "id": 2315
+    "id": 2326
    },
    {
     "weight": 4,
     "source": "paro",
     "target": "periodismo",
-    "id": 2316
+    "id": 2327
    },
    {
     "weight": 25,
     "source": "paro",
     "target": "recortes",
-    "id": 2317
+    "id": 2328
    },
    {
     "weight": 5,
     "source": "paro",
     "target": "RTVE",
-    "id": 2318
+    "id": 2329
    },
    {
     "weight": 18,
     "source": "paro",
     "target": "salarios",
-    "id": 2319
+    "id": 2330
    },
    {
     "weight": 3,
     "source": "paro",
     "target": "seguridad",
-    "id": 2320
+    "id": 2331
    },
    {
     "weight": 2,
     "source": "paro",
     "target": "tecnologia",
-    "id": 2321
+    "id": 2332
    },
    {
     "weight": 18,
     "source": "paro",
     "target": "UE",
-    "id": 2322
+    "id": 2333
    },
    {
     "weight": 9,
     "source": "paro",
     "target": "vivienda",
-    "id": 2323
+    "id": 2334
    },
    {
     "weight": 28,
     "source": "paro",
     "target": "Zapatero",
-    "id": 2324
+    "id": 2335
    },
    {
     "weight": 1,
     "source": "periodismo",
     "target": "accidentes",
-    "id": 2325
+    "id": 2336
    },
    {
     "weight": 3,
     "source": "periodismo",
     "target": "Aguirre",
-    "id": 2326
-   },
-   {
-    "weight": 6,
-    "source": "periodismo",
-    "target": "B\u00e1rcenas",
-    "id": 2327
+    "id": 2337
    },
    {
     "weight": 36,
     "source": "periodismo",
     "target": "censura",
-    "id": 2328
+    "id": 2338
    },
    {
     "weight": 3,
     "source": "periodismo",
     "target": "coches",
-    "id": 2329
+    "id": 2339
    },
    {
     "weight": 4,
     "source": "periodismo",
     "target": "cultura",
-    "id": 2330
+    "id": 2340
    },
    {
     "weight": 2,
     "source": "periodismo",
     "target": "curiosidades",
-    "id": 2331
+    "id": 2341
    },
    {
     "weight": 5,
     "source": "periodismo",
     "target": "derechos",
-    "id": 2332
+    "id": 2342
    },
    {
     "weight": 12,
     "source": "periodismo",
     "target": "detenidos",
-    "id": 2333
+    "id": 2343
    },
    {
     "weight": 3,
     "source": "periodismo",
     "target": "empresas",
-    "id": 2334
+    "id": 2344
    },
    {
     "weight": 9,
     "source": "periodismo",
     "target": "futbol",
-    "id": 2335
+    "id": 2345
    },
    {
     "weight": 5,
     "source": "periodismo",
     "target": "huelga",
-    "id": 2336
+    "id": 2346
    },
    {
     "weight": 12,
     "source": "periodismo",
     "target": "Israel",
-    "id": 2337
+    "id": 2347
    },
    {
     "weight": 12,
     "source": "periodismo",
     "target": "justicia",
-    "id": 2338
+    "id": 2348
    },
    {
-    "weight": 12,
+    "weight": 13,
     "source": "periodismo",
     "target": "manifestaciones",
-    "id": 2339
+    "id": 2349
    },
    {
     "weight": 1,
     "source": "periodismo",
     "target": "microsoft",
-    "id": 2340
+    "id": 2350
    },
    {
     "weight": 3,
     "source": "periodismo",
     "target": "recortes",
-    "id": 2341
+    "id": 2351
    },
    {
     "weight": 38,
     "source": "periodismo",
     "target": "RTVE",
-    "id": 2342
+    "id": 2352
    },
    {
     "weight": 5,
     "source": "periodismo",
     "target": "Rusia",
-    "id": 2343
+    "id": 2353
    },
    {
     "weight": 5,
     "source": "periodismo",
     "target": "salarios",
-    "id": 2344
+    "id": 2354
    },
    {
     "weight": 1,
     "source": "periodismo",
     "target": "seguridad",
-    "id": 2345
+    "id": 2355
    },
    {
     "weight": 2,
     "source": "periodismo",
     "target": "software libre",
-    "id": 2346
+    "id": 2356
    },
    {
     "weight": 1,
     "source": "periodismo",
     "target": "tecnologia",
-    "id": 2347
+    "id": 2357
    },
    {
     "weight": 5,
     "source": "periodismo",
     "target": "terrorismo",
-    "id": 2348
+    "id": 2358
    },
    {
     "weight": 2,
     "source": "periodismo",
     "target": "UE",
-    "id": 2349
+    "id": 2359
    },
    {
     "weight": 2,
     "source": "periodismo",
     "target": "vivienda",
-    "id": 2350
+    "id": 2360
    },
    {
     "weight": 11,
     "source": "seguridad",
     "target": "accidentes",
-    "id": 2351
+    "id": 2361
    },
    {
-    "weight": 1,
+    "weight": 18,
     "source": "seguridad",
-    "target": "B\u00e1rcenas",
-    "id": 2352
+    "target": "aviones",
+    "id": 2362
    },
    {
     "weight": 2,
     "source": "seguridad",
     "target": "censura",
-    "id": 2353
+    "id": 2363
    },
    {
     "weight": 15,
     "source": "seguridad",
     "target": "coches",
-    "id": 2354
+    "id": 2364
    },
    {
     "weight": 1,
     "source": "seguridad",
     "target": "cultura",
-    "id": 2355
+    "id": 2365
    },
    {
     "weight": 5,
     "source": "seguridad",
     "target": "curiosidades",
-    "id": 2356
+    "id": 2366
    },
    {
     "weight": 6,
     "source": "seguridad",
     "target": "derechos",
-    "id": 2357
+    "id": 2367
    },
    {
     "weight": 3,
     "source": "seguridad",
     "target": "detenidos",
-    "id": 2358
+    "id": 2368
    },
    {
     "weight": 8,
     "source": "seguridad",
     "target": "empresas",
-    "id": 2359
+    "id": 2369
    },
    {
     "weight": 1,
     "source": "seguridad",
     "target": "futbol",
-    "id": 2360
+    "id": 2370
    },
    {
-    "weight": 3,
+    "weight": 4,
     "source": "seguridad",
     "target": "huelga",
-    "id": 2361
+    "id": 2371
    },
    {
     "weight": 3,
     "source": "seguridad",
     "target": "Israel",
-    "id": 2362
+    "id": 2372
    },
    {
     "weight": 3,
     "source": "seguridad",
     "target": "justicia",
-    "id": 2363
-   },
-   {
-    "weight": 1,
-    "source": "seguridad",
-    "target": "manifestaciones",
-    "id": 2364
-   },
-   {
-    "weight": 29,
-    "source": "seguridad",
-    "target": "microsoft",
-    "id": 2365
-   },
-   {
-    "weight": 3,
-    "source": "seguridad",
-    "target": "NASA",
-    "id": 2366
-   },
-   {
-    "weight": 3,
-    "source": "seguridad",
-    "target": "recortes",
-    "id": 2367
-   },
-   {
-    "weight": 2,
-    "source": "seguridad",
-    "target": "Rusia",
-    "id": 2368
-   },
-   {
-    "weight": 3,
-    "source": "seguridad",
-    "target": "salarios",
-    "id": 2369
-   },
-   {
-    "weight": 11,
-    "source": "seguridad",
-    "target": "software libre",
-    "id": 2370
-   },
-   {
-    "weight": 12,
-    "source": "seguridad",
-    "target": "tecnologia",
-    "id": 2371
-   },
-   {
-    "weight": 13,
-    "source": "seguridad",
-    "target": "terrorismo",
-    "id": 2372
-   },
-   {
-    "weight": 7,
-    "source": "seguridad",
-    "target": "UE",
     "id": 2373
    },
    {
     "weight": 1,
     "source": "seguridad",
-    "target": "Zapatero",
+    "target": "manifestaciones",
     "id": 2374
+   },
+   {
+    "weight": 29,
+    "source": "seguridad",
+    "target": "microsoft",
+    "id": 2375
+   },
+   {
+    "weight": 3,
+    "source": "seguridad",
+    "target": "NASA",
+    "id": 2376
+   },
+   {
+    "weight": 3,
+    "source": "seguridad",
+    "target": "recortes",
+    "id": 2377
+   },
+   {
+    "weight": 2,
+    "source": "seguridad",
+    "target": "Rusia",
+    "id": 2378
+   },
+   {
+    "weight": 3,
+    "source": "seguridad",
+    "target": "salarios",
+    "id": 2379
+   },
+   {
+    "weight": 11,
+    "source": "seguridad",
+    "target": "software libre",
+    "id": 2380
+   },
+   {
+    "weight": 12,
+    "source": "seguridad",
+    "target": "tecnologia",
+    "id": 2381
+   },
+   {
+    "weight": 13,
+    "source": "seguridad",
+    "target": "terrorismo",
+    "id": 2382
+   },
+   {
+    "weight": 7,
+    "source": "seguridad",
+    "target": "UE",
+    "id": 2383
+   },
+   {
+    "weight": 1,
+    "source": "seguridad",
+    "target": "Zapatero",
+    "id": 2384
    },
    {
     "weight": 12,
     "source": "salarios",
     "target": "Aguirre",
-    "id": 2375
-   },
-   {
-    "weight": 4,
-    "source": "salarios",
-    "target": "B\u00e1rcenas",
-    "id": 2376
+    "id": 2385
    },
    {
     "weight": 2,
     "source": "salarios",
     "target": "censura",
-    "id": 2377
+    "id": 2386
    },
    {
     "weight": 1,
     "source": "salarios",
     "target": "curiosidades",
-    "id": 2378
+    "id": 2387
    },
    {
     "weight": 5,
     "source": "salarios",
     "target": "derechos",
-    "id": 2379
+    "id": 2388
    },
    {
     "weight": 32,
     "source": "salarios",
     "target": "empresas",
-    "id": 2380
+    "id": 2389
    },
    {
     "weight": 1,
     "source": "salarios",
     "target": "futbol",
-    "id": 2381
+    "id": 2390
    },
    {
     "weight": 10,
     "source": "salarios",
     "target": "huelga",
-    "id": 2382
+    "id": 2391
    },
    {
     "weight": 1,
     "source": "salarios",
     "target": "justicia",
-    "id": 2383
+    "id": 2392
    },
    {
     "weight": 1,
     "source": "salarios",
     "target": "manifestaciones",
-    "id": 2384
+    "id": 2393
    },
    {
     "weight": 26,
     "source": "salarios",
     "target": "recortes",
-    "id": 2385
+    "id": 2394
    },
    {
     "weight": 4,
     "source": "salarios",
     "target": "RTVE",
-    "id": 2386
+    "id": 2395
    },
    {
     "weight": 4,
     "source": "salarios",
     "target": "tecnologia",
-    "id": 2387
+    "id": 2396
    },
    {
     "weight": 12,
     "source": "salarios",
     "target": "UE",
-    "id": 2388
+    "id": 2397
    },
    {
     "weight": 19,
     "source": "salarios",
     "target": "vivienda",
-    "id": 2389
+    "id": 2398
    },
    {
     "weight": 8,
     "source": "salarios",
     "target": "Zapatero",
-    "id": 2390
+    "id": 2399
    },
    {
     "weight": 1,
     "source": "Aguirre",
     "target": "accidentes",
-    "id": 2391
-   },
-   {
-    "weight": 11,
-    "source": "Aguirre",
-    "target": "B\u00e1rcenas",
-    "id": 2392
+    "id": 2400
    },
    {
     "weight": 7,
     "source": "Aguirre",
     "target": "censura",
-    "id": 2393
+    "id": 2401
    },
    {
     "weight": 9,
     "source": "Aguirre",
     "target": "coches",
-    "id": 2394
+    "id": 2402
    },
    {
     "weight": 1,
     "source": "Aguirre",
     "target": "derechos",
-    "id": 2395
+    "id": 2403
    },
    {
     "weight": 4,
     "source": "Aguirre",
     "target": "detenidos",
-    "id": 2396
+    "id": 2404
    },
    {
     "weight": 4,
     "source": "Aguirre",
     "target": "empresas",
-    "id": 2397
+    "id": 2405
    },
    {
     "weight": 2,
     "source": "Aguirre",
     "target": "futbol",
-    "id": 2398
+    "id": 2406
    },
    {
     "weight": 11,
     "source": "Aguirre",
     "target": "huelga",
-    "id": 2399
+    "id": 2407
    },
    {
     "weight": 5,
     "source": "Aguirre",
     "target": "justicia",
-    "id": 2400
+    "id": 2408
    },
    {
     "weight": 12,
     "source": "Aguirre",
     "target": "manifestaciones",
-    "id": 2401
+    "id": 2409
    },
    {
     "weight": 20,
     "source": "Aguirre",
     "target": "recortes",
-    "id": 2402
+    "id": 2410
    },
    {
     "weight": 3,
     "source": "Aguirre",
     "target": "RTVE",
-    "id": 2403
+    "id": 2411
    },
    {
     "weight": 6,
     "source": "Aguirre",
     "target": "terrorismo",
-    "id": 2404
+    "id": 2412
    },
    {
     "weight": 5,
     "source": "Aguirre",
     "target": "vivienda",
-    "id": 2405
+    "id": 2413
    },
    {
     "weight": 7,
     "source": "Aguirre",
     "target": "Zapatero",
-    "id": 2406
+    "id": 2414
    },
    {
     "weight": 4,
     "source": "Israel",
     "target": "accidentes",
-    "id": 2407
+    "id": 2415
+   },
+   {
+    "weight": 9,
+    "source": "Israel",
+    "target": "aviones",
+    "id": 2416
    },
    {
     "weight": 5,
     "source": "Israel",
     "target": "censura",
-    "id": 2408
+    "id": 2417
    },
    {
     "weight": 2,
     "source": "Israel",
     "target": "coches",
-    "id": 2409
+    "id": 2418
    },
    {
     "weight": 1,
     "source": "Israel",
     "target": "curiosidades",
-    "id": 2410
+    "id": 2419
    },
    {
     "weight": 10,
     "source": "Israel",
     "target": "derechos",
-    "id": 2411
+    "id": 2420
    },
    {
     "weight": 3,
     "source": "Israel",
     "target": "detenidos",
-    "id": 2412
+    "id": 2421
    },
    {
     "weight": 3,
     "source": "Israel",
     "target": "futbol",
-    "id": 2413
+    "id": 2422
    },
    {
     "weight": 4,
     "source": "Israel",
     "target": "homosexualidad",
-    "id": 2414
+    "id": 2423
    },
    {
     "weight": 1,
     "source": "Israel",
     "target": "huelga",
-    "id": 2415
+    "id": 2424
    },
    {
     "weight": 1,
     "source": "Israel",
     "target": "justicia",
-    "id": 2416
+    "id": 2425
    },
    {
     "weight": 10,
     "source": "Israel",
     "target": "manifestaciones",
-    "id": 2417
+    "id": 2426
    },
    {
     "weight": 4,
     "source": "Israel",
     "target": "RTVE",
-    "id": 2418
+    "id": 2427
    },
    {
     "weight": 4,
     "source": "Israel",
     "target": "Rusia",
-    "id": 2419
+    "id": 2428
    },
    {
     "weight": 2,
     "source": "Israel",
     "target": "tecnologia",
-    "id": 2420
+    "id": 2429
    },
    {
     "weight": 25,
     "source": "Israel",
     "target": "terrorismo",
-    "id": 2421
+    "id": 2430
    },
    {
     "weight": 11,
     "source": "Israel",
     "target": "UE",
-    "id": 2422
+    "id": 2431
    },
    {
     "weight": 3,
     "source": "Israel",
     "target": "Zapatero",
-    "id": 2423
+    "id": 2432
    },
    {
     "weight": 1,
     "source": "UE",
     "target": "accidentes",
-    "id": 2424
+    "id": 2433
+   },
+   {
+    "weight": 5,
+    "source": "UE",
+    "target": "aviones",
+    "id": 2434
    },
    {
     "weight": 11,
     "source": "UE",
     "target": "censura",
-    "id": 2425
+    "id": 2435
    },
    {
     "weight": 3,
     "source": "UE",
     "target": "coches",
-    "id": 2426
+    "id": 2436
    },
    {
     "weight": 7,
     "source": "UE",
     "target": "cultura",
-    "id": 2427
+    "id": 2437
    },
    {
     "weight": 1,
     "source": "UE",
     "target": "curiosidades",
-    "id": 2428
+    "id": 2438
    },
    {
     "weight": 14,
     "source": "UE",
     "target": "derechos",
-    "id": 2429
+    "id": 2439
    },
    {
     "weight": 7,
     "source": "UE",
     "target": "empresas",
-    "id": 2430
+    "id": 2440
    },
    {
     "weight": 3,
     "source": "UE",
     "target": "homosexualidad",
-    "id": 2431
-   },
-   {
-    "weight": 2,
-    "source": "UE",
-    "target": "huelga",
-    "id": 2432
-   },
-   {
-    "weight": 8,
-    "source": "UE",
-    "target": "justicia",
-    "id": 2433
-   },
-   {
-    "weight": 1,
-    "source": "UE",
-    "target": "manifestaciones",
-    "id": 2434
-   },
-   {
-    "weight": 12,
-    "source": "UE",
-    "target": "microsoft",
-    "id": 2435
-   },
-   {
-    "weight": 9,
-    "source": "UE",
-    "target": "recortes",
-    "id": 2436
-   },
-   {
-    "weight": 1,
-    "source": "UE",
-    "target": "RTVE",
-    "id": 2437
-   },
-   {
-    "weight": 10,
-    "source": "UE",
-    "target": "Rusia",
-    "id": 2438
-   },
-   {
-    "weight": 7,
-    "source": "UE",
-    "target": "software libre",
-    "id": 2439
-   },
-   {
-    "weight": 5,
-    "source": "UE",
-    "target": "tecnologia",
-    "id": 2440
-   },
-   {
-    "weight": 5,
-    "source": "UE",
-    "target": "terrorismo",
     "id": 2441
    },
    {
     "weight": 2,
     "source": "UE",
-    "target": "vivienda",
+    "target": "huelga",
     "id": 2442
    },
    {
     "weight": 8,
     "source": "UE",
-    "target": "Zapatero",
+    "target": "justicia",
     "id": 2443
+   },
+   {
+    "weight": 1,
+    "source": "UE",
+    "target": "manifestaciones",
+    "id": 2444
+   },
+   {
+    "weight": 12,
+    "source": "UE",
+    "target": "microsoft",
+    "id": 2445
+   },
+   {
+    "weight": 9,
+    "source": "UE",
+    "target": "recortes",
+    "id": 2446
+   },
+   {
+    "weight": 1,
+    "source": "UE",
+    "target": "RTVE",
+    "id": 2447
+   },
+   {
+    "weight": 10,
+    "source": "UE",
+    "target": "Rusia",
+    "id": 2448
+   },
+   {
+    "weight": 7,
+    "source": "UE",
+    "target": "software libre",
+    "id": 2449
+   },
+   {
+    "weight": 5,
+    "source": "UE",
+    "target": "tecnologia",
+    "id": 2450
+   },
+   {
+    "weight": 5,
+    "source": "UE",
+    "target": "terrorismo",
+    "id": 2451
+   },
+   {
+    "weight": 2,
+    "source": "UE",
+    "target": "vivienda",
+    "id": 2452
+   },
+   {
+    "weight": 8,
+    "source": "UE",
+    "target": "Zapatero",
+    "id": 2453
    },
    {
     "weight": 12,
     "source": "derechos",
     "target": "censura",
-    "id": 2444
+    "id": 2454
    },
    {
     "weight": 1,
     "source": "derechos",
     "target": "coches",
-    "id": 2445
+    "id": 2455
    },
    {
     "weight": 16,
     "source": "derechos",
     "target": "cultura",
-    "id": 2446
+    "id": 2456
    },
    {
     "weight": 1,
     "source": "derechos",
     "target": "curiosidades",
-    "id": 2447
+    "id": 2457
    },
    {
     "weight": 3,
     "source": "derechos",
     "target": "detenidos",
-    "id": 2448
+    "id": 2458
    },
    {
     "weight": 13,
     "source": "derechos",
     "target": "empresas",
-    "id": 2449
+    "id": 2459
    },
    {
     "weight": 7,
     "source": "derechos",
     "target": "futbol",
-    "id": 2450
+    "id": 2460
    },
    {
     "weight": 43,
     "source": "derechos",
     "target": "homosexualidad",
-    "id": 2451
+    "id": 2461
    },
    {
     "weight": 21,
     "source": "derechos",
     "target": "huelga",
-    "id": 2452
+    "id": 2462
    },
    {
     "weight": 24,
     "source": "derechos",
     "target": "justicia",
-    "id": 2453
+    "id": 2463
    },
    {
     "weight": 9,
     "source": "derechos",
     "target": "manifestaciones",
-    "id": 2454
+    "id": 2464
    },
    {
     "weight": 5,
     "source": "derechos",
     "target": "microsoft",
-    "id": 2455
+    "id": 2465
    },
    {
     "weight": 9,
     "source": "derechos",
     "target": "recortes",
-    "id": 2456
+    "id": 2466
    },
    {
     "weight": 3,
     "source": "derechos",
     "target": "RTVE",
-    "id": 2457
+    "id": 2467
    },
    {
     "weight": 2,
     "source": "derechos",
     "target": "Rusia",
-    "id": 2458
+    "id": 2468
    },
    {
     "weight": 4,
     "source": "derechos",
     "target": "software libre",
-    "id": 2459
+    "id": 2469
    },
    {
     "weight": 5,
     "source": "derechos",
     "target": "tecnologia",
-    "id": 2460
+    "id": 2470
    },
    {
     "weight": 5,
     "source": "derechos",
     "target": "terrorismo",
-    "id": 2461
+    "id": 2471
    },
    {
     "weight": 6,
     "source": "derechos",
     "target": "vivienda",
-    "id": 2462
+    "id": 2472
    },
    {
     "weight": 2,
     "source": "derechos",
     "target": "Zapatero",
-    "id": 2463
+    "id": 2473
+   },
+   {
+    "weight": 1,
+    "source": "vivienda",
+    "target": "aviones",
+    "id": 2474
    },
    {
     "weight": 2,
     "source": "vivienda",
     "target": "coches",
-    "id": 2464
+    "id": 2475
    },
    {
     "weight": 3,
     "source": "vivienda",
     "target": "cultura",
-    "id": 2465
+    "id": 2476
    },
    {
     "weight": 3,
     "source": "vivienda",
     "target": "curiosidades",
-    "id": 2466
+    "id": 2477
    },
    {
     "weight": 2,
     "source": "vivienda",
     "target": "detenidos",
-    "id": 2467
+    "id": 2478
    },
    {
     "weight": 3,
     "source": "vivienda",
     "target": "empresas",
-    "id": 2468
+    "id": 2479
    },
    {
     "weight": 2,
     "source": "vivienda",
     "target": "huelga",
-    "id": 2469
+    "id": 2480
    },
    {
     "weight": 8,
     "source": "vivienda",
     "target": "justicia",
-    "id": 2470
+    "id": 2481
    },
    {
     "weight": 19,
     "source": "vivienda",
     "target": "manifestaciones",
-    "id": 2471
-   },
-   {
-    "weight": 1,
-    "source": "vivienda",
-    "target": "recortes",
-    "id": 2472
-   },
-   {
-    "weight": 5,
-    "source": "vivienda",
-    "target": "Zapatero",
-    "id": 2473
-   },
-   {
-    "weight": 5,
-    "source": "justicia",
-    "target": "accidentes",
-    "id": 2474
-   },
-   {
-    "weight": 10,
-    "source": "justicia",
-    "target": "B\u00e1rcenas",
-    "id": 2475
-   },
-   {
-    "weight": 4,
-    "source": "justicia",
-    "target": "coches",
-    "id": 2476
-   },
-   {
-    "weight": 2,
-    "source": "justicia",
-    "target": "cultura",
-    "id": 2477
-   },
-   {
-    "weight": 2,
-    "source": "justicia",
-    "target": "curiosidades",
-    "id": 2478
-   },
-   {
-    "weight": 7,
-    "source": "justicia",
-    "target": "detenidos",
-    "id": 2479
-   },
-   {
-    "weight": 12,
-    "source": "justicia",
-    "target": "empresas",
-    "id": 2480
-   },
-   {
-    "weight": 2,
-    "source": "justicia",
-    "target": "futbol",
-    "id": 2481
-   },
-   {
-    "weight": 6,
-    "source": "justicia",
-    "target": "homosexualidad",
     "id": 2482
    },
    {
-    "weight": 7,
-    "source": "justicia",
-    "target": "huelga",
+    "weight": 1,
+    "source": "vivienda",
+    "target": "recortes",
     "id": 2483
    },
    {
-    "weight": 6,
-    "source": "justicia",
-    "target": "manifestaciones",
-    "id": 2484
-   },
-   {
-    "weight": 3,
-    "source": "justicia",
-    "target": "microsoft",
-    "id": 2485
-   },
-   {
-    "weight": 4,
-    "source": "justicia",
-    "target": "recortes",
-    "id": 2486
-   },
-   {
-    "weight": 1,
-    "source": "justicia",
-    "target": "RTVE",
-    "id": 2487
-   },
-   {
     "weight": 5,
-    "source": "justicia",
-    "target": "tecnologia",
-    "id": 2488
-   },
-   {
-    "weight": 8,
-    "source": "justicia",
-    "target": "terrorismo",
-    "id": 2489
-   },
-   {
-    "weight": 4,
-    "source": "justicia",
+    "source": "vivienda",
     "target": "Zapatero",
-    "id": 2490
+    "id": 2484
    },
    {
     "weight": 54,
     "source": "coches",
     "target": "accidentes",
-    "id": 2491
+    "id": 2485
    },
    {
-    "weight": 2,
+    "weight": 3,
     "source": "coches",
-    "target": "B\u00e1rcenas",
-    "id": 2492
+    "target": "aviones",
+    "id": 2486
    },
    {
     "weight": 2,
     "source": "coches",
     "target": "cultura",
-    "id": 2493
+    "id": 2487
    },
    {
     "weight": 5,
     "source": "coches",
     "target": "curiosidades",
-    "id": 2494
+    "id": 2488
    },
    {
     "weight": 9,
     "source": "coches",
     "target": "detenidos",
-    "id": 2495
+    "id": 2489
    },
    {
     "weight": 1,
     "source": "coches",
     "target": "huelga",
-    "id": 2496
+    "id": 2490
+   },
+   {
+    "weight": 4,
+    "source": "coches",
+    "target": "justicia",
+    "id": 2491
    },
    {
     "weight": 1,
     "source": "coches",
     "target": "manifestaciones",
-    "id": 2497
+    "id": 2492
    },
    {
     "weight": 1,
     "source": "coches",
     "target": "NASA",
-    "id": 2498
+    "id": 2493
    },
    {
     "weight": 1,
     "source": "coches",
     "target": "recortes",
-    "id": 2499
+    "id": 2494
    },
    {
     "weight": 10,
     "source": "coches",
     "target": "Rusia",
-    "id": 2500
+    "id": 2495
    },
    {
     "weight": 12,
     "source": "coches",
     "target": "tecnologia",
-    "id": 2501
+    "id": 2496
    },
    {
     "weight": 2,
     "source": "coches",
     "target": "terrorismo",
+    "id": 2497
+   },
+   {
+    "weight": 5,
+    "source": "justicia",
+    "target": "accidentes",
+    "id": 2498
+   },
+   {
+    "weight": 1,
+    "source": "justicia",
+    "target": "aviones",
+    "id": 2499
+   },
+   {
+    "weight": 2,
+    "source": "justicia",
+    "target": "cultura",
+    "id": 2500
+   },
+   {
+    "weight": 2,
+    "source": "justicia",
+    "target": "curiosidades",
+    "id": 2501
+   },
+   {
+    "weight": 7,
+    "source": "justicia",
+    "target": "detenidos",
     "id": 2502
+   },
+   {
+    "weight": 12,
+    "source": "justicia",
+    "target": "empresas",
+    "id": 2503
+   },
+   {
+    "weight": 2,
+    "source": "justicia",
+    "target": "futbol",
+    "id": 2504
+   },
+   {
+    "weight": 6,
+    "source": "justicia",
+    "target": "homosexualidad",
+    "id": 2505
+   },
+   {
+    "weight": 7,
+    "source": "justicia",
+    "target": "huelga",
+    "id": 2506
+   },
+   {
+    "weight": 6,
+    "source": "justicia",
+    "target": "manifestaciones",
+    "id": 2507
+   },
+   {
+    "weight": 3,
+    "source": "justicia",
+    "target": "microsoft",
+    "id": 2508
+   },
+   {
+    "weight": 4,
+    "source": "justicia",
+    "target": "recortes",
+    "id": 2509
+   },
+   {
+    "weight": 1,
+    "source": "justicia",
+    "target": "RTVE",
+    "id": 2510
+   },
+   {
+    "weight": 5,
+    "source": "justicia",
+    "target": "tecnologia",
+    "id": 2511
+   },
+   {
+    "weight": 8,
+    "source": "justicia",
+    "target": "terrorismo",
+    "id": 2512
+   },
+   {
+    "weight": 4,
+    "source": "justicia",
+    "target": "Zapatero",
+    "id": 2513
    },
    {
     "weight": 5,
     "source": "microsoft",
     "target": "censura",
-    "id": 2503
+    "id": 2514
    },
    {
     "weight": 2,
     "source": "microsoft",
     "target": "curiosidades",
-    "id": 2504
+    "id": 2515
    },
    {
     "weight": 5,
     "source": "microsoft",
     "target": "empresas",
-    "id": 2505
+    "id": 2516
    },
    {
     "weight": 2,
     "source": "microsoft",
     "target": "Rusia",
-    "id": 2506
+    "id": 2517
    },
    {
     "weight": 68,
     "source": "microsoft",
     "target": "software libre",
-    "id": 2507
+    "id": 2518
    },
    {
     "weight": 9,
     "source": "microsoft",
     "target": "tecnologia",
-    "id": 2508
+    "id": 2519
    },
    {
     "weight": 1,
     "source": "software libre",
     "target": "censura",
-    "id": 2509
+    "id": 2520
    },
    {
     "weight": 2,
     "source": "software libre",
     "target": "cultura",
-    "id": 2510
+    "id": 2521
    },
    {
     "weight": 6,
     "source": "software libre",
     "target": "empresas",
-    "id": 2511
+    "id": 2522
    },
    {
     "weight": 2,
     "source": "software libre",
     "target": "NASA",
-    "id": 2512
+    "id": 2523
    },
    {
     "weight": 1,
     "source": "software libre",
     "target": "recortes",
-    "id": 2513
+    "id": 2524
    },
    {
     "weight": 1,
     "source": "software libre",
     "target": "RTVE",
-    "id": 2514
+    "id": 2525
    },
    {
     "weight": 2,
     "source": "software libre",
     "target": "Rusia",
-    "id": 2515
+    "id": 2526
    },
    {
     "weight": 13,
     "source": "software libre",
     "target": "tecnologia",
-    "id": 2516
-   },
-   {
-    "weight": 1,
-    "source": "curiosidades",
-    "target": "accidentes",
-    "id": 2517
-   },
-   {
-    "weight": 17,
-    "source": "curiosidades",
-    "target": "cultura",
-    "id": 2518
-   },
-   {
-    "weight": 4,
-    "source": "curiosidades",
-    "target": "empresas",
-    "id": 2519
-   },
-   {
-    "weight": 5,
-    "source": "curiosidades",
-    "target": "futbol",
-    "id": 2520
-   },
-   {
-    "weight": 1,
-    "source": "curiosidades",
-    "target": "homosexualidad",
-    "id": 2521
-   },
-   {
-    "weight": 1,
-    "source": "curiosidades",
-    "target": "NASA",
-    "id": 2522
-   },
-   {
-    "weight": 7,
-    "source": "curiosidades",
-    "target": "Rusia",
-    "id": 2523
-   },
-   {
-    "weight": 11,
-    "source": "curiosidades",
-    "target": "tecnologia",
-    "id": 2524
-   },
-   {
-    "weight": 14,
-    "source": "Rusia",
-    "target": "accidentes",
-    "id": 2525
-   },
-   {
-    "weight": 3,
-    "source": "Rusia",
-    "target": "censura",
-    "id": 2526
-   },
-   {
-    "weight": 2,
-    "source": "Rusia",
-    "target": "cultura",
     "id": 2527
    },
    {
-    "weight": 4,
-    "source": "Rusia",
-    "target": "detenidos",
+    "weight": 8,
+    "source": "manifestaciones",
+    "target": "censura",
     "id": 2528
    },
    {
-    "weight": 1,
-    "source": "Rusia",
-    "target": "empresas",
+    "weight": 2,
+    "source": "manifestaciones",
+    "target": "cultura",
     "id": 2529
    },
    {
-    "weight": 2,
-    "source": "Rusia",
-    "target": "futbol",
+    "weight": 11,
+    "source": "manifestaciones",
+    "target": "detenidos",
     "id": 2530
    },
    {
-    "weight": 20,
-    "source": "Rusia",
-    "target": "homosexualidad",
+    "weight": 2,
+    "source": "manifestaciones",
+    "target": "futbol",
     "id": 2531
    },
    {
     "weight": 2,
-    "source": "Rusia",
-    "target": "manifestaciones",
+    "source": "manifestaciones",
+    "target": "homosexualidad",
     "id": 2532
-   },
-   {
-    "weight": 12,
-    "source": "Rusia",
-    "target": "NASA",
-    "id": 2533
-   },
-   {
-    "weight": 1,
-    "source": "Rusia",
-    "target": "RTVE",
-    "id": 2534
-   },
-   {
-    "weight": 6,
-    "source": "Rusia",
-    "target": "tecnologia",
-    "id": 2535
-   },
-   {
-    "weight": 11,
-    "source": "Rusia",
-    "target": "terrorismo",
-    "id": 2536
-   },
-   {
-    "weight": 1,
-    "source": "Rusia",
-    "target": "Zapatero",
-    "id": 2537
-   },
-   {
-    "weight": 3,
-    "source": "censura",
-    "target": "B\u00e1rcenas",
-    "id": 2538
-   },
-   {
-    "weight": 5,
-    "source": "censura",
-    "target": "cultura",
-    "id": 2539
-   },
-   {
-    "weight": 3,
-    "source": "censura",
-    "target": "detenidos",
-    "id": 2540
-   },
-   {
-    "weight": 2,
-    "source": "censura",
-    "target": "empresas",
-    "id": 2541
-   },
-   {
-    "weight": 14,
-    "source": "censura",
-    "target": "homosexualidad",
-    "id": 2542
-   },
-   {
-    "weight": 2,
-    "source": "censura",
-    "target": "huelga",
-    "id": 2543
-   },
-   {
-    "weight": 8,
-    "source": "censura",
-    "target": "manifestaciones",
-    "id": 2544
-   },
-   {
-    "weight": 1,
-    "source": "censura",
-    "target": "NASA",
-    "id": 2545
-   },
-   {
-    "weight": 2,
-    "source": "censura",
-    "target": "recortes",
-    "id": 2546
-   },
-   {
-    "weight": 38,
-    "source": "censura",
-    "target": "RTVE",
-    "id": 2547
-   },
-   {
-    "weight": 7,
-    "source": "censura",
-    "target": "terrorismo",
-    "id": 2548
-   },
-   {
-    "weight": 1,
-    "source": "censura",
-    "target": "Zapatero",
-    "id": 2549
-   },
-   {
-    "weight": 1,
-    "source": "RTVE",
-    "target": "accidentes",
-    "id": 2550
-   },
-   {
-    "weight": 9,
-    "source": "RTVE",
-    "target": "B\u00e1rcenas",
-    "id": 2551
-   },
-   {
-    "weight": 6,
-    "source": "RTVE",
-    "target": "cultura",
-    "id": 2552
-   },
-   {
-    "weight": 2,
-    "source": "RTVE",
-    "target": "detenidos",
-    "id": 2553
-   },
-   {
-    "weight": 4,
-    "source": "RTVE",
-    "target": "futbol",
-    "id": 2554
-   },
-   {
-    "weight": 3,
-    "source": "RTVE",
-    "target": "homosexualidad",
-    "id": 2555
-   },
-   {
-    "weight": 8,
-    "source": "RTVE",
-    "target": "huelga",
-    "id": 2556
-   },
-   {
-    "weight": 4,
-    "source": "RTVE",
-    "target": "manifestaciones",
-    "id": 2557
-   },
-   {
-    "weight": 4,
-    "source": "RTVE",
-    "target": "recortes",
-    "id": 2558
-   },
-   {
-    "weight": 1,
-    "source": "RTVE",
-    "target": "tecnologia",
-    "id": 2559
-   },
-   {
-    "weight": 1,
-    "source": "RTVE",
-    "target": "terrorismo",
-    "id": 2560
-   },
-   {
-    "weight": 10,
-    "source": "RTVE",
-    "target": "Zapatero",
-    "id": 2561
-   },
-   {
-    "weight": 3,
-    "source": "manifestaciones",
-    "target": "B\u00e1rcenas",
-    "id": 2562
-   },
-   {
-    "weight": 2,
-    "source": "manifestaciones",
-    "target": "cultura",
-    "id": 2563
-   },
-   {
-    "weight": 11,
-    "source": "manifestaciones",
-    "target": "detenidos",
-    "id": 2564
-   },
-   {
-    "weight": 2,
-    "source": "manifestaciones",
-    "target": "futbol",
-    "id": 2565
-   },
-   {
-    "weight": 2,
-    "source": "manifestaciones",
-    "target": "homosexualidad",
-    "id": 2566
    },
    {
     "weight": 21,
     "source": "manifestaciones",
     "target": "huelga",
-    "id": 2567
+    "id": 2533
    },
    {
     "weight": 28,
     "source": "manifestaciones",
     "target": "recortes",
-    "id": 2568
+    "id": 2534
+   },
+   {
+    "weight": 4,
+    "source": "manifestaciones",
+    "target": "RTVE",
+    "id": 2535
+   },
+   {
+    "weight": 2,
+    "source": "manifestaciones",
+    "target": "Rusia",
+    "id": 2536
    },
    {
     "weight": 13,
     "source": "manifestaciones",
     "target": "terrorismo",
+    "id": 2537
+   },
+   {
+    "weight": 1,
+    "source": "curiosidades",
+    "target": "accidentes",
+    "id": 2538
+   },
+   {
+    "weight": 12,
+    "source": "curiosidades",
+    "target": "aviones",
+    "id": 2539
+   },
+   {
+    "weight": 17,
+    "source": "curiosidades",
+    "target": "cultura",
+    "id": 2540
+   },
+   {
+    "weight": 4,
+    "source": "curiosidades",
+    "target": "empresas",
+    "id": 2541
+   },
+   {
+    "weight": 5,
+    "source": "curiosidades",
+    "target": "futbol",
+    "id": 2542
+   },
+   {
+    "weight": 1,
+    "source": "curiosidades",
+    "target": "homosexualidad",
+    "id": 2543
+   },
+   {
+    "weight": 1,
+    "source": "curiosidades",
+    "target": "NASA",
+    "id": 2544
+   },
+   {
+    "weight": 7,
+    "source": "curiosidades",
+    "target": "Rusia",
+    "id": 2545
+   },
+   {
+    "weight": 11,
+    "source": "curiosidades",
+    "target": "tecnologia",
+    "id": 2546
+   },
+   {
+    "weight": 14,
+    "source": "Rusia",
+    "target": "accidentes",
+    "id": 2547
+   },
+   {
+    "weight": 19,
+    "source": "Rusia",
+    "target": "aviones",
+    "id": 2548
+   },
+   {
+    "weight": 3,
+    "source": "Rusia",
+    "target": "censura",
+    "id": 2549
+   },
+   {
+    "weight": 2,
+    "source": "Rusia",
+    "target": "cultura",
+    "id": 2550
+   },
+   {
+    "weight": 4,
+    "source": "Rusia",
+    "target": "detenidos",
+    "id": 2551
+   },
+   {
+    "weight": 1,
+    "source": "Rusia",
+    "target": "empresas",
+    "id": 2552
+   },
+   {
+    "weight": 2,
+    "source": "Rusia",
+    "target": "futbol",
+    "id": 2553
+   },
+   {
+    "weight": 20,
+    "source": "Rusia",
+    "target": "homosexualidad",
+    "id": 2554
+   },
+   {
+    "weight": 12,
+    "source": "Rusia",
+    "target": "NASA",
+    "id": 2555
+   },
+   {
+    "weight": 1,
+    "source": "Rusia",
+    "target": "RTVE",
+    "id": 2556
+   },
+   {
+    "weight": 6,
+    "source": "Rusia",
+    "target": "tecnologia",
+    "id": 2557
+   },
+   {
+    "weight": 11,
+    "source": "Rusia",
+    "target": "terrorismo",
+    "id": 2558
+   },
+   {
+    "weight": 1,
+    "source": "Rusia",
+    "target": "Zapatero",
+    "id": 2559
+   },
+   {
+    "weight": 5,
+    "source": "censura",
+    "target": "cultura",
+    "id": 2560
+   },
+   {
+    "weight": 3,
+    "source": "censura",
+    "target": "detenidos",
+    "id": 2561
+   },
+   {
+    "weight": 2,
+    "source": "censura",
+    "target": "empresas",
+    "id": 2562
+   },
+   {
+    "weight": 14,
+    "source": "censura",
+    "target": "homosexualidad",
+    "id": 2563
+   },
+   {
+    "weight": 2,
+    "source": "censura",
+    "target": "huelga",
+    "id": 2564
+   },
+   {
+    "weight": 1,
+    "source": "censura",
+    "target": "NASA",
+    "id": 2565
+   },
+   {
+    "weight": 2,
+    "source": "censura",
+    "target": "recortes",
+    "id": 2566
+   },
+   {
+    "weight": 38,
+    "source": "censura",
+    "target": "RTVE",
+    "id": 2567
+   },
+   {
+    "weight": 7,
+    "source": "censura",
+    "target": "terrorismo",
+    "id": 2568
+   },
+   {
+    "weight": 1,
+    "source": "censura",
+    "target": "Zapatero",
     "id": 2569
+   },
+   {
+    "weight": 1,
+    "source": "RTVE",
+    "target": "accidentes",
+    "id": 2570
+   },
+   {
+    "weight": 6,
+    "source": "RTVE",
+    "target": "cultura",
+    "id": 2571
+   },
+   {
+    "weight": 2,
+    "source": "RTVE",
+    "target": "detenidos",
+    "id": 2572
+   },
+   {
+    "weight": 4,
+    "source": "RTVE",
+    "target": "futbol",
+    "id": 2573
+   },
+   {
+    "weight": 3,
+    "source": "RTVE",
+    "target": "homosexualidad",
+    "id": 2574
+   },
+   {
+    "weight": 8,
+    "source": "RTVE",
+    "target": "huelga",
+    "id": 2575
+   },
+   {
+    "weight": 4,
+    "source": "RTVE",
+    "target": "recortes",
+    "id": 2576
+   },
+   {
+    "weight": 1,
+    "source": "RTVE",
+    "target": "tecnologia",
+    "id": 2577
+   },
+   {
+    "weight": 1,
+    "source": "RTVE",
+    "target": "terrorismo",
+    "id": 2578
+   },
+   {
+    "weight": 10,
+    "source": "RTVE",
+    "target": "Zapatero",
+    "id": 2579
    },
    {
     "weight": 1,
     "source": "cultura",
     "target": "accidentes",
-    "id": 2570
+    "id": 2580
+   },
+   {
+    "weight": 1,
+    "source": "cultura",
+    "target": "aviones",
+    "id": 2581
    },
    {
     "weight": 1,
     "source": "cultura",
     "target": "empresas",
-    "id": 2571
+    "id": 2582
    },
    {
     "weight": 1,
     "source": "cultura",
     "target": "futbol",
-    "id": 2572
+    "id": 2583
    },
    {
     "weight": 1,
     "source": "cultura",
     "target": "homosexualidad",
-    "id": 2573
+    "id": 2584
    },
    {
     "weight": 2,
     "source": "cultura",
     "target": "huelga",
-    "id": 2574
+    "id": 2585
    },
    {
     "weight": 7,
     "source": "cultura",
     "target": "recortes",
-    "id": 2575
+    "id": 2586
    },
    {
     "weight": 17,
     "source": "cultura",
     "target": "tecnologia",
-    "id": 2576
+    "id": 2587
    },
    {
     "weight": 1,
     "source": "cultura",
     "target": "terrorismo",
-    "id": 2577
+    "id": 2588
    },
    {
     "weight": 2,
     "source": "cultura",
     "target": "Zapatero",
-    "id": 2578
+    "id": 2589
+   },
+   {
+    "weight": 97,
+    "source": "accidentes",
+    "target": "aviones",
+    "id": 2590
    },
    {
     "weight": 5,
     "source": "accidentes",
     "target": "detenidos",
-    "id": 2579
+    "id": 2591
    },
    {
     "weight": 2,
     "source": "accidentes",
     "target": "futbol",
-    "id": 2580
+    "id": 2592
    },
    {
     "weight": 1,
     "source": "accidentes",
     "target": "huelga",
-    "id": 2581
+    "id": 2593
    },
    {
     "weight": 3,
     "source": "accidentes",
     "target": "NASA",
-    "id": 2582
+    "id": 2594
    },
    {
     "weight": 1,
     "source": "accidentes",
     "target": "recortes",
-    "id": 2583
+    "id": 2595
    },
    {
     "weight": 2,
     "source": "accidentes",
     "target": "tecnologia",
-    "id": 2584
+    "id": 2596
    },
    {
     "weight": 5,
     "source": "accidentes",
     "target": "terrorismo",
-    "id": 2585
+    "id": 2597
    },
    {
     "weight": 1,
     "source": "accidentes",
     "target": "Zapatero",
-    "id": 2586
+    "id": 2598
+   },
+   {
+    "weight": 8,
+    "source": "NASA",
+    "target": "aviones",
+    "id": 2599
+   },
+   {
+    "weight": 1,
+    "source": "NASA",
+    "target": "futbol",
+    "id": 2600
+   },
+   {
+    "weight": 2,
+    "source": "NASA",
+    "target": "recortes",
+    "id": 2601
+   },
+   {
+    "weight": 10,
+    "source": "NASA",
+    "target": "tecnologia",
+    "id": 2602
+   },
+   {
+    "weight": 1,
+    "source": "recortes",
+    "target": "aviones",
+    "id": 2603
    },
    {
     "weight": 1,
     "source": "recortes",
     "target": "detenidos",
-    "id": 2587
+    "id": 2604
    },
    {
     "weight": 5,
     "source": "recortes",
     "target": "empresas",
-    "id": 2588
+    "id": 2605
    },
    {
     "weight": 2,
     "source": "recortes",
     "target": "futbol",
-    "id": 2589
+    "id": 2606
    },
    {
     "weight": 1,
     "source": "recortes",
     "target": "homosexualidad",
-    "id": 2590
+    "id": 2607
    },
    {
     "weight": 25,
     "source": "recortes",
     "target": "huelga",
-    "id": 2591
-   },
-   {
-    "weight": 2,
-    "source": "recortes",
-    "target": "NASA",
-    "id": 2592
+    "id": 2608
    },
    {
     "weight": 6,
     "source": "recortes",
     "target": "Zapatero",
-    "id": 2593
-   },
-   {
-    "weight": 1,
-    "source": "NASA",
-    "target": "futbol",
-    "id": 2594
-   },
-   {
-    "weight": 10,
-    "source": "NASA",
-    "target": "tecnologia",
-    "id": 2595
+    "id": 2609
    },
    {
     "weight": 4,
     "source": "homosexualidad",
     "target": "detenidos",
-    "id": 2596
+    "id": 2610
    },
    {
     "weight": 12,
     "source": "homosexualidad",
     "target": "futbol",
-    "id": 2597
+    "id": 2611
    },
    {
     "weight": 1,
     "source": "homosexualidad",
     "target": "huelga",
-    "id": 2598
+    "id": 2612
    },
    {
     "weight": 2,
     "source": "homosexualidad",
     "target": "Zapatero",
-    "id": 2599
+    "id": 2613
    },
    {
-    "weight": 1,
+    "weight": 3,
     "source": "detenidos",
-    "target": "B\u00e1rcenas",
-    "id": 2600
+    "target": "aviones",
+    "id": 2614
    },
    {
     "weight": 6,
     "source": "detenidos",
     "target": "futbol",
-    "id": 2601
+    "id": 2615
    },
    {
     "weight": 14,
     "source": "detenidos",
     "target": "huelga",
-    "id": 2602
+    "id": 2616
    },
    {
     "weight": 12,
     "source": "detenidos",
     "target": "terrorismo",
-    "id": 2603
+    "id": 2617
+   },
+   {
+    "weight": 5,
+    "source": "huelga",
+    "target": "aviones",
+    "id": 2618
    },
    {
     "weight": 11,
     "source": "huelga",
     "target": "empresas",
-    "id": 2604
+    "id": 2619
    },
    {
     "weight": 8,
     "source": "huelga",
     "target": "futbol",
-    "id": 2605
+    "id": 2620
    },
    {
     "weight": 10,
     "source": "huelga",
     "target": "Zapatero",
-    "id": 2606
+    "id": 2621
    },
    {
-    "weight": 1,
+    "weight": 11,
     "source": "terrorismo",
-    "target": "B\u00e1rcenas",
-    "id": 2607
+    "target": "aviones",
+    "id": 2622
    },
    {
     "weight": 1,
     "source": "terrorismo",
     "target": "tecnologia",
-    "id": 2608
+    "id": 2623
    },
    {
     "weight": 6,
     "source": "terrorismo",
     "target": "Zapatero",
-    "id": 2609
+    "id": 2624
    },
    {
-    "weight": 16,
+    "weight": 6,
+    "source": "tecnologia",
+    "target": "aviones",
+    "id": 2625
+   },
+   {
+    "weight": 17,
     "source": "tecnologia",
     "target": "empresas",
-    "id": 2610
+    "id": 2626
    },
    {
     "weight": 2,
     "source": "tecnologia",
     "target": "futbol",
-    "id": 2611
+    "id": 2627
    },
    {
     "weight": 2,
     "source": "tecnologia",
     "target": "Zapatero",
-    "id": 2612
+    "id": 2628
    },
    {
-    "weight": 1,
+    "weight": 2,
     "source": "Zapatero",
-    "target": "B\u00e1rcenas",
-    "id": 2613
+    "target": "aviones",
+    "id": 2629
    },
    {
     "weight": 1,
     "source": "Zapatero",
     "target": "empresas",
-    "id": 2614
+    "id": 2630
    },
    {
-    "weight": 3,
+    "weight": 1,
     "source": "empresas",
-    "target": "B\u00e1rcenas",
-    "id": 2615
+    "target": "aviones",
+    "id": 2631
    },
    {
     "weight": 2,
     "source": "empresas",
     "target": "futbol",
-    "id": 2616
+    "id": 2632
    }
   ]
  }

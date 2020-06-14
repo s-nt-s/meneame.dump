@@ -1034,9 +1034,15 @@ var modelos = {
   },
   "2020.04": {
    "karma": 93.0,
-   "positives": 538984.0,
-   "negatives": 77152.0,
+   "positives": 543022.0,
+   "negatives": 77957.0,
    "comment_karma": 27.0
+  },
+  "2020.05": {
+   "karma": 87.0,
+   "positives": 508290.0,
+   "negatives": 72307.0,
+   "comment_karma": 26.0
   }
  },
  "karma_portada": {
@@ -2074,9 +2080,15 @@ var modelos = {
   },
   "2020.04": {
    "karma": 448.0,
-   "positives": 332309.0,
-   "negatives": 13455.0,
+   "positives": 334472.0,
+   "negatives": 13612.0,
    "comment_karma": 30.0
+  },
+  "2020.05": {
+   "karma": 410.0,
+   "positives": 322739.0,
+   "negatives": 14968.0,
+   "comment_karma": 29.0
   }
  },
  "count_estados": {
@@ -3285,11 +3297,18 @@ var modelos = {
    "discard": 1220
   },
   "2020.04": {
-   "total": 14966,
-   "published": 1532,
-   "queued": 10799,
-   "autodiscard": 1195,
-   "discard": 1348
+   "total": 15081,
+   "published": 1543,
+   "queued": 10879,
+   "autodiscard": 1202,
+   "discard": 1363
+  },
+  "2020.05": {
+   "total": 14295,
+   "published": 1539,
+   "queued": 10235,
+   "autodiscard": 1104,
+   "discard": 1344
   }
  },
  "count_categorias_todas": {
@@ -3969,13 +3988,22 @@ var modelos = {
    "otros": 149
   },
   "2020.04": {
-   "total": 14966,
-   "mnm": 168,
-   "actualidad": 11013,
-   "cultura": 2149,
-   "tecnolog\u00eda": 621,
-   "ocio": 862,
-   "otros": 153
+   "total": 15081,
+   "mnm": 169,
+   "actualidad": 11093,
+   "cultura": 2169,
+   "tecnolog\u00eda": 627,
+   "ocio": 869,
+   "otros": 154
+  },
+  "2020.05": {
+   "total": 14295,
+   "mnm": 147,
+   "actualidad": 9994,
+   "cultura": 2234,
+   "tecnolog\u00eda": 771,
+   "ocio": 964,
+   "otros": 185
   }
  },
  "count_categorias_published": {
@@ -4655,13 +4683,22 @@ var modelos = {
    "otros": 38
   },
   "2020.04": {
-   "total": 1532,
+   "total": 1543,
    "mnm": 14,
-   "actualidad": 1056,
-   "cultura": 267,
-   "tecnolog\u00eda": 73,
+   "actualidad": 1063,
+   "cultura": 269,
+   "tecnolog\u00eda": 74,
    "ocio": 88,
-   "otros": 34
+   "otros": 35
+  },
+  "2020.05": {
+   "total": 1539,
+   "mnm": 12,
+   "actualidad": 985,
+   "cultura": 291,
+   "tecnolog\u00eda": 92,
+   "ocio": 99,
+   "otros": 60
   }
  },
  "horas_dia": {
@@ -6091,7 +6128,7 @@ var modelos = {
    "usuarios activos": 1718,
    "usuarios creados": 1068,
    "usuarios eliminados": 17,
-   "usuarios abandonados": 206
+   "usuarios abandonados": 205
   },
   "2006.06": {
    "noticias": 4070,
@@ -6145,7 +6182,7 @@ var modelos = {
    "usuarios activos": 3879,
    "usuarios creados": 2360,
    "usuarios eliminados": 39,
-   "usuarios abandonados": 514
+   "usuarios abandonados": 513
   },
   "2006.12": {
    "noticias": 9684,
@@ -6162,8 +6199,8 @@ var modelos = {
    "posts": 0,
    "usuarios activos": 5219,
    "usuarios creados": 3088,
-   "usuarios eliminados": 47,
-   "usuarios abandonados": 787
+   "usuarios eliminados": 48,
+   "usuarios abandonados": 786
   },
   "2007.02": {
    "noticias": 13138,
@@ -6217,7 +6254,7 @@ var modelos = {
    "usuarios activos": 6831,
    "usuarios creados": 2847,
    "usuarios eliminados": 154,
-   "usuarios abandonados": 1005
+   "usuarios abandonados": 1004
   },
   "2007.08": {
    "noticias": 14035,
@@ -6262,7 +6299,7 @@ var modelos = {
    "usuarios activos": 7691,
    "usuarios creados": 3473,
    "usuarios eliminados": 183,
-   "usuarios abandonados": 997
+   "usuarios abandonados": 996
   },
   "2008.01": {
    "noticias": 17369,
@@ -6289,7 +6326,7 @@ var modelos = {
    "usuarios activos": 8969,
    "usuarios creados": 3644,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 1171
+   "usuarios abandonados": 1170
   },
   "2008.04": {
    "noticias": 20893,
@@ -6343,7 +6380,7 @@ var modelos = {
    "usuarios activos": 10315,
    "usuarios creados": 3507,
    "usuarios eliminados": 240,
-   "usuarios abandonados": 1257
+   "usuarios abandonados": 1255
   },
   "2008.1": {
    "noticias": 23642,
@@ -6351,8 +6388,8 @@ var modelos = {
    "posts": 4044,
    "usuarios activos": 10355,
    "usuarios creados": 3473,
-   "usuarios eliminados": 248,
-   "usuarios abandonados": 1410
+   "usuarios eliminados": 249,
+   "usuarios abandonados": 1408
   },
   "2008.11": {
    "noticias": 20291,
@@ -6424,7 +6461,7 @@ var modelos = {
    "usuarios activos": 9940,
    "usuarios creados": 3430,
    "usuarios eliminados": 185,
-   "usuarios abandonados": 1188
+   "usuarios abandonados": 1187
   },
   "2009.07": {
    "noticias": 19966,
@@ -6433,7 +6470,7 @@ var modelos = {
    "usuarios activos": 9646,
    "usuarios creados": 3128,
    "usuarios eliminados": 181,
-   "usuarios abandonados": 1179
+   "usuarios abandonados": 1178
   },
   "2009.08": {
    "noticias": 18260,
@@ -6451,7 +6488,7 @@ var modelos = {
    "usuarios activos": 10370,
    "usuarios creados": 3073,
    "usuarios eliminados": 266,
-   "usuarios abandonados": 1211
+   "usuarios abandonados": 1210
   },
   "2009.1": {
    "noticias": 21161,
@@ -6477,8 +6514,8 @@ var modelos = {
    "posts": 14768,
    "usuarios activos": 10290,
    "usuarios creados": 2796,
-   "usuarios eliminados": 189,
-   "usuarios abandonados": 1214
+   "usuarios eliminados": 190,
+   "usuarios abandonados": 1212
   },
   "2010.01": {
    "noticias": 21573,
@@ -6505,7 +6542,7 @@ var modelos = {
    "usuarios activos": 10308,
    "usuarios creados": 3167,
    "usuarios eliminados": 212,
-   "usuarios abandonados": 1333
+   "usuarios abandonados": 1332
   },
   "2010.04": {
    "noticias": 20208,
@@ -6514,7 +6551,7 @@ var modelos = {
    "usuarios activos": 10036,
    "usuarios creados": 4448,
    "usuarios eliminados": 162,
-   "usuarios abandonados": 1251
+   "usuarios abandonados": 1250
   },
   "2010.05": {
    "noticias": 22032,
@@ -6532,7 +6569,7 @@ var modelos = {
    "usuarios activos": 10856,
    "usuarios creados": 5259,
    "usuarios eliminados": 269,
-   "usuarios abandonados": 1370
+   "usuarios abandonados": 1368
   },
   "2010.07": {
    "noticias": 19046,
@@ -6541,7 +6578,7 @@ var modelos = {
    "usuarios activos": 10447,
    "usuarios creados": 4870,
    "usuarios eliminados": 235,
-   "usuarios abandonados": 1262
+   "usuarios abandonados": 1261
   },
   "2010.08": {
    "noticias": 17941,
@@ -6550,7 +6587,7 @@ var modelos = {
    "usuarios activos": 9705,
    "usuarios creados": 4988,
    "usuarios eliminados": 268,
-   "usuarios abandonados": 1098
+   "usuarios abandonados": 1096
   },
   "2010.09": {
    "noticias": 18791,
@@ -6559,7 +6596,7 @@ var modelos = {
    "usuarios activos": 10435,
    "usuarios creados": 4910,
    "usuarios eliminados": 238,
-   "usuarios abandonados": 1237
+   "usuarios abandonados": 1236
   },
   "2010.1": {
    "noticias": 18138,
@@ -6577,7 +6614,7 @@ var modelos = {
    "usuarios activos": 10553,
    "usuarios creados": 5468,
    "usuarios eliminados": 268,
-   "usuarios abandonados": 1375
+   "usuarios abandonados": 1374
   },
   "2010.12": {
    "noticias": 18956,
@@ -6586,7 +6623,7 @@ var modelos = {
    "usuarios activos": 11250,
    "usuarios creados": 5907,
    "usuarios eliminados": 253,
-   "usuarios abandonados": 1387
+   "usuarios abandonados": 1383
   },
   "2011.01": {
    "noticias": 21226,
@@ -6595,7 +6632,7 @@ var modelos = {
    "usuarios activos": 11477,
    "usuarios creados": 5805,
    "usuarios eliminados": 263,
-   "usuarios abandonados": 1426
+   "usuarios abandonados": 1422
   },
   "2011.02": {
    "noticias": 21781,
@@ -6612,8 +6649,8 @@ var modelos = {
    "posts": 14081,
    "usuarios activos": 12205,
    "usuarios creados": 6889,
-   "usuarios eliminados": 304,
-   "usuarios abandonados": 1568
+   "usuarios eliminados": 305,
+   "usuarios abandonados": 1567
   },
   "2011.04": {
    "noticias": 20810,
@@ -6622,7 +6659,7 @@ var modelos = {
    "usuarios activos": 11483,
    "usuarios creados": 5520,
    "usuarios eliminados": 259,
-   "usuarios abandonados": 1460
+   "usuarios abandonados": 1458
   },
   "2011.05": {
    "noticias": 24264,
@@ -6631,7 +6668,7 @@ var modelos = {
    "usuarios activos": 12784,
    "usuarios creados": 6666,
    "usuarios eliminados": 250,
-   "usuarios abandonados": 1612
+   "usuarios abandonados": 1610
   },
   "2011.06": {
    "noticias": 23190,
@@ -6640,7 +6677,7 @@ var modelos = {
    "usuarios activos": 12442,
    "usuarios creados": 5761,
    "usuarios eliminados": 268,
-   "usuarios abandonados": 1458
+   "usuarios abandonados": 1454
   },
   "2011.07": {
    "noticias": 20234,
@@ -6649,7 +6686,7 @@ var modelos = {
    "usuarios activos": 11518,
    "usuarios creados": 5008,
    "usuarios eliminados": 248,
-   "usuarios abandonados": 1267
+   "usuarios abandonados": 1266
   },
   "2011.08": {
    "noticias": 20903,
@@ -6685,7 +6722,7 @@ var modelos = {
    "usuarios activos": 12791,
    "usuarios creados": 5760,
    "usuarios eliminados": 246,
-   "usuarios abandonados": 1699
+   "usuarios abandonados": 1698
   },
   "2011.12": {
    "noticias": 23816,
@@ -6739,7 +6776,7 @@ var modelos = {
    "usuarios activos": 11971,
    "usuarios creados": 4585,
    "usuarios eliminados": 222,
-   "usuarios abandonados": 1483
+   "usuarios abandonados": 1482
   },
   "2012.06": {
    "noticias": 20328,
@@ -6747,8 +6784,8 @@ var modelos = {
    "posts": 20490,
    "usuarios activos": 11609,
    "usuarios creados": 3992,
-   "usuarios eliminados": 251,
-   "usuarios abandonados": 1394
+   "usuarios eliminados": 252,
+   "usuarios abandonados": 1390
   },
   "2012.07": {
    "noticias": 20300,
@@ -6775,7 +6812,7 @@ var modelos = {
    "usuarios activos": 11474,
    "usuarios creados": 4545,
    "usuarios eliminados": 289,
-   "usuarios abandonados": 1270
+   "usuarios abandonados": 1269
   },
   "2012.1": {
    "noticias": 20906,
@@ -6784,7 +6821,7 @@ var modelos = {
    "usuarios activos": 11667,
    "usuarios creados": 4371,
    "usuarios eliminados": 233,
-   "usuarios abandonados": 1570
+   "usuarios abandonados": 1568
   },
   "2012.11": {
    "noticias": 20276,
@@ -6793,7 +6830,7 @@ var modelos = {
    "usuarios activos": 11306,
    "usuarios creados": 3649,
    "usuarios eliminados": 259,
-   "usuarios abandonados": 1421
+   "usuarios abandonados": 1418
   },
   "2012.12": {
    "noticias": 18032,
@@ -6802,7 +6839,7 @@ var modelos = {
    "usuarios activos": 10537,
    "usuarios creados": 4633,
    "usuarios eliminados": 189,
-   "usuarios abandonados": 1289
+   "usuarios abandonados": 1287
   },
   "2013.01": {
    "noticias": 22385,
@@ -6810,8 +6847,8 @@ var modelos = {
    "posts": 15007,
    "usuarios activos": 11254,
    "usuarios creados": 4660,
-   "usuarios eliminados": 263,
-   "usuarios abandonados": 1368
+   "usuarios eliminados": 264,
+   "usuarios abandonados": 1366
   },
   "2013.02": {
    "noticias": 20110,
@@ -6820,7 +6857,7 @@ var modelos = {
    "usuarios activos": 10976,
    "usuarios creados": 4297,
    "usuarios eliminados": 232,
-   "usuarios abandonados": 1371
+   "usuarios abandonados": 1369
   },
   "2013.03": {
    "noticias": 19937,
@@ -6829,7 +6866,7 @@ var modelos = {
    "usuarios activos": 10886,
    "usuarios creados": 4219,
    "usuarios eliminados": 309,
-   "usuarios abandonados": 1452
+   "usuarios abandonados": 1450
   },
   "2013.04": {
    "noticias": 21074,
@@ -6838,7 +6875,7 @@ var modelos = {
    "usuarios activos": 10857,
    "usuarios creados": 4636,
    "usuarios eliminados": 264,
-   "usuarios abandonados": 1415
+   "usuarios abandonados": 1412
   },
   "2013.05": {
    "noticias": 20609,
@@ -6856,7 +6893,7 @@ var modelos = {
    "usuarios activos": 10245,
    "usuarios creados": 4037,
    "usuarios eliminados": 227,
-   "usuarios abandonados": 1226
+   "usuarios abandonados": 1225
   },
   "2013.07": {
    "noticias": 17964,
@@ -6864,8 +6901,8 @@ var modelos = {
    "posts": 17483,
    "usuarios activos": 9894,
    "usuarios creados": 3919,
-   "usuarios eliminados": 229,
-   "usuarios abandonados": 1200
+   "usuarios eliminados": 230,
+   "usuarios abandonados": 1199
   },
   "2013.08": {
    "noticias": 15049,
@@ -6874,7 +6911,7 @@ var modelos = {
    "usuarios activos": 9249,
    "usuarios creados": 3678,
    "usuarios eliminados": 148,
-   "usuarios abandonados": 983
+   "usuarios abandonados": 981
   },
   "2013.09": {
    "noticias": 16853,
@@ -6882,8 +6919,8 @@ var modelos = {
    "posts": 15480,
    "usuarios activos": 9767,
    "usuarios creados": 3732,
-   "usuarios eliminados": 163,
-   "usuarios abandonados": 1070
+   "usuarios eliminados": 165,
+   "usuarios abandonados": 1068
   },
   "2013.1": {
    "noticias": 17374,
@@ -6892,7 +6929,7 @@ var modelos = {
    "usuarios activos": 9837,
    "usuarios creados": 4103,
    "usuarios eliminados": 208,
-   "usuarios abandonados": 1202
+   "usuarios abandonados": 1200
   },
   "2013.11": {
    "noticias": 15397,
@@ -6901,7 +6938,7 @@ var modelos = {
    "usuarios activos": 9537,
    "usuarios creados": 3901,
    "usuarios eliminados": 159,
-   "usuarios abandonados": 1240
+   "usuarios abandonados": 1238
   },
   "2013.12": {
    "noticias": 14127,
@@ -6909,8 +6946,8 @@ var modelos = {
    "posts": 12653,
    "usuarios activos": 9091,
    "usuarios creados": 3832,
-   "usuarios eliminados": 144,
-   "usuarios abandonados": 1045
+   "usuarios eliminados": 145,
+   "usuarios abandonados": 1040
   },
   "2014.01": {
    "noticias": 16301,
@@ -6928,7 +6965,7 @@ var modelos = {
    "usuarios activos": 9592,
    "usuarios creados": 3939,
    "usuarios eliminados": 148,
-   "usuarios abandonados": 1099
+   "usuarios abandonados": 1097
   },
   "2014.03": {
    "noticias": 16314,
@@ -6937,7 +6974,7 @@ var modelos = {
    "usuarios activos": 9229,
    "usuarios creados": 4240,
    "usuarios eliminados": 192,
-   "usuarios abandonados": 1045
+   "usuarios abandonados": 1044
   },
   "2014.04": {
    "noticias": 15742,
@@ -6946,7 +6983,7 @@ var modelos = {
    "usuarios activos": 8788,
    "usuarios creados": 3813,
    "usuarios eliminados": 186,
-   "usuarios abandonados": 977
+   "usuarios abandonados": 975
   },
   "2014.05": {
    "noticias": 16200,
@@ -6955,7 +6992,7 @@ var modelos = {
    "usuarios activos": 9290,
    "usuarios creados": 4001,
    "usuarios eliminados": 233,
-   "usuarios abandonados": 1069
+   "usuarios abandonados": 1068
   },
   "2014.06": {
    "noticias": 15736,
@@ -6973,7 +7010,7 @@ var modelos = {
    "usuarios activos": 9037,
    "usuarios creados": 3777,
    "usuarios eliminados": 214,
-   "usuarios abandonados": 979
+   "usuarios abandonados": 978
   },
   "2014.08": {
    "noticias": 14113,
@@ -6982,7 +7019,7 @@ var modelos = {
    "usuarios activos": 8647,
    "usuarios creados": 3621,
    "usuarios eliminados": 237,
-   "usuarios abandonados": 827
+   "usuarios abandonados": 825
   },
   "2014.09": {
    "noticias": 14568,
@@ -6991,7 +7028,7 @@ var modelos = {
    "usuarios activos": 9083,
    "usuarios creados": 3347,
    "usuarios eliminados": 215,
-   "usuarios abandonados": 896
+   "usuarios abandonados": 893
   },
   "2014.1": {
    "noticias": 17254,
@@ -7000,7 +7037,7 @@ var modelos = {
    "usuarios activos": 9512,
    "usuarios creados": 3234,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 985
+   "usuarios abandonados": 984
   },
   "2014.11": {
    "noticias": 15393,
@@ -7008,8 +7045,8 @@ var modelos = {
    "posts": 10570,
    "usuarios activos": 9099,
    "usuarios creados": 2959,
-   "usuarios eliminados": 207,
-   "usuarios abandonados": 858
+   "usuarios eliminados": 208,
+   "usuarios abandonados": 856
   },
   "2014.12": {
    "noticias": 14556,
@@ -7018,7 +7055,7 @@ var modelos = {
    "usuarios activos": 8995,
    "usuarios creados": 2785,
    "usuarios eliminados": 166,
-   "usuarios abandonados": 880
+   "usuarios abandonados": 879
   },
   "2015.01": {
    "noticias": 15382,
@@ -7027,7 +7064,7 @@ var modelos = {
    "usuarios activos": 9291,
    "usuarios creados": 3102,
    "usuarios eliminados": 221,
-   "usuarios abandonados": 908
+   "usuarios abandonados": 904
   },
   "2015.02": {
    "noticias": 14813,
@@ -7036,7 +7073,7 @@ var modelos = {
    "usuarios activos": 9129,
    "usuarios creados": 3310,
    "usuarios eliminados": 266,
-   "usuarios abandonados": 934
+   "usuarios abandonados": 931
   },
   "2015.03": {
    "noticias": 14925,
@@ -7044,8 +7081,8 @@ var modelos = {
    "posts": 14062,
    "usuarios activos": 9008,
    "usuarios creados": 3392,
-   "usuarios eliminados": 194,
-   "usuarios abandonados": 895
+   "usuarios eliminados": 195,
+   "usuarios abandonados": 889
   },
   "2015.04": {
    "noticias": 14707,
@@ -7054,7 +7091,7 @@ var modelos = {
    "usuarios activos": 8792,
    "usuarios creados": 2973,
    "usuarios eliminados": 230,
-   "usuarios abandonados": 795
+   "usuarios abandonados": 793
   },
   "2015.05": {
    "noticias": 15366,
@@ -7063,7 +7100,7 @@ var modelos = {
    "usuarios activos": 9186,
    "usuarios creados": 3252,
    "usuarios eliminados": 182,
-   "usuarios abandonados": 892
+   "usuarios abandonados": 890
   },
   "2015.06": {
    "noticias": 13967,
@@ -7072,7 +7109,7 @@ var modelos = {
    "usuarios activos": 9035,
    "usuarios creados": 3034,
    "usuarios eliminados": 273,
-   "usuarios abandonados": 885
+   "usuarios abandonados": 881
   },
   "2015.07": {
    "noticias": 13180,
@@ -7081,7 +7118,7 @@ var modelos = {
    "usuarios activos": 8722,
    "usuarios creados": 2721,
    "usuarios eliminados": 333,
-   "usuarios abandonados": 748
+   "usuarios abandonados": 745
   },
   "2015.08": {
    "noticias": 12119,
@@ -7090,7 +7127,7 @@ var modelos = {
    "usuarios activos": 8097,
    "usuarios creados": 2470,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 753
+   "usuarios abandonados": 747
   },
   "2015.09": {
    "noticias": 12031,
@@ -7099,7 +7136,7 @@ var modelos = {
    "usuarios activos": 8498,
    "usuarios creados": 2457,
    "usuarios eliminados": 223,
-   "usuarios abandonados": 701
+   "usuarios abandonados": 700
   },
   "2015.1": {
    "noticias": 13783,
@@ -7108,7 +7145,7 @@ var modelos = {
    "usuarios activos": 8568,
    "usuarios creados": 2750,
    "usuarios eliminados": 299,
-   "usuarios abandonados": 753
+   "usuarios abandonados": 750
   },
   "2015.11": {
    "noticias": 14222,
@@ -7117,7 +7154,7 @@ var modelos = {
    "usuarios activos": 8746,
    "usuarios creados": 3020,
    "usuarios eliminados": 337,
-   "usuarios abandonados": 757
+   "usuarios abandonados": 756
   },
   "2015.12": {
    "noticias": 14246,
@@ -7125,8 +7162,8 @@ var modelos = {
    "posts": 17386,
    "usuarios activos": 8674,
    "usuarios creados": 2596,
-   "usuarios eliminados": 229,
-   "usuarios abandonados": 800
+   "usuarios eliminados": 231,
+   "usuarios abandonados": 797
   },
   "2016.01": {
    "noticias": 14722,
@@ -7134,8 +7171,8 @@ var modelos = {
    "posts": 17681,
    "usuarios activos": 8479,
    "usuarios creados": 2730,
-   "usuarios eliminados": 226,
-   "usuarios abandonados": 658
+   "usuarios eliminados": 227,
+   "usuarios abandonados": 651
   },
   "2016.02": {
    "noticias": 14554,
@@ -7144,7 +7181,7 @@ var modelos = {
    "usuarios activos": 8533,
    "usuarios creados": 2929,
    "usuarios eliminados": 249,
-   "usuarios abandonados": 777
+   "usuarios abandonados": 776
   },
   "2016.03": {
    "noticias": 12999,
@@ -7153,7 +7190,7 @@ var modelos = {
    "usuarios activos": 8318,
    "usuarios creados": 2446,
    "usuarios eliminados": 214,
-   "usuarios abandonados": 751
+   "usuarios abandonados": 745
   },
   "2016.04": {
    "noticias": 13235,
@@ -7162,7 +7199,7 @@ var modelos = {
    "usuarios activos": 8234,
    "usuarios creados": 2577,
    "usuarios eliminados": 200,
-   "usuarios abandonados": 728
+   "usuarios abandonados": 723
   },
   "2016.05": {
    "noticias": 13296,
@@ -7171,7 +7208,7 @@ var modelos = {
    "usuarios activos": 8390,
    "usuarios creados": 2565,
    "usuarios eliminados": 300,
-   "usuarios abandonados": 726
+   "usuarios abandonados": 723
   },
   "2016.06": {
    "noticias": 12404,
@@ -7180,7 +7217,7 @@ var modelos = {
    "usuarios activos": 8483,
    "usuarios creados": 2194,
    "usuarios eliminados": 258,
-   "usuarios abandonados": 725
+   "usuarios abandonados": 720
   },
   "2016.07": {
    "noticias": 11130,
@@ -7189,7 +7226,7 @@ var modelos = {
    "usuarios activos": 7998,
    "usuarios creados": 2028,
    "usuarios eliminados": 177,
-   "usuarios abandonados": 619
+   "usuarios abandonados": 617
   },
   "2016.08": {
    "noticias": 10213,
@@ -7198,7 +7235,7 @@ var modelos = {
    "usuarios activos": 7653,
    "usuarios creados": 1809,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 593
+   "usuarios abandonados": 587
   },
   "2016.09": {
    "noticias": 10744,
@@ -7207,7 +7244,7 @@ var modelos = {
    "usuarios activos": 7846,
    "usuarios creados": 1981,
    "usuarios eliminados": 198,
-   "usuarios abandonados": 659
+   "usuarios abandonados": 655
   },
   "2016.1": {
    "noticias": 10180,
@@ -7216,7 +7253,7 @@ var modelos = {
    "usuarios activos": 7603,
    "usuarios creados": 1931,
    "usuarios eliminados": 135,
-   "usuarios abandonados": 673
+   "usuarios abandonados": 670
   },
   "2016.11": {
    "noticias": 10037,
@@ -7225,7 +7262,7 @@ var modelos = {
    "usuarios activos": 7549,
    "usuarios creados": 2783,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 632
+   "usuarios abandonados": 628
   },
   "2016.12": {
    "noticias": 9849,
@@ -7233,8 +7270,8 @@ var modelos = {
    "posts": 15589,
    "usuarios activos": 7447,
    "usuarios creados": 3076,
-   "usuarios eliminados": 169,
-   "usuarios abandonados": 641
+   "usuarios eliminados": 170,
+   "usuarios abandonados": 637
   },
   "2017.01": {
    "noticias": 10863,
@@ -7243,7 +7280,7 @@ var modelos = {
    "usuarios activos": 7746,
    "usuarios creados": 3238,
    "usuarios eliminados": 204,
-   "usuarios abandonados": 672
+   "usuarios abandonados": 667
   },
   "2017.02": {
    "noticias": 9773,
@@ -7252,7 +7289,7 @@ var modelos = {
    "usuarios activos": 7390,
    "usuarios creados": 3011,
    "usuarios eliminados": 152,
-   "usuarios abandonados": 667
+   "usuarios abandonados": 665
   },
   "2017.03": {
    "noticias": 10678,
@@ -7261,7 +7298,7 @@ var modelos = {
    "usuarios activos": 7269,
    "usuarios creados": 3052,
    "usuarios eliminados": 128,
-   "usuarios abandonados": 724
+   "usuarios abandonados": 714
   },
   "2017.04": {
    "noticias": 9820,
@@ -7270,7 +7307,7 @@ var modelos = {
    "usuarios activos": 7024,
    "usuarios creados": 2043,
    "usuarios eliminados": 127,
-   "usuarios abandonados": 537
+   "usuarios abandonados": 535
   },
   "2017.05": {
    "noticias": 11827,
@@ -7279,7 +7316,7 @@ var modelos = {
    "usuarios activos": 7725,
    "usuarios creados": 2423,
    "usuarios eliminados": 146,
-   "usuarios abandonados": 675
+   "usuarios abandonados": 671
   },
   "2017.06": {
    "noticias": 10612,
@@ -7288,7 +7325,7 @@ var modelos = {
    "usuarios activos": 7527,
    "usuarios creados": 2297,
    "usuarios eliminados": 149,
-   "usuarios abandonados": 668
+   "usuarios abandonados": 657
   },
   "2017.07": {
    "noticias": 10832,
@@ -7297,7 +7334,7 @@ var modelos = {
    "usuarios activos": 7402,
    "usuarios creados": 2618,
    "usuarios eliminados": 235,
-   "usuarios abandonados": 625
+   "usuarios abandonados": 619
   },
   "2017.08": {
    "noticias": 11061,
@@ -7305,8 +7342,8 @@ var modelos = {
    "posts": 15240,
    "usuarios activos": 7393,
    "usuarios creados": 2958,
-   "usuarios eliminados": 202,
-   "usuarios abandonados": 618
+   "usuarios eliminados": 203,
+   "usuarios abandonados": 615
   },
   "2017.09": {
    "noticias": 12405,
@@ -7315,7 +7352,7 @@ var modelos = {
    "usuarios activos": 7600,
    "usuarios creados": 2839,
    "usuarios eliminados": 185,
-   "usuarios abandonados": 630
+   "usuarios abandonados": 623
   },
   "2017.1": {
    "noticias": 14696,
@@ -7323,8 +7360,8 @@ var modelos = {
    "posts": 14493,
    "usuarios activos": 8290,
    "usuarios creados": 3308,
-   "usuarios eliminados": 280,
-   "usuarios abandonados": 810
+   "usuarios eliminados": 279,
+   "usuarios abandonados": 802
   },
   "2017.11": {
    "noticias": 12919,
@@ -7333,7 +7370,7 @@ var modelos = {
    "usuarios activos": 7575,
    "usuarios creados": 2904,
    "usuarios eliminados": 235,
-   "usuarios abandonados": 706
+   "usuarios abandonados": 702
   },
   "2017.12": {
    "noticias": 10838,
@@ -7342,7 +7379,7 @@ var modelos = {
    "usuarios activos": 7057,
    "usuarios creados": 2289,
    "usuarios eliminados": 196,
-   "usuarios abandonados": 572
+   "usuarios abandonados": 568
   },
   "2018.01": {
    "noticias": 12429,
@@ -7350,8 +7387,8 @@ var modelos = {
    "posts": 9758,
    "usuarios activos": 7435,
    "usuarios creados": 2718,
-   "usuarios eliminados": 207,
-   "usuarios abandonados": 602
+   "usuarios eliminados": 208,
+   "usuarios abandonados": 598
   },
   "2018.02": {
    "noticias": 11946,
@@ -7359,8 +7396,8 @@ var modelos = {
    "posts": 9368,
    "usuarios activos": 7212,
    "usuarios creados": 2390,
-   "usuarios eliminados": 208,
-   "usuarios abandonados": 546
+   "usuarios eliminados": 209,
+   "usuarios abandonados": 540
   },
   "2018.03": {
    "noticias": 13277,
@@ -7369,7 +7406,7 @@ var modelos = {
    "usuarios activos": 7435,
    "usuarios creados": 2447,
    "usuarios eliminados": 199,
-   "usuarios abandonados": 648
+   "usuarios abandonados": 642
   },
   "2018.04": {
    "noticias": 14127,
@@ -7378,7 +7415,7 @@ var modelos = {
    "usuarios activos": 7398,
    "usuarios creados": 2537,
    "usuarios eliminados": 169,
-   "usuarios abandonados": 593
+   "usuarios abandonados": 585
   },
   "2018.05": {
    "noticias": 14146,
@@ -7387,7 +7424,7 @@ var modelos = {
    "usuarios activos": 7526,
    "usuarios creados": 2508,
    "usuarios eliminados": 238,
-   "usuarios abandonados": 605
+   "usuarios abandonados": 597
   },
   "2018.06": {
    "noticias": 13128,
@@ -7396,7 +7433,7 @@ var modelos = {
    "usuarios activos": 7400,
    "usuarios creados": 2279,
    "usuarios eliminados": 236,
-   "usuarios abandonados": 585
+   "usuarios abandonados": 578
   },
   "2018.07": {
    "noticias": 12143,
@@ -7405,7 +7442,7 @@ var modelos = {
    "usuarios activos": 7368,
    "usuarios creados": 2242,
    "usuarios eliminados": 189,
-   "usuarios abandonados": 581
+   "usuarios abandonados": 576
   },
   "2018.08": {
    "noticias": 12393,
@@ -7414,7 +7451,7 @@ var modelos = {
    "usuarios activos": 7279,
    "usuarios creados": 2362,
    "usuarios eliminados": 177,
-   "usuarios abandonados": 560
+   "usuarios abandonados": 549
   },
   "2018.09": {
    "noticias": 12858,
@@ -7423,7 +7460,7 @@ var modelos = {
    "usuarios activos": 7299,
    "usuarios creados": 2098,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 583
+   "usuarios abandonados": 571
   },
   "2018.1": {
    "noticias": 12667,
@@ -7432,7 +7469,7 @@ var modelos = {
    "usuarios activos": 7180,
    "usuarios creados": 2063,
    "usuarios eliminados": 164,
-   "usuarios abandonados": 543
+   "usuarios abandonados": 536
   },
   "2018.11": {
    "noticias": 11697,
@@ -7440,8 +7477,8 @@ var modelos = {
    "posts": 8845,
    "usuarios activos": 7013,
    "usuarios creados": 2047,
-   "usuarios eliminados": 158,
-   "usuarios abandonados": 528
+   "usuarios eliminados": 159,
+   "usuarios abandonados": 516
   },
   "2018.12": {
    "noticias": 10873,
@@ -7450,7 +7487,7 @@ var modelos = {
    "usuarios activos": 6944,
    "usuarios creados": 2051,
    "usuarios eliminados": 185,
-   "usuarios abandonados": 505
+   "usuarios abandonados": 490
   },
   "2019.01": {
    "noticias": 11890,
@@ -7458,8 +7495,8 @@ var modelos = {
    "posts": 8563,
    "usuarios activos": 7263,
    "usuarios creados": 3073,
-   "usuarios eliminados": 197,
-   "usuarios abandonados": 569
+   "usuarios eliminados": 198,
+   "usuarios abandonados": 546
   },
   "2019.02": {
    "noticias": 11690,
@@ -7468,7 +7505,7 @@ var modelos = {
    "usuarios activos": 7136,
    "usuarios creados": 2301,
    "usuarios eliminados": 209,
-   "usuarios abandonados": 597
+   "usuarios abandonados": 581
   },
   "2019.03": {
    "noticias": 13196,
@@ -7476,8 +7513,8 @@ var modelos = {
    "posts": 8792,
    "usuarios activos": 7320,
    "usuarios creados": 2460,
-   "usuarios eliminados": 252,
-   "usuarios abandonados": 618
+   "usuarios eliminados": 253,
+   "usuarios abandonados": 597
   },
   "2019.04": {
    "noticias": 12214,
@@ -7486,7 +7523,7 @@ var modelos = {
    "usuarios activos": 7118,
    "usuarios creados": 2518,
    "usuarios eliminados": 173,
-   "usuarios abandonados": 599
+   "usuarios abandonados": 579
   },
   "2019.05": {
    "noticias": 12238,
@@ -7495,7 +7532,7 @@ var modelos = {
    "usuarios activos": 7285,
    "usuarios creados": 2493,
    "usuarios eliminados": 261,
-   "usuarios abandonados": 636
+   "usuarios abandonados": 604
   },
   "2019.06": {
    "noticias": 11997,
@@ -7504,7 +7541,7 @@ var modelos = {
    "usuarios activos": 7030,
    "usuarios creados": 2674,
    "usuarios eliminados": 205,
-   "usuarios abandonados": 590
+   "usuarios abandonados": 568
   },
   "2019.07": {
    "noticias": 11946,
@@ -7513,7 +7550,7 @@ var modelos = {
    "usuarios activos": 6925,
    "usuarios creados": 2489,
    "usuarios eliminados": 248,
-   "usuarios abandonados": 606
+   "usuarios abandonados": 571
   },
   "2019.08": {
    "noticias": 10860,
@@ -7522,7 +7559,7 @@ var modelos = {
    "usuarios activos": 6664,
    "usuarios creados": 2210,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 575
+   "usuarios abandonados": 543
   },
   "2019.09": {
    "noticias": 11230,
@@ -7531,7 +7568,7 @@ var modelos = {
    "usuarios activos": 6763,
    "usuarios creados": 2300,
    "usuarios eliminados": 197,
-   "usuarios abandonados": 575
+   "usuarios abandonados": 531
   },
   "2019.1": {
    "noticias": 12264,
@@ -7540,7 +7577,7 @@ var modelos = {
    "usuarios activos": 7147,
    "usuarios creados": 2828,
    "usuarios eliminados": 288,
-   "usuarios abandonados": 714
+   "usuarios abandonados": 662
   },
   "2019.11": {
    "noticias": 12228,
@@ -7549,7 +7586,7 @@ var modelos = {
    "usuarios activos": 7049,
    "usuarios creados": 2557,
    "usuarios eliminados": 278,
-   "usuarios abandonados": 708
+   "usuarios abandonados": 647
   },
   "2019.12": {
    "noticias": 10253,
@@ -7557,8 +7594,8 @@ var modelos = {
    "posts": 8250,
    "usuarios activos": 6631,
    "usuarios creados": 2340,
-   "usuarios eliminados": 181,
-   "usuarios abandonados": 720
+   "usuarios eliminados": 180,
+   "usuarios abandonados": 625
   },
   "2020.01": {
    "noticias": 11660,
@@ -7566,7 +7603,7 @@ var modelos = {
    "posts": 10610,
    "usuarios activos": 6871,
    "usuarios creados": 2735,
-   "usuarios eliminados": 219
+   "usuarios eliminados": 218
   },
   "2020.02": {
    "noticias": 12102,
@@ -7574,7 +7611,7 @@ var modelos = {
    "posts": 9790,
    "usuarios activos": 6816,
    "usuarios creados": 2677,
-   "usuarios eliminados": 246
+   "usuarios eliminados": 250
   },
   "2020.03": {
    "noticias": 16778,
@@ -7582,15 +7619,23 @@ var modelos = {
    "posts": 17050,
    "usuarios activos": 8301,
    "usuarios creados": 4684,
-   "usuarios eliminados": 114
+   "usuarios eliminados": 339
   },
   "2020.04": {
    "noticias": 18134,
-   "comentarios": 350051,
+   "comentarios": 352533,
    "posts": 16078,
-   "usuarios activos": 8780,
+   "usuarios activos": 8797,
    "usuarios creados": 5542,
-   "usuarios eliminados": 93
+   "usuarios eliminados": 193
+  },
+  "2020.05": {
+   "noticias": 17163,
+   "comentarios": 329509,
+   "posts": 15398,
+   "usuarios activos": 8495,
+   "usuarios creados": 4857,
+   "usuarios eliminados": 89
   }
  },
  "dominios_todos": {
@@ -10533,6 +10578,7 @@ var modelos = {
    "alcalde": 5,
    "Alemania": 22,
    "alimentos": 16,
+   "alquiler": 7,
    "amenazas": 8,
    "Andalucia": 8,
    "animal": 31,
@@ -10559,6 +10605,7 @@ var modelos = {
    "Barcelona": 34,
    "bicicleta": 13,
    "blog": 168,
+   "bolsa": 8,
    "Brasil": 11,
    "burbuja": 39,
    "Bush": 60,
@@ -10754,6 +10801,7 @@ var modelos = {
    "periodismo": 62,
    "perros": 19,
    "petroleo": 15,
+   "piratas": 23,
    "pirateria": 70,
    "pisos": 12,
    "pobreza": 27,
@@ -10862,6 +10910,7 @@ var modelos = {
    "alcalde": 49,
    "Alemania": 71,
    "alimentos": 27,
+   "alquiler": 28,
    "amenazas": 29,
    "Andalucia": 27,
    "android": 2,
@@ -10889,6 +10938,7 @@ var modelos = {
    "Barcelona": 95,
    "bicicleta": 30,
    "blog": 86,
+   "bolsa": 30,
    "Brasil": 36,
    "burbuja": 128,
    "Bush": 125,
@@ -11086,6 +11136,7 @@ var modelos = {
    "periodismo": 72,
    "perros": 52,
    "petroleo": 43,
+   "piratas": 41,
    "pirateria": 85,
    "pisos": 48,
    "pobreza": 40,
@@ -11198,6 +11249,7 @@ var modelos = {
    "alcalde": 35,
    "Alemania": 90,
    "alimentos": 45,
+   "alquiler": 29,
    "amenazas": 27,
    "Andalucia": 38,
    "android": 4,
@@ -11225,6 +11277,7 @@ var modelos = {
    "Barcelona": 114,
    "bicicleta": 78,
    "blog": 76,
+   "bolsa": 64,
    "Brasil": 44,
    "burbuja": 86,
    "Bush": 110,
@@ -11425,6 +11478,7 @@ var modelos = {
    "periodismo": 73,
    "perros": 55,
    "petroleo": 118,
+   "piratas": 52,
    "pirateria": 69,
    "pisos": 46,
    "pobreza": 46,
@@ -11537,6 +11591,7 @@ var modelos = {
    "alcalde": 37,
    "Alemania": 93,
    "alimentos": 32,
+   "alquiler": 17,
    "amenazas": 26,
    "Andalucia": 57,
    "android": 9,
@@ -11565,6 +11620,7 @@ var modelos = {
    "B\u00e1rcenas": 15,
    "bicicleta": 60,
    "blog": 80,
+   "bolsa": 14,
    "Brasil": 62,
    "burbuja": 18,
    "Bush": 41,
@@ -11765,6 +11821,7 @@ var modelos = {
    "periodismo": 98,
    "perros": 60,
    "petroleo": 40,
+   "piratas": 68,
    "pirateria": 94,
    "pisos": 29,
    "pobreza": 39,
@@ -11877,6 +11934,7 @@ var modelos = {
    "alcalde": 33,
    "Alemania": 125,
    "alimentos": 34,
+   "alquiler": 14,
    "amenazas": 22,
    "Andalucia": 55,
    "android": 47,
@@ -11905,6 +11963,7 @@ var modelos = {
    "B\u00e1rcenas": 11,
    "bicicleta": 68,
    "blog": 43,
+   "bolsa": 23,
    "Brasil": 37,
    "burbuja": 30,
    "Bush": 12,
@@ -12105,6 +12164,7 @@ var modelos = {
    "periodismo": 92,
    "perros": 69,
    "petroleo": 52,
+   "piratas": 26,
    "pirateria": 77,
    "pisos": 33,
    "pobreza": 38,
@@ -12220,6 +12280,7 @@ var modelos = {
    "alcalde": 51,
    "Alemania": 145,
    "alimentos": 34,
+   "alquiler": 19,
    "amenazas": 25,
    "Andalucia": 76,
    "android": 54,
@@ -12249,6 +12310,7 @@ var modelos = {
    "B\u00e1rcenas": 1,
    "bicicleta": 50,
    "blog": 34,
+   "bolsa": 37,
    "Brasil": 37,
    "burbuja": 38,
    "Bush": 4,
@@ -12451,6 +12513,7 @@ var modelos = {
    "periodismo": 108,
    "perros": 59,
    "petroleo": 49,
+   "piratas": 17,
    "pirateria": 58,
    "pisos": 30,
    "pobreza": 43,
@@ -12566,6 +12629,7 @@ var modelos = {
    "alcalde": 65,
    "Alemania": 145,
    "alimentos": 28,
+   "alquiler": 20,
    "amenazas": 27,
    "Andalucia": 75,
    "android": 38,
@@ -12594,6 +12658,7 @@ var modelos = {
    "Barcelona": 86,
    "bicicleta": 43,
    "blog": 23,
+   "bolsa": 20,
    "Brasil": 18,
    "burbuja": 24,
    "Bush": 2,
@@ -12797,6 +12862,7 @@ var modelos = {
    "periodismo": 109,
    "perros": 43,
    "petroleo": 33,
+   "piratas": 18,
    "pirateria": 42,
    "pisos": 20,
    "pobreza": 45,
@@ -12913,6 +12979,7 @@ var modelos = {
    "alcalde": 23,
    "Alemania": 104,
    "alimentos": 28,
+   "alquiler": 15,
    "amenazas": 33,
    "Andalucia": 60,
    "android": 22,
@@ -12942,6 +13009,7 @@ var modelos = {
    "B\u00e1rcenas": 619,
    "bicicleta": 30,
    "blog": 9,
+   "bolsa": 12,
    "Brasil": 23,
    "burbuja": 14,
    "cambio climatico": 3,
@@ -13144,6 +13212,7 @@ var modelos = {
    "periodismo": 91,
    "perros": 42,
    "petroleo": 17,
+   "piratas": 8,
    "pirateria": 16,
    "pisos": 14,
    "pobreza": 26,
@@ -13259,6 +13328,7 @@ var modelos = {
    "alcalde": 34,
    "Alemania": 67,
    "alimentos": 22,
+   "alquiler": 6,
    "amenazas": 40,
    "Andalucia": 34,
    "android": 35,
@@ -13288,6 +13358,7 @@ var modelos = {
    "B\u00e1rcenas": 54,
    "bicicleta": 41,
    "blog": 6,
+   "bolsa": 13,
    "Brasil": 34,
    "burbuja": 18,
    "Bush": 3,
@@ -13493,6 +13564,7 @@ var modelos = {
    "periodismo": 93,
    "perros": 65,
    "petroleo": 38,
+   "piratas": 11,
    "pirateria": 22,
    "pisos": 7,
    "pobreza": 38,
@@ -13610,6 +13682,7 @@ var modelos = {
    "alcalde": 26,
    "Alemania": 95,
    "alimentos": 35,
+   "alquiler": 15,
    "amenazas": 31,
    "Andalucia": 87,
    "android": 25,
@@ -13639,6 +13712,7 @@ var modelos = {
    "B\u00e1rcenas": 73,
    "bicicleta": 42,
    "blog": 2,
+   "bolsa": 13,
    "Brasil": 20,
    "burbuja": 7,
    "cambio climatico": 23,
@@ -13844,6 +13918,7 @@ var modelos = {
    "periodismo": 82,
    "perros": 49,
    "petroleo": 35,
+   "piratas": 10,
    "pirateria": 9,
    "pisos": 9,
    "pobreza": 39,
@@ -13961,6 +14036,7 @@ var modelos = {
    "alcalde": 15,
    "Alemania": 59,
    "alimentos": 26,
+   "alquiler": 6,
    "amenazas": 26,
    "Andalucia": 35,
    "android": 11,
@@ -13990,6 +14066,7 @@ var modelos = {
    "B\u00e1rcenas": 38,
    "bicicleta": 27,
    "blog": 1,
+   "bolsa": 8,
    "Brasil": 27,
    "brexit": 74,
    "burbuja": 5,
@@ -14197,6 +14274,7 @@ var modelos = {
    "periodismo": 59,
    "perros": 39,
    "petroleo": 20,
+   "piratas": 8,
    "pirateria": 8,
    "pisos": 6,
    "pobreza": 18,
@@ -14315,6 +14393,7 @@ var modelos = {
    "alcalde": 13,
    "Alemania": 58,
    "alimentos": 30,
+   "alquiler": 22,
    "amenazas": 30,
    "Andalucia": 50,
    "android": 14,
@@ -14344,6 +14423,7 @@ var modelos = {
    "B\u00e1rcenas": 21,
    "bicicleta": 33,
    "blog": 1,
+   "bolsa": 14,
    "Brasil": 24,
    "brexit": 53,
    "burbuja": 10,
@@ -14550,6 +14630,7 @@ var modelos = {
    "periodismo": 46,
    "perros": 47,
    "petroleo": 13,
+   "piratas": 5,
    "pirateria": 8,
    "pisos": 18,
    "pobreza": 26,
@@ -14666,6 +14747,7 @@ var modelos = {
    "alcalde": 21,
    "Alemania": 92,
    "alimentos": 37,
+   "alquiler": 47,
    "amenazas": 36,
    "Andalucia": 63,
    "android": 9,
@@ -14695,6 +14777,7 @@ var modelos = {
    "B\u00e1rcenas": 36,
    "bicicleta": 39,
    "blog": 1,
+   "bolsa": 24,
    "Brasil": 39,
    "brexit": 79,
    "burbuja": 20,
@@ -14704,7 +14787,7 @@ var modelos = {
    "Camps": 17,
    "Canarias": 17,
    "cancer": 70,
-   "ca\u00f1on": 7,
+   "canon": 7,
    "carcel": 60,
    "Carmena": 48,
    "Catalu\u00f1a": 96,
@@ -14901,6 +14984,7 @@ var modelos = {
    "periodismo": 51,
    "perros": 58,
    "petroleo": 13,
+   "piratas": 6,
    "pirateria": 14,
    "pisos": 22,
    "pobreza": 46,
@@ -15019,11 +15103,12 @@ var modelos = {
    "alcalde": 23,
    "Alemania": 78,
    "alimentos": 25,
+   "alquiler": 40,
    "amenazas": 25,
    "Andalucia": 101,
    "android": 34,
    "animal": 44,
-   "a\u00f1os": 23,
+   "anos": 23,
    "anuncios": 8,
    "apple": 22,
    "Argentina": 35,
@@ -15048,6 +15133,7 @@ var modelos = {
    "B\u00e1rcenas": 22,
    "bicicleta": 22,
    "blog": 5,
+   "bolsa": 11,
    "Brasil": 51,
    "brexit": 130,
    "burbuja": 11,
@@ -15254,6 +15340,7 @@ var modelos = {
    "periodismo": 55,
    "perros": 43,
    "petroleo": 24,
+   "piratas": 6,
    "pirateria": 24,
    "pisos": 13,
    "pobreza": 31,
@@ -15358,8 +15445,8 @@ var modelos = {
 };;
 var tags = {
  "dominios": [
-  "*.20minutos.es",
   "20minutos.es",
+  "*.20minutos.es",
   "abadiadigital.com",
   "abc.es",
   "actualidad.rt.com",
@@ -15376,8 +15463,8 @@ var tags = {
   "astroseti.org",
   "bandaancha.eu",
   "barrapunto.com",
-  "bbc.co.uk",
   "*.bbc.co.uk",
+  "bbc.co.uk",
   "bitelia.com",
   "blogs.20minutos.es",
   "blogs.elconfidencial.com",
@@ -15407,16 +15494,16 @@ var tags = {
   "economia.elpais.com",
   "elblogsalmon.com",
   "elboletin.com",
-  "elconfidencial.com",
   "*.elconfidencial.com",
+  "elconfidencial.com",
   "elconfidencialdigital.com",
   "elcorreo.com",
   "*.elcorreo.com",
   "elcorreodigital.com",
   "eldiario.es",
   "*.eldiario.es",
-  "*.eleconomista.es",
   "eleconomista.es",
+  "*.eleconomista.es",
   "electronicafacil.net",
   "elespanol.com",
   "elindependiente.com",
@@ -15457,8 +15544,8 @@ var tags = {
   "kaosenlared.net",
   "kriptopolis.org",
   "labrujulaverde.com",
-  "lainformacion.com",
   "*.lainformacion.com",
+  "lainformacion.com",
   "lamarea.com",
   "larazon.es",
   "lasexta.com",
@@ -15484,8 +15571,8 @@ var tags = {
   "omicrono.com",
   "politica.elpais.com",
   "portaltic.es",
-  "publico.es",
   "*.publico.es",
+  "publico.es",
   "que.es",
   "rebelion.org",
   "recuerdosdepandora.com",
@@ -15610,9 +15697,11 @@ var tags = {
   "agua",
   "alcalde",
   "alimentos",
+  "alquiler",
   "amenazas",
   "android",
   "animal",
+  "anos",
   "anuncios",
   "apple",
   "armas",
@@ -15631,6 +15720,7 @@ var tags = {
   "bankia",
   "bicicleta",
   "blog",
+  "bolsa",
   "brexit",
   "burbuja",
   "cambio climatico",
@@ -15638,7 +15728,6 @@ var tags = {
   "cancer",
   "canon",
   "carcel",
-  "ca\u00f1on",
   "censura",
   "cerebro",
   "ciencia",
@@ -15789,6 +15878,7 @@ var tags = {
   "periodismo",
   "perros",
   "petroleo",
+  "piratas",
   "pirateria",
   "pisos",
   "pobreza",
@@ -15928,7 +16018,7 @@ var modelos_aux = {
   "2019 T3": 10159,
   "2019 T4": 10374,
   "2020 T1": 11174,
-  "2020 T2": 8780,
+  "2020 T2": 11055,
   "2005 S2": 404,
   "2006 S1": 3910,
   "2006 S2": 8944,
@@ -15958,7 +16048,7 @@ var modelos_aux = {
   "2018 S2": 14304,
   "2019 S1": 14429,
   "2019 S2": 13636,
-  "2020 S1": 13324,
+  "2020 S1": 14806,
   "2005": 404,
   "2006": 10657,
   "2007": 28537,
@@ -15974,6 +16064,6 @@ var modelos_aux = {
   "2017": 22577,
   "2018": 20547,
   "2019": 19348,
-  "2020": 13324
+  "2020": 14806
  }
 };
