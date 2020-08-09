@@ -155,7 +155,7 @@ def get_post_info(id):
     return api.get_post_info(id)
 
 print("-- POSTS")
-for p in tm.run(get_post_info, info.users.insert):
+for p in tm.run(get_post_info, info.posts.insert):
     p = {k:(v or "NULL") for k,v in p.items()}
     print("replace INTO POSTS (id, `date`, votes, karma, user_id) VALUES ({id}, {date}, {votes}, {karma}, {user_id});".format(**p))
 

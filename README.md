@@ -88,6 +88,7 @@ Todo esto se condensa en:
 * [`comments.py`](/comments.py): obtiene los comentarios de las noticias
 * [`posts.py`](/posts.py): obtiene los posts
 * [`python3 -m core.db users`](/core/db.py): inserta y actualiza usuarios
+* [`python3 -m core.db tags`](/core/db.py): inserta y actualiza tags
 
 # Conclusiones
 

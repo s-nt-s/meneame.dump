@@ -314,7 +314,6 @@ class DB:
             c.close()
             self.con.commit()
         def my_tm_search_user_live(id):
-            id = id[0]
             r = my_tm_search_user_data(id)
             if r and r.live is False:
                 return id

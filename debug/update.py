@@ -10,6 +10,7 @@ os.chdir(dname)
 
 def read(glb):
     for fl in sorted(glob(glb)):
+        print(fl)
         with open(fl) as f:
             for i in json.load(f):
                 yield i
