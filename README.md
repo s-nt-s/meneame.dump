@@ -72,8 +72,8 @@ se trata de un usuario eliminado y `XXXXX` es el `id`.
 Para los posts tendremos que obtener el `id` del último posts
 [directamente de la web](https://www.meneame.net/notame/), y luego
 consultar desde `1` hasta ese último `id` la información de cada
-post con [meneame.net/backend/info.php?&what=posts&id=1&fields=author](meneame.net/backend/info.php?&what=comment&id=1&fields=date,author,karma,votes) donde `1` es del `id`
-de cada post.
+post con [meneame.net/backend/info.php?&what=posts&id=1&fields=date,author,karma,votes](https://meneame.net/backend/info.php?&what=comment&id=1&fields=date,author,karma,votes)
+donde `1` es del `id` de cada post.
 
 ### Usuarios
 
@@ -92,14 +92,14 @@ Todo esto se condensa en:
 
 # Conclusiones
 
-Aunque la api de Menéame ofrece muchas información esta llena de limitaciones para
+Aunque la api de Menéame ofrece mucha información, esta llena de limitaciones para
 evitar el `abuso` que consiguen el efecto contrario, ya que provocan que para
-poder obtener toda la información disponible necesites cantidad brutal de
+poder obtener toda la información disponible necesites una cantidad brutal de
 llamadas a la apí.
 
 Pues si tenemos más de 3.000.000 de noticias, casi 30.000.000 comentarios,
 casi 600.000 usuarios y casi 2.000.000 posts (tal como es cuando se esta escribiendo
-esto) deberemos hacer entre 41.600.000 y 71.600.000 llamadas.
+esto) tendremos que hacer entre 41.600.000 y 71.600.000 llamadas.
 
 Creo sinceramente que seria mucho más razonable crear una sección `descargas`
 y proporcionar periódicamente (quizá una vez al año) un volcado de la base de datos
