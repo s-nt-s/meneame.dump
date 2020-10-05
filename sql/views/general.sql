@@ -25,7 +25,17 @@ select
   negatives,
   comments,
   tags,
-  domain,
+  CASE
+    when domain in ('20minutos.com', '20minutos.tv', 'amp.20minutos.es') then '20minutos.es'
+    when domain = 'bandaancha.st' then 'bandaancha.eu'
+    when domain = 'elpais.es' then 'elpais.com'
+    when domain = 'gizmodo.es' then 'gizmodo.com'
+    when domain = 'lavanguardia.es' then 'lavanguardia.com'
+    when domain = 'bbc.com' then domain='bbc.co.uk'
+    when domain = 'el-mundo.es' then domain='elmundo.es'
+    when domain like '%.el-mundo.es' then REPLACE(domain, '.el-mundo.es', '.elmundo.es')
+    else domain
+  END domain,
   from_unixtime(`date`) main_date,
   from_unixtime(sent_date) sent_date,
   from_unixtime(sent_date+604800) closed_date, -- fecha en que la noticia ya esta cerrada,
@@ -38,16 +48,6 @@ where
   votes != 0 and -- si tiene 0 votos es una noticia erronea
   sent_date < @cutdate -- solo noticias cerradas y de meses ya finalizados
 ;
-
-UPDATE GENERAL SET domain='20minutos.es' where domain in ('20minutos.com', '20minutos.tv', 'amp.20minutos.es');
-UPDATE GENERAL SET domain='bandaancha.eu' where domain = 'bandaancha.st';
-UPDATE GENERAL SET domain='elpais.com' where domain = 'elpais.es';
-UPDATE GENERAL SET domain='gizmodo.com' where domain = 'gizmodo.es';
-UPDATE GENERAL SET domain='lavanguardia.com' where domain = 'lavanguardia.es';
-UPDATE GENERAL SET domain='bbc.co.uk' where domain = 'bbc.com';
-UPDATE GENERAL SET domain='elmundo.es' where domain = 'el-mundo.es';
-UPDATE GENERAL SET domain=REPLACE(domain, '.el-mundo.es', '.elmundo.es') where domain like '%.el-mundo.es';
-
 
 ALTER TABLE GENERAL
 ADD PRIMARY KEY (id),

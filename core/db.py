@@ -315,7 +315,7 @@ class DB:
             self.con.commit()
         def my_tm_search_user_live(id):
             r = my_tm_search_user_data(id)
-            if r and r.live is False:
+            if r and r["live"] is False:
                 return id
             return None
         sql = "update USERS set live=0 where id "

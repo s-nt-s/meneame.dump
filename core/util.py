@@ -386,14 +386,18 @@ def extract_tags(tags):
     tags = sorted(t for t in tags if t is not None)
     return tags
 
-def mkArg(title, **kargv):
+def mkArg(title, exclusive_group=False, **kargv):
     parser = argparse.ArgumentParser(description=title)
+    if exclusive_group:
+        group = parser.add_mutually_exclusive_group(required=True)
+    else:
+        group = parser
     for k, h in kargv.items():
         if len(k)==1:
             k = "-" + k
         else:
             k = "--" + k
-        parser.add_argument(k, action='store_true', help=h)
+        group.add_argument(k, action='store_true', help=h)
     args = parser.parse_args()
     if "silent" in kargv:
         args.trazas = not args.silent
