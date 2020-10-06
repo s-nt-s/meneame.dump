@@ -24,7 +24,6 @@ api=Api()
 file_name = "fix.json"
 
 if arg.json:
-    from core.db import DB
     db = DB()
 
     def huecos(*args, **kargv):
