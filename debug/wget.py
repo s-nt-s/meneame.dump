@@ -28,6 +28,25 @@ function _url {
         URL="$1"
     fi
 }
+function _out {
+    L="$1"
+    P="$2"
+    P=$(printf "%02d" $P)
+    OUT="html/${L}-${P}.html.gz"
+}
+function dwn {
+    LINK="$1"
+    PAGES="$2"
+    _out "$LINK" "$PAGES"
+    if [ ! -f "$OUT" ]; then
+        _url "https://www.meneame.net/story/${LINK}"
+        for (( c=1; c<=$PAGES; c++ )); do
+            _out "$LINK" "$c"
+            echo -ne "${OUT}              \\033[0K\\r"
+            wget -q --header="accept-encoding: gzip" -O "${OUT}" "${URL}/standard/${c}"
+        done
+    fi
+}
 '''.strip())
 for link, comments in db.select('''
     select
@@ -50,8 +69,6 @@ for link, comments in db.select('''
     order by
     	id
     '''):
-    url = "https://www.meneame.net/story/{}".format(link)
-    print('_url "{}"'.format(url))
-    for page in range(ceil(comments/100)):
-        print('wget -q -O "html/{link}-{page:02d}.html" "${{URL}}/standard/{page}"'.format(link=link, page=page+1))
+    print('dwn {} {}'.format(link, ceil(comments/100)))
+print("echo")
 pf.pop()
