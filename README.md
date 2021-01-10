@@ -1,7 +1,7 @@
 # Objetivo
 
 Extraer todos los enlaces, comentarios y posts de meneame.net cuyo
-tiempo de edición ya paso.
+tiempo de edición ya haya pasado.
 
 # Metodología
 
@@ -63,7 +63,7 @@ queremos recuperar los comentarios.
 Para completar la información con el `id` del usuario que hizo el comentario,
 usaremos [meneame.net/backend/info.php?&what=comment&id=1&fields=author](meneame.net/backend/info.php?&what=comment&id=1&fields=author) donde `1` es el id del comentario.
 
-Este paso nos lo podemos ahorrar si el nick devuelto en el primer endpoint
+Este paso nos lo podemos ahorrar si el nick devuelto en el primer `endpoint`
 es del tipo `--XXXXX--` donde `XXXXX` es un número, porque en tal caso
 se trata de un usuario eliminado y `XXXXX` es el `id`.
 
@@ -94,21 +94,35 @@ Todo esto se condensa en:
 
 # Conclusiones
 
-Aunque la api de Menéame ofrece mucha información, esta llena de limitaciones para
-evitar el `abuso` que consiguen el efecto contrario, ya que provocan que para
+Aunque la api de Menéame ofrece mucha información, tiene limitaciones para
+evitar el `abuso` (o eso parece) que consiguen el efecto contrario, ya que provocan que para
 poder obtener toda la información disponible necesites una cantidad brutal de
 llamadas a la api.
 
-Pues si tenemos más de 3.000.000 de noticias, casi 30.000.000 comentarios,
-casi 600.000 usuarios y casi 2.000.000 posts (tal como es cuando se esta escribiendo
-esto) tendremos que hacer entre 41.600.000 y 71.600.000 llamadas.
+A modo de ejemplo: si tenemos 3.000.000 de noticias, 30.000.000 comentarios,
+600.000 usuarios y 2.000.000 posts (menos de lo que ya hay)
+tendremos que hacer entre 14.600.000 y 44.600.000 llamadas.
 
-Creo sinceramente que seria mucho más razonable crear una sección `descargas`
+Ayudaría enormemente eliminar la restricción de 10 valores para el parámetro `fields`
+en el `endpoint` `meneame.net/backend/info.php`. Esta limitación no tiene
+sentido ya que no impide la consulta a la base de datos ni tampoco influye
+en cuantos campos se recuperan en dicha consulta ya que el campo `fields` solo se
+usa después para copiar a un `json` solo los campos solicitados
+o devolviendo un objeto vació si solicitaste más de 10
+campos. En cualquier caso, para entonces el trabajo pesado ya se ha hecho.
+
+Otra modificación que ahorraría muchas llamadas sería dar el `user_id`
+en el `endopoint` `meneame.net/api/list.php` y no solo su `nick`.
+
+Estos dos cambios permitirían obtener los datos de nuestro ejemplo con
+8.600.000 llamadas.
+
+Por otro lado seria muy recomendable crear una sección `descargas`
 y proporcionar periódicamente (quizá una vez al año) un volcado de la base de datos
 (no entera, claro, si no solo la parte que ya se esta dando vía api)
 de manera que solo haga falta usar la api para el último periodo no cubierto.
 
-Esto enormemente la presión a la que deben verse sometidos los servidores
+Esto reduciría enormemente la presión a la que deben verse sometidos los servidores
 de Menéame cada vez que alguien quiere hacer algún estudio de sus datos.
 Recordemos que hablamos de información que ya esta siendo ofrecida (vía api) y
 por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando
