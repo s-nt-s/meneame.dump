@@ -1,7 +1,6 @@
 body {
   font-family: DejaVu Sans, Arial, Sans Serif;
 }
-
 table {
 	margin-top: 14px;
 	border-spacing: 0px;
@@ -34,7 +33,6 @@ tr > td:first-child {
 td.rg {
   text-align: right;
 }
-
 body {
 	margin-bottom: 400px;
 }
@@ -70,4 +68,16 @@ code.poptag {
 	display: inline-block;
 	width: 2em;
 	text-align: right;
+}
+ul {
+	margin-left: 0em;
+	padding-left: 1em;
+}
+li {
+	margin: 1em 0em;
+}
+code.bubble {
+	  padding: .2em .4em;
+    background-color: rgb(27,31,35,0.1);
+    border-radius: 6px;
 }
