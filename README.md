@@ -89,13 +89,15 @@ Todo esto se condensa en:
 * [`posts.py`](/posts.py): obtiene los posts
 * [`python3 -m core.db users`](/core/db.py): inserta y actualiza usuarios
 * [`python3 -m core.db tags`](/core/db.py): inserta y actualiza tags
+* [`general.sql`](/sql/views/general.sql): crea una tabla con la edición general de Meneame
+* [`actividad.sql`](/sql/views/actividad.sql): crea una tabla con la actividad de los usuarios
 
 # Conclusiones
 
 Aunque la api de Menéame ofrece mucha información, esta llena de limitaciones para
 evitar el `abuso` que consiguen el efecto contrario, ya que provocan que para
 poder obtener toda la información disponible necesites una cantidad brutal de
-llamadas a la apí.
+llamadas a la api.
 
 Pues si tenemos más de 3.000.000 de noticias, casi 30.000.000 comentarios,
 casi 600.000 usuarios y casi 2.000.000 posts (tal como es cuando se esta escribiendo
@@ -106,7 +108,7 @@ y proporcionar periódicamente (quizá una vez al año) un volcado de la base de
 (no entera, claro, si no solo la parte que ya se esta dando vía api)
 de manera que solo haga falta usar la api para el último periodo no cubierto.
 
-Esto reduciría enormemente la presión a la que deben verse sometidos los servidores
+Esto enormemente la presión a la que deben verse sometidos los servidores
 de Menéame cada vez que alguien quiere hacer algún estudio de sus datos.
 Recordemos que hablamos de información que ya esta siendo ofrecida (vía api) y
 por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando

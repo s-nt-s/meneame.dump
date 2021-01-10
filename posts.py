@@ -9,6 +9,7 @@ from core.api import Api
 from core.db import DB
 from core.threadme import ThreadMe
 from core.util import read_yml_all, readlines, mkArg
+from datetime import datetime
 
 import os
 
@@ -47,8 +48,9 @@ def get_posts(id):
     return r
 
 def main():
+    f = datetime.fromtimestamp(api.safe_date)
     min_id = (db.one("select max(id) from POSTS where `date`< %s" % api.safe_date) or 0) + 1
-    print("Obteniendo posts con id > %s and date < %s" % (min_id, api.safe_date))
+    print("Obteniendo posts con id > {} and date < {} ({:%Y.%m.%d})".format(min_id, api.safe_date, f))
     for posts in tm.list_run(get_posts, range(min_id, api.last_post)):
         sz = len(posts)
         posts = [p for p in posts if p['date']<api.safe_date]

@@ -1,18 +1,20 @@
-SET @cutdate_aux := (SELECT max(sent_date) FROM LINKS);
-SET @cutdate := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@cutdate_aux) ,'%Y-%m-01 00:00:00') as DATETIME)));
+SET @sent_date := (SELECT max(sent_date) FROM LINKS);
+SET @cutdate := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@sent_date) ,'%Y-%m-01 00:00:00') as DATETIME)));
 
 SET div_precision_increment = 2;
 
 CREATE OR REPLACE TABLE ACTIVIDAD AS
 select
-  mes,
+  -- from_unixtime(sent_date) sent_date,
+  DATE(sent_date) sent_date,
+  HOUR(sent_date) sent_hour,
   user_id,
   sum(links) links,
   sum(comments) comments,
   sum(posts) posts
 from (
   select
-    date_mod(from_unixtime(sent_date), 1) mes,
+    from_unixtime(sent_date) sent_date,
     user_id,
     1 links,
     0 comments,
@@ -22,7 +24,7 @@ from (
   where `sent_date` < @cutdate
   union all
   select
-    date_mod(from_unixtime(`date`), 1) mes,
+    from_unixtime(`date`) sent_date,
     user_id,
     0 links,
     1 comments,
@@ -32,7 +34,7 @@ from (
   where `date` < @cutdate
   union all
   select
-    date_mod(from_unixtime(`date`), 1) mes,
+    from_unixtime(`date`) sent_date,
     user_id,
     0 links,
     0 comments,
@@ -42,5 +44,8 @@ from (
   where `date` < @cutdate
 ) T
 group by
-  mes, user_id
+  -- sent_date,
+  DATE(sent_date),
+  HOUR(sent_date),
+  user_id
 ;

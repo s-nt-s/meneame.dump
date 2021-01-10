@@ -130,7 +130,8 @@ class Stats:
             "comments": {
                 "total": sum(count_cmt.values()),
                 "status": count_cmt
-            }
+            },
+            "posts": self.db.one("select count(*) from POSTS")
         }
 
     def get_karma(self, where=None):
@@ -210,30 +211,44 @@ class Stats:
             data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
         return data
 
-    def get_horas_mensual(self):
+    def get_uso_tiempo(self):
         data={}
-        min_year = self.min_date.year
-        max_year = self.max_date.year
-        for dt in self.db.select('''
+        sql=['''
             select
-                YEAR(sent_date) yr,
-                floor(minuto/60) hora,
-                count(id) todas,
-                sum(status='published') published
+                YEAR(sent_date) YR,
+                concat('H', sent_hour) K,
+                sum(links) noticias,
+                sum(comments) comentarios,
+                sum(posts) posts
             from
-                GENERAL
-            where
-                YEAR(sent_date)>{0} and
-                YEAR(sent_date)<{1}
+                ACTIVIDAD
             group by
-                YEAR(sent_date), floor(minuto/60)
-            order by YEAR(sent_date), floor(minuto/60)
-        '''.format(min_year, max_year), cursor=DictCursor):
-            yr = int(dt["yr"])
-            hora = int(dt["hora"])
-            horas = data.get(yr, {})
-            horas[hora] = {k:int(v) for k,v in dt.items() if k not in ("yr", "hora")}
-            data[yr]=horas
+                YEAR(sent_date), sent_hour
+        '''.strip()]
+        i_sql='''
+            select
+                YEAR(sent_date) YR,
+                concat('{0}', {1}(sent_date)) K,
+                sum(links) noticias,
+                sum(comments) commentarios,
+                sum(posts) posts
+            from
+                ACTIVIDAD
+            group by
+                YEAR(sent_date), {1}(sent_date)
+        '''.strip()
+        for k in ("WEEKDAY", "MONTH"):
+            sql.append(i_sql.format(k[0], k))
+        sql = "\nUNION\n".join(sql)
+        for dt in self.db.select(sql, cursor=DictCursor):
+            yr = int(dt["YR"])
+            if yr not in data:
+                data[yr] = {}
+            if dt["K"] not in data[yr]:
+                data[yr][dt["K"]]={}
+            for k,v in dt.items():
+                if k!=k.upper():
+                    data[yr][dt["K"]][k]=int(v)
         return data
 
     def get_mes_categorias(self, where=None):
@@ -422,7 +437,7 @@ class Stats:
         data={}
         for dt in self.db.select('''
             select
-                mes,
+                date_mod(sent_date, 1) mes,
                 sum(links) noticias,
                 sum(comments) comentarios,
                 sum(posts) posts,
@@ -430,7 +445,7 @@ class Stats:
             from
                 ACTIVIDAD
             group by
-                mes
+                date_mod(sent_date, 1)
         ''', cursor=DictCursor):
             data[float(dt["mes"])]={k:int(v) for k,v in dt.items() if k!="mes"}
 
@@ -494,9 +509,9 @@ class Stats:
     def get_users_by_period(self):
         data={}
         for tp, nb in (
-            ("T", "mes_mod(mes, 3)"),
-            ("S", "mes_mod(mes, 6)"),
-            ("A", "FLOOR(mes)")
+            ("T", "date_mod(sent_date, 3)"),
+            ("S", "date_mod(sent_date, 6)"),
+            ("A", "YEAR(sent_date)")
         ):
             for key, usuarios in self.db.select('''
                 select

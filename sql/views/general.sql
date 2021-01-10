@@ -1,5 +1,5 @@
-SET @cutdate_aux := (SELECT max(sent_date) FROM LINKS);
-SET @cutdate := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@cutdate_aux) ,'%Y-%m-01 00:00:00') as DATETIME)));
+SET @sent_date := (SELECT max(sent_date) FROM LINKS);
+SET @cutdate := (select UNIX_TIMESTAMP(CAST(DATE_FORMAT(from_unixtime(@sent_date) ,'%Y-%m-01 00:00:00') as DATETIME)));
 
 SET div_precision_increment = 2;
 

@@ -1,5 +1,7 @@
 function parseObj(obj) {
-  var keys = Object.keys(obj).map(function(x){return Number(x)}).sort(function(a, b){return a-b});
+  var keys = Object.keys(obj).map(function(x){
+    return Number(x);
+  }).sort(function(a, b){return a-b});
   //keys = keys.slice(0, keys.length-6);
   var r = {"keys": keys, "values": []};
   var i, v;
@@ -17,12 +19,15 @@ function parseObj(obj) {
   r["max_val"]=Math.ceil(max_val);
   r["min_val"]=Math.floor(max_val);
   */
+  r.__parsed__ = true;
   return r;
 }
 var i, v, k;
 var ks=Object.keys(modelos);
 for (i=0;i<ks.length;i++) {
   k = ks[i];
-  v = modelos[k];
-  modelos[k]=parseObj(modelos[k]);
+  if (k!="uso_tiempo") {
+    v = modelos[k];
+    modelos[k]=parseObj(modelos[k]);
+  }
 }

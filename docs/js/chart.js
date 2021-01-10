@@ -264,7 +264,7 @@ function render_chart() {
     });
     mdl=_mdl;
   }
-  if (prc && t.data("porcentaje")!="0") {
+  if (prc && t.data("porcentaje")!="0" && mdl["keys"] && mdl["values"]) {
     var _mdl = {
       "keys": mdl["keys"].slice(),
       "values": []
@@ -306,90 +306,104 @@ $(document).ready(function(){
 })
 
 render_builder={
-  "horas_dia":function(obj, options) {
-      var horas = rg(24);
-      var year=parseInt($("#yearsDiaNormal").val(), 10);//.map(function(x){return Number(x)});
+  "uso_tiempo":function(obj, options) {
+      var i,k,kl,v,c,h;
+      var tipo = $("#tipoCuando").val();
+      var xaxis={};
+      if (tipo=="dia") {
+        var horas = rg(24);
+        xaxis.label="Horas del día";
+        xaxis.divisor = 365;
+        xaxis.vals = {
+          "keys": horas.map(function(x){return "H"+x}),
+          "legend": horas.map(function(x) {
+            if (x==9) return "09-10";
+            if (x>9) return x+"-"+(x+1);
+            return "0"+x+"-0"+(x+1);
+          })
+        }
+      } else if (tipo=="semana") {
+        var dias = rg(7);
+        xaxis.label="Días de la semana";
+        xaxis.divisor = 52;
+        xaxis.vals = {
+          "keys": dias.map(function(x){return "W"+x}),
+          "legend": dias.map(function(x) {
+            return ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"][x]
+          })
+        }
+      } else if (tipo=="year") {
+        var meses = rg(1, 13);
+        xaxis.label="Meses del año";
+        xaxis.divisor = 1;
+        xaxis.vals = {
+          "keys": meses.map(function(x){return "M"+x}),
+          "legend": meses.map(function(x) {
+            return ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"][x-1]
+          })
+        }
+      }
+      var year=parseInt($("#yearsTiempoNormal").val(), 10);//.map(function(x){return Number(x)});
       if (isNaN(year)) year=null;
-      var divisor = 365*(year?1:($("#yearsDiaNormal option").length-1));
-      var i,k,v,c,h;
-      var values=obj["values"];
-      if (year) {
-        values=[];
-        for (i = 0;i<obj["keys"].length;i++) {
-            k = obj["keys"][i];
-            if (k==year) {
-              v = obj["values"][i];
-              values.push(v);
-           }
-        }
-      }
-      var keys;
       var data={};
-      horas.forEach(function(h){
-        values.forEach(function(_v){
-          if (_v[h]) {
-            v = _v[h];
-            if (data[h]==null) data[h]=v;
-            else {
-              Object.keys(v).forEach(function(k){
-                data[h][k] = (data[h][k] || 0) + v[k];
-              })
+      Object.entries(obj).forEach(([y, value]) => {
+        y = parseInt(y, 10);
+        if (year==null || y==year) {
+          Object.entries(value).forEach(([k, v]) => {
+            if (xaxis.vals.keys.indexOf(k)!=-1) {
+              k=k.substr(1)
+              if (data[k]==null) data[k]=v;
+              else {
+                data[k]=zip_dict(data[k],v, function(a,b){return a+b})
+              }
             }
-          }
-        })
-      })
+          });
+        }
+      });
+      Object.values(data).forEach((item, i) => {
+        item["todo"]=Object.values(item).reduce(function(a,b){return a+b}, 0);
+      });
       data = parseObj(data);
-
-      var labels = data["keys"].map(function(x) {
-        if (x==9) return "09-10";
-        if (x>9) return x+"-"+(x+1);
-        return "0"+x+"-0"+(x+1);
-      })
-      var td = gF(data, "todas", (options.porcentaje?2:null));
-      var pb = gF(data, "published", (options.porcentaje?2:null));
-      var prov = zip_arr(options.porcentaje?gF(data, "todas"):td, options.porcentaje?gF(data, "published"):pb, function (tot, pub) {
-        return Math.round((pub/tot)*10000)/100;
-      })
-      if (!options.porcentaje) {
-        var rnd=function(x) {
-          var a=x/divisor;
-          var b=Math.round(a);
-          return b==0 && a!=0?(Math.round(a*10)/10):b;
-        }
-        td = td.map(rnd);
-        pb = pb.map(rnd);
+      xaxis.divisor = xaxis.divisor*(year?1:($("#yearsTiempoNormal option").length-1));
+      var mk_promedio=function(x) {
+        var a=x/xaxis.divisor;
+        var b=Math.round(a);
+        return b==0 && a!=0?(Math.round(a*10)/10):b;
       }
-      var dataset = [{
-          label: (options.porcentaje?"% ":"")+"envios",
-          data: td,
-          fill: false,
-          //backgroundColor: d_color.blue.backgroundColor,
-          borderColor: "black",
-          borderWidth: 1
-        },{
-          label: (options.porcentaje?"% ":"")+"published",
-          data: pb,
-          fill: false,
-          //backgroundColor: d_color.blue.backgroundColor,
-          borderColor: "green",
-          borderWidth: 1
-        },{
-          label: "% probabilidad de llegar a portada",
-          data: prov,
-          fill: false,
-          //backgroundColor: d_color.blue.backgroundColor,
-          borderColor: "orange",
-          borderWidth: 1
+      var dataset = [];
+      var ks = Object.keys(data["values"][0]);
+      array_move(ks, "todo", 0);
+      for (i=0; i<ks.length; i++) {
+        k = ks[i];
+        var color = dcd(k,
+          "todo", "black",
+          "noticias", "green",
+          "comentarios", "blue",
+          "posts", "red",
+          "lightcoral"
+        );
+        var val = gF(data, k, (options.porcentaje?2:null));
+        if (!options.porcentaje) {
+          val = val.map(mk_promedio);
         }
-      ];
+        dataset.push({
+          label: (options.porcentaje?"% ":"")+k,
+          data: val,
+          fill: false,
+          //backgroundColor: d_color.blue.backgroundColor,
+          borderColor: color,
+          borderWidth: 1,
+          hidden: k!="todo",
+        })
+      }
       setGraphChart({
           id: this.find("canvas")[0],
           title: null,
-          labels: labels,
+          labels: xaxis.vals.legend,
           type: 'LineWithLine',
           destroy:true,
           //max_y: t=="prc_"?100:null,
-          x_label: "Horas del día",
+          x_label: xaxis.label,
           porcentaje:options.porcentaje
       }, dataset);
   },
@@ -400,8 +414,8 @@ render_builder={
     for (i=0; i<ks.length; i++) {
       k = ks[i];
       var color = dcd(k,
+        "total", "black",
         "published", "green",
-        "total", "blue",
         "autodiscard", "lightsalmon",
         "discard", "red",
         "queued", "grey",

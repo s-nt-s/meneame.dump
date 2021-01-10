@@ -34,7 +34,6 @@ function onInput(e){
             // replace tagify "whitelist" array values with new values
             // and add back the ones already choses as Tags
             var result = e.detail.tagify.settings.full_whitelist
-            console.log("dadsadsad")
             e.detail.tagify.settings.whitelist.push(...result, ...e.detail.tagify.value)
 
             // render the suggestions dropdown.

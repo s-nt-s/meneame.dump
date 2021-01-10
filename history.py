@@ -9,6 +9,7 @@ from core.api import Api
 from core.db import DB
 from core.threadme import ThreadMe
 from core.util import read_yml_all, readlines, mkArg
+from datetime import datetime
 import os
 import sys
 
@@ -47,9 +48,10 @@ def get_info(id):
     return r
 
 def main():
-    print("Obteniendo links de sent_date < {}".format(api.safe_date), end="\r")
+    f = datetime.fromtimestamp(api.safe_date)
+    print("Obteniendo links de sent_date < {} ({:%Y.%m.%d})".format(api.safe_date, f), end="\r")
     min_id = (db.one("select max(id) from LINKS where sent_date<"+str(api.safe_date)) or 0) + 1
-    print("Obteniendo links de sent_date < {} and id > {}".format(api.safe_date, min_id))
+    print("Obteniendo links de sent_date < {} ({:%Y.%m.%d}) and id > {}".format(api.safe_date, f, min_id))
     for links in tm.list_run(get_info, range(min_id, api.last_link['id'])):
         sz = len(links)
         links = [l for l in links if l['sent_date']<api.safe_date]

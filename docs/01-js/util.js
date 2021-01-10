@@ -38,3 +38,31 @@ function zip_arr() {
   });
   return arr;
 }
+
+function zip_dict() {
+  var fnc = arguments[arguments.length-1];
+  var isFnc = (typeof fnc === "function");
+  var i;
+  var dict={};
+  var params = Array.from(arguments);
+  if (isFnc) params = params.slice(0, params.length-1);
+  params.forEach(function(p){
+    Object.entries(p).forEach(([key, value]) => {
+        if (dict[key]==null) dict[key]=[];
+        dict[key].push(value);
+    });
+  });
+  if (isFnc) {
+    Object.keys(dict).forEach(function(key) {
+        dict[key]=fnc.apply(this, dict[key]);
+    });
+  }
+  return dict;
+}
+function array_move(arr, element, new_index) {
+  var old_index = arr.indexOf(element);
+  if (new_index>=arr.length) new_index = arr.length -1;
+  if (old_index==-1 || old_index==new_index) return arr;
+  arr.splice(new_index, 0, arr.splice(old_index, 1)[0]);
+  return arr;
+};

@@ -1043,6 +1043,42 @@ var modelos = {
    "positives": 508290.0,
    "negatives": 72307.0,
    "comment_karma": 26.0
+  },
+  "2020.06": {
+   "karma": 76.0,
+   "positives": 424874.0,
+   "negatives": 54436.0,
+   "comment_karma": 26.0
+  },
+  "2020.07": {
+   "karma": 68.0,
+   "positives": 365083.0,
+   "negatives": 52105.0,
+   "comment_karma": 25.0
+  },
+  "2020.08": {
+   "karma": 85.0,
+   "positives": 373580.0,
+   "negatives": 52741.0,
+   "comment_karma": 26.0
+  },
+  "2020.09": {
+   "karma": 86.0,
+   "positives": 385098.0,
+   "negatives": 48204.0,
+   "comment_karma": 26.0
+  },
+  "2020.1": {
+   "karma": 78.0,
+   "positives": 396630.0,
+   "negatives": 49840.0,
+   "comment_karma": 27.0
+  },
+  "2020.11": {
+   "karma": 70.0,
+   "positives": 344947.0,
+   "negatives": 45677.0,
+   "comment_karma": 27.0
   }
  },
  "karma_portada": {
@@ -2089,6 +2125,42 @@ var modelos = {
    "positives": 322739.0,
    "negatives": 14968.0,
    "comment_karma": 29.0
+  },
+  "2020.06": {
+   "karma": 383.0,
+   "positives": 275538.0,
+   "negatives": 10595.0,
+   "comment_karma": 29.0
+  },
+  "2020.07": {
+   "karma": 325.0,
+   "positives": 223782.0,
+   "negatives": 7279.0,
+   "comment_karma": 27.0
+  },
+  "2020.08": {
+   "karma": 353.0,
+   "positives": 238316.0,
+   "negatives": 9292.0,
+   "comment_karma": 28.0
+  },
+  "2020.09": {
+   "karma": 365.0,
+   "positives": 258133.0,
+   "negatives": 9696.0,
+   "comment_karma": 30.0
+  },
+  "2020.1": {
+   "karma": 356.0,
+   "positives": 262723.0,
+   "negatives": 10131.0,
+   "comment_karma": 31.0
+  },
+  "2020.11": {
+   "karma": 369.0,
+   "positives": 229397.0,
+   "negatives": 7581.0,
+   "comment_karma": 30.0
   }
  },
  "count_estados": {
@@ -3309,6 +3381,48 @@ var modelos = {
    "queued": 10235,
    "autodiscard": 1104,
    "discard": 1344
+  },
+  "2020.06": {
+   "total": 12042,
+   "published": 1416,
+   "queued": 8767,
+   "autodiscard": 829,
+   "discard": 986
+  },
+  "2020.07": {
+   "total": 11695,
+   "published": 1282,
+   "queued": 8510,
+   "autodiscard": 825,
+   "discard": 1013
+  },
+  "2020.08": {
+   "total": 10451,
+   "published": 1414,
+   "queued": 7392,
+   "autodiscard": 713,
+   "discard": 865
+  },
+  "2020.09": {
+   "total": 10667,
+   "published": 1465,
+   "queued": 7568,
+   "autodiscard": 736,
+   "discard": 837
+  },
+  "2020.1": {
+   "total": 11640,
+   "published": 1487,
+   "queued": 8449,
+   "autodiscard": 783,
+   "discard": 862
+  },
+  "2020.11": {
+   "total": 11098,
+   "published": 1369,
+   "queued": 8048,
+   "autodiscard": 764,
+   "discard": 812
   }
  },
  "count_categorias_todas": {
@@ -4004,6 +4118,60 @@ var modelos = {
    "tecnolog\u00eda": 771,
    "ocio": 964,
    "otros": 185
+  },
+  "2020.06": {
+   "total": 12042,
+   "mnm": 93,
+   "actualidad": 8317,
+   "cultura": 1982,
+   "tecnolog\u00eda": 727,
+   "ocio": 771,
+   "otros": 152
+  },
+  "2020.07": {
+   "total": 11695,
+   "mnm": 105,
+   "actualidad": 7894,
+   "cultura": 2068,
+   "tecnolog\u00eda": 644,
+   "ocio": 817,
+   "otros": 167
+  },
+  "2020.08": {
+   "total": 10451,
+   "mnm": 100,
+   "actualidad": 7079,
+   "cultura": 1847,
+   "tecnolog\u00eda": 558,
+   "ocio": 724,
+   "otros": 143
+  },
+  "2020.09": {
+   "total": 10667,
+   "mnm": 161,
+   "actualidad": 7249,
+   "cultura": 1469,
+   "tecnolog\u00eda": 630,
+   "ocio": 699,
+   "otros": 459
+  },
+  "2020.1": {
+   "total": 11640,
+   "mnm": 81,
+   "actualidad": 7124,
+   "cultura": 1381,
+   "tecnolog\u00eda": 613,
+   "ocio": 800,
+   "otros": 1641
+  },
+  "2020.11": {
+   "total": 11098,
+   "mnm": 52,
+   "actualidad": 6591,
+   "cultura": 1332,
+   "tecnolog\u00eda": 622,
+   "ocio": 764,
+   "otros": 1737
   }
  },
  "count_categorias_published": {
@@ -4699,1379 +4867,3473 @@ var modelos = {
    "tecnolog\u00eda": 92,
    "ocio": 99,
    "otros": 60
+  },
+  "2020.06": {
+   "total": 1416,
+   "mnm": 7,
+   "actualidad": 881,
+   "cultura": 295,
+   "tecnolog\u00eda": 92,
+   "ocio": 100,
+   "otros": 41
+  },
+  "2020.07": {
+   "total": 1282,
+   "mnm": 7,
+   "actualidad": 791,
+   "cultura": 298,
+   "tecnolog\u00eda": 73,
+   "ocio": 76,
+   "otros": 37
+  },
+  "2020.08": {
+   "total": 1414,
+   "mnm": 10,
+   "actualidad": 871,
+   "cultura": 309,
+   "tecnolog\u00eda": 95,
+   "ocio": 94,
+   "otros": 35
+  },
+  "2020.09": {
+   "total": 1465,
+   "mnm": 20,
+   "actualidad": 948,
+   "cultura": 258,
+   "tecnolog\u00eda": 94,
+   "ocio": 89,
+   "otros": 56
+  },
+  "2020.1": {
+   "total": 1487,
+   "mnm": 7,
+   "actualidad": 892,
+   "cultura": 215,
+   "tecnolog\u00eda": 73,
+   "ocio": 103,
+   "otros": 197
+  },
+  "2020.11": {
+   "total": 1369,
+   "mnm": 6,
+   "actualidad": 769,
+   "cultura": 206,
+   "tecnolog\u00eda": 83,
+   "ocio": 97,
+   "otros": 208
   }
  },
- "horas_dia": {
+ "uso_tiempo": {
+  "2005": {
+   "H0": {
+    "noticias": 86,
+    "comentarios": 108,
+    "posts": 0
+   },
+   "H1": {
+    "noticias": 70,
+    "comentarios": 91,
+    "posts": 0
+   },
+   "H2": {
+    "noticias": 53,
+    "comentarios": 64,
+    "posts": 0
+   },
+   "H3": {
+    "noticias": 26,
+    "comentarios": 40,
+    "posts": 0
+   },
+   "H4": {
+    "noticias": 12,
+    "comentarios": 30,
+    "posts": 0
+   },
+   "H5": {
+    "noticias": 10,
+    "comentarios": 9,
+    "posts": 0
+   },
+   "H6": {
+    "noticias": 11,
+    "comentarios": 18,
+    "posts": 0
+   },
+   "H7": {
+    "noticias": 19,
+    "comentarios": 8,
+    "posts": 0
+   },
+   "H8": {
+    "noticias": 40,
+    "comentarios": 26,
+    "posts": 0
+   },
+   "H9": {
+    "noticias": 62,
+    "comentarios": 48,
+    "posts": 0
+   },
+   "H10": {
+    "noticias": 69,
+    "comentarios": 66,
+    "posts": 0
+   },
+   "H11": {
+    "noticias": 77,
+    "comentarios": 69,
+    "posts": 0
+   },
+   "H12": {
+    "noticias": 122,
+    "comentarios": 77,
+    "posts": 0
+   },
+   "H13": {
+    "noticias": 77,
+    "comentarios": 89,
+    "posts": 0
+   },
+   "H14": {
+    "noticias": 74,
+    "comentarios": 83,
+    "posts": 0
+   },
+   "H15": {
+    "noticias": 66,
+    "comentarios": 88,
+    "posts": 0
+   },
+   "H16": {
+    "noticias": 99,
+    "comentarios": 76,
+    "posts": 0
+   },
+   "H17": {
+    "noticias": 91,
+    "comentarios": 82,
+    "posts": 0
+   },
+   "H18": {
+    "noticias": 70,
+    "comentarios": 96,
+    "posts": 0
+   },
+   "H19": {
+    "noticias": 80,
+    "comentarios": 102,
+    "posts": 0
+   },
+   "H20": {
+    "noticias": 76,
+    "comentarios": 91,
+    "posts": 0
+   },
+   "H21": {
+    "noticias": 92,
+    "comentarios": 76,
+    "posts": 0
+   },
+   "H22": {
+    "noticias": 67,
+    "comentarios": 91,
+    "posts": 0
+   },
+   "H23": {
+    "noticias": 77,
+    "comentarios": 116,
+    "posts": 0
+   },
+   "W0": {
+    "noticias": 215,
+    "comentarios": 266,
+    "posts": 0
+   },
+   "W1": {
+    "noticias": 231,
+    "comentarios": 214,
+    "posts": 0
+   },
+   "W2": {
+    "noticias": 264,
+    "comentarios": 274,
+    "posts": 0
+   },
+   "W3": {
+    "noticias": 269,
+    "comentarios": 290,
+    "posts": 0
+   },
+   "W4": {
+    "noticias": 249,
+    "comentarios": 268,
+    "posts": 0
+   },
+   "W5": {
+    "noticias": 190,
+    "comentarios": 205,
+    "posts": 0
+   },
+   "W6": {
+    "noticias": 108,
+    "comentarios": 127,
+    "posts": 0
+   },
+   "M12": {
+    "noticias": 1526,
+    "comentarios": 1644,
+    "posts": 0
+   }
+  },
   "2006": {
-   "0": {
-    "todas": 2993,
-    "published": 495
+   "H0": {
+    "noticias": 2993,
+    "comentarios": 15872,
+    "posts": 0
    },
-   "1": {
-    "todas": 2079,
-    "published": 344
+   "H1": {
+    "noticias": 2079,
+    "comentarios": 11289,
+    "posts": 0
    },
-   "2": {
-    "todas": 1610,
-    "published": 217
+   "H2": {
+    "noticias": 1610,
+    "comentarios": 7323,
+    "posts": 0
    },
-   "3": {
-    "todas": 1132,
-    "published": 167
+   "H3": {
+    "noticias": 1132,
+    "comentarios": 4269,
+    "posts": 0
    },
-   "4": {
-    "todas": 811,
-    "published": 98
+   "H4": {
+    "noticias": 811,
+    "comentarios": 2859,
+    "posts": 0
    },
-   "5": {
-    "todas": 682,
-    "published": 110
+   "H5": {
+    "noticias": 682,
+    "comentarios": 2002,
+    "posts": 0
    },
-   "6": {
-    "todas": 607,
-    "published": 78
+   "H6": {
+    "noticias": 607,
+    "comentarios": 1722,
+    "posts": 0
    },
-   "7": {
-    "todas": 799,
-    "published": 120
+   "H7": {
+    "noticias": 799,
+    "comentarios": 2152,
+    "posts": 0
    },
-   "8": {
-    "todas": 1644,
-    "published": 252
+   "H8": {
+    "noticias": 1644,
+    "comentarios": 5715,
+    "posts": 0
    },
-   "9": {
-    "todas": 2611,
-    "published": 444
+   "H9": {
+    "noticias": 2611,
+    "comentarios": 9495,
+    "posts": 0
    },
-   "10": {
-    "todas": 2955,
-    "published": 512
+   "H10": {
+    "noticias": 2955,
+    "comentarios": 13621,
+    "posts": 0
    },
-   "11": {
-    "todas": 3321,
-    "published": 639
+   "H11": {
+    "noticias": 3321,
+    "comentarios": 15745,
+    "posts": 0
    },
-   "12": {
-    "todas": 3747,
-    "published": 735
+   "H12": {
+    "noticias": 3747,
+    "comentarios": 18034,
+    "posts": 0
    },
-   "13": {
-    "todas": 3776,
-    "published": 781
+   "H13": {
+    "noticias": 3776,
+    "comentarios": 19389,
+    "posts": 0
    },
-   "14": {
-    "todas": 3316,
-    "published": 632
+   "H14": {
+    "noticias": 3316,
+    "comentarios": 16687,
+    "posts": 0
    },
-   "15": {
-    "todas": 3225,
-    "published": 608
+   "H15": {
+    "noticias": 3225,
+    "comentarios": 16560,
+    "posts": 0
    },
-   "16": {
-    "todas": 3585,
-    "published": 626
+   "H16": {
+    "noticias": 3585,
+    "comentarios": 18252,
+    "posts": 0
    },
-   "17": {
-    "todas": 3433,
-    "published": 625
+   "H17": {
+    "noticias": 3433,
+    "comentarios": 17713,
+    "posts": 0
    },
-   "18": {
-    "todas": 3308,
-    "published": 577
+   "H18": {
+    "noticias": 3308,
+    "comentarios": 16968,
+    "posts": 0
    },
-   "19": {
-    "todas": 3243,
-    "published": 564
+   "H19": {
+    "noticias": 3243,
+    "comentarios": 15741,
+    "posts": 0
    },
-   "20": {
-    "todas": 3260,
-    "published": 607
+   "H20": {
+    "noticias": 3260,
+    "comentarios": 16416,
+    "posts": 0
    },
-   "21": {
-    "todas": 3100,
-    "published": 594
+   "H21": {
+    "noticias": 3100,
+    "comentarios": 16741,
+    "posts": 0
    },
-   "22": {
-    "todas": 2884,
-    "published": 546
+   "H22": {
+    "noticias": 2884,
+    "comentarios": 16371,
+    "posts": 0
    },
-   "23": {
-    "todas": 3083,
-    "published": 543
+   "H23": {
+    "noticias": 3083,
+    "comentarios": 17558,
+    "posts": 0
+   },
+   "W0": {
+    "noticias": 9160,
+    "comentarios": 44327,
+    "posts": 0
+   },
+   "W1": {
+    "noticias": 10028,
+    "comentarios": 48394,
+    "posts": 0
+   },
+   "W2": {
+    "noticias": 10012,
+    "comentarios": 47446,
+    "posts": 0
+   },
+   "W3": {
+    "noticias": 10180,
+    "comentarios": 48781,
+    "posts": 0
+   },
+   "W4": {
+    "noticias": 9299,
+    "comentarios": 44466,
+    "posts": 0
+   },
+   "W5": {
+    "noticias": 6225,
+    "comentarios": 31687,
+    "posts": 0
+   },
+   "W6": {
+    "noticias": 6300,
+    "comentarios": 33393,
+    "posts": 0
+   },
+   "M1": {
+    "noticias": 2394,
+    "comentarios": 5369,
+    "posts": 0
+   },
+   "M2": {
+    "noticias": 2497,
+    "comentarios": 7454,
+    "posts": 0
+   },
+   "M3": {
+    "noticias": 3218,
+    "comentarios": 11274,
+    "posts": 0
+   },
+   "M4": {
+    "noticias": 3508,
+    "comentarios": 14610,
+    "posts": 0
+   },
+   "M5": {
+    "noticias": 3859,
+    "comentarios": 19774,
+    "posts": 0
+   },
+   "M6": {
+    "noticias": 4070,
+    "comentarios": 23271,
+    "posts": 0
+   },
+   "M7": {
+    "noticias": 4104,
+    "comentarios": 22285,
+    "posts": 0
+   },
+   "M8": {
+    "noticias": 4869,
+    "comentarios": 27264,
+    "posts": 0
+   },
+   "M9": {
+    "noticias": 5921,
+    "comentarios": 33779,
+    "posts": 0
+   },
+   "M10": {
+    "noticias": 7791,
+    "comentarios": 40151,
+    "posts": 0
+   },
+   "M11": {
+    "noticias": 9289,
+    "comentarios": 46569,
+    "posts": 0
+   },
+   "M12": {
+    "noticias": 9684,
+    "comentarios": 46694,
+    "posts": 0
    }
   },
   "2007": {
-   "0": {
-    "todas": 6926,
-    "published": 546
+   "H0": {
+    "noticias": 6926,
+    "comentarios": 45460,
+    "posts": 1134
    },
-   "1": {
-    "todas": 4952,
-    "published": 339
+   "H1": {
+    "noticias": 4952,
+    "comentarios": 32165,
+    "posts": 659
    },
-   "2": {
-    "todas": 3532,
-    "published": 210
+   "H2": {
+    "noticias": 3532,
+    "comentarios": 20849,
+    "posts": 521
    },
-   "3": {
-    "todas": 2488,
-    "published": 143
+   "H3": {
+    "noticias": 2488,
+    "comentarios": 13372,
+    "posts": 351
    },
-   "4": {
-    "todas": 2159,
-    "published": 107
+   "H4": {
+    "noticias": 2159,
+    "comentarios": 8716,
+    "posts": 198
    },
-   "5": {
-    "todas": 1840,
-    "published": 81
+   "H5": {
+    "noticias": 1840,
+    "comentarios": 5865,
+    "posts": 140
    },
-   "6": {
-    "todas": 1814,
-    "published": 119
+   "H6": {
+    "noticias": 1814,
+    "comentarios": 5391,
+    "posts": 109
    },
-   "7": {
-    "todas": 2350,
-    "published": 175
+   "H7": {
+    "noticias": 2350,
+    "comentarios": 7608,
+    "posts": 132
    },
-   "8": {
-    "todas": 5521,
-    "published": 482
+   "H8": {
+    "noticias": 5521,
+    "comentarios": 20959,
+    "posts": 319
    },
-   "9": {
-    "todas": 8580,
-    "published": 842
+   "H9": {
+    "noticias": 8580,
+    "comentarios": 38342,
+    "posts": 532
    },
-   "10": {
-    "todas": 9721,
-    "published": 1003
+   "H10": {
+    "noticias": 9721,
+    "comentarios": 49820,
+    "posts": 668
    },
-   "11": {
-    "todas": 10555,
-    "published": 1145
+   "H11": {
+    "noticias": 10555,
+    "comentarios": 57296,
+    "posts": 784
    },
-   "12": {
-    "todas": 11751,
-    "published": 1257
+   "H12": {
+    "noticias": 11751,
+    "comentarios": 65728,
+    "posts": 915
    },
-   "13": {
-    "todas": 11909,
-    "published": 1300
+   "H13": {
+    "noticias": 11909,
+    "comentarios": 71852,
+    "posts": 926
    },
-   "14": {
-    "todas": 10302,
-    "published": 1093
+   "H14": {
+    "noticias": 10302,
+    "comentarios": 59421,
+    "posts": 858
    },
-   "15": {
-    "todas": 9716,
-    "published": 948
+   "H15": {
+    "noticias": 9716,
+    "comentarios": 57879,
+    "posts": 958
    },
-   "16": {
-    "todas": 11126,
-    "published": 1022
+   "H16": {
+    "noticias": 11126,
+    "comentarios": 63434,
+    "posts": 962
    },
-   "17": {
-    "todas": 11251,
-    "published": 967
+   "H17": {
+    "noticias": 11251,
+    "comentarios": 62232,
+    "posts": 1128
    },
-   "18": {
-    "todas": 10836,
-    "published": 917
+   "H18": {
+    "noticias": 10836,
+    "comentarios": 59456,
+    "posts": 1132
    },
-   "19": {
-    "todas": 10146,
-    "published": 864
+   "H19": {
+    "noticias": 10146,
+    "comentarios": 57496,
+    "posts": 1165
    },
-   "20": {
-    "todas": 10037,
-    "published": 975
+   "H20": {
+    "noticias": 10037,
+    "comentarios": 57780,
+    "posts": 1338
    },
-   "21": {
-    "todas": 8966,
-    "published": 922
+   "H21": {
+    "noticias": 8966,
+    "comentarios": 55939,
+    "posts": 1251
    },
-   "22": {
-    "todas": 7913,
-    "published": 831
+   "H22": {
+    "noticias": 7913,
+    "comentarios": 51752,
+    "posts": 1245
    },
-   "23": {
-    "todas": 7951,
-    "published": 805
+   "H23": {
+    "noticias": 7951,
+    "comentarios": 52320,
+    "posts": 1251
+   },
+   "W0": {
+    "noticias": 28250,
+    "comentarios": 158691,
+    "posts": 2901
+   },
+   "W1": {
+    "noticias": 29782,
+    "comentarios": 163670,
+    "posts": 2890
+   },
+   "W2": {
+    "noticias": 30748,
+    "comentarios": 165400,
+    "posts": 2654
+   },
+   "W3": {
+    "noticias": 30260,
+    "comentarios": 166462,
+    "posts": 2832
+   },
+   "W4": {
+    "noticias": 27527,
+    "comentarios": 151116,
+    "posts": 2516
+   },
+   "W5": {
+    "noticias": 18048,
+    "comentarios": 104563,
+    "posts": 2319
+   },
+   "W6": {
+    "noticias": 17727,
+    "comentarios": 111230,
+    "posts": 2564
+   },
+   "M1": {
+    "noticias": 13309,
+    "comentarios": 65533,
+    "posts": 0
+   },
+   "M2": {
+    "noticias": 13138,
+    "comentarios": 64202,
+    "posts": 225
+   },
+   "M3": {
+    "noticias": 14224,
+    "comentarios": 70636,
+    "posts": 2317
+   },
+   "M4": {
+    "noticias": 13271,
+    "comentarios": 67972,
+    "posts": 2360
+   },
+   "M5": {
+    "noticias": 17605,
+    "comentarios": 85815,
+    "posts": 3206
+   },
+   "M6": {
+    "noticias": 15751,
+    "comentarios": 88231,
+    "posts": 2505
+   },
+   "M7": {
+    "noticias": 14902,
+    "comentarios": 82823,
+    "posts": 1573
+   },
+   "M8": {
+    "noticias": 14035,
+    "comentarios": 83212,
+    "posts": 1220
+   },
+   "M9": {
+    "noticias": 16165,
+    "comentarios": 96737,
+    "posts": 1095
+   },
+   "M10": {
+    "noticias": 17218,
+    "comentarios": 107759,
+    "posts": 1348
+   },
+   "M11": {
+    "noticias": 17503,
+    "comentarios": 106661,
+    "posts": 1381
+   },
+   "M12": {
+    "noticias": 15221,
+    "comentarios": 101551,
+    "posts": 1446
    }
   },
   "2008": {
-   "0": {
-    "todas": 8954,
-    "published": 667
+   "H0": {
+    "noticias": 8954,
+    "comentarios": 89866,
+    "posts": 1849
    },
-   "1": {
-    "todas": 6254,
-    "published": 390
+   "H1": {
+    "noticias": 6254,
+    "comentarios": 61993,
+    "posts": 1255
    },
-   "2": {
-    "todas": 4217,
-    "published": 213
+   "H2": {
+    "noticias": 4217,
+    "comentarios": 38830,
+    "posts": 712
    },
-   "3": {
-    "todas": 2851,
-    "published": 139
+   "H3": {
+    "noticias": 2851,
+    "comentarios": 23974,
+    "posts": 421
    },
-   "4": {
-    "todas": 2149,
-    "published": 110
+   "H4": {
+    "noticias": 2149,
+    "comentarios": 14966,
+    "posts": 290
    },
-   "5": {
-    "todas": 1987,
-    "published": 81
+   "H5": {
+    "noticias": 1987,
+    "comentarios": 10527,
+    "posts": 210
    },
-   "6": {
-    "todas": 2090,
-    "published": 117
+   "H6": {
+    "noticias": 2090,
+    "comentarios": 9419,
+    "posts": 199
    },
-   "7": {
-    "todas": 3290,
-    "published": 210
+   "H7": {
+    "noticias": 3290,
+    "comentarios": 14400,
+    "posts": 170
    },
-   "8": {
-    "todas": 6827,
-    "published": 445
+   "H8": {
+    "noticias": 6827,
+    "comentarios": 39272,
+    "posts": 393
    },
-   "9": {
-    "todas": 11458,
-    "published": 891
+   "H9": {
+    "noticias": 11458,
+    "comentarios": 72023,
+    "posts": 834
    },
-   "10": {
-    "todas": 13573,
-    "published": 1126
+   "H10": {
+    "noticias": 13573,
+    "comentarios": 95852,
+    "posts": 1168
    },
-   "11": {
-    "todas": 14513,
-    "published": 1381
+   "H11": {
+    "noticias": 14513,
+    "comentarios": 113730,
+    "posts": 1372
    },
-   "12": {
-    "todas": 15970,
-    "published": 1464
+   "H12": {
+    "noticias": 15970,
+    "comentarios": 133667,
+    "posts": 1492
    },
-   "13": {
-    "todas": 16007,
-    "published": 1507
+   "H13": {
+    "noticias": 16007,
+    "comentarios": 144385,
+    "posts": 1693
    },
-   "14": {
-    "todas": 14075,
-    "published": 1239
+   "H14": {
+    "noticias": 14075,
+    "comentarios": 121015,
+    "posts": 1636
    },
-   "15": {
-    "todas": 13091,
-    "published": 1178
+   "H15": {
+    "noticias": 13091,
+    "comentarios": 114127,
+    "posts": 1779
    },
-   "16": {
-    "todas": 14754,
-    "published": 1163
+   "H16": {
+    "noticias": 14754,
+    "comentarios": 122848,
+    "posts": 1924
    },
-   "17": {
-    "todas": 15110,
-    "published": 1217
+   "H17": {
+    "noticias": 15110,
+    "comentarios": 123265,
+    "posts": 2034
    },
-   "18": {
-    "todas": 14674,
-    "published": 1071
+   "H18": {
+    "noticias": 14674,
+    "comentarios": 118942,
+    "posts": 1873
    },
-   "19": {
-    "todas": 13984,
-    "published": 1004
+   "H19": {
+    "noticias": 13984,
+    "comentarios": 114213,
+    "posts": 1824
    },
-   "20": {
-    "todas": 13610,
-    "published": 987
+   "H20": {
+    "noticias": 13610,
+    "comentarios": 112634,
+    "posts": 1867
    },
-   "21": {
-    "todas": 12183,
-    "published": 999
+   "H21": {
+    "noticias": 12183,
+    "comentarios": 103636,
+    "posts": 2019
    },
-   "22": {
-    "todas": 11111,
-    "published": 934
+   "H22": {
+    "noticias": 11112,
+    "comentarios": 99059,
+    "posts": 1876
    },
-   "23": {
-    "todas": 10333,
-    "published": 928
+   "H23": {
+    "noticias": 10333,
+    "comentarios": 101243,
+    "posts": 2033
+   },
+   "W0": {
+    "noticias": 38021,
+    "comentarios": 307899,
+    "posts": 4917
+   },
+   "W1": {
+    "noticias": 40860,
+    "comentarios": 334845,
+    "posts": 4891
+   },
+   "W2": {
+    "noticias": 40802,
+    "comentarios": 333054,
+    "posts": 4855
+   },
+   "W3": {
+    "noticias": 40062,
+    "comentarios": 322873,
+    "posts": 4804
+   },
+   "W4": {
+    "noticias": 36462,
+    "comentarios": 290932,
+    "posts": 4423
+   },
+   "W5": {
+    "noticias": 23305,
+    "comentarios": 195789,
+    "posts": 3380
+   },
+   "W6": {
+    "noticias": 23554,
+    "comentarios": 208494,
+    "posts": 3653
+   },
+   "M1": {
+    "noticias": 17369,
+    "comentarios": 132941,
+    "posts": 1444
+   },
+   "M2": {
+    "noticias": 17910,
+    "comentarios": 137098,
+    "posts": 1744
+   },
+   "M3": {
+    "noticias": 18264,
+    "comentarios": 136948,
+    "posts": 1517
+   },
+   "M4": {
+    "noticias": 20893,
+    "comentarios": 145555,
+    "posts": 1414
+   },
+   "M5": {
+    "noticias": 21500,
+    "comentarios": 161645,
+    "posts": 1636
+   },
+   "M6": {
+    "noticias": 22057,
+    "comentarios": 188920,
+    "posts": 1953
+   },
+   "M7": {
+    "noticias": 21436,
+    "comentarios": 183326,
+    "posts": 2250
+   },
+   "M8": {
+    "noticias": 19138,
+    "comentarios": 178639,
+    "posts": 2572
+   },
+   "M9": {
+    "noticias": 22104,
+    "comentarios": 203939,
+    "posts": 3582
+   },
+   "M10": {
+    "noticias": 23642,
+    "comentarios": 189142,
+    "posts": 4044
+   },
+   "M11": {
+    "noticias": 20291,
+    "comentarios": 174226,
+    "posts": 4260
+   },
+   "M12": {
+    "noticias": 18462,
+    "comentarios": 161507,
+    "posts": 4507
    }
   },
   "2009": {
-   "0": {
-    "todas": 8665,
-    "published": 765
+   "H0": {
+    "noticias": 8665,
+    "comentarios": 95470,
+    "posts": 8519
    },
-   "1": {
-    "todas": 5799,
-    "published": 436
+   "H1": {
+    "noticias": 5799,
+    "comentarios": 62907,
+    "posts": 4803
    },
-   "2": {
-    "todas": 3645,
-    "published": 316
+   "H2": {
+    "noticias": 3645,
+    "comentarios": 38400,
+    "posts": 2583
    },
-   "3": {
-    "todas": 2376,
-    "published": 152
+   "H3": {
+    "noticias": 2376,
+    "comentarios": 23306,
+    "posts": 1348
    },
-   "4": {
-    "todas": 1741,
-    "published": 100
+   "H4": {
+    "noticias": 1741,
+    "comentarios": 14734,
+    "posts": 670
    },
-   "5": {
-    "todas": 1451,
-    "published": 69
+   "H5": {
+    "noticias": 1451,
+    "comentarios": 9882,
+    "posts": 496
    },
-   "6": {
-    "todas": 1753,
-    "published": 116
+   "H6": {
+    "noticias": 1753,
+    "comentarios": 9923,
+    "posts": 336
    },
-   "7": {
-    "todas": 3321,
-    "published": 208
+   "H7": {
+    "noticias": 3321,
+    "comentarios": 15660,
+    "posts": 604
    },
-   "8": {
-    "todas": 6910,
-    "published": 443
+   "H8": {
+    "noticias": 6910,
+    "comentarios": 42733,
+    "posts": 1836
    },
-   "9": {
-    "todas": 11599,
-    "published": 802
+   "H9": {
+    "noticias": 11599,
+    "comentarios": 78755,
+    "posts": 4012
    },
-   "10": {
-    "todas": 14292,
-    "published": 1036
+   "H10": {
+    "noticias": 14292,
+    "comentarios": 107662,
+    "posts": 5034
    },
-   "11": {
-    "todas": 16047,
-    "published": 1303
+   "H11": {
+    "noticias": 16047,
+    "comentarios": 128982,
+    "posts": 5954
    },
-   "12": {
-    "todas": 17302,
-    "published": 1468
+   "H12": {
+    "noticias": 17302,
+    "comentarios": 150860,
+    "posts": 7157
    },
-   "13": {
-    "todas": 17070,
-    "published": 1461
+   "H13": {
+    "noticias": 17070,
+    "comentarios": 162397,
+    "posts": 7957
    },
-   "14": {
-    "todas": 14934,
-    "published": 1159
+   "H14": {
+    "noticias": 14934,
+    "comentarios": 135436,
+    "posts": 6826
    },
-   "15": {
-    "todas": 13449,
-    "published": 1040
+   "H15": {
+    "noticias": 13449,
+    "comentarios": 125153,
+    "posts": 6795
    },
-   "16": {
-    "todas": 15317,
-    "published": 1179
+   "H16": {
+    "noticias": 15317,
+    "comentarios": 138003,
+    "posts": 8336
    },
-   "17": {
-    "todas": 15472,
-    "published": 1236
+   "H17": {
+    "noticias": 15472,
+    "comentarios": 137554,
+    "posts": 8220
    },
-   "18": {
-    "todas": 15114,
-    "published": 1084
+   "H18": {
+    "noticias": 15114,
+    "comentarios": 128693,
+    "posts": 7529
    },
-   "19": {
-    "todas": 14775,
-    "published": 1092
+   "H19": {
+    "noticias": 14776,
+    "comentarios": 123504,
+    "posts": 7364
    },
-   "20": {
-    "todas": 14140,
-    "published": 1102
+   "H20": {
+    "noticias": 14140,
+    "comentarios": 125548,
+    "posts": 7611
    },
-   "21": {
-    "todas": 12480,
-    "published": 1010
+   "H21": {
+    "noticias": 12480,
+    "comentarios": 118023,
+    "posts": 7528
    },
-   "22": {
-    "todas": 10884,
-    "published": 1027
+   "H22": {
+    "noticias": 10884,
+    "comentarios": 111018,
+    "posts": 7858
    },
-   "23": {
-    "todas": 10518,
-    "published": 1018
+   "H23": {
+    "noticias": 10518,
+    "comentarios": 109172,
+    "posts": 8882
+   },
+   "W0": {
+    "noticias": 38701,
+    "comentarios": 345271,
+    "posts": 19734
+   },
+   "W1": {
+    "noticias": 41127,
+    "comentarios": 359835,
+    "posts": 20300
+   },
+   "W2": {
+    "noticias": 42133,
+    "comentarios": 359388,
+    "posts": 20719
+   },
+   "W3": {
+    "noticias": 41150,
+    "comentarios": 363473,
+    "posts": 21117
+   },
+   "W4": {
+    "noticias": 36424,
+    "comentarios": 317540,
+    "posts": 19360
+   },
+   "W5": {
+    "noticias": 24521,
+    "comentarios": 214290,
+    "posts": 13021
+   },
+   "W6": {
+    "noticias": 24999,
+    "comentarios": 233978,
+    "posts": 14007
+   },
+   "M1": {
+    "noticias": 21933,
+    "comentarios": 195877,
+    "posts": 6860
+   },
+   "M2": {
+    "noticias": 21911,
+    "comentarios": 195101,
+    "posts": 7200
+   },
+   "M3": {
+    "noticias": 22825,
+    "comentarios": 197740,
+    "posts": 6866
+   },
+   "M4": {
+    "noticias": 21384,
+    "comentarios": 184450,
+    "posts": 7275
+   },
+   "M5": {
+    "noticias": 20854,
+    "comentarios": 181702,
+    "posts": 9757
+   },
+   "M6": {
+    "noticias": 20554,
+    "comentarios": 184168,
+    "posts": 10528
+   },
+   "M7": {
+    "noticias": 19966,
+    "comentarios": 173472,
+    "posts": 10763
+   },
+   "M8": {
+    "noticias": 18260,
+    "comentarios": 168367,
+    "posts": 9767
+   },
+   "M9": {
+    "noticias": 20256,
+    "comentarios": 183985,
+    "posts": 12973
+   },
+   "M10": {
+    "noticias": 21161,
+    "comentarios": 178795,
+    "posts": 15805
+   },
+   "M11": {
+    "noticias": 20166,
+    "comentarios": 178408,
+    "posts": 15696
+   },
+   "M12": {
+    "noticias": 19785,
+    "comentarios": 171710,
+    "posts": 14768
    }
   },
   "2010": {
-   "0": {
-    "todas": 8586,
-    "published": 702
+   "H0": {
+    "noticias": 8586,
+    "comentarios": 87341,
+    "posts": 11110
    },
-   "1": {
-    "todas": 5300,
-    "published": 410
+   "H1": {
+    "noticias": 5300,
+    "comentarios": 59255,
+    "posts": 7003
    },
-   "2": {
-    "todas": 3308,
-    "published": 255
+   "H2": {
+    "noticias": 3308,
+    "comentarios": 37151,
+    "posts": 3569
    },
-   "3": {
-    "todas": 2339,
-    "published": 158
+   "H3": {
+    "noticias": 2339,
+    "comentarios": 23360,
+    "posts": 1912
    },
-   "4": {
-    "todas": 1898,
-    "published": 115
+   "H4": {
+    "noticias": 1898,
+    "comentarios": 15050,
+    "posts": 1052
    },
-   "5": {
-    "todas": 1681,
-    "published": 87
+   "H5": {
+    "noticias": 1681,
+    "comentarios": 10274,
+    "posts": 568
    },
-   "6": {
-    "todas": 1994,
-    "published": 118
+   "H6": {
+    "noticias": 1994,
+    "comentarios": 9775,
+    "posts": 464
    },
-   "7": {
-    "todas": 3358,
-    "published": 237
+   "H7": {
+    "noticias": 3358,
+    "comentarios": 16875,
+    "posts": 820
    },
-   "8": {
-    "todas": 6748,
-    "published": 478
+   "H8": {
+    "noticias": 6748,
+    "comentarios": 43483,
+    "posts": 2740
    },
-   "9": {
-    "todas": 11863,
-    "published": 792
+   "H9": {
+    "noticias": 11863,
+    "comentarios": 77100,
+    "posts": 5854
    },
-   "10": {
-    "todas": 14064,
-    "published": 967
+   "H10": {
+    "noticias": 14064,
+    "comentarios": 104702,
+    "posts": 7638
    },
-   "11": {
-    "todas": 15582,
-    "published": 1115
+   "H11": {
+    "noticias": 15582,
+    "comentarios": 123254,
+    "posts": 9665
    },
-   "12": {
-    "todas": 16856,
-    "published": 1289
+   "H12": {
+    "noticias": 16856,
+    "comentarios": 143729,
+    "posts": 11521
    },
-   "13": {
-    "todas": 16745,
-    "published": 1229
+   "H13": {
+    "noticias": 16745,
+    "comentarios": 153185,
+    "posts": 11832
    },
-   "14": {
-    "todas": 13931,
-    "published": 1044
+   "H14": {
+    "noticias": 13931,
+    "comentarios": 126515,
+    "posts": 10431
    },
-   "15": {
-    "todas": 12914,
-    "published": 942
+   "H15": {
+    "noticias": 12914,
+    "comentarios": 116929,
+    "posts": 9695
    },
-   "16": {
-    "todas": 13796,
-    "published": 1013
+   "H16": {
+    "noticias": 13796,
+    "comentarios": 125947,
+    "posts": 11603
    },
-   "17": {
-    "todas": 14285,
-    "published": 1018
+   "H17": {
+    "noticias": 14285,
+    "comentarios": 123516,
+    "posts": 11034
    },
-   "18": {
-    "todas": 13810,
-    "published": 917
+   "H18": {
+    "noticias": 13810,
+    "comentarios": 117171,
+    "posts": 10445
    },
-   "19": {
-    "todas": 13666,
-    "published": 942
+   "H19": {
+    "noticias": 13666,
+    "comentarios": 113570,
+    "posts": 9881
    },
-   "20": {
-    "todas": 12907,
-    "published": 950
+   "H20": {
+    "noticias": 12907,
+    "comentarios": 112613,
+    "posts": 10478
    },
-   "21": {
-    "todas": 11351,
-    "published": 844
+   "H21": {
+    "noticias": 11351,
+    "comentarios": 104425,
+    "posts": 10426
    },
-   "22": {
-    "todas": 11052,
-    "published": 857
+   "H22": {
+    "noticias": 11052,
+    "comentarios": 102466,
+    "posts": 11388
    },
-   "23": {
-    "todas": 10673,
-    "published": 954
+   "H23": {
+    "noticias": 10674,
+    "comentarios": 103485,
+    "posts": 11915
+   },
+   "W0": {
+    "noticias": 37428,
+    "comentarios": 319263,
+    "posts": 27676
+   },
+   "W1": {
+    "noticias": 40202,
+    "comentarios": 338329,
+    "posts": 30252
+   },
+   "W2": {
+    "noticias": 39770,
+    "comentarios": 333127,
+    "posts": 30712
+   },
+   "W3": {
+    "noticias": 39016,
+    "comentarios": 330730,
+    "posts": 29724
+   },
+   "W4": {
+    "noticias": 35351,
+    "comentarios": 304023,
+    "posts": 27699
+   },
+   "W5": {
+    "noticias": 22745,
+    "comentarios": 207442,
+    "posts": 18473
+   },
+   "W6": {
+    "noticias": 24196,
+    "comentarios": 218257,
+    "posts": 18508
+   },
+   "M1": {
+    "noticias": 21573,
+    "comentarios": 187061,
+    "posts": 15193
+   },
+   "M2": {
+    "noticias": 19374,
+    "comentarios": 158535,
+    "posts": 14174
+   },
+   "M3": {
+    "noticias": 21420,
+    "comentarios": 172239,
+    "posts": 16033
+   },
+   "M4": {
+    "noticias": 20208,
+    "comentarios": 164392,
+    "posts": 15089
+   },
+   "M5": {
+    "noticias": 22032,
+    "comentarios": 192527,
+    "posts": 18016
+   },
+   "M6": {
+    "noticias": 21832,
+    "comentarios": 191261,
+    "posts": 18013
+   },
+   "M7": {
+    "noticias": 19046,
+    "comentarios": 182479,
+    "posts": 16039
+   },
+   "M8": {
+    "noticias": 17941,
+    "comentarios": 159928,
+    "posts": 14078
+   },
+   "M9": {
+    "noticias": 18791,
+    "comentarios": 164691,
+    "posts": 15391
+   },
+   "M10": {
+    "noticias": 18138,
+    "comentarios": 153952,
+    "posts": 13236
+   },
+   "M11": {
+    "noticias": 19397,
+    "comentarios": 152931,
+    "posts": 13742
+   },
+   "M12": {
+    "noticias": 18956,
+    "comentarios": 171175,
+    "posts": 14040
    }
   },
   "2011": {
-   "0": {
-    "todas": 9115,
-    "published": 700
+   "H0": {
+    "noticias": 9116,
+    "comentarios": 95724,
+    "posts": 11846
    },
-   "1": {
-    "todas": 6003,
-    "published": 444
+   "H1": {
+    "noticias": 6019,
+    "comentarios": 64747,
+    "posts": 7157
    },
-   "2": {
-    "todas": 3775,
-    "published": 287
+   "H2": {
+    "noticias": 3802,
+    "comentarios": 39843,
+    "posts": 4180
    },
-   "3": {
-    "todas": 2661,
-    "published": 170
+   "H3": {
+    "noticias": 2668,
+    "comentarios": 24942,
+    "posts": 2442
    },
-   "4": {
-    "todas": 2218,
-    "published": 130
+   "H4": {
+    "noticias": 2230,
+    "comentarios": 15953,
+    "posts": 1365
    },
-   "5": {
-    "todas": 1975,
-    "published": 96
+   "H5": {
+    "noticias": 1976,
+    "comentarios": 11445,
+    "posts": 896
    },
-   "6": {
-    "todas": 2531,
-    "published": 164
+   "H6": {
+    "noticias": 2532,
+    "comentarios": 11128,
+    "posts": 671
    },
-   "7": {
-    "todas": 4448,
-    "published": 293
+   "H7": {
+    "noticias": 4448,
+    "comentarios": 18888,
+    "posts": 1451
    },
-   "8": {
-    "todas": 8734,
-    "published": 537
+   "H8": {
+    "noticias": 8741,
+    "comentarios": 49411,
+    "posts": 3030
    },
-   "9": {
-    "todas": 13847,
-    "published": 818
+   "H9": {
+    "noticias": 13849,
+    "comentarios": 87580,
+    "posts": 6975
    },
-   "10": {
-    "todas": 17015,
-    "published": 1002
+   "H10": {
+    "noticias": 17018,
+    "comentarios": 117848,
+    "posts": 8222
    },
-   "11": {
-    "todas": 18431,
-    "published": 1130
+   "H11": {
+    "noticias": 18437,
+    "comentarios": 138843,
+    "posts": 9707
    },
-   "12": {
-    "todas": 19749,
-    "published": 1222
+   "H12": {
+    "noticias": 19756,
+    "comentarios": 158154,
+    "posts": 11654
    },
-   "13": {
-    "todas": 19635,
-    "published": 1223
+   "H13": {
+    "noticias": 19649,
+    "comentarios": 169551,
+    "posts": 12722
    },
-   "14": {
-    "todas": 15984,
-    "published": 1051
+   "H14": {
+    "noticias": 15991,
+    "comentarios": 142264,
+    "posts": 10583
    },
-   "15": {
-    "todas": 14691,
-    "published": 981
+   "H15": {
+    "noticias": 14692,
+    "comentarios": 130553,
+    "posts": 9806
    },
-   "16": {
-    "todas": 15916,
-    "published": 987
+   "H16": {
+    "noticias": 15923,
+    "comentarios": 138747,
+    "posts": 11395
    },
-   "17": {
-    "todas": 16581,
-    "published": 986
+   "H17": {
+    "noticias": 16584,
+    "comentarios": 136177,
+    "posts": 11190
    },
-   "18": {
-    "todas": 15653,
-    "published": 967
+   "H18": {
+    "noticias": 15657,
+    "comentarios": 129025,
+    "posts": 10778
    },
-   "19": {
-    "todas": 15242,
-    "published": 963
+   "H19": {
+    "noticias": 15243,
+    "comentarios": 124185,
+    "posts": 11048
    },
-   "20": {
-    "todas": 14586,
-    "published": 926
+   "H20": {
+    "noticias": 14590,
+    "comentarios": 123790,
+    "posts": 11632
    },
-   "21": {
-    "todas": 12861,
-    "published": 936
+   "H21": {
+    "noticias": 12861,
+    "comentarios": 116285,
+    "posts": 11658
    },
-   "22": {
-    "todas": 12149,
-    "published": 959
+   "H22": {
+    "noticias": 12152,
+    "comentarios": 111064,
+    "posts": 12072
    },
-   "23": {
-    "todas": 11419,
-    "published": 948
+   "H23": {
+    "noticias": 11423,
+    "comentarios": 110207,
+    "posts": 12873
+   },
+   "W0": {
+    "noticias": 42199,
+    "comentarios": 344266,
+    "posts": 29259
+   },
+   "W1": {
+    "noticias": 44674,
+    "comentarios": 363676,
+    "posts": 30376
+   },
+   "W2": {
+    "noticias": 46625,
+    "comentarios": 371011,
+    "posts": 31588
+   },
+   "W3": {
+    "noticias": 45012,
+    "comentarios": 366481,
+    "posts": 31593
+   },
+   "W4": {
+    "noticias": 41176,
+    "comentarios": 346180,
+    "posts": 29837
+   },
+   "W5": {
+    "noticias": 27288,
+    "comentarios": 233471,
+    "posts": 21519
+   },
+   "W6": {
+    "noticias": 28383,
+    "comentarios": 241269,
+    "posts": 21181
+   },
+   "M1": {
+    "noticias": 21226,
+    "comentarios": 172518,
+    "posts": 11445
+   },
+   "M2": {
+    "noticias": 21781,
+    "comentarios": 157540,
+    "posts": 13967
+   },
+   "M3": {
+    "noticias": 24889,
+    "comentarios": 194995,
+    "posts": 14081
+   },
+   "M4": {
+    "noticias": 20810,
+    "comentarios": 170718,
+    "posts": 13203
+   },
+   "M5": {
+    "noticias": 24264,
+    "comentarios": 211838,
+    "posts": 23574
+   },
+   "M6": {
+    "noticias": 23190,
+    "comentarios": 204464,
+    "posts": 20954
+   },
+   "M7": {
+    "noticias": 20234,
+    "comentarios": 181967,
+    "posts": 15315
+   },
+   "M8": {
+    "noticias": 20903,
+    "comentarios": 180164,
+    "posts": 12893
+   },
+   "M9": {
+    "noticias": 23859,
+    "comentarios": 195836,
+    "posts": 13733
+   },
+   "M10": {
+    "noticias": 24119,
+    "comentarios": 200701,
+    "posts": 17424
+   },
+   "M11": {
+    "noticias": 26266,
+    "comentarios": 211502,
+    "posts": 21598
+   },
+   "M12": {
+    "noticias": 23816,
+    "comentarios": 184111,
+    "posts": 17166
    }
   },
   "2012": {
-   "0": {
-    "todas": 7891,
-    "published": 573
+   "H0": {
+    "noticias": 7960,
+    "comentarios": 91429,
+    "posts": 14511
    },
-   "1": {
-    "todas": 5054,
-    "published": 393
+   "H1": {
+    "noticias": 5078,
+    "comentarios": 63521,
+    "posts": 8460
    },
-   "2": {
-    "todas": 3267,
-    "published": 244
+   "H2": {
+    "noticias": 3287,
+    "comentarios": 40275,
+    "posts": 4274
    },
-   "3": {
-    "todas": 2183,
-    "published": 144
+   "H3": {
+    "noticias": 2195,
+    "comentarios": 25115,
+    "posts": 2484
    },
-   "4": {
-    "todas": 1621,
-    "published": 73
+   "H4": {
+    "noticias": 1628,
+    "comentarios": 15776,
+    "posts": 1275
    },
-   "5": {
-    "todas": 1485,
-    "published": 81
+   "H5": {
+    "noticias": 1491,
+    "comentarios": 10948,
+    "posts": 904
    },
-   "6": {
-    "todas": 2079,
-    "published": 131
+   "H6": {
+    "noticias": 2084,
+    "comentarios": 10918,
+    "posts": 812
    },
-   "7": {
-    "todas": 3820,
-    "published": 267
+   "H7": {
+    "noticias": 3833,
+    "comentarios": 20272,
+    "posts": 1845
    },
-   "8": {
-    "todas": 7783,
-    "published": 513
+   "H8": {
+    "noticias": 7828,
+    "comentarios": 48761,
+    "posts": 3649
    },
-   "9": {
-    "todas": 12436,
-    "published": 766
+   "H9": {
+    "noticias": 12502,
+    "comentarios": 86457,
+    "posts": 6643
    },
-   "10": {
-    "todas": 15395,
-    "published": 888
+   "H10": {
+    "noticias": 15468,
+    "comentarios": 115237,
+    "posts": 9142
    },
-   "11": {
-    "todas": 17297,
-    "published": 1002
+   "H11": {
+    "noticias": 17411,
+    "comentarios": 134440,
+    "posts": 11237
    },
-   "12": {
-    "todas": 18327,
-    "published": 1118
+   "H12": {
+    "noticias": 18438,
+    "comentarios": 155506,
+    "posts": 13653
    },
-   "13": {
-    "todas": 17953,
-    "published": 1098
+   "H13": {
+    "noticias": 18049,
+    "comentarios": 164410,
+    "posts": 14369
    },
-   "14": {
-    "todas": 14549,
-    "published": 936
+   "H14": {
+    "noticias": 14625,
+    "comentarios": 141595,
+    "posts": 11949
    },
-   "15": {
-    "todas": 13064,
-    "published": 817
+   "H15": {
+    "noticias": 13150,
+    "comentarios": 128495,
+    "posts": 12083
    },
-   "16": {
-    "todas": 14565,
-    "published": 824
+   "H16": {
+    "noticias": 14654,
+    "comentarios": 137184,
+    "posts": 14330
    },
-   "17": {
-    "todas": 14644,
-    "published": 902
+   "H17": {
+    "noticias": 14741,
+    "comentarios": 132369,
+    "posts": 14497
    },
-   "18": {
-    "todas": 13954,
-    "published": 839
+   "H18": {
+    "noticias": 14032,
+    "comentarios": 124931,
+    "posts": 14097
    },
-   "19": {
-    "todas": 13322,
-    "published": 866
+   "H19": {
+    "noticias": 13425,
+    "comentarios": 120505,
+    "posts": 13918
    },
-   "20": {
-    "todas": 12763,
-    "published": 861
+   "H20": {
+    "noticias": 12862,
+    "comentarios": 122268,
+    "posts": 15128
    },
-   "21": {
-    "todas": 10925,
-    "published": 860
+   "H21": {
+    "noticias": 11012,
+    "comentarios": 114206,
+    "posts": 15376
    },
-   "22": {
-    "todas": 10100,
-    "published": 803
+   "H22": {
+    "noticias": 10183,
+    "comentarios": 110008,
+    "posts": 15833
    },
-   "23": {
-    "todas": 10027,
-    "published": 820
+   "H23": {
+    "noticias": 10109,
+    "comentarios": 107321,
+    "posts": 16650
+   },
+   "W0": {
+    "noticias": 38863,
+    "comentarios": 340420,
+    "posts": 36092
+   },
+   "W1": {
+    "noticias": 40670,
+    "comentarios": 357346,
+    "posts": 35629
+   },
+   "W2": {
+    "noticias": 41020,
+    "comentarios": 365868,
+    "posts": 37474
+   },
+   "W3": {
+    "noticias": 40181,
+    "comentarios": 358504,
+    "posts": 37075
+   },
+   "W4": {
+    "noticias": 36372,
+    "comentarios": 332740,
+    "posts": 35484
+   },
+   "W5": {
+    "noticias": 23921,
+    "comentarios": 229989,
+    "posts": 26152
+   },
+   "W6": {
+    "noticias": 25018,
+    "comentarios": 237080,
+    "posts": 29213
+   },
+   "M1": {
+    "noticias": 24787,
+    "comentarios": 204477,
+    "posts": 19747
+   },
+   "M2": {
+    "noticias": 22373,
+    "comentarios": 191727,
+    "posts": 18202
+   },
+   "M3": {
+    "noticias": 21225,
+    "comentarios": 174372,
+    "posts": 19944
+   },
+   "M4": {
+    "noticias": 19147,
+    "comentarios": 173804,
+    "posts": 21793
+   },
+   "M5": {
+    "noticias": 22179,
+    "comentarios": 193969,
+    "posts": 23042
+   },
+   "M6": {
+    "noticias": 20328,
+    "comentarios": 191029,
+    "posts": 20490
+   },
+   "M7": {
+    "noticias": 20300,
+    "comentarios": 198154,
+    "posts": 21237
+   },
+   "M8": {
+    "noticias": 17258,
+    "comentarios": 177289,
+    "posts": 20298
+   },
+   "M9": {
+    "noticias": 19234,
+    "comentarios": 194197,
+    "posts": 19153
+   },
+   "M10": {
+    "noticias": 20906,
+    "comentarios": 191568,
+    "posts": 20086
+   },
+   "M11": {
+    "noticias": 20276,
+    "comentarios": 176464,
+    "posts": 17706
+   },
+   "M12": {
+    "noticias": 18032,
+    "comentarios": 154897,
+    "posts": 15421
    }
   },
   "2013": {
-   "0": {
-    "todas": 6799,
-    "published": 530
+   "H0": {
+    "noticias": 6927,
+    "comentarios": 79633,
+    "posts": 9394
    },
-   "1": {
-    "todas": 4274,
-    "published": 288
+   "H1": {
+    "noticias": 4350,
+    "comentarios": 54035,
+    "posts": 5009
    },
-   "2": {
-    "todas": 2719,
-    "published": 159
+   "H2": {
+    "noticias": 2760,
+    "comentarios": 34400,
+    "posts": 2368
    },
-   "3": {
-    "todas": 1892,
-    "published": 115
+   "H3": {
+    "noticias": 1922,
+    "comentarios": 21324,
+    "posts": 1198
    },
-   "4": {
-    "todas": 1425,
-    "published": 70
+   "H4": {
+    "noticias": 1455,
+    "comentarios": 14008,
+    "posts": 755
    },
-   "5": {
-    "todas": 1197,
-    "published": 49
+   "H5": {
+    "noticias": 1223,
+    "comentarios": 9922,
+    "posts": 522
    },
-   "6": {
-    "todas": 1671,
-    "published": 91
+   "H6": {
+    "noticias": 1707,
+    "comentarios": 10289,
+    "posts": 630
    },
-   "7": {
-    "todas": 3600,
-    "published": 331
+   "H7": {
+    "noticias": 3668,
+    "comentarios": 19254,
+    "posts": 1865
    },
-   "8": {
-    "todas": 6908,
-    "published": 496
+   "H8": {
+    "noticias": 7048,
+    "comentarios": 45692,
+    "posts": 3616
    },
-   "9": {
-    "todas": 11395,
-    "published": 639
+   "H9": {
+    "noticias": 11626,
+    "comentarios": 81554,
+    "posts": 5689
    },
-   "10": {
-    "todas": 14387,
-    "published": 790
+   "H10": {
+    "noticias": 14653,
+    "comentarios": 109080,
+    "posts": 7829
    },
-   "11": {
-    "todas": 15335,
-    "published": 863
+   "H11": {
+    "noticias": 15617,
+    "comentarios": 125529,
+    "posts": 9366
    },
-   "12": {
-    "todas": 16196,
-    "published": 889
+   "H12": {
+    "noticias": 16508,
+    "comentarios": 142085,
+    "posts": 10878
    },
-   "13": {
-    "todas": 15509,
-    "published": 918
+   "H13": {
+    "noticias": 15819,
+    "comentarios": 149198,
+    "posts": 11616
    },
-   "14": {
-    "todas": 12933,
-    "published": 783
+   "H14": {
+    "noticias": 13231,
+    "comentarios": 128023,
+    "posts": 10833
    },
-   "15": {
-    "todas": 11524,
-    "published": 683
+   "H15": {
+    "noticias": 11794,
+    "comentarios": 119205,
+    "posts": 9508
    },
-   "16": {
-    "todas": 13158,
-    "published": 649
+   "H16": {
+    "noticias": 13460,
+    "comentarios": 126488,
+    "posts": 11027
    },
-   "17": {
-    "todas": 12698,
-    "published": 682
+   "H17": {
+    "noticias": 12982,
+    "comentarios": 119469,
+    "posts": 11769
    },
-   "18": {
-    "todas": 12197,
-    "published": 692
+   "H18": {
+    "noticias": 12465,
+    "comentarios": 111754,
+    "posts": 11464
    },
-   "19": {
-    "todas": 11220,
-    "published": 678
+   "H19": {
+    "noticias": 11499,
+    "comentarios": 107258,
+    "posts": 10935
    },
-   "20": {
-    "todas": 11382,
-    "published": 709
+   "H20": {
+    "noticias": 11655,
+    "comentarios": 107763,
+    "posts": 11662
    },
-   "21": {
-    "todas": 9554,
-    "published": 703
+   "H21": {
+    "noticias": 9801,
+    "comentarios": 102331,
+    "posts": 11268
    },
-   "22": {
-    "todas": 8613,
-    "published": 695
+   "H22": {
+    "noticias": 8873,
+    "comentarios": 95292,
+    "posts": 12025
    },
-   "23": {
-    "todas": 8337,
-    "published": 648
+   "H23": {
+    "noticias": 8581,
+    "comentarios": 92476,
+    "posts": 11735
+   },
+   "W0": {
+    "noticias": 34685,
+    "comentarios": 310549,
+    "posts": 27073
+   },
+   "W1": {
+    "noticias": 36491,
+    "comentarios": 331488,
+    "posts": 28348
+   },
+   "W2": {
+    "noticias": 35796,
+    "comentarios": 327081,
+    "posts": 28568
+   },
+   "W3": {
+    "noticias": 35624,
+    "comentarios": 319315,
+    "posts": 28188
+   },
+   "W4": {
+    "noticias": 32563,
+    "comentarios": 295116,
+    "posts": 26318
+   },
+   "W5": {
+    "noticias": 21737,
+    "comentarios": 207693,
+    "posts": 22563
+   },
+   "W6": {
+    "noticias": 22728,
+    "comentarios": 214820,
+    "posts": 21903
+   },
+   "M1": {
+    "noticias": 22385,
+    "comentarios": 182681,
+    "posts": 15007
+   },
+   "M2": {
+    "noticias": 20110,
+    "comentarios": 172296,
+    "posts": 14644
+   },
+   "M3": {
+    "noticias": 19937,
+    "comentarios": 169823,
+    "posts": 16906
+   },
+   "M4": {
+    "noticias": 21074,
+    "comentarios": 183761,
+    "posts": 15573
+   },
+   "M5": {
+    "noticias": 20609,
+    "comentarios": 179955,
+    "posts": 16273
+   },
+   "M6": {
+    "noticias": 18745,
+    "comentarios": 167938,
+    "posts": 16430
+   },
+   "M7": {
+    "noticias": 17964,
+    "comentarios": 180242,
+    "posts": 17483
+   },
+   "M8": {
+    "noticias": 15049,
+    "comentarios": 157255,
+    "posts": 15218
+   },
+   "M9": {
+    "noticias": 16853,
+    "comentarios": 174818,
+    "posts": 15480
+   },
+   "M10": {
+    "noticias": 17374,
+    "comentarios": 161767,
+    "posts": 14646
+   },
+   "M11": {
+    "noticias": 15397,
+    "comentarios": 141095,
+    "posts": 12648
+   },
+   "M12": {
+    "noticias": 14127,
+    "comentarios": 134431,
+    "posts": 12653
    }
   },
   "2014": {
-   "0": {
-    "todas": 5349,
-    "published": 512
+   "H0": {
+    "noticias": 5864,
+    "comentarios": 78038,
+    "posts": 6524
    },
-   "1": {
-    "todas": 3511,
-    "published": 321
+   "H1": {
+    "noticias": 3816,
+    "comentarios": 53376,
+    "posts": 3446
    },
-   "2": {
-    "todas": 2157,
-    "published": 142
+   "H2": {
+    "noticias": 2377,
+    "comentarios": 33010,
+    "posts": 1836
    },
-   "3": {
-    "todas": 1378,
-    "published": 71
+   "H3": {
+    "noticias": 1482,
+    "comentarios": 20214,
+    "posts": 1139
    },
-   "4": {
-    "todas": 1230,
-    "published": 78
+   "H4": {
+    "noticias": 1329,
+    "comentarios": 13120,
+    "posts": 602
    },
-   "5": {
-    "todas": 1043,
-    "published": 52
+   "H5": {
+    "noticias": 1124,
+    "comentarios": 9316,
+    "posts": 471
    },
-   "6": {
-    "todas": 1280,
-    "published": 78
+   "H6": {
+    "noticias": 1421,
+    "comentarios": 10696,
+    "posts": 608
    },
-   "7": {
-    "todas": 3574,
-    "published": 380
+   "H7": {
+    "noticias": 3986,
+    "comentarios": 20582,
+    "posts": 2092
    },
-   "8": {
-    "todas": 5777,
-    "published": 536
+   "H8": {
+    "noticias": 6268,
+    "comentarios": 48167,
+    "posts": 3075
    },
-   "9": {
-    "todas": 9542,
-    "published": 664
+   "H9": {
+    "noticias": 10042,
+    "comentarios": 82466,
+    "posts": 5685
    },
-   "10": {
-    "todas": 12507,
-    "published": 790
+   "H10": {
+    "noticias": 13168,
+    "comentarios": 111057,
+    "posts": 6937
    },
-   "11": {
-    "todas": 12665,
-    "published": 837
+   "H11": {
+    "noticias": 13390,
+    "comentarios": 126732,
+    "posts": 8651
    },
-   "12": {
-    "todas": 13162,
-    "published": 844
+   "H12": {
+    "noticias": 13928,
+    "comentarios": 138955,
+    "posts": 9330
    },
-   "13": {
-    "todas": 11971,
-    "published": 857
+   "H13": {
+    "noticias": 12767,
+    "comentarios": 144841,
+    "posts": 9090
    },
-   "14": {
-    "todas": 10066,
-    "published": 772
+   "H14": {
+    "noticias": 10738,
+    "comentarios": 126304,
+    "posts": 9343
    },
-   "15": {
-    "todas": 9484,
-    "published": 681
+   "H15": {
+    "noticias": 10153,
+    "comentarios": 122244,
+    "posts": 8609
    },
-   "16": {
-    "todas": 10626,
-    "published": 717
+   "H16": {
+    "noticias": 11407,
+    "comentarios": 123051,
+    "posts": 9426
    },
-   "17": {
-    "todas": 10044,
-    "published": 722
+   "H17": {
+    "noticias": 10857,
+    "comentarios": 117652,
+    "posts": 9495
    },
-   "18": {
-    "todas": 9427,
-    "published": 617
+   "H18": {
+    "noticias": 10187,
+    "comentarios": 108684,
+    "posts": 9466
    },
-   "19": {
-    "todas": 8927,
-    "published": 610
+   "H19": {
+    "noticias": 9719,
+    "comentarios": 105973,
+    "posts": 8989
    },
-   "20": {
-    "todas": 8676,
-    "published": 721
+   "H20": {
+    "noticias": 9472,
+    "comentarios": 105419,
+    "posts": 9650
    },
-   "21": {
-    "todas": 7576,
-    "published": 723
+   "H21": {
+    "noticias": 8319,
+    "comentarios": 98725,
+    "posts": 9334
    },
-   "22": {
-    "todas": 6777,
-    "published": 659
+   "H22": {
+    "noticias": 7482,
+    "comentarios": 92173,
+    "posts": 9037
    },
-   "23": {
-    "todas": 6849,
-    "published": 665
+   "H23": {
+    "noticias": 7466,
+    "comentarios": 90612,
+    "posts": 8365
+   },
+   "W0": {
+    "noticias": 29181,
+    "comentarios": 306188,
+    "posts": 23444
+   },
+   "W1": {
+    "noticias": 30927,
+    "comentarios": 327254,
+    "posts": 23491
+   },
+   "W2": {
+    "noticias": 30866,
+    "comentarios": 323257,
+    "posts": 22847
+   },
+   "W3": {
+    "noticias": 30402,
+    "comentarios": 311065,
+    "posts": 23523
+   },
+   "W4": {
+    "noticias": 27921,
+    "comentarios": 289784,
+    "posts": 21139
+   },
+   "W5": {
+    "noticias": 18652,
+    "comentarios": 203617,
+    "posts": 17864
+   },
+   "W6": {
+    "noticias": 18813,
+    "comentarios": 220242,
+    "posts": 18892
+   },
+   "M1": {
+    "noticias": 16301,
+    "comentarios": 157717,
+    "posts": 11864
+   },
+   "M2": {
+    "noticias": 15525,
+    "comentarios": 148762,
+    "posts": 11938
+   },
+   "M3": {
+    "noticias": 16314,
+    "comentarios": 149289,
+    "posts": 12875
+   },
+   "M4": {
+    "noticias": 15742,
+    "comentarios": 133869,
+    "posts": 11513
+   },
+   "M5": {
+    "noticias": 16200,
+    "comentarios": 164340,
+    "posts": 14436
+   },
+   "M6": {
+    "noticias": 15736,
+    "comentarios": 164587,
+    "posts": 14770
+   },
+   "M7": {
+    "noticias": 15060,
+    "comentarios": 167362,
+    "posts": 12749
+   },
+   "M8": {
+    "noticias": 14113,
+    "comentarios": 169787,
+    "posts": 14086
+   },
+   "M9": {
+    "noticias": 14568,
+    "comentarios": 184742,
+    "posts": 13773
+   },
+   "M10": {
+    "noticias": 17254,
+    "comentarios": 199797,
+    "posts": 12790
+   },
+   "M11": {
+    "noticias": 15393,
+    "comentarios": 180716,
+    "posts": 10570
+   },
+   "M12": {
+    "noticias": 14556,
+    "comentarios": 160439,
+    "posts": 9836
    }
   },
   "2015": {
-   "0": {
-    "todas": 4521,
-    "published": 461
+   "H0": {
+    "noticias": 5062,
+    "comentarios": 91163,
+    "posts": 7724
    },
-   "1": {
-    "todas": 2803,
-    "published": 245
+   "H1": {
+    "noticias": 3140,
+    "comentarios": 61198,
+    "posts": 4010
    },
-   "2": {
-    "todas": 1671,
-    "published": 133
+   "H2": {
+    "noticias": 1901,
+    "comentarios": 36859,
+    "posts": 2088
    },
-   "3": {
-    "todas": 1236,
-    "published": 66
+   "H3": {
+    "noticias": 1432,
+    "comentarios": 22684,
+    "posts": 1127
    },
-   "4": {
-    "todas": 1029,
-    "published": 61
+   "H4": {
+    "noticias": 1198,
+    "comentarios": 15131,
+    "posts": 619
    },
-   "5": {
-    "todas": 1116,
-    "published": 71
+   "H5": {
+    "noticias": 1261,
+    "comentarios": 12317,
+    "posts": 578
    },
-   "6": {
-    "todas": 1790,
-    "published": 106
+   "H6": {
+    "noticias": 1969,
+    "comentarios": 14475,
+    "posts": 747
    },
-   "7": {
-    "todas": 3417,
-    "published": 357
+   "H7": {
+    "noticias": 3758,
+    "comentarios": 28656,
+    "posts": 2307
    },
-   "8": {
-    "todas": 5335,
-    "published": 461
+   "H8": {
+    "noticias": 5997,
+    "comentarios": 64448,
+    "posts": 3738
    },
-   "9": {
-    "todas": 8506,
-    "published": 648
+   "H9": {
+    "noticias": 9065,
+    "comentarios": 106956,
+    "posts": 6303
    },
-   "10": {
-    "todas": 10700,
-    "published": 784
+   "H10": {
+    "noticias": 11289,
+    "comentarios": 142288,
+    "posts": 8279
    },
-   "11": {
-    "todas": 10911,
-    "published": 780
+   "H11": {
+    "noticias": 11505,
+    "comentarios": 159475,
+    "posts": 10398
    },
-   "12": {
-    "todas": 11439,
-    "published": 854
+   "H12": {
+    "noticias": 12105,
+    "comentarios": 173440,
+    "posts": 12182
    },
-   "13": {
-    "todas": 11198,
-    "published": 880
+   "H13": {
+    "noticias": 11958,
+    "comentarios": 178383,
+    "posts": 11726
    },
-   "14": {
-    "todas": 9486,
-    "published": 668
+   "H14": {
+    "noticias": 10146,
+    "comentarios": 160826,
+    "posts": 11396
    },
-   "15": {
-    "todas": 8939,
-    "published": 684
+   "H15": {
+    "noticias": 9555,
+    "comentarios": 155675,
+    "posts": 10352
    },
-   "16": {
-    "todas": 9550,
-    "published": 650
+   "H16": {
+    "noticias": 10206,
+    "comentarios": 157614,
+    "posts": 10960
    },
-   "17": {
-    "todas": 9012,
-    "published": 665
+   "H17": {
+    "noticias": 9678,
+    "comentarios": 143641,
+    "posts": 11186
    },
-   "18": {
-    "todas": 8444,
-    "published": 602
+   "H18": {
+    "noticias": 9149,
+    "comentarios": 132258,
+    "posts": 10170
    },
-   "19": {
-    "todas": 8048,
-    "published": 662
+   "H19": {
+    "noticias": 8692,
+    "comentarios": 127405,
+    "posts": 10149
    },
-   "20": {
-    "todas": 7532,
-    "published": 634
+   "H20": {
+    "noticias": 8209,
+    "comentarios": 125586,
+    "posts": 10904
    },
-   "21": {
-    "todas": 6970,
-    "published": 590
+   "H21": {
+    "noticias": 7628,
+    "comentarios": 121420,
+    "posts": 11792
    },
-   "22": {
-    "todas": 6527,
-    "published": 634
+   "H22": {
+    "noticias": 7192,
+    "comentarios": 116776,
+    "posts": 11930
    },
-   "23": {
-    "todas": 6005,
-    "published": 622
+   "H23": {
+    "noticias": 6646,
+    "comentarios": 111774,
+    "posts": 10657
+   },
+   "W0": {
+    "noticias": 26516,
+    "comentarios": 384002,
+    "posts": 28670
+   },
+   "W1": {
+    "noticias": 28121,
+    "comentarios": 402317,
+    "posts": 27488
+   },
+   "W2": {
+    "noticias": 27895,
+    "comentarios": 402287,
+    "posts": 27903
+   },
+   "W3": {
+    "noticias": 27200,
+    "comentarios": 391078,
+    "posts": 28012
+   },
+   "W4": {
+    "noticias": 24893,
+    "comentarios": 356198,
+    "posts": 24871
+   },
+   "W5": {
+    "noticias": 16826,
+    "comentarios": 256365,
+    "posts": 20849
+   },
+   "W6": {
+    "noticias": 17290,
+    "comentarios": 268201,
+    "posts": 23529
+   },
+   "M1": {
+    "noticias": 15382,
+    "comentarios": 185642,
+    "posts": 12891
+   },
+   "M2": {
+    "noticias": 14813,
+    "comentarios": 178444,
+    "posts": 14625
+   },
+   "M3": {
+    "noticias": 14925,
+    "comentarios": 188283,
+    "posts": 14062
+   },
+   "M4": {
+    "noticias": 14707,
+    "comentarios": 186808,
+    "posts": 12310
+   },
+   "M5": {
+    "noticias": 15366,
+    "comentarios": 214655,
+    "posts": 17037
+   },
+   "M6": {
+    "noticias": 13967,
+    "comentarios": 219083,
+    "posts": 16077
+   },
+   "M7": {
+    "noticias": 13180,
+    "comentarios": 215184,
+    "posts": 15384
+   },
+   "M8": {
+    "noticias": 12119,
+    "comentarios": 188938,
+    "posts": 15045
+   },
+   "M9": {
+    "noticias": 12031,
+    "comentarios": 206849,
+    "posts": 15455
+   },
+   "M10": {
+    "noticias": 13783,
+    "comentarios": 218177,
+    "posts": 14365
+   },
+   "M11": {
+    "noticias": 14222,
+    "comentarios": 231180,
+    "posts": 16685
+   },
+   "M12": {
+    "noticias": 14246,
+    "comentarios": 227205,
+    "posts": 17386
    }
   },
   "2016": {
-   "0": {
-    "todas": 3483,
-    "published": 330
+   "H0": {
+    "noticias": 3873,
+    "comentarios": 85629,
+    "posts": 7504
    },
-   "1": {
-    "todas": 2113,
-    "published": 181
+   "H1": {
+    "noticias": 2327,
+    "comentarios": 55330,
+    "posts": 3754
    },
-   "2": {
-    "todas": 1294,
-    "published": 98
+   "H2": {
+    "noticias": 1414,
+    "comentarios": 33460,
+    "posts": 2074
    },
-   "3": {
-    "todas": 950,
-    "published": 61
+   "H3": {
+    "noticias": 1036,
+    "comentarios": 21230,
+    "posts": 1214
    },
-   "4": {
-    "todas": 816,
-    "published": 49
+   "H4": {
+    "noticias": 903,
+    "comentarios": 14406,
+    "posts": 836
    },
-   "5": {
-    "todas": 911,
-    "published": 45
+   "H5": {
+    "noticias": 1041,
+    "comentarios": 11673,
+    "posts": 727
    },
-   "6": {
-    "todas": 2075,
-    "published": 175
+   "H6": {
+    "noticias": 2212,
+    "comentarios": 15625,
+    "posts": 1042
    },
-   "7": {
-    "todas": 3105,
-    "published": 257
+   "H7": {
+    "noticias": 3327,
+    "comentarios": 33411,
+    "posts": 2657
    },
-   "8": {
-    "todas": 5438,
-    "published": 466
+   "H8": {
+    "noticias": 6167,
+    "comentarios": 73609,
+    "posts": 4593
    },
-   "9": {
-    "todas": 7727,
-    "published": 544
+   "H9": {
+    "noticias": 8223,
+    "comentarios": 117681,
+    "posts": 7459
    },
-   "10": {
-    "todas": 8820,
-    "published": 607
+   "H10": {
+    "noticias": 9329,
+    "comentarios": 146434,
+    "posts": 10197
    },
-   "11": {
-    "todas": 9272,
-    "published": 641
+   "H11": {
+    "noticias": 9804,
+    "comentarios": 162795,
+    "posts": 11624
    },
-   "12": {
-    "todas": 9587,
-    "published": 697
+   "H12": {
+    "noticias": 10180,
+    "comentarios": 177955,
+    "posts": 12805
    },
-   "13": {
-    "todas": 9106,
-    "published": 676
+   "H13": {
+    "noticias": 9744,
+    "comentarios": 182528,
+    "posts": 12960
    },
-   "14": {
-    "todas": 7784,
-    "published": 586
+   "H14": {
+    "noticias": 8429,
+    "comentarios": 160789,
+    "posts": 12011
    },
-   "15": {
-    "todas": 7381,
-    "published": 515
+   "H15": {
+    "noticias": 7992,
+    "comentarios": 156005,
+    "posts": 11616
    },
-   "16": {
-    "todas": 8211,
-    "published": 446
+   "H16": {
+    "noticias": 8827,
+    "comentarios": 159514,
+    "posts": 12410
    },
-   "17": {
-    "todas": 8091,
-    "published": 533
+   "H17": {
+    "noticias": 8721,
+    "comentarios": 145224,
+    "posts": 12156
    },
-   "18": {
-    "todas": 7384,
-    "published": 511
+   "H18": {
+    "noticias": 7999,
+    "comentarios": 131155,
+    "posts": 11591
    },
-   "19": {
-    "todas": 7007,
-    "published": 477
+   "H19": {
+    "noticias": 7621,
+    "comentarios": 123415,
+    "posts": 12072
    },
-   "20": {
-    "todas": 6468,
-    "published": 490
+   "H20": {
+    "noticias": 7013,
+    "comentarios": 123565,
+    "posts": 12552
    },
-   "21": {
-    "todas": 5690,
-    "published": 491
+   "H21": {
+    "noticias": 6187,
+    "comentarios": 119318,
+    "posts": 13264
    },
-   "22": {
-    "todas": 5143,
-    "published": 512
+   "H22": {
+    "noticias": 5675,
+    "comentarios": 113908,
+    "posts": 13738
    },
-   "23": {
-    "todas": 4827,
-    "published": 502
+   "H23": {
+    "noticias": 5319,
+    "comentarios": 106561,
+    "posts": 10840
+   },
+   "W0": {
+    "noticias": 22366,
+    "comentarios": 383519,
+    "posts": 29418
+   },
+   "W1": {
+    "noticias": 23427,
+    "comentarios": 400160,
+    "posts": 30329
+   },
+   "W2": {
+    "noticias": 23737,
+    "comentarios": 396567,
+    "posts": 30884
+   },
+   "W3": {
+    "noticias": 23435,
+    "comentarios": 387352,
+    "posts": 29954
+   },
+   "W4": {
+    "noticias": 22066,
+    "comentarios": 371231,
+    "posts": 29047
+   },
+   "W5": {
+    "noticias": 14080,
+    "comentarios": 262588,
+    "posts": 26136
+   },
+   "W6": {
+    "noticias": 14252,
+    "comentarios": 269803,
+    "posts": 25928
+   },
+   "M1": {
+    "noticias": 14722,
+    "comentarios": 236823,
+    "posts": 17681
+   },
+   "M2": {
+    "noticias": 14554,
+    "comentarios": 219471,
+    "posts": 16688
+   },
+   "M3": {
+    "noticias": 12999,
+    "comentarios": 213257,
+    "posts": 17635
+   },
+   "M4": {
+    "noticias": 13235,
+    "comentarios": 209060,
+    "posts": 16932
+   },
+   "M5": {
+    "noticias": 13296,
+    "comentarios": 221953,
+    "posts": 15388
+   },
+   "M6": {
+    "noticias": 12404,
+    "comentarios": 239200,
+    "posts": 17279
+   },
+   "M7": {
+    "noticias": 11130,
+    "comentarios": 217615,
+    "posts": 15493
+   },
+   "M8": {
+    "noticias": 10213,
+    "comentarios": 188898,
+    "posts": 16029
+   },
+   "M9": {
+    "noticias": 10744,
+    "comentarios": 188487,
+    "posts": 15983
+   },
+   "M10": {
+    "noticias": 10180,
+    "comentarios": 187007,
+    "posts": 18252
+   },
+   "M11": {
+    "noticias": 10037,
+    "comentarios": 179006,
+    "posts": 18747
+   },
+   "M12": {
+    "noticias": 9849,
+    "comentarios": 170443,
+    "posts": 15589
    }
   },
   "2017": {
-   "0": {
-    "todas": 2902,
-    "published": 308
+   "H0": {
+    "noticias": 3502,
+    "comentarios": 78699,
+    "posts": 5818
    },
-   "1": {
-    "todas": 1745,
-    "published": 196
+   "H1": {
+    "noticias": 2152,
+    "comentarios": 48285,
+    "posts": 2523
    },
-   "2": {
-    "todas": 1166,
-    "published": 126
+   "H2": {
+    "noticias": 1504,
+    "comentarios": 27503,
+    "posts": 1242
    },
-   "3": {
-    "todas": 733,
-    "published": 66
+   "H3": {
+    "noticias": 980,
+    "comentarios": 16100,
+    "posts": 785
    },
-   "4": {
-    "todas": 692,
-    "published": 54
+   "H4": {
+    "noticias": 845,
+    "comentarios": 10976,
+    "posts": 490
    },
-   "5": {
-    "todas": 757,
-    "published": 89
+   "H5": {
+    "noticias": 887,
+    "comentarios": 9629,
+    "posts": 403
    },
-   "6": {
-    "todas": 1894,
-    "published": 294
+   "H6": {
+    "noticias": 2063,
+    "comentarios": 15434,
+    "posts": 1285
    },
-   "7": {
-    "todas": 2788,
-    "published": 360
+   "H7": {
+    "noticias": 3158,
+    "comentarios": 36418,
+    "posts": 2006
    },
-   "8": {
-    "todas": 5632,
-    "published": 601
+   "H8": {
+    "noticias": 6457,
+    "comentarios": 77674,
+    "posts": 3823
    },
-   "9": {
-    "todas": 7214,
-    "published": 697
+   "H9": {
+    "noticias": 8263,
+    "comentarios": 120438,
+    "posts": 6174
    },
-   "10": {
-    "todas": 8193,
-    "published": 657
+   "H10": {
+    "noticias": 9325,
+    "comentarios": 149724,
+    "posts": 7438
    },
-   "11": {
-    "todas": 8315,
-    "published": 722
+   "H11": {
+    "noticias": 9552,
+    "comentarios": 162999,
+    "posts": 8808
    },
-   "12": {
-    "todas": 8581,
-    "published": 713
+   "H12": {
+    "noticias": 9868,
+    "comentarios": 174376,
+    "posts": 10614
    },
-   "13": {
-    "todas": 7988,
-    "published": 698
+   "H13": {
+    "noticias": 9276,
+    "comentarios": 175670,
+    "posts": 11248
    },
-   "14": {
-    "todas": 6782,
-    "published": 609
+   "H14": {
+    "noticias": 7932,
+    "comentarios": 157527,
+    "posts": 9922
    },
-   "15": {
-    "todas": 6218,
-    "published": 523
+   "H15": {
+    "noticias": 7343,
+    "comentarios": 155779,
+    "posts": 8869
    },
-   "16": {
-    "todas": 6823,
-    "published": 522
+   "H16": {
+    "noticias": 7925,
+    "comentarios": 154300,
+    "posts": 9697
    },
-   "17": {
-    "todas": 6809,
-    "published": 580
+   "H17": {
+    "noticias": 8002,
+    "comentarios": 140099,
+    "posts": 9607
    },
-   "18": {
-    "todas": 6353,
-    "published": 511
+   "H18": {
+    "noticias": 7454,
+    "comentarios": 124550,
+    "posts": 9474
    },
-   "19": {
-    "todas": 5886,
-    "published": 543
+   "H19": {
+    "noticias": 6847,
+    "comentarios": 118113,
+    "posts": 9663
    },
-   "20": {
-    "todas": 5665,
-    "published": 526
+   "H20": {
+    "noticias": 6649,
+    "comentarios": 118725,
+    "posts": 9998
    },
-   "21": {
-    "todas": 5085,
-    "published": 594
+   "H21": {
+    "noticias": 5958,
+    "comentarios": 118060,
+    "posts": 10660
    },
-   "22": {
-    "todas": 4520,
-    "published": 564
+   "H22": {
+    "noticias": 5377,
+    "comentarios": 114379,
+    "posts": 10963
    },
-   "23": {
-    "todas": 4197,
-    "published": 486
+   "H23": {
+    "noticias": 5005,
+    "comentarios": 103077,
+    "posts": 8366
+   },
+   "W0": {
+    "noticias": 21195,
+    "comentarios": 366614,
+    "posts": 22247
+   },
+   "W1": {
+    "noticias": 22464,
+    "comentarios": 390483,
+    "posts": 23529
+   },
+   "W2": {
+    "noticias": 22262,
+    "comentarios": 384547,
+    "posts": 24254
+   },
+   "W3": {
+    "noticias": 22090,
+    "comentarios": 378455,
+    "posts": 24836
+   },
+   "W4": {
+    "noticias": 20234,
+    "comentarios": 352754,
+    "posts": 23640
+   },
+   "W5": {
+    "noticias": 13635,
+    "comentarios": 257431,
+    "posts": 20840
+   },
+   "W6": {
+    "noticias": 14444,
+    "comentarios": 278250,
+    "posts": 20530
+   },
+   "M1": {
+    "noticias": 10863,
+    "comentarios": 182556,
+    "posts": 17247
+   },
+   "M2": {
+    "noticias": 9773,
+    "comentarios": 165056,
+    "posts": 14305
+   },
+   "M3": {
+    "noticias": 10678,
+    "comentarios": 170449,
+    "posts": 12745
+   },
+   "M4": {
+    "noticias": 9820,
+    "comentarios": 169903,
+    "posts": 11702
+   },
+   "M5": {
+    "noticias": 11827,
+    "comentarios": 217732,
+    "posts": 13932
+   },
+   "M6": {
+    "noticias": 10612,
+    "comentarios": 203080,
+    "posts": 13189
+   },
+   "M7": {
+    "noticias": 10832,
+    "comentarios": 180947,
+    "posts": 12821
+   },
+   "M8": {
+    "noticias": 11061,
+    "comentarios": 203998,
+    "posts": 15240
+   },
+   "M9": {
+    "noticias": 12405,
+    "comentarios": 229542,
+    "posts": 14015
+   },
+   "M10": {
+    "noticias": 14696,
+    "comentarios": 307998,
+    "posts": 14493
+   },
+   "M11": {
+    "noticias": 12919,
+    "comentarios": 206194,
+    "posts": 9801
+   },
+   "M12": {
+    "noticias": 10838,
+    "comentarios": 171079,
+    "posts": 10386
    }
   },
   "2018": {
-   "0": {
-    "todas": 2706,
-    "published": 324
+   "H0": {
+    "noticias": 3480,
+    "comentarios": 81276,
+    "posts": 3592
    },
-   "1": {
-    "todas": 1702,
-    "published": 211
+   "H1": {
+    "noticias": 2218,
+    "comentarios": 47248,
+    "posts": 1682
    },
-   "2": {
-    "todas": 1132,
-    "published": 114
+   "H2": {
+    "noticias": 1502,
+    "comentarios": 26959,
+    "posts": 720
    },
-   "3": {
-    "todas": 863,
-    "published": 98
+   "H3": {
+    "noticias": 1150,
+    "comentarios": 16257,
+    "posts": 483
    },
-   "4": {
-    "todas": 757,
-    "published": 70
+   "H4": {
+    "noticias": 1008,
+    "comentarios": 11010,
+    "posts": 296
    },
-   "5": {
-    "todas": 1133,
-    "published": 156
+   "H5": {
+    "noticias": 1346,
+    "comentarios": 10770,
+    "posts": 297
    },
-   "6": {
-    "todas": 2844,
-    "published": 490
+   "H6": {
+    "noticias": 3111,
+    "comentarios": 18885,
+    "posts": 916
    },
-   "7": {
-    "todas": 3772,
-    "published": 476
+   "H7": {
+    "noticias": 4217,
+    "comentarios": 46109,
+    "posts": 1687
    },
-   "8": {
-    "todas": 5974,
-    "published": 633
+   "H8": {
+    "noticias": 6865,
+    "comentarios": 93767,
+    "posts": 3190
    },
-   "9": {
-    "todas": 8439,
-    "published": 858
+   "H9": {
+    "noticias": 9896,
+    "comentarios": 139618,
+    "posts": 4817
    },
-   "10": {
-    "todas": 9193,
-    "published": 827
+   "H10": {
+    "noticias": 10814,
+    "comentarios": 172276,
+    "posts": 5883
    },
-   "11": {
-    "todas": 8891,
-    "published": 809
+   "H11": {
+    "noticias": 10459,
+    "comentarios": 182483,
+    "posts": 6565
    },
-   "12": {
-    "todas": 8852,
-    "published": 874
+   "H12": {
+    "noticias": 10381,
+    "comentarios": 189934,
+    "posts": 7860
    },
-   "13": {
-    "todas": 8613,
-    "published": 858
+   "H13": {
+    "noticias": 10219,
+    "comentarios": 191715,
+    "posts": 7950
    },
-   "14": {
-    "todas": 7230,
-    "published": 788
+   "H14": {
+    "noticias": 8635,
+    "comentarios": 173194,
+    "posts": 7236
    },
-   "15": {
-    "todas": 6736,
-    "published": 680
+   "H15": {
+    "noticias": 8106,
+    "comentarios": 168018,
+    "posts": 6627
    },
-   "16": {
-    "todas": 7521,
-    "published": 659
+   "H16": {
+    "noticias": 8999,
+    "comentarios": 170501,
+    "posts": 7454
    },
-   "17": {
-    "todas": 7103,
-    "published": 663
+   "H17": {
+    "noticias": 8647,
+    "comentarios": 155238,
+    "posts": 7082
    },
-   "18": {
-    "todas": 6870,
-    "published": 683
+   "H18": {
+    "noticias": 8220,
+    "comentarios": 138888,
+    "posts": 6937
    },
-   "19": {
-    "todas": 6334,
-    "published": 675
+   "H19": {
+    "noticias": 7589,
+    "comentarios": 134005,
+    "posts": 6893
    },
-   "20": {
-    "todas": 6181,
-    "published": 742
+   "H20": {
+    "noticias": 7451,
+    "comentarios": 132674,
+    "posts": 7471
    },
-   "21": {
-    "todas": 5399,
-    "published": 727
+   "H21": {
+    "noticias": 6596,
+    "comentarios": 129053,
+    "posts": 7896
    },
-   "22": {
-    "todas": 4558,
-    "published": 622
+   "H22": {
+    "noticias": 5704,
+    "comentarios": 125223,
+    "posts": 7822
    },
-   "23": {
-    "todas": 4032,
-    "published": 569
+   "H23": {
+    "noticias": 5071,
+    "comentarios": 111974,
+    "posts": 5879
+   },
+   "W0": {
+    "noticias": 24282,
+    "comentarios": 416184,
+    "posts": 18037
+   },
+   "W1": {
+    "noticias": 24400,
+    "comentarios": 424153,
+    "posts": 17682
+   },
+   "W2": {
+    "noticias": 24611,
+    "comentarios": 420689,
+    "posts": 18384
+   },
+   "W3": {
+    "noticias": 24168,
+    "comentarios": 416099,
+    "posts": 18364
+   },
+   "W4": {
+    "noticias": 22503,
+    "comentarios": 392948,
+    "posts": 17275
+   },
+   "W5": {
+    "noticias": 15746,
+    "comentarios": 291256,
+    "posts": 13630
+   },
+   "W6": {
+    "noticias": 15974,
+    "comentarios": 305746,
+    "posts": 13863
+   },
+   "M1": {
+    "noticias": 12429,
+    "comentarios": 207986,
+    "posts": 9758
+   },
+   "M2": {
+    "noticias": 11946,
+    "comentarios": 204387,
+    "posts": 9368
+   },
+   "M3": {
+    "noticias": 13277,
+    "comentarios": 229850,
+    "posts": 10981
+   },
+   "M4": {
+    "noticias": 14127,
+    "comentarios": 234558,
+    "posts": 10846
+   },
+   "M5": {
+    "noticias": 14146,
+    "comentarios": 240398,
+    "posts": 10929
+   },
+   "M6": {
+    "noticias": 13128,
+    "comentarios": 223747,
+    "posts": 10962
+   },
+   "M7": {
+    "noticias": 12143,
+    "comentarios": 222140,
+    "posts": 9051
+   },
+   "M8": {
+    "noticias": 12393,
+    "comentarios": 232124,
+    "posts": 9434
+   },
+   "M9": {
+    "noticias": 12858,
+    "comentarios": 229982,
+    "posts": 10131
+   },
+   "M10": {
+    "noticias": 12667,
+    "comentarios": 221526,
+    "posts": 8804
+   },
+   "M11": {
+    "noticias": 11697,
+    "comentarios": 209606,
+    "posts": 8845
+   },
+   "M12": {
+    "noticias": 10873,
+    "comentarios": 210771,
+    "posts": 8126
    }
   },
   "2019": {
-   "0": {
-    "todas": 2632,
-    "published": 321
+   "H0": {
+    "noticias": 3328,
+    "comentarios": 80409,
+    "posts": 3591
    },
-   "1": {
-    "todas": 1563,
-    "published": 165
+   "H1": {
+    "noticias": 2044,
+    "comentarios": 47249,
+    "posts": 1778
    },
-   "2": {
-    "todas": 1021,
-    "published": 106
+   "H2": {
+    "noticias": 1417,
+    "comentarios": 25376,
+    "posts": 966
    },
-   "3": {
-    "todas": 766,
-    "published": 75
+   "H3": {
+    "noticias": 1017,
+    "comentarios": 15040,
+    "posts": 604
    },
-   "4": {
-    "todas": 674,
-    "published": 68
+   "H4": {
+    "noticias": 875,
+    "comentarios": 10386,
+    "posts": 273
    },
-   "5": {
-    "todas": 1056,
-    "published": 134
+   "H5": {
+    "noticias": 1257,
+    "comentarios": 10457,
+    "posts": 221
    },
-   "6": {
-    "todas": 2337,
-    "published": 337
+   "H6": {
+    "noticias": 2570,
+    "comentarios": 19244,
+    "posts": 572
    },
-   "7": {
-    "todas": 3202,
-    "published": 410
+   "H7": {
+    "noticias": 3610,
+    "comentarios": 45754,
+    "posts": 1571
    },
-   "8": {
-    "todas": 5520,
-    "published": 631
+   "H8": {
+    "noticias": 6259,
+    "comentarios": 92616,
+    "posts": 3360
    },
-   "9": {
-    "todas": 7609,
-    "published": 780
+   "H9": {
+    "noticias": 8725,
+    "comentarios": 134887,
+    "posts": 5162
    },
-   "10": {
-    "todas": 8465,
-    "published": 851
+   "H10": {
+    "noticias": 9773,
+    "comentarios": 159978,
+    "posts": 5905
    },
-   "11": {
-    "todas": 8753,
-    "published": 762
+   "H11": {
+    "noticias": 10162,
+    "comentarios": 170179,
+    "posts": 6684
    },
-   "12": {
-    "todas": 8534,
-    "published": 739
+   "H12": {
+    "noticias": 10083,
+    "comentarios": 178045,
+    "posts": 7056
    },
-   "13": {
-    "todas": 8072,
-    "published": 792
+   "H13": {
+    "noticias": 9487,
+    "comentarios": 178380,
+    "posts": 6658
    },
-   "14": {
-    "todas": 6929,
-    "published": 656
+   "H14": {
+    "noticias": 8123,
+    "comentarios": 165071,
+    "posts": 6921
    },
-   "15": {
-    "todas": 6631,
-    "published": 610
+   "H15": {
+    "noticias": 7752,
+    "comentarios": 158822,
+    "posts": 7024
    },
-   "16": {
-    "todas": 6955,
-    "published": 596
+   "H16": {
+    "noticias": 8222,
+    "comentarios": 155768,
+    "posts": 7628
    },
-   "17": {
-    "todas": 6656,
-    "published": 613
+   "H17": {
+    "noticias": 7970,
+    "comentarios": 143370,
+    "posts": 6869
    },
-   "18": {
-    "todas": 6361,
-    "published": 640
+   "H18": {
+    "noticias": 7624,
+    "comentarios": 129423,
+    "posts": 5870
    },
-   "19": {
-    "todas": 6166,
-    "published": 631
+   "H19": {
+    "noticias": 7286,
+    "comentarios": 124802,
+    "posts": 5275
    },
-   "20": {
-    "todas": 6228,
-    "published": 667
+   "H20": {
+    "noticias": 7307,
+    "comentarios": 126369,
+    "posts": 5901
    },
-   "21": {
-    "todas": 5456,
-    "published": 664
+   "H21": {
+    "noticias": 6566,
+    "comentarios": 124773,
+    "posts": 6448
    },
-   "22": {
-    "todas": 4555,
-    "published": 647
+   "H22": {
+    "noticias": 5533,
+    "comentarios": 121166,
+    "posts": 6534
    },
-   "23": {
-    "todas": 4085,
-    "published": 521
+   "H23": {
+    "noticias": 5016,
+    "comentarios": 107398,
+    "posts": 5333
+   },
+   "W0": {
+    "noticias": 21956,
+    "comentarios": 385809,
+    "posts": 16681
+   },
+   "W1": {
+    "noticias": 23331,
+    "comentarios": 406786,
+    "posts": 17540
+   },
+   "W2": {
+    "noticias": 22593,
+    "comentarios": 404673,
+    "posts": 17463
+   },
+   "W3": {
+    "noticias": 22767,
+    "comentarios": 390044,
+    "posts": 17647
+   },
+   "W4": {
+    "noticias": 20898,
+    "comentarios": 363131,
+    "posts": 15895
+   },
+   "W5": {
+    "noticias": 15095,
+    "comentarios": 280110,
+    "posts": 10601
+   },
+   "W6": {
+    "noticias": 15366,
+    "comentarios": 294409,
+    "posts": 12377
+   },
+   "M1": {
+    "noticias": 11890,
+    "comentarios": 224200,
+    "posts": 8563
+   },
+   "M2": {
+    "noticias": 11690,
+    "comentarios": 210828,
+    "posts": 7250
+   },
+   "M3": {
+    "noticias": 13196,
+    "comentarios": 223743,
+    "posts": 8792
+   },
+   "M4": {
+    "noticias": 12214,
+    "comentarios": 204153,
+    "posts": 8613
+   },
+   "M5": {
+    "noticias": 12238,
+    "comentarios": 204862,
+    "posts": 8272
+   },
+   "M6": {
+    "noticias": 11997,
+    "comentarios": 199480,
+    "posts": 8509
+   },
+   "M7": {
+    "noticias": 11946,
+    "comentarios": 204613,
+    "posts": 9698
+   },
+   "M8": {
+    "noticias": 10860,
+    "comentarios": 198213,
+    "posts": 8415
+   },
+   "M9": {
+    "noticias": 11230,
+    "comentarios": 205340,
+    "posts": 10149
+   },
+   "M10": {
+    "noticias": 12264,
+    "comentarios": 235365,
+    "posts": 11215
+   },
+   "M11": {
+    "noticias": 12228,
+    "comentarios": 214566,
+    "posts": 10478
+   },
+   "M12": {
+    "noticias": 10253,
+    "comentarios": 199599,
+    "posts": 8250
+   }
+  },
+  "2020": {
+   "H0": {
+    "noticias": 4315,
+    "comentarios": 106254,
+    "posts": 5024
+   },
+   "H1": {
+    "noticias": 2611,
+    "comentarios": 64856,
+    "posts": 2752
+   },
+   "H2": {
+    "noticias": 1775,
+    "comentarios": 36556,
+    "posts": 1593
+   },
+   "H3": {
+    "noticias": 1341,
+    "comentarios": 21389,
+    "posts": 1019
+   },
+   "H4": {
+    "noticias": 1169,
+    "comentarios": 14496,
+    "posts": 657
+   },
+   "H5": {
+    "noticias": 1423,
+    "comentarios": 13832,
+    "posts": 551
+   },
+   "H6": {
+    "noticias": 2122,
+    "comentarios": 21771,
+    "posts": 524
+   },
+   "H7": {
+    "noticias": 3876,
+    "comentarios": 51742,
+    "posts": 1648
+   },
+   "H8": {
+    "noticias": 6713,
+    "comentarios": 109798,
+    "posts": 4337
+   },
+   "H9": {
+    "noticias": 8983,
+    "comentarios": 159712,
+    "posts": 6949
+   },
+   "H10": {
+    "noticias": 10187,
+    "comentarios": 188359,
+    "posts": 8215
+   },
+   "H11": {
+    "noticias": 10991,
+    "comentarios": 202105,
+    "posts": 10030
+   },
+   "H12": {
+    "noticias": 10465,
+    "comentarios": 205588,
+    "posts": 11001
+   },
+   "H13": {
+    "noticias": 10482,
+    "comentarios": 206019,
+    "posts": 10202
+   },
+   "H14": {
+    "noticias": 8938,
+    "comentarios": 191471,
+    "posts": 9444
+   },
+   "H15": {
+    "noticias": 8522,
+    "comentarios": 183967,
+    "posts": 9710
+   },
+   "H16": {
+    "noticias": 8730,
+    "comentarios": 178675,
+    "posts": 9431
+   },
+   "H17": {
+    "noticias": 8980,
+    "comentarios": 165138,
+    "posts": 8400
+   },
+   "H18": {
+    "noticias": 8481,
+    "comentarios": 157985,
+    "posts": 7555
+   },
+   "H19": {
+    "noticias": 8287,
+    "comentarios": 153405,
+    "posts": 7460
+   },
+   "H20": {
+    "noticias": 7969,
+    "comentarios": 152083,
+    "posts": 7829
+   },
+   "H21": {
+    "noticias": 7538,
+    "comentarios": 151500,
+    "posts": 7858
+   },
+   "H22": {
+    "noticias": 6952,
+    "comentarios": 150148,
+    "posts": 8323
+   },
+   "H23": {
+    "noticias": 5929,
+    "comentarios": 135756,
+    "posts": 6694
+   },
+   "W0": {
+    "noticias": 23782,
+    "comentarios": 452013,
+    "posts": 22841
+   },
+   "W1": {
+    "noticias": 24201,
+    "comentarios": 458540,
+    "posts": 22322
+   },
+   "W2": {
+    "noticias": 24458,
+    "comentarios": 459964,
+    "posts": 23388
+   },
+   "W3": {
+    "noticias": 24502,
+    "comentarios": 456359,
+    "posts": 22764
+   },
+   "W4": {
+    "noticias": 23372,
+    "comentarios": 442278,
+    "posts": 23324
+   },
+   "W5": {
+    "noticias": 18019,
+    "comentarios": 368531,
+    "posts": 16839
+   },
+   "W6": {
+    "noticias": 18445,
+    "comentarios": 384920,
+    "posts": 15728
+   },
+   "M1": {
+    "noticias": 11660,
+    "comentarios": 220350,
+    "posts": 10610
+   },
+   "M2": {
+    "noticias": 12102,
+    "comentarios": 202176,
+    "posts": 9790
+   },
+   "M3": {
+    "noticias": 16778,
+    "comentarios": 319203,
+    "posts": 17050
+   },
+   "M4": {
+    "noticias": 18134,
+    "comentarios": 352533,
+    "posts": 16078
+   },
+   "M5": {
+    "noticias": 17163,
+    "comentarios": 329527,
+    "posts": 15398
+   },
+   "M6": {
+    "noticias": 14388,
+    "comentarios": 275507,
+    "posts": 15889
+   },
+   "M7": {
+    "noticias": 13977,
+    "comentarios": 271100,
+    "posts": 15748
+   },
+   "M8": {
+    "noticias": 12668,
+    "comentarios": 272537,
+    "posts": 11255
+   },
+   "M9": {
+    "noticias": 12774,
+    "comentarios": 257040,
+    "posts": 11521
+   },
+   "M10": {
+    "noticias": 13923,
+    "comentarios": 272978,
+    "posts": 11427
+   },
+   "M11": {
+    "noticias": 13212,
+    "comentarios": 249654,
+    "posts": 12440
    }
   }
  },
@@ -6173,7 +8435,7 @@ var modelos = {
    "usuarios activos": 3415,
    "usuarios creados": 2227,
    "usuarios eliminados": 36,
-   "usuarios abandonados": 491
+   "usuarios abandonados": 490
   },
   "2006.11": {
    "noticias": 9289,
@@ -6191,7 +8453,7 @@ var modelos = {
    "usuarios activos": 4152,
    "usuarios creados": 2207,
    "usuarios eliminados": 28,
-   "usuarios abandonados": 586
+   "usuarios abandonados": 585
   },
   "2007.01": {
    "noticias": 13309,
@@ -6199,8 +8461,8 @@ var modelos = {
    "posts": 0,
    "usuarios activos": 5219,
    "usuarios creados": 3088,
-   "usuarios eliminados": 48,
-   "usuarios abandonados": 786
+   "usuarios eliminados": 50,
+   "usuarios abandonados": 784
   },
   "2007.02": {
    "noticias": 13138,
@@ -6208,8 +8470,8 @@ var modelos = {
    "posts": 225,
    "usuarios activos": 5258,
    "usuarios creados": 2447,
-   "usuarios eliminados": 42,
-   "usuarios abandonados": 707
+   "usuarios eliminados": 44,
+   "usuarios abandonados": 705
   },
   "2007.03": {
    "noticias": 14224,
@@ -6244,8 +8506,8 @@ var modelos = {
    "posts": 2505,
    "usuarios activos": 7311,
    "usuarios creados": 3219,
-   "usuarios eliminados": 172,
-   "usuarios abandonados": 1106
+   "usuarios eliminados": 173,
+   "usuarios abandonados": 1105
   },
   "2007.07": {
    "noticias": 14902,
@@ -6271,8 +8533,8 @@ var modelos = {
    "posts": 1095,
    "usuarios activos": 7625,
    "usuarios creados": 3149,
-   "usuarios eliminados": 250,
-   "usuarios abandonados": 1128
+   "usuarios eliminados": 251,
+   "usuarios abandonados": 1125
   },
   "2007.1": {
    "noticias": 17218,
@@ -6280,8 +8542,8 @@ var modelos = {
    "posts": 1348,
    "usuarios activos": 7563,
    "usuarios creados": 3364,
-   "usuarios eliminados": 164,
-   "usuarios abandonados": 986
+   "usuarios eliminados": 166,
+   "usuarios abandonados": 984
   },
   "2007.11": {
    "noticias": 17503,
@@ -6298,8 +8560,8 @@ var modelos = {
    "posts": 1446,
    "usuarios activos": 7691,
    "usuarios creados": 3473,
-   "usuarios eliminados": 183,
-   "usuarios abandonados": 996
+   "usuarios eliminados": 184,
+   "usuarios abandonados": 995
   },
   "2008.01": {
    "noticias": 17369,
@@ -6308,7 +8570,7 @@ var modelos = {
    "usuarios activos": 8638,
    "usuarios creados": 3922,
    "usuarios eliminados": 257,
-   "usuarios abandonados": 1181
+   "usuarios abandonados": 1180
   },
   "2008.02": {
    "noticias": 17910,
@@ -6317,7 +8579,7 @@ var modelos = {
    "usuarios activos": 9165,
    "usuarios creados": 4162,
    "usuarios eliminados": 219,
-   "usuarios abandonados": 1307
+   "usuarios abandonados": 1306
   },
   "2008.03": {
    "noticias": 18264,
@@ -6325,8 +8587,8 @@ var modelos = {
    "posts": 1517,
    "usuarios activos": 8969,
    "usuarios creados": 3644,
-   "usuarios eliminados": 170,
-   "usuarios abandonados": 1170
+   "usuarios eliminados": 171,
+   "usuarios abandonados": 1167
   },
   "2008.04": {
    "noticias": 20893,
@@ -6343,8 +8605,8 @@ var modelos = {
    "posts": 1636,
    "usuarios activos": 9837,
    "usuarios creados": 3564,
-   "usuarios eliminados": 259,
-   "usuarios abandonados": 1358
+   "usuarios eliminados": 260,
+   "usuarios abandonados": 1357
   },
   "2008.06": {
    "noticias": 22057,
@@ -6352,8 +8614,8 @@ var modelos = {
    "posts": 1953,
    "usuarios activos": 10105,
    "usuarios creados": 3665,
-   "usuarios eliminados": 260,
-   "usuarios abandonados": 1316
+   "usuarios eliminados": 261,
+   "usuarios abandonados": 1314
   },
   "2008.07": {
    "noticias": 21436,
@@ -6370,8 +8632,8 @@ var modelos = {
    "posts": 2572,
    "usuarios activos": 9329,
    "usuarios creados": 3382,
-   "usuarios eliminados": 185,
-   "usuarios abandonados": 1170
+   "usuarios eliminados": 186,
+   "usuarios abandonados": 1168
   },
   "2008.09": {
    "noticias": 22104,
@@ -6379,8 +8641,8 @@ var modelos = {
    "posts": 3582,
    "usuarios activos": 10315,
    "usuarios creados": 3507,
-   "usuarios eliminados": 240,
-   "usuarios abandonados": 1255
+   "usuarios eliminados": 241,
+   "usuarios abandonados": 1254
   },
   "2008.1": {
    "noticias": 23642,
@@ -6397,8 +8659,8 @@ var modelos = {
    "posts": 4260,
    "usuarios activos": 9997,
    "usuarios creados": 3259,
-   "usuarios eliminados": 236,
-   "usuarios abandonados": 1328
+   "usuarios eliminados": 240,
+   "usuarios abandonados": 1323
   },
   "2008.12": {
    "noticias": 18462,
@@ -6407,7 +8669,7 @@ var modelos = {
    "usuarios activos": 9587,
    "usuarios creados": 2980,
    "usuarios eliminados": 262,
-   "usuarios abandonados": 1266
+   "usuarios abandonados": 1265
   },
   "2009.01": {
    "noticias": 21933,
@@ -6415,8 +8677,8 @@ var modelos = {
    "posts": 6860,
    "usuarios activos": 10376,
    "usuarios creados": 3563,
-   "usuarios eliminados": 288,
-   "usuarios abandonados": 1483
+   "usuarios eliminados": 289,
+   "usuarios abandonados": 1481
   },
   "2009.02": {
    "noticias": 21911,
@@ -6425,7 +8687,7 @@ var modelos = {
    "usuarios activos": 10766,
    "usuarios creados": 3588,
    "usuarios eliminados": 289,
-   "usuarios abandonados": 1485
+   "usuarios abandonados": 1484
   },
   "2009.03": {
    "noticias": 22825,
@@ -6433,8 +8695,8 @@ var modelos = {
    "posts": 6866,
    "usuarios activos": 10537,
    "usuarios creados": 3736,
-   "usuarios eliminados": 320,
-   "usuarios abandonados": 1467
+   "usuarios eliminados": 322,
+   "usuarios abandonados": 1465
   },
   "2009.04": {
    "noticias": 21384,
@@ -6442,8 +8704,8 @@ var modelos = {
    "posts": 7275,
    "usuarios activos": 10391,
    "usuarios creados": 3596,
-   "usuarios eliminados": 666,
-   "usuarios abandonados": 1298
+   "usuarios eliminados": 667,
+   "usuarios abandonados": 1296
   },
   "2009.05": {
    "noticias": 20854,
@@ -6460,7 +8722,7 @@ var modelos = {
    "posts": 10528,
    "usuarios activos": 9940,
    "usuarios creados": 3430,
-   "usuarios eliminados": 185,
+   "usuarios eliminados": 184,
    "usuarios abandonados": 1187
   },
   "2009.07": {
@@ -6469,8 +8731,8 @@ var modelos = {
    "posts": 10763,
    "usuarios activos": 9646,
    "usuarios creados": 3128,
-   "usuarios eliminados": 181,
-   "usuarios abandonados": 1178
+   "usuarios eliminados": 184,
+   "usuarios abandonados": 1174
   },
   "2009.08": {
    "noticias": 18260,
@@ -6478,8 +8740,8 @@ var modelos = {
    "posts": 9767,
    "usuarios activos": 9399,
    "usuarios creados": 3151,
-   "usuarios eliminados": 179,
-   "usuarios abandonados": 1054
+   "usuarios eliminados": 180,
+   "usuarios abandonados": 1053
   },
   "2009.09": {
    "noticias": 20256,
@@ -6487,8 +8749,8 @@ var modelos = {
    "posts": 12973,
    "usuarios activos": 10370,
    "usuarios creados": 3073,
-   "usuarios eliminados": 266,
-   "usuarios abandonados": 1210
+   "usuarios eliminados": 267,
+   "usuarios abandonados": 1209
   },
   "2009.1": {
    "noticias": 21161,
@@ -6496,8 +8758,8 @@ var modelos = {
    "posts": 15805,
    "usuarios activos": 10270,
    "usuarios creados": 2936,
-   "usuarios eliminados": 240,
-   "usuarios abandonados": 1138
+   "usuarios eliminados": 242,
+   "usuarios abandonados": 1136
   },
   "2009.11": {
    "noticias": 20166,
@@ -6532,8 +8794,8 @@ var modelos = {
    "posts": 14174,
    "usuarios activos": 9946,
    "usuarios creados": 3101,
-   "usuarios eliminados": 161,
-   "usuarios abandonados": 1251
+   "usuarios eliminados": 162,
+   "usuarios abandonados": 1250
   },
   "2010.03": {
    "noticias": 21420,
@@ -6542,7 +8804,7 @@ var modelos = {
    "usuarios activos": 10308,
    "usuarios creados": 3167,
    "usuarios eliminados": 212,
-   "usuarios abandonados": 1332
+   "usuarios abandonados": 1330
   },
   "2010.04": {
    "noticias": 20208,
@@ -6550,8 +8812,8 @@ var modelos = {
    "posts": 15089,
    "usuarios activos": 10036,
    "usuarios creados": 4448,
-   "usuarios eliminados": 162,
-   "usuarios abandonados": 1250
+   "usuarios eliminados": 164,
+   "usuarios abandonados": 1246
   },
   "2010.05": {
    "noticias": 22032,
@@ -6568,8 +8830,8 @@ var modelos = {
    "posts": 18013,
    "usuarios activos": 10856,
    "usuarios creados": 5259,
-   "usuarios eliminados": 269,
-   "usuarios abandonados": 1368
+   "usuarios eliminados": 271,
+   "usuarios abandonados": 1366
   },
   "2010.07": {
    "noticias": 19046,
@@ -6577,8 +8839,8 @@ var modelos = {
    "posts": 16039,
    "usuarios activos": 10447,
    "usuarios creados": 4870,
-   "usuarios eliminados": 235,
-   "usuarios abandonados": 1261
+   "usuarios eliminados": 237,
+   "usuarios abandonados": 1256
   },
   "2010.08": {
    "noticias": 17941,
@@ -6586,8 +8848,8 @@ var modelos = {
    "posts": 14078,
    "usuarios activos": 9705,
    "usuarios creados": 4988,
-   "usuarios eliminados": 268,
-   "usuarios abandonados": 1096
+   "usuarios eliminados": 269,
+   "usuarios abandonados": 1094
   },
   "2010.09": {
    "noticias": 18791,
@@ -6595,8 +8857,8 @@ var modelos = {
    "posts": 15391,
    "usuarios activos": 10435,
    "usuarios creados": 4910,
-   "usuarios eliminados": 238,
-   "usuarios abandonados": 1236
+   "usuarios eliminados": 241,
+   "usuarios abandonados": 1232
   },
   "2010.1": {
    "noticias": 18138,
@@ -6613,8 +8875,8 @@ var modelos = {
    "posts": 13742,
    "usuarios activos": 10553,
    "usuarios creados": 5468,
-   "usuarios eliminados": 268,
-   "usuarios abandonados": 1374
+   "usuarios eliminados": 269,
+   "usuarios abandonados": 1371
   },
   "2010.12": {
    "noticias": 18956,
@@ -6622,8 +8884,8 @@ var modelos = {
    "posts": 14040,
    "usuarios activos": 11250,
    "usuarios creados": 5907,
-   "usuarios eliminados": 253,
-   "usuarios abandonados": 1383
+   "usuarios eliminados": 254,
+   "usuarios abandonados": 1378
   },
   "2011.01": {
    "noticias": 21226,
@@ -6640,8 +8902,8 @@ var modelos = {
    "posts": 13967,
    "usuarios activos": 11619,
    "usuarios creados": 6027,
-   "usuarios eliminados": 238,
-   "usuarios abandonados": 1477
+   "usuarios eliminados": 239,
+   "usuarios abandonados": 1474
   },
   "2011.03": {
    "noticias": 24889,
@@ -6649,8 +8911,8 @@ var modelos = {
    "posts": 14081,
    "usuarios activos": 12205,
    "usuarios creados": 6889,
-   "usuarios eliminados": 305,
-   "usuarios abandonados": 1567
+   "usuarios eliminados": 306,
+   "usuarios abandonados": 1562
   },
   "2011.04": {
    "noticias": 20810,
@@ -6659,7 +8921,7 @@ var modelos = {
    "usuarios activos": 11483,
    "usuarios creados": 5520,
    "usuarios eliminados": 259,
-   "usuarios abandonados": 1458
+   "usuarios abandonados": 1454
   },
   "2011.05": {
    "noticias": 24264,
@@ -6667,8 +8929,8 @@ var modelos = {
    "posts": 23574,
    "usuarios activos": 12784,
    "usuarios creados": 6666,
-   "usuarios eliminados": 250,
-   "usuarios abandonados": 1610
+   "usuarios eliminados": 251,
+   "usuarios abandonados": 1605
   },
   "2011.06": {
    "noticias": 23190,
@@ -6676,8 +8938,8 @@ var modelos = {
    "posts": 20954,
    "usuarios activos": 12442,
    "usuarios creados": 5761,
-   "usuarios eliminados": 268,
-   "usuarios abandonados": 1454
+   "usuarios eliminados": 269,
+   "usuarios abandonados": 1450
   },
   "2011.07": {
    "noticias": 20234,
@@ -6685,8 +8947,8 @@ var modelos = {
    "posts": 15315,
    "usuarios activos": 11518,
    "usuarios creados": 5008,
-   "usuarios eliminados": 248,
-   "usuarios abandonados": 1266
+   "usuarios eliminados": 249,
+   "usuarios abandonados": 1264
   },
   "2011.08": {
    "noticias": 20903,
@@ -6695,7 +8957,7 @@ var modelos = {
    "usuarios activos": 11294,
    "usuarios creados": 4665,
    "usuarios eliminados": 212,
-   "usuarios abandonados": 1162
+   "usuarios abandonados": 1161
   },
   "2011.09": {
    "noticias": 23859,
@@ -6704,7 +8966,7 @@ var modelos = {
    "usuarios activos": 12137,
    "usuarios creados": 5129,
    "usuarios eliminados": 280,
-   "usuarios abandonados": 1327
+   "usuarios abandonados": 1325
   },
   "2011.1": {
    "noticias": 24119,
@@ -6712,8 +8974,8 @@ var modelos = {
    "posts": 17424,
    "usuarios activos": 12275,
    "usuarios creados": 5339,
-   "usuarios eliminados": 241,
-   "usuarios abandonados": 1486
+   "usuarios eliminados": 242,
+   "usuarios abandonados": 1485
   },
   "2011.11": {
    "noticias": 26266,
@@ -6722,7 +8984,7 @@ var modelos = {
    "usuarios activos": 12791,
    "usuarios creados": 5760,
    "usuarios eliminados": 246,
-   "usuarios abandonados": 1698
+   "usuarios abandonados": 1696
   },
   "2011.12": {
    "noticias": 23816,
@@ -6730,8 +8992,8 @@ var modelos = {
    "posts": 17166,
    "usuarios activos": 12061,
    "usuarios creados": 4901,
-   "usuarios eliminados": 225,
-   "usuarios abandonados": 1405
+   "usuarios eliminados": 224,
+   "usuarios abandonados": 1404
   },
   "2012.01": {
    "noticias": 24787,
@@ -6739,8 +9001,8 @@ var modelos = {
    "posts": 19747,
    "usuarios activos": 12904,
    "usuarios creados": 5721,
-   "usuarios eliminados": 281,
-   "usuarios abandonados": 1583
+   "usuarios eliminados": 282,
+   "usuarios abandonados": 1581
   },
   "2012.02": {
    "noticias": 22373,
@@ -6748,8 +9010,8 @@ var modelos = {
    "posts": 18202,
    "usuarios activos": 12395,
    "usuarios creados": 5305,
-   "usuarios eliminados": 278,
-   "usuarios abandonados": 1574
+   "usuarios eliminados": 279,
+   "usuarios abandonados": 1569
   },
   "2012.03": {
    "noticias": 21225,
@@ -6757,8 +9019,8 @@ var modelos = {
    "posts": 19944,
    "usuarios activos": 11834,
    "usuarios creados": 4961,
-   "usuarios eliminados": 230,
-   "usuarios abandonados": 1509
+   "usuarios eliminados": 231,
+   "usuarios abandonados": 1506
   },
   "2012.04": {
    "noticias": 19147,
@@ -6766,8 +9028,8 @@ var modelos = {
    "posts": 21793,
    "usuarios activos": 11547,
    "usuarios creados": 4312,
-   "usuarios eliminados": 241,
-   "usuarios abandonados": 1297
+   "usuarios eliminados": 244,
+   "usuarios abandonados": 1292
   },
   "2012.05": {
    "noticias": 22179,
@@ -6775,8 +9037,8 @@ var modelos = {
    "posts": 23042,
    "usuarios activos": 11971,
    "usuarios creados": 4585,
-   "usuarios eliminados": 222,
-   "usuarios abandonados": 1482
+   "usuarios eliminados": 223,
+   "usuarios abandonados": 1478
   },
   "2012.06": {
    "noticias": 20328,
@@ -6784,8 +9046,8 @@ var modelos = {
    "posts": 20490,
    "usuarios activos": 11609,
    "usuarios creados": 3992,
-   "usuarios eliminados": 252,
-   "usuarios abandonados": 1390
+   "usuarios eliminados": 254,
+   "usuarios abandonados": 1387
   },
   "2012.07": {
    "noticias": 20300,
@@ -6794,7 +9056,7 @@ var modelos = {
    "usuarios activos": 11458,
    "usuarios creados": 3969,
    "usuarios eliminados": 241,
-   "usuarios abandonados": 1328
+   "usuarios abandonados": 1326
   },
   "2012.08": {
    "noticias": 17258,
@@ -6802,8 +9064,8 @@ var modelos = {
    "posts": 20298,
    "usuarios activos": 10599,
    "usuarios creados": 3802,
-   "usuarios eliminados": 216,
-   "usuarios abandonados": 1196
+   "usuarios eliminados": 217,
+   "usuarios abandonados": 1193
   },
   "2012.09": {
    "noticias": 19234,
@@ -6812,7 +9074,7 @@ var modelos = {
    "usuarios activos": 11474,
    "usuarios creados": 4545,
    "usuarios eliminados": 289,
-   "usuarios abandonados": 1269
+   "usuarios abandonados": 1266
   },
   "2012.1": {
    "noticias": 20906,
@@ -6821,7 +9083,7 @@ var modelos = {
    "usuarios activos": 11667,
    "usuarios creados": 4371,
    "usuarios eliminados": 233,
-   "usuarios abandonados": 1568
+   "usuarios abandonados": 1566
   },
   "2012.11": {
    "noticias": 20276,
@@ -6829,8 +9091,8 @@ var modelos = {
    "posts": 17706,
    "usuarios activos": 11306,
    "usuarios creados": 3649,
-   "usuarios eliminados": 259,
-   "usuarios abandonados": 1418
+   "usuarios eliminados": 261,
+   "usuarios abandonados": 1416
   },
   "2012.12": {
    "noticias": 18032,
@@ -6838,8 +9100,8 @@ var modelos = {
    "posts": 15421,
    "usuarios activos": 10537,
    "usuarios creados": 4633,
-   "usuarios eliminados": 189,
-   "usuarios abandonados": 1287
+   "usuarios eliminados": 190,
+   "usuarios abandonados": 1284
   },
   "2013.01": {
    "noticias": 22385,
@@ -6847,8 +9109,8 @@ var modelos = {
    "posts": 15007,
    "usuarios activos": 11254,
    "usuarios creados": 4660,
-   "usuarios eliminados": 264,
-   "usuarios abandonados": 1366
+   "usuarios eliminados": 265,
+   "usuarios abandonados": 1360
   },
   "2013.02": {
    "noticias": 20110,
@@ -6857,7 +9119,7 @@ var modelos = {
    "usuarios activos": 10976,
    "usuarios creados": 4297,
    "usuarios eliminados": 232,
-   "usuarios abandonados": 1369
+   "usuarios abandonados": 1365
   },
   "2013.03": {
    "noticias": 19937,
@@ -6865,8 +9127,8 @@ var modelos = {
    "posts": 16906,
    "usuarios activos": 10886,
    "usuarios creados": 4219,
-   "usuarios eliminados": 309,
-   "usuarios abandonados": 1450
+   "usuarios eliminados": 310,
+   "usuarios abandonados": 1446
   },
   "2013.04": {
    "noticias": 21074,
@@ -6874,8 +9136,8 @@ var modelos = {
    "posts": 15573,
    "usuarios activos": 10857,
    "usuarios creados": 4636,
-   "usuarios eliminados": 264,
-   "usuarios abandonados": 1412
+   "usuarios eliminados": 266,
+   "usuarios abandonados": 1405
   },
   "2013.05": {
    "noticias": 20609,
@@ -6884,7 +9146,7 @@ var modelos = {
    "usuarios activos": 10708,
    "usuarios creados": 4595,
    "usuarios eliminados": 250,
-   "usuarios abandonados": 1376
+   "usuarios abandonados": 1372
   },
   "2013.06": {
    "noticias": 18745,
@@ -6892,8 +9154,8 @@ var modelos = {
    "posts": 16430,
    "usuarios activos": 10245,
    "usuarios creados": 4037,
-   "usuarios eliminados": 227,
-   "usuarios abandonados": 1225
+   "usuarios eliminados": 229,
+   "usuarios abandonados": 1219
   },
   "2013.07": {
    "noticias": 17964,
@@ -6901,8 +9163,8 @@ var modelos = {
    "posts": 17483,
    "usuarios activos": 9894,
    "usuarios creados": 3919,
-   "usuarios eliminados": 230,
-   "usuarios abandonados": 1199
+   "usuarios eliminados": 233,
+   "usuarios abandonados": 1194
   },
   "2013.08": {
    "noticias": 15049,
@@ -6910,8 +9172,8 @@ var modelos = {
    "posts": 15218,
    "usuarios activos": 9249,
    "usuarios creados": 3678,
-   "usuarios eliminados": 148,
-   "usuarios abandonados": 981
+   "usuarios eliminados": 149,
+   "usuarios abandonados": 979
   },
   "2013.09": {
    "noticias": 16853,
@@ -6919,8 +9181,8 @@ var modelos = {
    "posts": 15480,
    "usuarios activos": 9767,
    "usuarios creados": 3732,
-   "usuarios eliminados": 165,
-   "usuarios abandonados": 1068
+   "usuarios eliminados": 166,
+   "usuarios abandonados": 1065
   },
   "2013.1": {
    "noticias": 17374,
@@ -6929,7 +9191,7 @@ var modelos = {
    "usuarios activos": 9837,
    "usuarios creados": 4103,
    "usuarios eliminados": 208,
-   "usuarios abandonados": 1200
+   "usuarios abandonados": 1197
   },
   "2013.11": {
    "noticias": 15397,
@@ -6937,8 +9199,8 @@ var modelos = {
    "posts": 12648,
    "usuarios activos": 9537,
    "usuarios creados": 3901,
-   "usuarios eliminados": 159,
-   "usuarios abandonados": 1238
+   "usuarios eliminados": 160,
+   "usuarios abandonados": 1236
   },
   "2013.12": {
    "noticias": 14127,
@@ -6946,8 +9208,8 @@ var modelos = {
    "posts": 12653,
    "usuarios activos": 9091,
    "usuarios creados": 3832,
-   "usuarios eliminados": 145,
-   "usuarios abandonados": 1040
+   "usuarios eliminados": 146,
+   "usuarios abandonados": 1037
   },
   "2014.01": {
    "noticias": 16301,
@@ -6955,8 +9217,8 @@ var modelos = {
    "posts": 11864,
    "usuarios activos": 9768,
    "usuarios creados": 4245,
-   "usuarios eliminados": 216,
-   "usuarios abandonados": 1078
+   "usuarios eliminados": 217,
+   "usuarios abandonados": 1074
   },
   "2014.02": {
    "noticias": 15525,
@@ -6964,8 +9226,8 @@ var modelos = {
    "posts": 11938,
    "usuarios activos": 9592,
    "usuarios creados": 3939,
-   "usuarios eliminados": 148,
-   "usuarios abandonados": 1097
+   "usuarios eliminados": 149,
+   "usuarios abandonados": 1095
   },
   "2014.03": {
    "noticias": 16314,
@@ -6973,8 +9235,8 @@ var modelos = {
    "posts": 12875,
    "usuarios activos": 9229,
    "usuarios creados": 4240,
-   "usuarios eliminados": 192,
-   "usuarios abandonados": 1044
+   "usuarios eliminados": 195,
+   "usuarios abandonados": 1035
   },
   "2014.04": {
    "noticias": 15742,
@@ -6982,8 +9244,8 @@ var modelos = {
    "posts": 11513,
    "usuarios activos": 8788,
    "usuarios creados": 3813,
-   "usuarios eliminados": 186,
-   "usuarios abandonados": 975
+   "usuarios eliminados": 187,
+   "usuarios abandonados": 970
   },
   "2014.05": {
    "noticias": 16200,
@@ -6991,8 +9253,8 @@ var modelos = {
    "posts": 14436,
    "usuarios activos": 9290,
    "usuarios creados": 4001,
-   "usuarios eliminados": 233,
-   "usuarios abandonados": 1068
+   "usuarios eliminados": 235,
+   "usuarios abandonados": 1059
   },
   "2014.06": {
    "noticias": 15736,
@@ -7001,7 +9263,7 @@ var modelos = {
    "usuarios activos": 9169,
    "usuarios creados": 5896,
    "usuarios eliminados": 160,
-   "usuarios abandonados": 1077
+   "usuarios abandonados": 1075
   },
   "2014.07": {
    "noticias": 15060,
@@ -7010,7 +9272,7 @@ var modelos = {
    "usuarios activos": 9037,
    "usuarios creados": 3777,
    "usuarios eliminados": 214,
-   "usuarios abandonados": 978
+   "usuarios abandonados": 973
   },
   "2014.08": {
    "noticias": 14113,
@@ -7019,7 +9281,7 @@ var modelos = {
    "usuarios activos": 8647,
    "usuarios creados": 3621,
    "usuarios eliminados": 237,
-   "usuarios abandonados": 825
+   "usuarios abandonados": 821
   },
   "2014.09": {
    "noticias": 14568,
@@ -7027,8 +9289,8 @@ var modelos = {
    "posts": 13773,
    "usuarios activos": 9083,
    "usuarios creados": 3347,
-   "usuarios eliminados": 215,
-   "usuarios abandonados": 893
+   "usuarios eliminados": 216,
+   "usuarios abandonados": 890
   },
   "2014.1": {
    "noticias": 17254,
@@ -7036,8 +9298,8 @@ var modelos = {
    "posts": 12790,
    "usuarios activos": 9512,
    "usuarios creados": 3234,
-   "usuarios eliminados": 180,
-   "usuarios abandonados": 984
+   "usuarios eliminados": 181,
+   "usuarios abandonados": 976
   },
   "2014.11": {
    "noticias": 15393,
@@ -7045,8 +9307,8 @@ var modelos = {
    "posts": 10570,
    "usuarios activos": 9099,
    "usuarios creados": 2959,
-   "usuarios eliminados": 208,
-   "usuarios abandonados": 856
+   "usuarios eliminados": 209,
+   "usuarios abandonados": 851
   },
   "2014.12": {
    "noticias": 14556,
@@ -7055,7 +9317,7 @@ var modelos = {
    "usuarios activos": 8995,
    "usuarios creados": 2785,
    "usuarios eliminados": 166,
-   "usuarios abandonados": 879
+   "usuarios abandonados": 874
   },
   "2015.01": {
    "noticias": 15382,
@@ -7063,8 +9325,8 @@ var modelos = {
    "posts": 12891,
    "usuarios activos": 9291,
    "usuarios creados": 3102,
-   "usuarios eliminados": 221,
-   "usuarios abandonados": 904
+   "usuarios eliminados": 222,
+   "usuarios abandonados": 901
   },
   "2015.02": {
    "noticias": 14813,
@@ -7073,7 +9335,7 @@ var modelos = {
    "usuarios activos": 9129,
    "usuarios creados": 3310,
    "usuarios eliminados": 266,
-   "usuarios abandonados": 931
+   "usuarios abandonados": 928
   },
   "2015.03": {
    "noticias": 14925,
@@ -7082,7 +9344,7 @@ var modelos = {
    "usuarios activos": 9008,
    "usuarios creados": 3392,
    "usuarios eliminados": 195,
-   "usuarios abandonados": 889
+   "usuarios abandonados": 886
   },
   "2015.04": {
    "noticias": 14707,
@@ -7091,7 +9353,7 @@ var modelos = {
    "usuarios activos": 8792,
    "usuarios creados": 2973,
    "usuarios eliminados": 230,
-   "usuarios abandonados": 793
+   "usuarios abandonados": 792
   },
   "2015.05": {
    "noticias": 15366,
@@ -7099,8 +9361,8 @@ var modelos = {
    "posts": 17037,
    "usuarios activos": 9186,
    "usuarios creados": 3252,
-   "usuarios eliminados": 182,
-   "usuarios abandonados": 890
+   "usuarios eliminados": 183,
+   "usuarios abandonados": 883
   },
   "2015.06": {
    "noticias": 13967,
@@ -7108,8 +9370,8 @@ var modelos = {
    "posts": 16077,
    "usuarios activos": 9035,
    "usuarios creados": 3034,
-   "usuarios eliminados": 273,
-   "usuarios abandonados": 881
+   "usuarios eliminados": 275,
+   "usuarios abandonados": 875
   },
   "2015.07": {
    "noticias": 13180,
@@ -7118,7 +9380,7 @@ var modelos = {
    "usuarios activos": 8722,
    "usuarios creados": 2721,
    "usuarios eliminados": 333,
-   "usuarios abandonados": 745
+   "usuarios abandonados": 740
   },
   "2015.08": {
    "noticias": 12119,
@@ -7127,7 +9389,7 @@ var modelos = {
    "usuarios activos": 8097,
    "usuarios creados": 2470,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 747
+   "usuarios abandonados": 740
   },
   "2015.09": {
    "noticias": 12031,
@@ -7136,7 +9398,7 @@ var modelos = {
    "usuarios activos": 8498,
    "usuarios creados": 2457,
    "usuarios eliminados": 223,
-   "usuarios abandonados": 700
+   "usuarios abandonados": 698
   },
   "2015.1": {
    "noticias": 13783,
@@ -7144,8 +9406,8 @@ var modelos = {
    "posts": 14365,
    "usuarios activos": 8568,
    "usuarios creados": 2750,
-   "usuarios eliminados": 299,
-   "usuarios abandonados": 750
+   "usuarios eliminados": 300,
+   "usuarios abandonados": 745
   },
   "2015.11": {
    "noticias": 14222,
@@ -7154,7 +9416,7 @@ var modelos = {
    "usuarios activos": 8746,
    "usuarios creados": 3020,
    "usuarios eliminados": 337,
-   "usuarios abandonados": 756
+   "usuarios abandonados": 750
   },
   "2015.12": {
    "noticias": 14246,
@@ -7163,7 +9425,7 @@ var modelos = {
    "usuarios activos": 8674,
    "usuarios creados": 2596,
    "usuarios eliminados": 231,
-   "usuarios abandonados": 797
+   "usuarios abandonados": 790
   },
   "2016.01": {
    "noticias": 14722,
@@ -7171,8 +9433,8 @@ var modelos = {
    "posts": 17681,
    "usuarios activos": 8479,
    "usuarios creados": 2730,
-   "usuarios eliminados": 227,
-   "usuarios abandonados": 651
+   "usuarios eliminados": 228,
+   "usuarios abandonados": 643
   },
   "2016.02": {
    "noticias": 14554,
@@ -7181,7 +9443,7 @@ var modelos = {
    "usuarios activos": 8533,
    "usuarios creados": 2929,
    "usuarios eliminados": 249,
-   "usuarios abandonados": 776
+   "usuarios abandonados": 769
   },
   "2016.03": {
    "noticias": 12999,
@@ -7189,8 +9451,8 @@ var modelos = {
    "posts": 17635,
    "usuarios activos": 8318,
    "usuarios creados": 2446,
-   "usuarios eliminados": 214,
-   "usuarios abandonados": 745
+   "usuarios eliminados": 215,
+   "usuarios abandonados": 739
   },
   "2016.04": {
    "noticias": 13235,
@@ -7198,8 +9460,8 @@ var modelos = {
    "posts": 16932,
    "usuarios activos": 8234,
    "usuarios creados": 2577,
-   "usuarios eliminados": 200,
-   "usuarios abandonados": 723
+   "usuarios eliminados": 201,
+   "usuarios abandonados": 712
   },
   "2016.05": {
    "noticias": 13296,
@@ -7207,8 +9469,8 @@ var modelos = {
    "posts": 15388,
    "usuarios activos": 8390,
    "usuarios creados": 2565,
-   "usuarios eliminados": 300,
-   "usuarios abandonados": 723
+   "usuarios eliminados": 302,
+   "usuarios abandonados": 720
   },
   "2016.06": {
    "noticias": 12404,
@@ -7217,7 +9479,7 @@ var modelos = {
    "usuarios activos": 8483,
    "usuarios creados": 2194,
    "usuarios eliminados": 258,
-   "usuarios abandonados": 720
+   "usuarios abandonados": 709
   },
   "2016.07": {
    "noticias": 11130,
@@ -7225,8 +9487,8 @@ var modelos = {
    "posts": 15493,
    "usuarios activos": 7998,
    "usuarios creados": 2028,
-   "usuarios eliminados": 177,
-   "usuarios abandonados": 617
+   "usuarios eliminados": 178,
+   "usuarios abandonados": 609
   },
   "2016.08": {
    "noticias": 10213,
@@ -7235,7 +9497,7 @@ var modelos = {
    "usuarios activos": 7653,
    "usuarios creados": 1809,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 587
+   "usuarios abandonados": 580
   },
   "2016.09": {
    "noticias": 10744,
@@ -7244,7 +9506,7 @@ var modelos = {
    "usuarios activos": 7846,
    "usuarios creados": 1981,
    "usuarios eliminados": 198,
-   "usuarios abandonados": 655
+   "usuarios abandonados": 643
   },
   "2016.1": {
    "noticias": 10180,
@@ -7253,7 +9515,7 @@ var modelos = {
    "usuarios activos": 7603,
    "usuarios creados": 1931,
    "usuarios eliminados": 135,
-   "usuarios abandonados": 670
+   "usuarios abandonados": 665
   },
   "2016.11": {
    "noticias": 10037,
@@ -7262,7 +9524,7 @@ var modelos = {
    "usuarios activos": 7549,
    "usuarios creados": 2783,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 628
+   "usuarios abandonados": 623
   },
   "2016.12": {
    "noticias": 9849,
@@ -7270,8 +9532,8 @@ var modelos = {
    "posts": 15589,
    "usuarios activos": 7447,
    "usuarios creados": 3076,
-   "usuarios eliminados": 170,
-   "usuarios abandonados": 637
+   "usuarios eliminados": 172,
+   "usuarios abandonados": 621
   },
   "2017.01": {
    "noticias": 10863,
@@ -7279,8 +9541,8 @@ var modelos = {
    "posts": 17247,
    "usuarios activos": 7746,
    "usuarios creados": 3238,
-   "usuarios eliminados": 204,
-   "usuarios abandonados": 667
+   "usuarios eliminados": 206,
+   "usuarios abandonados": 658
   },
   "2017.02": {
    "noticias": 9773,
@@ -7289,7 +9551,7 @@ var modelos = {
    "usuarios activos": 7390,
    "usuarios creados": 3011,
    "usuarios eliminados": 152,
-   "usuarios abandonados": 665
+   "usuarios abandonados": 659
   },
   "2017.03": {
    "noticias": 10678,
@@ -7298,7 +9560,7 @@ var modelos = {
    "usuarios activos": 7269,
    "usuarios creados": 3052,
    "usuarios eliminados": 128,
-   "usuarios abandonados": 714
+   "usuarios abandonados": 705
   },
   "2017.04": {
    "noticias": 9820,
@@ -7306,8 +9568,8 @@ var modelos = {
    "posts": 11702,
    "usuarios activos": 7024,
    "usuarios creados": 2043,
-   "usuarios eliminados": 127,
-   "usuarios abandonados": 535
+   "usuarios eliminados": 128,
+   "usuarios abandonados": 529
   },
   "2017.05": {
    "noticias": 11827,
@@ -7315,8 +9577,8 @@ var modelos = {
    "posts": 13932,
    "usuarios activos": 7725,
    "usuarios creados": 2423,
-   "usuarios eliminados": 146,
-   "usuarios abandonados": 671
+   "usuarios eliminados": 147,
+   "usuarios abandonados": 659
   },
   "2017.06": {
    "noticias": 10612,
@@ -7325,7 +9587,7 @@ var modelos = {
    "usuarios activos": 7527,
    "usuarios creados": 2297,
    "usuarios eliminados": 149,
-   "usuarios abandonados": 657
+   "usuarios abandonados": 654
   },
   "2017.07": {
    "noticias": 10832,
@@ -7334,7 +9596,7 @@ var modelos = {
    "usuarios activos": 7402,
    "usuarios creados": 2618,
    "usuarios eliminados": 235,
-   "usuarios abandonados": 619
+   "usuarios abandonados": 614
   },
   "2017.08": {
    "noticias": 11061,
@@ -7342,8 +9604,8 @@ var modelos = {
    "posts": 15240,
    "usuarios activos": 7393,
    "usuarios creados": 2958,
-   "usuarios eliminados": 203,
-   "usuarios abandonados": 615
+   "usuarios eliminados": 204,
+   "usuarios abandonados": 605
   },
   "2017.09": {
    "noticias": 12405,
@@ -7351,8 +9613,8 @@ var modelos = {
    "posts": 14015,
    "usuarios activos": 7600,
    "usuarios creados": 2839,
-   "usuarios eliminados": 185,
-   "usuarios abandonados": 623
+   "usuarios eliminados": 186,
+   "usuarios abandonados": 613
   },
   "2017.1": {
    "noticias": 14696,
@@ -7361,7 +9623,7 @@ var modelos = {
    "usuarios activos": 8290,
    "usuarios creados": 3308,
    "usuarios eliminados": 279,
-   "usuarios abandonados": 802
+   "usuarios abandonados": 781
   },
   "2017.11": {
    "noticias": 12919,
@@ -7369,8 +9631,8 @@ var modelos = {
    "posts": 9801,
    "usuarios activos": 7575,
    "usuarios creados": 2904,
-   "usuarios eliminados": 235,
-   "usuarios abandonados": 702
+   "usuarios eliminados": 236,
+   "usuarios abandonados": 691
   },
   "2017.12": {
    "noticias": 10838,
@@ -7378,8 +9640,8 @@ var modelos = {
    "posts": 10386,
    "usuarios activos": 7057,
    "usuarios creados": 2289,
-   "usuarios eliminados": 196,
-   "usuarios abandonados": 568
+   "usuarios eliminados": 198,
+   "usuarios abandonados": 558
   },
   "2018.01": {
    "noticias": 12429,
@@ -7387,8 +9649,8 @@ var modelos = {
    "posts": 9758,
    "usuarios activos": 7435,
    "usuarios creados": 2718,
-   "usuarios eliminados": 208,
-   "usuarios abandonados": 598
+   "usuarios eliminados": 209,
+   "usuarios abandonados": 584
   },
   "2018.02": {
    "noticias": 11946,
@@ -7397,7 +9659,7 @@ var modelos = {
    "usuarios activos": 7212,
    "usuarios creados": 2390,
    "usuarios eliminados": 209,
-   "usuarios abandonados": 540
+   "usuarios abandonados": 527
   },
   "2018.03": {
    "noticias": 13277,
@@ -7406,7 +9668,7 @@ var modelos = {
    "usuarios activos": 7435,
    "usuarios creados": 2447,
    "usuarios eliminados": 199,
-   "usuarios abandonados": 642
+   "usuarios abandonados": 632
   },
   "2018.04": {
    "noticias": 14127,
@@ -7415,7 +9677,7 @@ var modelos = {
    "usuarios activos": 7398,
    "usuarios creados": 2537,
    "usuarios eliminados": 169,
-   "usuarios abandonados": 585
+   "usuarios abandonados": 569
   },
   "2018.05": {
    "noticias": 14146,
@@ -7424,7 +9686,7 @@ var modelos = {
    "usuarios activos": 7526,
    "usuarios creados": 2508,
    "usuarios eliminados": 238,
-   "usuarios abandonados": 597
+   "usuarios abandonados": 578
   },
   "2018.06": {
    "noticias": 13128,
@@ -7433,7 +9695,7 @@ var modelos = {
    "usuarios activos": 7400,
    "usuarios creados": 2279,
    "usuarios eliminados": 236,
-   "usuarios abandonados": 578
+   "usuarios abandonados": 560
   },
   "2018.07": {
    "noticias": 12143,
@@ -7442,7 +9704,7 @@ var modelos = {
    "usuarios activos": 7368,
    "usuarios creados": 2242,
    "usuarios eliminados": 189,
-   "usuarios abandonados": 576
+   "usuarios abandonados": 562
   },
   "2018.08": {
    "noticias": 12393,
@@ -7450,8 +9712,8 @@ var modelos = {
    "posts": 9434,
    "usuarios activos": 7279,
    "usuarios creados": 2362,
-   "usuarios eliminados": 177,
-   "usuarios abandonados": 549
+   "usuarios eliminados": 178,
+   "usuarios abandonados": 527
   },
   "2018.09": {
    "noticias": 12858,
@@ -7460,7 +9722,7 @@ var modelos = {
    "usuarios activos": 7299,
    "usuarios creados": 2098,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 571
+   "usuarios abandonados": 541
   },
   "2018.1": {
    "noticias": 12667,
@@ -7468,8 +9730,8 @@ var modelos = {
    "posts": 8804,
    "usuarios activos": 7180,
    "usuarios creados": 2063,
-   "usuarios eliminados": 164,
-   "usuarios abandonados": 536
+   "usuarios eliminados": 165,
+   "usuarios abandonados": 513
   },
   "2018.11": {
    "noticias": 11697,
@@ -7478,7 +9740,7 @@ var modelos = {
    "usuarios activos": 7013,
    "usuarios creados": 2047,
    "usuarios eliminados": 159,
-   "usuarios abandonados": 516
+   "usuarios abandonados": 495
   },
   "2018.12": {
    "noticias": 10873,
@@ -7487,7 +9749,7 @@ var modelos = {
    "usuarios activos": 6944,
    "usuarios creados": 2051,
    "usuarios eliminados": 185,
-   "usuarios abandonados": 490
+   "usuarios abandonados": 467
   },
   "2019.01": {
    "noticias": 11890,
@@ -7495,8 +9757,8 @@ var modelos = {
    "posts": 8563,
    "usuarios activos": 7263,
    "usuarios creados": 3073,
-   "usuarios eliminados": 198,
-   "usuarios abandonados": 546
+   "usuarios eliminados": 197,
+   "usuarios abandonados": 527
   },
   "2019.02": {
    "noticias": 11690,
@@ -7505,7 +9767,7 @@ var modelos = {
    "usuarios activos": 7136,
    "usuarios creados": 2301,
    "usuarios eliminados": 209,
-   "usuarios abandonados": 581
+   "usuarios abandonados": 559
   },
   "2019.03": {
    "noticias": 13196,
@@ -7514,7 +9776,7 @@ var modelos = {
    "usuarios activos": 7320,
    "usuarios creados": 2460,
    "usuarios eliminados": 253,
-   "usuarios abandonados": 597
+   "usuarios abandonados": 559
   },
   "2019.04": {
    "noticias": 12214,
@@ -7522,8 +9784,8 @@ var modelos = {
    "posts": 8613,
    "usuarios activos": 7118,
    "usuarios creados": 2518,
-   "usuarios eliminados": 173,
-   "usuarios abandonados": 579
+   "usuarios eliminados": 174,
+   "usuarios abandonados": 549
   },
   "2019.05": {
    "noticias": 12238,
@@ -7532,7 +9794,7 @@ var modelos = {
    "usuarios activos": 7285,
    "usuarios creados": 2493,
    "usuarios eliminados": 261,
-   "usuarios abandonados": 604
+   "usuarios abandonados": 565
   },
   "2019.06": {
    "noticias": 11997,
@@ -7540,8 +9802,8 @@ var modelos = {
    "posts": 8509,
    "usuarios activos": 7030,
    "usuarios creados": 2674,
-   "usuarios eliminados": 205,
-   "usuarios abandonados": 568
+   "usuarios eliminados": 207,
+   "usuarios abandonados": 520
   },
   "2019.07": {
    "noticias": 11946,
@@ -7549,8 +9811,8 @@ var modelos = {
    "posts": 9698,
    "usuarios activos": 6925,
    "usuarios creados": 2489,
-   "usuarios eliminados": 248,
-   "usuarios abandonados": 571
+   "usuarios eliminados": 250,
+   "usuarios abandonados": 525
   },
   "2019.08": {
    "noticias": 10860,
@@ -7559,7 +9821,7 @@ var modelos = {
    "usuarios activos": 6664,
    "usuarios creados": 2210,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 543
+   "usuarios abandonados": 487
   },
   "2019.09": {
    "noticias": 11230,
@@ -7568,7 +9830,7 @@ var modelos = {
    "usuarios activos": 6763,
    "usuarios creados": 2300,
    "usuarios eliminados": 197,
-   "usuarios abandonados": 531
+   "usuarios abandonados": 459
   },
   "2019.1": {
    "noticias": 12264,
@@ -7577,7 +9839,7 @@ var modelos = {
    "usuarios activos": 7147,
    "usuarios creados": 2828,
    "usuarios eliminados": 288,
-   "usuarios abandonados": 662
+   "usuarios abandonados": 577
   },
   "2019.11": {
    "noticias": 12228,
@@ -7585,8 +9847,8 @@ var modelos = {
    "posts": 10478,
    "usuarios activos": 7049,
    "usuarios creados": 2557,
-   "usuarios eliminados": 278,
-   "usuarios abandonados": 647
+   "usuarios eliminados": 279,
+   "usuarios abandonados": 539
   },
   "2019.12": {
    "noticias": 10253,
@@ -7595,7 +9857,7 @@ var modelos = {
    "usuarios activos": 6631,
    "usuarios creados": 2340,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 625
+   "usuarios abandonados": 499
   },
   "2020.01": {
    "noticias": 11660,
@@ -7603,7 +9865,8 @@ var modelos = {
    "posts": 10610,
    "usuarios activos": 6871,
    "usuarios creados": 2735,
-   "usuarios eliminados": 218
+   "usuarios eliminados": 218,
+   "usuarios abandonados": 586
   },
   "2020.02": {
    "noticias": 12102,
@@ -7611,7 +9874,8 @@ var modelos = {
    "posts": 9790,
    "usuarios activos": 6816,
    "usuarios creados": 2677,
-   "usuarios eliminados": 250
+   "usuarios eliminados": 250,
+   "usuarios abandonados": 608
   },
   "2020.03": {
    "noticias": 16778,
@@ -7619,7 +9883,8 @@ var modelos = {
    "posts": 17050,
    "usuarios activos": 8301,
    "usuarios creados": 4684,
-   "usuarios eliminados": 339
+   "usuarios eliminados": 338,
+   "usuarios abandonados": 1030
   },
   "2020.04": {
    "noticias": 18134,
@@ -7627,20 +9892,71 @@ var modelos = {
    "posts": 16078,
    "usuarios activos": 8797,
    "usuarios creados": 5542,
-   "usuarios eliminados": 193
+   "usuarios eliminados": 314,
+   "usuarios abandonados": 1304
   },
   "2020.05": {
    "noticias": 17163,
-   "comentarios": 329509,
+   "comentarios": 329527,
    "posts": 15398,
    "usuarios activos": 8495,
    "usuarios creados": 4857,
-   "usuarios eliminados": 89
+   "usuarios eliminados": 231,
+   "usuarios abandonados": 1453
+  },
+  "2020.06": {
+   "noticias": 14388,
+   "comentarios": 275507,
+   "posts": 15889,
+   "usuarios activos": 7830,
+   "usuarios creados": 2956,
+   "usuarios eliminados": 158,
+   "usuarios abandonados": 1398
+  },
+  "2020.07": {
+   "noticias": 13977,
+   "comentarios": 271100,
+   "posts": 15748,
+   "usuarios activos": 7630,
+   "usuarios creados": 2812,
+   "usuarios eliminados": 142,
+   "usuarios abandonados": 1808
+  },
+  "2020.08": {
+   "noticias": 12668,
+   "comentarios": 272537,
+   "posts": 11255,
+   "usuarios activos": 7665,
+   "usuarios creados": 3087,
+   "usuarios eliminados": 92,
+   "usuarios abandonados": 7010
+  },
+  "2020.09": {
+   "noticias": 12774,
+   "comentarios": 257040,
+   "posts": 11521,
+   "usuarios activos": 7649,
+   "usuarios creados": 1000,
+   "usuarios eliminados": 6,
+   "usuarios abandonados": 486
+  },
+  "2020.1": {
+   "noticias": 13923,
+   "comentarios": 272978,
+   "posts": 11427,
+   "usuarios activos": 7739
+  },
+  "2020.11": {
+   "noticias": 13212,
+   "comentarios": 249654,
+   "posts": 12440,
+   "usuarios activos": 7733
   }
  },
  "dominios_todos": {
   "2006": {
    "total": 61204,
+   "0": 5,
    "20minutos.es": 1497,
    "abadiadigital.com": 63,
    "abc.es": 373,
@@ -7672,7 +9988,7 @@ var modelos = {
    "eleconomista.es": 121,
    "electronicafacil.net": 28,
    "eljueves.es": 4,
-   "elmundo.es": 1381,
+   "elmundo.es": 1376,
    "elpais.com": 2093,
    "elperiodico.com": 158,
    "elplural.com": 72,
@@ -7723,6 +10039,7 @@ var modelos = {
   },
   "2007": {
    "total": 182342,
+   "0": 6,
    "20minutos.es": 6064,
    "abadiadigital.com": 90,
    "abc.es": 1663,
@@ -7760,7 +10077,7 @@ var modelos = {
    "eleconomista.es": 607,
    "electronicafacil.net": 723,
    "eljueves.es": 61,
-   "elmundo.es": 5753,
+   "elmundo.es": 5747,
    "elpais.com": 7583,
    "elperiodico.com": 2004,
    "elplural.com": 889,
@@ -7819,6 +10136,7 @@ var modelos = {
   },
   "2008": {
    "total": 243065,
+   "0": 4,
    "20minutos.es": 6830,
    "abadiadigital.com": 333,
    "abc.es": 2395,
@@ -7857,7 +10175,7 @@ var modelos = {
    "eleconomista.es": 1162,
    "electronicafacil.net": 313,
    "eljueves.es": 93,
-   "elmundo.es": 7890,
+   "elmundo.es": 7886,
    "elpais.com": 9363,
    "elperiodico.com": 2187,
    "elplural.com": 1006,
@@ -8136,6 +10454,7 @@ var modelos = {
   },
   "2011": {
    "total": 275219,
+   "0": 2,
    "20minutos.es": 3380,
    "abadiadigital.com": 119,
    "abc.es": 5938,
@@ -8150,7 +10469,7 @@ var modelos = {
    "astroseti.org": 5,
    "bandaancha.eu": 218,
    "barrapunto.com": 43,
-   "bbc.co.uk": 2991,
+   "bbc.co.uk": 2989,
    "bitelia.com": 411,
    "blogs.20minutos.es": 334,
    "blogs.elcorreo.com": 206,
@@ -8256,6 +10575,7 @@ var modelos = {
   },
   "2012": {
    "total": 244504,
+   "0": 22,
    "20minutos.es": 3564,
    "abadiadigital.com": 90,
    "abc.es": 5294,
@@ -8270,7 +10590,7 @@ var modelos = {
    "as.com": 254,
    "bandaancha.eu": 176,
    "barrapunto.com": 35,
-   "bbc.co.uk": 2487,
+   "bbc.co.uk": 2465,
    "bitelia.com": 142,
    "blogs.20minutos.es": 434,
    "blogs.elconfidencial.com": 1,
@@ -8382,6 +10702,7 @@ var modelos = {
   },
   "2013": {
    "total": 214923,
+   "0": 20,
    "20minutos.es": 3228,
    "abadiadigital.com": 83,
    "abc.es": 3885,
@@ -8396,7 +10717,7 @@ var modelos = {
    "astroseti.org": 2,
    "bandaancha.eu": 52,
    "barrapunto.com": 10,
-   "bbc.co.uk": 2136,
+   "bbc.co.uk": 2116,
    "bitelia.com": 23,
    "blogs.20minutos.es": 391,
    "blogs.elconfidencial.com": 416,
@@ -8508,6 +10829,7 @@ var modelos = {
   },
   "2014": {
    "total": 173598,
+   "0": 242,
    "20minutos.es": 3570,
    "abadiadigital.com": 50,
    "abc.es": 720,
@@ -8522,7 +10844,7 @@ var modelos = {
    "astroseti.org": 3,
    "bandaancha.eu": 34,
    "barrapunto.com": 15,
-   "bbc.co.uk": 2497,
+   "bbc.co.uk": 2255,
    "bitelia.com": 51,
    "blogs.20minutos.es": 521,
    "blogs.elconfidencial.com": 528,
@@ -8628,6 +10950,7 @@ var modelos = {
   },
   "2015": {
    "total": 156185,
+   "0": 1364,
    "20minutos.es": 3946,
    "abadiadigital.com": 16,
    "abc.es": 196,
@@ -8640,7 +10963,7 @@ var modelos = {
    "astroseti.org": 3,
    "bandaancha.eu": 20,
    "barrapunto.com": 9,
-   "bbc.co.uk": 2423,
+   "bbc.co.uk": 1059,
    "bitelia.com": 3,
    "blogs.20minutos.es": 608,
    "blogs.elconfidencial.com": 547,
@@ -8748,6 +11071,7 @@ var modelos = {
   },
   "2016": {
    "total": 132683,
+   "0": 1865,
    "20minutos.es": 3526,
    "abc.es": 179,
    "actualidad.rt.com": 1061,
@@ -8758,7 +11082,7 @@ var modelos = {
    "as.com": 8,
    "bandaancha.eu": 25,
    "barrapunto.com": 4,
-   "bbc.co.uk": 1908,
+   "bbc.co.uk": 43,
    "blogs.20minutos.es": 423,
    "blogs.elconfidencial.com": 432,
    "blogs.elpais.com": 17,
@@ -8862,6 +11186,7 @@ var modelos = {
   },
   "2017": {
    "total": 116938,
+   "0": 1872,
    "20minutos.es": 3482,
    "abc.es": 135,
    "actualidad.rt.com": 696,
@@ -8872,7 +11197,7 @@ var modelos = {
    "astroseti.org": 2,
    "bandaancha.eu": 14,
    "barrapunto.com": 3,
-   "bbc.co.uk": 1924,
+   "bbc.co.uk": 52,
    "blogs.20minutos.es": 259,
    "blogs.elconfidencial.com": 489,
    "blogs.elcorreo.com": 1,
@@ -8978,6 +11303,7 @@ var modelos = {
   },
   "2018": {
    "total": 126835,
+   "0": 1285,
    "20minutos.es": 4575,
    "abadiadigital.com": 1,
    "abc.es": 155,
@@ -8987,7 +11313,7 @@ var modelos = {
    "antena3.com": 526,
    "as.com": 23,
    "bandaancha.eu": 16,
-   "bbc.co.uk": 1366,
+   "bbc.co.uk": 81,
    "blogs.20minutos.es": 313,
    "blogs.elconfidencial.com": 524,
    "blogs.lainformacion.com": 1,
@@ -9083,6 +11409,7 @@ var modelos = {
   },
   "2019": {
    "total": 120226,
+   "0": 1143,
    "20minutos.es": 4292,
    "abc.es": 1087,
    "actualidad.rt.com": 971,
@@ -9092,7 +11419,7 @@ var modelos = {
    "as.com": 58,
    "astroseti.org": 1,
    "bandaancha.eu": 10,
-   "bbc.co.uk": 1235,
+   "bbc.co.uk": 92,
    "blogs.20minutos.es": 190,
    "blogs.elconfidencial.com": 405,
    "blogs.periodistadigital.com": 1,
@@ -9188,6 +11515,7 @@ var modelos = {
  "dominios_portada": {
   "2006": {
    "total": 10914,
+   "0": 2,
    "20minutos.es": 303,
    "abadiadigital.com": 18,
    "abc.es": 56,
@@ -9218,7 +11546,7 @@ var modelos = {
    "eleconomista.es": 15,
    "electronicafacil.net": 3,
    "eljueves.es": 2,
-   "elmundo.es": 285,
+   "elmundo.es": 283,
    "elpais.com": 462,
    "elperiodico.com": 23,
    "elplural.com": 15,
@@ -9267,6 +11595,7 @@ var modelos = {
   },
   "2007": {
    "total": 17093,
+   "0": 1,
    "20minutos.es": 685,
    "abadiadigital.com": 21,
    "abc.es": 157,
@@ -9303,7 +11632,7 @@ var modelos = {
    "eleconomista.es": 75,
    "electronicafacil.net": 61,
    "eljueves.es": 20,
-   "elmundo.es": 651,
+   "elmundo.es": 650,
    "elpais.com": 1043,
    "elperiodico.com": 249,
    "elplural.com": 176,
@@ -9357,6 +11686,7 @@ var modelos = {
   },
   "2008": {
    "total": 19461,
+   "0": 2,
    "20minutos.es": 624,
    "abadiadigital.com": 60,
    "abc.es": 211,
@@ -9395,7 +11725,7 @@ var modelos = {
    "eleconomista.es": 139,
    "electronicafacil.net": 38,
    "eljueves.es": 23,
-   "elmundo.es": 806,
+   "elmundo.es": 804,
    "elpais.com": 971,
    "elperiodico.com": 239,
    "elplural.com": 115,
@@ -9775,6 +12105,7 @@ var modelos = {
   },
   "2012": {
    "total": 15819,
+   "0": 2,
    "20minutos.es": 224,
    "abadiadigital.com": 17,
    "abc.es": 253,
@@ -9788,7 +12119,7 @@ var modelos = {
    "as.com": 9,
    "bandaancha.eu": 29,
    "barrapunto.com": 3,
-   "bbc.co.uk": 86,
+   "bbc.co.uk": 84,
    "bitelia.com": 4,
    "blogs.20minutos.es": 31,
    "blogs.elcorreo.com": 38,
@@ -10006,6 +12337,7 @@ var modelos = {
   },
   "2014": {
    "total": 13049,
+   "0": 27,
    "20minutos.es": 265,
    "abadiadigital.com": 8,
    "abc.es": 17,
@@ -10017,7 +12349,7 @@ var modelos = {
    "andalucesdiario.es": 52,
    "antena3.com": 16,
    "bandaancha.eu": 6,
-   "bbc.co.uk": 210,
+   "bbc.co.uk": 183,
    "bitelia.com": 3,
    "blogs.20minutos.es": 54,
    "blogs.elconfidencial.com": 55,
@@ -10115,6 +12447,7 @@ var modelos = {
   },
   "2015": {
    "total": 12318,
+   "0": 143,
    "20minutos.es": 369,
    "abadiadigital.com": 1,
    "actualidad.rt.com": 50,
@@ -10124,7 +12457,7 @@ var modelos = {
    "antena3.com": 24,
    "bandaancha.eu": 4,
    "barrapunto.com": 1,
-   "bbc.co.uk": 219,
+   "bbc.co.uk": 76,
    "blogs.20minutos.es": 45,
    "blogs.elconfidencial.com": 46,
    "blogs.lainformacion.com": 27,
@@ -10207,6 +12540,7 @@ var modelos = {
   },
   "2016": {
    "total": 9890,
+   "0": 189,
    "20minutos.es": 301,
    "actualidad.rt.com": 71,
    "adslzone.net": 25,
@@ -10214,7 +12548,7 @@ var modelos = {
    "andalucesdiario.es": 4,
    "antena3.com": 29,
    "bandaancha.eu": 2,
-   "bbc.co.uk": 191,
+   "bbc.co.uk": 2,
    "blogs.20minutos.es": 25,
    "blogs.elconfidencial.com": 37,
    "blogs.lainformacion.com": 7,
@@ -10293,13 +12627,14 @@ var modelos = {
   },
   "2017": {
    "total": 11039,
+   "0": 177,
    "20minutos.es": 367,
    "actualidad.rt.com": 28,
    "adslzone.net": 37,
    "agenciasinc.es": 60,
    "antena3.com": 44,
    "bandaancha.eu": 3,
-   "bbc.co.uk": 190,
+   "bbc.co.uk": 13,
    "blogs.20minutos.es": 25,
    "blogs.elconfidencial.com": 55,
    "blogs.lainformacion.com": 3,
@@ -10377,13 +12712,14 @@ var modelos = {
   },
   "2018": {
    "total": 13606,
+   "0": 156,
    "20minutos.es": 565,
    "actualidad.rt.com": 52,
    "adslzone.net": 59,
    "agenciasinc.es": 39,
    "antena3.com": 74,
    "bandaancha.eu": 3,
-   "bbc.co.uk": 166,
+   "bbc.co.uk": 10,
    "blogs.20minutos.es": 35,
    "blogs.elconfidencial.com": 60,
    "blogs.lainformacion.com": 1,
@@ -10464,6 +12800,7 @@ var modelos = {
   },
   "2019": {
    "total": 12416,
+   "0": 113,
    "20minutos.es": 493,
    "abc.es": 88,
    "actualidad.rt.com": 92,
@@ -10472,7 +12809,7 @@ var modelos = {
    "antena3.com": 45,
    "as.com": 1,
    "bandaancha.eu": 6,
-   "bbc.co.uk": 127,
+   "bbc.co.uk": 14,
    "blogs.20minutos.es": 19,
    "blogs.elconfidencial.com": 42,
    "blogs.periodistadigital.com": 1,
@@ -12667,7 +15004,7 @@ var modelos = {
    "Camps": 67,
    "Canarias": 28,
    "cancer": 48,
-   "canon": 13,
+   "ca\u00f1on": 13,
    "carcel": 53,
    "Catalu\u00f1a": 148,
    "censura": 75,
@@ -13367,7 +15704,7 @@ var modelos = {
    "Camps": 5,
    "Canarias": 34,
    "cancer": 42,
-   "canon": 53,
+   "ca\u00f1on": 53,
    "carcel": 44,
    "Catalu\u00f1a": 85,
    "censura": 74,
@@ -15445,6 +17782,7 @@ var modelos = {
 };;
 var tags = {
  "dominios": [
+  "0",
   "20minutos.es",
   "*.20minutos.es",
   "abadiadigital.com",
@@ -15463,8 +17801,8 @@ var tags = {
   "astroseti.org",
   "bandaancha.eu",
   "barrapunto.com",
-  "*.bbc.co.uk",
   "bbc.co.uk",
+  "*.bbc.co.uk",
   "bitelia.com",
   "blogs.20minutos.es",
   "blogs.elconfidencial.com",
@@ -15497,21 +17835,21 @@ var tags = {
   "*.elconfidencial.com",
   "elconfidencial.com",
   "elconfidencialdigital.com",
-  "elcorreo.com",
   "*.elcorreo.com",
+  "elcorreo.com",
   "elcorreodigital.com",
   "eldiario.es",
   "*.eldiario.es",
-  "eleconomista.es",
   "*.eleconomista.es",
+  "eleconomista.es",
   "electronicafacil.net",
   "elespanol.com",
   "elindependiente.com",
   "eljueves.es",
   "elmundo.es",
   "elmundotoday.com",
-  "elpais.com",
   "*.elpais.com",
+  "elpais.com",
   "elperiodico.com",
   "elplural.com",
   "elsaltodiario.com",
@@ -15544,8 +17882,8 @@ var tags = {
   "kaosenlared.net",
   "kriptopolis.org",
   "labrujulaverde.com",
-  "*.lainformacion.com",
   "lainformacion.com",
+  "*.lainformacion.com",
   "lamarea.com",
   "larazon.es",
   "lasexta.com",
@@ -15728,6 +18066,7 @@ var tags = {
   "cancer",
   "canon",
   "carcel",
+  "ca\u00f1on",
   "censura",
   "cerebro",
   "ciencia",
@@ -16018,7 +18357,9 @@ var modelos_aux = {
   "2019 T3": 10159,
   "2019 T4": 10374,
   "2020 T1": 11174,
-  "2020 T2": 11055,
+  "2020 T2": 12410,
+  "2020 T3": 10992,
+  "2020 T4": 9646,
   "2005 S2": 404,
   "2006 S1": 3910,
   "2006 S2": 8944,
@@ -16048,7 +18389,8 @@ var modelos_aux = {
   "2018 S2": 14304,
   "2019 S1": 14429,
   "2019 S2": 13636,
-  "2020 S1": 14806,
+  "2020 S1": 15815,
+  "2020 S2": 13228,
   "2005": 404,
   "2006": 10657,
   "2007": 28537,
@@ -16064,6 +18406,6 @@ var modelos_aux = {
   "2017": 22577,
   "2018": 20547,
   "2019": 19348,
-  "2020": 14806
+  "2020": 19655
  }
 };

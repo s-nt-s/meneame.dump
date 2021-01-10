@@ -4,14 +4,15 @@ import os
 import json
 from .util import mkBunch, js_write, get_huecos, PrintFile
 from core.util import gW, chunks, mkArg
-from core.db import DB
 from glob import glob
 import sys
 import shutil
+import re
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
+re_sp = re.compile(r"\s+")
 
 arg = mkArg("Lee o crea json para rellenar datos faltantes de la base de datos",
     exclusive_group=True,
@@ -24,6 +25,7 @@ api=Api()
 file_name = "fix.json"
 
 if arg.json:
+    from core.db import DB
     db = DB()
 
     def huecos(*args, **kargv):
@@ -141,10 +143,10 @@ if arg.sql:
             return None
         return usr
 
-    sql = """
+    sql = re_sp.sub(" ", """
     insert into USERS (id, `create`, `live`) values
     ({id}, STR_TO_DATE('{create}', '%d-%m-%Y'), {live});
-    """.strip().replace("\n", " ")
+    """).strip()
 
     print("-- USERS.create")
     for usr in tm.run(get_user_info, info.users.insert):
@@ -173,6 +175,7 @@ if arg.sql:
     pf.pop()
 
 if arg.update:
+    from core.db import DB
     def read(glb):
         for fl in sorted(glob(glb)):
             print(fl)
