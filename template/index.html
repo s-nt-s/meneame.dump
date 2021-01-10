@@ -47,7 +47,7 @@
   <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
     <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
   </p>
-  <p>Adicionalmente, para las graficas de uso (apartado 2) se han usado datos
+  <p>Adicionalmente, para las graficas de uso (apartado 2) se han utilizado datos
     de TODO meneame (no solo la edición general) incluyendo los {{st.counts.posts | millar }}
     <a href="https://www.meneame.net/notame/">posts del notame</a>.
   </p>
@@ -55,6 +55,11 @@
     Las gráficas mostradas a continuación son interactivas, prueba a elegir el muestreo
     y los rangos temporales con los combos, a mostrar y ocultar datos pinchando en
     la leyenda y a ver información detallada pasando el ratón sobre las gráficas.
+  </p>
+  <p>
+    Nota: Antes de continuar con la lectura te aviso de que no soy un científico de datos
+    y esto es un proyecto personal para matar el rato, lo normal es que haya
+    errores, imprecisiones y sesgos.
   </p>
   <h1>1. El contenido de Méneame a través de los años</h1>
   <h2>1.A ¿Cuántas noticias hay por estado?</h2>
@@ -76,7 +81,7 @@
       </select>
     </p>
     <p>
-      ¿Qué vemos aquí?
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
@@ -86,7 +91,7 @@
         de cuantas noticias se esten enviando y descartando (buscar <q cite="https://www.meneame.net/faq-es">se promoverá una media de una noticia por hora</q> en <a href="https://www.meneame.net/faq-es">Meneame FAQ</a>).
       </li>
       <li>
-        La gráfica en número absolutos nos muestra que el pico de envíos
+        La gráfica en números absolutos nos muestra que el pico de envíos
         fue en 2012 y desde entonces no ha hecho más que bajar hasta estancarse
         en 2017, teniendo un ligero repunte en 2019.
       </li>
@@ -115,10 +120,27 @@
       </select>
     </p>
     <p>
-      (*) Antes de 2014 más del 98% de las noticias están en la categoría <code class="bubble">mnm</code>.
+      (*) Antes de 2014 más del 98% de las noticias estan en la categoría <code class="bubble">mnm</code>
+      ya que los los <code>subs</code> (ahora llamados
+      <a href="https://blog.meneame.net/2020/07/14/los-subs-son-cosa-del-pasado-ahora-llegan-las-comunidades/">comunidades</a>)
+      no aparecieron hasta
+      <a href="https://blog.meneame.net/2014/03/27/puesta-en-marcha-de-sub-meneames/">marzo de 2014</a>.
     <p>
     <p>
-      ¿Qué vemos aquí?
+      (*) Los cambios realizados en
+      <a href="https://blog.meneame.net/2020/09/16/separar-las-categorias-para-ser-mas-relevantes-para-ti/">septiembre de 2020</a> y
+      <a href="https://blog.meneame.net/2020/10/08/cuando-la-politica-se-come-la-actualidad-general/">octubre de 2020</a>
+      apenas afectan a esta gráfica así que ten en cuenta que aquí
+      hablamos de las categorías tal y como eran antes de octubre del 2020, es decir,
+      <code class="bubble">cultura</code> abarca las actuales
+      <code class="bubble">cultura</code> y
+      <code class="bubble">ciencia</code>, y
+      <code class="bubble">actualidad</code> abarca las actuales
+      <code class="bubble">actualidad</code> y
+      <code class="bubble">política</code>.
+    </p>
+    <p>
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
@@ -166,13 +188,13 @@
       que han obtenido al menos 50 portadas algún año.
     </p>
     <p>
-      ¿Qué vemos aquí?
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
         Como en <code>1.B</code> aquí también se observa que la portada
         representa perfectamente lo que se esta enviando. No se puede
-        decir que en la portada hay menos noticiás de X y más de Y
+        decir que en la portada hay menos noticiás del medio X y más del medio Y
         de lo que les correspondería "naturalmente".
       </li>
       <li>
@@ -182,7 +204,7 @@
         siendo un factor secundario los votos negativos que puedan
         haber recibido estas noticias. Obviamente estos votos negativos
         habrán tenido algún impacto, pero desde luego algunos meneantes
-        lo sobredimensionan al no darse cuenta que si en 2013 el 23% de las
+        lo sobredimensionan al no darse cuenta de que si en 2013 el 23% de las
         noticias enviadas son <code>AEDE</code> y al año siguiente solo
         lo son el 8% es inevitable una caída similar en la portada
         (como fue: 25% <code>AEDE</code> en 2013 a un 5% <code>AEDE</code> en 2014)
@@ -193,7 +215,8 @@
         reyes de Meneame. Solo han sido superados levemente por eldiario.es y
         eso en medio de un boicot brutal. En este aspecto podemos decir
         que Meneame es mainstream y que el sueño de dar visibilidad a los
-        pequeños blogs y voces es una pequeña anécdota.
+        pequeños blogs, medios alternativos y voces independientes
+        es una pequeña anécdota.
       </li>
     </ul>
   </div>
@@ -225,7 +248,7 @@
       de manera general identificamos con el <code>COVID-19</code>.
     </p>
     <p>
-      ¿Qué vemos aquí?
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
@@ -234,12 +257,12 @@
         no han dejado de caer en picado. Si este declive es a lo que
         se refieren los usuarios cuando espetan
         <q cite="https://www.meneame.net/search?w=comments&q=Meneame+ya+no+es+lo+que+era">Meneame ya no es lo que era</q>
-        entonces hay que darles la razón a cualquiera que lo haya dicho
+        entonces hay que darle la razón a cualquiera que lo haya dicho
         a partir del segundo año de la plataforma.
       </li>
       <li>
         Algunos temas van prácticamente de la mano. Prueba a añadir la etiqueta
-        <code>PP</code> y sorprendete (sarcasmo) al ver con que otra etiqueta
+        <code>PP</code> y sorprendete al ver con que otra etiqueta
         forma una paralela casi exacta.
       </li>
     </ul>
@@ -253,7 +276,7 @@
   </div>
   <p>(*) Solo se muestran las {{tags_nodes}} etiquetas más usadas</p>
   <p>
-    ¿Qué vemos aquí? Esta se explica sola, pincha en los nodos.
+    <b>¿Qué vemos aquí?</b> Esta se explica sola, pincha en los nodos.
   <p>
   <h2>1.G ¿Hay buen rollo en Menéame?</h2>
   <div class="data">
@@ -280,7 +303,7 @@
       no tener en cuenta el voto del propio autor.
     </p>
     <p>
-      ¿Qué vemos aquí?
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
@@ -308,11 +331,11 @@
       </li>
     </ul>
   <p>
-    ¿Por qué no estudias aqui la evolución de los <codes>strikes</code>?<br/>
+    <em>¿Por qué no estudias aqui la evolución de los <codes>strikes</code>?</em><br/>
     Porque la api no da ese dato y aunque obtenerlo haciendo scraping
     es parcialmente posible (los comentarios causa de <codes>strike</code> tienen
     esa información dentro de un tag html) me llevaría más tiempo
-    del que tenia previsto dedicar y aún así no sería completa
+    del que tenia previsto dedicar y aún así no tendría información completa
     (no se donde conseguir rastos de los <codes>strikes</code> que no se deban a comentarios).
   </p>
   </div>
@@ -334,13 +357,13 @@
     </select>
     <canvas class="chart"></canvas>
     <p>
-      ¿Qué vemos aquí?
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
         Tanto el día normal, como el mes normal, como el año normal,
         nos dicen lo mismo: Meneame se usa principalmente para
-        procrastinar en el trabajo. Todas las graficas desciende
+        procrastinar en el trabajo. Todas las curvas descienden
         en cuanto entramos en el tiempo libre (al salir del horario
         de oficina, al llegar el fin de semana, al llegar las vacaciones
         de verano y navidad, etc).
@@ -386,8 +409,9 @@
             un comentario o un post en la unidad de tiempo seleccionada. <b>¡OJO!</b>
             no hay duda que un usuario que no escribe ni manda noticas pero si vota
             debería ser considerado
-            activo, sin embargo el historico de votaciones no esta disponible y por ello
-            no puedo contabilizar a este tipo de usuarios como activos.
+            activo, sin embargo el historico de votaciones por usuario
+            no esta disponible y por ello
+            no puedo reflejar este tipo de actividad.
         </li>
         <li>
             Aunque es posible saber que usuarios han sido eliminados, no es posible
@@ -397,7 +421,9 @@
         <li>
             Llamo usuario abandonado a aquel que sin estar eliminado llevas más
             de un año sin mandar una noticia, ni escribir un comentario, ni
-            escribir un posts. Al igual que con los usuarios eliminados, se toma
+            escribir un posts (por eso en el último año siempre va a
+            poner que hay 0 usuarios abandonados).
+            Al igual que con los usuarios eliminados, se toma
             como fecha de abandono la de su último envio, comentario o posts.
             <b>¡OJO!</b> los usuarios previamente mencionados que solo votan
             pero no escriben ni envian noticias estaran siendo contabilizados
@@ -405,7 +431,7 @@
         </li>
     </ul>
     <p>
-      ¿Qué vemos aquí?
+      <b>¿Qué vemos aquí?</b>
     <p>
     <ul>
       <li>
@@ -415,90 +441,35 @@
       </li>
       <li>
         Como vimos en 1.A el pico de actividad se dio al rededor
-        de 2012 (en concreto, entre 2011 y 2013) pero también coincide
-        con cuando más cuentas de usuario se abandonaron.
-      </li>
-      <li>
-        Actualmente (2020-2021) vemos un efecto similar
-        (aunque a menor escala ya que <em>Meneame ya no es lo que era</em>):
-        aumento de usuarios registrados, aumento de usuarios abandonados,
-        aumento de usuarios activos.
-        Aunque aún es pronto para confirmar esta tendencia.
+        de 2012 (en concreto, entre 2011 y 2013).
       </li>
       <li>
         Fijándonos en la grafica <code class="bubble">promedio por usuario activo</code>
         parece que el hecho que veíamos antes (que la única métrica
         que crece claramente sean los comentarios) se explica porque la gente que comenta
         cada vez escribe más comentarios, no porque haya más gente comentando.
-        ¿Puede ser esto un signo de discusiones acaloradas e interminables?
-        ¿o de que la gente se repita más?.
+        ¿Puede ser esto un signo de discusiones cada vez más largas o de que la gente se repita más?.
+      </li>
+      <li>
+        Llama la atención que los picos de registros de usuarios no producen
+        un aumento de la actividad tan significativo como cabría esperar.
+        Eso puede significar que una parte importante de los usuarios se registra
+        en un pico lo hace:
+        <ul>
+          <li>para realizar actividades que no estoy teniendo en cuenta, por ejemplo votar</li>
+          <li>para remplazar un usuario que previamente eliminaron o abandonaron</li>
+        </ul>
+        otra posible explicación seria que los procesos que atraen gran número
+        de nuevos usuarios tambien producen el abandono de otros tantos.
       </li>
     </ul>
   </div>
-  <h1>3. Mis consejos para Meneame</h1>
-  <p>Lo primero es admitir que yo no soy un científico de datos y esto
-  es un proyecto personal para matar el rato, lo normal es que haya
-  errores, imprecisiones y sesgos, pero ya que esta hecho... si alguien
-  de Meneame lee esto y quiere saber mi opinión aquí se la doy :P</p>
-  <h2>3.1 Mejora la API y añade una sección de descargas</h2>
-  <p>Copio y pego lo dicho en
-    <a href="https://github.com/s-nt-s/meneame.dump/blob/master/README.md#conclusiones">GitHub - meneame.dump - README.md</a>:
-  </p>
-  <p>Aunque la api de Menéame ofrece mucha información, esta llena de limitaciones para
-  evitar el <code>abuso</code> que consiguen el efecto contrario, ya que provocan que para
-  poder obtener toda la información disponible necesites una cantidad brutal de
-  llamadas a la api.</p>
-  <p>Pues si tenemos más de 3.000.000 de noticias, casi 30.000.000 comentarios,
-  casi 600.000 usuarios y casi 2.000.000 posts tendremos que hacer entre
-  41.600.000 y 71.600.000 llamadas.</p>
-  <p>Creo sinceramente que seria mucho más razonable crear una sección <code>descargas</code>
-  y proporcionar periódicamente (quizá una vez al año) un volcado de la base de datos
-  (no entera, claro, si no solo la parte que ya se esta dando vía api)
-  de manera que solo haga falta usar la api para el último periodo no cubierto.</p>
-  <p>Esto reduciría enormemente la presión a la que deben verse sometidos los servidores
-  de Menéame cada vez que alguien quiere hacer algún estudio de sus datos.
-  Recordemos que hablamos de información que ya esta siendo ofrecida (vía api) y
-  por lo tanto no hay ninguna razón para dificultar su acceso, sobre todo cuando
-  esta dificultad no impide su obtención si no que simplemente provoca
-  freír Menéame a llamadas <code>HTTP</code>.</p>
-  <h2>3.2 No más de un 40% de la portada para una sola categoría</h2>
-  <p>La idea es sencilla, modificar el algoritmo para que en todo
-  momento la portada de Meneame no este virtualmente monopolizada
-  por una sola categoría.</p>
-  <p>Recientemete (en
-    <a href="https://blog.meneame.net/2020/09/16/separar-las-categorias-para-ser-mas-relevantes-para-ti/">septiembre de 2020</a> y
-    <a href="https://blog.meneame.net/2020/10/08/cuando-la-politica-se-come-la-actualidad-general/">octubre de 2020</a>)
-  ha desdoblado varias categorías con la idea de dar respuesta
-  a la recurrente queja de que algunos contenidos se ven
-  excluidos o eclipsados por la sobreabundancia de los contenidos
-  más recurrentes.</p>
-  <p>Sin duda esto ayudará a que los usuarios puedan seleccionar con mayor precisión
-    las categorías que les interesan y evitarse la <em>paja</em>,
-    pero no veo que eso vaya a tener un fuerte impacto en la portada general.</p>
+  <h1>3. ¿Cómo se hizo?</h1>
   <p>
-    Una de las categorias que ha cambiado es la de <code class="bubble">actualidad</code>
-    que ahora se divide en <code class="bubble">política</code> (actualidad política)
-    y <code class="bubble">actualidad</code> (actualidad no-política), por lo tanto
-    (si nada más cambia) la gráfica <code>1.B</code> en un futuro mostraría como
-    la línea <code class="bubble">actualidad</code> baja a la par
-    que surge una nueva línea <code class="bubble">política</code> que sube y
-    ambas sumadas darían 60%. En definitiva, la composición de la portada
-    sería practicamente la misma, solo que en algunas noticias ya no pone
-    al lado <code class="bubble">actualidad</code>, si no que pone
-    <code class="bubble">política</code>.
-  </p>
-  <p>
-    Seguro que no estoy teniendo en cuenta partes del algoritmo
-    que se ven influenciadas por el tamaño y composición de las categorías
-    (las cuales obviamente van a variar con el cambio) pero aún así
-    ¿añadir la limitación del 40% no mejoraría el efecto? Al fin y al cabo
-    el objetivo final es precisamente ese, que ninguna categoría
-    acaparé la portada expulsando al resto.
-  </p>
-  <h2>3.x ...</h2>
-  <p>Había escrito más consejos, pero los he borrado
-    porque cada vez se apoyaban menos en los datos de este informe
-    y más en mis creencias personales :P
+    Si te interesa saber como he sacado los datos de Meneame te
+    recomiendo que vayas directamente al
+    <a href="https://github.com/s-nt-s/meneame.dump">repositorio GitHub</a>
+    y empiezes por el fichero <a href="https://github.com/s-nt-s/meneame.dump/blob/master/README.md">README.md</a>
   </p>
 </body>
 </html>

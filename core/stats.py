@@ -358,6 +358,8 @@ class Stats:
         #min_dt, max_dt = self.db.one("select min(trimestre), max(trimestre) from GENERAL")
         min_dt = self.min_date.year
         max_dt = self.max_date.year
+        if self.max_date.month == 12:
+            max_dt = max_dt + 1
         data={}
         for key, total in self.db.select('''
             select
@@ -494,7 +496,7 @@ class Stats:
             where
                 `live` = 1 and
                 `until` is not null and
-                YEAR(NOW())-YEAR(`until`)>0 and
+                DATEDIFF(NOW(),`until`)>365 and
                 date_mod(`until`, 1) <= {0}
             group by
                 date_mod(`until`, 1)

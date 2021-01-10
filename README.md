@@ -63,7 +63,7 @@ queremos recuperar los comentarios.
 Para completar la información con el `id` del usuario que hizo el comentario,
 usaremos [meneame.net/backend/info.php?&what=comment&id=1&fields=author](meneame.net/backend/info.php?&what=comment&id=1&fields=author) donde `1` es el id del comentario.
 
-Este paso nos lo podemos ahorra si el nick devuelto en el primer endpoint
+Este paso nos lo podemos ahorrar si el nick devuelto en el primer endpoint
 es del tipo `--XXXXX--` donde `XXXXX` es un número, porque en tal caso
 se trata de un usuario eliminado y `XXXXX` es el `id`.
 

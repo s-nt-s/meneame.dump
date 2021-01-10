@@ -1064,7 +1064,7 @@ var modelos = {
   },
   "2020.09": {
    "karma": 86.0,
-   "positives": 385098.0,
+   "positives": 385101.0,
    "negatives": 48204.0,
    "comment_karma": 26.0
   },
@@ -1076,9 +1076,15 @@ var modelos = {
   },
   "2020.11": {
    "karma": 70.0,
-   "positives": 344947.0,
-   "negatives": 45677.0,
+   "positives": 344961.0,
+   "negatives": 45681.0,
    "comment_karma": 27.0
+  },
+  "2020.12": {
+   "karma": 84.0,
+   "positives": 320813.0,
+   "negatives": 37673.0,
+   "comment_karma": 26.0
   }
  },
  "karma_portada": {
@@ -2161,6 +2167,12 @@ var modelos = {
    "positives": 229397.0,
    "negatives": 7581.0,
    "comment_karma": 30.0
+  },
+  "2020.12": {
+   "karma": 333.0,
+   "positives": 220598.0,
+   "negatives": 7433.0,
+   "comment_karma": 28.0
   }
  },
  "count_estados": {
@@ -3404,9 +3416,9 @@ var modelos = {
    "discard": 865
   },
   "2020.09": {
-   "total": 10667,
+   "total": 10668,
    "published": 1465,
-   "queued": 7568,
+   "queued": 7569,
    "autodiscard": 736,
    "discard": 837
   },
@@ -3418,11 +3430,18 @@ var modelos = {
    "discard": 862
   },
   "2020.11": {
-   "total": 11098,
+   "total": 11099,
    "published": 1369,
-   "queued": 8048,
+   "queued": 8049,
    "autodiscard": 764,
    "discard": 812
+  },
+  "2020.12": {
+   "total": 9674,
+   "published": 1432,
+   "queued": 6900,
+   "autodiscard": 603,
+   "discard": 688
   }
  },
  "count_categorias_todas": {
@@ -4147,9 +4166,9 @@ var modelos = {
    "otros": 143
   },
   "2020.09": {
-   "total": 10667,
+   "total": 10668,
    "mnm": 161,
-   "actualidad": 7249,
+   "actualidad": 7250,
    "cultura": 1469,
    "tecnolog\u00eda": 630,
    "ocio": 699,
@@ -4165,13 +4184,22 @@ var modelos = {
    "otros": 1641
   },
   "2020.11": {
-   "total": 11098,
+   "total": 11099,
    "mnm": 52,
    "actualidad": 6591,
-   "cultura": 1332,
+   "cultura": 1333,
    "tecnolog\u00eda": 622,
    "ocio": 764,
    "otros": 1737
+  },
+  "2020.12": {
+   "total": 9674,
+   "mnm": 59,
+   "actualidad": 5588,
+   "cultura": 1286,
+   "tecnolog\u00eda": 564,
+   "ocio": 761,
+   "otros": 1416
   }
  },
  "count_categorias_published": {
@@ -4921,6 +4949,15 @@ var modelos = {
    "tecnolog\u00eda": 83,
    "ocio": 97,
    "otros": 208
+  },
+  "2020.12": {
+   "total": 1432,
+   "mnm": 11,
+   "actualidad": 800,
+   "cultura": 231,
+   "tecnolog\u00eda": 86,
+   "ocio": 108,
+   "otros": 196
   }
  },
  "uso_tiempo": {
@@ -8126,159 +8163,159 @@ var modelos = {
   },
   "2020": {
    "H0": {
-    "noticias": 4315,
-    "comentarios": 106254,
-    "posts": 5024
+    "noticias": 4603,
+    "comentarios": 113346,
+    "posts": 5393
    },
    "H1": {
-    "noticias": 2611,
-    "comentarios": 64856,
-    "posts": 2752
+    "noticias": 2786,
+    "comentarios": 68922,
+    "posts": 2931
    },
    "H2": {
-    "noticias": 1775,
-    "comentarios": 36556,
-    "posts": 1593
+    "noticias": 1887,
+    "comentarios": 38802,
+    "posts": 1697
    },
    "H3": {
-    "noticias": 1341,
-    "comentarios": 21389,
-    "posts": 1019
+    "noticias": 1418,
+    "comentarios": 22648,
+    "posts": 1084
    },
    "H4": {
-    "noticias": 1169,
-    "comentarios": 14496,
-    "posts": 657
+    "noticias": 1232,
+    "comentarios": 15333,
+    "posts": 680
    },
    "H5": {
-    "noticias": 1423,
-    "comentarios": 13832,
-    "posts": 551
+    "noticias": 1500,
+    "comentarios": 14719,
+    "posts": 582
    },
    "H6": {
-    "noticias": 2122,
-    "comentarios": 21771,
-    "posts": 524
+    "noticias": 2305,
+    "comentarios": 23454,
+    "posts": 560
    },
    "H7": {
-    "noticias": 3876,
-    "comentarios": 51742,
-    "posts": 1648
+    "noticias": 4197,
+    "comentarios": 55767,
+    "posts": 1749
    },
    "H8": {
-    "noticias": 6713,
-    "comentarios": 109798,
-    "posts": 4337
+    "noticias": 7186,
+    "comentarios": 117851,
+    "posts": 4664
    },
    "H9": {
-    "noticias": 8983,
-    "comentarios": 159712,
-    "posts": 6949
+    "noticias": 9698,
+    "comentarios": 171413,
+    "posts": 7375
    },
    "H10": {
-    "noticias": 10187,
-    "comentarios": 188359,
-    "posts": 8215
+    "noticias": 11037,
+    "comentarios": 202573,
+    "posts": 8768
    },
    "H11": {
-    "noticias": 10991,
-    "comentarios": 202105,
-    "posts": 10030
+    "noticias": 11778,
+    "comentarios": 216717,
+    "posts": 10645
    },
    "H12": {
-    "noticias": 10465,
-    "comentarios": 205588,
-    "posts": 11001
+    "noticias": 11253,
+    "comentarios": 220460,
+    "posts": 11613
    },
    "H13": {
-    "noticias": 10482,
-    "comentarios": 206019,
-    "posts": 10202
+    "noticias": 11204,
+    "comentarios": 220224,
+    "posts": 10828
    },
    "H14": {
-    "noticias": 8938,
-    "comentarios": 191471,
-    "posts": 9444
+    "noticias": 9557,
+    "comentarios": 204583,
+    "posts": 10036
    },
    "H15": {
-    "noticias": 8522,
-    "comentarios": 183967,
-    "posts": 9710
+    "noticias": 9131,
+    "comentarios": 197131,
+    "posts": 10381
    },
    "H16": {
-    "noticias": 8730,
-    "comentarios": 178675,
-    "posts": 9431
+    "noticias": 9304,
+    "comentarios": 191165,
+    "posts": 10086
    },
    "H17": {
-    "noticias": 8980,
-    "comentarios": 165138,
-    "posts": 8400
+    "noticias": 9642,
+    "comentarios": 176416,
+    "posts": 9093
    },
    "H18": {
-    "noticias": 8481,
-    "comentarios": 157985,
-    "posts": 7555
+    "noticias": 9116,
+    "comentarios": 168954,
+    "posts": 8188
    },
    "H19": {
-    "noticias": 8287,
-    "comentarios": 153405,
-    "posts": 7460
+    "noticias": 8963,
+    "comentarios": 164087,
+    "posts": 8174
    },
    "H20": {
-    "noticias": 7969,
-    "comentarios": 152083,
-    "posts": 7829
+    "noticias": 8598,
+    "comentarios": 163150,
+    "posts": 8508
    },
    "H21": {
-    "noticias": 7538,
-    "comentarios": 151500,
-    "posts": 7858
+    "noticias": 8116,
+    "comentarios": 162149,
+    "posts": 8492
    },
    "H22": {
-    "noticias": 6952,
-    "comentarios": 150148,
-    "posts": 8323
+    "noticias": 7501,
+    "comentarios": 160683,
+    "posts": 8970
    },
    "H23": {
-    "noticias": 5929,
-    "comentarios": 135756,
-    "posts": 6694
+    "noticias": 6353,
+    "comentarios": 144731,
+    "posts": 7136
    },
    "W0": {
-    "noticias": 23782,
-    "comentarios": 452013,
-    "posts": 22841
+    "noticias": 25506,
+    "comentarios": 481594,
+    "posts": 24536
    },
    "W1": {
-    "noticias": 24201,
-    "comentarios": 458540,
-    "posts": 22322
+    "noticias": 26386,
+    "comentarios": 497666,
+    "posts": 23996
    },
    "W2": {
-    "noticias": 24458,
-    "comentarios": 459964,
-    "posts": 23388
+    "noticias": 26378,
+    "comentarios": 493777,
+    "posts": 25062
    },
    "W3": {
-    "noticias": 24502,
-    "comentarios": 456359,
-    "posts": 22764
+    "noticias": 26165,
+    "comentarios": 488379,
+    "posts": 24339
    },
    "W4": {
-    "noticias": 23372,
-    "comentarios": 442278,
-    "posts": 23324
+    "noticias": 24882,
+    "comentarios": 470080,
+    "posts": 24703
    },
    "W5": {
-    "noticias": 18019,
-    "comentarios": 368531,
-    "posts": 16839
+    "noticias": 19258,
+    "comentarios": 392817,
+    "posts": 18205
    },
    "W6": {
-    "noticias": 18445,
-    "comentarios": 384920,
-    "posts": 15728
+    "noticias": 19790,
+    "comentarios": 410965,
+    "posts": 16792
    },
    "M1": {
     "noticias": 11660,
@@ -8317,23 +8354,28 @@ var modelos = {
    },
    "M8": {
     "noticias": 12668,
-    "comentarios": 272537,
+    "comentarios": 272706,
     "posts": 11255
    },
    "M9": {
-    "noticias": 12774,
-    "comentarios": 257040,
+    "noticias": 12775,
+    "comentarios": 257044,
     "posts": 11521
    },
    "M10": {
     "noticias": 13923,
-    "comentarios": 272978,
+    "comentarios": 272980,
     "posts": 11427
    },
    "M11": {
-    "noticias": 13212,
+    "noticias": 13215,
     "comentarios": 249654,
     "posts": 12440
+   },
+   "M12": {
+    "noticias": 11582,
+    "comentarios": 212498,
+    "posts": 10427
    }
   }
  },
@@ -8363,7 +8405,7 @@ var modelos = {
    "usuarios activos": 988,
    "usuarios creados": 639,
    "usuarios eliminados": 5,
-   "usuarios abandonados": 144
+   "usuarios abandonados": 143
   },
   "2006.03": {
    "noticias": 3218,
@@ -8444,7 +8486,7 @@ var modelos = {
    "usuarios activos": 3879,
    "usuarios creados": 2360,
    "usuarios eliminados": 39,
-   "usuarios abandonados": 513
+   "usuarios abandonados": 512
   },
   "2006.12": {
    "noticias": 9684,
@@ -8462,7 +8504,7 @@ var modelos = {
    "usuarios activos": 5219,
    "usuarios creados": 3088,
    "usuarios eliminados": 50,
-   "usuarios abandonados": 784
+   "usuarios abandonados": 782
   },
   "2007.02": {
    "noticias": 13138,
@@ -8489,7 +8531,7 @@ var modelos = {
    "usuarios activos": 6168,
    "usuarios creados": 2997,
    "usuarios eliminados": 133,
-   "usuarios abandonados": 903
+   "usuarios abandonados": 902
   },
   "2007.05": {
    "noticias": 17605,
@@ -8543,7 +8585,7 @@ var modelos = {
    "usuarios activos": 7563,
    "usuarios creados": 3364,
    "usuarios eliminados": 166,
-   "usuarios abandonados": 984
+   "usuarios abandonados": 983
   },
   "2007.11": {
    "noticias": 17503,
@@ -8561,7 +8603,7 @@ var modelos = {
    "usuarios activos": 7691,
    "usuarios creados": 3473,
    "usuarios eliminados": 184,
-   "usuarios abandonados": 995
+   "usuarios abandonados": 994
   },
   "2008.01": {
    "noticias": 17369,
@@ -8579,7 +8621,7 @@ var modelos = {
    "usuarios activos": 9165,
    "usuarios creados": 4162,
    "usuarios eliminados": 219,
-   "usuarios abandonados": 1306
+   "usuarios abandonados": 1305
   },
   "2008.03": {
    "noticias": 18264,
@@ -8587,8 +8629,8 @@ var modelos = {
    "posts": 1517,
    "usuarios activos": 8969,
    "usuarios creados": 3644,
-   "usuarios eliminados": 171,
-   "usuarios abandonados": 1167
+   "usuarios eliminados": 172,
+   "usuarios abandonados": 1166
   },
   "2008.04": {
    "noticias": 20893,
@@ -8633,7 +8675,7 @@ var modelos = {
    "usuarios activos": 9329,
    "usuarios creados": 3382,
    "usuarios eliminados": 186,
-   "usuarios abandonados": 1168
+   "usuarios abandonados": 1167
   },
   "2008.09": {
    "noticias": 22104,
@@ -8651,7 +8693,7 @@ var modelos = {
    "usuarios activos": 10355,
    "usuarios creados": 3473,
    "usuarios eliminados": 249,
-   "usuarios abandonados": 1408
+   "usuarios abandonados": 1406
   },
   "2008.11": {
    "noticias": 20291,
@@ -8678,7 +8720,7 @@ var modelos = {
    "usuarios activos": 10376,
    "usuarios creados": 3563,
    "usuarios eliminados": 289,
-   "usuarios abandonados": 1481
+   "usuarios abandonados": 1479
   },
   "2009.02": {
    "noticias": 21911,
@@ -8695,8 +8737,8 @@ var modelos = {
    "posts": 6866,
    "usuarios activos": 10537,
    "usuarios creados": 3736,
-   "usuarios eliminados": 322,
-   "usuarios abandonados": 1465
+   "usuarios eliminados": 323,
+   "usuarios abandonados": 1462
   },
   "2009.04": {
    "noticias": 21384,
@@ -8714,7 +8756,7 @@ var modelos = {
    "usuarios activos": 10279,
    "usuarios creados": 3806,
    "usuarios eliminados": 409,
-   "usuarios abandonados": 1258
+   "usuarios abandonados": 1257
   },
   "2009.06": {
    "noticias": 20554,
@@ -8723,7 +8765,7 @@ var modelos = {
    "usuarios activos": 9940,
    "usuarios creados": 3430,
    "usuarios eliminados": 184,
-   "usuarios abandonados": 1187
+   "usuarios abandonados": 1186
   },
   "2009.07": {
    "noticias": 19966,
@@ -8741,7 +8783,7 @@ var modelos = {
    "usuarios activos": 9399,
    "usuarios creados": 3151,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 1053
+   "usuarios abandonados": 1052
   },
   "2009.09": {
    "noticias": 20256,
@@ -8750,7 +8792,7 @@ var modelos = {
    "usuarios activos": 10370,
    "usuarios creados": 3073,
    "usuarios eliminados": 267,
-   "usuarios abandonados": 1209
+   "usuarios abandonados": 1207
   },
   "2009.1": {
    "noticias": 21161,
@@ -8777,7 +8819,7 @@ var modelos = {
    "usuarios activos": 10290,
    "usuarios creados": 2796,
    "usuarios eliminados": 190,
-   "usuarios abandonados": 1212
+   "usuarios abandonados": 1211
   },
   "2010.01": {
    "noticias": 21573,
@@ -8794,8 +8836,8 @@ var modelos = {
    "posts": 14174,
    "usuarios activos": 9946,
    "usuarios creados": 3101,
-   "usuarios eliminados": 162,
-   "usuarios abandonados": 1250
+   "usuarios eliminados": 163,
+   "usuarios abandonados": 1248
   },
   "2010.03": {
    "noticias": 21420,
@@ -8804,7 +8846,7 @@ var modelos = {
    "usuarios activos": 10308,
    "usuarios creados": 3167,
    "usuarios eliminados": 212,
-   "usuarios abandonados": 1330
+   "usuarios abandonados": 1327
   },
   "2010.04": {
    "noticias": 20208,
@@ -8812,8 +8854,8 @@ var modelos = {
    "posts": 15089,
    "usuarios activos": 10036,
    "usuarios creados": 4448,
-   "usuarios eliminados": 164,
-   "usuarios abandonados": 1246
+   "usuarios eliminados": 165,
+   "usuarios abandonados": 1245
   },
   "2010.05": {
    "noticias": 22032,
@@ -8822,7 +8864,7 @@ var modelos = {
    "usuarios activos": 10901,
    "usuarios creados": 5781,
    "usuarios eliminados": 218,
-   "usuarios abandonados": 1423
+   "usuarios abandonados": 1421
   },
   "2010.06": {
    "noticias": 21832,
@@ -8831,7 +8873,7 @@ var modelos = {
    "usuarios activos": 10856,
    "usuarios creados": 5259,
    "usuarios eliminados": 271,
-   "usuarios abandonados": 1366
+   "usuarios abandonados": 1364
   },
   "2010.07": {
    "noticias": 19046,
@@ -8840,7 +8882,7 @@ var modelos = {
    "usuarios activos": 10447,
    "usuarios creados": 4870,
    "usuarios eliminados": 237,
-   "usuarios abandonados": 1256
+   "usuarios abandonados": 1254
   },
   "2010.08": {
    "noticias": 17941,
@@ -8858,7 +8900,7 @@ var modelos = {
    "usuarios activos": 10435,
    "usuarios creados": 4910,
    "usuarios eliminados": 241,
-   "usuarios abandonados": 1232
+   "usuarios abandonados": 1231
   },
   "2010.1": {
    "noticias": 18138,
@@ -8867,7 +8909,7 @@ var modelos = {
    "usuarios activos": 10421,
    "usuarios creados": 4965,
    "usuarios eliminados": 236,
-   "usuarios abandonados": 1327
+   "usuarios abandonados": 1324
   },
   "2010.11": {
    "noticias": 19397,
@@ -8876,7 +8918,7 @@ var modelos = {
    "usuarios activos": 10553,
    "usuarios creados": 5468,
    "usuarios eliminados": 269,
-   "usuarios abandonados": 1371
+   "usuarios abandonados": 1369
   },
   "2010.12": {
    "noticias": 18956,
@@ -8893,8 +8935,8 @@ var modelos = {
    "posts": 11445,
    "usuarios activos": 11477,
    "usuarios creados": 5805,
-   "usuarios eliminados": 263,
-   "usuarios abandonados": 1422
+   "usuarios eliminados": 265,
+   "usuarios abandonados": 1419
   },
   "2011.02": {
    "noticias": 21781,
@@ -8903,7 +8945,7 @@ var modelos = {
    "usuarios activos": 11619,
    "usuarios creados": 6027,
    "usuarios eliminados": 239,
-   "usuarios abandonados": 1474
+   "usuarios abandonados": 1472
   },
   "2011.03": {
    "noticias": 24889,
@@ -8912,7 +8954,7 @@ var modelos = {
    "usuarios activos": 12205,
    "usuarios creados": 6889,
    "usuarios eliminados": 306,
-   "usuarios abandonados": 1562
+   "usuarios abandonados": 1559
   },
   "2011.04": {
    "noticias": 20810,
@@ -8930,7 +8972,7 @@ var modelos = {
    "usuarios activos": 12784,
    "usuarios creados": 6666,
    "usuarios eliminados": 251,
-   "usuarios abandonados": 1605
+   "usuarios abandonados": 1603
   },
   "2011.06": {
    "noticias": 23190,
@@ -8938,8 +8980,8 @@ var modelos = {
    "posts": 20954,
    "usuarios activos": 12442,
    "usuarios creados": 5761,
-   "usuarios eliminados": 269,
-   "usuarios abandonados": 1450
+   "usuarios eliminados": 270,
+   "usuarios abandonados": 1448
   },
   "2011.07": {
    "noticias": 20234,
@@ -8948,7 +8990,7 @@ var modelos = {
    "usuarios activos": 11518,
    "usuarios creados": 5008,
    "usuarios eliminados": 249,
-   "usuarios abandonados": 1264
+   "usuarios abandonados": 1262
   },
   "2011.08": {
    "noticias": 20903,
@@ -8965,8 +9007,8 @@ var modelos = {
    "posts": 13733,
    "usuarios activos": 12137,
    "usuarios creados": 5129,
-   "usuarios eliminados": 280,
-   "usuarios abandonados": 1325
+   "usuarios eliminados": 282,
+   "usuarios abandonados": 1321
   },
   "2011.1": {
    "noticias": 24119,
@@ -8975,7 +9017,7 @@ var modelos = {
    "usuarios activos": 12275,
    "usuarios creados": 5339,
    "usuarios eliminados": 242,
-   "usuarios abandonados": 1485
+   "usuarios abandonados": 1481
   },
   "2011.11": {
    "noticias": 26266,
@@ -8984,7 +9026,7 @@ var modelos = {
    "usuarios activos": 12791,
    "usuarios creados": 5760,
    "usuarios eliminados": 246,
-   "usuarios abandonados": 1696
+   "usuarios abandonados": 1695
   },
   "2011.12": {
    "noticias": 23816,
@@ -8993,7 +9035,7 @@ var modelos = {
    "usuarios activos": 12061,
    "usuarios creados": 4901,
    "usuarios eliminados": 224,
-   "usuarios abandonados": 1404
+   "usuarios abandonados": 1402
   },
   "2012.01": {
    "noticias": 24787,
@@ -9002,7 +9044,7 @@ var modelos = {
    "usuarios activos": 12904,
    "usuarios creados": 5721,
    "usuarios eliminados": 282,
-   "usuarios abandonados": 1581
+   "usuarios abandonados": 1578
   },
   "2012.02": {
    "noticias": 22373,
@@ -9011,7 +9053,7 @@ var modelos = {
    "usuarios activos": 12395,
    "usuarios creados": 5305,
    "usuarios eliminados": 279,
-   "usuarios abandonados": 1569
+   "usuarios abandonados": 1565
   },
   "2012.03": {
    "noticias": 21225,
@@ -9020,7 +9062,7 @@ var modelos = {
    "usuarios activos": 11834,
    "usuarios creados": 4961,
    "usuarios eliminados": 231,
-   "usuarios abandonados": 1506
+   "usuarios abandonados": 1502
   },
   "2012.04": {
    "noticias": 19147,
@@ -9029,7 +9071,7 @@ var modelos = {
    "usuarios activos": 11547,
    "usuarios creados": 4312,
    "usuarios eliminados": 244,
-   "usuarios abandonados": 1292
+   "usuarios abandonados": 1289
   },
   "2012.05": {
    "noticias": 22179,
@@ -9038,7 +9080,7 @@ var modelos = {
    "usuarios activos": 11971,
    "usuarios creados": 4585,
    "usuarios eliminados": 223,
-   "usuarios abandonados": 1478
+   "usuarios abandonados": 1477
   },
   "2012.06": {
    "noticias": 20328,
@@ -9047,7 +9089,7 @@ var modelos = {
    "usuarios activos": 11609,
    "usuarios creados": 3992,
    "usuarios eliminados": 254,
-   "usuarios abandonados": 1387
+   "usuarios abandonados": 1382
   },
   "2012.07": {
    "noticias": 20300,
@@ -9056,7 +9098,7 @@ var modelos = {
    "usuarios activos": 11458,
    "usuarios creados": 3969,
    "usuarios eliminados": 241,
-   "usuarios abandonados": 1326
+   "usuarios abandonados": 1322
   },
   "2012.08": {
    "noticias": 17258,
@@ -9065,7 +9107,7 @@ var modelos = {
    "usuarios activos": 10599,
    "usuarios creados": 3802,
    "usuarios eliminados": 217,
-   "usuarios abandonados": 1193
+   "usuarios abandonados": 1190
   },
   "2012.09": {
    "noticias": 19234,
@@ -9074,7 +9116,7 @@ var modelos = {
    "usuarios activos": 11474,
    "usuarios creados": 4545,
    "usuarios eliminados": 289,
-   "usuarios abandonados": 1266
+   "usuarios abandonados": 1262
   },
   "2012.1": {
    "noticias": 20906,
@@ -9083,7 +9125,7 @@ var modelos = {
    "usuarios activos": 11667,
    "usuarios creados": 4371,
    "usuarios eliminados": 233,
-   "usuarios abandonados": 1566
+   "usuarios abandonados": 1563
   },
   "2012.11": {
    "noticias": 20276,
@@ -9092,7 +9134,7 @@ var modelos = {
    "usuarios activos": 11306,
    "usuarios creados": 3649,
    "usuarios eliminados": 261,
-   "usuarios abandonados": 1416
+   "usuarios abandonados": 1411
   },
   "2012.12": {
    "noticias": 18032,
@@ -9100,8 +9142,8 @@ var modelos = {
    "posts": 15421,
    "usuarios activos": 10537,
    "usuarios creados": 4633,
-   "usuarios eliminados": 190,
-   "usuarios abandonados": 1284
+   "usuarios eliminados": 189,
+   "usuarios abandonados": 1281
   },
   "2013.01": {
    "noticias": 22385,
@@ -9109,8 +9151,8 @@ var modelos = {
    "posts": 15007,
    "usuarios activos": 11254,
    "usuarios creados": 4660,
-   "usuarios eliminados": 265,
-   "usuarios abandonados": 1360
+   "usuarios eliminados": 266,
+   "usuarios abandonados": 1357
   },
   "2013.02": {
    "noticias": 20110,
@@ -9119,7 +9161,7 @@ var modelos = {
    "usuarios activos": 10976,
    "usuarios creados": 4297,
    "usuarios eliminados": 232,
-   "usuarios abandonados": 1365
+   "usuarios abandonados": 1364
   },
   "2013.03": {
    "noticias": 19937,
@@ -9128,7 +9170,7 @@ var modelos = {
    "usuarios activos": 10886,
    "usuarios creados": 4219,
    "usuarios eliminados": 310,
-   "usuarios abandonados": 1446
+   "usuarios abandonados": 1439
   },
   "2013.04": {
    "noticias": 21074,
@@ -9137,7 +9179,7 @@ var modelos = {
    "usuarios activos": 10857,
    "usuarios creados": 4636,
    "usuarios eliminados": 266,
-   "usuarios abandonados": 1405
+   "usuarios abandonados": 1400
   },
   "2013.05": {
    "noticias": 20609,
@@ -9145,8 +9187,8 @@ var modelos = {
    "posts": 16273,
    "usuarios activos": 10708,
    "usuarios creados": 4595,
-   "usuarios eliminados": 250,
-   "usuarios abandonados": 1372
+   "usuarios eliminados": 251,
+   "usuarios abandonados": 1370
   },
   "2013.06": {
    "noticias": 18745,
@@ -9155,7 +9197,7 @@ var modelos = {
    "usuarios activos": 10245,
    "usuarios creados": 4037,
    "usuarios eliminados": 229,
-   "usuarios abandonados": 1219
+   "usuarios abandonados": 1218
   },
   "2013.07": {
    "noticias": 17964,
@@ -9164,7 +9206,7 @@ var modelos = {
    "usuarios activos": 9894,
    "usuarios creados": 3919,
    "usuarios eliminados": 233,
-   "usuarios abandonados": 1194
+   "usuarios abandonados": 1190
   },
   "2013.08": {
    "noticias": 15049,
@@ -9173,7 +9215,7 @@ var modelos = {
    "usuarios activos": 9249,
    "usuarios creados": 3678,
    "usuarios eliminados": 149,
-   "usuarios abandonados": 979
+   "usuarios abandonados": 976
   },
   "2013.09": {
    "noticias": 16853,
@@ -9182,7 +9224,7 @@ var modelos = {
    "usuarios activos": 9767,
    "usuarios creados": 3732,
    "usuarios eliminados": 166,
-   "usuarios abandonados": 1065
+   "usuarios abandonados": 1061
   },
   "2013.1": {
    "noticias": 17374,
@@ -9191,7 +9233,7 @@ var modelos = {
    "usuarios activos": 9837,
    "usuarios creados": 4103,
    "usuarios eliminados": 208,
-   "usuarios abandonados": 1197
+   "usuarios abandonados": 1195
   },
   "2013.11": {
    "noticias": 15397,
@@ -9200,7 +9242,7 @@ var modelos = {
    "usuarios activos": 9537,
    "usuarios creados": 3901,
    "usuarios eliminados": 160,
-   "usuarios abandonados": 1236
+   "usuarios abandonados": 1232
   },
   "2013.12": {
    "noticias": 14127,
@@ -9208,8 +9250,8 @@ var modelos = {
    "posts": 12653,
    "usuarios activos": 9091,
    "usuarios creados": 3832,
-   "usuarios eliminados": 146,
-   "usuarios abandonados": 1037
+   "usuarios eliminados": 147,
+   "usuarios abandonados": 1032
   },
   "2014.01": {
    "noticias": 16301,
@@ -9218,7 +9260,7 @@ var modelos = {
    "usuarios activos": 9768,
    "usuarios creados": 4245,
    "usuarios eliminados": 217,
-   "usuarios abandonados": 1074
+   "usuarios abandonados": 1068
   },
   "2014.02": {
    "noticias": 15525,
@@ -9227,7 +9269,7 @@ var modelos = {
    "usuarios activos": 9592,
    "usuarios creados": 3939,
    "usuarios eliminados": 149,
-   "usuarios abandonados": 1095
+   "usuarios abandonados": 1094
   },
   "2014.03": {
    "noticias": 16314,
@@ -9236,7 +9278,7 @@ var modelos = {
    "usuarios activos": 9229,
    "usuarios creados": 4240,
    "usuarios eliminados": 195,
-   "usuarios abandonados": 1035
+   "usuarios abandonados": 1030
   },
   "2014.04": {
    "noticias": 15742,
@@ -9245,7 +9287,7 @@ var modelos = {
    "usuarios activos": 8788,
    "usuarios creados": 3813,
    "usuarios eliminados": 187,
-   "usuarios abandonados": 970
+   "usuarios abandonados": 966
   },
   "2014.05": {
    "noticias": 16200,
@@ -9254,7 +9296,7 @@ var modelos = {
    "usuarios activos": 9290,
    "usuarios creados": 4001,
    "usuarios eliminados": 235,
-   "usuarios abandonados": 1059
+   "usuarios abandonados": 1056
   },
   "2014.06": {
    "noticias": 15736,
@@ -9263,7 +9305,7 @@ var modelos = {
    "usuarios activos": 9169,
    "usuarios creados": 5896,
    "usuarios eliminados": 160,
-   "usuarios abandonados": 1075
+   "usuarios abandonados": 1071
   },
   "2014.07": {
    "noticias": 15060,
@@ -9271,8 +9313,8 @@ var modelos = {
    "posts": 12749,
    "usuarios activos": 9037,
    "usuarios creados": 3777,
-   "usuarios eliminados": 214,
-   "usuarios abandonados": 973
+   "usuarios eliminados": 215,
+   "usuarios abandonados": 968
   },
   "2014.08": {
    "noticias": 14113,
@@ -9280,8 +9322,8 @@ var modelos = {
    "posts": 14086,
    "usuarios activos": 8647,
    "usuarios creados": 3621,
-   "usuarios eliminados": 237,
-   "usuarios abandonados": 821
+   "usuarios eliminados": 238,
+   "usuarios abandonados": 816
   },
   "2014.09": {
    "noticias": 14568,
@@ -9290,7 +9332,7 @@ var modelos = {
    "usuarios activos": 9083,
    "usuarios creados": 3347,
    "usuarios eliminados": 216,
-   "usuarios abandonados": 890
+   "usuarios abandonados": 888
   },
   "2014.1": {
    "noticias": 17254,
@@ -9298,8 +9340,8 @@ var modelos = {
    "posts": 12790,
    "usuarios activos": 9512,
    "usuarios creados": 3234,
-   "usuarios eliminados": 181,
-   "usuarios abandonados": 976
+   "usuarios eliminados": 182,
+   "usuarios abandonados": 974
   },
   "2014.11": {
    "noticias": 15393,
@@ -9308,7 +9350,7 @@ var modelos = {
    "usuarios activos": 9099,
    "usuarios creados": 2959,
    "usuarios eliminados": 209,
-   "usuarios abandonados": 851
+   "usuarios abandonados": 847
   },
   "2014.12": {
    "noticias": 14556,
@@ -9317,7 +9359,7 @@ var modelos = {
    "usuarios activos": 8995,
    "usuarios creados": 2785,
    "usuarios eliminados": 166,
-   "usuarios abandonados": 874
+   "usuarios abandonados": 870
   },
   "2015.01": {
    "noticias": 15382,
@@ -9326,7 +9368,7 @@ var modelos = {
    "usuarios activos": 9291,
    "usuarios creados": 3102,
    "usuarios eliminados": 222,
-   "usuarios abandonados": 901
+   "usuarios abandonados": 890
   },
   "2015.02": {
    "noticias": 14813,
@@ -9334,8 +9376,8 @@ var modelos = {
    "posts": 14625,
    "usuarios activos": 9129,
    "usuarios creados": 3310,
-   "usuarios eliminados": 266,
-   "usuarios abandonados": 928
+   "usuarios eliminados": 267,
+   "usuarios abandonados": 921
   },
   "2015.03": {
    "noticias": 14925,
@@ -9344,7 +9386,7 @@ var modelos = {
    "usuarios activos": 9008,
    "usuarios creados": 3392,
    "usuarios eliminados": 195,
-   "usuarios abandonados": 886
+   "usuarios abandonados": 884
   },
   "2015.04": {
    "noticias": 14707,
@@ -9353,7 +9395,7 @@ var modelos = {
    "usuarios activos": 8792,
    "usuarios creados": 2973,
    "usuarios eliminados": 230,
-   "usuarios abandonados": 792
+   "usuarios abandonados": 783
   },
   "2015.05": {
    "noticias": 15366,
@@ -9371,7 +9413,7 @@ var modelos = {
    "usuarios activos": 9035,
    "usuarios creados": 3034,
    "usuarios eliminados": 275,
-   "usuarios abandonados": 875
+   "usuarios abandonados": 870
   },
   "2015.07": {
    "noticias": 13180,
@@ -9380,7 +9422,7 @@ var modelos = {
    "usuarios activos": 8722,
    "usuarios creados": 2721,
    "usuarios eliminados": 333,
-   "usuarios abandonados": 740
+   "usuarios abandonados": 734
   },
   "2015.08": {
    "noticias": 12119,
@@ -9389,7 +9431,7 @@ var modelos = {
    "usuarios activos": 8097,
    "usuarios creados": 2470,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 740
+   "usuarios abandonados": 737
   },
   "2015.09": {
    "noticias": 12031,
@@ -9398,7 +9440,7 @@ var modelos = {
    "usuarios activos": 8498,
    "usuarios creados": 2457,
    "usuarios eliminados": 223,
-   "usuarios abandonados": 698
+   "usuarios abandonados": 690
   },
   "2015.1": {
    "noticias": 13783,
@@ -9406,8 +9448,8 @@ var modelos = {
    "posts": 14365,
    "usuarios activos": 8568,
    "usuarios creados": 2750,
-   "usuarios eliminados": 300,
-   "usuarios abandonados": 745
+   "usuarios eliminados": 301,
+   "usuarios abandonados": 742
   },
   "2015.11": {
    "noticias": 14222,
@@ -9416,7 +9458,7 @@ var modelos = {
    "usuarios activos": 8746,
    "usuarios creados": 3020,
    "usuarios eliminados": 337,
-   "usuarios abandonados": 750
+   "usuarios abandonados": 747
   },
   "2015.12": {
    "noticias": 14246,
@@ -9425,7 +9467,7 @@ var modelos = {
    "usuarios activos": 8674,
    "usuarios creados": 2596,
    "usuarios eliminados": 231,
-   "usuarios abandonados": 790
+   "usuarios abandonados": 787
   },
   "2016.01": {
    "noticias": 14722,
@@ -9434,7 +9476,7 @@ var modelos = {
    "usuarios activos": 8479,
    "usuarios creados": 2730,
    "usuarios eliminados": 228,
-   "usuarios abandonados": 643
+   "usuarios abandonados": 639
   },
   "2016.02": {
    "noticias": 14554,
@@ -9443,7 +9485,7 @@ var modelos = {
    "usuarios activos": 8533,
    "usuarios creados": 2929,
    "usuarios eliminados": 249,
-   "usuarios abandonados": 769
+   "usuarios abandonados": 762
   },
   "2016.03": {
    "noticias": 12999,
@@ -9452,7 +9494,7 @@ var modelos = {
    "usuarios activos": 8318,
    "usuarios creados": 2446,
    "usuarios eliminados": 215,
-   "usuarios abandonados": 739
+   "usuarios abandonados": 733
   },
   "2016.04": {
    "noticias": 13235,
@@ -9461,7 +9503,7 @@ var modelos = {
    "usuarios activos": 8234,
    "usuarios creados": 2577,
    "usuarios eliminados": 201,
-   "usuarios abandonados": 712
+   "usuarios abandonados": 706
   },
   "2016.05": {
    "noticias": 13296,
@@ -9470,7 +9512,7 @@ var modelos = {
    "usuarios activos": 8390,
    "usuarios creados": 2565,
    "usuarios eliminados": 302,
-   "usuarios abandonados": 720
+   "usuarios abandonados": 712
   },
   "2016.06": {
    "noticias": 12404,
@@ -9479,7 +9521,7 @@ var modelos = {
    "usuarios activos": 8483,
    "usuarios creados": 2194,
    "usuarios eliminados": 258,
-   "usuarios abandonados": 709
+   "usuarios abandonados": 701
   },
   "2016.07": {
    "noticias": 11130,
@@ -9488,7 +9530,7 @@ var modelos = {
    "usuarios activos": 7998,
    "usuarios creados": 2028,
    "usuarios eliminados": 178,
-   "usuarios abandonados": 609
+   "usuarios abandonados": 606
   },
   "2016.08": {
    "noticias": 10213,
@@ -9497,7 +9539,7 @@ var modelos = {
    "usuarios activos": 7653,
    "usuarios creados": 1809,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 580
+   "usuarios abandonados": 576
   },
   "2016.09": {
    "noticias": 10744,
@@ -9506,7 +9548,7 @@ var modelos = {
    "usuarios activos": 7846,
    "usuarios creados": 1981,
    "usuarios eliminados": 198,
-   "usuarios abandonados": 643
+   "usuarios abandonados": 634
   },
   "2016.1": {
    "noticias": 10180,
@@ -9514,8 +9556,8 @@ var modelos = {
    "posts": 18252,
    "usuarios activos": 7603,
    "usuarios creados": 1931,
-   "usuarios eliminados": 135,
-   "usuarios abandonados": 665
+   "usuarios eliminados": 137,
+   "usuarios abandonados": 655
   },
   "2016.11": {
    "noticias": 10037,
@@ -9524,7 +9566,7 @@ var modelos = {
    "usuarios activos": 7549,
    "usuarios creados": 2783,
    "usuarios eliminados": 170,
-   "usuarios abandonados": 623
+   "usuarios abandonados": 617
   },
   "2016.12": {
    "noticias": 9849,
@@ -9533,7 +9575,7 @@ var modelos = {
    "usuarios activos": 7447,
    "usuarios creados": 3076,
    "usuarios eliminados": 172,
-   "usuarios abandonados": 621
+   "usuarios abandonados": 612
   },
   "2017.01": {
    "noticias": 10863,
@@ -9541,8 +9583,8 @@ var modelos = {
    "posts": 17247,
    "usuarios activos": 7746,
    "usuarios creados": 3238,
-   "usuarios eliminados": 206,
-   "usuarios abandonados": 658
+   "usuarios eliminados": 207,
+   "usuarios abandonados": 650
   },
   "2017.02": {
    "noticias": 9773,
@@ -9551,7 +9593,7 @@ var modelos = {
    "usuarios activos": 7390,
    "usuarios creados": 3011,
    "usuarios eliminados": 152,
-   "usuarios abandonados": 659
+   "usuarios abandonados": 644
   },
   "2017.03": {
    "noticias": 10678,
@@ -9560,7 +9602,7 @@ var modelos = {
    "usuarios activos": 7269,
    "usuarios creados": 3052,
    "usuarios eliminados": 128,
-   "usuarios abandonados": 705
+   "usuarios abandonados": 698
   },
   "2017.04": {
    "noticias": 9820,
@@ -9568,8 +9610,8 @@ var modelos = {
    "posts": 11702,
    "usuarios activos": 7024,
    "usuarios creados": 2043,
-   "usuarios eliminados": 128,
-   "usuarios abandonados": 529
+   "usuarios eliminados": 129,
+   "usuarios abandonados": 522
   },
   "2017.05": {
    "noticias": 11827,
@@ -9578,7 +9620,7 @@ var modelos = {
    "usuarios activos": 7725,
    "usuarios creados": 2423,
    "usuarios eliminados": 147,
-   "usuarios abandonados": 659
+   "usuarios abandonados": 650
   },
   "2017.06": {
    "noticias": 10612,
@@ -9587,7 +9629,7 @@ var modelos = {
    "usuarios activos": 7527,
    "usuarios creados": 2297,
    "usuarios eliminados": 149,
-   "usuarios abandonados": 654
+   "usuarios abandonados": 638
   },
   "2017.07": {
    "noticias": 10832,
@@ -9596,7 +9638,7 @@ var modelos = {
    "usuarios activos": 7402,
    "usuarios creados": 2618,
    "usuarios eliminados": 235,
-   "usuarios abandonados": 614
+   "usuarios abandonados": 606
   },
   "2017.08": {
    "noticias": 11061,
@@ -9604,8 +9646,8 @@ var modelos = {
    "posts": 15240,
    "usuarios activos": 7393,
    "usuarios creados": 2958,
-   "usuarios eliminados": 204,
-   "usuarios abandonados": 605
+   "usuarios eliminados": 205,
+   "usuarios abandonados": 596
   },
   "2017.09": {
    "noticias": 12405,
@@ -9614,7 +9656,7 @@ var modelos = {
    "usuarios activos": 7600,
    "usuarios creados": 2839,
    "usuarios eliminados": 186,
-   "usuarios abandonados": 613
+   "usuarios abandonados": 600
   },
   "2017.1": {
    "noticias": 14696,
@@ -9623,7 +9665,7 @@ var modelos = {
    "usuarios activos": 8290,
    "usuarios creados": 3308,
    "usuarios eliminados": 279,
-   "usuarios abandonados": 781
+   "usuarios abandonados": 763
   },
   "2017.11": {
    "noticias": 12919,
@@ -9632,7 +9674,7 @@ var modelos = {
    "usuarios activos": 7575,
    "usuarios creados": 2904,
    "usuarios eliminados": 236,
-   "usuarios abandonados": 691
+   "usuarios abandonados": 677
   },
   "2017.12": {
    "noticias": 10838,
@@ -9641,7 +9683,7 @@ var modelos = {
    "usuarios activos": 7057,
    "usuarios creados": 2289,
    "usuarios eliminados": 198,
-   "usuarios abandonados": 558
+   "usuarios abandonados": 555
   },
   "2018.01": {
    "noticias": 12429,
@@ -9649,8 +9691,8 @@ var modelos = {
    "posts": 9758,
    "usuarios activos": 7435,
    "usuarios creados": 2718,
-   "usuarios eliminados": 209,
-   "usuarios abandonados": 584
+   "usuarios eliminados": 210,
+   "usuarios abandonados": 575
   },
   "2018.02": {
    "noticias": 11946,
@@ -9659,7 +9701,7 @@ var modelos = {
    "usuarios activos": 7212,
    "usuarios creados": 2390,
    "usuarios eliminados": 209,
-   "usuarios abandonados": 527
+   "usuarios abandonados": 518
   },
   "2018.03": {
    "noticias": 13277,
@@ -9668,7 +9710,7 @@ var modelos = {
    "usuarios activos": 7435,
    "usuarios creados": 2447,
    "usuarios eliminados": 199,
-   "usuarios abandonados": 632
+   "usuarios abandonados": 612
   },
   "2018.04": {
    "noticias": 14127,
@@ -9677,7 +9719,7 @@ var modelos = {
    "usuarios activos": 7398,
    "usuarios creados": 2537,
    "usuarios eliminados": 169,
-   "usuarios abandonados": 569
+   "usuarios abandonados": 556
   },
   "2018.05": {
    "noticias": 14146,
@@ -9686,7 +9728,7 @@ var modelos = {
    "usuarios activos": 7526,
    "usuarios creados": 2508,
    "usuarios eliminados": 238,
-   "usuarios abandonados": 578
+   "usuarios abandonados": 561
   },
   "2018.06": {
    "noticias": 13128,
@@ -9695,7 +9737,7 @@ var modelos = {
    "usuarios activos": 7400,
    "usuarios creados": 2279,
    "usuarios eliminados": 236,
-   "usuarios abandonados": 560
+   "usuarios abandonados": 551
   },
   "2018.07": {
    "noticias": 12143,
@@ -9704,7 +9746,7 @@ var modelos = {
    "usuarios activos": 7368,
    "usuarios creados": 2242,
    "usuarios eliminados": 189,
-   "usuarios abandonados": 562
+   "usuarios abandonados": 532
   },
   "2018.08": {
    "noticias": 12393,
@@ -9713,7 +9755,7 @@ var modelos = {
    "usuarios activos": 7279,
    "usuarios creados": 2362,
    "usuarios eliminados": 178,
-   "usuarios abandonados": 527
+   "usuarios abandonados": 508
   },
   "2018.09": {
    "noticias": 12858,
@@ -9722,7 +9764,7 @@ var modelos = {
    "usuarios activos": 7299,
    "usuarios creados": 2098,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 541
+   "usuarios abandonados": 527
   },
   "2018.1": {
    "noticias": 12667,
@@ -9731,7 +9773,7 @@ var modelos = {
    "usuarios activos": 7180,
    "usuarios creados": 2063,
    "usuarios eliminados": 165,
-   "usuarios abandonados": 513
+   "usuarios abandonados": 490
   },
   "2018.11": {
    "noticias": 11697,
@@ -9739,8 +9781,8 @@ var modelos = {
    "posts": 8845,
    "usuarios activos": 7013,
    "usuarios creados": 2047,
-   "usuarios eliminados": 159,
-   "usuarios abandonados": 495
+   "usuarios eliminados": 161,
+   "usuarios abandonados": 477
   },
   "2018.12": {
    "noticias": 10873,
@@ -9749,7 +9791,7 @@ var modelos = {
    "usuarios activos": 6944,
    "usuarios creados": 2051,
    "usuarios eliminados": 185,
-   "usuarios abandonados": 467
+   "usuarios abandonados": 449
   },
   "2019.01": {
    "noticias": 11890,
@@ -9758,7 +9800,7 @@ var modelos = {
    "usuarios activos": 7263,
    "usuarios creados": 3073,
    "usuarios eliminados": 197,
-   "usuarios abandonados": 527
+   "usuarios abandonados": 500
   },
   "2019.02": {
    "noticias": 11690,
@@ -9766,8 +9808,8 @@ var modelos = {
    "posts": 7250,
    "usuarios activos": 7136,
    "usuarios creados": 2301,
-   "usuarios eliminados": 209,
-   "usuarios abandonados": 559
+   "usuarios eliminados": 210,
+   "usuarios abandonados": 525
   },
   "2019.03": {
    "noticias": 13196,
@@ -9776,7 +9818,7 @@ var modelos = {
    "usuarios activos": 7320,
    "usuarios creados": 2460,
    "usuarios eliminados": 253,
-   "usuarios abandonados": 559
+   "usuarios abandonados": 525
   },
   "2019.04": {
    "noticias": 12214,
@@ -9785,7 +9827,7 @@ var modelos = {
    "usuarios activos": 7118,
    "usuarios creados": 2518,
    "usuarios eliminados": 174,
-   "usuarios abandonados": 549
+   "usuarios abandonados": 512
   },
   "2019.05": {
    "noticias": 12238,
@@ -9794,7 +9836,7 @@ var modelos = {
    "usuarios activos": 7285,
    "usuarios creados": 2493,
    "usuarios eliminados": 261,
-   "usuarios abandonados": 565
+   "usuarios abandonados": 525
   },
   "2019.06": {
    "noticias": 11997,
@@ -9803,7 +9845,7 @@ var modelos = {
    "usuarios activos": 7030,
    "usuarios creados": 2674,
    "usuarios eliminados": 207,
-   "usuarios abandonados": 520
+   "usuarios abandonados": 487
   },
   "2019.07": {
    "noticias": 11946,
@@ -9811,8 +9853,8 @@ var modelos = {
    "posts": 9698,
    "usuarios activos": 6925,
    "usuarios creados": 2489,
-   "usuarios eliminados": 250,
-   "usuarios abandonados": 525
+   "usuarios eliminados": 249,
+   "usuarios abandonados": 486
   },
   "2019.08": {
    "noticias": 10860,
@@ -9821,7 +9863,7 @@ var modelos = {
    "usuarios activos": 6664,
    "usuarios creados": 2210,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 487
+   "usuarios abandonados": 448
   },
   "2019.09": {
    "noticias": 11230,
@@ -9830,7 +9872,7 @@ var modelos = {
    "usuarios activos": 6763,
    "usuarios creados": 2300,
    "usuarios eliminados": 197,
-   "usuarios abandonados": 459
+   "usuarios abandonados": 423
   },
   "2019.1": {
    "noticias": 12264,
@@ -9839,7 +9881,7 @@ var modelos = {
    "usuarios activos": 7147,
    "usuarios creados": 2828,
    "usuarios eliminados": 288,
-   "usuarios abandonados": 577
+   "usuarios abandonados": 507
   },
   "2019.11": {
    "noticias": 12228,
@@ -9848,7 +9890,7 @@ var modelos = {
    "usuarios activos": 7049,
    "usuarios creados": 2557,
    "usuarios eliminados": 279,
-   "usuarios abandonados": 539
+   "usuarios abandonados": 483
   },
   "2019.12": {
    "noticias": 10253,
@@ -9857,7 +9899,7 @@ var modelos = {
    "usuarios activos": 6631,
    "usuarios creados": 2340,
    "usuarios eliminados": 180,
-   "usuarios abandonados": 499
+   "usuarios abandonados": 432
   },
   "2020.01": {
    "noticias": 11660,
@@ -9865,8 +9907,8 @@ var modelos = {
    "posts": 10610,
    "usuarios activos": 6871,
    "usuarios creados": 2735,
-   "usuarios eliminados": 218,
-   "usuarios abandonados": 586
+   "usuarios eliminados": 219,
+   "usuarios abandonados": 135
   },
   "2020.02": {
    "noticias": 12102,
@@ -9874,8 +9916,7 @@ var modelos = {
    "posts": 9790,
    "usuarios activos": 6816,
    "usuarios creados": 2677,
-   "usuarios eliminados": 250,
-   "usuarios abandonados": 608
+   "usuarios eliminados": 250
   },
   "2020.03": {
    "noticias": 16778,
@@ -9883,8 +9924,7 @@ var modelos = {
    "posts": 17050,
    "usuarios activos": 8301,
    "usuarios creados": 4684,
-   "usuarios eliminados": 338,
-   "usuarios abandonados": 1030
+   "usuarios eliminados": 336
   },
   "2020.04": {
    "noticias": 18134,
@@ -9892,8 +9932,7 @@ var modelos = {
    "posts": 16078,
    "usuarios activos": 8797,
    "usuarios creados": 5542,
-   "usuarios eliminados": 314,
-   "usuarios abandonados": 1304
+   "usuarios eliminados": 316
   },
   "2020.05": {
    "noticias": 17163,
@@ -9901,8 +9940,7 @@ var modelos = {
    "posts": 15398,
    "usuarios activos": 8495,
    "usuarios creados": 4857,
-   "usuarios eliminados": 231,
-   "usuarios abandonados": 1453
+   "usuarios eliminados": 232
   },
   "2020.06": {
    "noticias": 14388,
@@ -9910,8 +9948,7 @@ var modelos = {
    "posts": 15889,
    "usuarios activos": 7830,
    "usuarios creados": 2956,
-   "usuarios eliminados": 158,
-   "usuarios abandonados": 1398
+   "usuarios eliminados": 158
   },
   "2020.07": {
    "noticias": 13977,
@@ -9919,38 +9956,47 @@ var modelos = {
    "posts": 15748,
    "usuarios activos": 7630,
    "usuarios creados": 2812,
-   "usuarios eliminados": 142,
-   "usuarios abandonados": 1808
+   "usuarios eliminados": 147
   },
   "2020.08": {
    "noticias": 12668,
-   "comentarios": 272537,
+   "comentarios": 272706,
    "posts": 11255,
-   "usuarios activos": 7665,
+   "usuarios activos": 7668,
    "usuarios creados": 3087,
-   "usuarios eliminados": 92,
-   "usuarios abandonados": 7010
+   "usuarios eliminados": 159
   },
   "2020.09": {
-   "noticias": 12774,
-   "comentarios": 257040,
+   "noticias": 12775,
+   "comentarios": 257044,
    "posts": 11521,
    "usuarios activos": 7649,
-   "usuarios creados": 1000,
-   "usuarios eliminados": 6,
-   "usuarios abandonados": 486
+   "usuarios creados": 2651,
+   "usuarios eliminados": 169
   },
   "2020.1": {
    "noticias": 13923,
-   "comentarios": 272978,
+   "comentarios": 272980,
    "posts": 11427,
-   "usuarios activos": 7739
+   "usuarios activos": 7739,
+   "usuarios creados": 2525,
+   "usuarios eliminados": 156
   },
   "2020.11": {
-   "noticias": 13212,
+   "noticias": 13215,
    "comentarios": 249654,
    "posts": 12440,
-   "usuarios activos": 7733
+   "usuarios activos": 7733,
+   "usuarios creados": 2557,
+   "usuarios eliminados": 69
+  },
+  "2020.12": {
+   "noticias": 11582,
+   "comentarios": 212498,
+   "posts": 10427,
+   "usuarios activos": 7278,
+   "usuarios creados": 1994,
+   "usuarios eliminados": 65
   }
  },
  "dominios_todos": {
@@ -12913,6 +12959,7 @@ var modelos = {
    "agua": 51,
    "Aguirre": 10,
    "alcalde": 5,
+   "alcohol": 16,
    "Alemania": 22,
    "alimentos": 16,
    "alquiler": 7,
@@ -12952,9 +12999,12 @@ var modelos = {
    "cancer": 26,
    "canon": 151,
    "carcel": 20,
+   "casa": 13,
    "Catalu\u00f1a": 26,
+   "caza": 7,
    "censura": 91,
    "cerebro": 23,
+   "Chile": 11,
    "China": 80,
    "ciencia": 160,
    "cine": 68,
@@ -12977,6 +13027,7 @@ var modelos = {
    "democracia": 15,
    "denuncia": 30,
    "deportes": 16,
+   "derecho": 17,
    "derechos": 50,
    "derechos humanos": 19,
    "descargas": 36,
@@ -12986,6 +13037,7 @@ var modelos = {
    "dimision": 2,
    "dinero": 21,
    "dise\u00f1o": 107,
+   "documental": 10,
    "drogas": 28,
    "ecologia": 48,
    "economia": 51,
@@ -13001,6 +13053,7 @@ var modelos = {
    "empresas": 43,
    "energia": 62,
    "entrevista": 22,
+   "ERE": 2,
    "error": 24,
    "espacio": 35,
    "Espa\u00f1a": 152,
@@ -13017,6 +13070,7 @@ var modelos = {
    "familia": 8,
    "fascismo": 17,
    "firefox": 185,
+   "fiscalia": 4,
    "fisica": 37,
    "Formula 1": 22,
    "fotos": 139,
@@ -13075,6 +13129,7 @@ var modelos = {
    "justicia": 44,
    "laboral": 11,
    "ladrones": 34,
+   "laicismo": 7,
    "leon": 2,
    "ley": 25,
    "libertad": 41,
@@ -13090,6 +13145,7 @@ var modelos = {
    "manifestaciones": 40,
    "manipulacion": 14,
    "mapas": 27,
+   "mar": 7,
    "marihuana": 18,
    "Marruecos": 4,
    "marte": 14,
@@ -13132,6 +13188,7 @@ var modelos = {
    "padres": 8,
    "Palestina": 16,
    "papa": 6,
+   "Paris": 7,
    "paro": 5,
    "peliculas": 33,
    "pensiones": 1,
@@ -13160,8 +13217,12 @@ var modelos = {
    "protestas": 20,
    "PSOE": 30,
    "publicidad": 66,
+   "publico": 5,
    "racismo": 15,
    "Rajoy": 5,
+   "record": 8,
+   "redes sociales": 4,
+   "referendum": 4,
    "religion": 64,
    "renovables": 3,
    "represion": 16,
@@ -13212,6 +13273,7 @@ var modelos = {
    "UE": 26,
    "UK": 10,
    "universidad": 40,
+   "vacunas": 5,
    "Valencia": 18,
    "velocidad": 25,
    "Venezuela": 14,
@@ -13226,6 +13288,7 @@ var modelos = {
    "virus": 33,
    "vivienda": 124,
    "web": 226,
+   "wifi": 61,
    "wikipedia": 76,
    "windows": 195,
    "youtube": 70,
@@ -13245,6 +13308,7 @@ var modelos = {
    "agua": 95,
    "Aguirre": 57,
    "alcalde": 49,
+   "alcohol": 51,
    "Alemania": 71,
    "alimentos": 27,
    "alquiler": 28,
@@ -13286,9 +13350,12 @@ var modelos = {
    "cancer": 60,
    "canon": 259,
    "carcel": 52,
+   "casa": 19,
    "Catalu\u00f1a": 53,
+   "caza": 9,
    "censura": 157,
    "cerebro": 42,
+   "Chile": 15,
    "China": 110,
    "ciencia": 171,
    "cine": 105,
@@ -13311,6 +13378,7 @@ var modelos = {
    "democracia": 41,
    "denuncia": 71,
    "deportes": 40,
+   "derecho": 18,
    "derechos": 114,
    "derechos humanos": 45,
    "descargas": 37,
@@ -13320,6 +13388,7 @@ var modelos = {
    "dimision": 15,
    "dinero": 55,
    "dise\u00f1o": 53,
+   "documental": 8,
    "drogas": 57,
    "ecologia": 94,
    "economia": 181,
@@ -13352,6 +13421,7 @@ var modelos = {
    "familia": 37,
    "fascismo": 49,
    "firefox": 112,
+   "fiscalia": 10,
    "fisica": 42,
    "Formula 1": 104,
    "fotos": 269,
@@ -13410,6 +13480,7 @@ var modelos = {
    "justicia": 64,
    "laboral": 22,
    "ladrones": 135,
+   "laicismo": 24,
    "leon": 9,
    "ley": 46,
    "libertad": 63,
@@ -13425,6 +13496,7 @@ var modelos = {
    "manifestaciones": 113,
    "manipulacion": 54,
    "mapas": 40,
+   "mar": 22,
    "marihuana": 35,
    "Marruecos": 24,
    "marte": 21,
@@ -13466,7 +13538,9 @@ var modelos = {
    "p2p": 121,
    "padres": 45,
    "Palestina": 20,
+   "pandemia": 1,
    "papa": 23,
+   "Paris": 18,
    "paro": 19,
    "peliculas": 57,
    "pensiones": 9,
@@ -13496,8 +13570,12 @@ var modelos = {
    "protestas": 37,
    "PSOE": 186,
    "publicidad": 114,
+   "publico": 20,
    "racismo": 50,
    "Rajoy": 144,
+   "record": 22,
+   "redes sociales": 3,
+   "referendum": 9,
    "religion": 299,
    "renovables": 3,
    "represion": 23,
@@ -13551,6 +13629,7 @@ var modelos = {
    "UE": 45,
    "UK": 26,
    "universidad": 56,
+   "vacunas": 14,
    "Valencia": 85,
    "velocidad": 37,
    "Venezuela": 49,
@@ -13565,6 +13644,7 @@ var modelos = {
    "virus": 23,
    "vivienda": 247,
    "web": 93,
+   "wifi": 45,
    "wikipedia": 77,
    "windows": 200,
    "youtube": 100,
@@ -13584,6 +13664,7 @@ var modelos = {
    "agua": 111,
    "Aguirre": 101,
    "alcalde": 35,
+   "alcohol": 32,
    "Alemania": 90,
    "alimentos": 45,
    "alquiler": 29,
@@ -13625,9 +13706,12 @@ var modelos = {
    "cancer": 89,
    "canon": 166,
    "carcel": 85,
+   "casa": 33,
    "Catalu\u00f1a": 69,
+   "caza": 18,
    "censura": 85,
    "cerebro": 43,
+   "Chile": 18,
    "China": 163,
    "ciencia": 207,
    "cine": 105,
@@ -13651,6 +13735,7 @@ var modelos = {
    "democracia": 45,
    "denuncia": 56,
    "deportes": 94,
+   "derecho": 34,
    "derechos": 156,
    "derechos humanos": 44,
    "descargas": 40,
@@ -13660,6 +13745,7 @@ var modelos = {
    "dimision": 11,
    "dinero": 85,
    "dise\u00f1o": 34,
+   "documental": 13,
    "drogas": 71,
    "ecologia": 71,
    "economia": 403,
@@ -13675,6 +13761,7 @@ var modelos = {
    "empresas": 71,
    "energia": 136,
    "entrevista": 66,
+   "ERE": 10,
    "error": 35,
    "espacio": 51,
    "Espa\u00f1a": 549,
@@ -13692,6 +13779,7 @@ var modelos = {
    "familia": 30,
    "fascismo": 45,
    "firefox": 72,
+   "fiscalia": 5,
    "fisica": 51,
    "Formula 1": 95,
    "fotos": 268,
@@ -13751,6 +13839,7 @@ var modelos = {
    "justicia": 100,
    "laboral": 37,
    "ladrones": 62,
+   "laicismo": 38,
    "leon": 16,
    "ley": 60,
    "libertad": 51,
@@ -13766,6 +13855,7 @@ var modelos = {
    "manifestaciones": 57,
    "manipulacion": 52,
    "mapas": 25,
+   "mar": 31,
    "marihuana": 46,
    "Marruecos": 27,
    "marte": 58,
@@ -13808,7 +13898,9 @@ var modelos = {
    "p2p": 156,
    "padres": 57,
    "Palestina": 44,
+   "pandemia": 1,
    "papa": 32,
+   "Paris": 19,
    "paro": 74,
    "peliculas": 35,
    "pensiones": 15,
@@ -13838,9 +13930,13 @@ var modelos = {
    "protestas": 34,
    "PSOE": 172,
    "publicidad": 124,
+   "publico": 39,
    "racismo": 51,
    "Rajoy": 151,
+   "record": 39,
    "recortes": 1,
+   "redes sociales": 6,
+   "referendum": 18,
    "religion": 304,
    "renovables": 17,
    "represion": 13,
@@ -13893,6 +13989,7 @@ var modelos = {
    "UE": 85,
    "UK": 51,
    "universidad": 73,
+   "vacunas": 19,
    "Valencia": 111,
    "velocidad": 36,
    "Venezuela": 38,
@@ -13907,6 +14004,7 @@ var modelos = {
    "virus": 32,
    "vivienda": 153,
    "web": 58,
+   "wifi": 28,
    "wikipedia": 48,
    "windows": 85,
    "youtube": 63,
@@ -13926,6 +14024,7 @@ var modelos = {
    "agua": 76,
    "Aguirre": 107,
    "alcalde": 37,
+   "alcohol": 34,
    "Alemania": 93,
    "alimentos": 32,
    "alquiler": 17,
@@ -13968,9 +14067,12 @@ var modelos = {
    "cancer": 89,
    "canon": 84,
    "carcel": 55,
+   "casa": 25,
    "Catalu\u00f1a": 62,
+   "caza": 21,
    "censura": 72,
    "cerebro": 38,
+   "Chile": 22,
    "China": 99,
    "ciencia": 252,
    "cine": 180,
@@ -13994,6 +14096,7 @@ var modelos = {
    "democracia": 45,
    "denuncia": 75,
    "deportes": 101,
+   "derecho": 32,
    "derechos": 184,
    "derechos humanos": 37,
    "descargas": 104,
@@ -14003,6 +14106,7 @@ var modelos = {
    "dimision": 33,
    "dinero": 73,
    "dise\u00f1o": 38,
+   "documental": 22,
    "drogas": 56,
    "ecologia": 75,
    "economia": 274,
@@ -14018,6 +14122,7 @@ var modelos = {
    "empresas": 69,
    "energia": 141,
    "entrevista": 47,
+   "ERE": 22,
    "error": 31,
    "espacio": 52,
    "Espa\u00f1a": 612,
@@ -14035,6 +14140,7 @@ var modelos = {
    "familia": 28,
    "fascismo": 26,
    "firefox": 42,
+   "fiscalia": 10,
    "fisica": 46,
    "Formula 1": 111,
    "fotos": 304,
@@ -14094,6 +14200,7 @@ var modelos = {
    "justicia": 81,
    "laboral": 17,
    "ladrones": 38,
+   "laicismo": 32,
    "leon": 21,
    "ley": 100,
    "libertad": 73,
@@ -14109,6 +14216,7 @@ var modelos = {
    "manifestaciones": 79,
    "manipulacion": 29,
    "mapas": 30,
+   "mar": 33,
    "marihuana": 36,
    "Marruecos": 43,
    "marte": 51,
@@ -14151,7 +14259,9 @@ var modelos = {
    "p2p": 219,
    "padres": 52,
    "Palestina": 107,
+   "pandemia": 19,
    "papa": 46,
+   "Paris": 14,
    "paro": 168,
    "peliculas": 62,
    "pensiones": 20,
@@ -14180,9 +14290,13 @@ var modelos = {
    "protestas": 38,
    "PSOE": 181,
    "publicidad": 111,
+   "publico": 27,
    "racismo": 51,
    "Rajoy": 84,
+   "record": 35,
    "recortes": 3,
+   "redes sociales": 29,
+   "referendum": 7,
    "religion": 285,
    "renovables": 37,
    "represion": 12,
@@ -14236,6 +14350,7 @@ var modelos = {
    "UE": 85,
    "UK": 74,
    "universidad": 82,
+   "vacunas": 30,
    "Valencia": 160,
    "velocidad": 40,
    "Venezuela": 49,
@@ -14250,6 +14365,7 @@ var modelos = {
    "virus": 31,
    "vivienda": 60,
    "web": 68,
+   "wifi": 26,
    "wikipedia": 31,
    "windows": 68,
    "youtube": 47,
@@ -14269,6 +14385,7 @@ var modelos = {
    "agua": 77,
    "Aguirre": 75,
    "alcalde": 33,
+   "alcohol": 20,
    "Alemania": 125,
    "alimentos": 34,
    "alquiler": 14,
@@ -14311,9 +14428,12 @@ var modelos = {
    "cancer": 72,
    "canon": 50,
    "carcel": 39,
+   "casa": 27,
    "Catalu\u00f1a": 95,
+   "caza": 22,
    "censura": 104,
    "cerebro": 33,
+   "Chile": 60,
    "China": 130,
    "ciencia": 267,
    "cine": 126,
@@ -14337,6 +14457,7 @@ var modelos = {
    "democracia": 38,
    "denuncia": 75,
    "deportes": 95,
+   "derecho": 23,
    "derechos": 164,
    "derechos humanos": 37,
    "descargas": 83,
@@ -14346,6 +14467,7 @@ var modelos = {
    "dimision": 18,
    "dinero": 50,
    "dise\u00f1o": 39,
+   "documental": 23,
    "drogas": 61,
    "ecologia": 49,
    "economia": 320,
@@ -14361,6 +14483,7 @@ var modelos = {
    "empresas": 91,
    "energia": 106,
    "entrevista": 63,
+   "ERE": 7,
    "error": 36,
    "espacio": 36,
    "Espa\u00f1a": 570,
@@ -14378,6 +14501,7 @@ var modelos = {
    "familia": 24,
    "fascismo": 20,
    "firefox": 28,
+   "fiscalia": 13,
    "fisica": 54,
    "Formula 1": 72,
    "fotos": 288,
@@ -14437,6 +14561,7 @@ var modelos = {
    "justicia": 97,
    "laboral": 17,
    "ladrones": 26,
+   "laicismo": 14,
    "leon": 20,
    "ley": 111,
    "libertad": 42,
@@ -14452,6 +14577,7 @@ var modelos = {
    "manifestaciones": 47,
    "manipulacion": 31,
    "mapas": 29,
+   "mar": 26,
    "marihuana": 32,
    "Marruecos": 98,
    "marte": 26,
@@ -14494,7 +14620,9 @@ var modelos = {
    "p2p": 57,
    "padres": 36,
    "Palestina": 73,
+   "pandemia": 1,
    "papa": 61,
+   "Paris": 18,
    "paro": 137,
    "peliculas": 34,
    "pensiones": 56,
@@ -14523,9 +14651,13 @@ var modelos = {
    "protestas": 51,
    "PSOE": 144,
    "publicidad": 73,
+   "publico": 23,
    "racismo": 41,
    "Rajoy": 61,
+   "record": 29,
    "recortes": 25,
+   "redes sociales": 15,
+   "referendum": 3,
    "religion": 131,
    "renovables": 42,
    "represion": 12,
@@ -14580,6 +14712,7 @@ var modelos = {
    "UK": 57,
    "universidad": 61,
    "Urdangarin": 2,
+   "vacunas": 17,
    "Valencia": 152,
    "velocidad": 31,
    "Venezuela": 47,
@@ -14594,6 +14727,7 @@ var modelos = {
    "virus": 17,
    "vivienda": 63,
    "web": 55,
+   "wifi": 27,
    "wikileaks": 295,
    "wikipedia": 20,
    "windows": 28,
@@ -14615,6 +14749,7 @@ var modelos = {
    "agua": 55,
    "Aguirre": 125,
    "alcalde": 51,
+   "alcohol": 16,
    "Alemania": 145,
    "alimentos": 34,
    "alquiler": 19,
@@ -14658,9 +14793,12 @@ var modelos = {
    "cancer": 54,
    "canon": 40,
    "carcel": 35,
+   "casa": 28,
    "Catalu\u00f1a": 98,
+   "caza": 14,
    "censura": 100,
    "cerebro": 29,
+   "Chile": 24,
    "China": 132,
    "ciencia": 157,
    "cine": 132,
@@ -14684,6 +14822,7 @@ var modelos = {
    "democracia": 136,
    "denuncia": 74,
    "deportes": 45,
+   "derecho": 16,
    "derechos": 116,
    "derechos humanos": 28,
    "descargas": 67,
@@ -14693,6 +14832,7 @@ var modelos = {
    "dimision": 56,
    "dinero": 45,
    "dise\u00f1o": 31,
+   "documental": 17,
    "drogas": 32,
    "ecologia": 39,
    "economia": 267,
@@ -14708,6 +14848,7 @@ var modelos = {
    "empresas": 83,
    "energia": 78,
    "entrevista": 73,
+   "ERE": 43,
    "error": 25,
    "espacio": 29,
    "Espa\u00f1a": 465,
@@ -14725,6 +14866,7 @@ var modelos = {
    "familia": 21,
    "fascismo": 13,
    "firefox": 23,
+   "fiscalia": 9,
    "fisica": 45,
    "Formula 1": 27,
    "fotos": 275,
@@ -14786,6 +14928,7 @@ var modelos = {
    "justicia": 65,
    "laboral": 24,
    "ladrones": 26,
+   "laicismo": 11,
    "leon": 31,
    "ley": 88,
    "libertad": 37,
@@ -14801,6 +14944,7 @@ var modelos = {
    "manifestaciones": 231,
    "manipulacion": 57,
    "mapas": 30,
+   "mar": 27,
    "marihuana": 15,
    "Marruecos": 40,
    "marte": 22,
@@ -14843,7 +14987,9 @@ var modelos = {
    "p2p": 40,
    "padres": 36,
    "Palestina": 33,
+   "pandemia": 1,
    "papa": 94,
+   "Paris": 14,
    "paro": 150,
    "peliculas": 47,
    "pensiones": 60,
@@ -14872,9 +15018,13 @@ var modelos = {
    "protestas": 157,
    "PSOE": 253,
    "publicidad": 64,
+   "publico": 29,
    "racismo": 31,
    "Rajoy": 187,
+   "record": 19,
    "recortes": 161,
+   "redes sociales": 31,
+   "referendum": 34,
    "religion": 83,
    "renovables": 33,
    "represion": 50,
@@ -14929,6 +15079,7 @@ var modelos = {
    "UK": 53,
    "universidad": 56,
    "Urdangarin": 82,
+   "vacunas": 25,
    "Valencia": 193,
    "velocidad": 37,
    "Venezuela": 16,
@@ -14943,6 +15094,7 @@ var modelos = {
    "virus": 11,
    "vivienda": 86,
    "web": 34,
+   "wifi": 20,
    "wikileaks": 114,
    "wikipedia": 17,
    "windows": 20,
@@ -14964,6 +15116,7 @@ var modelos = {
    "agua": 57,
    "Aguirre": 131,
    "alcalde": 65,
+   "alcohol": 12,
    "Alemania": 145,
    "alimentos": 28,
    "alquiler": 20,
@@ -15004,11 +15157,14 @@ var modelos = {
    "Camps": 67,
    "Canarias": 28,
    "cancer": 48,
-   "ca\u00f1on": 13,
+   "canon": 13,
    "carcel": 53,
+   "casa": 19,
    "Catalu\u00f1a": 148,
+   "caza": 27,
    "censura": 75,
    "cerebro": 13,
+   "Chile": 18,
    "China": 82,
    "ciencia": 180,
    "Cifuentes": 56,
@@ -15033,6 +15189,7 @@ var modelos = {
    "democracia": 47,
    "denuncia": 84,
    "deportes": 25,
+   "derecho": 18,
    "derechos": 71,
    "derechos humanos": 17,
    "descargas": 29,
@@ -15042,6 +15199,7 @@ var modelos = {
    "dimision": 39,
    "dinero": 65,
    "dise\u00f1o": 22,
+   "documental": 18,
    "drogas": 27,
    "ecologia": 24,
    "economia": 237,
@@ -15057,6 +15215,7 @@ var modelos = {
    "empresas": 68,
    "energia": 77,
    "entrevista": 60,
+   "ERE": 51,
    "error": 21,
    "espacio": 26,
    "Espa\u00f1a": 555,
@@ -15074,6 +15233,7 @@ var modelos = {
    "familia": 28,
    "fascismo": 22,
    "firefox": 6,
+   "fiscalia": 23,
    "fisica": 36,
    "Formula 1": 25,
    "fotos": 170,
@@ -15134,6 +15294,7 @@ var modelos = {
    "justicia": 90,
    "laboral": 35,
    "ladrones": 17,
+   "laicismo": 13,
    "leon": 48,
    "ley": 67,
    "libertad": 37,
@@ -15149,6 +15310,7 @@ var modelos = {
    "manifestaciones": 209,
    "manipulacion": 58,
    "mapas": 27,
+   "mar": 12,
    "marihuana": 14,
    "Marruecos": 20,
    "marte": 41,
@@ -15193,6 +15355,7 @@ var modelos = {
    "padres": 30,
    "Palestina": 26,
    "papa": 16,
+   "Paris": 8,
    "paro": 175,
    "peliculas": 40,
    "pensiones": 41,
@@ -15221,9 +15384,13 @@ var modelos = {
    "protestas": 163,
    "PSOE": 135,
    "publicidad": 30,
+   "publico": 38,
    "racismo": 24,
    "Rajoy": 426,
+   "record": 24,
    "recortes": 515,
+   "redes sociales": 23,
+   "referendum": 20,
    "religion": 77,
    "renovables": 23,
    "represion": 74,
@@ -15279,6 +15446,7 @@ var modelos = {
    "UK": 36,
    "universidad": 73,
    "Urdangarin": 111,
+   "vacunas": 12,
    "Valencia": 292,
    "velocidad": 9,
    "Venezuela": 7,
@@ -15293,6 +15461,7 @@ var modelos = {
    "virus": 13,
    "vivienda": 51,
    "web": 30,
+   "wifi": 14,
    "wikileaks": 38,
    "wikipedia": 25,
    "windows": 21,
@@ -15314,6 +15483,7 @@ var modelos = {
    "agua": 48,
    "Aguirre": 68,
    "alcalde": 23,
+   "alcohol": 20,
    "Alemania": 104,
    "alimentos": 28,
    "alquiler": 15,
@@ -15354,11 +15524,14 @@ var modelos = {
    "Camps": 17,
    "Canarias": 30,
    "cancer": 51,
-   "canon": 4,
+   "ca\u00f1on": 4,
    "carcel": 60,
+   "casa": 20,
    "Catalu\u00f1a": 63,
+   "caza": 16,
    "censura": 53,
    "cerebro": 22,
+   "Chile": 11,
    "China": 56,
    "ciencia": 155,
    "Cifuentes": 46,
@@ -15383,6 +15556,7 @@ var modelos = {
    "democracia": 33,
    "denuncia": 60,
    "deportes": 11,
+   "derecho": 11,
    "derechos": 51,
    "derechos humanos": 12,
    "descargas": 16,
@@ -15392,6 +15566,7 @@ var modelos = {
    "dimision": 53,
    "dinero": 49,
    "dise\u00f1o": 20,
+   "documental": 16,
    "drogas": 30,
    "ecologia": 8,
    "economia": 101,
@@ -15407,6 +15582,7 @@ var modelos = {
    "empresas": 73,
    "energia": 102,
    "entrevista": 50,
+   "ERE": 62,
    "error": 24,
    "espacio": 32,
    "Espa\u00f1a": 442,
@@ -15424,6 +15600,7 @@ var modelos = {
    "familia": 23,
    "fascismo": 45,
    "firefox": 4,
+   "fiscalia": 43,
    "fisica": 36,
    "Formula 1": 15,
    "fotos": 159,
@@ -15484,6 +15661,7 @@ var modelos = {
    "justicia": 86,
    "laboral": 22,
    "ladrones": 12,
+   "laicismo": 14,
    "leon": 18,
    "ley": 68,
    "libertad": 25,
@@ -15499,6 +15677,7 @@ var modelos = {
    "manifestaciones": 69,
    "manipulacion": 41,
    "mapas": 37,
+   "mar": 9,
    "marihuana": 22,
    "Marruecos": 14,
    "marte": 44,
@@ -15542,7 +15721,9 @@ var modelos = {
    "Pablo Iglesias": 8,
    "padres": 30,
    "Palestina": 12,
+   "pandemia": 1,
    "papa": 27,
+   "Paris": 20,
    "paro": 127,
    "peliculas": 28,
    "pensiones": 38,
@@ -15571,9 +15752,13 @@ var modelos = {
    "protestas": 77,
    "PSOE": 117,
    "publicidad": 40,
+   "publico": 15,
    "racismo": 18,
    "Rajoy": 421,
+   "record": 11,
    "recortes": 122,
+   "redes sociales": 21,
+   "referendum": 6,
    "religion": 62,
    "renovables": 51,
    "represion": 41,
@@ -15628,6 +15813,7 @@ var modelos = {
    "UK": 32,
    "universidad": 61,
    "Urdangarin": 96,
+   "vacunas": 15,
    "Valencia": 114,
    "velocidad": 13,
    "Venezuela": 20,
@@ -15642,6 +15828,7 @@ var modelos = {
    "virus": 17,
    "vivienda": 39,
    "web": 14,
+   "wifi": 8,
    "wikileaks": 24,
    "wikipedia": 9,
    "windows": 14,
@@ -15663,6 +15850,7 @@ var modelos = {
    "agua": 54,
    "Aguirre": 92,
    "alcalde": 34,
+   "alcohol": 10,
    "Alemania": 67,
    "alimentos": 22,
    "alquiler": 6,
@@ -15706,9 +15894,12 @@ var modelos = {
    "cancer": 42,
    "ca\u00f1on": 53,
    "carcel": 44,
+   "casa": 16,
    "Catalu\u00f1a": 85,
+   "caza": 21,
    "censura": 74,
    "cerebro": 30,
+   "Chile": 9,
    "China": 99,
    "ciencia": 198,
    "Cifuentes": 18,
@@ -15733,6 +15924,7 @@ var modelos = {
    "democracia": 31,
    "denuncia": 51,
    "deportes": 10,
+   "derecho": 11,
    "derechos": 38,
    "derechos humanos": 14,
    "descargas": 9,
@@ -15742,6 +15934,7 @@ var modelos = {
    "dimision": 29,
    "dinero": 38,
    "dise\u00f1o": 24,
+   "documental": 22,
    "drogas": 45,
    "ecologia": 11,
    "economia": 92,
@@ -15757,6 +15950,7 @@ var modelos = {
    "empresas": 39,
    "energia": 86,
    "entrevista": 39,
+   "ERE": 34,
    "error": 15,
    "espacio": 41,
    "Espa\u00f1a": 390,
@@ -15774,6 +15968,7 @@ var modelos = {
    "familia": 18,
    "fascismo": 20,
    "firefox": 9,
+   "fiscalia": 20,
    "fisica": 56,
    "Formula 1": 10,
    "fotos": 208,
@@ -15835,6 +16030,7 @@ var modelos = {
    "justicia": 68,
    "laboral": 11,
    "ladrones": 16,
+   "laicismo": 5,
    "leon": 38,
    "ley": 58,
    "libertad": 13,
@@ -15850,6 +16046,7 @@ var modelos = {
    "manifestaciones": 52,
    "manipulacion": 64,
    "mapas": 53,
+   "mar": 29,
    "marihuana": 28,
    "Marruecos": 16,
    "marte": 35,
@@ -15893,7 +16090,9 @@ var modelos = {
    "Pablo Iglesias": 100,
    "padres": 29,
    "Palestina": 61,
+   "pandemia": 3,
    "papa": 14,
+   "Paris": 13,
    "paro": 76,
    "Pedro Sanchez": 21,
    "peliculas": 37,
@@ -15924,9 +16123,13 @@ var modelos = {
    "protestas": 46,
    "PSOE": 147,
    "publicidad": 36,
+   "publico": 22,
    "racismo": 32,
    "Rajoy": 214,
+   "record": 16,
    "recortes": 56,
+   "redes sociales": 23,
+   "referendum": 28,
    "religion": 40,
    "renovables": 31,
    "represion": 29,
@@ -15981,6 +16184,7 @@ var modelos = {
    "UK": 40,
    "universidad": 37,
    "Urdangarin": 34,
+   "vacunas": 14,
    "Valencia": 82,
    "velocidad": 11,
    "Venezuela": 8,
@@ -15989,13 +16193,14 @@ var modelos = {
    "vida": 35,
    "videojuegos": 25,
    "videos": 89,
-   "vi\u00f1eta": 111,
+   "vineta": 111,
    "violacion": 41,
    "violencia": 42,
    "virus": 28,
    "vivienda": 36,
    "Vox": 7,
    "web": 26,
+   "wifi": 21,
    "wikileaks": 9,
    "wikipedia": 15,
    "windows": 18,
@@ -16017,6 +16222,7 @@ var modelos = {
    "agua": 60,
    "Aguirre": 157,
    "alcalde": 26,
+   "alcohol": 19,
    "Alemania": 95,
    "alimentos": 35,
    "alquiler": 15,
@@ -16060,9 +16266,12 @@ var modelos = {
    "canon": 18,
    "carcel": 33,
    "Carmena": 145,
+   "casa": 17,
    "Catalu\u00f1a": 80,
+   "caza": 18,
    "censura": 46,
    "cerebro": 21,
+   "Chile": 21,
    "China": 94,
    "ciencia": 146,
    "Cifuentes": 36,
@@ -16087,6 +16296,7 @@ var modelos = {
    "democracia": 29,
    "denuncia": 43,
    "deportes": 20,
+   "derecho": 8,
    "derechos": 30,
    "derechos humanos": 13,
    "descargas": 8,
@@ -16096,6 +16306,7 @@ var modelos = {
    "dimision": 23,
    "dinero": 42,
    "dise\u00f1o": 16,
+   "documental": 24,
    "drogas": 22,
    "ecologia": 27,
    "economia": 102,
@@ -16111,6 +16322,7 @@ var modelos = {
    "empresas": 33,
    "energia": 76,
    "entrevista": 45,
+   "ERE": 16,
    "error": 12,
    "espacio": 36,
    "Espa\u00f1a": 343,
@@ -16128,6 +16340,7 @@ var modelos = {
    "familia": 19,
    "fascismo": 17,
    "firefox": 14,
+   "fiscalia": 16,
    "fisica": 27,
    "Formula 1": 6,
    "fotos": 120,
@@ -16189,6 +16402,7 @@ var modelos = {
    "justicia": 42,
    "laboral": 24,
    "ladrones": 9,
+   "laicismo": 4,
    "leon": 29,
    "ley": 38,
    "libertad": 24,
@@ -16204,6 +16418,7 @@ var modelos = {
    "manifestaciones": 30,
    "manipulacion": 46,
    "mapas": 44,
+   "mar": 12,
    "marihuana": 15,
    "Marruecos": 15,
    "marte": 46,
@@ -16248,6 +16463,7 @@ var modelos = {
    "padres": 36,
    "Palestina": 17,
    "papa": 7,
+   "Paris": 78,
    "paro": 59,
    "Pedro Sanchez": 38,
    "peliculas": 47,
@@ -16278,9 +16494,13 @@ var modelos = {
    "protestas": 17,
    "PSOE": 161,
    "publicidad": 22,
+   "publico": 16,
    "racismo": 23,
    "Rajoy": 278,
+   "record": 20,
    "recortes": 22,
+   "redes sociales": 27,
+   "referendum": 22,
    "religion": 51,
    "renovables": 49,
    "represion": 20,
@@ -16336,6 +16556,7 @@ var modelos = {
    "UK": 42,
    "universidad": 33,
    "Urdangarin": 4,
+   "vacunas": 13,
    "Valencia": 88,
    "velocidad": 19,
    "Venezuela": 17,
@@ -16351,6 +16572,7 @@ var modelos = {
    "vivienda": 24,
    "Vox": 5,
    "web": 21,
+   "wifi": 14,
    "wikileaks": 10,
    "wikipedia": 8,
    "windows": 13,
@@ -16371,6 +16593,7 @@ var modelos = {
    "agua": 32,
    "Aguirre": 52,
    "alcalde": 15,
+   "alcohol": 17,
    "Alemania": 59,
    "alimentos": 26,
    "alquiler": 6,
@@ -16416,9 +16639,12 @@ var modelos = {
    "canon": 6,
    "carcel": 40,
    "Carmena": 58,
+   "casa": 13,
    "Catalu\u00f1a": 42,
+   "caza": 6,
    "censura": 23,
    "cerebro": 16,
+   "Chile": 16,
    "China": 62,
    "ciencia": 92,
    "Cifuentes": 25,
@@ -16443,6 +16669,7 @@ var modelos = {
    "democracia": 18,
    "denuncia": 51,
    "deportes": 14,
+   "derecho": 8,
    "derechos": 19,
    "derechos humanos": 7,
    "descargas": 7,
@@ -16452,6 +16679,7 @@ var modelos = {
    "dimision": 24,
    "dinero": 20,
    "dise\u00f1o": 10,
+   "documental": 11,
    "drogas": 26,
    "ecologia": 14,
    "economia": 44,
@@ -16467,6 +16695,7 @@ var modelos = {
    "empresas": 51,
    "energia": 34,
    "entrevista": 32,
+   "ERE": 10,
    "error": 10,
    "espacio": 35,
    "Espa\u00f1a": 248,
@@ -16484,6 +16713,7 @@ var modelos = {
    "familia": 11,
    "fascismo": 9,
    "firefox": 6,
+   "fiscalia": 24,
    "fisica": 25,
    "Formula 1": 2,
    "fotos": 93,
@@ -16545,6 +16775,7 @@ var modelos = {
    "justicia": 35,
    "laboral": 24,
    "ladrones": 10,
+   "laicismo": 5,
    "leon": 23,
    "ley": 22,
    "libertad": 9,
@@ -16560,6 +16791,7 @@ var modelos = {
    "manifestaciones": 20,
    "manipulacion": 40,
    "mapas": 42,
+   "mar": 9,
    "marihuana": 11,
    "Marruecos": 18,
    "marte": 30,
@@ -16604,6 +16836,7 @@ var modelos = {
    "padres": 36,
    "Palestina": 8,
    "papa": 11,
+   "Paris": 18,
    "paro": 21,
    "Pedro Sanchez": 64,
    "peliculas": 23,
@@ -16634,9 +16867,13 @@ var modelos = {
    "protestas": 17,
    "PSOE": 257,
    "publicidad": 25,
+   "publico": 18,
    "racismo": 18,
    "Rajoy": 169,
+   "record": 13,
    "recortes": 14,
+   "redes sociales": 25,
+   "referendum": 20,
    "religion": 23,
    "renovables": 28,
    "represion": 14,
@@ -16692,6 +16929,7 @@ var modelos = {
    "UK": 73,
    "universidad": 17,
    "Urdangarin": 4,
+   "vacunas": 12,
    "Valencia": 105,
    "velocidad": 10,
    "Venezuela": 52,
@@ -16707,6 +16945,7 @@ var modelos = {
    "vivienda": 15,
    "Vox": 2,
    "web": 19,
+   "wifi": 10,
    "wikileaks": 18,
    "wikipedia": 2,
    "windows": 10,
@@ -16728,6 +16967,7 @@ var modelos = {
    "agua": 51,
    "Aguirre": 61,
    "alcalde": 13,
+   "alcohol": 12,
    "Alemania": 58,
    "alimentos": 30,
    "alquiler": 22,
@@ -16772,9 +17012,12 @@ var modelos = {
    "canon": 9,
    "carcel": 65,
    "Carmena": 81,
+   "casa": 11,
    "Catalu\u00f1a": 264,
+   "caza": 21,
    "censura": 30,
    "cerebro": 22,
+   "Chile": 10,
    "China": 101,
    "ciencia": 114,
    "Cifuentes": 56,
@@ -16799,6 +17042,7 @@ var modelos = {
    "democracia": 13,
    "denuncia": 42,
    "deportes": 14,
+   "derecho": 17,
    "derechos": 22,
    "derechos humanos": 8,
    "descargas": 4,
@@ -16808,6 +17052,7 @@ var modelos = {
    "dimision": 14,
    "dinero": 21,
    "dise\u00f1o": 8,
+   "documental": 22,
    "drogas": 44,
    "ecologia": 30,
    "economia": 73,
@@ -16823,6 +17068,7 @@ var modelos = {
    "empresas": 66,
    "energia": 60,
    "entrevista": 38,
+   "ERE": 6,
    "error": 6,
    "espacio": 34,
    "Espa\u00f1a": 364,
@@ -16840,6 +17086,7 @@ var modelos = {
    "familia": 17,
    "fascismo": 14,
    "firefox": 6,
+   "fiscalia": 46,
    "fisica": 32,
    "Formula 1": 9,
    "fotos": 73,
@@ -16901,6 +17148,7 @@ var modelos = {
    "justicia": 75,
    "laboral": 23,
    "ladrones": 7,
+   "laicismo": 8,
    "leon": 28,
    "ley": 27,
    "libertad": 21,
@@ -16916,6 +17164,7 @@ var modelos = {
    "manifestaciones": 27,
    "manipulacion": 22,
    "mapas": 27,
+   "mar": 14,
    "marihuana": 14,
    "Marruecos": 17,
    "marte": 22,
@@ -16959,7 +17208,9 @@ var modelos = {
    "Pablo Iglesias": 22,
    "padres": 24,
    "Palestina": 7,
+   "pandemia": 1,
    "papa": 3,
+   "Paris": 19,
    "paro": 38,
    "Pedro Sanchez": 27,
    "peliculas": 28,
@@ -16990,9 +17241,13 @@ var modelos = {
    "protestas": 14,
    "PSOE": 125,
    "publicidad": 16,
+   "publico": 10,
    "racismo": 6,
    "Rajoy": 160,
+   "record": 12,
    "recortes": 19,
+   "redes sociales": 21,
+   "referendum": 82,
    "religion": 37,
    "renovables": 35,
    "represion": 15,
@@ -17047,6 +17302,7 @@ var modelos = {
    "UK": 61,
    "universidad": 25,
    "Urdangarin": 7,
+   "vacunas": 27,
    "Valencia": 76,
    "velocidad": 9,
    "Venezuela": 16,
@@ -17062,6 +17318,7 @@ var modelos = {
    "vivienda": 26,
    "Vox": 1,
    "web": 6,
+   "wifi": 7,
    "wikileaks": 18,
    "wikipedia": 2,
    "windows": 9,
@@ -17082,6 +17339,7 @@ var modelos = {
    "agua": 60,
    "Aguirre": 30,
    "alcalde": 21,
+   "alcohol": 15,
    "Alemania": 92,
    "alimentos": 37,
    "alquiler": 47,
@@ -17124,12 +17382,15 @@ var modelos = {
    "Camps": 17,
    "Canarias": 17,
    "cancer": 70,
-   "canon": 7,
+   "ca\u00f1on": 7,
    "carcel": 60,
    "Carmena": 48,
+   "casa": 16,
    "Catalu\u00f1a": 96,
+   "caza": 27,
    "censura": 68,
    "cerebro": 28,
+   "Chile": 14,
    "China": 145,
    "ciencia": 109,
    "Cifuentes": 283,
@@ -17154,6 +17415,7 @@ var modelos = {
    "democracia": 15,
    "denuncia": 61,
    "deportes": 13,
+   "derecho": 31,
    "derechos": 44,
    "derechos humanos": 12,
    "descargas": 4,
@@ -17163,6 +17425,7 @@ var modelos = {
    "dimision": 43,
    "dinero": 37,
    "dise\u00f1o": 8,
+   "documental": 28,
    "drogas": 50,
    "ecologia": 29,
    "economia": 99,
@@ -17178,6 +17441,7 @@ var modelos = {
    "empresas": 53,
    "energia": 48,
    "entrevista": 38,
+   "ERE": 11,
    "error": 12,
    "espacio": 27,
    "Espa\u00f1a": 470,
@@ -17195,6 +17459,7 @@ var modelos = {
    "familia": 15,
    "fascismo": 18,
    "firefox": 8,
+   "fiscalia": 38,
    "fisica": 34,
    "Formula 1": 8,
    "fotos": 96,
@@ -17255,6 +17520,7 @@ var modelos = {
    "justicia": 97,
    "laboral": 35,
    "ladrones": 11,
+   "laicismo": 36,
    "leon": 28,
    "ley": 54,
    "libertad": 28,
@@ -17270,6 +17536,7 @@ var modelos = {
    "manifestaciones": 23,
    "manipulacion": 29,
    "mapas": 45,
+   "mar": 23,
    "marihuana": 28,
    "Marruecos": 26,
    "marte": 42,
@@ -17314,6 +17581,7 @@ var modelos = {
    "padres": 27,
    "Palestina": 16,
    "papa": 5,
+   "Paris": 26,
    "paro": 32,
    "Pedro Sanchez": 61,
    "peliculas": 35,
@@ -17344,9 +17612,13 @@ var modelos = {
    "protestas": 19,
    "PSOE": 176,
    "publicidad": 21,
+   "publico": 16,
    "racismo": 23,
    "Rajoy": 181,
+   "record": 26,
    "recortes": 15,
+   "redes sociales": 37,
+   "referendum": 21,
    "religion": 68,
    "renovables": 26,
    "represion": 11,
@@ -17402,6 +17674,7 @@ var modelos = {
    "UK": 93,
    "universidad": 75,
    "Urdangarin": 19,
+   "vacunas": 22,
    "Valencia": 77,
    "velocidad": 13,
    "Venezuela": 18,
@@ -17417,6 +17690,7 @@ var modelos = {
    "vivienda": 61,
    "Vox": 27,
    "web": 20,
+   "wifi": 8,
    "wikileaks": 2,
    "wikipedia": 12,
    "windows": 15,
@@ -17438,6 +17712,7 @@ var modelos = {
    "agua": 48,
    "Aguirre": 35,
    "alcalde": 23,
+   "alcohol": 15,
    "Alemania": 78,
    "alimentos": 25,
    "alquiler": 40,
@@ -17445,7 +17720,7 @@ var modelos = {
    "Andalucia": 101,
    "android": 34,
    "animal": 44,
-   "anos": 23,
+   "a\u00f1os": 23,
    "anuncios": 8,
    "apple": 22,
    "Argentina": 35,
@@ -17483,9 +17758,12 @@ var modelos = {
    "canon": 4,
    "carcel": 26,
    "Carmena": 29,
+   "casa": 18,
    "Catalu\u00f1a": 98,
+   "caza": 41,
    "censura": 39,
    "cerebro": 27,
+   "Chile": 41,
    "China": 168,
    "ciencia": 108,
    "Cifuentes": 15,
@@ -17510,6 +17788,7 @@ var modelos = {
    "democracia": 19,
    "denuncia": 43,
    "deportes": 11,
+   "derecho": 37,
    "derechos": 25,
    "derechos humanos": 13,
    "descargas": 12,
@@ -17519,6 +17798,7 @@ var modelos = {
    "dimision": 12,
    "dinero": 35,
    "dise\u00f1o": 10,
+   "documental": 36,
    "drogas": 46,
    "ecologia": 38,
    "economia": 101,
@@ -17534,6 +17814,7 @@ var modelos = {
    "empresas": 60,
    "energia": 49,
    "entrevista": 38,
+   "ERE": 22,
    "error": 12,
    "espacio": 30,
    "Espa\u00f1a": 367,
@@ -17551,6 +17832,7 @@ var modelos = {
    "familia": 17,
    "fascismo": 18,
    "firefox": 18,
+   "fiscalia": 31,
    "fisica": 27,
    "Formula 1": 2,
    "fotos": 87,
@@ -17611,6 +17893,7 @@ var modelos = {
    "justicia": 95,
    "laboral": 42,
    "ladrones": 12,
+   "laicismo": 36,
    "leon": 44,
    "ley": 27,
    "libertad": 13,
@@ -17626,6 +17909,7 @@ var modelos = {
    "manifestaciones": 11,
    "manipulacion": 13,
    "mapas": 52,
+   "mar": 18,
    "marihuana": 15,
    "Marruecos": 25,
    "marte": 43,
@@ -17670,6 +17954,7 @@ var modelos = {
    "padres": 28,
    "Palestina": 9,
    "papa": 6,
+   "Paris": 17,
    "paro": 38,
    "Pedro Sanchez": 72,
    "peliculas": 34,
@@ -17700,9 +17985,13 @@ var modelos = {
    "protestas": 39,
    "PSOE": 213,
    "publicidad": 23,
+   "publico": 13,
    "racismo": 18,
    "Rajoy": 19,
+   "record": 13,
    "recortes": 9,
+   "redes sociales": 20,
+   "referendum": 18,
    "religion": 61,
    "renovables": 25,
    "represion": 13,
@@ -17757,6 +18046,7 @@ var modelos = {
    "UK": 117,
    "universidad": 42,
    "Urdangarin": 2,
+   "vacunas": 20,
    "Valencia": 76,
    "velocidad": 15,
    "Venezuela": 55,
@@ -17772,19 +18062,392 @@ var modelos = {
    "vivienda": 70,
    "Vox": 211,
    "web": 20,
+   "wifi": 9,
    "wikileaks": 21,
    "wikipedia": 5,
    "windows": 9,
    "youtube": 20,
    "Zapatero": 3
+  },
+  "2020": {
+   "total": 16807,
+   "11M": 4,
+   "15M": 3,
+   "aborto": 3,
+   "abuso": 33,
+   "accidentes": 32,
+   "actualidad": 44,
+   "aeropuerto": 11,
+   "Africa": 19,
+   "agresion": 57,
+   "agua": 33,
+   "Aguirre": 12,
+   "alcalde": 24,
+   "alcohol": 16,
+   "Alemania": 141,
+   "alimentos": 37,
+   "alquiler": 36,
+   "amenazas": 39,
+   "Andalucia": 91,
+   "android": 11,
+   "animal": 45,
+   "a\u00f1os": 18,
+   "anuncios": 10,
+   "apple": 26,
+   "Argentina": 25,
+   "armas": 14,
+   "arqueologia": 89,
+   "arte": 39,
+   "articulo": 205,
+   "asesinato": 43,
+   "astronomia": 26,
+   "Asturias": 89,
+   "ataque": 23,
+   "atentado": 9,
+   "Australia": 35,
+   "AVE": 16,
+   "aviones": 65,
+   "ayudas": 56,
+   "ayuntamiento": 21,
+   "Aznar": 18,
+   "bancos": 63,
+   "bankia": 17,
+   "Barcelona": 115,
+   "B\u00e1rcenas": 38,
+   "bicicleta": 36,
+   "blog": 4,
+   "bolsa": 15,
+   "Brasil": 62,
+   "brexit": 39,
+   "burbuja": 13,
+   "Bush": 1,
+   "cambio climatico": 23,
+   "campa\u00f1a": 12,
+   "Camps": 2,
+   "Canarias": 40,
+   "cancer": 36,
+   "canon": 3,
+   "carcel": 38,
+   "Carmena": 9,
+   "casa": 25,
+   "Catalu\u00f1a": 122,
+   "caza": 32,
+   "censura": 28,
+   "cerebro": 22,
+   "Chile": 22,
+   "China": 206,
+   "ciencia": 105,
+   "Cifuentes": 3,
+   "cine": 91,
+   "ciudadanos": 51,
+   "coches": 64,
+   "colegios": 57,
+   "comic": 26,
+   "condena": 21,
+   "congreso": 60,
+   "consumo": 22,
+   "contaminacion": 39,
+   "copyright": 2,
+   "corrupcion": 142,
+   "Cospedal": 6,
+   "COVID-19": 3006,
+   "crisis": 97,
+   "Cuba": 19,
+   "cultura": 43,
+   "curiosidades": 13,
+   "datos": 56,
+   "demanda": 25,
+   "democracia": 21,
+   "denuncia": 75,
+   "deportes": 19,
+   "derecho": 28,
+   "derechos": 18,
+   "derechos humanos": 5,
+   "descargas": 4,
+   "despidos": 33,
+   "detenidos": 71,
+   "deuda": 21,
+   "dimision": 25,
+   "dinero": 54,
+   "dise\u00f1o": 8,
+   "documental": 32,
+   "drogas": 30,
+   "ecologia": 34,
+   "economia": 154,
+   "educacion": 109,
+   "EE.UU.": 448,
+   "Egipto": 19,
+   "ejercito": 36,
+   "El Mundo": 14,
+   "El Pais": 7,
+   "elecciones": 69,
+   "electricidad": 16,
+   "empleo": 58,
+   "empresas": 73,
+   "energia": 30,
+   "entrevista": 57,
+   "ERE": 5,
+   "error": 13,
+   "espacio": 28,
+   "Espa\u00f1a": 678,
+   "espa\u00f1ol": 25,
+   "espa\u00f1oles": 18,
+   "estado": 46,
+   "estafa": 25,
+   "estudio": 33,
+   "ETA": 20,
+   "Europa": 132,
+   "euros": 13,
+   "Euskadi": 59,
+   "evolucion": 23,
+   "facebook": 29,
+   "familia": 22,
+   "fascismo": 31,
+   "firefox": 8,
+   "fiscalia": 34,
+   "fisica": 28,
+   "Formula 1": 4,
+   "fotos": 88,
+   "Francia": 183,
+   "Franco": 35,
+   "franquismo": 35,
+   "fraude": 43,
+   "funcionarios": 17,
+   "futbol": 23,
+   "Galicia": 118,
+   "Garz\u00f3n": 14,
+   "gatos": 25,
+   "Gaza": 5,
+   "gobierno": 255,
+   "google": 48,
+   "Granada": 54,
+   "gratis": 27,
+   "Grecia": 37,
+   "guardia civil": 66,
+   "guerra": 58,
+   "guerra civil": 19,
+   "G\u00fcrtel": 21,
+   "hacienda": 40,
+   "hackers": 9,
+   "hijos": 39,
+   "hipotecas": 21,
+   "historia": 217,
+   "holanda": 49,
+   "hombres": 31,
+   "homofobia": 14,
+   "homosexualidad": 19,
+   "hospitales": 126,
+   "huelga": 15,
+   "humor": 109,
+   "iglesia": 126,
+   "imagenes": 27,
+   "impuestos": 71,
+   "incendios": 46,
+   "India": 30,
+   "informatica": 13,
+   "inmigracion": 27,
+   "internacional": 13,
+   "internet": 47,
+   "investigacion": 69,
+   "Irak": 10,
+   "Iran": 56,
+   "Isis": 8,
+   "islam": 49,
+   "Israel": 32,
+   "Italia": 139,
+   "IU": 16,
+   "Japon": 49,
+   "jovenes": 33,
+   "jueces": 47,
+   "juegos": 21,
+   "juicio": 27,
+   "justicia": 95,
+   "laboral": 29,
+   "ladrones": 6,
+   "laicismo": 60,
+   "leon": 30,
+   "ley": 38,
+   "libertad": 20,
+   "libros": 47,
+   "linux": 41,
+   "literatura": 22,
+   "Londres": 22,
+   "luna": 23,
+   "luz": 20,
+   "Madrid": 644,
+   "Malaga": 43,
+   "maltrato": 16,
+   "manifestaciones": 52,
+   "manipulacion": 23,
+   "mapas": 36,
+   "mar": 29,
+   "marihuana": 13,
+   "Marruecos": 33,
+   "marte": 17,
+   "matematicas": 37,
+   "medicina": 28,
+   "medicos": 75,
+   "medio ambiente": 49,
+   "medios": 13,
+   "Men\u00e9ame": 7,
+   "menores": 30,
+   "mentiras": 24,
+   "metro": 29,
+   "Mexico": 34,
+   "microsoft": 26,
+   "militares": 28,
+   "monarquia": 107,
+   "mossos": 22,
+   "moviles": 29,
+   "movistar": 5,
+   "muerte": 202,
+   "mujeres": 84,
+   "multas": 55,
+   "mundial": 13,
+   "mundo": 30,
+   "Murcia": 81,
+   "musica": 45,
+   "NASA": 47,
+   "naturaleza": 48,
+   "nazismo": 43,
+   "negocios": 24,
+   "ni\u00f1as": 24,
+   "ni\u00f1os": 73,
+   "noticias": 5,
+   "nuclear": 14,
+   "Nueva York": 42,
+   "Obama": 2,
+   "ONU": 10,
+   "opinion": 26,
+   "ordenadores": 9,
+   "p2p": 1,
+   "Pablo Iglesias": 74,
+   "padres": 44,
+   "Palestina": 13,
+   "pandemia": 295,
+   "papa": 12,
+   "Paris": 29,
+   "paro": 39,
+   "Pedro Sanchez": 39,
+   "peliculas": 36,
+   "pensiones": 35,
+   "periodismo": 60,
+   "perros": 50,
+   "petroleo": 26,
+   "piratas": 9,
+   "pirateria": 9,
+   "pisos": 14,
+   "pobreza": 37,
+   "Podemos": 114,
+   "policia": 245,
+   "politica": 95,
+   "politicos": 14,
+   "porno": 10,
+   "Portugal": 54,
+   "PP": 333,
+   "precios": 35,
+   "premios": 11,
+   "prensa": 26,
+   "presidente": 29,
+   "prision": 25,
+   "privacidad": 34,
+   "privatizacion": 18,
+   "profesores": 28,
+   "programacion": 11,
+   "protestas": 60,
+   "PSOE": 100,
+   "publicidad": 13,
+   "publico": 17,
+   "racismo": 51,
+   "Rajoy": 34,
+   "record": 16,
+   "recortes": 17,
+   "redes sociales": 30,
+   "referendum": 9,
+   "religion": 75,
+   "renovables": 19,
+   "represion": 6,
+   "republica": 27,
+   "rescate": 26,
+   "rey": 88,
+   "robo": 36,
+   "robots": 13,
+   "Roma": 37,
+   "RTVE": 25,
+   "Rusia": 76,
+   "salarios": 43,
+   "salud": 141,
+   "sanidad": 240,
+   "seguridad": 42,
+   "sentencia": 30,
+   "series": 22,
+   "Sevilla": 63,
+   "sexo": 24,
+   "SGAE": 3,
+   "Siria": 29,
+   "sociedad": 36,
+   "software": 17,
+   "software libre": 11,
+   "sol": 12,
+   "solar": 9,
+   "sucesos": 55,
+   "Suecia": 32,
+   "suicidio": 29,
+   "Suiza": 42,
+   "supremo": 29,
+   "tecnologia": 36,
+   "telecinco": 12,
+   "telefonica": 7,
+   "television": 25,
+   "terremoto": 8,
+   "terrorismo": 32,
+   "tierra": 17,
+   "toros": 17,
+   "torturas": 22,
+   "trabajadores": 28,
+   "trabajo": 86,
+   "trafico": 21,
+   "tren": 24,
+   "Trump": 184,
+   "turismo": 58,
+   "Turquia": 63,
+   "TV": 18,
+   "twitter": 72,
+   "ubuntu": 5,
+   "UE": 111,
+   "UK": 102,
+   "universidad": 39,
+   "Urdangarin": 3,
+   "vacunas": 101,
+   "Valencia": 101,
+   "velocidad": 11,
+   "Venezuela": 27,
+   "ventas": 17,
+   "viajes": 29,
+   "vida": 25,
+   "videojuegos": 34,
+   "videos": 59,
+   "vi\u00f1eta": 25,
+   "violacion": 30,
+   "violencia": 49,
+   "virus": 89,
+   "vivienda": 65,
+   "Vox": 300,
+   "web": 11,
+   "wifi": 2,
+   "wikileaks": 4,
+   "wikipedia": 3,
+   "windows": 9,
+   "youtube": 20,
+   "Zapatero": 2
   }
  }
 };;
 var tags = {
  "dominios": [
   "0",
-  "20minutos.es",
   "*.20minutos.es",
+  "20minutos.es",
   "abadiadigital.com",
   "abc.es",
   "actualidad.rt.com",
@@ -17801,8 +18464,8 @@ var tags = {
   "astroseti.org",
   "bandaancha.eu",
   "barrapunto.com",
-  "bbc.co.uk",
   "*.bbc.co.uk",
+  "bbc.co.uk",
   "bitelia.com",
   "blogs.20minutos.es",
   "blogs.elconfidencial.com",
@@ -17835,13 +18498,13 @@ var tags = {
   "*.elconfidencial.com",
   "elconfidencial.com",
   "elconfidencialdigital.com",
-  "*.elcorreo.com",
   "elcorreo.com",
+  "*.elcorreo.com",
   "elcorreodigital.com",
   "eldiario.es",
   "*.eldiario.es",
-  "*.eleconomista.es",
   "eleconomista.es",
+  "*.eleconomista.es",
   "electronicafacil.net",
   "elespanol.com",
   "elindependiente.com",
@@ -17955,15 +18618,18 @@ var tags = {
   "Brasil",
   "Bush",
   "B\u00e1rcenas",
+  "COVID-19",
   "Camps",
   "Canarias",
   "Carmena",
   "Catalu\u00f1a",
+  "Chile",
   "China",
   "Cifuentes",
   "Cospedal",
   "Cuba",
   "EE.UU.",
+  "ERE",
   "ETA",
   "Egipto",
   "El Mundo",
@@ -18004,6 +18670,7 @@ var tags = {
   "PSOE",
   "Pablo Iglesias",
   "Palestina",
+  "Paris",
   "Pedro Sanchez",
   "Podemos",
   "Portugal",
@@ -18034,12 +18701,12 @@ var tags = {
   "agresion",
   "agua",
   "alcalde",
+  "alcohol",
   "alimentos",
   "alquiler",
   "amenazas",
   "android",
   "animal",
-  "anos",
   "anuncios",
   "apple",
   "armas",
@@ -18066,6 +18733,8 @@ var tags = {
   "cancer",
   "canon",
   "carcel",
+  "casa",
+  "caza",
   "ca\u00f1on",
   "censura",
   "cerebro",
@@ -18089,6 +18758,7 @@ var tags = {
   "democracia",
   "denuncia",
   "deportes",
+  "derecho",
   "derechos",
   "derechos humanos",
   "descargas",
@@ -18098,6 +18768,7 @@ var tags = {
   "dimision",
   "dinero",
   "dise\u00f1o",
+  "documental",
   "drogas",
   "ecologia",
   "economia",
@@ -18122,6 +18793,7 @@ var tags = {
   "familia",
   "fascismo",
   "firefox",
+  "fiscalia",
   "fisica",
   "fotos",
   "franquismo",
@@ -18165,6 +18837,7 @@ var tags = {
   "justicia",
   "laboral",
   "ladrones",
+  "laicismo",
   "leon",
   "ley",
   "libertad",
@@ -18177,6 +18850,7 @@ var tags = {
   "manifestaciones",
   "manipulacion",
   "mapas",
+  "mar",
   "marihuana",
   "marte",
   "matematicas",
@@ -18210,6 +18884,7 @@ var tags = {
   "ordenadores",
   "p2p",
   "padres",
+  "pandemia",
   "papa",
   "paro",
   "peliculas",
@@ -18236,8 +18911,12 @@ var tags = {
   "programacion",
   "protestas",
   "publicidad",
+  "publico",
   "racismo",
+  "record",
   "recortes",
+  "redes sociales",
+  "referendum",
   "religion",
   "renovables",
   "represion",
@@ -18279,18 +18958,21 @@ var tags = {
   "twitter",
   "ubuntu",
   "universidad",
+  "vacunas",
   "velocidad",
   "ventas",
   "viajes",
   "vida",
   "videojuegos",
   "videos",
+  "vineta",
   "violacion",
   "violencia",
   "virus",
   "vivienda",
   "vi\u00f1eta",
   "web",
+  "wifi",
   "wikileaks",
   "wikipedia",
   "windows",
@@ -18359,7 +19041,7 @@ var modelos_aux = {
   "2020 T1": 11174,
   "2020 T2": 12410,
   "2020 T3": 10992,
-  "2020 T4": 9646,
+  "2020 T4": 10860,
   "2005 S2": 404,
   "2006 S1": 3910,
   "2006 S2": 8944,
@@ -18390,7 +19072,7 @@ var modelos_aux = {
   "2019 S1": 14429,
   "2019 S2": 13636,
   "2020 S1": 15815,
-  "2020 S2": 13228,
+  "2020 S2": 14009,
   "2005": 404,
   "2006": 10657,
   "2007": 28537,
@@ -18406,6 +19088,6 @@ var modelos_aux = {
   "2017": 22577,
   "2018": 20547,
   "2019": 19348,
-  "2020": 19655
+  "2020": 20230
  }
 };

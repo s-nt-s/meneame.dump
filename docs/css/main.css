@@ -76,8 +76,12 @@ ul {
 li {
 	margin: 1em 0em;
 }
+ul > li > ul > li {
+	margin: unset;
+}
 code.bubble {
 	  padding: .2em .4em;
     background-color: rgb(27,31,35,0.1);
     border-radius: 6px;
+    font-size: unset;
 }
