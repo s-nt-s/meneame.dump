@@ -31,8 +31,8 @@ select
     when domain = 'elpais.es' then 'elpais.com'
     when domain = 'gizmodo.es' then 'gizmodo.com'
     when domain = 'lavanguardia.es' then 'lavanguardia.com'
-    when domain = 'bbc.com' then domain='bbc.co.uk'
-    when domain = 'el-mundo.es' then domain='elmundo.es'
+    when domain = 'bbc.com' then 'bbc.co.uk'
+    when domain = 'el-mundo.es' then 'elmundo.es'
     when domain like '%.el-mundo.es' then REPLACE(domain, '.el-mundo.es', '.elmundo.es')
     else domain
   END domain,
