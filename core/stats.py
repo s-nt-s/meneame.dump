@@ -285,6 +285,8 @@ class Stats:
             where = "and " + where
         min_year = self.min_date.year
         max_year = self.max_date.year
+        if self.max_date.month == 12:
+            max_year = max_year + 1
         data={}
         for yr, total in self.db.select('''
             select
