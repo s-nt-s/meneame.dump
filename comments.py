@@ -8,7 +8,7 @@ from threading import Thread
 from core.api import Api
 from core.db import DB
 from core.threadme import ThreadMe
-from core.util import read_yml_all, readlines, mkArg
+from core.util import read_yml_all, mkArg
 
 import os
 

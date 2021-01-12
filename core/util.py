@@ -6,11 +6,11 @@ import argparse
 from urllib.parse import urlparse
 
 re_sp = re.compile(r"\s+")
-re_www = re.compile(r"^www\d*\.")
+re_www = re.compile(r"^www\d*\.", re.IGNORECASE)
 re_nb = re.compile(r"\d+")
-re_blogspot = re.compile(r"\.blogspot\.com\.[a-z]{,2}$")
+re_blogspot = re.compile(r"\.blogspot\.(com\.[a-z]{,2}|ie|mx|de|it|jp|fr|pt|nl|ch|be|ro|ca|fi|gr|dk|no|se|ru|cz|hu|sg|ae|hk|kr|cl|lt|pe|rs|co\.uk|co\.at|co\.nz|co\.il|co\.ke|co\.id)$", re.IGNORECASE)
 re_port = re.compile(r":\d+$")
-re_diames= re.compile(r"^\d+-?[efmajasond]$")
+re_diames= re.compile(r"^\d+-?[efmajasond]$", re.IGNORECASE)
 
 
 def gW(ids, f="id"):
@@ -45,7 +45,7 @@ def readlines(*fls):
             with open(fl, 'r') as f:
                 for i in f.readlines():
                     i = i.strip()
-                    if i:
+                    if i and not i[0]=="#":
                         yield i
 
 def parse_tag(tag, main=True):

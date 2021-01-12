@@ -74,12 +74,15 @@ $(document).ready(function(){
     if (full_whitelist==null) return;
     if ($this.data("addtowhitelist")) {
       var whitelist=$this.data("addtowhitelist").trim().split(/\s*,\s*/);
-      if (whitelist.length) Array.prototype.push.apply(full_whitelist, whitelist);
+      whitelist.forEach((item, i) => {
+        if (full_whitelist.indexOf(item)==-1) full_whitelist.push(item);
+      });
     }
     if (values.startsWith("[{")) {
       values = JSON.parse(values).map(function(x){return x.value})
     } else {
       values = values.trim().split(/\s*,\s*/).filter(function(x){return x.length>0});
+      /*
       if ($this.is(".domains")) {
           values = values.map(function(v){
             if (full_whitelist.indexOf(v)>-1) return v;
@@ -90,6 +93,7 @@ $(document).ready(function(){
           }).filter(function(x){return x!=null})
           this.value = values.join(", ");
       }
+      */
     }
     values = values.filter(function (x) {return full_whitelist.indexOf(x)>-1})
     console.log(values);

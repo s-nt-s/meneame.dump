@@ -7,6 +7,7 @@
 borrame.py
 *update.sql
 *.7z
+*.xz
 wget.sh
 
 # Byte-compiled / optimized / DLL files

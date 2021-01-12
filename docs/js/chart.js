@@ -554,20 +554,22 @@ render_builder={
     var i, t, k, kl, color;
     var ks={};
     if (!options.porcentaje) ks["total"]=["total"];
+
     obj["values"].forEach(function(v) {
       Object.keys(v).forEach(function(k) {
         if (ks[k]!=null) return;
         options.tags.forEach(function(t) {
           if (k==t) {
             ks[t]=[t];
-          } else if (t.startsWith("*.") && (k.endsWith(t.substr(1)) || k==t.substr(2))) {
+          }/* else if (t.startsWith("*.") && (k.endsWith(t.substr(1)) || k==t.substr(2))) {
             var a = ks[t] || [];
             if (ks[t]==null) ks[t]=[k];
             else if (ks[t].indexOf(k)==-1) ks[t].push(k)
-          }
+          }*/
         });
       });
     })
+    /*
     if (options.tags.indexOf("AEDE")>-1) {
       ks["AEDE"]=[];
       obj["values"].forEach(function(v) {
@@ -581,6 +583,7 @@ render_builder={
         })
       });
     }
+    */
     var colors = (options.porcentaje)?DFL_COLOR.slice(1):DFL_COLOR;
     for (const [k, doms] of Object.entries(ks).sort(function(a,b){
       var i1=options.tags.indexOf(a[0]);

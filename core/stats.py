@@ -1,6 +1,7 @@
 from .db import DB
 from .api import Api
 from .graph import Graph
+from .util import readlines
 from functools import lru_cache
 from MySQLdb.cursors import DictCursor
 from dateutil.relativedelta import relativedelta
@@ -15,6 +16,8 @@ def read_file(file, *args, **kargv):
         return txt
 
 def get_root(dom):
+    if dom.startswith("*."):
+        return None
     i=1
     while True:
         i = i + 1
@@ -60,6 +63,18 @@ class Stats:
 
     def __del__(self):
         self.db.close()
+
+    @property
+    @lru_cache(maxsize=None)
+    def aede(self):
+        return tuple(readlines("extra/aede.txt"))
+
+    @lru_cache(maxsize=None)
+    def isAede(self, dom):
+        for d in self.aede:
+            if d == dom or dom.endswith("."+d):
+                return True
+        return False
 
     @property
     @lru_cache(maxsize=None)
@@ -313,42 +328,65 @@ class Stats:
             where
                 YEAR(sent_date)>{1} and
                 YEAR(sent_date)<{2} and
-                domain is not null {0}
+                domain is not null and
+                domain!='total' {0}
             group by
                 YEAR(sent_date),
                 domain
         '''.format(where, min_year, max_year), cursor=DictCursor):
             yr=int(dt["yr"])
-            data[yr][dt["domain"]]=int(dt["total"])
+            vl=int(dt["total"])
+            dom = dt["domain"]
+            data[yr][dom]=vl
+            if self.isAede(dom):
+                data[yr]["AEDE"] = vl + data[yr].get("AEDE", 0)
+            root = get_root(dom)
+            if root is not None:
+                data[yr][root] = vl + data[yr].get(root, 0)
         return data
 
     def get_full_dominios(self, min_count=50):
-
         dominios_todos = self.get_dominios()
         dominios_portada = self.get_dominios("status='published'")
 
-        dominios=set()
+        dominios=set({"OTROS", "AEDE"})
         for yr in dominios_portada.values():
             for d, count in yr.items():
+                if d == "total":
+                    continue
                 if count>=min_count:
                     dominios.add(d)
 
+        root_dom = {}
         for dom in (dominios_portada, dominios_todos):
-            for yr in dom.values():
-                for d in list(yr.keys()):
+            for y, yr in list(dom.items()):
+                for d, v in list(yr.items()):
+                    if d in ("total", "AEDE"):
+                        continue
+                    root = get_root(d)
                     if d not in dominios:
                         del yr[d]
+                        if root is not None and root not in dominios:
+                            yr["OTROS"] = v + yr.get("OTROS", 0)
+                    if root is not None:
+                        if root not in root_dom:
+                            root_dom[root] = set()
+                        root_dom[root].add(d)
 
-        if "total" in dominios:
-            dominios.remove("total")
-        visto=set()
-        for d in list(dominios):
-            root = get_root(d)
-            if root in visto:
-                dominios.add(root)
-            else:
-                visto.add(root)
-        dominios = sorted(dominios, key=lambda x: x.replace("*.", ""))
+        dominios=set()
+        for dom in (dominios_portada, dominios_todos):
+            for y, yr in list(dom.items()):
+                for d in list(yr.keys()):
+                    if not(d.startswith("*.") or d in root_dom):
+                        dominios.add(d)
+                        continue
+                    doms = root_dom[d]
+                    if len(doms)>1:
+                        dominios.add(d)
+                        continue
+                    del yr[d]
+
+        dominios = sorted(dominios, key=lambda x: (x.upper()!=x, tuple(reversed(x.split(".")))))
 
         return Bunch(
             todos=dominios_todos,
