@@ -44,10 +44,10 @@
    {% endfor%}
      </tbody>
     </table>
-  <p>Para ver en más detalle que enlaces se han descartado para evitar ruido puedes consultar
+  <p>Para ver en más detalle qué enlaces se han descartado para evitar ruido puedes consultar
     <a href="https://github.com/s-nt-s/meneame.dump/blob/master/sql/views/general.sql">la sentencia sql</a> que ha servido de fuente.
   </p>
-  <p>Adicionalmente, para las graficas de uso (apartado 2) se han utilizado datos
+  <p>Adicionalmente, para las gráficas de uso (apartado 2) se han utilizado datos
     de TODO meneame (no solo la edición general) incluyendo los {{st.counts.posts | millar }}
     <a href="https://www.meneame.net/notame/">posts del notame</a>.
   </p>
@@ -88,7 +88,7 @@
         La gráfica (tanto en % como en números absolutos)
         confirma que el algoritmo de Méneame añade noticias en portada
         a un ritmo más o menos constante, con independencia
-        de cuantas noticias se estén enviando y descartando (buscar <q cite="https://www.meneame.net/faq-es">se promoverá una media de una noticia por hora</q> en <a href="https://www.meneame.net/faq-es">Menéame FAQ</a>).
+        de cuántas noticias se estén enviando y descartando (buscar <q cite="https://www.meneame.net/faq-es">se promoverá una media de una noticia por hora</q> en <a href="https://www.meneame.net/faq-es">Menéame FAQ</a>).
       </li>
       <li>
         La gráfica en números absolutos nos muestra que el pico de envíos
@@ -153,9 +153,8 @@
         60% de las noticiás enviadas son de actualidad, y así con todo.
       </li>
       <li>
-        La categoría <code class="bubble">actualidad</code> gana por
-        goleada a todas las demás y que con los años va fagocitando a las demás
-        poco a poco.
+        La categoría <code class="bubble">actualidad</code> no solo es la más
+	usada con diferencia, si no que poco a poco va comiendo terreno a las demás.
       </li>
     </ul>
   </div>
@@ -194,9 +193,9 @@
     <p>
     <ul>
       <li>
-        Como en <code>1.B</code> aquí también se observa que la portada
-        representa perfectamente lo que se esta enviando. No se puede
-        decir que en la portada hay menos noticiás del medio X y más del medio Y
+        Como en <code>1.B</code>, aquí también se observa que la portada
+        representa perfectamente lo que se está enviando. No se puede
+        decir que en la portada haya menos noticiás del medio X y más del medio Y
         de lo que les correspondería "naturalmente".
       </li>
       <li>
@@ -214,7 +213,7 @@
         hay que tener en cuenta que es la suma de todas las noticias
         que vengan de cualquier fuente alternativa
         (aquellas que ningún año han tenido más de 50 portadas).
-        Aún así se puede observar que cada vez hay menos noticias
+        Aún así, se puede observar que cada vez hay menos noticias
         de sitios alternativos, incluso durante el boicot.
       </li>
       <li>
@@ -229,7 +228,7 @@
         beneficiado por el boicot ya que todos tienen valores
         similares antes, durante y después del boicot salvo eldiario.es,
         pero este medio
-        <a href="https://es.wikipedia.org/wiki/ElDiario.es">se fundo
+        <a href="https://es.wikipedia.org/wiki/ElDiario.es">se fundó
         pocos meses antes</a> de que empezará el boicot así que no
         tiene ningún sentido decir "<em>pues eldiario.es nunca llegaba
         a portada antes del boicot</em>".
@@ -257,7 +256,7 @@
     </p>
     <canvas class="chart"></canvas>
     <p>(*) Para simplificar, solo aparecen como seleccionables los tags
-      que han tenido al menos 300 portadas.
+      que han tenido como mínimo 300 portadas.
     </p>
     <p>(*) Para eliminar ruido se han <a href="https://github.com/s-nt-s/meneame.dump/blob/f9a27bceb6066fbcef92bbe5e4c23b22c045e365/core/util.py#L51">
       unificado etiquetas similares, se han realizado conversiones entre sinónimos,
@@ -265,8 +264,8 @@
       Esto incluye transformaciones semánticamente incorrectas, como unificar
       las estiquetas <code>coronavirus</code>, <code>covid</code>,
       <code>covid19</code>, <code>srascov2</code> y similares en
-      <code>COVID-19</code>, pues aunque ninguno de los conceptos anteriores
-      son realmente sinónimos estrictos entre sí podemos entender que toda
+      <code>COVID-19</code>, pues, aunque ninguno de los conceptos anteriores
+      son realmente sinónimos estrictos entre sí, podemos entender que toda
       noticia con alguna de esas etiquetas entra en un mismo grupo que
       de manera general identificamos con el <code>COVID-19</code>.
     </p>
@@ -285,17 +284,17 @@
       </li>
       <li>
         Algunos temas van prácticamente de la mano. Prueba a añadir la etiqueta
-        <code>PP</code> y sorprendete al ver con que otra etiqueta
+        <code>PP</code> y sorpréndete al ver con qué otra etiqueta
         forma una paralela casi exacta.
       </li>
       <li>
         La etiqueta <code class="bubble">COVID-19</code> no es la más usada
         de la historia (aunque va camino de ello) pero es la que tiene el crecimiento
-        más espectacular, prueba a añadirla en la grafica para ver que pasa.
+        más espectacular, prueba a añadirla en la grafica para ver qué pasa.
       </li>
     </ul>
   </div>
-  <h2>1.E ¿Como se relacionan los temas en Menéame?</h2>
+  <h2>1.E ¿Cómo se relacionan los temas en Menéame?</h2>
   <p>
     Pincha en un nodo para ver que etiquetas aparecen en las
     mismas noticias y en que porcentaje
@@ -364,7 +363,7 @@
     es parcialmente posible (los comentarios causa de <codes>strike</code> tienen
     esa información dentro de un tag html) me llevaría más tiempo
     del que tenia previsto dedicar y aún así no tendría información completa
-    (no se donde conseguir rastros de los <codes>strikes</code> que no se deban a comentarios).
+    (no se dónde conseguir rastros de los <codes>strikes</code> que no se deban a comentarios).
   </p>
   </div>
   <h1>2. Uso de Menéame</h1>
@@ -394,14 +393,14 @@
         procrastinar en el trabajo. Todas las curvas descienden
         en cuanto entramos en el tiempo libre (al salir del horario
         de oficina, al llegar el fin de semana, al llegar las vacaciones
-        de verano y navidad, etc).
+        de verano y Navidad, etc).
       </li>
       <li>
         Da igual si usas todos los años para la gráfica o solo años particulares,
         el comportamiento siempre ha sido el mismo con solo una excepción:
         la gráfica de <code class="bubble">año normal</code> usando datos de 2006, 2007 o 2008.
-        ¿Puede ser que en aquel entonces se usara más entre estudiantes y
-        personal de universidades que en el mundo laboral en general? No se.
+        ¿Puede ser que en aquel entonces Meneamé se usara más entre estudiantes y
+        personal de universidades que en el mundo laboral en general? No lo sé.
       </li>
     </ul>
   </div>
@@ -425,36 +424,36 @@
     <p><b>MUY IMPORTANTE</b>:
     <a href="https://blog.meneame.net/2019/12/09/aniversario-medio-millon-de-usuarios-activos/">Menéame asegura tener casi 500.000 usuarios activos</a> y no hay motivo para pensar que sea mentira, simplemente ellos
     tienen verdadero acceso a todos los datos y los pueden contabilizarlos mucho mejor
-    que yo, además no se que unidad temporal usan para definir si un usuario esta activo o no
+    que yo, además no se qué unidad temporal usan para definir si un usuario está activo o no
     (¿un usuario activo es el que ha tenido actividad en la última semana? ¿en el último año?).
     Así que toma mi gráfica como meramente orientativa donde la tendencia es más significativa que
     los valores concretos
-    y ajusta la unidad temporal a lo que tu consideras un usuario activo, teniendo muy en cuenta
+    y ajusta la unidad temporal a lo que tú consideras un usuario activo, teniendo muy en cuenta
     que he tomado las siguientes decisiones:
     </p>
     <ul>
         <li>
             Llamo usuario activo a aquel que ha enviado al menos una noticia o ha escrito al menos
             un comentario o un post en la unidad de tiempo seleccionada. <b>¡OJO!</b>
-            no hay duda que un usuario que no escribe ni manda noticias pero si vota
+            no hay duda que un usuario que no escribe ni manda noticias pero sí vota
             debería ser considerado
             activo, sin embargo el histórico de votaciones por usuario
-            no esta disponible y por ello
+            no está disponible y por ello
             no puedo reflejar este tipo de actividad.
         </li>
         <li>
-            Aunque es posible saber que usuarios han sido eliminados, no es posible
-            saber cuando se dieron de baja, así que se ha tomado como fecha de baja
-            aquella en la que realizaron su último envió, comentario o posts.
+            Aunque es posible saber qué usuarios han sido eliminados, no es posible
+            saber cuándo se dieron de baja, así que se ha tomado como fecha de baja
+            aquella en la que realizaron su último envío, comentario o post.
         </li>
         <li>
             Llamo usuario abandonado a aquel que sin estar eliminado lleva más
             de un año sin mandar una noticia, ni escribir un comentario, ni
-            escribir un posts (por eso en el último año siempre va a
+            escribir un post (por eso en el último año siempre va a
             poner que hay 0 usuarios abandonados).
             Al igual que con los usuarios eliminados, se toma
-            como fecha de abandono la de su último envío, comentario o posts.
-            <b>¡OJO!</b> los usuarios previamente mencionados que solo votan
+            como fecha de abandono la de su último envío, comentario o post.
+            <b>¡OJO!</b> Los usuarios previamente mencionados que solo votan
             pero no escriben ni envían noticias estarán siendo contabilizados
             erróneamente como usuarios abandonados.
         </li>
@@ -469,7 +468,7 @@
         crisis del COVID-19.
       </li>
       <li>
-        Como vimos en 1.A el pico de actividad se dio alrededor
+        Como vimos en 1.A, el pico de actividad se dio alrededor
         de 2012 (en concreto, entre 2011 y 2013).
       </li>
       <li>
@@ -486,16 +485,16 @@
         en un pico lo hace:
         <ul>
           <li>para realizar actividades que no estoy teniendo en cuenta, por ejemplo votar</li>
-          <li>para remplazar un usuario que previamente eliminaron o abandonaron</li>
+          <li>para reemplazar un usuario que previamente eliminaron o abandonaron</li>
         </ul>
-        otra posible explicación seria que los procesos que atraen gran número
+        otra posible explicación sería que los procesos que atraen gran número
         de nuevos usuarios también producen el abandono de otros tantos.
       </li>
     </ul>
   </div>
   <h1>3. ¿Cómo se hizo?</h1>
   <p>
-    Si te interesa saber como he sacado los datos de Menéame te
+    Si te interesa saber cómo he sacado los datos de Menéame te
     recomiendo que vayas directamente al
     <a href="https://github.com/s-nt-s/meneame.dump">repositorio GitHub</a>
     y empieces por el fichero <a href="https://github.com/s-nt-s/meneame.dump/blob/master/README.md">README.md</a>

@@ -4,561 +4,561 @@ var graphs = {
    {
     "size": 5.0,
     "id": "PP",
-    "x": 102.62,
-    "y": 66.029,
+    "x": 102.55,
+    "y": 67.993,
     "weight": 8027
    },
    {
-    "size": 4.254714325921756,
+    "size": 4.255840135097101,
     "id": "Espa\u00f1a",
-    "x": 120.95,
-    "y": 92.524,
-    "weight": 6703
+    "x": 133.08,
+    "y": 88.385,
+    "weight": 6705
    },
    {
-    "size": 2.979172530256122,
+    "size": 2.9802983394314664,
     "id": "EE.UU.",
-    "x": 110.93,
-    "y": 74.925,
-    "weight": 4437
+    "x": 121.05,
+    "y": 81.44,
+    "weight": 4439
    },
    {
-    "size": 2.8125527723050943,
+    "size": 2.8136785814804393,
     "id": "Madrid",
-    "x": 120.09,
-    "y": 77.381,
-    "weight": 4141
+    "x": 126.53,
+    "y": 94.759,
+    "weight": 4143
    },
    {
     "size": 2.6600056290458767,
     "id": "crisis",
-    "x": 92.281,
-    "y": 105.5,
+    "x": 93.213,
+    "y": 97.704,
     "weight": 3870
    },
    {
-    "size": 2.4849423022797636,
+    "size": 2.4860681114551086,
     "id": "humor",
-    "x": 107.39,
-    "y": 89.725,
-    "weight": 3559
+    "x": 113.21,
+    "y": 97.831,
+    "weight": 3561
    },
    {
     "size": 2.3520968195890797,
     "id": "corrupcion",
-    "x": 93.289,
-    "y": 63.421,
+    "x": 123.01,
+    "y": 54.471,
     "weight": 3323
    },
    {
-    "size": 2.263157894736842,
+    "size": 2.2682240360258934,
     "id": "COVID-19",
-    "x": 89.727,
-    "y": 52.356,
-    "weight": 3165
+    "x": 93.354,
+    "y": 58.443,
+    "weight": 3174
    },
    {
     "size": 2.1922319166901207,
     "id": "politica",
-    "x": 142.31,
-    "y": 82.392,
+    "x": 150.68,
+    "y": 96.25,
     "weight": 3039
    },
    {
     "size": 2.1719673515339153,
     "id": "internet",
-    "x": 84.778,
-    "y": 82.231,
+    "x": 94.048,
+    "y": 77.572,
     "weight": 3003
    },
    {
     "size": 2.0700816211652127,
     "id": "policia",
-    "x": 131.2,
-    "y": 60.947,
+    "x": 128.79,
+    "y": 62.295,
     "weight": 2822
    },
    {
     "size": 1.98001688713763,
     "id": "fotos",
-    "x": 96.528,
-    "y": 122.89,
+    "x": 99.284,
+    "y": 125.87,
     "weight": 2662
    },
    {
     "size": 1.9102167182662537,
     "id": "Rajoy",
-    "x": 148.12,
-    "y": 61.635,
+    "x": 146.97,
+    "y": 63.007,
     "weight": 2538
    },
    {
-    "size": 1.898958626512806,
+    "size": 1.8995215311004785,
     "id": "economia",
-    "x": 135.26,
-    "y": 94.915,
-    "weight": 2518
+    "x": 146.62,
+    "y": 105.81,
+    "weight": 2519
    },
    {
     "size": 1.8466084998592738,
     "id": "ciencia",
-    "x": 116.51,
-    "y": 138.18,
+    "x": 99.993,
+    "y": 138.26,
     "weight": 2425
    },
    {
     "size": 1.8319729805797917,
     "id": "PSOE",
-    "x": 174.34,
-    "y": 104.7,
+    "x": 180.13,
+    "y": 101.31,
     "weight": 2399
    },
    {
     "size": 1.6524064171122994,
     "id": "gobierno",
-    "x": 131.0,
-    "y": 70.949,
+    "x": 134.22,
+    "y": 72.214,
     "weight": 2080
    },
    {
-    "size": 1.6456515620602308,
+    "size": 1.646214466647903,
     "id": "historia",
-    "x": 107.76,
-    "y": 137.93,
-    "weight": 2068
+    "x": 88.967,
+    "y": 131.88,
+    "weight": 2069
    },
    {
-    "size": 1.6146918097382494,
+    "size": 1.6152547143259217,
     "id": "muerte",
-    "x": 121.27,
-    "y": 107.63,
-    "weight": 2013
+    "x": 101.21,
+    "y": 84.391,
+    "weight": 2014
    },
    {
     "size": 1.573599774838165,
     "id": "SGAE",
-    "x": 95.443,
-    "y": 158.63,
+    "x": 132.5,
+    "y": 171.2,
     "weight": 1940
    },
    {
     "size": 1.5640303968477343,
     "id": "google",
-    "x": 76.858,
-    "y": 74.565,
+    "x": 106.88,
+    "y": 144.62,
     "weight": 1923
    },
    {
     "size": 1.52293836194765,
     "id": "linux",
-    "x": 49.702,
-    "y": 87.951,
+    "x": 53.459,
+    "y": 95.31,
     "weight": 1850
    },
    {
     "size": 1.5094286518435125,
     "id": "educacion",
-    "x": 144.78,
-    "y": 142.71,
+    "x": 149.0,
+    "y": 149.22,
     "weight": 1826
    },
    {
     "size": 1.49704475091472,
     "id": "elecciones",
-    "x": 155.41,
-    "y": 114.14,
+    "x": 160.2,
+    "y": 117.99,
     "weight": 1804
    },
    {
-    "size": 1.4604559527160146,
+    "size": 1.461018857303687,
     "id": "Valencia",
-    "x": 144.44,
-    "y": 115.96,
-    "weight": 1739
+    "x": 149.25,
+    "y": 123.69,
+    "weight": 1740
    },
    {
     "size": 1.4604559527160146,
     "id": "China",
-    "x": 103.61,
-    "y": 57.686,
+    "x": 83.924,
+    "y": 84.529,
     "weight": 1739
    },
    {
     "size": 1.4542640022516182,
     "id": "bancos",
-    "x": 122.65,
-    "y": 41.647,
+    "x": 137.23,
+    "y": 48.336,
     "weight": 1728
    },
    {
     "size": 1.4216155361666196,
     "id": "religion",
-    "x": 75.763,
-    "y": 131.52,
+    "x": 132.41,
+    "y": 154.07,
     "weight": 1670
    },
    {
-    "size": 1.391781593019983,
+    "size": 1.3923444976076556,
     "id": "Europa",
-    "x": 107.93,
-    "y": 121.22,
-    "weight": 1617
+    "x": 109.51,
+    "y": 126.17,
+    "weight": 1618
    },
    {
     "size": 1.3270475654376583,
     "id": "iglesia",
-    "x": 174.31,
-    "y": 76.081,
+    "x": 178.08,
+    "y": 73.953,
     "weight": 1502
    },
    {
     "size": 1.325358851674641,
     "id": "sanidad",
-    "x": 153.25,
-    "y": 40.835,
+    "x": 164.9,
+    "y": 52.459,
     "weight": 1499
    },
    {
     "size": 1.2989023360540388,
     "id": "cine",
-    "x": 65.217,
-    "y": 124.77,
+    "x": 68.779,
+    "y": 128.02,
     "weight": 1452
    },
    {
     "size": 1.2752603433717984,
     "id": "Catalu\u00f1a",
-    "x": 162.32,
-    "y": 132.97,
+    "x": 172.45,
+    "y": 123.24,
     "weight": 1410
    },
    {
     "size": 1.2730087250211088,
     "id": "trabajo",
-    "x": 121.35,
-    "y": 56.205,
+    "x": 115.59,
+    "y": 62.457,
     "weight": 1406
    },
    {
     "size": 1.2724458204334366,
     "id": "Francia",
-    "x": 123.1,
-    "y": 117.32,
+    "x": 108.98,
+    "y": 110.31,
     "weight": 1405
    },
    {
     "size": 1.2679425837320575,
     "id": "Alemania",
-    "x": 139.71,
-    "y": 106.07,
+    "x": 136.24,
+    "y": 112.15,
     "weight": 1397
    },
    {
     "size": 1.244300591049817,
     "id": "videos",
-    "x": 96.832,
-    "y": 83.261,
+    "x": 110.48,
+    "y": 79.203,
     "weight": 1355
    },
    {
     "size": 1.2414860681114552,
-    "id": "Barcelona",
-    "x": 151.58,
-    "y": 100.31,
+    "id": "Podemos",
+    "x": 193.63,
+    "y": 71.31,
     "weight": 1350
    },
    {
-    "size": 1.2409231635237827,
-    "id": "Podemos",
-    "x": 195.88,
-    "y": 89.846,
-    "weight": 1349
+    "size": 1.2414860681114552,
+    "id": "Barcelona",
+    "x": 138.34,
+    "y": 118.62,
+    "weight": 1350
    },
    {
     "size": 1.2392344497607655,
     "id": "mujeres",
-    "x": 82.117,
-    "y": 99.937,
+    "x": 90.026,
+    "y": 113.37,
     "weight": 1346
    },
    {
     "size": 1.2352941176470589,
     "id": "ni\u00f1os",
-    "x": 72.586,
-    "y": 97.104,
+    "x": 77.267,
+    "y": 83.26,
     "weight": 1339
    },
    {
     "size": 1.2234731213059387,
     "id": "guerra",
-    "x": 64.521,
-    "y": 110.58,
+    "x": 68.106,
+    "y": 111.81,
     "weight": 1318
    },
    {
     "size": 1.2223473121305939,
     "id": "sociedad",
-    "x": 104.27,
-    "y": 102.68,
+    "x": 120.52,
+    "y": 116.22,
     "weight": 1316
    },
    {
     "size": 1.2082746974387841,
     "id": "ETA",
-    "x": 133.68,
-    "y": 31.238,
+    "x": 155.52,
+    "y": 38.583,
     "weight": 1291
    },
    {
     "size": 1.2015198423867155,
     "id": "Japon",
-    "x": 77.806,
-    "y": 57.88,
+    "x": 77.702,
+    "y": 66.013,
     "weight": 1279
    },
    {
     "size": 1.1857585139318885,
     "id": "salud",
-    "x": 168.52,
-    "y": 83.724,
+    "x": 156.25,
+    "y": 61.303,
     "weight": 1251
    },
    {
     "size": 1.1514213340838728,
     "id": "musica",
-    "x": 95.373,
-    "y": 162.4,
+    "x": 87.253,
+    "y": 160.32,
     "weight": 1190
    },
    {
     "size": 1.1508584294962003,
     "id": "television",
-    "x": 92.713,
-    "y": 133.73,
+    "x": 82.666,
+    "y": 113.56,
     "weight": 1189
    },
    {
     "size": 1.1441035744441317,
     "id": "periodismo",
-    "x": 160.43,
-    "y": 90.837,
+    "x": 150.49,
+    "y": 78.856,
     "weight": 1177
    },
    {
-    "size": 1.1396003377427526,
+    "size": 1.1407261469180974,
     "id": "UE",
-    "x": 161.03,
-    "y": 125.07,
-    "weight": 1169
+    "x": 128.11,
+    "y": 149.54,
+    "weight": 1171
    },
    {
     "size": 1.1362229102167183,
     "id": "energia",
-    "x": 141.73,
-    "y": 30.014,
+    "x": 107.19,
+    "y": 32.777,
     "weight": 1163
    },
    {
-    "size": 1.1350971010413735,
+    "size": 1.1356600056290458,
     "id": "paro",
-    "x": 163.24,
-    "y": 55.576,
-    "weight": 1161
+    "x": 172.82,
+    "y": 77.436,
+    "weight": 1162
    },
    {
     "size": 1.1255277230509428,
     "id": "seguridad",
-    "x": 67.392,
-    "y": 69.978,
+    "x": 69.972,
+    "y": 74.665,
     "weight": 1144
    },
    {
     "size": 1.1249648184632706,
     "id": "justicia",
-    "x": 153.0,
-    "y": 73.084,
+    "x": 160.83,
+    "y": 87.066,
     "weight": 1143
    },
    {
     "size": 1.1227132001125808,
     "id": "salarios",
-    "x": 117.07,
-    "y": 150.59,
+    "x": 170.6,
+    "y": 144.92,
     "weight": 1139
    },
    {
     "size": 1.1159583450605122,
     "id": "Israel",
-    "x": 149.91,
-    "y": 152.53,
+    "x": 100.92,
+    "y": 158.27,
     "weight": 1127
    },
    {
     "size": 1.1148325358851674,
     "id": "vivienda",
-    "x": 187.15,
-    "y": 65.319,
+    "x": 195.63,
+    "y": 90.779,
     "weight": 1125
    },
    {
     "size": 1.1080776808330988,
-    "id": "coches",
-    "x": 144.26,
-    "y": 48.179,
+    "id": "Aguirre",
+    "x": 170.6,
+    "y": 33.566,
     "weight": 1113
    },
    {
     "size": 1.1080776808330988,
-    "id": "Aguirre",
-    "x": 137.7,
-    "y": 19.746,
+    "id": "coches",
+    "x": 109.28,
+    "y": 45.037,
     "weight": 1113
    },
    {
     "size": 1.1041373487193922,
     "id": "derechos",
-    "x": 130.07,
-    "y": 127.4,
+    "x": 131.03,
+    "y": 131.6,
     "weight": 1106
    },
    {
     "size": 1.0917534477905995,
     "id": "Rusia",
-    "x": 86.61,
-    "y": 143.41,
+    "x": 72.465,
+    "y": 135.46,
     "weight": 1084
    },
    {
     "size": 1.083872783563186,
     "id": "microsoft",
     "x": 44.846,
-    "y": 128.92,
+    "y": 129.63,
     "weight": 1070
    },
    {
     "size": 1.0788066422741345,
     "id": "manifestaciones",
-    "x": 146.2,
-    "y": 133.15,
+    "x": 152.24,
+    "y": 136.72,
     "weight": 1061
    },
    {
     "size": 1.0743034055727554,
     "id": "curiosidades",
-    "x": 125.57,
-    "y": 155.68,
+    "x": 111.11,
+    "y": 161.1,
     "weight": 1053
    },
    {
     "size": 1.0726146918097383,
     "id": "software libre",
-    "x": 65.013,
-    "y": 152.84,
+    "x": 71.156,
+    "y": 160.1,
     "weight": 1050
    },
    {
     "size": 1.0714888826343936,
     "id": "censura",
-    "x": 70.997,
-    "y": 87.98,
+    "x": 78.686,
+    "y": 97.581,
     "weight": 1048
    },
    {
     "size": 1.0669856459330143,
     "id": "RTVE",
-    "x": 134.09,
-    "y": 143.93,
+    "x": 166.18,
+    "y": 134.27,
     "weight": 1040
    },
    {
     "size": 1.0585420771179286,
     "id": "cultura",
-    "x": 155.18,
-    "y": 141.35,
+    "x": 154.67,
+    "y": 146.31,
     "weight": 1025
    },
    {
-    "size": 1.0484097945398254,
+    "size": 1.048972699127498,
     "id": "NASA",
-    "x": 41.669,
-    "y": 50.754,
-    "weight": 1007
+    "x": 40.235,
+    "y": 62.051,
+    "weight": 1008
    },
    {
     "size": 1.045032367013791,
     "id": "detenidos",
-    "x": 170.81,
-    "y": 41.805,
+    "x": 178.78,
+    "y": 53.095,
     "weight": 1001
    },
    {
     "size": 1.0439065578384463,
     "id": "accidentes",
-    "x": 173.46,
-    "y": 59.437,
+    "x": 177.9,
+    "y": 84.499,
     "weight": 999
    },
    {
     "size": 1.0332113706726709,
     "id": "homosexualidad",
-    "x": 180.63,
-    "y": 95.121,
+    "x": 182.4,
+    "y": 124.13,
     "weight": 980
    },
    {
     "size": 1.0326484660849986,
     "id": "recortes",
-    "x": 113.39,
-    "y": 37.889,
+    "x": 143.72,
+    "y": 40.512,
     "weight": 979
    },
    {
     "size": 1.0213903743315509,
     "id": "terrorismo",
-    "x": 89.02,
-    "y": 43.574,
+    "x": 87.239,
+    "y": 49.447,
     "weight": 959
    },
    {
     "size": 1.0185758513931888,
     "id": "huelga",
-    "x": 186.72,
-    "y": 106.56,
+    "x": 190.14,
+    "y": 113.01,
     "weight": 954
    },
    {
     "size": 1.0163242330424993,
     "id": "empresas",
-    "x": 79.072,
-    "y": 111.09,
+    "x": 124.99,
+    "y": 138.37,
     "weight": 950
    },
    {
     "size": 1.0106951871657754,
     "id": "tecnologia",
-    "x": 53.74,
-    "y": 98.038,
+    "x": 56.299,
+    "y": 106.64,
     "weight": 940
    },
    {
     "size": 1.0067548550520686,
     "id": "B\u00e1rcenas",
-    "x": 96.874,
+    "x": 128.9,
     "y": 18.0,
     "weight": 933
    },
    {
     "size": 1.002814522938362,
     "id": "aviones",
-    "x": 97.834,
-    "y": 32.607,
+    "x": 92.944,
+    "y": 40.417,
     "weight": 926
    },
    {
     "size": 1.0,
     "id": "Italia",
-    "x": 170.73,
-    "y": 113.59,
+    "x": 168.75,
+    "y": 105.23,
     "weight": 921
    }
   ],
@@ -2376,7 +2376,7 @@ var graphs = {
     "id": 301
    },
    {
-    "weight": 23,
+    "weight": 24,
     "source": "Madrid",
     "target": "Valencia",
     "id": 302
@@ -2910,7 +2910,7 @@ var graphs = {
     "id": 390
    },
    {
-    "weight": 16,
+    "weight": 17,
     "source": "humor",
     "target": "COVID-19",
     "id": 391
@@ -4020,7 +4020,7 @@ var graphs = {
     "id": 575
    },
    {
-    "weight": 32,
+    "weight": 33,
     "source": "COVID-19",
     "target": "UE",
     "id": 576
@@ -6198,7 +6198,7 @@ var graphs = {
     "id": 938
    },
    {
-    "weight": 74,
+    "weight": 75,
     "source": "economia",
     "target": "paro",
     "id": 939
@@ -12576,362 +12576,362 @@ var graphs = {
     "id": 2001
    },
    {
-    "weight": 12,
-    "source": "Barcelona",
-    "target": "accidentes",
-    "id": 2002
-   },
-   {
-    "weight": 4,
-    "source": "Barcelona",
-    "target": "aviones",
-    "id": 2003
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "B\u00e1rcenas",
-    "id": 2004
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "censura",
-    "id": 2005
-   },
-   {
-    "weight": 14,
-    "source": "Barcelona",
-    "target": "coches",
-    "id": 2006
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "cultura",
-    "id": 2007
-   },
-   {
-    "weight": 2,
-    "source": "Barcelona",
-    "target": "curiosidades",
-    "id": 2008
-   },
-   {
-    "weight": 2,
-    "source": "Barcelona",
-    "target": "derechos",
-    "id": 2009
-   },
-   {
-    "weight": 22,
-    "source": "Barcelona",
-    "target": "detenidos",
-    "id": 2010
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "energia",
-    "id": 2011
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "ETA",
-    "id": 2012
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "guerra",
-    "id": 2013
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "homosexualidad",
-    "id": 2014
-   },
-   {
-    "weight": 24,
-    "source": "Barcelona",
-    "target": "huelga",
-    "id": 2015
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "Israel",
-    "id": 2016
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "Italia",
-    "id": 2017
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "Japon",
-    "id": 2018
-   },
-   {
-    "weight": 6,
-    "source": "Barcelona",
-    "target": "justicia",
-    "id": 2019
-   },
-   {
-    "weight": 28,
-    "source": "Barcelona",
-    "target": "manifestaciones",
-    "id": 2020
-   },
-   {
-    "weight": 4,
-    "source": "Barcelona",
-    "target": "microsoft",
-    "id": 2021
-   },
-   {
-    "weight": 7,
-    "source": "Barcelona",
-    "target": "mujeres",
-    "id": 2022
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "musica",
-    "id": 2023
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "ni\u00f1os",
-    "id": 2024
-   },
-   {
-    "weight": 2,
-    "source": "Barcelona",
-    "target": "paro",
-    "id": 2025
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "periodismo",
-    "id": 2026
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "Podemos",
-    "id": 2027
-   },
-   {
-    "weight": 9,
-    "source": "Barcelona",
-    "target": "recortes",
-    "id": 2028
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "RTVE",
-    "id": 2029
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "Rusia",
-    "id": 2030
-   },
-   {
-    "weight": 4,
-    "source": "Barcelona",
-    "target": "salarios",
-    "id": 2031
-   },
-   {
-    "weight": 5,
-    "source": "Barcelona",
-    "target": "salud",
-    "id": 2032
-   },
-   {
-    "weight": 6,
-    "source": "Barcelona",
-    "target": "seguridad",
-    "id": 2033
-   },
-   {
-    "weight": 6,
-    "source": "Barcelona",
-    "target": "sociedad",
-    "id": 2034
-   },
-   {
-    "weight": 3,
-    "source": "Barcelona",
-    "target": "software libre",
-    "id": 2035
-   },
-   {
-    "weight": 1,
-    "source": "Barcelona",
-    "target": "tecnologia",
-    "id": 2036
-   },
-   {
-    "weight": 2,
-    "source": "Barcelona",
-    "target": "television",
-    "id": 2037
-   },
-   {
-    "weight": 8,
-    "source": "Barcelona",
-    "target": "terrorismo",
-    "id": 2038
-   },
-   {
-    "weight": 2,
-    "source": "Barcelona",
-    "target": "UE",
-    "id": 2039
-   },
-   {
-    "weight": 13,
-    "source": "Barcelona",
-    "target": "vivienda",
-    "id": 2040
-   },
-   {
     "weight": 23,
     "source": "Podemos",
     "target": "Aguirre",
-    "id": 2041
+    "id": 2002
+   },
+   {
+    "weight": 3,
+    "source": "Podemos",
+    "target": "Barcelona",
+    "id": 2003
    },
    {
     "weight": 8,
     "source": "Podemos",
     "target": "censura",
-    "id": 2042
+    "id": 2004
    },
    {
     "weight": 1,
     "source": "Podemos",
     "target": "coches",
-    "id": 2043
+    "id": 2005
    },
    {
     "weight": 2,
     "source": "Podemos",
     "target": "derechos",
-    "id": 2044
+    "id": 2006
    },
    {
     "weight": 1,
     "source": "Podemos",
     "target": "empresas",
-    "id": 2045
+    "id": 2007
    },
    {
     "weight": 3,
     "source": "Podemos",
     "target": "energia",
-    "id": 2046
+    "id": 2008
    },
    {
     "weight": 27,
     "source": "Podemos",
     "target": "ETA",
-    "id": 2047
+    "id": 2009
    },
    {
     "weight": 2,
     "source": "Podemos",
     "target": "homosexualidad",
-    "id": 2048
+    "id": 2010
    },
    {
     "weight": 1,
     "source": "Podemos",
     "target": "huelga",
-    "id": 2049
+    "id": 2011
    },
    {
     "weight": 2,
     "source": "Podemos",
     "target": "Israel",
-    "id": 2050
+    "id": 2012
    },
    {
     "weight": 10,
     "source": "Podemos",
     "target": "justicia",
-    "id": 2051
+    "id": 2013
    },
    {
     "weight": 3,
     "source": "Podemos",
     "target": "manifestaciones",
-    "id": 2052
+    "id": 2014
    },
    {
     "weight": 1,
     "source": "Podemos",
     "target": "ni\u00f1os",
-    "id": 2053
+    "id": 2015
    },
    {
     "weight": 1,
     "source": "Podemos",
     "target": "paro",
-    "id": 2054
+    "id": 2016
    },
    {
     "weight": 12,
     "source": "Podemos",
     "target": "periodismo",
-    "id": 2055
+    "id": 2017
    },
    {
     "weight": 23,
     "source": "Podemos",
     "target": "RTVE",
-    "id": 2056
+    "id": 2018
    },
    {
     "weight": 6,
     "source": "Podemos",
     "target": "salarios",
-    "id": 2057
+    "id": 2019
    },
    {
     "weight": 2,
     "source": "Podemos",
     "target": "salud",
-    "id": 2058
+    "id": 2020
    },
    {
     "weight": 4,
     "source": "Podemos",
     "target": "television",
-    "id": 2059
+    "id": 2021
    },
    {
     "weight": 3,
     "source": "Podemos",
     "target": "terrorismo",
-    "id": 2060
+    "id": 2022
    },
    {
     "weight": 3,
     "source": "Podemos",
+    "target": "vivienda",
+    "id": 2023
+   },
+   {
+    "weight": 12,
+    "source": "Barcelona",
+    "target": "accidentes",
+    "id": 2024
+   },
+   {
+    "weight": 4,
+    "source": "Barcelona",
+    "target": "aviones",
+    "id": 2025
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "B\u00e1rcenas",
+    "id": 2026
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "censura",
+    "id": 2027
+   },
+   {
+    "weight": 14,
+    "source": "Barcelona",
+    "target": "coches",
+    "id": 2028
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "cultura",
+    "id": 2029
+   },
+   {
+    "weight": 2,
+    "source": "Barcelona",
+    "target": "curiosidades",
+    "id": 2030
+   },
+   {
+    "weight": 2,
+    "source": "Barcelona",
+    "target": "derechos",
+    "id": 2031
+   },
+   {
+    "weight": 22,
+    "source": "Barcelona",
+    "target": "detenidos",
+    "id": 2032
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "energia",
+    "id": 2033
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "ETA",
+    "id": 2034
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "guerra",
+    "id": 2035
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "homosexualidad",
+    "id": 2036
+   },
+   {
+    "weight": 24,
+    "source": "Barcelona",
+    "target": "huelga",
+    "id": 2037
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "Israel",
+    "id": 2038
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "Italia",
+    "id": 2039
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "Japon",
+    "id": 2040
+   },
+   {
+    "weight": 6,
+    "source": "Barcelona",
+    "target": "justicia",
+    "id": 2041
+   },
+   {
+    "weight": 28,
+    "source": "Barcelona",
+    "target": "manifestaciones",
+    "id": 2042
+   },
+   {
+    "weight": 4,
+    "source": "Barcelona",
+    "target": "microsoft",
+    "id": 2043
+   },
+   {
+    "weight": 7,
+    "source": "Barcelona",
+    "target": "mujeres",
+    "id": 2044
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "musica",
+    "id": 2045
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "ni\u00f1os",
+    "id": 2046
+   },
+   {
+    "weight": 2,
+    "source": "Barcelona",
+    "target": "paro",
+    "id": 2047
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "periodismo",
+    "id": 2048
+   },
+   {
+    "weight": 9,
+    "source": "Barcelona",
+    "target": "recortes",
+    "id": 2049
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "RTVE",
+    "id": 2050
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "Rusia",
+    "id": 2051
+   },
+   {
+    "weight": 4,
+    "source": "Barcelona",
+    "target": "salarios",
+    "id": 2052
+   },
+   {
+    "weight": 5,
+    "source": "Barcelona",
+    "target": "salud",
+    "id": 2053
+   },
+   {
+    "weight": 6,
+    "source": "Barcelona",
+    "target": "seguridad",
+    "id": 2054
+   },
+   {
+    "weight": 6,
+    "source": "Barcelona",
+    "target": "sociedad",
+    "id": 2055
+   },
+   {
+    "weight": 3,
+    "source": "Barcelona",
+    "target": "software libre",
+    "id": 2056
+   },
+   {
+    "weight": 1,
+    "source": "Barcelona",
+    "target": "tecnologia",
+    "id": 2057
+   },
+   {
+    "weight": 2,
+    "source": "Barcelona",
+    "target": "television",
+    "id": 2058
+   },
+   {
+    "weight": 8,
+    "source": "Barcelona",
+    "target": "terrorismo",
+    "id": 2059
+   },
+   {
+    "weight": 2,
+    "source": "Barcelona",
+    "target": "UE",
+    "id": 2060
+   },
+   {
+    "weight": 13,
+    "source": "Barcelona",
     "target": "vivienda",
     "id": 2061
    },
@@ -15468,164 +15468,164 @@ var graphs = {
     "id": 2483
    },
    {
-    "weight": 55,
-    "source": "coches",
-    "target": "accidentes",
-    "id": 2484
-   },
-   {
-    "weight": 9,
-    "source": "coches",
-    "target": "Aguirre",
-    "id": 2485
-   },
-   {
-    "weight": 3,
-    "source": "coches",
-    "target": "aviones",
-    "id": 2486
-   },
-   {
-    "weight": 2,
-    "source": "coches",
-    "target": "B\u00e1rcenas",
-    "id": 2487
-   },
-   {
-    "weight": 2,
-    "source": "coches",
-    "target": "cultura",
-    "id": 2488
-   },
-   {
-    "weight": 6,
-    "source": "coches",
-    "target": "curiosidades",
-    "id": 2489
-   },
-   {
-    "weight": 1,
-    "source": "coches",
-    "target": "derechos",
-    "id": 2490
-   },
-   {
-    "weight": 9,
-    "source": "coches",
-    "target": "detenidos",
-    "id": 2491
-   },
-   {
-    "weight": 1,
-    "source": "coches",
-    "target": "huelga",
-    "id": 2492
-   },
-   {
-    "weight": 6,
-    "source": "coches",
-    "target": "Italia",
-    "id": 2493
-   },
-   {
-    "weight": 1,
-    "source": "coches",
-    "target": "manifestaciones",
-    "id": 2494
-   },
-   {
-    "weight": 1,
-    "source": "coches",
-    "target": "NASA",
-    "id": 2495
-   },
-   {
-    "weight": 1,
-    "source": "coches",
-    "target": "recortes",
-    "id": 2496
-   },
-   {
-    "weight": 10,
-    "source": "coches",
-    "target": "Rusia",
-    "id": 2497
-   },
-   {
-    "weight": 12,
-    "source": "coches",
-    "target": "tecnologia",
-    "id": 2498
-   },
-   {
-    "weight": 2,
-    "source": "coches",
-    "target": "terrorismo",
-    "id": 2499
-   },
-   {
     "weight": 1,
     "source": "Aguirre",
     "target": "accidentes",
-    "id": 2500
+    "id": 2484
    },
    {
     "weight": 11,
     "source": "Aguirre",
     "target": "B\u00e1rcenas",
-    "id": 2501
+    "id": 2485
    },
    {
     "weight": 7,
     "source": "Aguirre",
     "target": "censura",
-    "id": 2502
+    "id": 2486
+   },
+   {
+    "weight": 9,
+    "source": "Aguirre",
+    "target": "coches",
+    "id": 2487
    },
    {
     "weight": 1,
     "source": "Aguirre",
     "target": "derechos",
-    "id": 2503
+    "id": 2488
    },
    {
     "weight": 4,
     "source": "Aguirre",
     "target": "detenidos",
-    "id": 2504
+    "id": 2489
    },
    {
     "weight": 4,
     "source": "Aguirre",
     "target": "empresas",
-    "id": 2505
+    "id": 2490
    },
    {
     "weight": 11,
     "source": "Aguirre",
     "target": "huelga",
-    "id": 2506
+    "id": 2491
    },
    {
     "weight": 12,
     "source": "Aguirre",
     "target": "manifestaciones",
-    "id": 2507
+    "id": 2492
    },
    {
     "weight": 20,
     "source": "Aguirre",
     "target": "recortes",
-    "id": 2508
+    "id": 2493
    },
    {
     "weight": 3,
     "source": "Aguirre",
     "target": "RTVE",
-    "id": 2509
+    "id": 2494
    },
    {
     "weight": 6,
     "source": "Aguirre",
+    "target": "terrorismo",
+    "id": 2495
+   },
+   {
+    "weight": 55,
+    "source": "coches",
+    "target": "accidentes",
+    "id": 2496
+   },
+   {
+    "weight": 3,
+    "source": "coches",
+    "target": "aviones",
+    "id": 2497
+   },
+   {
+    "weight": 2,
+    "source": "coches",
+    "target": "B\u00e1rcenas",
+    "id": 2498
+   },
+   {
+    "weight": 2,
+    "source": "coches",
+    "target": "cultura",
+    "id": 2499
+   },
+   {
+    "weight": 6,
+    "source": "coches",
+    "target": "curiosidades",
+    "id": 2500
+   },
+   {
+    "weight": 1,
+    "source": "coches",
+    "target": "derechos",
+    "id": 2501
+   },
+   {
+    "weight": 9,
+    "source": "coches",
+    "target": "detenidos",
+    "id": 2502
+   },
+   {
+    "weight": 1,
+    "source": "coches",
+    "target": "huelga",
+    "id": 2503
+   },
+   {
+    "weight": 6,
+    "source": "coches",
+    "target": "Italia",
+    "id": 2504
+   },
+   {
+    "weight": 1,
+    "source": "coches",
+    "target": "manifestaciones",
+    "id": 2505
+   },
+   {
+    "weight": 1,
+    "source": "coches",
+    "target": "NASA",
+    "id": 2506
+   },
+   {
+    "weight": 1,
+    "source": "coches",
+    "target": "recortes",
+    "id": 2507
+   },
+   {
+    "weight": 10,
+    "source": "coches",
+    "target": "Rusia",
+    "id": 2508
+   },
+   {
+    "weight": 12,
+    "source": "coches",
+    "target": "tecnologia",
+    "id": 2509
+   },
+   {
+    "weight": 2,
+    "source": "coches",
     "target": "terrorismo",
     "id": 2510
    },
