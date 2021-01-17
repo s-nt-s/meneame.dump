@@ -33,9 +33,6 @@ tr > td:first-child {
 td.rg {
   text-align: right;
 }
-body {
-	margin-bottom: 400px;
-}
 canvas.chart {
 	margin-top: 16px;
 	margin-bottom: 16px;
