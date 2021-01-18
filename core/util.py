@@ -3,6 +3,7 @@ from glob import glob
 import os
 import re
 import argparse
+import sys
 from urllib.parse import urlparse
 
 re_sp = re.compile(r"\s+")
@@ -425,3 +426,26 @@ def extract_domain(url):
             break
         dom = ".".join(spl[1:])
     return dom
+
+
+class PrintFile():
+    def __init__(self):
+        self.outs=[sys.stdout]
+
+    def append(self, file):
+        sys.stdout = self
+        self.outs.append(open(file, "w"))
+
+    def write(self, message):
+        for out in self.outs:
+            out.write(message)
+
+    def flush(self):
+        pass
+
+    def pop(self):
+        if len(self.outs)==2:
+            fl = self.outs.pop()
+            fl.close()
+        if len(self.outs)==1:
+            sys.stdout = self.outs[0]

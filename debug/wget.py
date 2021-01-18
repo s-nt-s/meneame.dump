@@ -1,27 +1,23 @@
-from core.api import Api, tm_search_user_data
-from core.threadme import ThreadMe
 import os
 import json
-from .util import mkBunch, js_write, get_huecos, PrintFile
-from core.util import gW, chunks, mkArg
-from core.db import DB
-from glob import glob
-import sys
-import shutil
+from core.util import mkArg, readlines, PrintFile
 from math import ceil
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 
-arg = mkArg("Crea un script wget.sh para descargar todas las noticias con comentarios")
+arg = mkArg('''
+Crea un script wget.sh para descargar todas las noticias con comentarios
+Previamente hay que lanzar sql/debug/year_link_comments.sql
+'''.strip())
 
-db = DB()
 pf = PrintFile()
 pf.append("wget.sh")
 print('''
 #!/bin/bash
 mkdir -p html
+YR=""
 function _url {
     URL=$(curl -w "%{redirect_url}" -o /dev/null -s  "$1")
     if [ -z "$URL" ]; then
@@ -32,43 +28,30 @@ function _out {
     L="$1"
     P="$2"
     P=$(printf "%02d" $P)
-    OUT="html/${L}-${P}.html.gz"
+    OUT="html/${YR}/${L}-${P}.html.gz"
 }
 function dwn {
     LINK="$1"
     PAGES="$2"
     _out "$LINK" "$PAGES"
-    if [ ! -f "$OUT" ]; then
-        _url "https://www.meneame.net/story/${LINK}"
-        for (( c=1; c<=$PAGES; c++ )); do
-            _out "$LINK" "$c"
-            echo -ne "${OUT}              \\033[0K\\r"
-            wget -q --header="accept-encoding: gzip" -O "${OUT}" "${URL}/standard/${c}"
-        done
-    fi
+    _url "https://www.meneame.net/story/${LINK}"
+    for (( c=1; c<=$PAGES; c++ )); do
+        _out "$LINK" "$c"
+        echo -ne "${OUT}              \\033[0K\\r"
+        wget -q --header="accept-encoding: gzip" -O "${OUT}" "${URL}/standard/${c}"
+    done
 }
 '''.strip())
-for link, comments in db.select('''
-    select
-    	id, max(comments) comments
-    from (
-    	select
-    		id,
-    		comments
-    	from LINKS
-    	where comments>0
-    	union
-    	select
-    		link id,
-    		count(*) comments
-    	from COMMENTS
-    	group by link
-    ) t
-    group by
-    	id
-    order by
-    	id
-    '''):
-    print('dwn {} {}'.format(link, ceil(comments/100)))
+lastyear = None
+for l in readlines("../sql/debug/year_link_comments.csv"):
+    year, link, comments = (int(i) for i in l.split())
+    if comments == 0:
+        continue
+    if year != lastyear:
+        print("mkdir -p html/"+str(year))
+        print('YR="%s"' % year)
+        lastyear = year
+    pages = ceil(comments/100)
+    print('dwn {} {}'.format(link, pages))
 print("echo")
 pf.pop()
