@@ -2,8 +2,8 @@ from core.api import Api, tm_search_user_data
 from core.threadme import ThreadMe
 import os
 import json
-from .util import mkBunch, js_write, get_huecos, PrintFile
-from core.util import gW, chunks, mkArg
+from .util import mkBunch, js_write, get_huecos
+from core.util import gW, chunks, mkArg, PrintFile
 from glob import glob
 import sys
 import shutil

@@ -1,4 +1,3 @@
-
 from os.path import abspath, dirname, basename
 import os
 import json
@@ -116,25 +115,3 @@ def get_huecos(db, column, where=None, min_id=1, max_id=None):
             for i in range(cursor, max_id+1):
                 yield i
             break
-
-class PrintFile():
-    def __init__(self):
-        self.outs=[sys.stdout]
-
-    def append(self, file):
-        sys.stdout = self
-        self.outs.append(open(file, "w"))
-
-    def write(self, message):
-        for out in self.outs:
-            out.write(message)
-
-    def flush(self):
-        pass
-
-    def pop(self):
-        if len(self.outs)==2:
-            fl = self.outs.pop()
-            fl.close()
-        if len(self.outs)==1:
-            sys.stdout = self.outs[0]

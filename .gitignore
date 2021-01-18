@@ -8,7 +8,9 @@ borrame.py
 *update.sql
 *.7z
 *.xz
-wget*.sh
+sql/debug/*.csv
+debug/*.sh
+debug/*.sql
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
