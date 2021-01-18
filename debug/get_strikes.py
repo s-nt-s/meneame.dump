@@ -1,10 +1,10 @@
 from core.util import PrintFile
 import os
-from glob import glob
 import sys
 import gzip
 import bs4
 from bunch import Bunch
+from glob import glob
 import re
 
 if len(sys.argv)==1:
