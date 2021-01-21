@@ -44,7 +44,7 @@ function dwn {
 '''.strip())
 lastyear = None
 for l in readlines("../sql/debug/year_link_comments.csv"):
-    year, link, comments = (int(i) for i in l.split())
+    year, link, comments = map(int, l.split())
     if comments == 0:
         continue
     if year != lastyear:
