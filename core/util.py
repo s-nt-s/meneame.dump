@@ -29,25 +29,31 @@ def chunks(lst, n):
     if arr:
         yield arr
 
-def read_yml_all(*fls):
+def multiopen(*fls):
     if len(fls)==1 and "*" in fls[0]:
         fls=sorted(glob(fls[0]))
     for fl in fls:
         if os.path.isfile(fl):
             with open(fl, 'r') as f:
-                for i in yaml.load_all(f, Loader=yaml.FullLoader):
-                    yield i
+                yield f
+
+def read_yml_all(*fls):
+    for f in multiopen(*fls):
+        for i in yaml.load_all(f, Loader=yaml.FullLoader):
+            yield i
 
 def readlines(*fls):
-    if len(fls)==1 and "*" in fls[0]:
-        fls=sorted(glob(fls[0]))
-    for fl in fls:
-        if os.path.isfile(fl):
-            with open(fl, 'r') as f:
-                for i in f.readlines():
-                    i = i.strip()
-                    if i and not i[0]=="#":
-                        yield i
+    for f in multiopen(*fls):
+        for i in f.readlines():
+            i = i.strip()
+            if i and not i[0]=="#":
+                yield i
+
+def read(fl):
+    with open(fl, "r") as f:
+        txt = f.read()
+        txt = txt.strip()
+        return txt
 
 def parse_tag(tag, main=True):
     tag = re_sp.sub(" ", tag).strip()

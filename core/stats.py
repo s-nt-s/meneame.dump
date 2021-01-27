@@ -30,7 +30,7 @@ def get_root(dom):
 class Stats:
     def __init__(self):
         self.db = DB()
-        self.min_tag=300
+        self.min_tag = 300
         self.max_date, self.min_date = self.db.one('''
             select
                 max(sent_date),
@@ -146,7 +146,8 @@ class Stats:
                 "total": sum(count_cmt.values()),
                 "status": count_cmt
             },
-            "posts": self.db.one("select count(*) from POSTS")
+            #"posts": self.db.one("select count(*) from POSTS")
+            "posts": self.db.one("select sum(posts) from ACTIVIDAD")
         }
 
     def get_karma(self, where=None):
