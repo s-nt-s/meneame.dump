@@ -7,6 +7,14 @@ from MySQLdb.cursors import DictCursor
 from dateutil.relativedelta import relativedelta
 from bunch import Bunch
 
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+
+def cut_date(dt):
+    dt = dt + relativedelta(months=1)
+    dt = dt.replace(day=1)
+    return dt.date()
+
 
 def read_file(file, *args, **kargv):
     with open(file, "r") as f:
@@ -37,6 +45,7 @@ class Stats:
                 min(sent_date)
             from GENERAL
         ''')
+        self.cut_date = cut_date(self.max_date)
         self.max_portada, self.min_portada = self.db.one('''
             select
                 max(id),
@@ -65,6 +74,10 @@ class Stats:
         self.db.close()
 
     @property
+    def le_cut_date(self):
+        return self.cut_date - relativedelta(days=1)
+
+    @property
     @lru_cache(maxsize=None)
     def aede(self):
         return tuple(readlines("extra/aede.txt"))
@@ -88,6 +101,7 @@ class Stats:
     def counts(self):
         sql_1=[]
         sql_2=[]
+        sql_3=[]
         for s in self.status:
             if s is None:
                 sql_1.append('''
@@ -129,7 +143,6 @@ class Stats:
                     GENERAL
             ) T
         '''.format(",\n".join(sql_2), ",\n".join(sql_1)).strip()
-
         count=self.db.one(sql, cursor=DictCursor)
         count={k: int(v) for k,v in count.items()}
         count_cmt={}
@@ -137,18 +150,99 @@ class Stats:
             if k.startswith("cmt_"):
                 count_cmt[k[4:]]=v
                 del count[k]
+        cut_date = self.cut_date.strftime('%Y%m%d')
+        cut_date = "`sent_date` < STR_TO_DATE('"+cut_date+"', '%Y%m%d')"
+        lk, cm = self.db.one("select count(*), sum(comments) from LINKS where "+cut_date)
         return {
             "links": {
-                "total": sum(count.values()),
+                "total": lk,
+                "general": sum(count.values()),
                 "status": sorted(count.items(), key=lambda x:(-x[1], x[0]))
             },
             "comments": {
-                "total": sum(count_cmt.values()),
+                "total": cm,
+                "general": sum(count_cmt.values()),
                 "status": count_cmt
             },
             #"posts": self.db.one("select count(*) from POSTS")
             "posts": self.db.one("select sum(posts) from ACTIVIDAD")
         }
+
+    @property
+    @lru_cache(maxsize=None)
+    def strikes(self):
+        cut_date = self.cut_date.strftime('%Y%m%d')
+        cut_date = "`date` < STR_TO_DATE('"+cut_date+"', '%Y%m%d')"
+        i_sql = """
+            select
+                count(*) total,
+                count(distinct user_id) `usuarios`,
+                count(distinct link) `links`,
+                min(`date`) ini,
+                max(`date`) fin
+            from
+                STRIKES
+            where """+cut_date
+        strikes = self.db.one(i_sql, cursor=DictCursor)
+        ratio = (self.cut_date - strikes['ini'].date())
+        ratio = ratio.days
+        ratio = ratio / strikes['total']
+        ratio = round(ratio)
+        strikes['ratio'] = ratio
+        strikes['reason']={}
+        i_sql = i_sql+" and reason='{}'"
+        for r in self.db.to_list("select distinct reason from STRIKES where "+cut_date):
+            strikes['reason'][r]=self.db.one(i_sql.format(r), cursor=DictCursor)
+        strikes['reason'] = sorted(strikes['reason'].items(), key=lambda kv:(-kv[1]['total'], kv[0]))
+        sql = '''
+            select
+                count(*) usuarios,
+                strikes
+            from
+            (
+                select
+                    count(*) strikes
+                from
+                    STRIKES
+                where '''+cut_date+"""
+                group by user_id
+            ) T
+            group by
+                strikes
+            order by
+                strikes desc
+        """
+        user_strike = self.db.to_list(sql)
+        strikes['user_strike'] = user_strike
+        return strikes
+
+    def get_strikes_data(self):
+        rows = []
+        cut_date = self.cut_date.strftime('%Y%m%d')
+        cut_date = "`date` < STR_TO_DATE('"+cut_date+"', '%Y%m%d')"
+        reasons=[]
+        users = []
+        for i in self.db.select("""
+            select
+                S.reason,
+                S.user_id user,
+                CAST(S.`date` as DATE) `date`,
+                CAST(U.`create` as DATE) user_date
+            from
+                STRIKES S LEFT JOIN USERS U on S.user_id = U.id
+            where """+cut_date+" order by `date`", cursor=DictCursor):
+            if i['reason'] not in reasons:
+                reasons.append(i['reason'])
+            i['reason'] = reasons.index(i['reason'])
+            if i['user'] not in users:
+                users.append(i['user'])
+            i['user'] = users.index(i['user'])+1
+            rows.append(i)
+        data = {
+            "reasons": reasons,
+            "strikes": rows
+        }
+        return data
 
     def get_karma(self, where=None):
         if where is None:
@@ -300,9 +394,7 @@ class Stats:
         else:
             where = "and " + where
         min_year = self.min_date.year
-        max_year = self.max_date.year
-        if self.max_date.month == 12:
-            max_year = max_year + 1
+        max_year = self.cut_date.year
         data={}
         for yr, total in self.db.select('''
             select
@@ -398,9 +490,7 @@ class Stats:
     def get_tags(self):
         #min_dt, max_dt = self.db.one("select min(trimestre), max(trimestre) from GENERAL")
         min_dt = self.min_date.year
-        max_dt = self.max_date.year
-        if self.max_date.month == 12:
-            max_dt = max_dt + 1
+        max_dt = self.cut_date.year
         data={}
         for key, total in self.db.select('''
             select

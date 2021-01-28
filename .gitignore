@@ -5,7 +5,6 @@
 *.txt
 !requirements.txt
 borrame.py
-*update.sql
 *.7z
 *.xz
 sql/debug/*.csv

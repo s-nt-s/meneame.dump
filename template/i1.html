@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <title>Informe de datos de meneame.net</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="https://yaireo.github.io/tagify/dist/tagify.css">
     {% for c in css %}
       <link href="{{c}}" rel="stylesheet" type="text/css" data-autoinsert="1"/>
@@ -20,11 +19,11 @@
       <a href="https://www.meneame.net/queue">cola</a> de la <b>edición general</b>
       de <code>meneame.net</code> desde el
       <a href="https://www.meneame.net/story/{{st.min_portada}}"><code>{{st.min_date.strftime("%d/%m/%Y")}}</code></a>
-      hasta el 
+      hasta el
       <a href="https://www.meneame.net/story/{{st.max_portada}}"><code>{{st.max_date.strftime("%d/%m/%Y %H:%M")}}</code></a>,
       lo que representa
-      <code>{{st.counts.links.total | millar }}</code> noticias y
-      <code>{{st.counts.comments.total | millar }}</code> comentarios repartidos en:
+      <code>{{st.counts.links.general | millar }}</code> noticias y
+      <code>{{st.counts.comments.general | millar }}</code> comentarios repartidos en:
     </p>
     <table>
       <thead>

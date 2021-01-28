@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Informe de datos de meneame.net</title>
+    <link rel="stylesheet" type="text/css" href="https://yaireo.github.io/tagify/dist/tagify.css">
+    {% for c in css %}
+      <link href="{{c}}" rel="stylesheet" type="text/css" data-autoinsert="1"/>
+    {% endfor %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    {% for js in javascript %}
+      <script src="{{js}}" data-autoinsert="1"></script>
+    {% endfor %}
+  </head>
+  <body>
+    <p>
+      En el anterior <a href="/meneame_en_datos/">informe sobre Menéame</a>
+      explique por encima las razones por las que no habia aportado datos
+      sobre los <code>strikes</code> pero al final he decidido hacer una primera
+      aproximación.
+    </p>
+    <p>
+      Se han capturado <code>{{st.strikes.total | millar}} strikes</code>
+      desde <code>{{st.strikes.ini.strftime("%d/%m/%Y")}}</code> hasta
+      <code>{{st.le_cut_date.strftime("%d/%m/%Y")}}</code>
+      repartidos de la siguiente manera:
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Strike</th>
+          <th rowspan="2">Usuarios<sup>1</sup></th>
+          <th colspan="2">Visto</th>
+        </td>
+        <tr>
+          <th>#</th>
+          <th>Razón</th>
+          <th>desde<sup>2</sup></th>
+          <th>hasta<sup>3</sup></th>
+        </tr>
+      </thead>
+      <tbody>
+   {% for r, c in st.strikes.reason %}
+        <tr>
+          <td class="rg"><code>{{c.total | millar}}</code></td>
+          <td>{{r}}</td>
+          <td class="rg"><code>{{c.usuarios | millar}}</code></td>
+          <td><code>{{c.ini.strftime("%d/%m/%Y")}}</code></td>
+          <td><code>{{c.fin.strftime("%d/%m/%Y")}}</code></td>
+        </tr>
+   {% endfor%}
+     </tbody>
+    </table>
+    <p>Notas:</p>
+    <ol>
+      <li>Usuarios únicos, es decir: ¿Cuantos usuarios distintos tienen uno o más strikes de este tipo?</li>
+      <li>Primera fecha en la que se vio un strike de este tipo</li>
+      <li>Última fecha en la que se vio un strike de este tipo</li>
+    </ol>
+    <p>
+      En números absolutos, ha habido aproximadamente
+      un <code>strike</code> cada <code>{{st.strikes.ratio}}</code> días
+      y se han visto afectados un total de
+      <code>{{st.strikes.usuarios | millar}}</code> usuarios, los cuales
+      se reparten así:
+    </p>
+    <ul>
+   {% for u, s in st.strikes.user_strike %}
+      <li>
+        {% if u == 1 %}
+        {% if s == 1 %}
+        <code>1</code> usuario ha recibido <code>1 strikes</code>
+        {% else %}
+        <code>1</code> usuario ha recibido <code>{{s}} strikes</code>
+        {% endif %}
+        {% else %}
+        {% if s == 1 %}
+        <code>{{u}}</code> usuarios has recibido <code>1 strikes</code> cada uno
+        {% else %}
+        <code>{{u}}</code> usuarios han recibido <code>{{s}} strikes</code> cada uno
+        {% endif %}
+        {% endif %}
+      </li>
+   {% endfor%}
+    </ul>
+  </body>
+</html>

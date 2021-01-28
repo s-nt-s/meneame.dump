@@ -6,6 +6,18 @@ import json
 from jinja2 import Environment, FileSystemLoader
 from glob import iglob
 from os.path import relpath
+from datetime import date, datetime
+import json
+
+re_date = re.compile(r'"(new Date\(.*?\))"')
+epoch = datetime.utcfromtimestamp(0)
+
+def my_convert(o):
+    if isinstance(o, date):
+        return o.strftime("new Date(%y, %-m-1, %d, 0, 0, 0, 0)")
+    if isinstance(o, datetime):
+        miliseg = (o - epoch).total_seconds() * 1000
+        return "new Date(%s)" % miliseg
 
 re_br = re.compile(r"<br/>(\s*</)")
 
@@ -95,11 +107,12 @@ class Jnj2():
         with open(destino, "w") as f:
             for i, (k, v) in enumerate(kargv.items()):
                 if i > 0:
-                    f.write(";\n")
+                    f.write("\n")
                 f.write("var "+k+" = ")
-                json.dump(v, f, indent=indent,
-                          separators=separators)
-                f.write(";")
+                v = json.dumps(v, indent=indent,
+                          separators=separators, default=my_convert)
+                v = re_date.sub(r"\1", v)
+                f.write(v+";")
 
     def exists(self, destino):
         destino = self.destino + destino
