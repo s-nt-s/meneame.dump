@@ -30,14 +30,22 @@ class Jnj2():
         self.pre = pre
         self.post = post
         self.lastArgs = None
+        self.resources = [self.destino]
+
+    def _find(self, glb, recursive=True):
+        arr=[]
+        for r in self.resources:
+            for i in iglob(r+glb, recursive=recursive):
+                arr.append(relpath(i, self.destino))
+        return sorted(arr)
 
     @property
     def javascript(self):
-        return sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.js", recursive=True))
+        return self._find("/**/*.js")
 
     @property
     def css(self):
-        return sorted(relpath(i,self.destino) for i in iglob(self.destino+"/**/*.css", recursive=True))
+        return self._find("/**/*.css")
 
     def save(self, template, destino=None, parse=None, **kwargs):
         self.lastArgs = kwargs
