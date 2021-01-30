@@ -55,7 +55,7 @@
             comentarios o comportamientos</li>
           <li>anuncio que para motivar la transparencia proximamente habria un metodo
           para que todos los usuarios pudieran saber si un comentario ha sido objeto
-          de <code>strike</code> y porqué</li>
+          de <code>strike</code></li>
         </ul>
       </li>
       <li>
@@ -139,14 +139,38 @@
     <p>
       <b>¿Qué vemos aquí?</b>
     </p>
+    <p>
+      Lo primero que llama la atención es que la lista de <code>strikes</code>
+      no coincide con las <a href="https://github.com/Meneame/meneame.net/blob/master/www/templates/report_new.html">opciones que ve el usuario cuando reporta un comentario</a>.
+      Consultando la clase <a href="https://github.com/Meneame/meneame.net/blob/master/www/libs/strike.php#L11"><code>strike</code> el el código fuente</a>
+      comprobaos que nuestra lista es correcta (solo falta <code>Bulo</code> y seguramente sea porque el repositorio no esta actualizado),
+      y si consultanos el <a href="https://github.com/Meneame/meneame.net/commits/master/www/templates/report_new.html">historico del formulario</a>
+      verificamos que algunas opciones no estaban disponibles en el momento que se usaron.
+    </p>
+    <p>
+      La unica explicación que se me ocurre es que no haya una correspondencia 1 a 1
+      entre <code>reporte</code> y <code>strike</code>, y que haya un paso intermedio
+      entre que se da por bueno un <code>reporte</code> y se asigna el <code>strike</code>
+      donde el moderador elige el tipo de <code>strike</code> definitivo, por ejemplo
+      rebajando un reporte por <code>incitación al odio</code> a <code>contenido inapropiado</code>
+    </p>
+    <p>
+      Esto dificulta sacar conclusiones sobre que motiva a los usuarios a reportar
+      un comentario ya que ellos pueden estar reportando por una causa X y terminar
+      quedando reflejada una causa Z.
+    </p>
     <ul>
       <li>La inmensa mayoria de los <code>strikes</code> se concentra en los
         3 primeros tipos, lo que probablemente signifique que los usuarios
         apenas reportan comentarios por las otras causas (Spam, normas de uso, etc)
-        ya sea porque no les importa demasiado que esas normas se imcumplan,
-        ya sea porque la trasgresión de esas normas no valen el esfuerzo de reportar
-        (y quiza lo dejen en un voto negativo y ya esta),
-        ya sea porque realmente esas normas se cumplan sin necesidad de <code>strikes</code>.
+        habiendo tres posibles causas:
+        <ul>
+          <li>Esas normas apenas se incumplen</li>
+          <li>Esas normas se incumplen pero a los usuarios no les importa demasiado</li>
+          <li>Esas normas se incumplen pero los usuarios piensan que no son
+            merecedoras de un <code>strike</code> y lo dejan en un voto negativo
+            a lo sumo</li>
+        </ul>
         La unica excepción podria ser el <code>strike Bulo</code> ya que viendo
         su primera fecha de uso parece que es de muy reciente creacción
         y aún así ya esta en 4º posición.
