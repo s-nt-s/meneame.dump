@@ -28,6 +28,6 @@ for (i=0;i<ks.length;i++) {
   k = ks[i];
   if (k!="uso_tiempo") {
     v = modelos[k];
-    modelos[k]=parseObj(modelos[k]);
+    modelos[k]=parseObj(v);
   }
 }

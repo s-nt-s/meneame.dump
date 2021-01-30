@@ -210,10 +210,10 @@ function doAgrupar(tipo, keys) {
       new_keys.push(t);
       re_index[i]=lst+1;
     }
-    if (m==6) last_piece=new_keys.length;
-    if (letter=="T" && (m==3 || m==6 || m==9)) last_piece=new_keys.length;
-    if (letter=="C" && (m==4 || m==8)) last_piece=new_keys.length;
-    if (letter=="S" && (m==6)) last_piece=new_keys.length;
+    if (m==6 || m==12) last_piece=new_keys.length;
+    if (letter=="T" && (m==3 || m==6 || m==9 || m==12)) last_piece=new_keys.length;
+    if (letter=="C" && (m==4 || m==8 || m==12)) last_piece=new_keys.length;
+    if (letter=="S" && (m==6 || m==12)) last_piece=new_keys.length;
   })
   new_keys=new_keys.slice(0, last_piece);
   if (letter!="Y") new_keys = new_keys.map(function(a) {return a.toFixed(2).replace(".0", " "+letter)})
