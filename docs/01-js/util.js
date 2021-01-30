@@ -66,3 +66,20 @@ function array_move(arr, element, new_index) {
   arr.splice(new_index, 0, arr.splice(old_index, 1)[0]);
   return arr;
 };
+
+function round(p, dec, sig) {
+  if (dec==null) dec=0;
+  if (sig==null) sig=1;
+  if (sig==0 && dec==0) return Math.round(p);
+  while (true) {
+    var m = Math.pow(10, dec);
+    var x = Math.round(p*m)/m;
+    if (x!=0) {
+      if (sig==1) return x;
+      m = Math.pow(10, dec+sig-1);
+      x = Math.round(p*m)/m;
+      return x;
+    }
+    dec = dec + 1;
+  }
+}

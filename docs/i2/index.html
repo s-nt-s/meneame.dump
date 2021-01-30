@@ -11,19 +11,83 @@
 <script data-autoinsert="1" src="../00-libs/sigma.plugins.animate.min.js"></script>
 <script data-autoinsert="1" src="../00-libs/tagify.js"></script>
 <script data-autoinsert="1" src="../01-js/util.js"></script>
-<script data-autoinsert="1" src="data/graph.js"></script>
-<script data-autoinsert="1" src="data/modelos.js"></script>
+<script data-autoinsert="1" src="data/strikes.js"></script>
+<script data-autoinsert="1" src="data/zz-modelos.js"></script>
 <script data-autoinsert="1" src="js/00-graph.js"></script>
 <script data-autoinsert="1" src="js/00-tag.js"></script>
 <script data-autoinsert="1" src="js/chart.js"></script>
 </head>
 <body>
 <p>
-      En el anterior <a href="/meneame_en_datos/">informe sobre Menéame</a>
-      explique por encima las razones por las que no habia aportado datos
-      sobre los <code>strikes</code> pero al final he decidido hacer una primera
-      aproximación.
+      En el <a href="/meneame_en_datos/">anterior informe sobre Menéame</a>
+      explique brevemente porque no iba a analizar los <code>strikes</code>,
+      sin embargo finalmente me he animado a ello y aquí teneis los resultados
+    </p><p>
+</p><h2>Consideraciones previas</h2>
+<p>
+      Antes de empezar vamos a tratar unos puntos claves para contextualizar los datos:
     </p>
+<ol>
+<li>
+        La funcionalidad de <code>strikes</code> se implemento en algun momento
+        posterior al <a href="https://github.com/Meneame/meneame.net/blob/master/sql/2017-02-24-strikes.sql">24/02/2017</a>
+        pero no he encontrado ningún comunicado oficial y fechado de cuando
+        entro en vigor, así que usaremos como referencia la fecha del
+        primer <code>strike</code> detectado (<code>07/04/2017</code>).
+      </li>
+<li>
+        En <a href="https://www.meneame.net/normas-comunidad">las normas de Menéame</a>
+        se pueden consultar el significado de la mayor parte de tipos de <code>strikes</code>.
+      </li>
+<li>
+        En <a href="https://www.meneame.net/legal#penalizaciones">la información legal de Menéame (apartado Penalizaciones)</a>
+        podemos consultar las consecuencias de los <code>strikes</code>.
+      </li>
+<li>
+<a href="https://blog.meneame.net/2019/03/26/revision-de-las-normas-de-uso-de-la-comunidad-hacia-una-conversacion-mas-sana/" title="2019-03-26 Revisión de las normas de uso de la comunidad: hacia una conversación más sana">En
+          26/03/2019 la administración de Méneame</a>:
+        <ul>
+<li>indica que se reciben muchas quejas por los strikes</li>
+<li>
+            recuerda que la administración no da <code>strikes</code> proactivamente,
+            si no que solo se revisan comentarios previamente reportados por otros usuarios
+            (en la <a href="https://github.com/Meneame/meneame.net/wiki/Abusos">wiki</a>
+            tambien se dice que la mayoría de los reportes se desestiman)
+          </li>
+<li>aclara que aunque un <code>strike</code> queda asociado a un unico
+            comentario este puede estar motivado por la reiteración de
+            comentarios o comportamientos</li>
+<li>anuncio que para motivar la transparencia proximamente habria un metodo
+          para que todos los usuarios pudieran saber si un comentario ha sido objeto
+          de <code>strike</code> y porqué</li>
+</ul>
+</li>
+<li>
+        En cuanto el último punto (el de la transparencia) no se si se ha llegado a implementar.
+        La realidad es que lo unico que denota que un comentario tiene un <code>strike</code>
+        es una <a href="https://github.com/Meneame/meneame.net/blob/60fc5935e46fb72c47945abc63cd062803d030a8/www/libs/comment.php#L370">clase
+          incluida en el html</a>
+        lo cual se traduce en un comentario plegado y en gris. Inspeccionando el código
+        se puede <a href="https://github.com/Meneame/meneame.net/blob/60fc5935e46fb72c47945abc63cd062803d030a8/www/templates/comment_summary_text.html#L3">recuperar
+          la razón del <code>strike</code></a> y el <code>id</code>
+        del comentarío, con el cual podemos posteriormente recuerar el contenido del comentario.
+        Así que aunque es posible identificar comentarios con <code>strike</code>
+        con un poco de maña no creo a que esta sea la mejora a la que se referia
+        la administración en su blog.
+      </li>
+<li>
+        La Api de Menéame no devuelve ninguna información sobre <code>strikes</code>
+</li>
+</ol>
+<p>Sabiendo todo esto, podemos continuar teniendo en cuenta
+      que todos los datos aquí presentados parten de recolectar
+      unica y exclusivamente los <code>strikes</code> detectados
+      en comentarios inspeccionando código HTML, es decir,
+      si hay (que parece que no, pero no lo se a ciencia cierta)
+      algún tipo de <code>strike</code> que no se asocia a commentarios
+      de la manera que hemos visto quedará fuera del estudio.
+    </p>
+<h2>¿Cuantos strikes hay?</h2>
 <p>
       Se han capturado <code>486 strikes</code>
       desde <code>07/04/2017</code> hasta
@@ -118,7 +182,7 @@
 </table>
 <p>Notas:</p>
 <ol>
-<li>Usuarios únicos, es decir: ¿Cuantos usuarios distintos tienen uno o más strikes de este tipo?</li>
+<li>Usuarios únicos, es decir: ¿Cuantos usuarios <b>distintos</b> tienen uno o más strikes de este tipo?</li>
 <li>Primera fecha en la que se vio un strike de este tipo</li>
 <li>Última fecha en la que se vio un strike de este tipo</li>
 </ol>
@@ -126,8 +190,83 @@
       En números absolutos, ha habido aproximadamente
       un <code>strike</code> cada <code>3</code> días
       y se han visto afectados un total de
-      <code>398</code> usuarios, los cuales
-      se reparten así:
+      <code>398</code> usuarios.
+    </p>
+<p>
+      En otras palabras, entre <code>07/04/2017</code> y
+      <code>31/12/2020</code>
+      el <code title="486 de 10.294.798">0.005%</code> de los comentarios
+      recibieron un <code>strike</code> y el
+      <code title="398 de 33.575">1%</code> de los usuarios
+      que hicieron esos comentarios recibieron un <code>strike</code> o más.
+    </p>
+<p>
+<b>¿Qué vemos aquí?</b>
+</p>
+<ul>
+<li>La inmensa mayoria de los <code>strikes</code> se concentra en los
+        3 primeros tipos, lo que probablemente signifique que los usuarios
+        apenas reportan comentarios por las otras causas (Spam, normas de uso, etc)
+        ya sea porque no les importa demasiado que esas normas se imcumplan,
+        ya sea porque la trasgresión de esas normas no valen el esfuerzo de reportar
+        (y quiza lo dejen en un voto negativo y ya esta),
+        ya sea porque realmente esas normas se cumplan sin necesidad de <code>strikes</code>.
+        La unica excepción podria ser el <code>strike Bulo</code> ya que viendo
+        su primera fecha de uso parece que es de muy reciente creacción
+        y aún así ya esta en 4º posición.
+      </li>
+<li>¿Hay muchos o pocos <code>strikes</code>?
+        <a href="https://blog.meneame.net/2019/03/26/revision-de-las-normas-de-uso-de-la-comunidad-hacia-una-conversacion-mas-sana/">La
+        afirmación por parte de la administración de que recibe muchas
+        quejas</a> por los <code>strikes</code> y los abundantes
+        <a href="https://www.meneame.net/m/Art%C3%ADculos/search?q=strike">articulos</a>
+        y <a href="https://www.meneame.net/search?q=strike&amp;w=comments&amp;h=&amp;o=&amp;u=">comentarios</a>
+        quejandose de los <code>strikes</code> me hacian pensar que habria
+        muchos, pero muchos, más <code>strikes</code> y que habria muchos, pero muchos,
+        más usuarios afectados.
+        Puede que el problema sea mis espectativas inciales, o que yo nunca
+        haya administrado un foro, pero ahora no puedo evitar pensar
+        que la cantidad de <code>strikes</code> es minuscula.
+      </li>
+</ul>
+<p>
+      A partir de aqui, viendo la poca relevancia que tienen los <code>strikes</code>
+      me temo que el interes (y el morbo) por este estudio pierde muchos enteros.
+      Sin embargo, ya que tengo los datos... continuemos.
+    </p>
+<h2>¿Cual ha sido la evolución temporal de los strikes?</h2>
+<div class="data" data-modelo="timeline">
+<p>Mostrar cantidad de <code>strikes</code> en <select name="porcentaje">
+<option selected="selected" value="0">números absolutos</option>
+<option value="1">% del total</option>
+</select>
+</p>
+<canvas class="chart"></canvas>
+<p>
+<label>Unidad temporal:</label>
+<select name="agrupar">
+<option value="">mes</option>
+<option selected="selected" value="trimestre">trimestre</option>
+<!--option value="cuatrimestre">cuatrimestre</option-->
+<option value="semestre">semestre</option>
+<option value="year">anual</option>
+</select>
+</p>
+</div>
+<p>
+<b>¿Qué vemos aquí?</b>
+</p>
+<p>
+      Poca cosa, la verdad, la gŕafica es muy irregular, no hay una
+      tendencia clara ni a peor ni a mejor.
+      Personalmente, leyendo las quejas, me esperaba que la gráfica
+      fuera una linea claramente ascendente al menos en los dos
+      tipos de <code>strikes</code> más polemicos (insultos y odio)
+      pero ni eso, incluso bajan más que subir.
+    </p>
+<h2>¿Hay usuarios con muchos strikes?</h2>
+<p>Los <code>398</code> usuarios con <code>strikes</code>
+      se dividen en:
     </p>
 <ul>
 <li>
@@ -146,5 +285,97 @@
 <code>340</code> usuarios has recibido <code>1 strikes</code> cada uno
                       </li>
 </ul>
+<p>
+      Las quejas por los <code>strikes</code> suelen orbitar sobre la idea
+      de que son arbritarios y motivados por la ideologia. Es decir,
+      te cascan un <code>strikes</code> por no ser <em>politicamente correcto</em>
+      o por no comulgar con las ideas de los intransigentes.
+    </p>
+<p>
+      Estas quejas - desde la posición de "me estas censurando" -
+      naturalmente se enmarca en una
+      lucha por la libertad de expresión y por lo tanto es una reafirmación
+      en no callarse, en no ceder.
+    </p>
+<p>Por lo tanto es inevitable preguntarse ¿por que la inmensa mayoria de
+      los usuarios solo recibe un <code>strike</code>? ¿por qué hay tan pocos
+      usuarios con un historial de <code>strikes</code> que encaje con
+      una persecución? Las posibles explicaciones son:
+    </p>
+<ul>
+<li>
+        El usuario cambia de idiologia, se vuelve politicamente correcto,
+        cede a la censura o tras reflexinar se da cuenta de que el <code>strike</code>
+        esta bien puesto.
+        Esta opción hay que descartarla porque es incompatible con el nivel
+        de quejas que hay.
+      </li>
+<li>
+        El usuario abandona la plataforma. Es posible, marcamos esta hipotesis
+        para verificar más adelante
+      </li>
+<li>
+        Nuestro conteo no esta teniendo en cuenta que una persona puede tener
+        varios usuarios, es más, una posible motivación para cambiar de usuario
+        puede ser haber recibido un <code>strike</code>. Esta hipotesis
+        tambien es posible pero:
+        <ul>
+<li>No la puedo verificar</li>
+<li>
+            Si fuera cierta,
+            el dato de que <code>398</code> usuarios
+            han recibido <code>strikes</code> no correspondería a
+            <code>398</code> personas si no a menos.
+            Cuanto más importancia le demos a esta hipotesis (que la gente
+            es perseguida pero no se refleja en los datos porque cambian de usuario)
+            mas pequeña sera la supuesta persecución y más irrelevantes
+            seran los <code>strikes</code> y la polemica a su alrededor.
+          </li>
+</ul>
+</li>
+</ul>
+<p>
+      Es imposible validar completamente la hipotesis de que los usuarios con
+      <code>strike</code> abandonan la plataforma a causa de estos
+      (incluso habiendo abandono, este puede ser por otra causa), pero
+      si esto fuera cierto deberíamos ver en cada usuario una correlación
+      entre la fecha de su último <code>strike</code> y la fecha
+      de la eliminación o abandono de cuenta (para estas fechas voy a usar
+      el mismo calculo que ya se explico en el <a href="/meneame_en_datos/">punto
+      2.B del anterior informe</a>).
+    </p>
+<div class="data" data-modelo="abandono">
+<p>
+        Generar gráfica con usuarios que estuvieran en Méneame
+         <select name="presencia">
+<option value="">más de 0 días (todos)</option>
+<option value="1">más de 1 día</option>
+<option value="15">más de 15 días</option>
+<option value="30">más de 1 mes</option>
+<option selected="selected" value="180">más de 6 meses</option>
+<option value="365">más de 1 año</option>
+</select>
+        y tomando como referencia la <select name="abandono">
+<option value="abandono">fecha de abandono o eliminación</option>
+<option value="eliminacion">fecha de eliminación</option>
+</select>
+<br/>
+<input id="nostay" name="nostay" type="checkbox"/> <label for="nostay">
+          Ocultar usuarios que permanecen (facilita ver las demás barras)
+        </label>
+</p>
+<canvas class="chart"></canvas>
+</div>
+<h2>¿De que época son los usuarios con strikes?</h2>
+<div class="data" data-modelo="creacion">
+<canvas class="chart"></canvas>
+</div>
+    Para contestualizar esta gráfica necesitamos saber
+    como estaba compuesta los usuarios que mandaron comentarios
+    a Meneáme entre <code>07/04/2017</code> y
+    <code>31/12/2020</code>
+<div class="data" data-modelo="poblacion">
+<canvas class="chart"></canvas>
+</div>
 </body>
 </html>

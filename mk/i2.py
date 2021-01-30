@@ -20,7 +20,7 @@ jHtml.resources.extend([
     "docs/css"
 ])
 
-jHtml.create_script("data/modelos.js", replace=True,
+jHtml.create_script("data/strikes.js", replace=True,
     strikes=st.get_strikes_data()
 )
 jHtml.save("i2.html",

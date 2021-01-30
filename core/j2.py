@@ -14,7 +14,7 @@ epoch = datetime.utcfromtimestamp(0)
 
 def my_convert(o):
     if isinstance(o, date):
-        return o.strftime("new Date(%y, %-m-1, %d, 0, 0, 0, 0)")
+        return o.strftime("new Date(%Y, %-m-1, %-d)")
     if isinstance(o, datetime):
         miliseg = (o - epoch).total_seconds() * 1000
         return "new Date(%s)" % miliseg
@@ -32,12 +32,23 @@ def millar(value):
     value = "{:,.0f}".format(value).replace(",", ".")
     return value
 
+def prc(total, part):
+    p = (part / total) * 100
+    dec = 0
+    while round(p, dec)==0:
+        dec = dec + 1
+    p = round(p, dec)
+    if p == int(p):
+        p = int(p)
+    return "<code title='{} de {}'>{}%</code>".format(millar(part), millar(total), p)
+
 class Jnj2():
 
     def __init__(self, origen, destino, pre=None, post=None):
         self.j2_env = Environment(
             loader=FileSystemLoader(origen), trim_blocks=True)
         self.j2_env.filters['millar'] = millar
+        self.j2_env.globals.update(prc=prc)
         self.destino = destino
         self.pre = pre
         self.post = post

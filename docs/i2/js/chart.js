@@ -1,5 +1,16 @@
 var DFL_COLOR = [
-  "black", "blue", "green", "SaddleBrown", "Purple", "Lime", "lightcoral", "orange", "Aqua", "Fuchsia", "yellow"
+  "black",
+  "blue",
+  "green",
+  "SaddleBrown",
+  "Purple",
+  "Lime",
+  "lightcoral",
+  "orange",
+  "Aqua",
+  "Fuchsia",
+  "yellow",
+  "red"
 ];
 Chart.defaults.LineWithLine = Chart.defaults.line;
 Chart.controllers.LineWithLine = Chart.controllers.line.extend({
@@ -34,12 +45,16 @@ var d_color={
   "blue": {
     backgroundColor: 'rgba(54, 162, 235, 0.2)',
     borderColor: 'rgba(54, 162, 235, 1)',
+  },
+  "green": {
+    backgroundColor: "rgb(60, 255, 60, 0.2)",
+    borderColor: "rgb(60, 255, 60)"
   }
 }
 
 function setGraphChart(obj, dataset) {
     if (obj.id==null) obj.id = "myChart";
-    if (obj.type==null) obj.type = "bar";
+    if (obj.type==null) throw "El parámetro type es obligatorio";
     var elem = (typeof obj.id == "string")?document.getElementById(obj.id):obj.id;
     if (obj.destroy) {
       var $elem = $(elem);
@@ -107,6 +122,9 @@ function setGraphChart(obj, dataset) {
             }
         }
     };
+    if (obj.tooltips) {
+      dat.options.tooltips.callbacks = obj.tooltips;
+    }
     if (obj.porcentaje) {
       dat.options.scales.yAxes[0].ticks.callback=function(value, index, values) {
           return value+' %';
@@ -185,7 +203,8 @@ function mesTo(ym) {
   return obj;
 }
 
-function doAgrupar(tipo, keys) {
+function doAgrupar(tipo, keys, trim) {
+  if (trim==null) trim={r:true, l:true};
   var letter = tipo[0].toUpperCase();
   var re_index={}
   var last_piece=null;
@@ -194,7 +213,7 @@ function doAgrupar(tipo, keys) {
     var lst = new_keys.length-1;
     var dt_mes = mesTo(item);
     var m = dt_mes.mes;
-    if (lst==-1) {
+    if (lst==-1 && trim.l) {
       if (letter=="T" && !(m==1 || m==4 || m==7 || m==10)) return;
       if (letter=="C" && !(m==1 || m==5 || m==9)) return;
       if (letter=="S" && !(m==1 || m==6)) return;
@@ -210,12 +229,14 @@ function doAgrupar(tipo, keys) {
       new_keys.push(t);
       re_index[i]=lst+1;
     }
-    if (m==6) last_piece=new_keys.length;
-    if (letter=="T" && (m==3 || m==6 || m==9)) last_piece=new_keys.length;
-    if (letter=="C" && (m==4 || m==8)) last_piece=new_keys.length;
-    if (letter=="S" && (m==6)) last_piece=new_keys.length;
+    if (m==6 || m==12) last_piece=new_keys.length;
+    if (letter=="T" && (m==3 || m==6 || m==9 || m==12)) last_piece=new_keys.length;
+    if (letter=="C" && (m==4 || m==8 || m==12)) last_piece=new_keys.length;
+    if (letter=="S" && (m==6 || m==12)) last_piece=new_keys.length;
   })
-  new_keys=new_keys.slice(0, last_piece);
+  if (trim.r) {
+    new_keys=new_keys.slice(0, last_piece);
+  }
   if (letter!="Y") new_keys = new_keys.map(function(a) {return a.toFixed(2).replace(".0", " "+letter)})
   return {
     "keys": new_keys,
@@ -231,6 +252,12 @@ function render_chart() {
     console.log(key_modelo+" no encontrado");
     return;
   }
+  var rd = render_builder[key_modelo];
+  if (rd==null) {
+    console.log(key_modelo+" no encontrado builder");
+    return;
+  }
+  if (typeof mdl == "function") mdl=mdl.apply(t, []);
   var tags = t.find(".tag_filter:not(.tagify)").data("mytagify");
   if (tags) {
     tags = tags.value.filter(function(x){
@@ -242,7 +269,7 @@ function render_chart() {
   var prc = t.find("*[name=porcentaje]").val()=="1";
   var agrupar = t.find("*[name=agrupar]").val();
   if (agrupar && agrupar!="mes") {
-    var agr = doAgrupar(agrupar, mdl["keys"]);
+    var agr = doAgrupar(agrupar, mdl["keys"], {l:false, r:true});
     var _mdl = {
       "keys": agr.keys,
       "values": []
@@ -283,11 +310,6 @@ function render_chart() {
     });
     mdl=_mdl;
   }
-  var rd = render_builder[key_modelo];
-  if (rd==null) {
-    console.log(key_modelo+" no encontrado builder");
-    return;
-  }
   rd.apply(t, [mdl, {
     "porcentaje": prc,
     "agrupar": agrupar,
@@ -306,131 +328,148 @@ $(document).ready(function(){
 })
 
 render_builder={
-  "uso_tiempo":function(obj, options) {
-      var i,k,kl,v,c,h;
-      var tipo = $("#tipoCuando").val();
-      var xaxis={};
-      if (tipo=="dia") {
-        var horas = rg(24);
-        xaxis.label="Horas del día";
-        xaxis.divisor = 365;
-        xaxis.vals = {
-          "keys": horas.map(function(x){return "H"+x}),
-          "legend": horas.map(function(x) {
-            if (x==9) return "09-10";
-            if (x>9) return x+"-"+(x+1);
-            return "0"+x+"-0"+(x+1);
-          })
-        }
-      } else if (tipo=="semana") {
-        var dias = rg(7);
-        xaxis.label="Días de la semana";
-        xaxis.divisor = 52;
-        xaxis.vals = {
-          "keys": dias.map(function(x){return "W"+x}),
-          "legend": dias.map(function(x) {
-            return ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"][x]
-          })
-        }
-      } else if (tipo=="year") {
-        var meses = rg(1, 13);
-        xaxis.label="Meses del año";
-        xaxis.divisor = 1;
-        xaxis.vals = {
-          "keys": meses.map(function(x){return "M"+x}),
-          "legend": meses.map(function(x) {
-            return ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"][x-1]
-          })
-        }
+  "abandono": function(obj, options) {
+    var nostay = this.find("#nostay").is(":checked");
+    var labels=[];
+    var data=[];
+    var color=[];
+    obj.forEach((item, i) => {
+      var l=item[0];
+      if (l==9999) {
+        if (nostay) return;
+        l="∞";
+        color.push(d_color.green)
+      } else if (i==0) {
+        color.push(d_color.red)
+      } else {
+        color.push(d_color.blue)
       }
-      var year=parseInt($("#yearsTiempoNormal").val(), 10);//.map(function(x){return Number(x)});
-      if (isNaN(year)) year=null;
-      var data={};
-      Object.entries(obj).forEach(([y, value]) => {
-        y = parseInt(y, 10);
-        if (year==null || y==year) {
-          Object.entries(value).forEach(([k, v]) => {
-            if (xaxis.vals.keys.indexOf(k)!=-1) {
-              k=k.substr(1)
-              if (data[k]==null) data[k]=v;
-              else {
-                data[k]=zip_dict(data[k],v, function(a,b){return a+b})
-              }
+      if (l==9998) l=">12";
+      labels.push(l);
+      data.push(item[1]);
+    });
+    setGraphChart({
+        id: this.find("canvas")[0],
+        title: null,
+        labels: labels,
+        type: "bar",
+        x_label: "meses entre el strike y el abandono",
+        y_label: "número de usuarios",
+        destroy:true,
+        tooltips: {
+          title: function(i, data) {
+            return "";
+          },
+          label: function(i, data) {
+            var t = strikes["users"].length;
+            var u = i.value;
+            var p = round((Number(u) / t) * 100);
+            var m = i.label;
+            var w = Math.max(u.length, m.length);
+            w = w - u.length;
+            var s="";
+            while (s.length<w) s=s+"\u2007";
+            if (m=="∞") {
+              if (u==1) return `${s}${u} usuario (${p}%) aún no han abandonado`;
+              return `${s}${u} usuarios (${p}%) aún no han abandonado`;
             }
-          });
+            if (m==0) {
+              if (u==1) return `${s}${u} usuario (${p}%) abandono`;
+              return `${s}${u} usuarios (${p}%) abandonaron`;
+            }
+            if (m.startsWith(">")) {
+              if (u==1) return `${s}${u} usuario (${p}%) abandono despues de`;
+              return `${s}${u} usuarios (${p}%) abandonaron despues de`;
+            }
+            if (u==1) return `${s}${u} usuario (${p}%) abandono a`;
+            return `${s}${u} usuarios (${p}%) abandonaron a`;
+          },
+          afterLabel: function(i, data) {
+            var u = i.value;
+            var m = i.label;
+            if (m=="∞") return "";
+            var w = Math.max(u.length, m.length);
+            w = w - m.length;
+            var s="";
+            while (s.length<w) s=s+"\u2007";
+            if (m==0) return "el mismo día de su último strike";
+            if (m==1) return `${s}${m} mes de su último strike`;
+            if (m.startsWith(">")) {
+              m = m.substr(1);
+              w = w + 1;
+              var s="";
+              while (s.length<w) s=s+"\u2007";
+              return `${s}${m} meses o MÁS de su último strike`;
+            }
+            return `${s}${m} meses de su último strike`;
+          }
         }
-      });
-      Object.values(data).forEach((item, i) => {
-        item["todo"]=Object.values(item).reduce(function(a,b){return a+b}, 0);
-      });
-      data = parseObj(data);
-      xaxis.divisor = xaxis.divisor*(year?1:($("#yearsTiempoNormal option").length-1));
-      var mk_promedio=function(x) {
-        var a=x/xaxis.divisor;
-        var b=Math.round(a);
-        return b==0 && a!=0?(Math.round(a*10)/10):b;
-      }
-      var dataset = [];
-      var ks = Object.keys(data["values"][0]);
-      array_move(ks, "todo", 0);
-      for (i=0; i<ks.length; i++) {
-        k = ks[i];
-        var color = dcd(k,
-          "todo", "black",
-          "noticias", "green",
-          "comentarios", "blue",
-          "posts", "red",
-          "lightcoral"
-        );
-        var val = gF(data, k, (options.porcentaje?2:null));
-        if (!options.porcentaje) {
-          val = val.map(mk_promedio);
-        }
-        dataset.push({
-          label: (options.porcentaje?"% ":"")+k,
-          data: val,
-          fill: false,
-          //backgroundColor: d_color.blue.backgroundColor,
-          borderColor: color,
-          borderWidth: 1,
-          hidden: k!="todo",
-        })
-      }
-      setGraphChart({
-          id: this.find("canvas")[0],
-          title: null,
-          labels: xaxis.vals.legend,
-          type: 'LineWithLine',
-          destroy:true,
-          //max_y: t=="prc_"?100:null,
-          x_label: xaxis.label,
-          porcentaje:options.porcentaje
-      }, dataset);
+    }, [{
+        data: data,
+        borderWidth: 1,
+        backgroundColor: color.map(function(c){return c.backgroundColor}),
+        borderColor: color.map(function(c){return c.borderColor})
+    }])
   },
-  "count_estados":function(obj, options) {
+  "creacion": function(obj, options) {
+    var labels=[];
+    var data=[];
+    var color=[];
+    obj.forEach((item, i) => {
+      labels.push(item[0]);
+      data.push(item[1]);
+      color.push(d_color.blue)
+      var v = Number(item[1])
+    });
+    color[data.indexOf(Math.min(...data))] = d_color.green;
+    color[data.indexOf(Math.max(...data))] = d_color.red;
+    setGraphChart({
+        id: this.find("canvas")[0],
+        title: null,
+        labels: labels,
+        type: "bar",
+        x_label: "En menéame desde...",
+        y_label: "número de usuarios",
+        destroy:true,
+        tooltips: {
+          title: function(i, data) {
+            return "";
+          },
+          label: function(i, data) {
+            var t = strikes["users"].length;
+            var u = i.value;
+            var p = round((Number(u) / t) * 100);
+            if (u==1) return `${u} usuario (${p}%)`
+            return `${u} usuarios (${p}%)`;
+          },
+          afterLabel: function(i, data) {
+            var u = i.value;
+            var m = i.label;
+            return `en menéame desde ${m}`;
+          }
+        }
+    }, [{
+        data: data,
+        borderWidth: 1,
+        backgroundColor: color.map(function(c){return c.backgroundColor}),
+        borderColor: color.map(function(c){return c.borderColor})
+    }])
+  },
+  "timeline": function(obj, options) {
     var dataset = [];
-    var i, k, kl;
+    var i, k, kl, color;
     var ks = Object.keys(obj["values"][0]);
     for (i=0; i<ks.length; i++) {
       k = ks[i];
-      var color = dcd(k,
-        "total", "black",
-        "published", "green",
-        "autodiscard", "lightsalmon",
-        "discard", "red",
-        "queued", "grey",
-        "lightcoral"
-      );
+      color = DFL_COLOR[i] || "grey";
       dataset.push({
         label: k,
         data: gF(obj, k),
         fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
         borderColor: color,
+        //backgroundColor: d_color.blue.backgroundColor,
         borderWidth: 1,
-        hidden: k=="autodiscard",
-        fill: k=="autodiscard",
-        backgroundColor:k=="autodiscard"?color:null
+        hidden: strikes["total"][k]<6
       })
     }
     setGraphChart({
@@ -443,272 +482,46 @@ render_builder={
         porcentaje:options.porcentaje
     }, dataset);
   },
-  "count_categorias_todas": function(obj, options) {
-    var dataset = [];
-    var i, k, kl, color;
-    var ks = Object.keys(obj["values"][0]);
-    var colors = ["black", "grey", "blue", "green", "SaddleBrown", "lightcoral", "yellow", "orange", "pink"];
-    if (options.porcentaje) colors = colors.slice(1);
-    for (i=0; i<ks.length; i++) {
-      k = ks[i];
-      color = colors[i] || "grey";
-      dataset.push({
-        label: k,
-        data: gF(obj, k),
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: color,
-        borderWidth: 1,
-        hidden: k=="mnm" || k=="otros",
-        fill: k=="otros",
-        backgroundColor:k=="otros"?color:null
-      })
-    }
-    setGraphChart({
-        id: this.find("canvas")[0],
-        title: null,
-        labels: obj["keys"],
-        type: 'LineWithLine',
-        //max_y: t=="prc_"?100:null,
-        destroy:true,
-        porcentaje:options.porcentaje
-    }, dataset);
-  },
-  "karma_general": function (obj, options) {
-    var labels = obj["keys"];
-    var negatives = gF(obj, "negatives");
-    var positives = gF(obj, "positives");
-    negatives = zip_arr(negatives, positives, function(a, b) {
-      var n = a + b;
-      n = a*100/n;
-      return Math.round(n*100)/100;
+  "poblacion": function(obj, options) {
+    var ctx = this.find("canvas")[0].getContext('2d');
+    var i;
+    var color = rg(Object.keys(obj).length).map(function(i){
+      return DFL_COLOR[i%DFL_COLOR.length];
     })
-    /*
-    var neg_com = gF(obj, "comment_negatives");
-    neg_com = zip_arr(neg_com, gF(obj, "comment_total"), function(a, n) {
-      if (n==0 || a==0) return 0;
-      n = a*100/n;
-      return Math.round(n*100)/100;
-    })*/
-    var dataset = [{
-        label: "% votos negativos",
-        data: negatives,
-        backgroundColor: d_color.red.backgroundColor,
-        borderColor: d_color.red.borderColor,
-        borderWidth: 1
-      },{
-        label: "Karma noticias (media)",
-        data: gF(obj, "karma"),
-        fill: false,
-        borderColor: "orange",
-        borderWidth: 1,
-        hidden: true
-      },{
-        label: "Karma comentarios (media)",
-        data: gF(obj, "comment_karma"),
-        fill: false,
-        borderColor: "Lime",
-        borderWidth: 1,
-        hidden: true
-      }/*,{
-        label: "% comentarios negativizados",
-        data: neg_com,
-        fill: false,
-        borderColor: "lightcoral",
-        borderWidth: 1
-      }{
-        label: "% votos positivos",
-        data: gF(obj, "positives"),
-        backgroundColor: d_color.blue.backgroundColor,
-        borderColor: d_color.blue.borderColor,
-        borderWidth: 1
-      },{
-        label: "Comentarios (media)",
-        data: gF(obj, "comments"),
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: "green",
-        borderWidth: 1,
-        hidden: true
-      },{
-        label: "Noticias",
-        data: gF(obj, "noticias"),
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: "black",
-        borderWidth: 1,
-        hidden: true
-      }*/
-    ];
-    setGraphChart({
-        id: this.find("canvas")[0],
-        title: null,
-        labels: labels,
-        type: 'LineWithLine',
-        destroy:true,
-        porcentaje:options.porcentaje
-    }, dataset);
-  },
-  "dominios_todos": function(obj, options) {
-    var dataset = [];
-    var i, t, k, kl, color;
-    var ks={};
-    if (!options.porcentaje) ks["total"]=["total"];
-
-    obj["values"].forEach(function(v) {
-      Object.keys(v).forEach(function(k) {
-        if (ks[k]!=null) return;
-        options.tags.forEach(function(t) {
-          if (k==t) {
-            ks[t]=[t];
-          }/* else if (t.startsWith("*.") && (k.endsWith(t.substr(1)) || k==t.substr(2))) {
-            var a = ks[t] || [];
-            if (ks[t]==null) ks[t]=[k];
-            else if (ks[t].indexOf(k)==-1) ks[t].push(k)
-          }*/
-        });
-      });
-    })
-    /*
-    if (options.tags.indexOf("AEDE")>-1) {
-      ks["AEDE"]=[];
-      obj["values"].forEach(function(v) {
-        Object.keys(v).forEach(function(k) {
-          DOM_AEDE.forEach(function(a) {
-            if (ks["AEDE"].indexOf(k)>-1) return;
-            if (k==a || k.endsWith("."+a)) {
-              ks["AEDE"].push(k);
+    var myPieChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: Object.values(obj),
+                backgroundColor: color
+            }],
+            labels: Object.keys(obj)
+        },
+        options: {
+        tooltips: {
+            callbacks: {
+              label: function(i, data) {
+                var dt=data.datasets[i.datasetIndex];
+                var tt=dt.data.reduce((a, b) => a + b, 0);
+                var p = (dt.data[i.index]/tt)*100;
+                p = round(p)
+                return p+" % son del año "+data.labels[i.index];
+              }
             }
-          });
-        })
-      });
-    }
-    */
-    var colors = (options.porcentaje)?DFL_COLOR.slice(1):DFL_COLOR;
-    for (const [k, doms] of Object.entries(ks).sort(function(a,b){
-      var i1=options.tags.indexOf(a[0]);
-      var i2=options.tags.indexOf(b[0]);
-      return i1-i2;
-    })) {
-      color = colors[dataset.length] || "grey";
-      var values=gF(obj, doms[0]);
-      for (i=1;i<doms.length;i++) values = zip_arr(values, gF(obj, doms[i]), function(a,b){return a+b})
-      if (options.porcentaje) values = values.map(function(x){return Math.round(x*100)/100})
-      dataset.push({
-        label: k,
-        data: values,
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: color,
-        borderWidth: 1,
-        hidden: k == "total"
-      })
-    }
-    setGraphChart({
-        id: this.find("canvas")[0],
-        title: null,
-        labels: obj["keys"],
-        type: 'LineWithLine',
-        //max_y: t=="prc_"?100:null,
-        destroy:true,
-        porcentaje:options.porcentaje
-    }, dataset);
-  },
-  "tags_portada": function(obj, options) {
-    var dataset = [];
-    var i, t, k, kl, color;
-    var ks={};
-    if (!options.porcentaje) ks["total"]=["total"];
-    obj["values"].forEach(function(v) {
-      Object.keys(v).forEach(function(k) {
-        if (ks[k]!=null) return;
-        options.tags.forEach(function(t) {
-          if (k==t) {
-            ks[t]=[t];
           }
-        });
-      });
-    })
-    var colors = (options.porcentaje)?DFL_COLOR.slice(1):DFL_COLOR;
-    for (const [k, doms] of Object.entries(ks).sort(function(a,b){
-      var i1=options.tags.indexOf(a[0]);
-      var i2=options.tags.indexOf(b[0]);
-      return i1-i2;
-    })) {
-      color = colors[dataset.length] || "grey";
-      var values=gF(obj, doms[0]);
-      for (i=1;i<doms.length;i++) values = zip_arr(values, gF(obj, doms[i]), function(a,b){return a+b})
-      if (options.porcentaje) values = values.map(function(x){return Math.round(x*100)/100})
-      dataset.push({
-        label: k,
-        data: values,
-        fill: false,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderColor: color,
-        borderWidth: 1,
-        hidden: k == "total"
-      })
-    }
+        }
+    });
+    myPieChart.update()
+    /*
     setGraphChart({
         id: this.find("canvas")[0],
         title: null,
-        labels: obj["keys"],
-        type: 'LineWithLine',
-        //max_y: t=="prc_"?100:null,
-        destroy:true,
-        porcentaje:options.porcentaje
-    }, dataset);
-  },
-  "actividad": function(obj, options) {
-      var dataset = [];
-      var i, k, kl, color, values;
-      //var ks = ["usuarios activos", "noticias", "comentarios", "usuarios creados", "usuarios eliminados"];
-      var ks = Object.keys(obj["values"][0]).sort();
-      var colors = DFL_COLOR;//["blue", "green", "SaddleBrown"];
-      if (options.porcentaje) colors = colors.slice(1);
-      var user_values;
-      if (options.agrupar) {
-        user_values=[];
-        obj["keys"].forEach(function(k){
-          user_values.push(modelos_aux["actividad"][k]);
-        });
-      } else {
-        user_values=gF(obj, "usuarios activos");
-      }
-      var promedio = options.jq.find("*[name=promedio]").val()=="1";
-      for (i=0; i<ks.length; i++) {
-        k = ks[i];
-        if (promedio && ["comentarios", "noticias", "posts"].indexOf(k)==-1) continue;
-        if (k=="usuarios activos") {
-          values = user_values;
-        } else {
-          values=gF(obj, k);
-        }
-        if (promedio) {
-          values = zip_arr(values, user_values, function(a,b){return Math.round(a/b);})
-          k = k +" / usuario";
-        }
-        color = colors[i] || "grey";
-        dataset.push({
-          label: k,
-          data: values,
-          fill: false,
-          //backgroundColor: d_color.blue.backgroundColor,
-          borderColor: color,
-          borderWidth: 1
-        })
-      }
-      setGraphChart({
-          id: this.find("canvas")[0],
-          title: null,
-          labels: obj["keys"],
-          type: 'LineWithLine',
-          //max_y: t=="prc_"?100:null,
-          destroy:true,
-          porcentaje:options.porcentaje
-      }, dataset);
-    }
+        labels: Object.keys(obj),
+        type: 'pie',
+        porcentaje:true
+    }, [{
+      data:Object.values(obj)
+    }]);
+    */
+  }
 }
-render_builder["count_categorias_published"] = render_builder["count_categorias_todas"];
-render_builder["karma_portada"] = render_builder["karma_general"];
-render_builder["dominios_portada"] = render_builder["dominios_todos"];

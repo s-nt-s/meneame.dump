@@ -189,6 +189,17 @@ class Stats:
         ratio = ratio / strikes['total']
         ratio = round(ratio)
         strikes['ratio'] = ratio
+        strikes['actividad'] = self.db.one('''
+            select
+                sum(comments) comments,
+                count(distinct user_id) users
+            from
+                ACTIVIDAD
+            where
+                comments > 0 and
+                sent_date < STR_TO_DATE('{}', '%Y%m%d') and
+                sent_date >= STR_TO_DATE('{}', '%Y%m%d')
+        '''.format(self.cut_date.strftime('%Y%m%d'), strikes['ini'].strftime('%Y%m%d')), cursor=DictCursor)
         strikes['reason']={}
         i_sql = i_sql+" and reason='{}'"
         for r in self.db.to_list("select distinct reason from STRIKES where "+cut_date):
@@ -221,26 +232,63 @@ class Stats:
         cut_date = self.cut_date.strftime('%Y%m%d')
         cut_date = "`date` < STR_TO_DATE('"+cut_date+"', '%Y%m%d')"
         reasons=[]
+        d_users = []
         users = []
         for i in self.db.select("""
             select
                 S.reason,
                 S.user_id user,
-                CAST(S.`date` as DATE) `date`,
-                CAST(U.`create` as DATE) user_date
+                CAST(S.`date` as DATE) `date`
             from
-                STRIKES S LEFT JOIN USERS U on S.user_id = U.id
+                STRIKES S
             where """+cut_date+" order by `date`", cursor=DictCursor):
             if i['reason'] not in reasons:
                 reasons.append(i['reason'])
             i['reason'] = reasons.index(i['reason'])
             if i['user'] not in users:
                 users.append(i['user'])
-            i['user'] = users.index(i['user'])+1
+                ud = self.db.one('''
+                    select
+                        `create`,
+                        since,
+                        case
+                            when live=0 then `until`
+                            when DATEDIFF(STR_TO_DATE('{:%Y%m%d}', '%Y%m%d'),`until`)>365 then `until`
+                            else null
+                        end abandono,
+                        comments,
+                        links,
+                        posts,
+                        case
+                            when live=0 then `until`
+                            else null
+                        end eliminacion
+                    from
+                        USERS
+                    where id={}
+                '''.format(self.cut_date,i['user']), cursor=DictCursor)
+                d_users.append(ud)
+            i['user'] = users.index(i['user'])
             rows.append(i)
+
+        poblacion={}
+        for y, c in self.db.select("""
+                select YEAR(`create`), count(*) from USERS
+                where id in (
+                    select user_id from ACTIVIDAD where
+                    sent_date < STR_TO_DATE('{:%Y%m%d}', '%Y%m%d') and
+                    sent_date >= STR_TO_DATE('{:%Y%m%d}', '%Y%m%d')
+                    and comments>0
+                )
+                group by YEAR(`create`)
+                order by YEAR(`create`)
+            """.format(self.cut_date, self.strikes["ini"])):
+                poblacion[y]=c
         data = {
             "reasons": reasons,
-            "strikes": rows
+            "users": d_users,
+            "strikes": rows,
+            "poblacion": poblacion
         }
         return data
 
@@ -627,11 +675,11 @@ class Stats:
             where
                 `live` = 1 and
                 `until` is not null and
-                DATEDIFF(NOW(),`until`)>365 and
+                DATEDIFF(STR_TO_DATE('{:%Y%m%d}', '%Y%m%d'),`until`)>365 and
                 date_mod(`until`, 1) <= {0}
             group by
                 date_mod(`until`, 1)
-        '''.format(max_mes), cursor=DictCursor):
+        '''.format(self.cut_date, max_mes), cursor=DictCursor):
             key = float(dt["mes"])
             for k, v in dt.items():
                 if k!="mes":
