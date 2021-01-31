@@ -75,6 +75,28 @@ var modelos = {
     });
     return points;
   })(),
+  "poblacion": (function(){
+    var data={};
+    for (const [y, p] of Object.entries(strikes["poblacion"])) {
+      data[y]={
+        "poblacion":p,
+        "strikes": 0
+      }
+    }
+    strikes["strikes"].forEach((s, i) => {
+      var id=s['user'];
+      var ud=strikes["users"][s['user']]["create"];
+      ud = ud.getFullYear();//+((ud.getMonth()+1)/100)
+      if (data[ud]==null) {
+        data[ud]={
+          "poblacion":0,
+          "strikes": 0
+        }
+      }
+      data[ud].strikes=data[ud].strikes+1;
+    });
+    return data;
+  })(),
   "timeline": (function(){
     var data={};
     var obj={"total":0};
@@ -89,7 +111,7 @@ var modelos = {
     });
     return data;
   })(),
-  "poblacion": strikes["poblacion"]
+  "_poblacion": strikes["poblacion"]
 }
 function parseObj(obj) {
   var keys = Object.keys(obj).map(function(x){
@@ -106,3 +128,4 @@ function parseObj(obj) {
   return r;
 }
 modelos["timeline"]=parseObj(modelos["timeline"]);
+modelos["poblacion"]=parseObj(modelos["poblacion"]);

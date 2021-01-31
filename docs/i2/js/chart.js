@@ -411,7 +411,34 @@ render_builder={
         borderColor: color.map(function(c){return c.borderColor})
     }])
   },
-  "creacion": function(obj, options) {
+  "timeline": function(obj, options) {
+    var dataset = [];
+    var i, k, kl, color;
+    var ks = Object.keys(obj["values"][0]);
+    for (i=0; i<ks.length; i++) {
+      k = ks[i];
+      color = DFL_COLOR[i] || "grey";
+      dataset.push({
+        label: k,
+        data: gF(obj, k),
+        fill: false,
+        borderColor: color,
+        //backgroundColor: d_color.blue.backgroundColor,
+        borderWidth: 1,
+        hidden: strikes["total"][k]<6
+      })
+    }
+    setGraphChart({
+        id: this.find("canvas")[0],
+        title: null,
+        labels: obj["keys"],
+        type: 'LineWithLine',
+        max_y: options.porcentaje?100:null,
+        destroy:true,
+        porcentaje:options.porcentaje
+    }, dataset);
+  },
+  "__creacion": function(obj, options) {
     var labels=[];
     var data=[];
     var color=[];
@@ -423,6 +450,10 @@ render_builder={
     });
     color[data.indexOf(Math.min(...data))] = d_color.green;
     color[data.indexOf(Math.max(...data))] = d_color.red;
+    var ptotal = Object.values(modelos["poblacion"]).reduce((a, b) => a + b, 0);
+    var stotal = strikes["users"].length;
+    //data = data.map(function(x){return (x/stotal)*100})
+    pdata = Object.values(modelos["poblacion"]).map(function(x){return (x/ptotal)*100})
     setGraphChart({
         id: this.find("canvas")[0],
         title: null,
@@ -455,34 +486,47 @@ render_builder={
         borderColor: color.map(function(c){return c.borderColor})
     }])
   },
-  "timeline": function(obj, options) {
-    var dataset = [];
-    var i, k, kl, color;
-    var ks = Object.keys(obj["values"][0]);
-    for (i=0; i<ks.length; i++) {
-      k = ks[i];
-      color = DFL_COLOR[i] || "grey";
-      dataset.push({
-        label: k,
-        data: gF(obj, k),
-        fill: false,
-        borderColor: color,
-        //backgroundColor: d_color.blue.backgroundColor,
-        borderWidth: 1,
-        hidden: strikes["total"][k]<6
-      })
-    }
+  "poblacion": function(obj, options) {
     setGraphChart({
         id: this.find("canvas")[0],
         title: null,
-        labels: obj["keys"],
-        type: 'LineWithLine',
-        max_y: options.porcentaje?100:null,
+        labels: obj.keys,
+        type: "bar",
+        x_label: "En menéame desde...",
+        y_label: "% de usuarios",
         destroy:true,
-        porcentaje:options.porcentaje
-    }, dataset);
+        tooltips: {
+          title: function(i, data) {
+            return "";
+          },
+          label: function(i, data) {
+            var tp = i.datasetIndex==0?"strikes":"comentarios"
+            var p = round(i.value);
+            if (p==0) return `0 usuarios con ${tp}`;
+            return `el ${p}% de los usuarios con ${tp}`;
+          },
+          afterLabel: function(i, data) {
+            var u = i.value;
+            if (round(i.value)==0) return "";
+            var m = i.label;
+            return `estan en menéame desde ${m}`;
+          }
+        }
+    }, [{
+        label: "Usuarios con strike",
+        data: gF(obj, "strikes", true),
+        borderWidth: 1,
+        backgroundColor: d_color.red.backgroundColor,
+        borderColor: d_color.red.borderColor
+    },{
+        label: "Usuarios con comentarios",
+        data: gF(obj, "poblacion", true),
+        borderWidth: 1,
+        backgroundColor: d_color.blue.backgroundColor,
+        borderColor: d_color.blue.borderColor
+    }])
   },
-  "poblacion": function(obj, options) {
+  "_poblacion": function(obj, options) {
     var ctx = this.find("canvas")[0].getContext('2d');
     var i;
     var color = rg(Object.keys(obj).length).map(function(i){

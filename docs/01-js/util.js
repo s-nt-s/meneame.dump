@@ -68,6 +68,8 @@ function array_move(arr, element, new_index) {
 };
 
 function round(p, dec, sig) {
+  if (typeof p == "string") p = Number(p);
+  if (p==0 || isNaN(p)) return p;
   if (dec==null) dec=0;
   if (sig==null) sig=1;
   if (sig==0 && dec==0) return Math.round(p);
