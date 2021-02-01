@@ -69,7 +69,7 @@ function array_move(arr, element, new_index) {
 
 function round(p, dec, sig) {
   if (typeof p == "string") p = Number(p);
-  if (p==0 || isNaN(p)) return p;
+  if (isNaN(p) || Math.trunc(p)==p) return p;
   if (dec==null) dec=0;
   if (sig==null) sig=1;
   if (sig==0 && dec==0) return Math.round(p);
@@ -78,10 +78,16 @@ function round(p, dec, sig) {
     var x = Math.round(p*m)/m;
     if (x!=0) {
       if (sig==1) return x;
-      m = Math.pow(10, dec+sig-1);
-      x = Math.round(p*m)/m;
-      return x;
+      var s = x.toString().replace(/^[0\.]+/, "");
+      if (s.length>=sig) return x;
     }
     dec = dec + 1;
   }
+}
+
+function toNum(x, dft) {
+  if (x==null) return null;
+  var n=parseFloat(x, 10);
+  if (arguments.length==1 || !isNaN(n)) return n;
+  return dft;
 }

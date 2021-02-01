@@ -271,7 +271,7 @@ class Stats:
             i['user'] = users.index(i['user'])
             rows.append(i)
 
-        poblacion={}
+        generacion={}
         for y, c in self.db.select("""
                 select YEAR(`create`), count(*) from USERS
                 where id in (
@@ -283,12 +283,32 @@ class Stats:
                 group by YEAR(`create`)
                 order by YEAR(`create`)
             """.format(self.cut_date, self.strikes["ini"])):
-                poblacion[y]=c
+                generacion[y]=c
+
+        poblacion={}
+        for y, a, c in self.db.select("""
+            select
+                YEAR(sent_date)+(MONTH(sent_date)/100),
+                count(distinct user_id),
+                sum(comments)
+            from ACTIVIDAD where
+                sent_date < STR_TO_DATE('{:%Y%m%d}', '%Y%m%d') and
+                sent_date >= STR_TO_DATE('{:%Y%m%d}', '%Y%m%d')
+                and comments>0
+            group by YEAR(sent_date)+(MONTH(sent_date)/100)
+            order by YEAR(sent_date)+(MONTH(sent_date)/100)
+            """.format(self.cut_date, self.strikes["ini"])):
+            y=float(y)
+            poblacion[y]={
+                "usuarios": float(a),
+                "comentarios": float(c)
+            }
         data = {
             "reasons": reasons,
             "users": d_users,
             "strikes": rows,
-            "poblacion": poblacion
+            "poblacion": poblacion,
+            "generacion": generacion
         }
         return data
 

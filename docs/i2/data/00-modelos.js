@@ -6028,6 +6028,188 @@ var strikes = {
   }
  ],
  "poblacion": {
+  "2017.04": {
+   "usuarios": 5789.0,
+   "comentarios": 135647.0
+  },
+  "2017.05": {
+   "usuarios": 6961.0,
+   "comentarios": 217732.0
+  },
+  "2017.06": {
+   "usuarios": 6823.0,
+   "comentarios": 203080.0
+  },
+  "2017.07": {
+   "usuarios": 6578.0,
+   "comentarios": 180947.0
+  },
+  "2017.08": {
+   "usuarios": 6707.0,
+   "comentarios": 203998.0
+  },
+  "2017.09": {
+   "usuarios": 6867.0,
+   "comentarios": 229542.0
+  },
+  "2017.1": {
+   "usuarios": 7467.0,
+   "comentarios": 307998.0
+  },
+  "2017.11": {
+   "usuarios": 6721.0,
+   "comentarios": 206194.0
+  },
+  "2017.12": {
+   "usuarios": 6361.0,
+   "comentarios": 171079.0
+  },
+  "2018.01": {
+   "usuarios": 6681.0,
+   "comentarios": 207986.0
+  },
+  "2018.02": {
+   "usuarios": 6440.0,
+   "comentarios": 204387.0
+  },
+  "2018.03": {
+   "usuarios": 6694.0,
+   "comentarios": 229850.0
+  },
+  "2018.04": {
+   "usuarios": 6711.0,
+   "comentarios": 234558.0
+  },
+  "2018.05": {
+   "usuarios": 6803.0,
+   "comentarios": 240398.0
+  },
+  "2018.06": {
+   "usuarios": 6708.0,
+   "comentarios": 223747.0
+  },
+  "2018.07": {
+   "usuarios": 6738.0,
+   "comentarios": 222140.0
+  },
+  "2018.08": {
+   "usuarios": 6680.0,
+   "comentarios": 232124.0
+  },
+  "2018.09": {
+   "usuarios": 6678.0,
+   "comentarios": 229982.0
+  },
+  "2018.1": {
+   "usuarios": 6557.0,
+   "comentarios": 221526.0
+  },
+  "2018.11": {
+   "usuarios": 6369.0,
+   "comentarios": 209606.0
+  },
+  "2018.12": {
+   "usuarios": 6344.0,
+   "comentarios": 210771.0
+  },
+  "2019.01": {
+   "usuarios": 6600.0,
+   "comentarios": 224200.0
+  },
+  "2019.02": {
+   "usuarios": 6463.0,
+   "comentarios": 210828.0
+  },
+  "2019.03": {
+   "usuarios": 6617.0,
+   "comentarios": 223743.0
+  },
+  "2019.04": {
+   "usuarios": 6491.0,
+   "comentarios": 204153.0
+  },
+  "2019.05": {
+   "usuarios": 6615.0,
+   "comentarios": 204862.0
+  },
+  "2019.06": {
+   "usuarios": 6427.0,
+   "comentarios": 199480.0
+  },
+  "2019.07": {
+   "usuarios": 6286.0,
+   "comentarios": 204613.0
+  },
+  "2019.08": {
+   "usuarios": 6112.0,
+   "comentarios": 198213.0
+  },
+  "2019.09": {
+   "usuarios": 6153.0,
+   "comentarios": 205340.0
+  },
+  "2019.1": {
+   "usuarios": 6483.0,
+   "comentarios": 235365.0
+  },
+  "2019.11": {
+   "usuarios": 6381.0,
+   "comentarios": 214566.0
+  },
+  "2019.12": {
+   "usuarios": 6076.0,
+   "comentarios": 199599.0
+  },
+  "2020.01": {
+   "usuarios": 6289.0,
+   "comentarios": 220350.0
+  },
+  "2020.02": {
+   "usuarios": 6183.0,
+   "comentarios": 202176.0
+  },
+  "2020.03": {
+   "usuarios": 7535.0,
+   "comentarios": 319203.0
+  },
+  "2020.04": {
+   "usuarios": 8068.0,
+   "comentarios": 352533.0
+  },
+  "2020.05": {
+   "usuarios": 7862.0,
+   "comentarios": 329527.0
+  },
+  "2020.06": {
+   "usuarios": 7291.0,
+   "comentarios": 275507.0
+  },
+  "2020.07": {
+   "usuarios": 7085.0,
+   "comentarios": 271100.0
+  },
+  "2020.08": {
+   "usuarios": 7199.0,
+   "comentarios": 272706.0
+  },
+  "2020.09": {
+   "usuarios": 7143.0,
+   "comentarios": 257047.0
+  },
+  "2020.1": {
+   "usuarios": 7200.0,
+   "comentarios": 272980.0
+  },
+  "2020.11": {
+   "usuarios": 7159.0,
+   "comentarios": 249657.0
+  },
+  "2020.12": {
+   "usuarios": 6906.0,
+   "comentarios": 223758.0
+  }
+ },
+ "generacion": {
   "2005": 80,
   "2006": 1405,
   "2007": 2150,

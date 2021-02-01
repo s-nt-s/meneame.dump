@@ -20,11 +20,29 @@ jHtml.resources.extend([
     "docs/css"
 ])
 
-jHtml.create_script("data/strikes.js", replace=True,
+jHtml.create_script("data/00-modelos.js", replace=True,
     strikes=st.get_strikes_data()
 )
+ban={
+    "karma":0,
+    "dias":0
+}
+for u, s in st.strikes["user_strike"]:
+    for i in range(s):
+        k, d = (
+            (0, 0),
+            (2, 1),
+            (2, 2),
+            (2, 5),
+            (2, 20),
+            (0, 90)
+        )[i]
+        ban["karma"] = ban["karma"] + k
+        ban["dias"] = ban["dias"] + d
+
 jHtml.save("i2.html",
     destino="index.html",
-    st=st
+    st=st,
+    ban=ban
 )
 st.db.close()

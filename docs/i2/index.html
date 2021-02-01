@@ -11,8 +11,8 @@
 <script data-autoinsert="1" src="../00-libs/sigma.plugins.animate.min.js"></script>
 <script data-autoinsert="1" src="../00-libs/tagify.js"></script>
 <script data-autoinsert="1" src="../01-js/util.js"></script>
-<script data-autoinsert="1" src="data/strikes.js"></script>
-<script data-autoinsert="1" src="data/zz-modelos.js"></script>
+<script data-autoinsert="1" src="data/00-modelos.js"></script>
+<script data-autoinsert="1" src="data/modelos.js"></script>
 <script data-autoinsert="1" src="js/00-graph.js"></script>
 <script data-autoinsert="1" src="js/00-tag.js"></script>
 <script data-autoinsert="1" src="js/chart.js"></script>
@@ -41,7 +41,7 @@
       </li>
 <li>
         En <a href="https://www.meneame.net/legal#penalizaciones">la información legal de Menéame (apartado Penalizaciones)</a>
-        podemos consultar las consecuencias de los strikes.
+        podemos consultar las consecuencias de los strikes (ninguna conlleva la eliminación de la cuenta o el ban perpetuo).
       </li>
 <li>
 <a href="https://blog.meneame.net/2019/03/26/revision-de-las-normas-de-uso-de-la-comunidad-hacia-una-conversacion-mas-sana/" title="2019-03-26 Revisión de las normas de uso de la comunidad: hacia una conversación más sana">En 26/03/2019 la administración de Méneame</a>:
@@ -56,7 +56,7 @@
 <li>aclara que aunque un strike queda asociado a un único
             comentario este puede estar motivado por la reiteración de
             comentarios o comportamientos</li>
-<li>anuncio que para motivar la transparencia próximamente habría un método
+<li>anuncio que para mejorar la transparencia próximamente habría un método
           para que todos los usuarios pudieran saber si un comentario ha sido objeto
           de strike</li>
 </ul>
@@ -235,7 +235,7 @@
 </ul>
 <p>La única excepción podría ser el <code>strike Bulo</code> ya que viendo
         su primera fecha de uso parece que es de muy reciente creación
-        y aún así ya esta en 4º posición.</p>
+        y aún así ya esta en la 4º posición.</p>
 <p>Lo segundo que llama la atención son las cantidades en sí.
         <a href="https://blog.meneame.net/2019/03/26/revision-de-las-normas-de-uso-de-la-comunidad-hacia-una-conversacion-mas-sana/">La
         afirmación por parte de la administración de que recibe muchas
@@ -254,9 +254,11 @@
     </p>
 <h2>¿Cual ha sido la evolución temporal de los strikes?</h2>
 <div class="data" data-modelo="timeline">
-<p>Mostrar cantidad de strikes en <select name="porcentaje">
-<option selected="selected" value="0">números absolutos</option>
-<option value="1">% del total</option>
+<p>Mostrar cantidad de strikes en <select name="transformacion">
+<option selected="selected" value="">números absolutos</option>
+<option value="porcentaje">% del total</option>
+<option value="comentarios">promedio por comentario</option>
+<option value="usuarios">promedio por usuario</option>
 </select>
 </p>
 <canvas class="chart"></canvas>
@@ -279,7 +281,7 @@
       tendencia clara ni a peor ni a mejor.
       Personalmente, leyendo las quejas, me esperaba que la gráfica
       fuera una linea claramente ascendente al menos en los dos
-      tipos de strikes más polemices (insultos y odio)
+      tipos de strikes más polemicos (insultos y odio)
       pero ni eso, incluso bajan más que subir.
     </p>
 <h2>¿Hay usuarios con muchos strikes?</h2>
@@ -303,15 +305,20 @@
 <code>340</code> usuarios que han recibido <code>1 strikes</code> cada uno
                       </li>
 </ul>
+<p>
+      Lo que según <a href="https://www.meneame.net/legal#penalizaciones">las penalizaciones</a>
+      hace un computo global de <code>40</code> dias de ban y <code>-20</code> puntos de karma.
+    </p>
 <p><b>¿Qué vemos aquí?</b></p>
 <p>
-      Una muy baja reincidencia que puede deberse a:
+      Parece que muy pocos usuarios tienen problemas recurrentes con los strikes,
+      lo que puede deberse a que:
     </p>
 <ol>
-<li>realmente los usuarios no repiten el comportamiento que llevo al strike</li>
-<li>los usuarios reinciden pero la administración se resiste escalar el conflicto</li>
+<li>realmente los usuarios cambian su comportamiento</li>
+<li>los usuarios no cambian pero la administración se resiste a escalar el conflicto</li>
 <li>los usuarios con strike terminan abandonando la plataforma</li>
-<li>los usuarios con strike reinciden pero lo hacen tras crearse nuevas cuentas</li>
+<li>los usuarios con strike no cambian de comportamiento pero si de usuario, registrando una nueva cuenta</li>
 </ol>
 <p>Las dos primeras hipótesis no se pueden verificar, pero las otras dos
       serán estudiadas más adelante</p>
@@ -375,8 +382,8 @@
 </div>
 <h2>¿De que época son los usuarios con strikes?</h2>
 <p>
-      Si los usuarios con strikes abandonan sus cuentas y vuelven
-      con otras nuevas repitiéndose nuevamente el conflicto llegará
+      Si los usuarios con strikes crean nuevas cuentas con las que finalmente
+      reciben otro strike llegará
       un momento en que las cuentas de 2017 (año en que se implementaron
       los strikes) o posteriores tendrán más strikes de las que les correspondería
       en una distribución normal porque la mayoría de los usuarios conflictivos
@@ -414,10 +421,14 @@
       anterior hipótesis).
     </p>
 <p>
-      Si damos por buena esta explicación podemos pensar que
-      si hay reincidencia y por lo tanto que las personas afectadas por strikes
+      Por otro lado, si damos por buena esta hipotesis, además de lo dicho
+      debemos concluir que las personas afectadas por los strikes
       no son <code>398</code> si no muchas menos
       ya que es gente que opera varias cuentas.
+    </p>
+<h2>¿Alguna conclusión?</h2>
+<p>
+      No.
     </p>
 </body>
 </html>

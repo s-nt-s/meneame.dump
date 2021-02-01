@@ -7,12 +7,15 @@ from jinja2 import Environment, FileSystemLoader
 from glob import iglob
 from os.path import relpath
 from datetime import date, datetime
+from decimal import Decimal
 import json
 
 re_date = re.compile(r'"(new Date\(.*?\))"')
 epoch = datetime.utcfromtimestamp(0)
 
 def my_convert(o):
+    if isinstance(o, Decimal):
+        return float(o)
     if isinstance(o, date):
         return o.strftime("new Date(%Y, %-m-1, %-d)")
     if isinstance(o, datetime):

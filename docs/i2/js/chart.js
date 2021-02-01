@@ -61,11 +61,16 @@ function setGraphChart(obj, dataset) {
       var ch = $elem.data("chart");
       if (ch) {
         var hd = $elem.data("full_hidden") || {};
-        ch.legend.legendItems.forEach(function(x){
+        ch.legend.legendItems.forEach(function(x, i){
           return hd[x.text]=x.hidden;
         })
         dataset.forEach(function(d, i){
-          d.hidden=hd[d.label]==null?d.hidden:hd[d.label];
+          if (hd[d.label]!=null) d.hidden=hd[d.label];
+          else if (obj.eqlabel) {
+            for (const [lb, h] of Object.entries(hd)) {
+              if (obj.eqlabel(d.label, lb)) d.hidden=h;
+            }
+          }
           hd[d.label]=d.hidden;
         })
         $elem.data("full_hidden", hd);
@@ -267,6 +272,14 @@ function render_chart() {
     });
   }
   var prc = t.find("*[name=porcentaje]").val()=="1";
+  var transformacion = t.find("*[name=transformacion]").val();
+  if (transformacion=="porcentaje") {
+    prc = true;
+    transformacion = null;
+  } else {
+    transformacion = toNum(transformacion, transformacion);
+  }
+
   var agrupar = t.find("*[name=agrupar]").val();
   if (agrupar && agrupar!="mes") {
     var agr = doAgrupar(agrupar, mdl["keys"], {l:false, r:true});
@@ -312,6 +325,7 @@ function render_chart() {
   }
   rd.apply(t, [mdl, {
     "porcentaje": prc,
+    "transformacion": transformacion,
     "agrupar": agrupar,
     "tags": tags,
     "jq": t
@@ -413,19 +427,34 @@ render_builder={
   },
   "timeline": function(obj, options) {
     var dataset = [];
-    var i, k, kl, color;
+    var i, k, kl, color, hidden;
     var ks = Object.keys(obj["values"][0]);
+    var divby=null;
+    var divlb=null;
+    if (options.transformacion && ks.indexOf(options.transformacion)>=0) {
+      divby=gF(obj, options.transformacion);
+      divlb=options.transformacion.substr(0, options.transformacion.length-1);
+    }
     for (i=0; i<ks.length; i++) {
       k = ks[i];
-      color = DFL_COLOR[i] || "grey";
+      if (k=="usuarios" || k=="comentarios") continue;
+      hidden = strikes["total"][k]<6;
+      color = DFL_COLOR[options.porcentaje?(i+1):i] || "grey";
+      var data = gF(obj, k);
+      if (divby!=null) {
+        data = zip_arr(data, divby, function (a, b){
+          return round(a/b, 0, 2);
+        })
+        k = k + " / " + divlb;
+      }
       dataset.push({
         label: k,
-        data: gF(obj, k),
+        data: data,
         fill: false,
         borderColor: color,
         //backgroundColor: d_color.blue.backgroundColor,
         borderWidth: 1,
-        hidden: strikes["total"][k]<6
+        hidden: hidden
       })
     }
     setGraphChart({
@@ -435,56 +464,13 @@ render_builder={
         type: 'LineWithLine',
         max_y: options.porcentaje?100:null,
         destroy:true,
-        porcentaje:options.porcentaje
-    }, dataset);
-  },
-  "__creacion": function(obj, options) {
-    var labels=[];
-    var data=[];
-    var color=[];
-    obj.forEach((item, i) => {
-      labels.push(item[0]);
-      data.push(item[1]);
-      color.push(d_color.blue)
-      var v = Number(item[1])
-    });
-    color[data.indexOf(Math.min(...data))] = d_color.green;
-    color[data.indexOf(Math.max(...data))] = d_color.red;
-    var ptotal = Object.values(modelos["poblacion"]).reduce((a, b) => a + b, 0);
-    var stotal = strikes["users"].length;
-    //data = data.map(function(x){return (x/stotal)*100})
-    pdata = Object.values(modelos["poblacion"]).map(function(x){return (x/ptotal)*100})
-    setGraphChart({
-        id: this.find("canvas")[0],
-        title: null,
-        labels: labels,
-        type: "bar",
-        x_label: "En menéame desde...",
-        y_label: "número de usuarios",
-        destroy:true,
-        tooltips: {
-          title: function(i, data) {
-            return "";
-          },
-          label: function(i, data) {
-            var t = strikes["users"].length;
-            var u = i.value;
-            var p = round((Number(u) / t) * 100);
-            if (u==1) return `${u} usuario (${p}%)`
-            return `${u} usuarios (${p}%)`;
-          },
-          afterLabel: function(i, data) {
-            var u = i.value;
-            var m = i.label;
-            return `en menéame desde ${m}`;
-          }
+        porcentaje:options.porcentaje,
+        eqlabel:function(a, b) {
+          a = a.split(/\//)[0].trim();
+          b = b.split(/\//)[0].trim();
+          return b==a;
         }
-    }, [{
-        data: data,
-        borderWidth: 1,
-        backgroundColor: color.map(function(c){return c.backgroundColor}),
-        borderColor: color.map(function(c){return c.borderColor})
-    }])
+    }, dataset);
   },
   "poblacion": function(obj, options) {
     setGraphChart({
@@ -500,10 +486,18 @@ render_builder={
             return "";
           },
           label: function(i, data) {
-            var tp = i.datasetIndex==0?"strikes":"comentarios"
+            var total=null;
+            var tp=null;
+            if (i.datasetIndex==0) {
+              tp = "strikes"
+              total = modelos["poblacion"].values[i.index]["strikes"];
+            } else {
+              tp = "comentarios"
+              total = modelos["poblacion"].values[i.index]["poblacion"];
+            }
             var p = round(i.value);
             if (p==0) return `0 usuarios con ${tp}`;
-            return `el ${p}% de los usuarios con ${tp}`;
+            return `el ${p}% de los usuarios (${total}) con ${tp}`;
           },
           afterLabel: function(i, data) {
             var u = i.value;

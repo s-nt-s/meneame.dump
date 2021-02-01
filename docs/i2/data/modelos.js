@@ -77,7 +77,7 @@ var modelos = {
   })(),
   "poblacion": (function(){
     var data={};
-    for (const [y, p] of Object.entries(strikes["poblacion"])) {
+    for (const [y, p] of Object.entries(strikes["generacion"])) {
       data[y]={
         "poblacion":p,
         "strikes": 0
@@ -99,8 +99,17 @@ var modelos = {
   })(),
   "timeline": (function(){
     var data={};
-    var obj={"total":0};
+    var obj={
+      "total":0,
+      "comentarios":0,
+      "usuarios": 0
+    };
     Object.keys(strikes["total"]).forEach((s, i) => {obj[s]=0;});
+    for (const [dt, p] of Object.entries(strikes["poblacion"])) {
+      if (data[dt]==null) data[dt]={...obj};
+      data[dt].comentarios = data[dt].comentarios + p.comentarios;
+      data[dt].usuarios = data[dt].usuarios + p.usuarios;
+    }
     strikes["strikes"].forEach((s, i) => {
       var dt=s["date"];
       dt = dt.getFullYear()+((dt.getMonth()+1)/100);
@@ -110,8 +119,7 @@ var modelos = {
       data[dt]["total"] = data[dt]["total"]+1;
     });
     return data;
-  })(),
-  "_poblacion": strikes["poblacion"]
+  })()
 }
 function parseObj(obj) {
   var keys = Object.keys(obj).map(function(x){
