@@ -16,8 +16,8 @@
   <body>
     <p>
       En el <a href="/meneame_en_datos/">anterior informe sobre Menéame</a>
-      explique brevemente porque no iba a analizar los strikes,
-      sin embargo finalmente me he animado a ello y aquí tenéis los resultados.
+      expliqué brevemente por qué no iba a analizar los strikes.
+      Sin embargo, finalmente me he animado a ello y aquí tenéis los resultados.
     <p>
     <h2>Consideraciones previas</h2>
     <p>
@@ -25,10 +25,10 @@
     </p>
     <ol>
       <li>
-        La funcionalidad de strikes se implemento en algún momento
+        La funcionalidad de strikes se implementó en algún momento
         posterior al <a href="https://github.com/Meneame/meneame.net/blob/master/sql/2017-02-24-strikes.sql">24/02/2017</a>
         pero no he encontrado ningún comunicado oficial y fechado de cuando
-        entro en vigor, así que usaremos como referencia la fecha del
+        entró en vigor, así que usaremos como referencia la fecha del
         primer strike detectado (<code>{{st.strikes.ini.strftime("%d/%m/%Y")}}</code>).
       </li>
       <li>
@@ -55,13 +55,13 @@
           <li>aclara que aunque un strike queda asociado a un único
             comentario este puede estar motivado por la reiteración de
             comentarios o comportamientos</li>
-          <li>anuncio que para mejorar la transparencia próximamente habría un método
-          para que todos los usuarios pudieran saber si un comentario ha sido objeto
+          <li>anuncia que para mejorar la transparencia próximamente habrá un método
+          para que todos los usuarios pudan saber si un comentario ha sido objeto
           de strike</li>
         </ul>
       </li>
       <li>
-        En cuanto el último punto (el de la transparencia) no se si se ha llegado a implementar.
+        En cuanto el último punto (el de la transparencia) no sé si se ha llegado a implementar.
         La realidad es que lo único que denota que un comentario tiene un strike
         es una <a href="https://github.com/Meneame/meneame.net/blob/60fc5935e46fb72c47945abc63cd062803d030a8/www/libs/comment.php#L370"
         >clase incluida en el html</a> lo cual se traduce en un comentario plegado
@@ -69,7 +69,7 @@
         >recuperar la razón del strike</a> y el <code>id</code>
         del comentario, con el cual podemos posteriormente recuperar el contenido del comentario.
         Así que aunque es posible, con un poco de maña, identificar
-        los comentarios con strike no creo a que esta sea la mejora
+        los comentarios con strike, no creo a que ésta sea la mejora
         a la que se refería la administración en su blog.
       </li>
       <li>
@@ -80,11 +80,11 @@
       que todos los datos aquí presentados parten de recolectar
       única y exclusivamente los strikes detectados
       en comentarios inspeccionando código HTML, es decir,
-      si hay (que parece que no, pero no lo se a ciencia cierta)
+      si hay (que parece que no, pero no lo sé a ciencia cierta)
       algún tipo de strike que no se asocia a comentarios
       de la manera que hemos visto quedará fuera del estudio.
     </p>
-    <h2>¿Cuantos strikes hay?</h2>
+    <h2>¿Cuántos strikes hay?</h2>
     <p>
       Se han capturado <code>{{st.strikes.total | millar}} strikes</code>
       desde <code>{{st.strikes.ini.strftime("%d/%m/%Y")}}</code> hasta
@@ -119,9 +119,9 @@
     </table>
     <p>Notas:</p>
     <ol>
-      <li>Usuarios únicos, es decir: ¿Cuantos usuarios <b>distintos</b> tienen uno o más strikes de este tipo?</li>
-      <li>Primera fecha en la que se vio un strike de este tipo</li>
-      <li>Última fecha en la que se vio un strike de este tipo</li>
+      <li>Usuarios únicos, es decir: ¿Cuántos usuarios <b>distintos</b> tienen uno o más strikes de este tipo?</li>
+      <li>Primera fecha en la que se vió un strike de este tipo</li>
+      <li>Última fecha en la que se vió un strike de este tipo</li>
     </ol>
     <p>
       En números absolutos, ha habido aproximadamente
@@ -146,16 +146,16 @@
       >opciones que ve el usuario cuando reporta un comentario</a>.
       Consultando la clase <a href="https://github.com/Meneame/meneame.net/blob/master/www/libs/strike.php#L11"
       >strike en el código fuente</a> comprobamos que nuestra lista es correcta
-      (solo falta <code>Bulo</code> y seguramente sea porque el repositorio no esta actualizado),
+      (solo falta <code>Bulo</code> y seguramente sea porque el repositorio no está actualizado),
       y si consultamos el <a href="https://github.com/Meneame/meneame.net/commits/master/www/templates/report_new.html"
       >histórico del formulario</a> verificamos que algunas opciones no estaban disponibles en el momento que se usaron.<br/>
       Solo se me ocurren dos explicaciones:
     </p>
     <ol>
     	<li>Los admin pueden dar strikes usando una lista más amplia que el resto de los usuarios</li>
-    	<li>No haya una correspondencia 1 a 1 entre <code>reporte</code> y strike
+    	<li>No hay una correspondencia 1 a 1 entre <code>reporte</code> y strike
     	si no que existe un un paso intermedio entre que se da por bueno un <code>reporte</code>
-    	y se asigna el strike definitivo, pudiendo este ser cambiado por otro que el admin
+    	y se asigna el strike definitivo, pudiendo éste ser cambiado por otro que el admin
     	juzgue más descriptivo, por ejemplo rebajando un reporte por <code>incitación al odio</code> a
     	<code>contenido inapropiado</code></li>
     </ol>
@@ -164,11 +164,11 @@
     es la segunda opción.</p>
     <p>
     	Sea como sea, esto dificulta interpretar los datos como un subconjunto
-    	fiel de lo que reportan los usuarios ya que, por ejemplo, ¿que reportaron los usuarios
+    	fiel de lo que reportan los usuarios ya que, por ejemplo, ¿qué reportaron los usuarios
     	que alertaron sobre los comentarios que finalmente quedaron marcados con un
     	strike <code>contenido inapropiado</code>? No se puede saber.
     </p>
-    <p>Aún así vemos una división tan clara entre las 3º primeras causas de strike
+    <p>Aún así vemos una división tan clara entre las tres primeras causas de strike
     y el resto que podríamos pensar que las normas con menos strikes son:</p>
         <ul>
           <li>normas que apenas se incumplen</li>
@@ -179,7 +179,7 @@
         </ul>
       <p>La única excepción podría ser el <code>strike Bulo</code> ya que viendo
         su primera fecha de uso parece que es de muy reciente creación
-        y aún así ya esta en la 4º posición.</p>
+        y aún así ya esta en la 4ª posición.</p>
       </li>
       <p>Lo segundo que llama la atención son las cantidades en sí.
         <a href="https://blog.meneame.net/2019/03/26/revision-de-las-normas-de-uso-de-la-comunidad-hacia-una-conversacion-mas-sana/"
@@ -189,7 +189,7 @@
         <a href="https://www.meneame.net/m/Art%C3%ADculos/search?q=strike">artículos</a>
         y <a href="https://www.meneame.net/search?q=strike&w=comments&h=&o=&u=">comentarios</a>
         quejándose de los strikes me hacían pensar que habría muchos más strikes y usuarios afectados.
-        Puede que el problema sea mis expectativas iniciales, o que yo nunca
+        Puede que el problema sean mis expectativas iniciales, o que yo nunca
         haya administrado un foro, pero ahora no puedo evitar pensar
         que la cantidad de strikes es minúscula.
       </p>
@@ -198,7 +198,7 @@
       me temo que el interés (y el morbo) por este estudio pierde muchos enteros.
       Sin embargo, ya que tengo los datos... continuemos.
     </p>
-    <h2>¿Cual ha sido la evolución temporal de los strikes?</h2>
+    <h2>¿Cuál ha sido la evolución temporal de los strikes?</h2>
     <div class="data" data-modelo="timeline">
       <p>Mostrar cantidad de strikes en <select name="transformacion">
         <option value="" selected="selected">números absolutos</option>
@@ -223,7 +223,7 @@
       <b>¿Qué vemos aquí?</b>
     </p>
     <p>
-      Poca cosa, la verdad, la grafica es muy irregular, no hay una
+      Poca cosa, la verdad. La grafica es muy irregular, no hay una
       tendencia clara ni a peor ni a mejor.
       Personalmente, leyendo las quejas, me esperaba que la gráfica
       fuera una linea claramente ascendente al menos en los dos
@@ -255,7 +255,7 @@
     </ul>
     <p>
       Lo que según <a href="https://www.meneame.net/legal#penalizaciones">las penalizaciones</a>
-      hace un computo global de <code>{{ban.dias}}</code> dias de ban y <code>-{{ban.karma}}</code> puntos de karma.
+      hace un computo global de <code>{{ban.dias}}</code> días de ban y <code>-{{ban.karma}}</code> puntos de karma.
     </p>
     <p><b>¿Qué vemos aquí?</b></p>
     <p>
@@ -266,16 +266,16 @@
       <li>realmente los usuarios cambian su comportamiento</li>
       <li>los usuarios no cambian pero la administración se resiste a escalar el conflicto</li>
       <li>los usuarios con strike terminan abandonando la plataforma</li>
-      <li>los usuarios con strike no cambian de comportamiento pero si de usuario, registrando una nueva cuenta</li>
+      <li>los usuarios con strike no cambian de comportamiento pero sí de usuario, registrando una nueva cuenta</li>
     </ol>
     <p>Las dos primeras hipótesis no se pueden verificar, pero las otras dos
       serán estudiadas más adelante</p>
     <h2>¿Provocan los strikes el abandono de los usuarios penalizados?</h2>
     <p>
       Es imposible validar completamente esta hipótesis porque incluso habiendo abandono
-      este puede ser por otra causa, pero si esto fuera cierto (que abandono por el strike)
+      este puede ser por otra causa, pero si esto fuera cierto (que se abandonó la plataforma por el strike)
       deberíamos ver en cada usuario una correlación
-      entre la fecha de su último strike y el momento en que dejo Menéame.
+      entre la fecha de su último strike y el momento en que dejó Menéame.
     </p>
     <div class="data" data-modelo="abandono">
       <p>
@@ -297,14 +297,14 @@
     <ol>
     	<li>
     	Un usuario que en poco tiempo se crea una cuenta, recibe un strike y abandona la cuenta
-    	parece más el perfil de un bot, troll o spammer, sin embargo nuestro objetivo es detectar
+    	parece más el perfil de un bot, troll o spammer. Sin embargo, nuestro objetivo es detectar
     	usuarios auténticos que tras recibir un strike se marchan desilusionados.
       Usa este selector para definir la permanencia mínima
     	que consideres necesaria.
     	</li>
     	<li>
-    	No voy a repetir aquí como se calcula la fecha de abandono y eliminación
-    	(ya se explico en el <a href="/meneame_en_datos/">punto
+    	No voy a repetir aquí cómo se calcula la fecha de abandono y eliminación
+    	(ya se explicó en el <a href="/meneame_en_datos/">punto
       2.B del anterior informe</a>) pero basta decir que al ser distintas
       deberías seleccionar la opción que te parezca más acertada.
     	</li>
@@ -328,13 +328,13 @@
     explica que la mayoría de los usuarios con strikes solo tengan uno.
     </p>
     </div>
-    <h2>¿De que época son los usuarios con strikes?</h2>
+    <h2>¿De qué época son los usuarios con strikes?</h2>
     <p>
       Si los usuarios con strikes crean nuevas cuentas con las que finalmente
       reciben otro strike llegará
       un momento en que las cuentas de 2017 (año en que se implementaron
       los strikes) o posteriores tendrán más strikes de las que les correspondería
-      en una distribución normal porque la mayoría de los usuarios conflictivos
+      en una distribución usual porque la mayoría de los usuarios conflictivos
       - al haberse hecho cuentas nuevas - tendrán como fecha de registro 2017 o posterior.
       Por eso la pregunta
       <em>¿los usuarios con strike crean nuevas cuentas y vuelven a tener
@@ -350,9 +350,9 @@
     <div class="data" data-modelo="poblacion">
       <canvas class="chart"></canvas>
     </div>
-    <p><b>¿Que vemos aquí?</b></p>
+    <p><b>¿Qué vemos aquí?</b></p>
     <ul>
-    <li>Se verifica que la distribiución es más o menos normal hasta 2017</li>
+    <li>Se verifica que la distribiución es más o menos la esperada hasta 2017</li>
     <li>
       Vemos que los peores años fueron de 2017 a 2019 pero que la tendencia
       se invierte en 2020 a pesar del meme <a href="https://www.meneame.net/search?q=en+meneame+desde+2020&w=comments&h=&o=&u=">
@@ -363,9 +363,9 @@
     </li>
     </ul>
     <p>
-      Obviamente esta grafica no es una demostración al 100% de la hipótesis
-      (puede haber otras explicaciones al efecto 2017-2019 que no este teniendo en cuenta)
-      pero por lo menos no se ve desmentida por los datos (como si pasaba con la
+      Obviamente, esta grafica no es una demostración al 100% de la hipótesis
+      (puede haber otras explicaciones al efecto 2017-2019 que no esté teniendo en cuenta)
+      pero por lo menos no se ve desmentida por los datos (como sí pasaba con la
       anterior hipótesis).
     </p>
     <p>
