@@ -73,7 +73,7 @@ ul {
 li {
 	margin: 1em 0em;
 }
-ul > li > ul > li {
+ul > li > ul > li, ol > li > ul > li {
 	margin: unset;
 }
 code.bubble {
