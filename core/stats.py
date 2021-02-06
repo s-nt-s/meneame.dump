@@ -185,7 +185,7 @@ class Stats:
             where """+cut_date
         strikes = self.db.one(i_sql, cursor=DictCursor)
         ratio = (self.cut_date - strikes['ini'].date())
-        ratio = ratio.days
+        ratio = ratio.days * 24
         ratio = ratio / strikes['total']
         ratio = round(ratio)
         strikes['ratio'] = ratio
@@ -226,6 +226,12 @@ class Stats:
         user_strike = self.db.to_list(sql)
         strikes['user_strike'] = user_strike
         return strikes
+
+    def sum_striked(self, min_s):
+        if min_s>0:
+            return sum(u for u, s in self.strikes["user_strike"] if s>=min_s)
+        min_s = -min_s
+        return sum(u for u, s in self.strikes["user_strike"] if s<=min_s)
 
     def get_strikes_data(self):
         rows = []

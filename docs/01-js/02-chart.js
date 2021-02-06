@@ -63,16 +63,15 @@ function setGraphChart(obj, dataset) {
       if (ch) {
         var hd = $elem.data("full_hidden") || {};
         ch.legend.legendItems.forEach(function(x, i){
-          return hd[x.text]=x.hidden;
+          var lb = x.text;
+          if (obj.parseLabel) lb = obj.parseLabel(lb);
+          return hd[lb]=x.hidden;
         })
         dataset.forEach(function(d, i){
-          if (hd[d.label]!=null) d.hidden=hd[d.label];
-          else if (obj.eqlabel) {
-            for (const [lb, h] of Object.entries(hd)) {
-              if (obj.eqlabel(d.label, lb)) d.hidden=h;
-            }
-          }
-          hd[d.label]=d.hidden;
+          var lb = d.label;
+          if (obj.parseLabel) lb = obj.parseLabel(lb);
+          if (hd[lb]!=null) d.hidden=hd[lb];
+          hd[lb]=d.hidden;
         })
         $elem.data("full_hidden", hd);
         ch.destroy();

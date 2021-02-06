@@ -17,8 +17,18 @@ t_strikes.forEach((s, i) => {
     strikes["total"][s.label]=s.value;
 });
 
-
 var modelos = {
+  "countstrikes": (function () {
+    var users={};
+    strikes["strikes"].forEach((s, i) => {
+      users[s["user"]] = (users[s["user"]] || 0) + 1;
+    });
+    var data={};
+    for (const [u, s] of Object.entries(users)) {
+      data[s] = (data[s] || 0) + 1;
+    }
+    return data;
+  })(),
   "abandono": function() {
     var pre=this.find("select[name=presencia]").val();
     var tdt=this.find("select[name=abandono]").val();
@@ -137,3 +147,4 @@ function parseObj(obj) {
 }
 modelos["timeline"]=parseObj(modelos["timeline"]);
 modelos["poblacion"]=parseObj(modelos["poblacion"]);
+modelos["countstrikes"]=parseObj(modelos["countstrikes"]);

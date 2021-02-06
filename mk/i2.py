@@ -27,16 +27,17 @@ ban={
     "karma":0,
     "dias":0
 }
+kd=(
+    (0, 0),
+    (2, 1),
+    (2, 2),
+    (2, 5),
+    (2, 20),
+    (0, 90)
+)
 for u, s in st.strikes["user_strike"]:
     for i in range(s):
-        k, d = (
-            (0, 0),
-            (2, 1),
-            (2, 2),
-            (2, 5),
-            (2, 20),
-            (0, 90)
-        )[i]
+        k, d = kd[min(len(kd)-1, i)]
         ban["karma"] = ban["karma"] + k
         ban["dias"] = ban["dias"] + d
 

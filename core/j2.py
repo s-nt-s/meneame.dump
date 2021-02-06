@@ -15,7 +15,11 @@ epoch = datetime.utcfromtimestamp(0)
 
 def my_convert(o):
     if isinstance(o, Decimal):
-        return float(o)
+        o = float(o)
+    if isinstance(o, float):
+        if o == int(o):
+            return int(o)
+        return o
     if isinstance(o, date):
         return o.strftime("new Date(%Y, %-m-1, %-d)")
     if isinstance(o, datetime):

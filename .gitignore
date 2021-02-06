@@ -1,3 +1,6 @@
+key
+tmp/
+strikes.sql
 *.db-journal
 *.db
 .Rhistory
@@ -10,6 +13,7 @@ borrame.py
 sql/debug/*.csv
 debug/*.sh
 debug/*.sql
+!sql/strikes/strikes.sql
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
