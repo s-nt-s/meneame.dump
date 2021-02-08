@@ -6,6 +6,7 @@ from functools import lru_cache
 from MySQLdb.cursors import DictCursor
 from dateutil.relativedelta import relativedelta
 from bunch import Bunch
+from math import floor
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
@@ -185,10 +186,13 @@ class Stats:
             where """+cut_date
         strikes = self.db.one(i_sql, cursor=DictCursor)
         ratio = (self.cut_date - strikes['ini'].date())
-        ratio = ratio.days * 24
-        ratio = ratio / strikes['total']
-        ratio = round(ratio)
-        strikes['ratio'] = ratio
+        ratio = ratio.days * 24 * 60
+        ratio = round(ratio / strikes['total'])
+        horas = floor(ratio/60)
+        strikes['ratio'] = {
+            "horas": horas,
+            "minutos": ratio-(horas*60)
+        }
         strikes['actividad'] = self.db.one('''
             select
                 sum(comments) comments,
