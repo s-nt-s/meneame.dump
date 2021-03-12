@@ -31,7 +31,7 @@ default_headers = {
 
 def buildSoup(root, source):
     soup = bs4.BeautifulSoup(source, "lxml")
-    for n in soup.findAll(["img", "form", "a", "iframe", "frame", "link", "script"]):
+    for n in soup.findAll(["img", "form", "a", "iframe", "frame", "link", "script", "source"]):
         attr = "href" if n.name in ("a", "link") else "src"
         if n.name == "form":
             attr = "action"
@@ -60,15 +60,7 @@ class Web:
         else:
             self.response = self.s.get(url, verify=self.verify)
         self.refer = self.response.url
-        self.soup = bs4.BeautifulSoup(self.response.content, "lxml")
-        for n in self.soup.findAll(["img", "form", "a", "iframe", "frame", "link", "script"]):
-            attr = "href" if n.name in ("a", "link") else "src"
-            if n.name == "form":
-                attr = "action"
-            val = n.attrs.get(attr)
-            if val and not (val.startswith("#") or val.startswith("javascript:")):
-                val = urljoin(url, val)
-                n.attrs[attr] = val
+        self.soup = buildSoup(url, self.response.content)
         return self.soup
 
     def prepare_submit(self, slc, silent_in_fail=False, **kargv):

@@ -215,6 +215,7 @@ def tm_search_user_data(user):
         img = soup.select_one("img.avatar")
         if img:
             src = img.attrs["src"]
+            usr.avatar = src
             src = src.rsplit("/")[-1].rsplit(".")[0]
             src = src.split("-")
             if len(src)==3 and src[0].isdigit():
@@ -704,3 +705,5 @@ class Api:
                         c = int(c.attrs["data-id"].split("-")[-1])
                         print(c, cls)
                     '''
+    def get_user(self, id):
+        return tm_search_user_data(id)
