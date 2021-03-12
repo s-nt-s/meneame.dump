@@ -78,3 +78,6 @@ th.isSortable.isSortedByMe.isReversed:after {
 img.icon {
   max-height: 1em;
 }
+td code {
+  white-space: nowrap;
+}
