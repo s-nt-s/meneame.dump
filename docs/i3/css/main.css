@@ -87,4 +87,5 @@ tbody tr td {
 tr > td:first-child {
   line-height: 0;
   padding: 0;
+  text-align: center;
 }
