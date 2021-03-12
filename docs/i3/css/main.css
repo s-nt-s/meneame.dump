@@ -81,6 +81,6 @@ img.icon {
 td code, th {
   white-space: nowrap;
 }
-tbody tr {
+tbody tr td {
   vertical-align: top !important;
 }
