@@ -84,3 +84,7 @@ td code, th {
 tbody tr td {
   vertical-align: top !important;
 }
+tr > td:first-child {
+  line-height: 0;
+  padding: 0;
+}
