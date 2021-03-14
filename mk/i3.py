@@ -434,7 +434,8 @@ for x, i in enumerate(data):
         count=0,
         first=sys.maxsize,
         last=-sys.maxsize,
-        words=0
+        words=0,
+        karma=0
     )
     for c in i.comments:
         if c["user"] == i.user["nick"]:
@@ -442,6 +443,7 @@ for x, i in enumerate(data):
             i.replies.words = i.replies.words + len(c["content"].strip().split())
             i.replies.first = min(i.replies.first, c["date"])
             i.replies.last = max(i.replies.last, c["date"])
+            i.replies.karma = i.replies.karma + c["karma"]
     i.questions = len([c for c in i.comments if c["date"]<=i.replies.last])
     i.questions = i.questions - i.replies.count
     set_tt(i)

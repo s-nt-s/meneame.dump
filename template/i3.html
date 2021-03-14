@@ -22,6 +22,7 @@
       <li><b>Contestadas</b>: Porcentaje de preguntas contestadas (pon el ratón encima para ver el numero exacto de respuestas)</li>
       <li><b>Palabras</b>: Suma total de palabras usadas en las respuestas</li>
       <li><b>Tiempo</b>: Tiempo transcurrido entre la primera y la última respuesta</li>
+      <li><b>Karma</b>: Suma total del Karma de las respuestas</li>
     </ul>
     <p>
       Puedes reordenar la tabla pulsando en las cabeceras.
@@ -35,6 +36,7 @@
           <th class="isSortable">Contestadas</th>
           <th class="isSortable">Palabras</th>
           <th class="isSortable">Tiempo</th>
+          <th class="isSortable">Karma</th>
         </tr>
       </thead>
       <tbody>
@@ -51,6 +53,7 @@
           <td class="num">{{prc(d.questions, d.replies.count)}}</td>
           <td class="num" data-sortkey="{{d.replies.words}}">{{d.replies.words | millar}}</td>
           <td class="num" data-sortkey="{{(d.replies.last - d.replies.first)}}">{{(d.replies.last - d.replies.first) | str_time}}</td>
+          <td class="num" data-sortkey="{{d.replies.karma}}">{{d.replies.karma | millar}}</td>
         </tr>
         {% endfor %}
       </tbody>
