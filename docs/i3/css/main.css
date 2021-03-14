@@ -41,10 +41,6 @@ code.poptag {
 	width: 2em;
 	text-align: right;
 }
-td img {
-  max-width: 80px;
-  max-height: 80px;
-}
 td.num {
   text-align: right;
 }
@@ -75,6 +71,10 @@ tr > td:first-child {
   text-align: center;
 }
 
+td.img img {
+  max-width: 80px;
+  max-height: 80px;
+}
 tr.r2369309 img {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
