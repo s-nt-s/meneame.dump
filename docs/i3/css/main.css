@@ -48,21 +48,6 @@ td img {
 td.num {
   text-align: right;
 }
-tr.r2369309 img {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-tr.r3415195 img {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
 th.isSortable {
     cursor: pointer;
 }
@@ -88,4 +73,79 @@ tr > td:first-child {
   line-height: 0;
   padding: 0;
   text-align: center;
+}
+
+tr.r2369309 img {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+tr.r3415195 img {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+tr.r2485200 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -19px 0px;
+}
+tr.r2341872 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -17px 0px;
+}
+tr.r2360393 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -17px 0px;
+}
+tr.r2360393 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -17px 0px;
+}
+tr.r2474863 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 0px -5px;
+}
+tr.r2513846 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -20px 0px;
+}
+tr.r2524058 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -19px 0px;
+}
+tr.r2528212 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+tr.r2562005 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+tr.r2581975 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: -17px 0px;
 }

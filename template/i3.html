@@ -39,7 +39,7 @@
       </thead>
       <tbody>
         {% for d in data %}
-        <tr class="r{{d.id}} avatar{{d.isAvatar}}">
+        <tr class="r{{d.id}}">
           <td>{%if d.thumb %}<img alt="" src="{{d.thumb}}"/>{%endif%}</td>
           <td>
             <a href="{{d.url}}">{{d.title}}</a> <small><code>{{d.replies.first | str_epoch}}</code></small>

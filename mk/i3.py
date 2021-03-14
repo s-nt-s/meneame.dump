@@ -428,10 +428,8 @@ for x, i in enumerate(data):
     i = Bunch(i)
     data[x]=i
 
-    i.isAvatar = False
     if i.user.get("avatar") is not None and i.id not in (2446394, 2528212):
         i.thumb = i.user["avatar"]
-        i.isAvatar = True
     i.replies = Bunch(
         count=0,
         first=sys.maxsize,
