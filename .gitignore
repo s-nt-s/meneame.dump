@@ -11,6 +11,7 @@ strikes.sql
 borrame.py
 *.7z
 *.xz
+mysqldump/*.sql
 sql/debug/*.csv
 debug/*.sh
 debug/*.sql
