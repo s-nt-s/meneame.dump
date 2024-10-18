@@ -37,7 +37,7 @@ Finalmente nos quedamos con:
 Primero obtenemos la fecha de corte
 (antes de ella todos los contenidos están consolidados, después puede que sufran cambios)
 consultando el campo `sent_date` de la última noticia (vía [meneame.net/api/list.php?status=queued&row=1](https://www.meneame.net/api/list.php?status=queued&rows=1)),
-restandole el mayor campo `*time*` de [la configuración de Menéame](https://github.com/Meneame/meneame.net/blob/master/www/config.php) (cuando se escribe esto dicho valor es `10 días`), y restandole
+restándose el mayor campo `*time*` de [la configuración de Menéame](https://github.com/Meneame/meneame.net/blob/master/www/config.php) (cuando se escribe esto dicho valor es `10 días`), y restándose
 otro día adicional por si acaso.
 
 De ahora en adelante, todos los datos recuperados solo se guardaran en la base
@@ -57,7 +57,7 @@ Haremos esto por cada id entre `1` y el de la última noticia.
 
 ### Comentarios
 
-Para las noticias consultaremos [meneame.net/api/list.php?id=1](https://www.meneame.net/api/list.php?id=1) siendo `1` el `id` de la noticia para la cual
+Para los comentarios consultaremos [meneame.net/api/list.php?id=1](https://www.meneame.net/api/list.php?id=1) siendo `1` el `id` de la noticia para la cual
 queremos recuperar los comentarios.
 
 Para completar la información con el `id` del usuario que hizo el comentario,
@@ -106,7 +106,7 @@ tendremos que hacer entre 14.600.000 y 44.600.000 llamadas.
 Ayudaría enormemente eliminar la restricción de 10 valores para el parámetro `fields`
 en el `endpoint` `meneame.net/backend/info.php`. Esta limitación no tiene
 sentido ya que no impide la consulta a la base de datos ni tampoco influye
-en cuantos campos se recuperan en dicha consulta ya que el campo `fields` solo se
+en cuantos campos se recuperan en dicha consulta pues el campo `fields` solo se
 usa después para copiar a un `json` solo los campos solicitados
 o devolviendo un objeto vació si solicitaste más de 10
 campos. En cualquier caso, para entonces el trabajo pesado ya se ha hecho.
