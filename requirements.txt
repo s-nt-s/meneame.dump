@@ -2,6 +2,6 @@ beautifulsoup4==4.8.2
 bunch==1.0.1
 python_dateutil==2.8.1
 PyYAML==5.4
-requests==2.20.0
+requests==2.31.0
 Unidecode==1.1.1
 urllib3==1.26.5
